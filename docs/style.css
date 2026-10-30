@@ -50,3 +50,4 @@ figure{background:transparent;border:0;border-top:1px solid #cdd8d6;border-botto
 .chart text{font-size:12px;fill:#435760}
 .chart .axis-label{font-size:12px}
 @media(max-width:800px){figure{margin:30px 0;padding:20px 0}.chart svg{width:620px;min-width:620px}.chart{border-bottom:1px solid #e2e8e6;padding-bottom:6px}.chart::after{position:sticky;left:0;width:max-content;margin-left:auto;background:#fbfaf7;padding:1px 3px}}
+@media(max-width:480px){.topbar{padding:0 12px;gap:6px}.brand{font-size:9px;letter-spacing:0}.repository{font-size:11px;margin-right:0}.language{gap:2px}.language button{padding:4px 6px}}
