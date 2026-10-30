@@ -4,7 +4,7 @@ A bilingual, reproducible investigation of how economic shocks, institutions, po
 
 The [primary-source reading audit](analysis/20_primary_reading.md) checks how this study uses work by Guriev, his co-authors and Movchan. It distinguishes identified results, descriptive comparisons and hypotheses. No cited author has reviewed or endorsed this project.
 
-**Read the research post:** [English](https://kezouke.github.io/political-attention-research/?lang=en) · [Русский](https://kezouke.github.io/political-attention-research/?lang=ru). Open `docs/index.html` directly in a browser to read it offline. Interactive charts use the committed `docs/data.js` bundle and need no server.
+**Read the research post:** [English](https://kezouke.github.io/political-attention-research/?lang=en) · [Русский](https://kezouke.github.io/political-attention-research/?lang=ru). Open `docs/index.html` directly in a browser to read it offline. The five article charts use the committed `docs/data.js` bundle and need no server. Detailed methods and earlier figures remain in the research files below.
 
 **Кратко по-русски:** исследование рассматривает, как экономические шоки, доверие к институтам, политические стратегии и информация взаимодействуют при изменении общественных приоритетов. В репозитории сохранены данные, модели, исторический обзор, проверки устойчивости и прежние анализы.
 
@@ -12,7 +12,7 @@ The [primary-source reading audit](analysis/20_primary_reading.md) checks how th
 
 | Location | Contents |
 | --- | --- |
-| `docs/` | Bilingual research post, responsive interactive figures and static data bundle. |
+| `docs/` | Bilingual research post, five responsive figures and static data bundle. |
 | `analysis/` | Reproducible analyses, source notes and page-data build. |
 | `data/processed/` | Reproducible country, election and media aggregates, plus model results. |
 | `data/raw/README.md` | Versions, sources, checksums and instructions for obtaining raw inputs. Raw inputs are deliberately excluded. |
