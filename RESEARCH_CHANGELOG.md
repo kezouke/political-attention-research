@@ -2,6 +2,10 @@
 
 ## Explanatory and six-country follow-up
 
+- **Publication and editorial revision:** checked that GitHub Pages serves the new title and data after its build/cache delay. Reworked the bilingual article around rival explanations and historical mechanisms, removed arrow shorthand, and redrew the main charts for narrow screens. The prior detail remains in the methods and appendix.
+- **New common-shock comparison:** all 16 countries with 2021 and 2022 observations reported more price mentions in 2022, but cross-country changes in inflation and price mentions correlated at −0.28 with an approximate interval spanning negative and positive values. This weakens a simple dose-response reading without isolating political supply or institutional buffering.
+- **New counterexamples:** Spain's immigration salience peaked in 2024 then declined while housing kept rising; national net external migration was slightly lower in 2024 than 2023. Brazil's corruption salience fell after its 2017 peak while health rose. These patterns motivate alternative explanations rather than proving any one of them.
+
 The publication check on 30 October 2026 found that GitHub Pages had completed its delayed build and was serving the new article. A subsequent editorial revision focuses the Spain CIS chart on 2023–2026, adds housing from the original CIS PDFs (6.4%, 15.4%, 30.4%, 37.5%), and states the post-2024 decline in immigration salience. The conclusion now gives a provisional explanation. A separate causal design specifies rival predictions, timing and falsification tests. Figures use the reading column without card frames and retain horizontal scrolling at narrow widths.
 
 - **New evidence:** harmonised World Bank and Eurobarometer indicators, Spanish real compensation and an ESS analysis of financial difficulty, trust and immigration attitudes. Country and year fixed-effect associations and sensitivity checks are descriptive; they do not establish mediation or causation. Spain's CIS series adds measured immigration salience with documented question and coding changes.

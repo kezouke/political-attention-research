@@ -50,6 +50,7 @@ python analysis/16_macro_conditions.py
 python analysis/17_insecurity_trust.py
 python analysis/18_structural_exposure.py
 python analysis/90_claim_audit.py
+python analysis/19_common_shock.py
 python analysis/05_build_site_data.py
 python -m unittest discover -s tests
 node tests/site.test.js

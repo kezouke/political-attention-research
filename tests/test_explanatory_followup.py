@@ -16,4 +16,12 @@ class ExplanatoryEvidence(unittest.TestCase):
  def test_trust_association_and_falsification_bounds(self):
   x=pd.read_csv(P/'data/processed/ess_insecurity_trust_models.csv');r=x[(x.outcome=='trstprl')&(x.covariates=='base')].iloc[0];self.assertEqual((r.n,r.countries),(82358,22));self.assertLess(r.ci_high,0)
   c=pd.read_csv(P/'data/processed/structural_exposure_wdi.csv');r=c[(c.iso=='BRA')&(c.year==2022)].iloc[0];self.assertLess(r.energy_import_pct_use,0)
+ def test_common_shock_does_not_create_a_positive_dose_response(self):
+  c=pd.read_csv(P/'data/processed/common_shock_2021_2022_countries.csv')
+  self.assertEqual(len(c),16)
+  self.assertTrue((c.price_change_pp>0).all())
+  r=c.price_change_pp.corr(c.inflation_change_pp)
+  self.assertLess(r,0)
+  s=pd.read_csv(P/'data/processed/common_shock_2021_2022_summary.csv').iloc[0]
+  self.assertAlmostEqual(r,s.pearson_r_delta_inflation_delta_price,places=6)
 if __name__=='__main__':unittest.main()

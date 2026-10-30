@@ -1,0 +1,2 @@
+start_year,end_year,countries,countries_price_rise,min_price_change_pp,median_price_change_pp,max_price_change_pp,pearson_r_delta_inflation_delta_price,pearson_fisher_low_iid,pearson_fisher_high_iid,pearson_p_iid,spearman_rho
+2021,2022,16,16,16.70951840971138,29.693849010712817,42.6922956215937,-0.2804549589956809,-0.6814316928087834,0.25001647890421264,0.29274274181038695,-0.29705882352941176

@@ -1,5 +1,21 @@
 # From crisis to trust and votes: a testable design
 
+## Priority and feasibility
+
+The first credible target is the **total local effect of Spain's construction collapse on subsequent turnout and party vote shares**. Municipal election returns, pre-2008 construction intensity, local unemployment and housing indicators can in principle be assembled without a new survey. This would not identify a trust pathway. A stronger claim, that job loss changed trust and trust then changed a person's vote, needs linked individual observations in the right order. The current ESS waves and CIS snapshots do not provide that sequence. A new panel or a suitable restricted panel would be needed, with pre-crisis party attachment, subsequent income or job loss, later institutional trust and an observed or validated post-crisis vote.
+
+The 2021–2022 price shock is the second target because the same broad Eurobarometer question covers Spain, Bulgaria and Serbia. The 16-country comparison in this repository found higher price salience everywhere but no positive cross-country dose-response to the change in annual inflation. That result says the simple national inflation gradient is insufficient. It does not select between household losses, wage adjustment, government cushioning, fieldwork dates or political messages. The feasible next step is a within-country design with household energy expenditure before the shock, actual retail tariffs and transfers during it, repeated priority questions and later votes.
+
+| Link to test | Outcome and data | Design that could identify more | Main failure condition |
+|---|---|---|---|
+| Exposure to loss | Employment or real disposable income by person or locality, measured after pre-shock construction or energy dependence | Compare more and less exposed units around one shock; verify pre-trends and a first-stage income loss | Exposure predicts no differential loss, or outcomes diverge before the shock |
+| Loss to trust | Repeated 0–10 trust in parliament or government, with the same respondent's earlier trust and party identification | Individual panel or linked locality cohorts with trust measured after loss and before election | Trust falls before loss, or the association disappears with earlier trust and stable traits |
+| Trust to vote | Validated party choice, switching and turnout at a later election | Panel transitions with baseline vote; estimate the total shock effect first, then test mediation with explicit assumptions | Vote shifts despite unchanged trust, or trust shifts without later switching |
+| Political supply | Dated advertisements, news, reach and audience media use before survey fieldwork | Compare otherwise similar audiences facing plausibly external variation in message exposure; control prior concern | Messages follow concern or differential reach does not predict later change |
+| Policy buffering | Actual household transfers, tax and energy bills, including who funds them | Test whether measured compensation changes the exposure effect, not merely whether a country announced support | Compensation reaches exposed households but does not modify losses or concern within precision |
+
+Neither a municipality-level vote effect nor a trust coefficient is by itself proof that trust mediates voting. Even a panel can leave unmeasured anger, ideology or family changes affecting trust and vote together. The analysis should publish the total effect, each intermediate association, plausible alternative pathways and sensitivity to unmeasured confounding separately. An instrument for job loss would not automatically identify the trust-to-vote link because job loss can change votes through income, anger or migration without changing trust.
+
 ## What the current evidence establishes
 
 The ESS analysis measures financial difficulty and trust in the same interview. It finds an adjusted difference of −0.68 points on a 0–10 parliamentary-trust scale across 22 countries. It does not establish which came first or whether either changed a vote. The 14-country unemployment regression compares country-years, not people. Neither is a mediation test. The Spanish CIS series measures problem rankings, not party choice.
