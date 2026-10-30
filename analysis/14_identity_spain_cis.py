@@ -19,7 +19,7 @@ SOURCES={
 2024:('https://www.cis.es/documents/d/cis/es3474mar_a',4027,'2024-09-02','2024-09-06','telephone','de género'),
 2025:('https://www.cis.es/documents/20117/13443627/es3524mar-pdf.pdf/677f20fd-cc16-7d78-358b-91bc2a037998?version=1.1&t=1759843440220',4122,'2025-09-01','2025-09-06','telephone','de género'),
 2026:('https://www.cis.es/documents/20117/14250083/es3577mar.pdf/ec0cb565-d864-472d-0461-add459e7b19e?version=1.0&t=1790164379049',4042,'2026-09-01','2026-09-04','telephone','de género')}
-LABELS={'immigration':'La inmigración','unemployment':'El paro','racism':'El racismo','gender_violence':None,'climate_change':'El cambio climático','environment':'Los problemas medioambientales'}
+LABELS={'immigration':'La inmigración','unemployment':'El paro','housing':'La vivienda','racism':'El racismo','gender_violence':None,'climate_change':'El cambio climático','environment':'Los problemas medioambientales'}
 rows=[]
 for year,(url,n,start,end,mode,gender) in SOURCES.items():
  file=ROOT/'data/raw'/f'cis_september_{year}.pdf'
@@ -56,5 +56,6 @@ assert out.query("year==2023 and issue=='immigration'").pct_top3.iloc[0]==5.7
 assert out.query("year==2024 and issue=='immigration'").pct_top3.iloc[0]==30.4
 assert out.query("year==2019 and issue=='gender_violence'").pct_top3.iloc[0]==6.6
 assert out.query("year==2026 and issue=='gender_violence'").pct_top3.iloc[0]==0.9
+assert out.query("year==2026 and issue=='housing'").pct_top3.iloc[0]==37.5
 out.to_csv(ROOT/'data/processed/identity_spain_cis_selected.csv',index=False)
 print(out.pivot(index='year',columns='issue',values='pct_top3').to_string())

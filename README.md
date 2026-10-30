@@ -19,6 +19,7 @@ A bilingual, reproducible investigation of how economic shocks, institutions, po
 | `RESEARCH.md` | Research questions, evidence map, findings and open limitations. |
 | `research_audit.md` | Claim-to-evidence audit, independent computational checks and sensitivity bounds. |
 | `RESEARCH_CHANGELOG.md` | New findings, changed conclusions and unresolved gaps. |
+| `CAUSAL_DESIGN.md` | Rival mechanisms, required data and tests that could falsify the proposed causal chain. |
 | `METHODS.md` | Definitions, sample, modelling choices, scope and data limitations. |
 
 The baseline analysis is retained as a snapshot, not silently replaced. Some original inputs require registration or separate downloads and cannot be redistributed here. See [the baseline guide](analysis/baseline/README.md). Do not interpret a historical snapshot limitation as the current status of the updated ESS analysis.

@@ -2,6 +2,8 @@
 
 ## Explanatory and six-country follow-up
 
+The publication check on 30 October 2026 found that GitHub Pages had completed its delayed build and was serving the new article. A subsequent editorial revision focuses the Spain CIS chart on 2023–2026, adds housing from the original CIS PDFs (6.4%, 15.4%, 30.4%, 37.5%), and states the post-2024 decline in immigration salience. The conclusion now gives a provisional explanation. A separate causal design specifies rival predictions, timing and falsification tests. Figures use the reading column without card frames and retain horizontal scrolling at narrow widths.
+
 - **New evidence:** harmonised World Bank and Eurobarometer indicators, Spanish real compensation and an ESS analysis of financial difficulty, trust and immigration attitudes. Country and year fixed-effect associations and sensitivity checks are descriptive; they do not establish mediation or causation. Spain's CIS series adds measured immigration salience with documented question and coding changes.
 - **New country evidence:** Thailand's comparable 2009–2010 political-conflict responses and separately reported 2025 snapshot, 2023 party proposals and 2026 vote and seat totals. These sources do not form a continuous comparable campaign or opinion series.
 - **Revised interpretation:** the article develops exposure, trust, political supply and policy feedback as separately testable links. Spain, Brazil and Thailand illustrate different institutional paths; climate policy is analysed through distribution and perceived fairness, with a competing study on rebates.
