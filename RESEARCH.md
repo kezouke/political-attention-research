@@ -23,9 +23,9 @@ The project investigates a claim that climate and identity concerns once dominat
 
 ## Four follow-up investigations
 
-- **Two concerns in the same person:** weighted ESS cross-tabulations of `hincfel` and `wrclmch`, by country and wave; adjusted linear probability model and mode sensitivity.
-- **The 80% claim:** two non-overlapping sets of Manifesto Project categories with a stated denominator, actual election dates and vote-coverage disclosure.
-- **News and personalised feeds:** MeCCO newspaper counts and NYT Index topic sample, together with a published exposure study. The data do not reveal an individual's feed; the project does not quantify that person's selection bias.
+- **Two concerns in the same person:** weighted ESS cross-tabulations of `hincfel` and `wrclmch`, by country and wave, now including all four cells and their unweighted counts; adjusted linear probability model and mode sensitivity.
+- **The 80% claim:** two non-overlapping sets of Manifesto Project categories with a stated denominator, actual election dates and vote-coverage disclosure; a separate dictionary pilot on two Spanish 2023 programmes and a 48-span non-independent audit.
+- **News and personalised feeds:** MeCCO newspaper counts and NYT Index topic sample, with a matched-topic comparison against annual Gallup MIP response shares for 2010–2016 and a published exposure study. The data do not reveal an individual's feed; the project does not quantify that person's selection bias.
 - **Change within the economic agenda:** 14-country SPES timelines of the share naming unemployment and prices. Country comparisons and missing years are visible.
 
 ## Findings that change the interpretation

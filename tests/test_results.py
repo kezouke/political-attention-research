@@ -12,6 +12,31 @@ class ResearchResults(unittest.TestCase):
         self.assertTrue(x.weighted_pct.between(0,100).all())
         self.assertEqual(int(x[(x.wave==10)&(x.difficulty==1)].n.sum()),6978)
         self.assertEqual(int(x[(x.wave==10)&(x.difficulty==0)].n.sum()),35926)
+    def test_four_cells_are_consistent(self):
+        x=pd.read_csv(P/'data/processed/ess_four_groups.csv')
+        self.assertEqual(len(x),22*2*4)
+        for _,g in x.groupby(['country','wave']):
+            self.assertEqual(len(g),4)
+            self.assertEqual(int(g.n.sum()),int(g.total_n.iloc[0]))
+            self.assertAlmostEqual(g.weighted_pct.sum(),100,places=6)
+        x=x.set_index(['country','wave','difficulty','worried'])
+        y=pd.read_csv(P/'data/processed/ess_hardship_overlap.csv')
+        for _,r in y.iterrows():
+            self.assertAlmostEqual(x.loc[(r.cntry,r.wave,1,1),'weighted_pct'],r.both_pct,places=7)
+    def test_text_audit_is_stratified_and_not_claimed_as_accuracy(self):
+        a=pd.read_csv(P/'data/processed/spain_text_audit.csv')
+        self.assertEqual(len(a),48)
+        self.assertEqual(len(a.groupby(['party','economic_institutional'])),4)
+        self.assertTrue((a.groupby(['party','economic_institutional']).size()==12).all())
+        self.assertEqual(int(((a.economic_institutional==0)&(a.reference==1)).sum()),9)
+        self.assertEqual(int(((a.economic_institutional==1)&(a.reference==1)).sum()),20)
+    def test_media_comparison_units(self):
+        d=pd.read_csv(P/'data/processed/us_media_public_agenda.csv')
+        self.assertEqual(len(d),56)
+        r=d[(d.year==2016)&(d.topic=='macroeconomy')].iloc[0]
+        self.assertEqual(int(r.news_total_n),1070)
+        self.assertEqual(int(r.news_n),3)
+        self.assertAlmostEqual(r.poll_normalized_pct,26.2686,places=3)
     def test_model_uncertainty_is_preserved(self):
         x=pd.read_csv(P/'data/processed/ess_hardship_model.csv'); r=x[(x['sample']=='all_matched')&(x['term']=='difficulty_round10')].iloc[0]
         self.assertAlmostEqual(r.coef_pp,1.3524,places=3)

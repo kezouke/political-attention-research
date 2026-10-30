@@ -37,3 +37,11 @@ e3c1290181b76015eda1cf5f2f6295a7da56fc766ee10d31ccf925ddff61e7b5  mecco_middle_e
 ```
 
 Manifesto Project's [terms of use](https://manifesto-project.wzb.eu/information/documents/terms_of_use) prohibit redistribution of provided data without written authorisation. This repository therefore excludes the original dataset and row-level document outputs. It publishes our election-level aggregates, methods and code. Obtain and use the source under the provider's terms.
+
+## Inputs for the 2026 follow-up
+
+- `spain_psoe_2023.pdf`: [PSOE 2023 national election programme](https://www.psoe.es/media-content/2023/07/PROGRAMA_ELECTORAL-GENERALES-2023.pdf), SHA-256 `367e49aef27593dc7052dd42ce79bbe3c36ce74316f730d969805557e33c7fe8`.
+- `spain_pp_2023.pdf`: [PP 2023 national election programme](https://www.pp.es/storage/2023/07/programa_electoral_pp_23j_feijoo_2023.pdf), SHA-256 `c93baafc88bdcb33adcd7e8be9dc309b09056362183ad7b7767f3d5134313108`.
+- `cap_gallup_mip.csv`: [Gallup MIP annual data from Policy Agendas](https://minio.la.utexas.edu/compagendas/datasetfiles/US-Public-Gallups_Most_Important_Problem-21.3.csv), SHA-256 `38885460d5338271c4586a39b6f09a3134c02568dcce6f2198e9a20721fef61b`. See [source page](https://www.comparativeagendas.net/project/us/datasets) for citation and the codebook.
+
+The PSOE server denied automated retrieval during the follow-up; obtain the PDF manually if needed and verify the checksum. The Spanish PDF texts and locally generated audit passages are not included in the public repository. The audit-label file contains identifiers, hashes and decisions only.

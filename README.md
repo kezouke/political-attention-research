@@ -33,17 +33,21 @@ python analysis/01_households_climate.py
 python analysis/02_manifesto_shares.py
 python analysis/03_media_and_priorities.py
 python analysis/04_media_climate.py
+python analysis/06_spain_text_pilot.py
+python analysis/07_us_media_public.py
 python analysis/05_build_site_data.py
 python -m unittest discover -s tests
 node tests/site.test.js
 ```
 
-Scripts 01–04 are independent once inputs are in place; script 05 assembles the outputs into the article bundle. `analysis/baseline/outputs/` is a versioned snapshot used for some earlier figures and historical model results in the article. If upstream releases change, source checksums help distinguish an updated dataset from a calculation change.
+Scripts 01–04 and 06–07 are independent once inputs are in place; script 05 assembles the outputs into the article bundle. `analysis/baseline/outputs/` is a versioned snapshot used for some earlier figures and historical model results in the article. If upstream releases change, source checksums help distinguish an updated dataset from a calculation change.
 
 ## Important limits
 
 - The 22-country ESS comparison uses two independent cross-sectional waves. Six countries changed to self-completion; standard errors clustered by country do not reproduce the complete survey design.
 - The manifesto percentages cover only coded documents with electoral weights. The latest election varies by country, and Thailand is absent in the 2023a source. The two category definitions are explicit proxies, not the author's undefined “80%”.
+- The Spanish programme dictionary is an exploratory pilot, not a validated estimate of programme topics. Its 48-item audit was conducted by the assistant with predicted labels visible, not by an independent human.
+- US Gallup issue-mention shares and NYT Index-entry shares use different denominators; neither describes an individual social-media feed.
 - MeCCO records article counts in selected newspapers, not all news output, individual feeds or audience exposure. The NYT Index sample ends in 2016.
 - Environment, climate and energy security are merged in one SPES category, so that category must not be interpreted as pure climate concern.
 - This research does not identify the causal effect of financial difficulty, media exposure or elite behaviour. It was not preregistered or externally peer reviewed.

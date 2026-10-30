@@ -14,6 +14,7 @@ for filename,wave,mode in [('ess8e02_3.dta',8,'interview'),('ess10e03_3.dta',10,
     x=pd.read_stata(P/'data/raw'/filename,columns=COLS,convert_categoricals=False)
     x['wave']=wave; x['mode']=mode; frames.append(x)
 d=pd.concat(frames,ignore_index=True)
+d['pspwght']=d['pspwght'].astype('float64')
 old=set(d.loc[d.wave==8,'cntry']); new=set(d.loc[d.wave==10,'cntry']);matched=old&new
 d=d[d.cntry.isin(matched)&d.wrclmch.between(1,5)&d.hincfel.between(1,4)&d.pspwght.gt(0)].copy()
 d['worried']=(d.wrclmch>=4).astype(int);d['difficulty']=(d.hincfel>=3).astype(int);d['round10']=(d.wave==10).astype(int)
@@ -21,6 +22,19 @@ rows=[]
 for (c,w,k),g in d.groupby(['cntry','wave','difficulty']):
     rows.append({'country':c,'wave':w,'difficulty':k,'n':len(g),'weighted_pct':100*np.average(g.worried,weights=g.pspwght),'weight_sum':g.pspwght.sum()})
 r=pd.DataFrame(rows);r.to_csv(P/'data/processed/ess_hardship_country.csv',index=False)
+# Full 2x2 cross-tab: percentages have the country-wave valid sample as denominator.
+# Reindex the four cells to retain zero-count cells and include the survey mode.
+cells=[]
+for (country,wave), g in d.groupby(['cntry','wave']):
+    total_weight=g.pspwght.sum()
+    for difficulty in (0,1):
+        for worried in (0,1):
+            cell=g[(g.difficulty==difficulty)&(g.worried==worried)]
+            cells.append({'country':country,'wave':wave,'mode':g['mode'].iloc[0],
+                'difficulty':difficulty,'worried':worried,'n':len(cell),
+                'total_n':len(g),'weighted_pct':100*cell.pspwght.sum()/total_weight})
+pd.DataFrame(cells).to_csv(P/'data/processed/ess_four_groups.csv',index=False)
+
 z=d.groupby(['cntry','wave']).apply(lambda g:pd.Series({'n':len(g),'difficult_pct':100*np.average(g.difficulty,weights=g.pspwght),'both_pct':100*np.average(g.difficulty*g.worried,weights=g.pspwght)}),include_groups=False).reset_index()
 z.to_csv(P/'data/processed/ess_hardship_overlap.csv',index=False)
 t=r.groupby(['wave','difficulty']).agg(countries=('country','nunique'),n=('n','sum'),mean_pct=('weighted_pct','mean')).reset_index();t.to_csv(P/'data/processed/ess_hardship_summary.csv',index=False)
