@@ -2,7 +2,7 @@
 
 A bilingual, reproducible research project on public priorities, financial difficulty and climate concern, party manifestos, media visibility, and policy outcomes. The project examines a claim that climate and identity displaced economic concerns before economic issues returned to politics. It separates what the available evidence can establish from questions the data cannot answer.
 
-**Read the research post:** [English](docs/index.html?lang=en) · [Русский](docs/index.html?lang=ru). Open `docs/index.html` directly in a browser to read it offline. Interactive charts use the committed `docs/data.js` bundle and need no server.
+**Read the research post:** [English](https://kezouke.github.io/political-attention-research/?lang=en) · [Русский](https://kezouke.github.io/political-attention-research/?lang=ru). Open `docs/index.html` directly in a browser to read it offline. Interactive charts use the committed `docs/data.js` bundle and need no server.
 
 **Кратко по-русски:** в репозитории собраны предыдущий этап исследования и новые проверки: пересечение финансовых трудностей и климатической тревоги, две операционализации тезиса о «80%», сравнение экономических приоритетов и анализ ограничений медийных данных. В статье указаны периоды, выборки, источники и ограничения.
 
