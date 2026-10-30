@@ -1,0 +1,211 @@
+wave,issue,code,source_label
+2010,economy_strict,1,Low Salaries
+2010,economy_strict,6,Inflation/ price rises / Economic Crisis
+2010,economy_strict,7,Unemployment
+2010,economy_strict,25,Economy/economical problems/financial
+2010,economy_broad,1,Low Salaries
+2010,economy_broad,6,Inflation/ price rises / Economic Crisis
+2010,economy_broad,7,Unemployment
+2010,economy_broad,16,Poverty / Social Inequality
+2010,economy_broad,23,"Distribution of income, social injustice"
+2010,economy_broad,25,Economy/economical problems/financial
+2010,economy_ambiguous,4,Instability in employment / Immigration
+2010,environment_strict,12,Environment problems
+2010,environment_strict,27,Global heating
+2010,environment_expanded,12,Environment problems
+2010,environment_expanded,27,Global heating
+2010,race_discrimination,18,Racial Discrimination
+2010,corruption,13,Corruption
+2010,unemployment,7,Unemployment
+2010,health,11,Health Problems
+2011,economy_strict,1,Low Salaries
+2011,economy_strict,6,Inflation/ price rises / Economic Crisis
+2011,economy_strict,7,Unemployment
+2011,economy_strict,25,Economy/economical problems/financial
+2011,economy_broad,1,Low Salaries
+2011,economy_broad,6,Inflation/ price rises / Economic Crisis
+2011,economy_broad,7,Unemployment
+2011,economy_broad,16,Poverty / Social Inequality
+2011,economy_broad,24,"Distribution of income, social injustice"
+2011,economy_broad,25,Economy/economical problems/financial
+2011,economy_ambiguous,4,Instability in employment / Immigration
+2011,environment_strict,12,Environment problems
+2011,environment_strict,27,Global heating
+2011,environment_expanded,12,Environment problems
+2011,environment_expanded,27,Global heating
+2011,race_discrimination,18,Racial Discrimination
+2011,corruption,13,Corruption
+2011,unemployment,7,Unemployment
+2011,health,11,Health Problems
+2013,economy_strict,1,Low Salaries
+2013,economy_strict,4,Instability in employment
+2013,economy_strict,6,Inflation/ price rises
+2013,economy_strict,7,Unemployment
+2013,economy_strict,25,Economy/economical problems/financial
+2013,economy_broad,1,Low Salaries
+2013,economy_broad,4,Instability in employment
+2013,economy_broad,6,Inflation/ price rises
+2013,economy_broad,7,Unemployment
+2013,economy_broad,16,Poverty
+2013,economy_broad,24,"Distribution of income, social injustice"
+2013,economy_broad,25,Economy/economical problems/financial
+2013,environment_strict,12,Environment problems
+2013,environment_strict,27,Global heating
+2013,environment_expanded,12,Environment problems
+2013,environment_expanded,27,Global heating
+2013,race_discrimination,18,Racial Discrimination
+2013,corruption,13,Corruption
+2013,unemployment,7,Unemployment
+2013,health,11,Health Problems
+2015,economy_strict,1,Low Salaries
+2015,economy_strict,4,Instability in employment
+2015,economy_strict,6,Inflation/ price rises
+2015,economy_strict,7,Unemployment
+2015,economy_strict,25,Economy/economical problems/financial
+2015,economy_broad,1,Low Salaries
+2015,economy_broad,4,Instability in employment
+2015,economy_broad,6,Inflation/ price rises
+2015,economy_broad,7,Unemployment
+2015,economy_broad,16,Poverty
+2015,economy_broad,24,"Distribution of income, social injustice"
+2015,economy_broad,25,Economy/economical problems/financial
+2015,environment_strict,12,Environment problems
+2015,environment_strict,27,Global heating
+2015,environment_expanded,12,Environment problems
+2015,environment_expanded,27,Global heating
+2015,race_discrimination,18,Racial Discrimination
+2015,corruption,13,Corruption
+2015,unemployment,7,Unemployment
+2015,health,11,Health Problems
+2016,economy_strict,1,Low Salaries
+2016,economy_strict,4,Instability in employment
+2016,economy_strict,6,Inflation/ price rises
+2016,economy_strict,7,Unemployment
+2016,economy_strict,25,Economy/economical problems/financial
+2016,economy_broad,1,Low Salaries
+2016,economy_broad,4,Instability in employment
+2016,economy_broad,6,Inflation/ price rises
+2016,economy_broad,7,Unemployment
+2016,economy_broad,16,Poverty
+2016,economy_broad,24,"Distribution of income, social injustice"
+2016,economy_broad,25,Economy/economical problems/financial
+2016,environment_strict,12,Environment problems
+2016,environment_strict,27,Global heating
+2016,environment_expanded,12,Environment problems
+2016,environment_expanded,27,Global heating
+2016,race_discrimination,18,Racial Discrimination
+2016,corruption,13,Corruption
+2016,unemployment,7,Unemployment
+2016,health,11,Health Problems
+2017,economy_strict,1,Low Salaries
+2017,economy_strict,4,Instability in employment
+2017,economy_strict,6,Inflation/ price rises
+2017,economy_strict,7,Unemployment
+2017,economy_strict,25,Economy/economical problems/financial
+2017,economy_broad,1,Low Salaries
+2017,economy_broad,4,Instability in employment
+2017,economy_broad,6,Inflation/ price rises
+2017,economy_broad,7,Unemployment
+2017,economy_broad,16,Poverty
+2017,economy_broad,24,"Distribution of income, social injustice"
+2017,economy_broad,25,Economy/economical problems/financial
+2017,environment_strict,12,Environment problems
+2017,environment_strict,27,Global heating
+2017,environment_expanded,12,Environment problems
+2017,environment_expanded,27,Global heating
+2017,race_discrimination,18,Racial Discrimination
+2017,corruption,13,Corruption
+2017,unemployment,7,Unemployment
+2017,health,11,Health Problems
+2018,economy_strict,1,Low wages
+2018,economy_strict,2,Instability in employment
+2018,economy_strict,5,Unemployment / unemployment
+2018,economy_strict,6,Inflation / price increase
+2018,economy_strict,9,The economy / economic / financial problems
+2018,economy_strict,42,All is very expensive
+2018,economy_broad,1,Low wages
+2018,economy_broad,2,Instability in employment
+2018,economy_broad,3,Poverty
+2018,economy_broad,4,"Bad income distribution, social injustice"
+2018,economy_broad,5,Unemployment / unemployment
+2018,economy_broad,6,Inflation / price increase
+2018,economy_broad,9,The economy / economic / financial problems
+2018,economy_broad,42,All is very expensive
+2018,environment_strict,14,Environmental problems
+2018,environment_strict,15,Global warming
+2018,environment_expanded,14,Environmental problems
+2018,environment_expanded,15,Global warming
+2018,environment_expanded,16,Pollution
+2018,race_discrimination,31,Racial discrimination
+2018,corruption,34,Corruption
+2018,unemployment,5,Unemployment / unemployment
+2018,health,13,Health problems
+2020,economy_strict,1,Low salaries
+2020,economy_strict,2,Employment inestability
+2020,economy_strict,5,Unemployment
+2020,economy_strict,6,Inflation/ raise of prices
+2020,economy_strict,9,Economy/ Economic problems/Financial problems
+2020,economy_strict,42,All expensive
+2020,economy_broad,1,Low salaries
+2020,economy_broad,2,Employment inestability
+2020,economy_broad,3,Poverty
+2020,economy_broad,4,Income distribution
+2020,economy_broad,5,Unemployment
+2020,economy_broad,6,Inflation/ raise of prices
+2020,economy_broad,9,Economy/ Economic problems/Financial problems
+2020,economy_broad,42,All expensive
+2020,environment_strict,14,environmental issues
+2020,environment_strict,15,Global warming
+2020,environment_expanded,14,environmental issues
+2020,environment_expanded,15,Global warming
+2020,environment_expanded,16,Contamination
+2020,race_discrimination,31,Discrimination by race
+2020,corruption,34,Corruption
+2020,unemployment,5,Unemployment
+2020,health,13,Health issues
+2023,economy_strict,1,Low salaries
+2023,economy_strict,2,Employment instability
+2023,economy_strict,5,Economy/ Economic problems/financial problems
+2023,economy_strict,8,Everything is very expensive
+2023,economy_strict,9,Unemployment
+2023,economy_strict,10,Inflation/rise in prices
+2023,economy_broad,1,Low salaries
+2023,economy_broad,2,Employment instability
+2023,economy_broad,3,Poverty
+2023,economy_broad,4,"Income inequality, social injustice"
+2023,economy_broad,5,Economy/ Economic problems/financial problems
+2023,economy_broad,8,Everything is very expensive
+2023,economy_broad,9,Unemployment
+2023,economy_broad,10,Inflation/rise in prices
+2023,environment_strict,17,Environmental problems
+2023,environment_strict,18,Global warming
+2023,environment_expanded,17,Environmental problems
+2023,environment_expanded,18,Global warming
+2023,environment_expanded,19,Pollution
+2023,race_discrimination,32,Racial discrimination
+2023,corruption,35,Corruption
+2023,unemployment,9,Unemployment
+2023,health,16,Health problems
+2024,economy_strict,1,Low salaries
+2024,economy_strict,2,Employment instability
+2024,economy_strict,5,Economy/ Economic problems/financial problems
+2024,economy_strict,8,Everything is very expensive
+2024,economy_strict,9,Unemployment
+2024,economy_strict,10,Inflation/rise in prices
+2024,economy_broad,1,Low salaries
+2024,economy_broad,2,Employment instability
+2024,economy_broad,3,Poverty
+2024,economy_broad,4,"Income inequality, social injustice"
+2024,economy_broad,5,Economy/ Economic problems/financial problems
+2024,economy_broad,8,Everything is very expensive
+2024,economy_broad,9,Unemployment
+2024,economy_broad,10,Inflation/rise in prices
+2024,environment_strict,17,Environmental problems
+2024,environment_strict,18,Global warming
+2024,environment_expanded,17,Environmental problems
+2024,environment_expanded,18,Global warming
+2024,environment_expanded,19,Pollution
+2024,race_discrimination,32,Racial discrimination
+2024,corruption,35,Corruption
+2024,unemployment,9,Unemployment
+2024,health,16,Health problems

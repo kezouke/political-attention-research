@@ -45,3 +45,15 @@ Manifesto Project's [terms of use](https://manifesto-project.wzb.eu/information/
 - `cap_gallup_mip.csv`: [Gallup MIP annual data from Policy Agendas](https://minio.la.utexas.edu/compagendas/datasetfiles/US-Public-Gallups_Most_Important_Problem-21.3.csv), SHA-256 `38885460d5338271c4586a39b6f09a3134c02568dcce6f2198e9a20721fef61b`. See [source page](https://www.comparativeagendas.net/project/us/datasets) for citation and the codebook.
 
 The PSOE server denied automated retrieval during the follow-up; obtain the PDF manually if needed and verify the checksum. The Spanish PDF texts and locally generated audit passages are not included in the public repository. The audit-label file contains identifiers, hashes and decisions only.
+
+## Brazil longitudinal most-important-problem surveys
+
+Download the official Stata-format archives for 2010, 2011, 2013, 2015, 2016, 2017, 2018, 2020, 2023 and 2024 from each wave's source page `https://www.latinobarometro.org/latinobarometro-YYYY`. Save each archive as `lat_YYYY.zip`. The provider permits non-commercial research but forbids redistribution of raw datasets; keep the archives out of Git. The exact analyzed archive hashes and member names are recorded in `data/processed/brazil_mip_provenance.csv`. Then run `python analysis/08_brazil_and_six_country_opinion.py`. See `analysis/08_opinion_notes.md` for question wording, code comparability, fieldwork, methods and limits.
+
+## Spanish Comparative Agendas source files
+
+- `spain_elmundo.csv`: [El Mundo front-page dataset](https://minio.la.utexas.edu/compagendas/datasetfiles/Media_El_Mundo_Web_CAP_csv.csv), SHA-256 `0f2cb21feecffb13e11e24d375e69ccf0581e7e27a035c696bb497dd6a342c2e`.
+- `spain_elpais.csv`: [El País front-page dataset](https://minio.la.utexas.edu/compagendas/datasetfiles/Media_El_Pas_Web_CAP_csv.csv), SHA-256 `f5d211c5497695168808f388adb95d824dd9ef7529f25f681afe24a34b473737`.
+- `cap_spain_manifestos.csv`: [Spanish party manifesto coded quasi-sentences](https://minio.la.utexas.edu/compagendas/datasetfiles/Party_Manifestos_CAP_Web_csv.csv), SHA-256 `25404b088e8b49794e6a41d667d4295cffc46a4bb652c40a8c9899f4704875e7`.
+
+Source citation: Chaqués Bonafont, L., Palau, A. and Baumgartner, F. R. (2015), *Agenda Dynamics in Spain*. The source [dataset list and codebooks](https://www.comparativeagendas.net/project/spain/datasets) describe provenance and coding. Source text and headlines are excluded from this repository; the checked-in outcomes are aggregates and hashed audit identifiers.

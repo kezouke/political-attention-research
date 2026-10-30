@@ -1,0 +1,24 @@
+# Research follow-up: what changed
+
+This follow-up addresses the version at commit `39b5d3f`. It is an exploratory analysis and separate AI-assisted computational review, not independent human peer review or preregistration. [The baseline claim-to-evidence audit](research_audit.md) records the original claims and their evidence.
+
+## Newly established for the stated measures
+
+- Brazil: ten Latinobarómetro microdata waves provide a top-one, unprompted national-problem series for 2010–2024. Corruption rose from 2.9% in 2010 to 31.2% in 2017, then fell to 4.4% in 2024; the result is non-monotonic. Narrow economic mentions were 17.2% and 17.1% at the endpoints; denominator and category sensitivity are included. Quota sampling limits the interpretation of IID intervals.
+- Spain and Bulgaria: unemployment mentions fell and price mentions rose between 2010 and 2024 in the SPES harmonised Eurobarometer series. Serbia shows the same endpoint directions from 2012 to 2024. These are top-two issue mentions; the environment option includes energy security.
+- Spain: in 2010 CAP front-page records, economy/labour/commerce exceeded broad civil rights and broad environment categories in both El País and El Mundo. This is a result for two newspapers and one early year, not an inference about 2026 media or the narrower topic of gender identity. Monthly and day resampling estimates quantify a limited form of temporal uncertainty.
+- ESS: in Spain and Israel, the direction of the 2016–2022 climate-worry difference remains positive under two extreme assignments of the specified routed missing respondents. The bounds leave other missingness, mode differences and sampling uncertainty unresolved.
+- Spanish dictionary benchmark: against two externally coded older CAP documents, the economy/institutions lexicon captures 28.0% and 24.4% of the broader reference categories. Different taxonomies and units mean disagreement is not automatically model error. These results do not validate the 2023 pilot.
+
+## Revised conclusions
+
+- The 2023 Spanish dictionary frequencies are no longer presented as quantitative measures of manifesto topic shares. They are retained as an explicitly failed measurement audit.
+- The Manifesto election chart now uses unconnected points. New election-level categories, vote coverage, document-type coverage, coding-manual changes and fixed-party sensitivity show why apparent cross-election movements need not be comparable.
+- Spanish MeCCO climate article counts increased by 22.0% from 2010 to 2025, but fell by 36.6% from 2021 to 2025. Neither count is a share of total articles or audience exposure.
+- The central narrative is narrowed to measured countries, survey questions and source windows. Brazil's corruption trajectory and Israel's 2026 security snapshot challenge a uniform story about the six countries.
+
+## Unresolved
+
+- No comparable 2010–2026 multi-issue, multi-layer panel exists here for all six countries. The Thailand series and broad identity-related issue salience remain particularly thin. A 2026 snapshot does not establish a long-run trend.
+- Election campaigns, speeches, personalised social feeds, independent human annotation and causal mechanisms are not covered sufficiently to support a general historical displacement claim. Source restrictions prevent public redistribution of underlying microdata and texts.
+- The observed series, missing-response scenarios and descriptive or IID intervals do not establish cause or eliminate instrument changes, media indexing changes, sampling design or selection effects.

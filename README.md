@@ -17,6 +17,8 @@ A bilingual, reproducible research project on public priorities, financial diffi
 | `analysis/baseline/` | Earlier research scripts, quantitative models, model validation, figures, output tables and the previous Russian article. |
 | `tests/` | Data-contract and result checks. |
 | `RESEARCH.md` | Research questions, evidence map, findings and open limitations. |
+| `research_audit.md` | Claim-to-evidence audit, independent computational checks and sensitivity bounds. |
+| `RESEARCH_CHANGELOG.md` | New findings, changed conclusions and unresolved gaps. |
 | `METHODS.md` | Definitions, sample, modelling choices, scope and data limitations. |
 
 The baseline analysis is retained as a snapshot, not silently replaced. Some original inputs require registration or separate downloads and cannot be redistributed here. See [the baseline guide](analysis/baseline/README.md). Do not interpret a historical snapshot limitation as the current status of the updated ESS analysis.
@@ -35,18 +37,25 @@ python analysis/03_media_and_priorities.py
 python analysis/04_media_climate.py
 python analysis/06_spain_text_pilot.py
 python analysis/07_us_media_public.py
+python analysis/08_brazil_and_six_country_opinion.py
+python analysis/09_manifesto_benchmark.py
+python analysis/09b_manifesto_longitudinal.py
+python analysis/10_spanish_frontpages.py
+python analysis/11_ess_routing.py
+python analysis/12_mecco_sensitivity.py
+python analysis/90_claim_audit.py
 python analysis/05_build_site_data.py
 python -m unittest discover -s tests
 node tests/site.test.js
 ```
 
-Scripts 01–04 and 06–07 are independent once inputs are in place; script 05 assembles the outputs into the article bundle. `analysis/baseline/outputs/` is a versioned snapshot used for some earlier figures and historical model results in the article. If upstream releases change, source checksums help distinguish an updated dataset from a calculation change.
+Scripts 01–04 and 06–11 are independent once inputs are in place. Script 12 requires the MeCCO aggregates from script 04; script 90 requires manifesto aggregates from script 02. Run script 05 last to assemble the article bundle. `analysis/baseline/outputs/` is a versioned snapshot used for some earlier figures and historical model results in the article. If upstream releases change, source checksums help distinguish an updated dataset from a calculation change.
 
 ## Important limits
 
 - The 22-country ESS comparison uses two independent cross-sectional waves. Six countries changed to self-completion; standard errors clustered by country do not reproduce the complete survey design.
 - The manifesto percentages cover only coded documents with electoral weights. The latest election varies by country, and Thailand is absent in the 2023a source. The two category definitions are explicit proxies, not the author's undefined “80%”.
-- The Spanish programme dictionary is an exploratory pilot, not a validated estimate of programme topics. Its 48-item audit was conducted by the assistant with predicted labels visible, not by an independent human.
+- The Spanish programme dictionary is not a validated measure of agenda shares. Its 48-item inspection was performed by the assistant with predicted labels visible; a separate external CAP benchmark highlights disagreement but is not human peer review of this study.
 - US Gallup issue-mention shares and NYT Index-entry shares use different denominators; neither describes an individual social-media feed.
 - MeCCO records article counts in selected newspapers, not all news output, individual feeds or audience exposure. The NYT Index sample ends in 2016.
 - Environment, climate and energy security are merged in one SPES category, so that category must not be interpreted as pure climate concern.

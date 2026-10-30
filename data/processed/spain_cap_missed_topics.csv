@@ -1,0 +1,17 @@
+party,year,topic,missed_reference_code,n
+PP,2000,economy_institutions,1,77
+PP,2000,economy_institutions,5,85
+PP,2000,economy_institutions,13,143
+PP,2000,economy_institutions,15,114
+PP,2000,economy_institutions,20,187
+PP,2000,climate_environment,7,40
+PP,2000,identity,2,24
+PP,2000,migration,9,16
+PSOE,2008,economy_institutions,1,63
+PSOE,2008,economy_institutions,5,148
+PSOE,2008,economy_institutions,13,233
+PSOE,2008,economy_institutions,15,282
+PSOE,2008,economy_institutions,20,224
+PSOE,2008,climate_environment,7,100
+PSOE,2008,identity,2,297
+PSOE,2008,migration,9,189
