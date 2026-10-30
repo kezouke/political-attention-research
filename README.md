@@ -1,17 +1,17 @@
 # Political Attention, 2010–2026
 
-A bilingual, reproducible research project on public priorities, financial difficulty and climate concern, party manifestos, media visibility, and policy outcomes. The project examines a claim that climate and identity displaced economic concerns before economic issues returned to politics. It separates what the available evidence can establish from questions the data cannot answer.
+A bilingual, reproducible investigation of how economic shocks, institutions, political competition and information interact to shape public priorities. The study compares Spain, Brazil, Serbia, Bulgaria, Israel and Thailand, and uses historical cases and data to test distinct links in an explanatory model. It distinguishes measured associations from causal hypotheses.
 
 **Read the research post:** [English](https://kezouke.github.io/political-attention-research/?lang=en) · [Русский](https://kezouke.github.io/political-attention-research/?lang=ru). Open `docs/index.html` directly in a browser to read it offline. Interactive charts use the committed `docs/data.js` bundle and need no server.
 
-**Кратко по-русски:** в репозитории собраны предыдущий этап исследования и новые проверки: пересечение финансовых трудностей и климатической тревоги, две операционализации тезиса о «80%», сравнение экономических приоритетов и анализ ограничений медийных данных. В статье указаны периоды, выборки, источники и ограничения.
+**Кратко по-русски:** исследование рассматривает, как экономические шоки, доверие к институтам, политические стратегии и информация взаимодействуют при изменении общественных приоритетов. В репозитории сохранены данные, модели, исторический обзор, проверки устойчивости и прежние анализы.
 
 ## Repository map
 
 | Location | Contents |
 | --- | --- |
 | `docs/` | Bilingual research post, responsive interactive figures and static data bundle. |
-| `analysis/` | Scripts for the four new investigations and page-data build. |
+| `analysis/` | Reproducible analyses, source notes and page-data build. |
 | `data/processed/` | Reproducible country, election and media aggregates, plus model results. |
 | `data/raw/README.md` | Versions, sources, checksums and instructions for obtaining raw inputs. Raw inputs are deliberately excluded. |
 | `analysis/baseline/` | Earlier research scripts, quantitative models, model validation, figures, output tables and the previous Russian article. |
@@ -43,13 +43,18 @@ python analysis/09b_manifesto_longitudinal.py
 python analysis/10_spanish_frontpages.py
 python analysis/11_ess_routing.py
 python analysis/12_mecco_sensitivity.py
+python analysis/13_thailand_longitudinal.py
+python analysis/14_identity_spain_cis.py
+python analysis/16_macro_conditions.py
+python analysis/17_insecurity_trust.py
+python analysis/18_structural_exposure.py
 python analysis/90_claim_audit.py
 python analysis/05_build_site_data.py
 python -m unittest discover -s tests
 node tests/site.test.js
 ```
 
-Scripts 01–04 and 06–11 are independent once inputs are in place. Script 12 requires the MeCCO aggregates from script 04; script 90 requires manifesto aggregates from script 02. Run script 05 last to assemble the article bundle. `analysis/baseline/outputs/` is a versioned snapshot used for some earlier figures and historical model results in the article. If upstream releases change, source checksums help distinguish an updated dataset from a calculation change.
+Scripts 01–04, 06–11 and 13–18 are independent once inputs are in place. Script 12 requires the MeCCO aggregates from script 04; script 90 requires manifesto aggregates from script 02. Run script 05 last to assemble the article bundle. `analysis/baseline/outputs/` is a versioned snapshot used for some earlier figures and historical model results in the article. If upstream releases change, source checksums help distinguish an updated dataset from a calculation change.
 
 ## Important limits
 

@@ -1,0 +1,2 @@
+survey,issue,first_year,last_year,first_pct,last_pct,change_pp,rounding_lower_pp,rounding_upper_pp,uncertainty_note
+"Asia Foundation 2009 vs 2010, matched geography",political conflict,2009,2010,24,42,18,17,19,Assumes each published integer rounded to nearest percentage point. Not a sampling CI; study uses stratified clusters.

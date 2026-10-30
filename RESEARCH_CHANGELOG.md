@@ -1,5 +1,12 @@
 # Research follow-up: what changed
 
+## Explanatory and six-country follow-up
+
+- **New evidence:** harmonised World Bank and Eurobarometer indicators, Spanish real compensation and an ESS analysis of financial difficulty, trust and immigration attitudes. Country and year fixed-effect associations and sensitivity checks are descriptive; they do not establish mediation or causation. Spain's CIS series adds measured immigration salience with documented question and coding changes.
+- **New country evidence:** Thailand's comparable 2009–2010 political-conflict responses and separately reported 2025 snapshot, 2023 party proposals and 2026 vote and seat totals. These sources do not form a continuous comparable campaign or opinion series.
+- **Revised interpretation:** the article develops exposure, trust, political supply and policy feedback as separately testable links. Spain, Brazil and Thailand illustrate different institutional paths; climate policy is analysed through distribution and perceived fairness, with a competing study on rebates.
+- **Remaining gaps:** no complete harmonised identity or campaign panel for the six countries; no identified causal mediation or vote-switching design; no distributional accounting of transition costs across the six economies; no independent human review of text classification. Cross-national regressions have few clusters and sensitivity to period selection. Restricted raw sources are not redistributed.
+
 This follow-up addresses the version at commit `39b5d3f`. It is an exploratory analysis and separate AI-assisted computational review, not independent human peer review or preregistration. [The baseline claim-to-evidence audit](research_audit.md) records the original claims and their evidence.
 
 ## Newly established for the stated measures

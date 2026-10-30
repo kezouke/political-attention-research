@@ -1,8 +1,14 @@
 # Research map
 
+## Explanatory question and hypotheses
+
+Why do similar shocks produce different political priorities and outcomes? Our working framework links exposure, interpretation and trust, political supply and media, then institutional constraints and policy feedback. It predicts neither a uniform reaction nor a proven causal sequence. The research compares competing mechanisms: re-ranking of coexisting concerns, changes in attitudes, institutional distrust, elite framing and distribution of policy costs. See `analysis/15_historical_context.md` for competing published findings and `METHODS.md` for the limits of our own observational tests.
+
+The 2026 follow-up adds Brazilian and Spanish campaign evidence; Thai survey snapshots and election arithmetic; Spanish CIS identity-adjacent salience; World Bank and Eurostat structural and macroeconomic indicators; and new ESS models of financial difficulty, trust and immigration attitudes. Source evidence and limitations are explicit; these analyses do not establish a common causal chain.
+
 ## Question and unit of analysis
 
-The project investigates a claim that climate and identity concerns once dominated world politics, while recent elections revolve around the economy, living standards, corruption and institutions. The claim combines several distinct outcomes. None is a substitute for the others.
+The project asks how shocks, economic structure, institutions and political actors interact to change political priorities. A public claim about a global shift away from climate and identity supplied the initial motivation; it combines distinct outcomes that cannot substitute for one another.
 
 | Layer | Question | Evidence in this repository | Main limit |
 | --- | --- | --- | --- |

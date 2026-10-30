@@ -1,0 +1,9 @@
+indicator,source,snapshot_sha256
+EG.IMP.CONS.ZS,https://data.worldbank.org/indicator/EG.IMP.CONS.ZS,1004babf1a147b828e1bfb5fc3a00711d374c3c78e0aa8641eefaca602cabd41
+NY.GDP.TOTL.RT.ZS,https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS,c01a382af17e67348c02f96fb4fa9edbb8e58a9d2b9da5ba6cb5ec583410899b
+NE.TRD.GNFS.ZS,https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS,e71ff4693c9e91352ae720360732db4ee70cbb6edb39552124fdd8b663c5cf56
+NV.IND.MANF.ZS,https://data.worldbank.org/indicator/NV.IND.MANF.ZS,e1b212c9e401ffd7eefa1e12db917d4d6c3a3cc3cfac54f0bdadc2d253064be1
+SL.SRV.EMPL.ZS,https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS,ce61a870e173e88adc34966065cd7190815278b457ba08ee9efe6528f49e0920
+ST.INT.RCPT.CD,https://data.worldbank.org/indicator/ST.INT.RCPT.CD,aa68b354758ba5035c41d009af446b5c54da99ed8d931eb689fafae0735073aa
+NY.GDP.MKTP.CD,https://data.worldbank.org/indicator/NY.GDP.MKTP.CD,c34567b683390529e30c0cf51699e82239fb943b03f5582f2cfc21fe06d90f1d
+GC.REV.XGRT.GD.ZS,https://data.worldbank.org/indicator/GC.REV.XGRT.GD.ZS,ae27648ccfb5384649fce55493b7fde21fdc729edae808e8cdfc500ba047865d

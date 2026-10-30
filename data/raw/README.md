@@ -57,3 +57,12 @@ Download the official Stata-format archives for 2010, 2011, 2013, 2015, 2016, 20
 - `cap_spain_manifestos.csv`: [Spanish party manifesto coded quasi-sentences](https://minio.la.utexas.edu/compagendas/datasetfiles/Party_Manifestos_CAP_Web_csv.csv), SHA-256 `25404b088e8b49794e6a41d667d4295cffc46a4bb652c40a8c9899f4704875e7`.
 
 Source citation: Chaqués Bonafont, L., Palau, A. and Baumgartner, F. R. (2015), *Agenda Dynamics in Spain*. The source [dataset list and codebooks](https://www.comparativeagendas.net/project/spain/datasets) describe provenance and coding. Source text and headlines are excluded from this repository; the checked-in outcomes are aggregates and hashed audit identifiers.
+
+## Economic structure, unemployment and survey sources
+
+- `wb_inflation_20261030.json` and `wb_unemployment_20261030.json`: World Bank API snapshots for indicators `FP.CPI.TOTL.ZG` and `SL.UEM.TOTL.ZS`; SHA-256 `93c9609665d67f9a95bc6385290084fdf80338da6c4d8b592a3ad3b7ba5644ab` and `638be09a5614df173105d7932822c0cee621c9ee438e11e76f2e6595aab65f65`. `analysis/16_macro_conditions.py` fetches them when absent.
+- `eurostat_comp_es_20261030.json`: Eurostat `nama_10_lp_ulc`, compensation per employee, SHA-256 `7b62b269274b358b6222a7980a5316dfbfcebacae6749950a89d2f8e6866cfa1`.
+- `eurostat_hicp_es_inx_20261030.json`: Eurostat `prc_hicp_aind`, annual all-items HICP index, SHA-256 `65276bd18ef14af155e940a155c002ee7a6d0f6a673d12ec5aa9e6dae96bce7a`. `analysis/16_macro_conditions.py` fetches Eurostat snapshots when absent.
+- WDI structural indicator snapshots named `wdi_structure_<indicator>_20261030.json` are fetched by `analysis/18_structural_exposure.py`; the resulting `structural_wdi_provenance.csv` records source indicator URLs and exact hashes. API updates can revise historical values; compare hashes.
+- `thailand_asia_foundation_2010.pdf`: original [Asia Foundation survey report](https://www.locjkt.or.id/application/docliblcjkt/upload/ThailandNationalSurvey2010.pdf), SHA-256 `4c1ebbc120d0d0bc2818b7618b64767e7e32845f0c1892e3582d78851b692c12`. The Thai election figures and source URLs are transcribed in `analysis/13_thailand_longitudinal.py` and documented in `analysis/13_thailand_notes.md`.
+- `cis_september_YYYY.pdf`: primary Spain CIS barometers, downloaded with `python analysis/14_identity_spain_cis.py --download`. Exact URLs, hashes, pages, categories, field dates and respondent counts are recorded in `data/processed/identity_spain_cis_selected.csv`. Underlying PDF distribution is governed by CIS; raw files remain excluded from this repository.
