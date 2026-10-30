@@ -2,6 +2,8 @@
 
 A bilingual, reproducible investigation of how economic shocks, institutions, political competition and information interact to shape public priorities. The study compares Spain, Brazil, Serbia, Bulgaria, Israel and Thailand, and uses historical cases and data to test distinct links in an explanatory model. It distinguishes measured associations from causal hypotheses.
 
+The [primary-source reading audit](analysis/20_primary_reading.md) checks how this study uses work by Guriev, his co-authors and Movchan. It distinguishes identified results, descriptive comparisons and hypotheses. No cited author has reviewed or endorsed this project.
+
 **Read the research post:** [English](https://kezouke.github.io/political-attention-research/?lang=en) · [Русский](https://kezouke.github.io/political-attention-research/?lang=ru). Open `docs/index.html` directly in a browser to read it offline. Interactive charts use the committed `docs/data.js` bundle and need no server.
 
 **Кратко по-русски:** исследование рассматривает, как экономические шоки, доверие к институтам, политические стратегии и информация взаимодействуют при изменении общественных приоритетов. В репозитории сохранены данные, модели, исторический обзор, проверки устойчивости и прежние анализы.
