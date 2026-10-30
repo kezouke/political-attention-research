@@ -1,0 +1,5 @@
+party,year,words,clima_count,clima_per_10k,medio_ambiente_count,medio_ambiente_per_10k,migracion_count,migracion_per_10k,precios_count,precios_per_10k,corrupcion_count,corrupcion_per_10k,identidad_count,identidad_per_10k
+pp,2019,9386,5,5.3271,7,7.4579,5,5.3271,2,2.1308,0,0.0000,0,0.0000
+pp,2023,31138,6,1.9269,17,5.4596,12,3.8538,12,3.8538,1,0.3212,5,1.6058
+psoe,2019,15846,6,3.7864,35,22.0876,18,11.3593,9,5.6797,6,3.7864,3,1.8932
+psoe,2023,105419,35,3.3201,89,8.4425,35,3.3201,25,2.3715,8,0.7589,49,4.6481

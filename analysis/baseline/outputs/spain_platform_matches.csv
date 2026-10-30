@@ -1,0 +1,391 @@
+party,year,topic,match
+pp,2019,clima,cambio climático
+pp,2019,clima,CAMBIO CLIMÁTICO
+pp,2019,clima,cambio climático
+pp,2019,clima,cambio climático
+pp,2019,clima,cambio climático
+pp,2019,medio_ambiente,ambiental
+pp,2019,medio_ambiente,MEDIO AMBIENTE
+pp,2019,medio_ambiente,medioambiental
+pp,2019,medio_ambiente,medioambientales
+pp,2019,medio_ambiente,medio ambiente
+pp,2019,medio_ambiente,medioambiental
+pp,2019,medio_ambiente,medio ambiente
+pp,2019,migracion,INMIGRACIÓN
+pp,2019,migracion,inmigración
+pp,2019,migracion,inmigración
+pp,2019,migracion,inmigrantes
+pp,2019,migracion,migratorias
+pp,2019,precios,precio
+pp,2019,precios,precio
+pp,2023,clima,cambio climático
+pp,2023,clima,cambio climático
+pp,2023,clima,cambio climático
+pp,2023,clima,cambio climático
+pp,2023,clima,cambio climático
+pp,2023,clima,cambio climático
+pp,2023,medio_ambiente,medio ambiente
+pp,2023,medio_ambiente,MEDIO AMBIENTE
+pp,2023,medio_ambiente,ambiental
+pp,2023,medio_ambiente,ecológica
+pp,2023,medio_ambiente,ecológica
+pp,2023,medio_ambiente,medio ambiente
+pp,2023,medio_ambiente,medio ambiente
+pp,2023,medio_ambiente,ambiental
+pp,2023,medio_ambiente,AMBIENTALES
+pp,2023,medio_ambiente,ambiental
+pp,2023,medio_ambiente,ambientales
+pp,2023,medio_ambiente,MEDIOAMBIENTAL
+pp,2023,medio_ambiente,ambiental
+pp,2023,medio_ambiente,ambiental
+pp,2023,medio_ambiente,medioambientales
+pp,2023,medio_ambiente,ecológica
+pp,2023,medio_ambiente,medioambiental
+pp,2023,migracion,MIGRANTES
+pp,2023,migracion,Migratorias
+pp,2023,migracion,inmigración
+pp,2023,migracion,MIGRA
+pp,2023,migracion,inmigrantes
+pp,2023,migracion,MIGRATORIAS
+pp,2023,migracion,Migración
+pp,2023,migracion,Asilo
+pp,2023,migracion,migración
+pp,2023,migracion,migratorio
+pp,2023,migracion,migraciones
+pp,2023,migracion,migración
+pp,2023,precios,inflación
+pp,2023,precios,precio
+pp,2023,precios,PRECIO
+pp,2023,precios,precios
+pp,2023,precios,precios
+pp,2023,precios,precios
+pp,2023,precios,precio
+pp,2023,precios,precio
+pp,2023,precios,precio
+pp,2023,precios,precio
+pp,2023,precios,precios
+pp,2023,precios,precios
+pp,2023,corrupcion,CORRUPCIÓN
+pp,2023,identidad,LGTBi
+pp,2023,identidad,transexualidad
+pp,2023,identidad,LGTBi
+pp,2023,identidad,TRANSEXUALES
+pp,2023,identidad,racismo
+psoe,2019,clima,Cambio Climático
+psoe,2019,clima,emisiones de CO2
+psoe,2019,clima,cambio climático
+psoe,2019,clima,cambio climático
+psoe,2019,clima,cambio climático
+psoe,2019,clima,calentamiento global
+psoe,2019,medio_ambiente,ECOLÓGICA
+psoe,2019,medio_ambiente,medio ambiente
+psoe,2019,medio_ambiente,Ecológica
+psoe,2019,medio_ambiente,Ecológica
+psoe,2019,medio_ambiente,ecológica
+psoe,2019,medio_ambiente,ambiental
+psoe,2019,medio_ambiente,ecológica
+psoe,2019,medio_ambiente,ambientales
+psoe,2019,medio_ambiente,Ambiental
+psoe,2019,medio_ambiente,Medio Ambiente
+psoe,2019,medio_ambiente,ecológica
+psoe,2019,medio_ambiente,ambientales
+psoe,2019,medio_ambiente,ecológica
+psoe,2019,medio_ambiente,ecológica
+psoe,2019,medio_ambiente,ecológica
+psoe,2019,medio_ambiente,ecológica
+psoe,2019,medio_ambiente,ecológicos
+psoe,2019,medio_ambiente,ambientales
+psoe,2019,medio_ambiente,ambiental
+psoe,2019,medio_ambiente,ECOLOGICA
+psoe,2019,medio_ambiente,ecológica
+psoe,2019,medio_ambiente,ecológica
+psoe,2019,medio_ambiente,ecológica
+psoe,2019,medio_ambiente,ambientales
+psoe,2019,medio_ambiente,ecológicos
+psoe,2019,medio_ambiente,ecológica
+psoe,2019,medio_ambiente,ecológica
+psoe,2019,medio_ambiente,ambientales
+psoe,2019,medio_ambiente,Ambiental
+psoe,2019,medio_ambiente,ambientales
+psoe,2019,medio_ambiente,Medio Ambiente
+psoe,2019,medio_ambiente,medioambiental
+psoe,2019,medio_ambiente,ecológica
+psoe,2019,medio_ambiente,ecológica
+psoe,2019,medio_ambiente,ambientales
+psoe,2019,migracion,Inmigración
+psoe,2019,migracion,inmigración
+psoe,2019,migracion,inmigrantes
+psoe,2019,migracion,refugiadas
+psoe,2019,migracion,asilo
+psoe,2019,migracion,inmigración
+psoe,2019,migracion,inmigración
+psoe,2019,migracion,Inmigración
+psoe,2019,migracion,inmigración
+psoe,2019,migracion,inmigrantes
+psoe,2019,migracion,refugiadas
+psoe,2019,migracion,asilo
+psoe,2019,migracion,inmigrantes
+psoe,2019,migracion,inmigración
+psoe,2019,migracion,refugiados
+psoe,2019,migracion,asilo
+psoe,2019,migracion,migratorios
+psoe,2019,migracion,inmigración
+psoe,2019,precios,precio
+psoe,2019,precios,precios
+psoe,2019,precios,precio
+psoe,2019,precios,precios
+psoe,2019,precios,precios
+psoe,2019,precios,precios
+psoe,2019,precios,precio
+psoe,2019,precios,precios
+psoe,2019,precios,precio
+psoe,2019,corrupcion,anticorrupción
+psoe,2019,corrupcion,corrupción
+psoe,2019,corrupcion,corrupción
+psoe,2019,corrupcion,anticorrupción
+psoe,2019,corrupcion,corrupción
+psoe,2019,corrupcion,corrupción
+psoe,2019,identidad,LGTBI
+psoe,2019,identidad,LGBTI
+psoe,2019,identidad,LGBTI
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,emisiones de CO2
+psoe,2023,clima,Cambio Climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,calentamiento global
+psoe,2023,clima,crisis climática
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,emisiones de CO2
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,clima,cambio climático
+psoe,2023,medio_ambiente,MEDIO AMBIENTE
+psoe,2023,medio_ambiente,medio ambiente
+psoe,2023,medio_ambiente,MEDIO AMBIENTE
+psoe,2023,medio_ambiente,medio ambiente
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,ambiental
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,medioambiental
+psoe,2023,medio_ambiente,medioambientales
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,medioambiental
+psoe,2023,medio_ambiente,ambiental
+psoe,2023,medio_ambiente,medioambiental
+psoe,2023,medio_ambiente,medio ambiente
+psoe,2023,medio_ambiente,medio ambiente
+psoe,2023,medio_ambiente,medioambiental
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,medio ambiente
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,ecológico
+psoe,2023,medio_ambiente,medioambiental
+psoe,2023,medio_ambiente,medioambientalmente
+psoe,2023,medio_ambiente,ambientales
+psoe,2023,medio_ambiente,ambientales
+psoe,2023,medio_ambiente,ambiental
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,ambiental
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,ambientales
+psoe,2023,medio_ambiente,ambientales
+psoe,2023,medio_ambiente,Ecológica
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,ambiental
+psoe,2023,medio_ambiente,medioambientales
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,ambientalistas
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,medio ambiente
+psoe,2023,medio_ambiente,ecológicos
+psoe,2023,medio_ambiente,medio ambiente
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,ambiental
+psoe,2023,medio_ambiente,medio ambiente
+psoe,2023,medio_ambiente,ambiental
+psoe,2023,medio_ambiente,ambientales
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,ambientales
+psoe,2023,medio_ambiente,MEDIO AMBIENTE
+psoe,2023,medio_ambiente,medio ambiente
+psoe,2023,medio_ambiente,medio ambiente
+psoe,2023,medio_ambiente,ambiental
+psoe,2023,medio_ambiente,MEDIO AMBIENTE
+psoe,2023,medio_ambiente,ambientales
+psoe,2023,medio_ambiente,ambiental
+psoe,2023,medio_ambiente,Ecológicas
+psoe,2023,medio_ambiente,medio ambiente
+psoe,2023,medio_ambiente,medio ambiente
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,ambiental
+psoe,2023,medio_ambiente,ambiental
+psoe,2023,medio_ambiente,medioambiental
+psoe,2023,medio_ambiente,ambiental
+psoe,2023,medio_ambiente,medioambientales
+psoe,2023,medio_ambiente,ambientales
+psoe,2023,medio_ambiente,medioambiental
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,ambiental
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,medioambientales
+psoe,2023,medio_ambiente,ecológicamente
+psoe,2023,medio_ambiente,medio ambiente
+psoe,2023,medio_ambiente,medioambientales
+psoe,2023,medio_ambiente,Medioambientales
+psoe,2023,medio_ambiente,medio ambiente
+psoe,2023,medio_ambiente,medio ambiente
+psoe,2023,medio_ambiente,Medio Ambiente
+psoe,2023,medio_ambiente,ecológicos
+psoe,2023,medio_ambiente,medio ambiente
+psoe,2023,medio_ambiente,ambiental
+psoe,2023,medio_ambiente,ecológica
+psoe,2023,medio_ambiente,medioambientalmente
+psoe,2023,migracion,MIGRACIÓN
+psoe,2023,migracion,ASILO
+psoe,2023,migracion,inmigrante
+psoe,2023,migracion,refugiada
+psoe,2023,migracion,migrantes
+psoe,2023,migracion,migrantes
+psoe,2023,migracion,migrantes
+psoe,2023,migracion,migra
+psoe,2023,migracion,migratoria
+psoe,2023,migracion,migratorios
+psoe,2023,migracion,migración
+psoe,2023,migracion,migratoria
+psoe,2023,migracion,Asilo
+psoe,2023,migracion,inmigrantes
+psoe,2023,migracion,MIGRACIÓN
+psoe,2023,migracion,ASILO
+psoe,2023,migracion,migrantes
+psoe,2023,migracion,migrantes
+psoe,2023,migracion,asilo
+psoe,2023,migracion,Refugiados
+psoe,2023,migracion,Migraciones
+psoe,2023,migracion,migrantes
+psoe,2023,migracion,migración
+psoe,2023,migracion,migrantes
+psoe,2023,migracion,migración
+psoe,2023,migracion,migración
+psoe,2023,migracion,inmigrantes
+psoe,2023,migracion,inmigrantes
+psoe,2023,migracion,migración
+psoe,2023,migracion,migrantes
+psoe,2023,migracion,migración
+psoe,2023,migracion,migratoria
+psoe,2023,migracion,Migración
+psoe,2023,migracion,Asilo
+psoe,2023,migracion,migratoria
+psoe,2023,precios,precios
+psoe,2023,precios,inflación
+psoe,2023,precios,precio
+psoe,2023,precios,inflación
+psoe,2023,precios,inflación
+psoe,2023,precios,precios
+psoe,2023,precios,precio
+psoe,2023,precios,precios
+psoe,2023,precios,precios
+psoe,2023,precios,inflación
+psoe,2023,precios,precio
+psoe,2023,precios,precio
+psoe,2023,precios,precios
+psoe,2023,precios,precio
+psoe,2023,precios,inflación
+psoe,2023,precios,precio
+psoe,2023,precios,precio
+psoe,2023,precios,precio
+psoe,2023,precios,precios
+psoe,2023,precios,precios
+psoe,2023,precios,precios
+psoe,2023,precios,precios
+psoe,2023,precios,precios
+psoe,2023,precios,precios
+psoe,2023,precios,precios
+psoe,2023,corrupcion,corrupción
+psoe,2023,corrupcion,corrupción
+psoe,2023,corrupcion,corrupción
+psoe,2023,corrupcion,corrupción
+psoe,2023,corrupcion,corrupción
+psoe,2023,corrupcion,corrupción
+psoe,2023,corrupcion,Anticorrupción
+psoe,2023,corrupcion,corrupción
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,Racismo
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBIfobia
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBIfobia
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBIfobia
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,Racismo
+psoe,2023,identidad,racismo
+psoe,2023,identidad,discriminación racial
+psoe,2023,identidad,racismo
+psoe,2023,identidad,Racismo
+psoe,2023,identidad,racismo
+psoe,2023,identidad,racismo
+psoe,2023,identidad,racismo
+psoe,2023,identidad,racismo
+psoe,2023,identidad,racismo
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBIfobia
+psoe,2023,identidad,racismo
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,LGTBI
+psoe,2023,identidad,racismo

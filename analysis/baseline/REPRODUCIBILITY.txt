@@ -1,0 +1,51 @@
+Quantitative agenda project, retrieved 30 October 2026
+
+Data are snapshots, stored in data/. data_sha256.txt records checksums for the
+principal files. requirements.txt records the actual Python environment.
+Sources can update without versioning, so reproduce from the saved snapshots.
+
+spes_aggregate.csv: export from https://spes-test.shinyapps.io/spes-release/
+  Project: https://iiasa.ac.at/models-tools-data/spes-explorer-european-pressing-issues-dashboard
+worldbank_inflation.json: World Bank indicator FP.CPI.TOTL.ZG, all countries.
+  https://api.worldbank.org/v2/country/all/indicator/FP.CPI.TOTL.ZG?date=2010:2024&format=json&per_page=20000
+qog_ei.csv: https://datafinder.qog.gu.se/download/env ; wvs_epmip variable.
+nyt.csv: US New York Times Index, Comparative Agendas Project download and
+  codebook https://www.comparativeagendas.net/datasets_codebooks .
+huffpost_v3.jsonl: News Category Dataset v3, https://arxiv.org/abs/2209.11429 .
+gdelt/bbc_all.json and gdelt/bbc_inflation.json: GDELT DOC 2.0 raw daily
+  timeline for domain:bbc.com and domain:bbc.com inflation, retrieved 2026-10-30.
+  Both inputs contain the same daily dates; missing days and coverage changes
+  make the result an indexed-corpus diagnostic, not the whole BBC output.
+  https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/
+mccc_monthly.csv.gz: https://sentometrics-research.com/download/mccc/ .
+eurobarometer_105_annex.pdf: https://euneighbourseast.eu/wp-content/uploads/2026/05/standard-eurobarometer-105-spring-2026_data-annex_en.pdf
+pew_problem_trends.csv: transcribed from Pew Research Center tables and charts.
+platforms/: UCSB American Presidency Project party platform archive.
+spain_platforms/: Spanish PSOE and PP platforms; PDFs and extracted text retained.
+
+Run in a Python environment installed from requirements.txt. From this folder:
+  python gdelt_analysis.py
+  python analysis.py
+  python sensitivity.py
+  python wvs_aggregate.py
+  python wvs_denominator.py
+  python pew_plot.py
+  python euro_2026_annex.py
+  python media_model.py
+  python media_binary_model.py
+  python huffpost_audit.py
+  python platform_analysis.py
+  python spain_platform_analysis.py
+
+The Eurobarometer annex extraction uses pypdf. The downloadable archive omits
+data/huffpost_v3.jsonl, which must be obtained separately to rerun the HuffPost
+audit; the other principal analysis inputs are included.
+Annual environment data combine environment, climate, and energy security.
+The fixed sample of 14 countries has no SPES observation for 2011. Years
+2010-2024 are equal-country averages, not population-weighted EU means. Pew
+points and the 2026 annex are separate survey series, not continuations of SPES.
+WVS raw aggregate percentages are not survey-weighted; missing values matter.
+Media classifiers and keyword counts have not been validated for 2017-2026.
+See output files for sample counts, all category metrics and sensitivity tests.
+ESS subset data, Gallup CAP aggregates and post-2017 HuffPost are not used for
+the substantive trend because of access, unresolved coding or coverage issues.

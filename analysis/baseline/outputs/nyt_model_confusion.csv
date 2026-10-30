@@ -1,0 +1,11 @@
+,civil_rights,crime,defence,economy,energy,environment,government,immigration,international,other
+civil_rights,62,16,6,2,0,1,8,0,12,39
+crime,14,381,7,1,0,2,14,0,29,111
+defence,1,19,56,0,0,1,8,0,18,20
+economy,0,1,2,60,0,2,17,0,1,28
+energy,0,1,1,0,32,6,5,0,1,12
+environment,1,6,1,1,3,37,2,0,11,20
+government,3,29,6,6,1,1,239,0,26,84
+immigration,2,3,2,0,0,0,4,3,6,14
+international,17,64,43,30,25,6,19,0,777,205
+other,35,198,11,44,10,65,107,0,187,3576

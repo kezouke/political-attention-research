@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+data/raw/*
+!data/raw/README.md
+analysis/baseline/data/*
+!analysis/baseline/data/README.md
+.ipynb_checkpoints/
+# Row-level Manifesto Project-derived material is kept local.
+/data/processed/manifesto_issue_documents.csv
+/analysis/baseline/outputs/manifesto_documents.csv

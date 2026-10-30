@@ -1,0 +1,1 @@
+Raw source files for the historical scripts are not committed. See the baseline README, historical `REPRODUCIBILITY.txt`, and the main `data/raw/README.md` for source and access information. Historical scripts expect their inputs in this directory and generated results in the adjacent `outputs/` directory.

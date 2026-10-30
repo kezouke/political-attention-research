@@ -1,0 +1,161 @@
+Area,ISO 3 code,Year,Value
+Brazil,BRA,2010,84.8
+Brazil,BRA,2011,87.2
+Brazil,BRA,2012,82.55
+Brazil,BRA,2013,76.82
+Brazil,BRA,2014,73.28
+Brazil,BRA,2015,74.2
+Brazil,BRA,2016,80.48
+Brazil,BRA,2017,79.25
+Brazil,BRA,2018,82.36
+Brazil,BRA,2019,81.38
+Brazil,BRA,2020,83.16
+Brazil,BRA,2021,77.36
+Brazil,BRA,2022,87.7
+Brazil,BRA,2023,89.0
+Brazil,BRA,2024,87.33
+Brazil,BRA,2025,86.6
+Bulgaria,BGR,2010,12.54
+Bulgaria,BGR,2011,7.78
+Bulgaria,BGR,2012,11.3
+Bulgaria,BGR,2013,16.06
+Bulgaria,BGR,2014,15.75
+Bulgaria,BGR,2015,17.96
+Bulgaria,BGR,2016,15.81
+Bulgaria,BGR,2017,13.67
+Bulgaria,BGR,2018,20.17
+Bulgaria,BGR,2019,17.13
+Bulgaria,BGR,2020,18.62
+Bulgaria,BGR,2021,21.83
+Bulgaria,BGR,2022,19.16
+Bulgaria,BGR,2023,25.07
+Bulgaria,BGR,2024,29.91
+Bulgaria,BGR,2025,32.83
+Germany,DEU,2010,16.89
+Germany,DEU,2011,20.56
+Germany,DEU,2012,23.13
+Germany,DEU,2013,24.13
+Germany,DEU,2014,26.17
+Germany,DEU,2015,29.43
+Germany,DEU,2016,29.48
+Germany,DEU,2017,33.46
+Germany,DEU,2018,35.26
+Germany,DEU,2019,40.19
+Germany,DEU,2020,44.37
+Germany,DEU,2021,40.16
+Germany,DEU,2022,44.38
+Germany,DEU,2023,54.69
+Germany,DEU,2024,58.64
+Germany,DEU,2025,59.1
+Israel,ISR,2010,0.29
+Israel,ISR,2011,0.51
+Israel,ISR,2012,0.79
+Israel,ISR,2013,0.94
+Israel,ISR,2014,1.59
+Israel,ISR,2015,1.9
+Israel,ISR,2016,2.53
+Israel,ISR,2017,2.51
+Israel,ISR,2018,2.72
+Israel,ISR,2019,4.82
+Israel,ISR,2020,6.1
+Israel,ISR,2021,7.85
+Israel,ISR,2022,9.72
+Israel,ISR,2023,11.79
+Israel,ISR,2024,13.8
+Israel,ISR,2025,16.93
+Russian Federation (the),RUS,2010,16.09
+Russian Federation (the),RUS,2011,15.51
+Russian Federation (the),RUS,2012,15.34
+Russian Federation (the),RUS,2013,17.15
+Russian Federation (the),RUS,2014,16.37
+Russian Federation (the),RUS,2015,15.82
+Russian Federation (the),RUS,2016,17.01
+Russian Federation (the),RUS,2017,17.08
+Russian Federation (the),RUS,2018,17.32
+Russian Federation (the),RUS,2019,17.55
+Russian Federation (the),RUS,2020,19.92
+Russian Federation (the),RUS,2021,19.03
+Russian Federation (the),RUS,2022,17.58
+Russian Federation (the),RUS,2023,17.74
+Russian Federation (the),RUS,2024,18.1
+Russian Federation (the),RUS,2025,17.35
+Serbia,SRB,2010,31.77
+Serbia,SRB,2011,22.8
+Serbia,SRB,2012,25.7
+Serbia,SRB,2013,26.05
+Serbia,SRB,2014,32.98
+Serbia,SRB,2015,26.9
+Serbia,SRB,2016,28.14
+Serbia,SRB,2017,25.5
+Serbia,SRB,2018,29.73
+Serbia,SRB,2019,28.51
+Serbia,SRB,2020,27.33
+Serbia,SRB,2021,33.51
+Serbia,SRB,2022,28.19
+Serbia,SRB,2023,34.97
+Serbia,SRB,2024,32.06
+Serbia,SRB,2025,27.82
+Spain,ESP,2010,32.83
+Spain,ESP,2011,30.02
+Spain,ESP,2012,29.58
+Spain,ESP,2013,39.58
+Spain,ESP,2014,40.17
+Spain,ESP,2015,35.02
+Spain,ESP,2016,38.65
+Spain,ESP,2017,32.29
+Spain,ESP,2018,38.27
+Spain,ESP,2019,37.33
+Spain,ESP,2020,43.86
+Spain,ESP,2021,46.44
+Spain,ESP,2022,42.81
+Spain,ESP,2023,51.51
+Spain,ESP,2024,57.34
+Spain,ESP,2025,55.86
+Thailand,THA,2010,5.57
+Thailand,THA,2011,7.83
+Thailand,THA,2012,8.08
+Thailand,THA,2013,7.51
+Thailand,THA,2014,8.18
+Thailand,THA,2015,7.77
+Thailand,THA,2016,8.93
+Thailand,THA,2017,11.11
+Thailand,THA,2018,14.35
+Thailand,THA,2019,14.86
+Thailand,THA,2020,14.2
+Thailand,THA,2021,15.0
+Thailand,THA,2022,15.79
+Thailand,THA,2023,15.62
+Thailand,THA,2024,14.83
+Thailand,THA,2025,16.57
+United Kingdom,GBR,2010,6.85
+United Kingdom,GBR,2011,9.58
+United Kingdom,GBR,2012,11.33
+United Kingdom,GBR,2013,14.85
+United Kingdom,GBR,2014,19.08
+United Kingdom,GBR,2015,24.59
+United Kingdom,GBR,2016,24.48
+United Kingdom,GBR,2017,29.24
+United Kingdom,GBR,2018,33.0
+United Kingdom,GBR,2019,36.59
+United Kingdom,GBR,2020,43.06
+United Kingdom,GBR,2021,39.78
+United Kingdom,GBR,2022,41.6
+United Kingdom,GBR,2023,46.37
+United Kingdom,GBR,2024,50.65
+United Kingdom,GBR,2025,51.98
+United States of America,USA,2010,10.31
+United States of America,USA,2011,12.46
+United States of America,USA,2012,12.19
+United States of America,USA,2013,12.83
+United States of America,USA,2014,13.35
+United States of America,USA,2015,13.63
+United States of America,USA,2016,15.29
+United States of America,USA,2017,17.46
+United States of America,USA,2018,17.44
+United States of America,USA,2019,18.3
+United States of America,USA,2020,20.31
+United States of America,USA,2021,20.75
+United States of America,USA,2022,22.34
+United States of America,USA,2023,22.68
+United States of America,USA,2024,24.07
+United States of America,USA,2025,25.63
