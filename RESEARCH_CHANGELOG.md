@@ -1,5 +1,12 @@
 # Research follow-up: what changed
 
+## Crisis and electoral gains, November 2026
+
+- Reframed the bilingual essay around elections after crises. The [new comparison](CRISIS_METHODS.md) pairs actual elections in multiple regions, distinguishes bank crises from other recessions, and reports timing and measurement sensitivities.
+- Used Iberia to distinguish a new challenger from an existing parliamentary route. Added Japan as a case of established opposition gaining and Hungary as a documented case of differential household exposure.
+- Retained Brazil's survey series and campaign evidence with the election timeline. Added a separate eight-country electoral check to the 16-country Eurobarometer comparison.
+- The new figures support pointer, touch and keyboard inspection. The previous essay and its underlying analyses are available in the archive.
+
 ## Explanatory and six-country follow-up
 
 - **Primary-source reading audit:** read the methods, results and qualifications in Algan et al. (2017), Guriev and Papaioannou (2022), Guriev et al. (2021), Guriev and Treisman (2019/2020), and Movchan et al. (2017). The [reading note](analysis/20_primary_reading.md) records what each source establishes and what it cannot establish for this study. The article now states the 2–4 point instrumental-variable vote estimate with its identifying assumption, distinguishes trust and vote outcomes from mediation, adds the weak cultural-immigration result as counterevidence, and treats party speech as elite strategy rather than public salience. It also clarifies that the Movchan cases do not include the six focus countries.

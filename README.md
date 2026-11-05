@@ -1,12 +1,12 @@
-# Political Attention, 2010–2026
+# Political Attention Research
 
-A bilingual, reproducible investigation of how economic shocks, institutions, political competition and information interact to shape public priorities. The study compares Spain, Brazil, Serbia, Bulgaria, Israel and Thailand, and uses historical cases and data to test distinct links in an explanatory model. It distinguishes measured associations from causal hypotheses.
+[When does a crisis strengthen populists?](https://kezouke.github.io/political-attention-research/?lang=en) · [Когда кризис усиливает популистов?](https://kezouke.github.io/political-attention-research/?lang=ru)
 
-The [primary-source reading audit](analysis/20_primary_reading.md) checks how this study uses work by Guriev, his co-authors and Movchan. It distinguishes identified results, descriptive comparisons and hypotheses. No cited author has reviewed or endorsed this project.
+A bilingual research essay comparing elections around banking crises and recessions, with historical evidence from Spain, Portugal, Hungary, Brazil and Japan. The essay uses surveys to date shifts in public priorities and election results to measure who gained support.
 
-**Read the research post:** [English](https://kezouke.github.io/political-attention-research/?lang=en) · [Русский](https://kezouke.github.io/political-attention-research/?lang=ru). Open `docs/index.html` directly in a browser to read it offline. The five article charts use the committed `docs/data.js` bundle and need no server. Detailed methods and earlier figures remain in the research files below.
+Open `docs/index.html` for the current essay and interactive charts, or `docs/priorities.html` for the previous essay on jobs, prices and housing. Both work offline. The [crisis methods](CRISIS_METHODS.md) explain the episode selection, source checks, alternative classifications and what the comparison can establish.
 
-**Кратко по-русски:** исследование рассматривает, как экономические шоки, доверие к институтам, политические стратегии и информация взаимодействуют при изменении общественных приоритетов. В репозитории сохранены данные, модели, исторический обзор, проверки устойчивости и прежние анализы.
+Кратко по-русски. Новая версия сопоставляет выборы до и после кризисов и разбирает, в каких случаях недовольство принесло голоса популистам. Предыдущее исследование общественных приоритетов доступно отдельно.
 
 ## Repository map
 
@@ -22,11 +22,26 @@ The [primary-source reading audit](analysis/20_primary_reading.md) checks how th
 | `research_audit.md` | Claim-to-evidence audit, independent computational checks and sensitivity bounds. |
 | `RESEARCH_CHANGELOG.md` | New findings, changed conclusions and unresolved gaps. |
 | `CAUSAL_DESIGN.md` | Rival mechanisms, required data and tests that could falsify the proposed causal chain. |
+| `CRISIS_METHODS.md` | Election pairing, coverage, benchmarks, sensitivities and case evidence. |
 | `METHODS.md` | Definitions, sample, modelling choices, scope and data limitations. |
 
 The baseline analysis is retained as a snapshot, not silently replaced. Some original inputs require registration or separate downloads and cannot be redistributed here. See [the baseline guide](analysis/baseline/README.md). Do not interpret a historical snapshot limitation as the current status of the updated ESS analysis.
 
-## Reproduce the new analysis
+## Reproduce the crisis comparison
+
+Place the ten named inputs from [the source guide](data/raw/README.md#crisis-and-elections) in `data/raw/`. Then run:
+
+```sh
+python -m pip install -r requirements.txt
+python analysis/21_crisis_elections.py
+python analysis/22_build_crisis_page.py
+python -m unittest discover -s tests
+node tests/site.test.js
+```
+
+The page builder uses committed aggregates, so it can also run from a checkout without raw data.
+
+## Reproduce the archived priorities analysis
 
 Python 3.12 is recommended. The lockfile records the actual analysis environment. Download or place the named source files described in [data/raw/README.md](data/raw/README.md) into `data/raw/`; the ESS download requires a free account. Do not commit an ESS user ID, password, token or raw respondent files.
 

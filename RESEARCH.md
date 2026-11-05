@@ -1,5 +1,7 @@
 # Research map
 
+The current essay asks when a crisis strengthens populists. [Crisis and electoral gains](CRISIS_METHODS.md) maps the new evidence and explains how to reproduce it. The sections below document the previous study of public priorities and the material retained in its [archived essay](docs/priorities.html).
+
 ## Explanatory question and hypotheses
 
 Why do similar shocks produce different political priorities and outcomes? Our working framework links exposure, interpretation and trust, political supply and media, then institutional constraints and policy feedback. It predicts neither a uniform reaction nor a proven causal sequence. The research compares competing mechanisms: re-ranking of coexisting concerns, changes in attitudes, institutional distrust, elite framing and distribution of policy costs. See `analysis/15_historical_context.md` for competing published findings and `METHODS.md` for the limits of our own observational tests.
@@ -21,7 +23,7 @@ The project asks how shocks, economic structure, institutions and political acto
 
 ## Reading order
 
-1. Read `docs/index.html` in English or Russian for the integrated argument and figures.
+1. Read `docs/priorities.html` in English or Russian for the prior argument and figures.
 2. Read `METHODS.md` for the new operational definitions, modelling and limitations.
 3. Inspect `analysis/01_households_climate.py` through `analysis/12_mecco_sensitivity.py`, the claim audit, and their output tables in `data/processed/`.
 4. Review `analysis/baseline/` for the prior models, source-specific analyses, sensitivity checks, figures and original article. The baseline is part of this research; it is retained separately so that changes and methodological decisions remain auditable.

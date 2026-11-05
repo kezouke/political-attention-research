@@ -1,4 +1,4 @@
-const fs=require('fs'),vm=require('vm'),path=require('path').resolve(__dirname,'../docs')+'/',html=fs.readFileSync(path+'index.html','utf8');
+const fs=require('fs'),vm=require('vm'),path=require('path').resolve(__dirname,'../docs')+'/',html=fs.readFileSync(path+'priorities.html','utf8');
 class E{constructor(tag){this.tag=tag;this.children=[];this.style={};this.events={};this.value='';this.dataset={};this.attrs={}}setAttribute(k,v){this.attrs[k]=v}replaceChildren(...x){this.children=x}append(...xs){this.children.push(...xs)}addEventListener(k,f){this.events[k]=f}}
 let nodes={};for(const m of html.matchAll(/<(\w+)[^>]*\bid="([^"]+)"[^>]*>/g))nodes['#'+m[2]]=new E(m[1]);
 nodes['#ess-select'].value='8';nodes['#spain-conditions-select'].value='unemploy';

@@ -51,7 +51,7 @@ class ResearchResults(unittest.TestCase):
     def test_media_denominators_and_basket(self):
         n=pd.read_csv(P/'data/processed/nyt_topics_2010_2016.csv').set_index('year');self.assertEqual(int(n.loc[2010,'n']),658);self.assertEqual(int(n.loc[2016,'civil_rights_n']),22)
         x=pd.read_csv(P/'data/processed/mecco_baskets_annual.csv');r=x[(x.region=='latin_america')&(x.year==2025)].iloc[0];self.assertEqual(int(r.articles),1550);self.assertEqual(int(r.n_sources),2)
-    def test_site_bundle_exists(self):
-        html=(P/'docs/index.html').read_text();data=(P/'docs/data.js').read_text();self.assertIn('data-language="en"',html);self.assertIn('lang="ru"',html);self.assertIn('"ess_model"',data);self.assertNotIn('userId=',html+data)
+    def test_archived_site_bundle_exists(self):
+        html=(P/'docs/priorities.html').read_text();data=(P/'docs/data.js').read_text();self.assertIn('data-language="en"',html);self.assertIn('lang="ru"',html);self.assertIn('"ess_model"',data);self.assertNotIn('userId=',html+data)
 
 if __name__=='__main__':unittest.main()

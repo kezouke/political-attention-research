@@ -13,3 +13,6 @@ analysis/baseline/data/*
 # Row-level Manifesto Project-derived material is kept local.
 /data/processed/manifesto_issue_documents.csv
 /analysis/baseline/outputs/manifesto_documents.csv
+
+# Working calendar reconstructed from third-party election data.
+/data/processed/crisis_election_calendar.csv

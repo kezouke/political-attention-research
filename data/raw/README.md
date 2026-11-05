@@ -67,3 +67,22 @@ Source citation: Chaqués Bonafont, L., Palau, A. and Baumgartner, F. R. (2015),
 - `thailand_asia_foundation_2010.pdf`: original [Asia Foundation survey report](https://www.locjkt.or.id/application/docliblcjkt/upload/ThailandNationalSurvey2010.pdf), SHA-256 `4c1ebbc120d0d0bc2818b7618b64767e7e32845f0c1892e3582d78851b692c12`. The Thai election figures and source URLs are transcribed in `analysis/13_thailand_longitudinal.py` and documented in `analysis/13_thailand_notes.md`.
 - `cis_september_YYYY.pdf`: primary Spain CIS barometers, downloaded with `python analysis/14_identity_spain_cis.py --download`. Exact URLs, hashes, pages, categories, field dates and respondent counts are recorded in `data/processed/identity_spain_cis_selected.csv`. Underlying PDF distribution is governed by CIS; raw files remain excluded from this repository.
 The 2021–2022 common-shock comparison in `analysis/19_common_shock.py` uses the committed `data/processed/macro_issue_panel.csv`, itself derived from the SPES/Eurobarometer and World Bank series documented here. It introduces no new restricted raw dataset.
+
+## Crisis and elections
+
+These inputs are for `analysis/21_crisis_elections.py`. Save them in this directory. Full source files and the reconstructed working election calendar remain local.
+
+| File | Source | SHA-256 of used file |
+| --- | --- | --- |
+| `world_populism_app.rds` | [World Populism Dataset dashboard data, pinned revision](https://raw.githubusercontent.com/World-Populism-Dataset/app/7d85b4f4d91429e31198dd2f9db90420e14d1d57/data/wpd.rds) | `e6dd3c7d26c4ac93a25bf7c1c45e17f46c245af5dd97f952009b921cbd1ff7a6` |
+| `ppeg_parl_2025v1.zip` | [PPEG parliamentary results](https://ppeg.wzb.eu/www/ppeg_parl_2025v1.zip) | `75384c4525349fe5640fd9b65adab8a5df19bd1370402a0f396de71eac393bbe` |
+| `ppeg_pres_2025v1.zip` | [PPEG presidential results](https://ppeg.wzb.eu/www/ppeg_pres_2025v1.zip) | `6bb4fef6c5d68167a4b4e8865409c0a19c4947ac15dd9db6e2d5cd8d33d67f3d` |
+| `ppeg_comb_2025v1.zip` | [PPEG combined electoral and government data](https://ppeg.wzb.eu/www/ppeg_comb_2025v1.zip) | `21e25b6ab0427e66a0dc6aec363245115ec59ce9a95b17a46a06b1b4f31a5492` |
+| `laeven_valencia_2020.xlsx` | [Laeven and Valencia (2020), published supplementary workbook](https://static-content.springer.com/esm/art%3A10.1057%2Fs41308-020-00107-3/MediaObjects/41308_2020_107_MOESM1_ESM.xlsx) | `24545e4d95e459dd83264fd92531dc9f02fcb13831b9170f77c7d0c4ef0814aa` |
+| `wdi_real_gdp_growth_1978_2024.json` | [World Bank API, real GDP growth](https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.KD.ZG?format=json&date=1978:2024&per_page=20000) | `11479f4d184f8eebe592f43613daa873f001ef387004dbb604b7f9055322e26e` |
+| `wdi_country_metadata.json` | [World Bank API, country metadata](https://api.worldbank.org/v2/country?format=json&per_page=400) | `c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce` |
+| `vdem.RData` | [V-Dem v16, official R package, pinned revision](https://raw.githubusercontent.com/vdeminstitute/vdemdata/f4dd26922e658442524dfd954bf14f7ebe622d5d/data/vdem.RData) | `39b412d39a061c18f20c98e4ad4d6355b05a0441df31be4ee9aec420dc3d95ea` |
+| `vparty.RData` | [V-Party v2, official R package, pinned revision](https://raw.githubusercontent.com/vdeminstitute/vdemdata/f4dd26922e658442524dfd954bf14f7ebe622d5d/data/vparty.RData) | `a4bde75e84c01ddfe5fc1fe8b32a87df2c13158eb658769f8a4ceb8f3ca5b964` |
+| `populist_4_country_elections.csv` | [The PopuList 4.0, country-election series, pinned revision](https://raw.githubusercontent.com/popu-list/popu-list.github.io/f44518b131edbd789ae694bb212c84c66290c484/Data/P.csv) | `81f46022826ded8eeca29b33f4e36fe752224e2c2a8643f2aa2f6f0815b01602` |
+
+World Bank snapshots were retrieved on 5 November 2026. The API can revise historical figures. The sensitivity script and derived tables record the definitions used in the essay. The PopuList's party classifications are documented at [the project website](https://popu-list.org/).
