@@ -30,6 +30,11 @@ class CrisisEssayTests(unittest.TestCase):
         self.assertEqual((spain['pre_date'], spain['post_date']), ('2008-03-09', '2011-11-20'))
         self.assertEqual(float(spain['change_pp']), 0)
 
+    def test_slovak_banking_episode_is_not_an_ordinary_recession(self):
+        slovak = [row for row in read_csv('crisis_election_pairs') if row['iso'] == 'SVK']
+        self.assertTrue(any(row['year'] == '1998' and row['kind'] == 'banking' for row in slovak))
+        self.assertFalse(any(row['year'] == '1999' and row['kind'] == 'recession' for row in slovak))
+
     def test_price_figure_keeps_missing_elections_distinct_from_zero(self):
         rows = read_csv('price_shock_election_check')
         paired = [row for row in rows if row['status'] == 'paired']
@@ -42,7 +47,7 @@ class CrisisEssayTests(unittest.TestCase):
     def test_offline_bundle_and_bilingual_article(self):
         bundle = (ROOT / 'docs/crisis-data.js').read_text()
         data = json.loads(bundle.removeprefix('window.CRISIS_DATA = ').strip().removesuffix(';'))
-        self.assertEqual(len(data['pairs']), 78)
+        self.assertEqual(len(data['pairs']), 77)
         self.assertEqual(len({r['iso'] for r in data['pairs']}), 37)
         self.assertEqual(len(data['brazil']), 30)
         self.assertEqual(len(data['prices']), 16)

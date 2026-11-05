@@ -22,7 +22,7 @@ WPD_ALIASES = {
 }
 IMF_ALIASES = {
     **WPD_ALIASES, 'Czech Republic': 'CZE', 'Russian Federation': 'RUS',
-    'Slovak Republic': 'SVK', 'Turkey': 'TUR', 'United States of America': 'USA',
+    'Slovak Republic': 'SVK', 'Slovak Rep': 'SVK', 'Turkey': 'TUR', 'United States of America': 'USA',
     'Venezuela, Rep. Bol. de': 'VEN',
 }
 # National executive elections. Ceremonial presidential races are omitted.

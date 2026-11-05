@@ -4,6 +4,7 @@ const data = window.CRISIS_DATA;
 const $ = (selector) => document.querySelector(selector);
 const languageFromUrl = () => new URLSearchParams(location.search).get('lang') === 'ru' ? 'ru' : 'en';
 let lang = languageFromUrl();
+let dismissActiveTooltip;
 const t = (en, ru) => lang === 'ru' ? ru : en;
 const iso2 = {
   ALB: 'AL', ARG: 'AR', AUS: 'AU', AUT: 'AT', BEL: 'BE', BOL: 'BO', BRA: 'BR',
@@ -97,10 +98,13 @@ function interactions(figure, readout, hint) {
   const tooltip = figure.querySelector('.chart-tooltip');
   const marks = [];
   let pinned;
+  let lastIndex;
 
   function placeTooltip(mark, value) {
     const frame = figure.getBoundingClientRect();
     const point = mark.getBoundingClientRect();
+    if (dismissActiveTooltip !== dismiss) dismissActiveTooltip?.();
+    dismissActiveTooltip = dismiss;
     tooltip.textContent = value;
     tooltip.hidden = false;
     const half = Math.min(tooltip.offsetWidth / 2 + 6, frame.width / 2);
@@ -118,43 +122,67 @@ function interactions(figure, readout, hint) {
 
   function clear() {
     tooltip.hidden = true;
+    if (dismissActiveTooltip === dismiss) dismissActiveTooltip = undefined;
     show(pinned);
+  }
+
+  function dismiss() {
+    pinned?.mark.setAttribute('aria-pressed', 'false');
+    pinned = undefined;
+    clear();
+  }
+
+  function reveal(item) {
+    lastIndex = item.index;
+    placeTooltip(item.mark, item.short);
+    show(item);
+  }
+
+  function pin(item) {
+    pinned?.mark.setAttribute('aria-pressed', 'false');
+    pinned = item;
+    item.mark.setAttribute('aria-pressed', 'true');
+    reveal(item);
+  }
+
+  const navigation = figure.querySelector('.point-navigation');
+  if (navigation) {
+    const steps = [[-1, t('Previous point', 'Предыдущая точка')], [1, t('Next point', 'Следующая точка')]];
+    navigation.replaceChildren(...steps.map(([step, label]) => {
+      const button = element('button', '', label);
+      button.type = 'button';
+      button.addEventListener('click', () => {
+        const previous = lastIndex ?? (step > 0 ? -1 : 0);
+        pin(marks[(previous + step + marks.length) % marks.length]);
+      });
+      return button;
+    }));
   }
 
   show();
   tooltip.hidden = true;
   return (mark, title, details, short = details) => {
     const index = marks.length;
-    const item = { mark, title, details };
+    const item = { mark, title, details, short, index };
     marks.push(item);
     mark.tabIndex = index === 0 ? 0 : -1;
     mark.type = 'button';
     mark.setAttribute('aria-label', `${title}. ${details}`);
     mark.setAttribute('aria-pressed', 'false');
-    const reveal = () => {
-      show(item);
-      placeTooltip(mark, short);
-    };
     mark.addEventListener('pointerenter', (event) => {
-      if (event.pointerType !== 'touch') reveal();
+      if (event.pointerType !== 'touch') reveal(item);
     });
     mark.addEventListener('pointerleave', () => {
       if (document.activeElement !== mark) clear();
     });
     mark.addEventListener('focus', () => {
       marks.forEach(({ mark: target }) => { target.tabIndex = target === mark ? 0 : -1; });
-      reveal();
+      reveal(item);
     });
     mark.addEventListener('blur', clear);
     mark.addEventListener('click', () => {
-      if (pinned) pinned.mark.setAttribute('aria-pressed', 'false');
-      pinned = pinned === item ? undefined : item;
-      if (pinned) {
-        mark.setAttribute('aria-pressed', 'true');
-        reveal();
-      } else {
-        clear();
-      }
+      if (pinned === item) dismiss();
+      else pin(item);
     });
     mark.addEventListener('keydown', (event) => {
       let next = index;
@@ -162,12 +190,7 @@ function interactions(figure, readout, hint) {
       else if (['ArrowLeft', 'ArrowUp'].includes(event.key)) next = (index + marks.length - 1) % marks.length;
       else if (event.key === 'Home') next = 0;
       else if (event.key === 'End') next = marks.length - 1;
-      else if (event.key === 'Escape') {
-        if (pinned) pinned.mark.setAttribute('aria-pressed', 'false');
-        pinned = undefined;
-        clear();
-        return;
-      } else return;
+      else return;
       event.preventDefault();
       marks[next].mark.focus();
     });
@@ -203,6 +226,7 @@ function pairDetails(row) {
 }
 
 function voteChart() {
+  dismissActiveTooltip?.();
   const kind = $('#vote-select').value;
   const presidential = kind === 'presidential';
   const rows = data.pairs.filter((row) => presidential ? row.type === 'presidential' :
@@ -272,12 +296,13 @@ function incumbentChart() {
     ]);
   table($('#incumbent-table'), [t('Country', 'Страна'), t('Crisis', 'Кризис'),
     t('Head of government’s party', 'Партия главы правительства'), t('Party vote change', 'Сдвиг у партии'),
-    t('Populist vote change', 'Сдвиг у популистов')], rows.map((row) => [
+    t('Populist vote change', 'Изменение доли голосов')], rows.map((row) => [
     country(row), String(row.year), row.pm_party, pp(row.pm_change_pp), pp(row.change_pp),
   ]));
 }
 
 function brazilChart() {
+  dismissActiveTooltip?.();
   const issue = $('#brazil-select').value;
   const rows = data.brazil.filter((row) => row.issue === issue).sort((a, b) => a.wave - b.wave);
   const peak = Math.max(...rows.map((row) => row.pct_all));
@@ -310,7 +335,7 @@ function pricesChart() {
     (row) => row.price_change_pp, (row) => row.vote_change_pp, [15, 45], [-5, 20],
     [15, 25, 35, 45], [-5, 0, 5, 10, 15, 20], bind, (row) => [
       country(row),
-      `${t('Prices in the survey', 'Цены в опросе')}: ${pct(row.price_2021)} → ${pct(row.price_2022)} (${pp(row.price_change_pp)}). ${t('Populist vote', 'Голоса популистов')}: ${date(row.pre_date)} · ${pct(row.pre_vote_pct)} → ${date(row.post_date)} · ${pct(row.post_vote_pct)} (${pp(row.vote_change_pp)}).`,
+      `${t('Prices in the survey', 'Цены в опросе')}: ${pct(row.price_2021)} → ${pct(row.price_2022)} (${pp(row.price_change_pp)}). ${t('Populist vote', 'Доля голосов за популистов')}: ${date(row.pre_date)} · ${pct(row.pre_vote_pct)} → ${date(row.post_date)} · ${pct(row.post_vote_pct)} (${pp(row.vote_change_pp)}).`,
       `${country(row)} · ${pp(row.price_change_pp)} / ${pp(row.vote_change_pp)}`,
     ]);
   table($('#prices-table'), [t('Country', 'Страна'), t('Price mentions, change', 'Сдвиг упоминаний цен'),
@@ -350,6 +375,9 @@ for (const link of document.querySelectorAll('[data-locale]')) {
 if (location.protocol === 'file:') {
   document.querySelectorAll('[data-methods]').forEach((link) => { link.href = '../CRISIS_METHODS.md'; });
 }
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') dismissActiveTooltip?.();
+});
 window.addEventListener('popstate', () => { lang = languageFromUrl(); render(); });
 $('#vote-select').addEventListener('change', voteChart);
 $('#brazil-select').addEventListener('change', brazilChart);
