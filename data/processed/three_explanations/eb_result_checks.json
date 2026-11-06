@@ -1,0 +1,14 @@
+{
+  "locked_inputs_match": true,
+  "target_validation_block_combinations": 64,
+  "bootstrap_marginal_draws_per_estimate": 1000,
+  "probability_and_country_weight_invariants_passed": true,
+  "validation_loss_bootstrap_draws": 10000,
+  "validation_interval_refits_training": false,
+  "remaining_checks": [
+    "Leave-one-country-out marginal stability, rather than held-out loss alone.",
+    "Detailed missing/unknown-party bounds and additional measurement alternatives.",
+    "Within-country heterogeneous slopes and nonlinear model benchmark.",
+    "Pre-election panels and national-election comparisons; EB cannot establish change before a vote."
+  ]
+}

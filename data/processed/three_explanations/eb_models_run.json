@@ -1,0 +1,18 @@
+{
+  "start_utc": "2026-11-06T18:30:18.825880+00:00",
+  "end_utc": "2026-11-06T18:34:59.647760+00:00",
+  "input_lock_commit": "a59f22b",
+  "protocol_commit": "bdbd371",
+  "contract_sha256": "7465c900e7d8553486a430beb8bde9ec359cf3e0c7398e4c68c54823ce564b12",
+  "model_script_sha256": "ee3a4cb0c5c14ef002fd49c5fa3ec64997d72c432e8068a3053846ab1248bb50",
+  "python": "3.12.15",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "sklearn": "1.9.1",
+  "pandas": "3.1.0",
+  "seed": 20261106,
+  "country_bootstrap_draws": 1000,
+  "convergence_warning_policy": "ConvergenceWarning raises, no failed fits silently removed",
+  "microdata_exported": false,
+  "interpretation": "Post-election conditional associations, not causes or pre-election forecasts"
+}
