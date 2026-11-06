@@ -1,0 +1,13 @@
+{
+  "locked_hashes_match": true,
+  "marginal_estimates": 72,
+  "bootstrap_draws_per_estimate": 1000,
+  "sensitivity_specifications": 32,
+  "validation_blocks": 12,
+  "paired_comparisons": 12,
+  "transition_cells": 54,
+  "simultaneous_importance_cells": 4,
+  "probability_and_sample_checks_passed": true,
+  "raw_records_read": false,
+  "validation_intervals_refit_training": false
+}

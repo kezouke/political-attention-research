@@ -1,0 +1,16 @@
+{
+  "start_utc": "2026-11-06T19:59:57.698150+00:00",
+  "end_utc": "2026-11-06T20:02:27.889359+00:00",
+  "script_sha256": "2afb54faf9a31b3b525ee3c738080d975abe98fd6cec1331613a88d5f9fc4264",
+  "contract_sha256": "2e35aa97b5cb59c4ce08dd9fd7cfe27af687834ff3f0dc92e7d4fa0be5767d65",
+  "bootstrap_draws_per_estimate": 1000,
+  "heldout_loss_bootstrap_draws": 2000,
+  "validation_intervals_refit_training": false,
+  "individual_predictions_exported": false,
+  "interpretation": "Association of later importance conditional on earlier importance and both positions; no causal claim",
+  "future_work": [
+    "Designed 2009/2013 linkage",
+    "Observed-selection sensitivity",
+    "National survey comparisons"
+  ]
+}
