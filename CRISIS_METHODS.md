@@ -1,6 +1,6 @@
 # Crisis and electoral gains
 
-This note documents the comparison in [When does a crisis strengthen populists?](docs/index.html). It separates the main election comparison, historical mechanisms and the later price episode. The previous essay on public priorities remains in [the archive](docs/priorities.html).
+This note documents the election comparison in [Elections after banking crises](docs/index.html) and the Brazil and price comparisons in [What voters worried about before elections](docs/attention.html). The earlier essay on public priorities is available in [the archive](docs/priorities.html).
 
 ## What is measured
 
@@ -32,7 +32,7 @@ The [main results and sensitivities](data/processed/crisis_election_summary.csv)
 
 ## Historical evidence and the 2022 price episode
 
-The historical section distinguishes national elections, campaign documents and evidence from local variation. The Spanish evidence includes the 2011 proposals of the Puerta del Sol camp, the ESM programme and Podemos's 2015 platform. Portugal's Left Bloc is coded as populist by WPD in the period discussed, and as far left without the populist label in [The PopuList 4.0](https://popu-list.org/). The case demonstrates why classification matters. The 2015 Spanish and Portuguese elections illustrate developments after the first post-2008 vote, outside the first-election comparison. Japan in 2009 supplies a case where an established opposition party gained with no qualifying WPD campaign at that election.
+The historical section distinguishes national elections, campaign documents and evidence from local variation. The Spanish evidence includes the 2011 proposals of the Puerta del Sol camp, the ESM programme and Podemos's 2015 platform. Portugal's Left Bloc is coded as populist by WPD in the period discussed, and as far left without the populist label in [The PopuList 4.0](https://popu-list.org/). The case demonstrates why classification matters. The 2015 Spanish and Portuguese elections illustrate developments after the first post-2008 vote, outside the first-election comparison.
 
 For the mechanism, [Gyöngyösi and Verner (2022)](https://doi.org/10.1111/jofi.13138) compare Hungarian places with different pre-crisis exposure to foreign-currency borrowing and report specification-dependent estimates. Their 1.6–3.0 point range for a ten-point debt-to-income shock is a range of reported estimates, not a confidence interval. The arithmetic illustration in the essay uses hypothetical payments. Hungary's episode is borderline in the Laeven–Valencia banking chronology. A [separate Spanish study by Hüttl](https://www.diw.de/documents/publikationen/73/diw_01.c.954622.de/dp2120.pdf) uses local credit exposure and studies political polarisation. Its outcome is broader than Podemos's vote. The essay relies on the published Hungarian design for the clearest exposure-to-vote comparison. We did not independently estimate its regression or estimate trust as a mediator.
 

@@ -1,18 +1,18 @@
 # Political Attention Research
 
-[When does a crisis strengthen populists?](https://kezouke.github.io/political-attention-research/?lang=en) · [Когда кризис усиливает популистов?](https://kezouke.github.io/political-attention-research/?lang=ru)
+[Elections after banking crises](https://kezouke.github.io/political-attention-research/?lang=en) · [Выборы после банковских кризисов](https://kezouke.github.io/political-attention-research/?lang=ru)
 
-A bilingual research essay comparing elections around banking crises and recessions, with historical evidence from Spain, Portugal, Hungary, Brazil and Japan. The essay uses surveys to date shifts in public priorities and election results to measure who gained support.
+A bilingual research essay comparing parliamentary elections around banking crises, with evidence from Spain and Hungary. A companion essay compares public concerns and election results in Brazil and Europe.
 
-Open `docs/index.html` for the current essay and interactive charts, or `docs/priorities.html` for the previous essay on jobs, prices and housing. Both work offline. The [crisis methods](CRISIS_METHODS.md) explain the episode selection, source checks, alternative classifications and what the comparison can establish.
+Open `docs/index.html` for the banking-crisis essay, `docs/attention.html` for the companion essay, or `docs/priorities.html` for the earlier essay on jobs, prices and housing. All three work offline. The [crisis methods](CRISIS_METHODS.md) explain the episode selection, source checks, alternative classifications and what the comparisons can establish.
 
-Кратко по-русски. Новая версия сопоставляет выборы до и после кризисов и разбирает, в каких случаях недовольство принесло голоса популистам. Предыдущее исследование общественных приоритетов доступно отдельно.
+Основное эссе сравнивает результаты партии власти и популистов до и после банковских кризисов. Материал о коррупции в Бразилии и инфляции в Европе вынесен в отдельное эссе.
 
 ## Repository map
 
 | Location | Contents |
 | --- | --- |
-| `docs/` | Bilingual research post, five responsive figures and static data bundle. |
+| `docs/` | Bilingual research essays, interactive figures and static data bundles. |
 | `analysis/` | Reproducible analyses, source notes and page-data build. |
 | `data/processed/` | Reproducible country, election and media aggregates, plus model results. |
 | `data/raw/README.md` | Versions, sources, checksums and instructions for obtaining raw inputs. Raw inputs are deliberately excluded. |

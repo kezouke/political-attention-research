@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A comparative essay on economic crises, political blame and populist votes. Explore the elections behind the argument.">
-  <title>When does a crisis strengthen populists?</title>
+  <meta name="description" content="Parliamentary elections before and after systemic banking crises, with evidence from Spain and Hungary.">
+  <title>Elections after banking crises</title>
   <script>if (new URLSearchParams(location.search).get('lang') === 'ru') document.documentElement.lang = 'ru';</script>
   <link rel="stylesheet" href="crisis.css?v=20261106">
   <script defer src="crisis-data.js"></script>
-  <script defer src="crisis.js?v=20261106"></script>
+  <script defer src="crisis.js?v=20261106.2"></script>
 </head>
 <body>
   <a href="#story" class="skip"><span lang="en" data-copy="en">Skip to the essay</span><span lang="ru" data-copy="ru">К тексту</span></a>
@@ -22,18 +22,18 @@
 
   <div class="hero" id="top">
     <div lang="en" data-copy="en">
-      <p class="eyebrow">Elections and economic shocks</p>
-      <h1>When does a crisis strengthen populists?</h1>
-      <p class="deck">In Iceland, campaigns classified as populist won 22% at the first election after the 2008 banking crisis. Their share in Spain stayed at zero. We compare elections around banking crises and look at how household losses shaped the vote in Hungary.</p>
-      <p class="meta">5 November 2026 · Research essay · 10–15 min</p>
-      <nav class="contents" aria-label="Essay sections"><a href="#comparison">The elections</a><a href="#iberia">Iberia</a><a href="#debt">Household debt</a><a href="#brazil">Brazil</a><a href="#prices">The price shock</a></nav>
+      <p class="eyebrow">Political Attention Research</p>
+      <h1>Elections after banking crises</h1>
+      <p class="deck">The governing party’s vote share fell in 17 of the 21 election pairs where we could track it before and after a banking crisis. Populists gained in eight of those 17 cases. Spain shows what the first election can miss. A study of Hungarian borrowers estimates how much one financial loss mattered for the vote.</p>
+      <p class="meta">6 November 2026 · Research essay</p>
+      <nav class="contents" aria-label="Essay sections"><a href="#comparison">The populist vote</a><a href="#incumbents">The governing party</a><a href="#iberia">Spain</a><a href="#debt">Hungary</a></nav>
     </div>
     <div lang="ru" data-copy="ru">
-      <p class="eyebrow">Выборы и экономические потрясения</p>
-      <h1>Когда кризис усиливает популистов?</h1>
-      <p class="deck">Исландия и Испания пережили банковские кризисы в 2008 году. На первых выборах после кризиса популисты прибавили в Исландии, а в Испании их доля не изменилась. Мы сравниваем выборы до и после банковских кризисов и разбираем, как потери заёмщиков повлияли на голосование в Венгрии.</p>
-      <p class="meta">5 ноября 2026 · Исследовательское эссе · 10–15 минут</p>
-      <nav class="contents" aria-label="Разделы эссе"><a href="#comparison">Сравнение выборов</a><a href="#iberia">Испания и Португалия</a><a href="#debt">Долги домохозяйств</a><a href="#brazil">Бразилия</a><a href="#prices">Скачок цен</a></nav>
+      <p class="eyebrow">Political Attention Research</p>
+      <h1>Выборы после банковских кризисов</h1>
+      <p class="deck">После банковских кризисов доля партии главы правительства снизилась в 17 из 21 пары выборов, где её можно было сопоставить. Популисты прибавили в восьми из этих 17 случаев. Испания показывает, что может пропустить сравнение первых выборов. Исследование венгерских заёмщиков оценивает, как на голосовании сказался рост валютных долгов.</p>
+      <p class="meta">6 ноября 2026 · Исследовательское эссе</p>
+      <nav class="contents" aria-label="Разделы эссе"><a href="#comparison">Голоса за популистов</a><a href="#incumbents">Партия власти</a><a href="#iberia">Испания</a><a href="#debt">Венгрия</a></nav>
     </div>
   </div>
 
@@ -42,22 +42,19 @@
 
     <section class="section" id="comparison">
       <div class="prose" lang="en" data-copy="en">
-        <h2>29 election pairs around banking crises</h2>
-        <p>We compared 29 pairs of parliamentary elections in 28 countries. The banking crises began between 1991 and 2008, and the elections took place between 1989 and 2013. In Iceland, the vote share of campaigns classified as populist rose from 0% in 2007 to 22% in 2009, on either side of the September 2008 banking crisis. In Spain it was 0% at both the March 2008 and November 2011 elections.</p>
-        <p>Across all 29 pairs, populists gained vote share in 15, lost share in seven and held it in seven. The median change was +0.18 percentage points. Large increases such as Iceland’s pulled the average up to +5.35 points.</p>
-        <p>Here, a populist campaign frames ordinary people as shut out of power by an elite that serves itself. A party can campaign against a particular government or expose corruption without making that broader claim. We use the World Populism Dataset, whose coders generally assess campaigns that received at least 5% of the vote. A zero on the chart means no campaign was classified as populist.</p>
-        <p>For each banking crisis, we compared the last parliamentary election before the crisis began with the first in the following five years. We took the dates from the IMF chronology of systemic banking crises, episodes of severe distress in a country’s banking system. We excluded pairs with an election during the month or year in which the crisis began if its date could not be narrowed down further. Both elections had to take place under an electoral or liberal democracy.</p>
+        <h2>How much did the populist vote change?</h2>
+        <p>We compared 29 pairs of parliamentary elections in 28 countries. The systemic banking crises in the sample began between 1991 and 2008, and the elections took place between 1989 and 2013. Each pair links the last election before the crisis began to the first one held within five years of its onset.</p>
+        <p>We count votes for campaigns that the World Populism Dataset classifies as populist. These campaigns argue that a self-serving elite has shut ordinary people out of power. The dataset generally assesses campaigns that won at least 5% of the vote. A zero means the dataset records no campaign classified as populist at that election.</p>
+        <p>The populist vote share rose in 15 pairs, fell in seven and held steady in seven. The median change was +0.18 percentage points. A few large gains pulled the mean up to +5.35 points. In Iceland, after the banking crisis began in September 2008, the share went from zero in 2007 to 22% in 2009. Restricting the window to three years leaves 22 pairs and raises the median to +3.10 points. The shorter window changes which elections enter the sample.</p>
       </div>
       <div class="prose" lang="ru" data-copy="ru">
-        <h2>29 пар выборов до и после банковских кризисов</h2>
-        <p>Мы сравнили 29 пар парламентских выборов в 28 странах. Банковские кризисы в этой выборке начались в 1991–2008 годах, а сами выборы прошли в 1989–2013 годах. В Исландии доля голосов за кампании, отнесённые к популистским, выросла с 0% на выборах 2007 года до 22% в 2009-м. Между ними начался банковский кризис сентября 2008 года. В Испании доля осталась на нуле и до кризиса, в марте 2008-го, и после него, в ноябре 2011-го.</p>
-        <p>Из 29 пар доля голосов за популистов выросла в 15, снизилась в семи и осталась прежней в семи. Медианный сдвиг составил +0,18 процентного пункта. Крупные прибавки вроде исландской подняли среднее до +5,35 п. п.</p>
-        <p>Популистская кампания в этом исследовании утверждает, что элита сосредоточила власть в своих руках и использует её в собственных интересах, оставляя обычных людей без представительства. Партия может критиковать правительство или разоблачать коррупцию и при этом не выдвигать такой претензии. Мы используем World Populism Dataset, где авторы обычно оценивали кампании, набравшие от 5% голосов. Ноль на графике означает, что в данных нет кампании, отнесённой к популистским.</p>
-        <p>Для каждого банковского кризиса мы взяли последние парламентские выборы до его начала и первые в течение следующих пяти лет. Даты взяли из хронологии системных банковских кризисов МВФ. Это эпизоды, когда серьёзные проблемы затронули банковскую систему страны. Если начало известно с точностью до месяца или года и голосование пришлось на этот же месяц или год, пару исключали. Оба голосования должны были пройти в условиях электоральной или либеральной демократии.</p>
+        <h2>Как менялась доля голосов за популистов?</h2>
+        <p>Мы сравнили 29 пар парламентских выборов в 28 странах. Системные банковские кризисы в этой выборке начались в 1991–2008 годах, сами выборы прошли в 1989–2013 годах. В каждой паре мы взяли последние выборы до начала кризиса и первые в течение пяти лет после его начала.</p>
+        <p>Мы суммируем голоса за кампании, которые World Populism Dataset относит к популистским. Такие кампании утверждают, что элита удерживает власть в собственных интересах и отстраняет обычных людей от принятия решений. Авторы базы обычно оценивают кампании, набравшие от 5% голосов. Ноль означает, что на этих выборах база не отметила ни одной кампании как популистскую.</p>
+        <p>Доля популистов выросла в 15 парах, снизилась в семи и осталась прежней в семи. Медианный сдвиг составил +0,18 процентного пункта. Несколько крупных прибавок подняли среднее до +5,35 п. п. В Исландии после начала банковского кризиса в сентябре 2008 года доля выросла с нуля на выборах 2007 года до 22% в 2009-м. Если ограничить сравнение тремя годами после начала кризиса, остаются 22 пары, а медиана составляет +3,10 п. п. При таком ограничении меняется состав выборки.</p>
       </div>
-
       <figure class="figure" id="vote-figure" aria-labelledby="vote-title">
-        <h3 id="vote-title"><span lang="en" data-copy="en">How did the populist vote change after a crisis?</span><span lang="ru" data-copy="ru">Как менялась доля голосов за популистов после кризисов?</span></h3>
+        <h3 id="vote-title"><span lang="en" data-copy="en">How did the populist vote change between elections?</span><span lang="ru" data-copy="ru">Как менялась доля голосов за популистов между выборами?</span></h3>
         <p class="chart-kicker"><span lang="en" data-copy="en">Each dot is a pair of elections. The horizontal position shows the change in vote share.</span><span lang="ru" data-copy="ru">Точка показывает, как изменилась доля голосов между выборами до и после одного кризиса в одной стране.</span></p>
         <fieldset class="chart-filter" id="vote-filter">
           <legend><span lang="en" data-copy="en">Compare elections</span><span lang="ru" data-copy="ru">Сравнить выборы</span></legend>
@@ -75,19 +72,30 @@
         <details><summary><span lang="en" data-copy="en">View election pairs</span><span lang="ru" data-copy="ru">Посмотреть пары выборов</span></summary><div id="vote-table" class="table-scroll"></div></details>
         <figcaption><span lang="en" data-copy="en">The first two options show parliamentary elections. The post-crisis election is the first within five years. Shares are of valid votes.</span><span lang="ru" data-copy="ru">В первых двух режимах показаны парламентские выборы. После начала кризиса берём первые выборы в течение пяти лет. Доли рассчитаны от действительных голосов.</span> <a href="https://world-populism-dataset.github.io/website/data.html">World Populism Dataset</a> · <a href="https://doi.org/10.1057/s41308-020-00107-3">Laeven &amp; Valencia</a> · <a href="https://ppeg.wzb.eu/">PPEG</a></figcaption>
       </figure>
-
       <div class="prose" lang="en" data-copy="en">
-        <p>In Ireland, Fianna Fáil fell from 41.6% of the vote in 2007 to 17.4% in 2011. Sinn Féin gained 3 percentage points. Across the banking sample, we could follow the party of the head of government across both ballots in 21 of 29 pairs. It lost vote share in 17. Populists gained in eight of those 17, six by more than one point. We identify the governing party from the cabinet immediately before the second election.</p>
-        <p>Populists gained outside crises too. In countries with a banking or recession pair, their share rose in 50 of 128 consecutive parliamentary election pairs without a banking crisis or an observed year of economic contraction. The chart also shows recessions without a nearby banking crisis, dated from the first year of falling real GDP, and first-round presidential elections. Those samples include crises beginning through 2015.</p>
+        <p>For comparison, in countries where we had a parliamentary election pair around a banking crisis or a recession, we found 128 consecutive pairs with no systemic banking crisis and no year of falling real GDP. The populist share rose in 50. This shows how often gains occurred in calmer periods in those countries. The comparison pools elections from different countries and years.</p>
+        <p>Classifications can disagree. Portugal’s Left Bloc went from about 5% in 2011 to 10% in 2015. The World Populism Dataset counts its campaign as populist. <a href="https://popu-list.org/">The PopuList</a> classifies the party as far left and does not give it the populist label.</p>
       </div>
       <div class="prose" lang="ru" data-copy="ru">
-        <p>В Ирландии доля правившей «Фианна Файл» упала с 41,6% в 2007 году до 17,4% в 2011-м. «Шинн Фейн» прибавила 3 п. п. Сопоставить результаты партии главы правительства удалось в 21 паре из 29. В 17 из этих 21 пары доля партии власти снизилась. Популисты прибавили в восьми из этих 17 случаев, причём в шести их доля выросла больше чем на 1 п. п. Партию власти определяем по составу кабинета перед вторыми выборами и сравниваем её доли на обоих голосованиях.</p>
-        <p>Доля популистов росла и в спокойные периоды. В странах, где мы уже сравнили выборы до и после кризиса или рецессии, мы нашли 128 пар последовательных парламентских выборов без банковского кризиса и без года падения реального ВВП. В 50 из них доля популистов выросла. На первом графике можно отдельно посмотреть рецессии, которые начались без банковского кризиса в соседние годы, и первые туры президентских выборов. В этих выборках есть эпизоды вплоть до 2015 года.</p>
+        <p>Для сравнения мы взяли страны, где уже нашли пары парламентских выборов до и после банковского кризиса или рецессии. В этих странах нашлось 128 пар последовательных выборов без системного банковского кризиса и без года падения реального ВВП. В 50 из них популисты прибавили. Это ориентир для более спокойных периодов, составленный из выборов в разных странах и годах.</p>
+        <p>Классификации могут расходиться. Португальский Левый блок вырос примерно с 5% в 2011-м до 10% в 2015-м. World Populism Dataset относит его кампанию к популистским. <a href="https://popu-list.org/">The PopuList</a> относит блок к крайне левым партиям без отметки о популизме.</p>
       </div>
+    </section>
 
+    <section class="section" id="incumbents">
+      <div class="prose" lang="en" data-copy="en">
+        <h2>Did populists gain when the governing party’s vote share fell?</h2>
+        <p>We could track the party of the head of government across both elections in 21 pairs. We identify it from the cabinet in office before the second election. The party lost vote share in 17 pairs. Populists gained in eight of those 17, and by more than one percentage point in six.</p>
+        <p>In Ireland, after the 2008 banking crisis, the governing party Fianna Fáil fell from 41.6% in 2007 to 17.4% in 2011. Sinn Féin gained 3 points. Those figures measure changes in each party’s share of valid votes. Tracking individual voters would require different data.</p>
+      </div>
+      <div class="prose" lang="ru" data-copy="ru">
+        <h2>Прибавляли ли популисты, когда доля партии власти снижалась?</h2>
+        <p>В 21 паре удалось проследить долю одной и той же партии главы правительства на обоих голосованиях. Партию определяли по составу кабинета перед вторыми выборами. Её доля снизилась в 17 парах. Популисты прибавили в восьми из этих 17 случаев, причём в шести их доля выросла больше чем на 1 п. п.</p>
+        <p>В Ирландии после банковского кризиса 2008 года доля правившей «Фианна Файл» упала с 41,6% в 2007-м до 17,4% в 2011-м. «Шинн Фейн» прибавила 3 п. п. Эти цифры показывают сдвиг в долях действительных голосов. Чтобы проследить, куда перешли голоса отдельных избирателей, нужны другие данные.</p>
+      </div>
       <figure class="figure" id="incumbent-figure" aria-labelledby="incumbent-title">
         <h3 id="incumbent-title"><span lang="en" data-copy="en">Did populists gain where the governing party lost vote share?</span><span lang="ru" data-copy="ru">Прибавляли ли популисты там, где доля партии власти снижалась?</span></h3>
-        <p class="chart-kicker"><span lang="en" data-copy="en">Top left: the head of government’s party lost vote share and populists gained. Use the buttons below the plot to explore overlapping points.</span><span lang="ru" data-copy="ru">Слева вверху показаны выборы, на которых партия главы правительства потеряла долю голосов, а популисты прибавили. Если точки перекрываются, их можно выбрать кнопками под графиком.</span></p>
+        <p class="chart-kicker"><span lang="en" data-copy="en">Top left: the head of government’s party lost vote share and populists gained. Use the buttons below the plot to explore overlapping points.</span><span lang="ru" data-copy="ru">Слева вверху показаны выборы, на которых партия главы правительства потеряла долю голосов, а популисты прибавили. Кнопки под графиком позволяют выбрать отдельную пару, если точки перекрываются.</span></p>
         <p class="axis-caption"><span lang="en" data-copy="en">↑ Populist vote share change, pp</span><span lang="ru" data-copy="ru">↑ Сдвиг доли популистов, п. п.</span></p>
         <div id="incumbent-plot" class="plot scatter" role="group" aria-labelledby="incumbent-title"></div>
         <p class="axis-caption x"><span lang="en" data-copy="en">Head of government's party vote share change, pp →</span><span lang="ru" data-copy="ru">Сдвиг доли партии главы правительства, п. п. →</span></p>
@@ -97,65 +105,32 @@
         <details><summary><span lang="en" data-copy="en">View figures by election</span><span lang="ru" data-copy="ru">Посмотреть значения по выборам</span></summary><div id="incumbent-table" class="table-scroll"></div></details>
         <figcaption><span lang="en" data-copy="en">Twenty-one banking-crisis pairs. The PPEG measure weights votes across tiers in mixed electoral systems.</span><span lang="ru" data-copy="ru">21 пара парламентских выборов после банковских кризисов. В смешанных системах показатель PPEG взвешивает голоса по уровням выборов.</span> <a href="https://ppeg.wzb.eu/">PPEG</a> · <a href="https://world-populism-dataset.github.io/website/data.html">World Populism Dataset</a>.</figcaption>
       </figure>
-
-      <div class="prose" lang="en" data-copy="en">
-        <p>Japan shows what an electoral rout can look like without a new populist breakthrough under the campaign classification. After the 2008 downturn, the Liberal Democratic Party fell to 119 of 480 lower-house seats in 2009. The Democratic Party of Japan, an established opposition party, won 308. It offered a change of government and policies such as child allowances. Spain’s first post-crisis election also brought an established opposition party to power. The following election brought a second response to the crisis.</p>
-        <p class="cite"><a href="https://data.ipu.org/election-summary/HTML/2161_09.htm">Japan's 2009 election, IPU</a> <a href="https://www.v-dem.net/data/v-party-dataset/">V-Party methodology</a></p>
-      </div>
-      <div class="prose" lang="ru" data-copy="ru">
-        <p>На выборах в Японии в 2009 году правившая Либерально-демократическая партия получила 119 из 480 мест в нижней палате. После рецессии 2008 года её сменила уже существовавшая Демократическая партия Японии. Она обещала, среди прочего, пособия на детей и получила 308 мест. В Испании после кризиса власть тоже сначала перешла к крупной оппозиционной партии. Новая партия добилась прорыва на следующих выборах.</p>
-        <p class="cite"><a href="https://data.ipu.org/election-summary/HTML/2161_09.htm">Выборы в Японии в 2009 году, IPU</a> <a href="https://www.v-dem.net/data/v-party-dataset/">Методология V-Party</a></p>
-      </div>
     </section>
 
     <section class="section" id="iberia">
       <div class="prose" lang="en" data-copy="en">
-        <h2>Spain and Portugal offered different routes for protest</h2>
-        <p>Spain's housing boom put builders, buyers and banks on the same side of a rising market. When it collapsed, building stopped, loans went bad and unemployment rose from about 8% in 2007 to 26% in 2013. The 2011 election brought a conventional change of government. The Socialists lost about 15 points of the vote and the People's Party won a majority. Voters already had an established party they could use to remove the government.</p>
-        <p>A different claim was taking shape outside parliament. Early proposals from the Puerta del Sol protest camp put stricter oversight of banks alongside electoral reform and changes to the rules for candidates implicated in corruption cases. The proposals put decisions about credit and housing in the same political argument as the question of who gets to make those decisions. The demonstrations started in 2011, before Spain requested European bank-recapitalisation assistance in 2012. In 2012–2013 the European Stability Mechanism lent Spain €41.33 billion. Spain used its bank recapitalisation fund, FROB, to channel the assistance into its financial sector.</p>
-        <p>Podemos made the distribution of losses a campaign proposal. Its 2015 national platform called for a process to restructure household debt and allow a borrower to surrender the property in exchange for cancellation of the mortgage debt. It also called on rescued financial institutions to help repay European assistance. In the December 2015 congressional election, Podemos and its regional alliances won about 21% of votes. That was the second parliamentary election after the banking crisis began.</p>
+        <h2>In Spain, Podemos broke through at the second election</h2>
+        <p>Spain’s housing bust left construction sites idle and borrowers behind on payments. At the first parliamentary election after the banking crisis began in 2008, the governing Socialists lost about 15 percentage points. The People’s Party won a parliamentary majority in November 2011. Podemos and its regional allies won about 21% in December 2015, at the second election after the onset.</p>
+        <p>The Puerta del Sol protesters in May 2011 called for tighter bank supervision. In 2012–2013 Spain borrowed €41.33 billion from the European Stability Mechanism to recapitalise banks through a public fund. Podemos’s 2015 platform proposed letting borrowers surrender their homes to cancel the outstanding mortgage and requiring rescued banks to contribute to repaying the European loan. Our election pair for Spain ends in 2011, four years before Podemos’s breakthrough.</p>
         <p class="cite"><a href="https://www.esm.europa.eu/assistance/spain">ESM, Spain</a> <a href="https://www.rtve.es/noticias/20110520/primeras-propuestas-del-movimiento-15-m-reforma-electoral-mayor-control-banca/433831.shtml">Early 15-M proposals</a> <a href="https://cadenaser.com/especiales/elecciones-generales/los-programas-tema-a-tema/pdf/programa-electoral-podemos.pdf">Podemos 2015 platform</a> <a href="https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867">Official election results</a></p>
-        <p>Portugal also faced financial stress and austerity. Its 2011 EU–IMF programme financed a wider fiscal and economic adjustment. There was an established party to the left of the Socialists: the Left Bloc. It grew from about 5% in 2011 to 10% in 2015. After the election, it agreed to support a minority Socialist government in parliament in return for policy commitments, including reversals of some austerity measures. An established opposition party could channel those demands into a parliamentary agreement. Podemos's initial route was to build a new electoral vehicle that competed with the Socialists for those voters.</p>
-        <p>The comparison also exposes a coding choice. The World Populism Dataset includes the Portuguese Left Bloc in this period. The PopuList does not. Its rise and role in the 2015 agreement are observable under either rule. Whether that rise counts as a gain for populists depends on whether its campaign meets the definition. This is a reason to report which parties moved and show the evidence from their campaigns alongside the aggregate.</p>
-        <p class="cite"><a href="https://www.ecb.europa.eu/pub/pdf/mobu/mb201106en.pdf">Portugal's adjustment programme, ECB</a> <a href="https://www.parlamento.pt/Parlamento/Paginas/ResultadosEleitoraisAnteriores.aspx">Portuguese election results</a> <a href="https://ps.pt/assinados-os-acordos-entre-ps-be-pcp-e-pev/">The 2015 parliamentary agreements</a> <a href="https://popu-list.org/">The PopuList</a></p>
       </div>
       <div class="prose" lang="ru" data-copy="ru">
-        <h2>В Испании появилась Podemos. В Португалии усилился Левый блок</h2>
-        <p>На растущем рынке испанские застройщики, покупатели жилья и банки выигрывали от расширения кредита. Когда рынок обвалился, стройки остановились, часть кредитов перестала обслуживаться, а безработица выросла примерно с 8% в 2007 году до 26% в 2013-м. На выборах 2011 года правившие социалисты потеряли около 15 п. п. голосов. Народная партия, их главный соперник, получила большинство в парламенте.</p>
-        <p>Весной 2011 года участники протестов 15-M на мадридской площади Пуэрта-дель-Соль предложили усилить надзор за банками, изменить избирательный закон и пересмотреть правила допуска кандидатов, фигурировавших в коррупционных делах. Спор о том, как банки выдавали кредиты, стал частью спора о том, кому подотчётны банки и политики. В 2012–2013 годах Испания получила €41,33 млрд от Европейского стабилизационного механизма и направила эти деньги банкам через государственный фонд рекапитализации FROB.</p>
-        <p>Podemos превратила спор о распределении потерь в предвыборные предложения. В программе 2015 года партия предложила процедуру реструктуризации долгов домохозяйств, в том числе возможность передать заложенное жильё кредитору в обмен на полное погашение ипотеки. Она также предложила привлечь получившие помощь банки к погашению европейского займа. На выборах в Конгресс в декабре 2015 года Podemos и её региональные союзы получили около 21% голосов. Это были уже вторые парламентские выборы после начала банковского кризиса.</p>
+        <h2>В Испании Podemos добилась прорыва на вторых выборах</h2>
+        <p>После обвала рынка жилья в Испании остановились стройки, а часть заёмщиков перестала справляться с платежами. На первых парламентских выборах после начала банковского кризиса 2008 года правившие социалисты потеряли около 15 п. п. В ноябре 2011-го большинство в парламенте получила Народная партия. Podemos и её региональные союзники набрали около 21% в декабре 2015-го, уже на вторых выборах после начала кризиса.</p>
+        <p>В мае 2011 года участники протестов на мадридской площади Пуэрта-дель-Соль предложили усилить надзор за банками. В 2012–2013 годах Испания заняла €41,33 млрд у Европейского стабилизационного механизма и направила деньги банкам через государственный фонд. В программе 2015 года Podemos предложила разрешить заёмщику передать заложенное жильё кредитору в счёт полного погашения ипотеки и обязать получившие помощь банки участвовать в погашении европейского займа. Наша пара выборов по Испании заканчивается 2011 годом, за четыре года до прорыва Podemos.</p>
         <p class="cite"><a href="https://www.esm.europa.eu/assistance/spain">Банковская программа Испании</a> <a href="https://www.rtve.es/noticias/20110520/primeras-propuestas-del-movimiento-15-m-reforma-electoral-mayor-control-banca/433831.shtml">Первые предложения 15-M</a> <a href="https://cadenaser.com/especiales/elecciones-generales/los-programas-tema-a-tema/pdf/programa-electoral-podemos.pdf">Программа Podemos 2015 года</a> <a href="https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867">Официальные итоги выборов</a></p>
-        <p>Португалия тоже пережила финансовый кризис и бюджетные сокращения. Программа ЕС и МВФ 2011 года охватывала более широкую перестройку государственных финансов и экономики. Слева от социалистов уже действовал Левый блок. Он вырос примерно с 5% в 2011 году до 10% в 2015-м. После выборов блок согласился поддержать правительство социалистов в парламенте в обмен на программные уступки, в том числе пересмотр части мер экономии. Существующая партия смогла провести часть требований через парламентское соглашение. Podemos сначала построила новую партию и вступила в борьбу за этих избирателей с социалистами.</p>
-        <p>World Populism Dataset считает кампанию Левого блока популистской и включает его голоса в итог. В The PopuList у блока другая классификация. Рост с 5 до 10% виден в обоих случаях. Меняется ответ на вопрос, какая часть голосов в Португалии досталась популистам.</p>
-        <p class="cite"><a href="https://www.ecb.europa.eu/pub/pdf/mobu/mb201106en.pdf">Программа помощи Португалии, ЕЦБ</a> <a href="https://www.parlamento.pt/Parlamento/Paginas/ResultadosEleitoraisAnteriores.aspx">Итоги выборов Португалии</a> <a href="https://ps.pt/assinados-os-acordos-entre-ps-be-pcp-e-pev/">Парламентские соглашения 2015 года</a> <a href="https://popu-list.org/">The PopuList</a></p>
       </div>
-      <figure class="figure" aria-labelledby="iberia-timeline">
-        <h3 id="iberia-timeline"><span lang="en" data-copy="en">Two routes from crisis to representation</span><span lang="ru" data-copy="ru">Как протест дошёл до парламента в Испании и Португалии</span></h3>
-        <div class="case-grid" lang="en" data-copy="en">
-          <div class="case"><h4>Spain</h4><ol><li><time datetime="2011">2011</time> 15-M protests. The People's Party wins the election.</li><li><time datetime="2012">2012</time> European assistance for the banking sector.</li><li><time datetime="2015">2015</time> Podemos and allies win about 21% on a programme that includes household debt relief.</li></ol></div>
-          <div class="case"><h4>Portugal</h4><ol><li><time datetime="2011">2011</time> EU–IMF adjustment programme. The Social Democrats lead the new government.</li><li><time datetime="2015">2015</time> The Left Bloc wins about 10%, twice its 2011 share.</li><li><time datetime="2015-11">Nov. 2015</time> The Left Bloc agrees to support a minority Socialist government.</li></ol></div>
-        </div>
-        <div class="case-grid" lang="ru" data-copy="ru">
-          <div class="case"><h4>Испания</h4><ol><li><time datetime="2011">2011</time> Протесты 15-M. На выборах побеждает Народная партия.</li><li><time datetime="2012">2012</time> Испания получает доступ к европейской помощи банкам.</li><li><time datetime="2015">2015</time> Podemos и союзники получают около 21% с программой, включавшей облегчение долгов домохозяйств.</li></ol></div>
-          <div class="case"><h4>Португалия</h4><ol><li><time datetime="2011">2011</time> Программа ЕС и МВФ. Новое правительство возглавляют социал-демократы.</li><li><time datetime="2015">2015</time> Левый блок получает около 10%, вдвое больше, чем в 2011-м.</li><li><time datetime="2015-11">Ноябрь 2015</time> Левый блок соглашается поддержать правительство социалистов.</li></ol></div>
-        </div>
-        <figcaption><a href="https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867"><span lang="en" data-copy="en">Spain’s election results</span><span lang="ru" data-copy="ru">Выборы в Испании</span></a> · <a href="https://www.parlamento.pt/Parlamento/Paginas/ResultadosEleitoraisAnteriores.aspx"><span lang="en" data-copy="en">Portugal’s election results</span><span lang="ru" data-copy="ru">Выборы в Португалии</span></a> · <a href="https://ps.pt/assinados-os-acordos-entre-ps-be-pcp-e-pev/"><span lang="en" data-copy="en">2015 agreements</span><span lang="ru" data-copy="ru">Соглашения 2015 года</span></a>.</figcaption>
-      </figure>
     </section>
 
     <section class="section" id="debt">
       <div class="prose" lang="en" data-copy="en">
-        <h2>Hungary shows how a loss can turn into a vote</h2>
-        <p>The Iberian cases show what parties offered after a crisis. To find out whether losses changed electoral behaviour, we need to compare places facing the same electoral choices and different debt shocks. Hungary supplies one. After Hungary cut back subsidies for forint mortgages in 2004, foreign-currency loans with lower interest rates became more attractive to borrowers whose income was in forints. By 2008, over 60% of household loans were denominated in foreign currencies, mainly Swiss francs. From September 2008 to the April 2010 election, the forint depreciated 23% against the franc. The same instalment now cost more in domestic currency. Borrowers with forint loans escaped that particular jump in payments.</p>
-        <p>Győző Gyöngyösi and Emil Verner compare postal districts with different exposure to foreign-currency loans before the depreciation. Areas with more exposure moved more strongly toward Jobbik, a far-right populist party. The study estimates that an unexpected increase of 10 percentage points in debt relative to income raised the far-right vote share by 1.6 to 3.0 points between 2006 and 2010. That is a change in debt relative to income, for example from 50% to 60%. The authors’ preferred estimate attributes roughly 3 percentage points of the nationwide rise in the far-right vote to the currency shock, about a fifth of the gain. The comparison uses the currency composition of debt before the shock. Its interpretation depends on more- and less-exposed places otherwise following similar political paths. The authors look for differences in earlier voting and for effects that could instead be explained by the local downturn.</p>
+        <h2>In Hungary, the falling forint raised borrowers’ payments</h2>
+        <p>How can we tell whether a financial loss affected the vote? In Hungary, many borrowers earned forints but owed payments in Swiss francs. From September 2008 to the April 2010 election, the forint fell by 23% against the franc. The same franc instalment required more forints. A borrower with a fixed instalment in forints faced no exchange-rate increase on that payment.</p>
       </div>
       <div class="prose" lang="ru" data-copy="ru">
-        <h2>Венгрия показывает, как потери могут изменить голосование</h2>
-        <p>Испания и Португалия показывают, что партии предложили после кризиса. В Венгрии можно отдельно проверить, как потери заёмщиков изменили голосование. На выборах 2010 года жители разных районов выбирали из одних и тех же общенациональных партий, а падение форинта по-разному сказалось на долгах этих районов. После сокращения субсидий на ипотеку в форинтах в 2004 году более низкие ставки сделали валютные кредиты привлекательнее для заёмщиков с доходами в форинтах. К 2008 году на них приходилось более 60% кредитов домохозяйств, главным образом в швейцарских франках. С сентября 2008-го до выборов в апреле 2010-го форинт подешевел к франку на 23%. На тот же платёж в швейцарских франках теперь требовалось больше форинтов. Заёмщиков с кредитом в форинтах этот скачок обошёл.</p>
-        <p>Дьёзё Дьёндьёши и Эмиль Вернер сравнили почтовые округа, где до падения форинта была разная доля валютных кредитов. Там, где нагрузка выросла сильнее, доля голосов за крайне правую популистскую партию Jobbik выросла больше. По оценке авторов, неожиданный прирост долга относительно дохода на 10 п. п. увеличил долю голосов крайне правых на 1,6–3,0 п. п. между выборами 2006 и 2010 годов. Речь об изменении долга относительно дохода, например с 50% до 60%. По основной оценке авторов, на валютный шок приходится около 3 п. п. общенационального прироста голосов крайне правых, примерно пятая часть.</p>
-        <p>Авторы сравнили районы по структуре долга, сложившейся до падения форинта. Чтобы отнести прирост к падению форинта, нужно, чтобы без него поддержка партии менялась сходно в округах с разной долговой нагрузкой. Авторы проверяют, расходилось ли голосование раньше и какую часть связи мог объяснить местный экономический спад.</p>
+        <h2>В Венгрии падение форинта увеличило платежи по кредитам</h2>
+        <p>Как выяснить, повлияли ли финансовые потери на голосование? В Венгрии многие заёмщики получали доход в форинтах, а платили по кредитам в швейцарских франках. С сентября 2008 года до выборов в апреле 2010-го форинт подешевел к франку на 23%. На тот же платёж во франках теперь требовалось больше форинтов. Фиксированный платёж по кредиту в форинтах от курса не зависел.</p>
       </div>
-
       <figure class="figure" aria-labelledby="mechanism-title">
         <h3 id="mechanism-title"><span lang="en" data-copy="en">The same currency shock reaches borrowers differently</span><span lang="ru" data-copy="ru">Один валютный шок по-разному сказывается на заёмщиках</span></h3>
         <ol class="mechanism" lang="en" data-copy="en">
@@ -170,119 +145,36 @@
         </ol>
         <figcaption><span lang="en" data-copy="en">Illustrative payments. The paper estimates how an unexpected change in the debt burden relates to voting in actual places.</span><span lang="ru" data-copy="ru">Платежи условные. Исследователи оценивают, как неожиданный рост долговой нагрузки связан с голосованием в реальных населённых пунктах.</span> <a href="https://doi.org/10.1111/jofi.13138">Gyöngyösi &amp; Verner (2022)</a>.</figcaption>
       </figure>
-
       <div class="prose" lang="en" data-copy="en">
-        <p>On 15 March 2010, before the April election, Jobbik leader Gábor Vona proposed converting foreign-currency loans to prevent foreclosures and called for banks and multinationals to bear part of the cost. The governing Socialists spoke in broad terms, and Fidesz’s manifesto did not address foreign-currency debt. The centre-right opposition also gained in harder-hit areas. Jobbik gave borrowers a specific promise and cast banks and multinationals as beneficiaries of the rules it wanted to change. The IMF lists Hungary’s 2008 episode as borderline, so it is outside our main banking tally.</p>
+        <p>Győző Gyöngyösi and Emil Verner compared postal districts where foreign-currency loans were more or less common before the forint fell. Between the 2006 and 2010 elections, support for the far-right party Jobbik grew more in districts where debt burdens rose more. The authors checked earlier election trends and accounted for the local downturn. They estimate that the currency shock added about 3 percentage points to the national far-right vote share, roughly one fifth of its rise.</p>
+        <p>Before the April 2010 election, Jobbik leader Gábor Vona proposed converting foreign-currency loans into forints to prevent evictions and making banks and international companies bear part of the cost. The study estimates the effect of the increase in debt burdens. Assessing the effect of Jobbik’s proposal would require a separate comparison. Hungary sits outside our 29 pairs because the banking crisis chronology treats its 2008 episode as borderline.</p>
         <p class="cite"><a href="https://doi.org/10.1111/jofi.13138">Study and campaign evidence</a> <a href="https://doi.org/10.1057/s41308-020-00107-3">IMF chronology and borderline cases</a></p>
       </div>
       <div class="prose" lang="ru" data-copy="ru">
-        <p>15 марта 2010 года, перед апрельскими выборами, лидер Jobbik Габор Вона предложил перевести валютные кредиты в форинты, чтобы предотвратить выселения, и возложить часть издержек на банки и международные компании. Правящие социалисты говорили о помощи заёмщикам в общих чертах. В программе Fidesz валютные кредиты не упоминались. В сильнее пострадавших районах прибавила и правоцентристская оппозиция. Jobbik же предложила заёмщикам конкретную меру и обвинила банки и международные компании в том, что действующие правила защищают их интересы. МВФ считает венгерский эпизод 2008 года пограничным, поэтому он не входит в основной подсчёт банковских кризисов.</p>
+        <p>Дьёзё Дьёндьёши и Эмиль Вернер сравнили почтовые округа, где до падения форинта валютные кредиты были распространены в разной степени. Между выборами 2006 и 2010 годов крайне правая партия Jobbik сильнее прибавила там, где сильнее выросла долговая нагрузка. Авторы проверили, как округа голосовали раньше, и учли местный экономический спад. По их оценке, валютный шок добавил крайне правым около 3 п. п. на общенациональном уровне, примерно пятую часть общего прироста.</p>
+        <p>Перед выборами в апреле 2010 года лидер Jobbik Габор Вона предложил перевести валютные кредиты в форинты, чтобы предотвратить выселения, и возложить часть издержек на банки и международные компании. Исследование оценивает вклад роста долговой нагрузки. Для оценки эффекта самого обещания партии нужно отдельное сравнение. Венгрия находится за пределами наших 29 пар: авторы хронологии банковских кризисов считают эпизод 2008 года пограничным.</p>
         <p class="cite"><a href="https://doi.org/10.1111/jofi.13138">Исследование и материалы кампании</a> <a href="https://doi.org/10.1057/s41308-020-00107-3">Хронология МВФ и пограничные эпизоды</a></p>
       </div>
     </section>
 
-    <section class="section" id="brazil">
-      <div class="prose" lang="en" data-copy="en">
-        <h2>Brazil's corruption issue peaked before the campaign</h2>
-        <p>In Hungary, the conflict centred on who should pay for the debt shock. In Brazil, the recession of 2015–2016 overlapped with a dispute about who was responsible for the way public institutions worked. The Lava Jato investigation, launched in 2014, made allegations about contracts at the state-controlled oil company Petrobras visible and implicated politicians from several parties. Dilma Rousseff's removal in 2016 deepened the political conflict. The Senate's formal grounds concerned budget operations. That distinction matters because the campaign later drew several different events into one anti-corruption argument.</p>
-        <p>Latinobarómetro tracks when the issue reached the public agenda. Corruption was the first problem volunteered by 2.9% of respondents in 2010, 31.2% in 2017 and 4.4% in 2024. The share naming health care rose from 9.7% in 2017 to 21.4% in 2024. With only one answer per respondent, the rise and fall in corruption mentions shows how its place among competing concerns changed.</p>
-      </div>
-      <div class="prose" lang="ru" data-copy="ru">
-        <h2>В Бразилии коррупция вышла на первый план до выборов 2018 года</h2>
-        <p>В Венгрии Jobbik говорила о потерях валютных заёмщиков. В Бразилии Жаир Болсонару сделал темой кампании 2018 года коррупцию, которая вышла на первый план ещё до выборов. Расследование Lava Jato началось в 2014 году, вскрыло махинации с контрактами государственной нефтяной компании Petrobras и затронуло политиков нескольких партий. В 2015–2016 годах экономика пережила рецессию, а в 2016-м Сенат отстранил президента Дилму Русеф за нарушения бюджетных правил. Кампания Болсонару связала претензии к коррупции с партией Русеф.</p>
-        <p>В бразильском опросе Latinobarómetro каждый участник называл одну главную проблему страны без списка ответов. Коррупцию назвали 2,9% в 2010 году, 31,2% в 2017-м, за год до президентских выборов, и 4,4% в 2024-м. С 2017 по 2024 год доля назвавших здравоохранение выросла с 9,7 до 21,4%.</p>
-      </div>
-
-      <figure class="figure" id="brazil-figure" aria-labelledby="brazil-title">
-        <h3 id="brazil-title"><span lang="en" data-copy="en">What did Brazilians name as their country's top problem?</span><span lang="ru" data-copy="ru">Что жители Бразилии называли главной проблемой?</span></h3>
-        <p class="chart-kicker"><span lang="en" data-copy="en">Share who named the issue first, %. Scale 0–40% for every issue.</span><span lang="ru" data-copy="ru">Доля опрошенных, назвавших выбранную тему главной проблемой страны. Шкала от 0 до 40%.</span></p>
-        <fieldset class="chart-filter" id="brazil-filter">
-          <legend><span lang="en" data-copy="en">Survey answer</span><span lang="ru" data-copy="ru">Ответ в опросе</span></legend>
-          <div class="chart-filter-options">
-            <label><input type="radio" name="brazil-filter" value="corruption" checked><span class="filter-label"><span lang="en" data-copy="en">Corruption</span><span lang="ru" data-copy="ru">Коррупция</span></span></label>
-            <label><input type="radio" name="brazil-filter" value="health"><span class="filter-label"><span lang="en" data-copy="en">Health care</span><span lang="ru" data-copy="ru">Здравоохранение</span></span></label>
-            <label><input type="radio" name="brazil-filter" value="economy_strict"><span class="filter-label"><span lang="en" data-copy="en">Economic problems</span><span lang="ru" data-copy="ru">Экономические проблемы</span></span></label>
-          </div>
-        </fieldset>
-        <div id="brazil-plot" class="bar-plot" role="group" aria-labelledby="brazil-title"></div>
-        <div class="readout" id="brazil-readout"></div>
-        <span class="chart-tooltip" aria-hidden="true" hidden></span>
-        <details><summary><span lang="en" data-copy="en">View survey waves</span><span lang="ru" data-copy="ru">Посмотреть значения по волнам</span></summary><div id="brazil-table" class="table-scroll"></div></details>
-        <figcaption><span lang="en" data-copy="en">Ten survey waves. Bars are spaced by wave, with no estimates between waves. Shares use all respondents in each wave.</span><span lang="ru" data-copy="ru">Десять волн. Столбцы идут по порядку волн, интервалы между опросами различались. Доли рассчитаны от всех опрошенных в каждой волне.</span> <a href="https://latinobarometro.org/agregados">Latinobarómetro</a>.</figcaption>
-      </figure>
-
-      <div class="prose" lang="en" data-copy="en">
-        <p>Bolsonaro's platform already paired fighting corruption with crime and privileges before the first round. He won 46.03% of valid votes in that round. Between rounds, Bolsonaro’s campaign associated corruption with the Workers’ Party. Researchers found the topic in 10 of his 11 distinct television programmes and in two of Fernando Haddad’s 14. Haddad's revised runoff platform instead put job creation through public investment and changes to fiscal policy at the front of its economic response. The television counts refer to distinct programmes, which could be broadcast more than once. Analysis of Brazil's 2018 electoral panel also links Bolsonaro's support to opposition to the Workers' Party, law-and-order views and economic liberalism. That makes it harder to account for his coalition with the corruption issue alone.</p>
-        <p>Hungary shows how the same currency shock produced different losses across places. Brazil shows how a candidate incorporated an already prominent concern into a campaign. We now turn to a concern that rose across countries in the same year and ask whether similar election results followed.</p>
-        <p class="cite"><a href="https://www12.senado.leg.br/noticias/arquivos/2016/08/31/veja-a-sentenca-de-impeachment-contra-dilma-rousseff">Senate judgment</a> <a href="https://eleitorbrasil.com/memory/2018/35a67dff4ebc802db20b2f59723c3d32e52146c896caf923456b00059e2577eb.pdf">Bolsonaro's August platform</a> <a href="https://eleitorbrasil.com/memory/2018/b04156a1a530ac66977cda6b15aa6aebcc4f264406fc62e5d795eb51e789f152.pdf">Haddad's October platform</a> <a href="https://www.tse.jus.br/comunicacao/noticias/2018/Outubro/concluida-totalizacao-de-votos-do-1o-turno-das-eleicoes-2018">First-round count</a> <a href="https://revistaseletronicas.pucrs.br/civitas/article/view/37248/">Television campaign study</a> <a href="https://doi.org/10.1017/lap.2020.13">Electoral panel</a></p>
-      </div>
-      <div class="prose" lang="ru" data-copy="ru">
-        <p>В программе к первому туру в октябре 2018 года Болсонару обещал бороться с коррупцией, преступностью и привилегиями. В первом туре он получил 46,03% действительных голосов. Между турами штаб Болсонару связывал коррупцию с Партией трудящихся. Исследователи нашли упоминания темы в 10 из 11 его телепрограмм и в 2 из 14 у Фернанду Аддада. Аддад к тому же туру предложил создавать рабочие места за счёт государственных инвестиций и пересмотреть бюджетные ограничения. Числа показывают, в скольких разных выпусках звучала тема, без учёта повторных показов. Анализ бразильской электоральной панели 2018 года связывает поддержку Болсонару также с неприятием Партии трудящихся, запросом на порядок и экономическим либерализмом. Одной антикоррупционной темой такую коалицию объяснить трудно.</p>
-        <p>Бразильский опрос показывает, когда тема стала заметной. Материалы кампании показывают, кого Болсонару с ней связывал. Дальше сравним выборы в странах, где одна и та же проблема стала заметнее в один год.</p>
-        <p class="cite"><a href="https://www12.senado.leg.br/noticias/arquivos/2016/08/31/veja-a-sentenca-de-impeachment-contra-dilma-rousseff">Решение Сената</a> <a href="https://eleitorbrasil.com/memory/2018/35a67dff4ebc802db20b2f59723c3d32e52146c896caf923456b00059e2577eb.pdf">Программа Болсонару, август</a> <a href="https://eleitorbrasil.com/memory/2018/b04156a1a530ac66977cda6b15aa6aebcc4f264406fc62e5d795eb51e789f152.pdf">Программа Аддада, октябрь</a> <a href="https://www.tse.jus.br/comunicacao/noticias/2018/Outubro/concluida-totalizacao-de-votos-do-1o-turno-das-eleicoes-2018">Итоги первого тура</a> <a href="https://revistaseletronicas.pucrs.br/civitas/article/view/37248/">Исследование телепрограмм</a> <a href="https://doi.org/10.1017/lap.2020.13">Электоральная панель</a></p>
-      </div>
-
-      <figure class="figure" aria-labelledby="survey-title">
-        <h3 id="survey-title"><span lang="en" data-copy="en">What respondents were asked</span><span lang="ru" data-copy="ru">Что спрашивали у респондентов</span></h3>
-        <div class="instrument-grid" lang="en" data-copy="en">
-          <div class="instrument"><h4>Eurobarometer 74.2 · QA6a1 · 2010</h4><p>What are the two most important issues facing your country at the moment?</p><ul class="options"><li>Unemployment</li><li>Rising prices</li><li>Economic situation</li><li>Housing</li><li>Health care</li><li>Immigration</li><li>Crime</li></ul><p>These are selected options from the card. Respondents could choose up to two. A separate question asked: Which two issues are you facing personally?</p></div>
-          <div class="instrument"><h4>Latinobarómetro · Brazil</h4><p>What do you consider to be the most important problem in the country?</p><p>The interviewer recorded one answer without offering a list. Mentioning corruption here and choosing prices from the Eurobarometer card measure different choices. Both help date public concerns before we look at ballots.</p></div>
-        </div>
-        <div class="instrument-grid" lang="ru" data-copy="ru">
-          <div class="instrument"><h4>Eurobarometer 74.2 · QA6a1 · 2010</h4><p>Какие две проблемы сейчас наиболее важны для вашей страны?</p><ul class="options"><li>Безработица</li><li>Рост цен</li><li>Экономическая ситуация</li><li>Жильё</li><li>Здравоохранение</li><li>Иммиграция</li><li>Преступность</li></ul><p>Это часть списка на карточке. Можно было выбрать до двух пунктов. Отдельный вопрос: «А с какими двумя проблемами вы сталкиваетесь лично?»</p></div>
-          <div class="instrument"><h4>Latinobarómetro · Бразилия</h4><p>Какую проблему вы считаете самой важной в стране?</p><p>Интервьюер записывал один ответ без списка. Открытый вопрос показывает, какую проблему человек назвал сам. Карточка Eurobarometer показывает, какие проблемы человек выбрал из предложенных. Поэтому сравниваем изменение ответов внутри каждого опроса.</p></div>
-        </div>
-        <figcaption><span lang="en" data-copy="en">Question wording adapted from the source questionnaires. The 2010 Eurobarometer fielded another version of the national-issues card.</span><span lang="ru" data-copy="ru">Формулировки даны по анкетам. В Eurobarometer 2010 года часть выборки получила другую версию списка проблем страны.</span> <a href="https://access.gesis.org/dbk/18928">Eurobarometer</a> · <a href="https://latinobarometro.org/agregados">Latinobarómetro</a>.</figcaption>
-      </figure>
-    </section>
-
-    <section class="section" id="prices">
-      <div class="prose" lang="en" data-copy="en">
-        <h2>More voters named rising prices. The election results varied.</h2>
-        <p>In the Eurobarometer series assembled by SPES, rising prices appeared more often among the top national problems in 2022 than in 2021 in all 16 countries with both observations. The mean national share went from 16.8% to 46.8%, giving each country the same weight. The same price increases can do different damage depending on how much of a household’s budget goes to food and energy, whether wages keep up and whether public support offsets the loss.</p>
-        <p>We use The PopuList to compare parliamentary elections on either side of 2022 in eight countries. Its party classification can differ from the one used in the banking comparison, as the Portuguese Left Bloc illustrates. In seven countries the populist vote share rose. In Germany, price mentions rose by 31.88 points from 2021 to 2022, and the populist share went from 10.34% in 2021 to 25.78% in 2025. In Ireland, price mentions rose by a similar 33.67 points, while the populist share fell from 24.53% in 2020 to 22.60% in 2024. Similar shifts in survey answers preceded very different election results.</p>
-        <p class="cite"><a href="https://www.ecb.europa.eu/press/economic-bulletin/articles/2023/html/ecb.ebart202303_02~037515ed7d.en.html">ECB, inflation and household budgets</a></p>
-      </div>
-      <div class="prose" lang="ru" data-copy="ru">
-        <h2>Цены стали упоминать чаще. Итоги выборов разошлись.</h2>
-        <p>В 2022 году рост цен чаще называли одной из главных проблем страны во всех 16 странах, по которым у нас есть данные Eurobarometer за 2021 и 2022 годы. Средняя доля выросла с 16,8% до 46,8%. В этом среднем у каждой страны одинаковый вес. Насколько сильно семья ощущает рост цен, зависит от того, сколько она тратит на еду и энергию, успевает ли её доход за ценами и получает ли она господдержку.</p>
-        <p>В восьми странах мы сопоставили парламентские выборы до и после 2022 года по классификации The PopuList. Она может расходиться с классификацией, использованной для банковских кризисов, как в случае португальского Левого блока. В семи странах доля голосов за популистов выросла. В Германии с 2021 по 2022 год цены стали упоминать чаще на 31,88 п. п., а доля голосов за популистов выросла с 10,34% на выборах 2021 года до 25,78% в 2025-м. В Ирландии прирост упоминаний был почти таким же, 33,67 п. п., а доля популистов снизилась с 24,53% в 2020 году до 22,60% в 2024-м. Сдвиг в опросах был схожим, а результаты выборов разошлись.</p>
-        <p class="cite"><a href="https://www.ecb.europa.eu/press/economic-bulletin/articles/2023/html/ecb.ebart202303_02~037515ed7d.en.html">ЕЦБ об инфляции и расходах домохозяйств</a></p>
-      </div>
-
-      <figure class="figure" id="prices-figure" aria-labelledby="prices-title">
-        <h3 id="prices-title"><span lang="en" data-copy="en">Did larger shifts in attention come with larger electoral gains?</span><span lang="ru" data-copy="ru">Прибавили ли популисты больше там, где цены стали упоминать чаще?</span></h3>
-        <p class="chart-kicker"><span lang="en" data-copy="en">Eight countries with a usable election pair. All 16 survey countries appear in the table.</span><span lang="ru" data-copy="ru">На графике восемь стран с выборами до и после 2022 года. В таблице все 16 стран и причины, по которым остальные выборы нельзя сравнить.</span></p>
-        <p class="axis-caption"><span lang="en" data-copy="en">↑ Populist vote share change, pp</span><span lang="ru" data-copy="ru">↑ Сдвиг доли голосов за популистов, п. п.</span></p>
-        <div id="prices-plot" class="plot scatter" role="group" aria-labelledby="prices-title"></div>
-        <p class="axis-caption x"><span lang="en" data-copy="en">Change in price mentions, 2021 to 2022, pp →</span><span lang="ru" data-copy="ru">Сдвиг упоминаний цен, 2021–2022, п. п. →</span></p>
-        <div class="readout" id="prices-readout"></div>
-        <span class="chart-tooltip" aria-hidden="true" hidden></span>
-        <details><summary><span lang="en" data-copy="en">View all 16 countries and coverage</span><span lang="ru" data-copy="ru">Посмотреть данные и охват по всем 16 странам</span></summary><div id="prices-table" class="table-scroll"></div></details>
-        <figcaption><span lang="en" data-copy="en">Last parliamentary election before 2022 and first after it through October 2025. The election sample excludes countries with an election in 2022 or more than one election in an endpoint year.</span><span lang="ru" data-copy="ru">Последние парламентские выборы до 2022 года и первые после него до октября 2025-го. Исключены страны с выборами в 2022 году или несколькими выборами в одном из сравниваемых годов.</span> <a href="https://www.sustainabilityperformances.eu/spes-explorer/">SPES</a> · <a href="https://popu-list.org/">The PopuList</a> · <a href="https://ppeg.wzb.eu/">PPEG</a>.</figcaption>
-      </figure>
-    </section>
-
     <section class="section" id="answer">
       <div class="prose" lang="en" data-copy="en">
-        <h2>What the crisis changes</h2>
-        <p>A crisis can strengthen populists when a party takes a loss voters feel, argues that the rules protect a powerful group at their expense, and offers a way to change those rules. Jobbik gave Hungary’s foreign-currency borrowers such an argument. After Japan’s downturn an established opposition party was enough to change the government. In Spain that was also the first response. A new party campaigning on who should bear the losses became a major electoral force four years later.</p>
+        <h2>What the election pairs can tell us</h2>
+        <p>National election results show which parties gained and lost vote share. The Spanish example shows how that picture changes when we include the next election. In Hungary, data on local debt burdens allowed researchers to go further and estimate how much the rise in foreign-currency debt contributed to support for the far right.</p>
       </div>
       <div class="prose" lang="ru" data-copy="ru">
-        <h2>Что меняет кризис</h2>
-        <p>В Венгрии Jobbik связала рост платежей по валютным кредитам с правилами, которые, по её версии, защищали банки, и предложила изменить эти правила. Кризис может усилить популистов, когда у партии есть конкретный ответ на потери, с которыми люди уже столкнулись. В Испании в 2011 году избиратели могли сменить власть через крупную оппозиционную партию. Podemos превратила вопрос о банковских и ипотечных потерях в тему избирательной кампании только в 2015-м.</p>
+        <h2>Что можно узнать из сравнения выборов</h2>
+        <p>По общенациональным итогам видно, какие партии прибавили и какие потеряли долю голосов. Испанский пример показывает, как эта картина меняется, если посмотреть и на следующие выборы. В Венгрии данные о долгах по округам позволили сделать ещё один шаг и оценить, какую часть прироста голосов крайне правых объясняет рост валютного долга.</p>
       </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="footer-inner" lang="en" data-copy="en">
-      <p><a href="https://github.com/kezouke/political-attention-research">Research repository</a> · <a href="https://github.com/kezouke/political-attention-research/blob/main/CRISIS_METHODS.md" data-methods>Methods and data coverage</a> · <a href="priorities.html?lang=en">Previous essay on public priorities</a></p>
-      <p>Figures are built from versioned aggregates and work offline. Sources are linked beside each result.</p>
-    </div>
-    <div class="footer-inner" lang="ru" data-copy="ru">
-      <p><a href="https://github.com/kezouke/political-attention-research">Репозиторий исследования</a> · <a href="https://github.com/kezouke/political-attention-research/blob/main/CRISIS_METHODS.md" data-methods>Методы и охват данных</a> · <a href="priorities.html?lang=ru">Предыдущее эссе об общественных приоритетах</a></p>
-      <p>Данные графиков доступны в репозитории. Источники указаны рядом с результатами.</p>
+    <div class="footer-inner">
+      <p id="brazil"><a href="attention.html?lang=en#brazil" lang="en" data-copy="en">Corruption in Brazil’s 2018 election</a><a href="attention.html?lang=ru#brazil" lang="ru" data-copy="ru">Коррупция на выборах в Бразилии в 2018 году</a></p>
+      <p id="prices"><a href="attention.html?lang=en#prices" lang="en" data-copy="en">Inflation and voting in Europe</a><a href="attention.html?lang=ru#prices" lang="ru" data-copy="ru">Инфляция и голосование в Европе</a></p>
+      <p lang="en" data-copy="en"><a href="https://github.com/kezouke/political-attention-research">Research repository</a> · <a href="https://github.com/kezouke/political-attention-research/blob/main/CRISIS_METHODS.md" data-methods>Methods and data coverage</a> · <a href="priorities.html?lang=en">Earlier essay on public priorities</a></p>
+      <p lang="ru" data-copy="ru"><a href="https://github.com/kezouke/political-attention-research">Репозиторий исследования</a> · <a href="https://github.com/kezouke/political-attention-research/blob/main/CRISIS_METHODS.md" data-methods>Методы и охват данных</a> · <a href="priorities.html?lang=ru">Предыдущее эссе об общественных приоритетах</a></p>
     </div>
   </footer>
 </body>

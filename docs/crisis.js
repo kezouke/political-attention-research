@@ -336,15 +336,15 @@ function pricesChart() {
 
 function render() {
   document.documentElement.lang = lang;
-  document.title = t('When does a crisis strengthen populists?', 'Когда кризис усиливает популистов?');
+  document.title = $(`.hero [data-copy="${lang}"] h1`).textContent;
   for (const link of document.querySelectorAll('[data-locale]')) {
     if (link.hreflang === lang) link.setAttribute('aria-current', 'true');
     else link.removeAttribute('aria-current');
   }
-  voteChart();
-  incumbentChart();
-  brazilChart();
-  pricesChart();
+  if ($('#vote-figure')) voteChart();
+  if ($('#incumbent-figure')) incumbentChart();
+  if ($('#brazil-figure')) brazilChart();
+  if ($('#prices-figure')) pricesChart();
 }
 
 for (const link of document.querySelectorAll('[data-locale]')) {
@@ -365,6 +365,6 @@ document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') dismissActiveTooltip?.();
 });
 window.addEventListener('popstate', () => { lang = languageFromUrl(); render(); });
-$('#vote-filter').addEventListener('change', voteChart);
-$('#brazil-filter').addEventListener('change', brazilChart);
+$('#vote-filter')?.addEventListener('change', voteChart);
+$('#brazil-filter')?.addEventListener('change', brazilChart);
 render();
