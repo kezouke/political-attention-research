@@ -1,0 +1,20 @@
+{
+  "robustness_script_hash_matches": true,
+  "aggregate_specification_counts": {
+    "eb_leave_one_country_margins": 88,
+    "eb_country_margins": 88,
+    "eb_measurement_sensitivity": 96,
+    "eb_turnout_all_reported": 2
+  },
+  "probability_conservation_and_matched_samples_passed": true,
+  "nonlinear_validation_combinations": 15,
+  "nonlinear_country_weighted_metrics_match": true,
+  "unknown_party_bounds_countries": 27,
+  "sensitivity_margins_have_confidence_intervals": false,
+  "validation_intervals_refit_training": false,
+  "remaining": [
+    "Pre-election panels, temporal order, national elections, and party supply.",
+    "Measurement alternatives change the estimand; they are not interchangeable replications.",
+    "Unknown-party bounds describe vote shares, not bounds on regression coefficients."
+  ]
+}
