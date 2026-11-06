@@ -1,0 +1,37 @@
+iso,country,date,ppeg_party_rows,ppeg_rows_with_vote_share,ppeg_rows_below_five_percent,wpd_positive_campaign_names,wpd_positive_campaign_count,absence_below_threshold_means_nonpopulist,party_name_crosswalk_verified
+BEL,Belgium,2007-06-10,15,15,7,Flemish Block,1,False,False
+BEL,Belgium,2010-06-13,15,15,7,Flemish Block,1,False,False
+BEL,Belgium,2014-05-25,14,14,6,,0,False,False
+DEU,Germany,2005-09-18,10,10,5,The Left,1,False,False
+DEU,Germany,2009-09-27,13,13,8,The Left,1,False,False
+DEU,Germany,2013-09-22,12,12,8,The Left,1,False,False
+DNK,Denmark,2007-11-13,10,10,4,Danish Peoples Party,1,False,False
+DNK,Denmark,2011-09-15,10,10,4,Danish Peoples Party,1,False,False
+DNK,Denmark,2015-06-18,11,11,6,Danish Peoples Party,1,False,False
+ESP,Spain,2008-03-09,19,19,17,,0,False,False
+ESP,Spain,2011-11-20,17,17,14,,0,False,False
+ESP,Spain,2015-12-20,19,19,15,We Can/ Podemos,1,False,False
+GBR,United Kingdom,2005-05-05,15,15,12,,0,False,False
+GBR,United Kingdom,2010-05-06,17,17,14,,0,False,False
+GBR,United Kingdom,2015-05-07,16,16,12,UK Independence Party,1,False,False
+GRC,Greece,2007-09-16,8,8,4,Syriza,1,False,False
+GRC,Greece,2009-10-04,8,8,4,Popular Orthodox Rally,1,False,False
+GRC,Greece,2012-05-06,11,11,3,Golden Dawn | Independent Greeks | Syriza,3,False,False
+IRL,Ireland,2007-05-24,12,12,7,Sinn Fein,1,False,False
+IRL,Ireland,2011-02-25,12,12,7,Sinn Fein,1,False,False
+IRL,Ireland,2016-02-26,15,15,10,Sinn Fein,1,False,False
+ISL,Iceland,2007-05-12,6,6,1,,0,False,False
+ISL,Iceland,2009-04-25,7,7,2,Citizens' Movement | Progressive Party,2,False,False
+ISL,Iceland,2013-04-27,7,7,0,Pirate Party | Progressive Party,2,False,False
+ITA,Italy,2008-04-13,14,14,9,Forza Italia/People of Freedom | Northern League,2,False,False
+ITA,Italy,2013-02-24,24,24,20,,0,False,False
+ITA,Italy,2018-03-04,18,18,14,Five Star Movement | Forza Italia/People of Freedom | The League,3,False,False
+LVA,Latvia,2006-10-07,9,9,1,New Era,1,False,False
+LVA,Latvia,2010-10-02,8,8,3,TB-LNNK/National Alliance,1,False,False
+LVA,Latvia,2011-09-17,8,8,3,TB-LNNK/National Alliance | Zatler's Reform Party,2,False,False
+NLD,Netherlands,2006-11-22,12,12,7,Party for Freedom,1,False,False
+NLD,Netherlands,2010-06-09,11,11,4,Party for Freedom,1,False,False
+NLD,Netherlands,2012-09-12,12,12,6,Party for Freedom,1,False,False
+PRT,Portugal,2005-02-20,13,13,8,Left Bloc,1,False,False
+PRT,Portugal,2009-09-27,14,14,9,Left Bloc,1,False,False
+PRT,Portugal,2011-06-05,17,17,12,Left Bloc,1,False,False

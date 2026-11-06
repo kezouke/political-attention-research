@@ -1,0 +1,28 @@
+iso2,iso3,country,wpd_country_present,wpd_ep_campaigns_present,populist4_country_in_scope
+AT,AUT,Austria,True,False,True
+BE,BEL,Belgium,True,False,True
+BG,BGR,Bulgaria,True,False,True
+CY,CYP,Cyprus,False,False,True
+CZ,CZE,Czech Republic,True,False,True
+DE,DEU,Germany,True,False,True
+DK,DNK,Denmark,True,False,True
+EE,EST,Estonia,True,False,True
+ES,ESP,Spain,True,False,True
+FI,FIN,Finland,True,False,True
+FR,FRA,France,True,False,True
+GB,GBR,United Kingdom,True,False,True
+GR,GRC,Greece,True,False,True
+HU,HUN,Hungary,True,False,True
+IE,IRL,Ireland,True,False,True
+IT,ITA,Italy,True,False,True
+LT,LTU,Lithuania,False,False,True
+LU,LUX,Luxembourg,False,False,True
+LV,LVA,Latvia,True,False,True
+MT,MLT,Malta,False,False,True
+NL,NLD,Netherlands,True,False,True
+PL,POL,Poland,True,False,True
+PT,PRT,Portugal,True,False,True
+RO,ROU,Romania,True,False,True
+SE,SWE,Sweden,True,False,True
+SI,SVN,Slovenia,False,False,True
+SK,SVK,Slovakia,True,False,True

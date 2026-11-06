@@ -2421,5 +2421,55 @@
     "content_type": "application/pdf",
     "sha256": "706eb5ac58ba8e042752d5b5449355ae7263af600df4eb8888064138b0de202e",
     "local_path": "data/raw/audit_20261106/gles_5704_questionnaire.pdf"
+  },
+  "populist4_current": {
+    "url": "https://popu-list.github.io/Data/The%20PopuList%204.0.csv",
+    "resolved_url": "https://popu-list.github.io/Data/The%20PopuList%204.0.csv",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:17:34.051369+00:00",
+    "bytes": 45046,
+    "content_type": "text/csv; charset=utf-8",
+    "sha256": "fc010edb88b48340373c217779f06f5657be1374b709948ce46609aa3b4e8daa",
+    "local_path": "data/raw/audit_20261106/populist4_current.csv"
+  },
+  "populist_methodology": {
+    "url": "https://popu-list.org/elementor-page-1041/",
+    "resolved_url": "https://popu-list.org/elementor-page-1041/",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:17:34.102890+00:00",
+    "bytes": 174870,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "15c4d5aaab7fc462dda2fec8631815778869fde0f9e2cb2f68c46aca12df0897",
+    "local_path": "data/raw/audit_20261106/populist_methodology.html"
+  },
+  "populist3_release": {
+    "url": "https://popu-list.github.io/All_Populist_Versions/The-PopuList-3.0.xlsx",
+    "resolved_url": "https://popu-list.github.io/All_Populist_Versions/The-PopuList-3.0.xlsx",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:17:34.200158+00:00",
+    "bytes": 38367,
+    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "sha256": "c5e564e00d52ef8855b33e2168759fa94c1c7da38b286bacef185f12b92a300e",
+    "local_path": "data/raw/audit_20261106/populist3_release.xlsx"
+  },
+  "wpd_definition_current": {
+    "url": "https://world-populism-dataset.github.io/website/data.html",
+    "resolved_url": "https://world-populism-dataset.github.io/website/data.html",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:17:34.213433+00:00",
+    "bytes": 72890,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "1de4668736df611793e091e4f544f2a9cbd35748e91a0cdeb36239de33e4863a",
+    "local_path": "data/raw/audit_20261106/wpd_definition_current.html"
+  },
+  "populist_country_reports_note": {
+    "url": "https://popu-list.org/offering/",
+    "resolved_url": "https://popu-list.org/offering/",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:17:34.321653+00:00",
+    "bytes": 186695,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "754a9587ecdfff240cafd632e80c8d658cfc98e45df8711e79ebf15f634d6cab",
+    "local_path": "data/raw/audit_20261106/populist_country_reports_note.html"
   }
 }
