@@ -1,0 +1,18 @@
+{
+  "fixed_input_hashes_match": true,
+  "marginal_estimates": 120,
+  "completed_year_target_models": 12,
+  "bootstrap_draws_per_estimate": 1000,
+  "validation_combinations": 96,
+  "paired_validation_comparisons": 96,
+  "matched_sensitivity_specifications": 288,
+  "probabilities_and_calibration_counts_passed": true,
+  "raw_records_read_by_this_check": false,
+  "validation_intervals_refit_training": false,
+  "remaining": [
+    "Temporal transfer",
+    "Selection adjustment",
+    "Within-person changes",
+    "Nonlinear benchmark"
+  ]
+}

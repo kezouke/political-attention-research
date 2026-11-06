@@ -1,0 +1,23 @@
+{
+  "start_utc": "2026-11-06T19:15:40.580881+00:00",
+  "end_utc": "2026-11-06T19:32:01.389284+00:00",
+  "input_lock_commit": "7e1eaa1",
+  "contract_sha256": "9680da5a025c9c12c23472760478e844e13fcf720756371c5e6df607f9a7ec41",
+  "script_sha256": "555203a678ad463c5d2325e80592f0de693e72e9e95e7a44f6c8d6ff49deba52",
+  "python": "3.12.15",
+  "numpy": "2.5.4",
+  "pandas": "3.1.0",
+  "sklearn": "1.9.1",
+  "bootstrap_draws_per_marginal_estimate": 1000,
+  "heldout_loss_bootstrap_draws": 2000,
+  "validation_intervals_refit_training": false,
+  "classification_variants_identical_on_primary_samples": true,
+  "microdata_exported": false,
+  "interpretation": "Pre-election conditional associations in selected online-panel respondents",
+  "remaining_declared_analyses": [
+    "Temporal transfer",
+    "Selection adjustment",
+    "Within-person changes",
+    "Nonlinear benchmark"
+  ]
+}
