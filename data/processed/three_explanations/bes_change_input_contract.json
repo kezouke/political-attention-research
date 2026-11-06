@@ -1,0 +1,33 @@
+{
+  "fixed_input_hashes": {
+    "analysis/76_bes_change_inputs.py": "d9a01a210e7f3e3b20bc9f1101559564f9560b3370412b6950d25f45e599f50e",
+    "planning/bes-change-specification.md": "3ec6880658e667a85565267dababeadf90000a1f634a1775a0ed6955a9e4acff",
+    "data/processed/three_explanations/bes_input_contract.json": "9680da5a025c9c12c23472760478e844e13fcf720756371c5e6df607f9a7ec41",
+    "data/processed/three_explanations/bes_change_locked_counts.csv": "115ee3d654e56a2ab7613a387e990e3c38685efad95c07419529e52ae07c14fa"
+  },
+  "early_waves": {
+    "2015": 1,
+    "2017": 4,
+    "2019": 16
+  },
+  "sample_totals": {
+    "2015:government_vs_opposition": 14853,
+    "2015:opposition_type": 8663,
+    "2015:nonvote_vs_vote": 15935,
+    "2015:four_outcomes": 15613,
+    "2017:government_vs_opposition": 8284,
+    "2017:opposition_type": 4727,
+    "2017:nonvote_vs_vote": 8863,
+    "2017:four_outcomes": 8758,
+    "2019:government_vs_opposition": 2855,
+    "2019:opposition_type": 1476,
+    "2019:nonvote_vs_vote": 3189,
+    "2019:four_outcomes": 3111
+  },
+  "new_vote_models_fitted": false,
+  "microdata_exported": false,
+  "unresolved_wave7_timing_used": false,
+  "wave16_trust_assignment_assumed_random": false,
+  "2017_interval_spans_government_change": true,
+  "primary_weight": "early wave"
+}
