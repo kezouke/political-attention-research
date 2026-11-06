@@ -1,0 +1,48 @@
+{
+  "study": "ZA4973",
+  "version": "3.0.0",
+  "doi": "10.4232/1.11135",
+  "raw_rows": 30343,
+  "raw_columns": 798,
+  "eu27_rows_all_ages": 26830,
+  "eu27_adult_rows": 26087,
+  "eu27_countries": 27,
+  "national_priority_joint_totals": {
+    "named_vote": 11798,
+    "named_vote_or_reported_nonvote": 23502
+  },
+  "national_priority_checks": {
+    "more_than_two_mentions": 0,
+    "none_and_substantive": 0,
+    "dk_and_substantive": 0,
+    "valid_explicit_none": 43
+  },
+  "personal_priority_checks": {
+    "more_than_two_mentions": 0,
+    "none_and_substantive": 0,
+    "dk_and_substantive": 0,
+    "valid_explicit_none": 1566
+  },
+  "fieldwork_date_code_range": [
+    1,
+    26
+  ],
+  "fieldwork_dates": [
+    "Friday 12nd June 2009",
+    "Tuesday 7th July 2009"
+  ],
+  "limitations": [
+    "All attitudes were measured after the June 2009 European Parliament election.",
+    "Economy items measure current conditions, not retrospective change or crisis losses.",
+    "Government trust is distinct from party trust but is not a direct government-performance rating.",
+    "Two unranked priority mentions from a prompted list do not measure changing priorities within individuals.",
+    "Environmental wording differs randomly between questionnaire A and B; retain split indicator.",
+    "18+ is an explicit uniform adult restriction, not a verified national eligibility indicator; age is at interview.",
+    "Explicit nonvote is retained separately; missing or other party is never silently counted as nonvote.",
+    "Named response option does not imply successful WPD linkage; party/campaign and governing-coalition mapping remains required.",
+    "UK region-specific party variables must be retained: the combined UK variable pools Plaid Cymru and DUP.",
+    "W31 is demographic poststratification for voting-age populations, including DE/UK regional proportions; W52 also weights EU population sizes.",
+    "Weight-dispersion effective n is not design-based precision and does not account for clustering.",
+    "The 27-country joint cross-section does not establish a causal effect of crises or replace national election panels."
+  ]
+}

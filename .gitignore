@@ -16,3 +16,6 @@ analysis/baseline/data/*
 
 # Working calendar reconstructed from third-party election data.
 /data/processed/crisis_election_calendar.csv
+
+# Private browser screenshots and temporary research work.
+/tmp/

@@ -1,0 +1,162 @@
+{
+  "studies": [
+    "ZA5305 v5.0.0",
+    "ZA5704 v3.2.0",
+    "ZA5757 v1.1.0"
+  ],
+  "parent_2009_n": 4552,
+  "parent_2013_n": 5256,
+  "linked_n": 1025,
+  "linked_fraction_of_2009_file": 0.22517574692442882,
+  "parent_2013_has_2009_id_n": 1030,
+  "designed_links_unique_and_matched": true,
+  "mut09_flagged_n": 17,
+  "mut0913_flagged_n": 39,
+  "both_years_complete": {
+    "named_vote": {
+      "joint_both_years_n": 372,
+      "identity_flags_excluded_n": 356,
+      "plus_both_responsibility_n": 360,
+      "identity_clean_plus_both_responsibility_n": 345
+    },
+    "named_vote_or_explicit_nonvote": {
+      "joint_both_years_n": 407,
+      "identity_flags_excluded_n": 391,
+      "plus_both_responsibility_n": 394,
+      "identity_clean_plus_both_responsibility_n": 379
+    }
+  },
+  "outcome_routing": [
+    {
+      "year": 2009,
+      "post_only_named_n": 756,
+      "postal_named_n": 0,
+      "postal_or_post_conflicts": 0,
+      "named_nonvote_conflicts": 0,
+      "named_n": 756,
+      "explicit_nonvote_n": 58,
+      "already_postal_at_attitude_wave_n": 0
+    },
+    {
+      "year": 2013,
+      "post_only_named_n": 575,
+      "postal_named_n": 206,
+      "postal_or_post_conflicts": 0,
+      "named_nonvote_conflicts": 0,
+      "named_n": 781,
+      "explicit_nonvote_n": 60,
+      "already_postal_at_attitude_wave_n": 3
+    }
+  ],
+  "full_campaign_joint": [
+    {
+      "year": 2009,
+      "parent_file_n": 4552,
+      "scenario": "named_vote",
+      "pre_attitudes_joint_n": 2331,
+      "pre_attitudes_and_outcome_n": 1425,
+      "plus_government_responsibility_n": 1423
+    },
+    {
+      "year": 2009,
+      "parent_file_n": 4552,
+      "scenario": "named_vote_or_explicit_nonvote",
+      "pre_attitudes_joint_n": 2331,
+      "pre_attitudes_and_outcome_n": 1547,
+      "plus_government_responsibility_n": 1544
+    },
+    {
+      "year": 2013,
+      "parent_file_n": 5256,
+      "scenario": "named_vote",
+      "pre_attitudes_joint_n": 3797,
+      "pre_attitudes_and_outcome_n": 3112,
+      "plus_government_responsibility_n": 3030
+    },
+    {
+      "year": 2013,
+      "parent_file_n": 5256,
+      "scenario": "named_vote_or_explicit_nonvote",
+      "pre_attitudes_joint_n": 3797,
+      "pre_attitudes_and_outcome_n": 3389,
+      "plus_government_responsibility_n": 3287
+    }
+  ],
+  "full_campaign_routing": [
+    {
+      "year": 2009,
+      "post_only_named_n": 2286,
+      "postal_named_n": 0,
+      "postal_or_post_conflicts": 0,
+      "named_nonvote_conflicts": 0,
+      "named_n": 2286,
+      "explicit_nonvote_n": 255,
+      "already_postal_at_attitude_wave_n": 0
+    },
+    {
+      "year": 2013,
+      "post_only_named_n": 2768,
+      "postal_named_n": 891,
+      "postal_or_post_conflicts": 0,
+      "named_nonvote_conflicts": 0,
+      "named_n": 3659,
+      "explicit_nonvote_n": 394,
+      "already_postal_at_attitude_wave_n": 17
+    }
+  ],
+  "wave_dates": [
+    {
+      "global_wave": 1,
+      "date_n": 860,
+      "min_date": "2009-07-10",
+      "max_date": "2009-07-20"
+    },
+    {
+      "global_wave": 2,
+      "date_n": 957,
+      "min_date": "2009-07-24",
+      "max_date": "2009-08-02"
+    },
+    {
+      "global_wave": 7,
+      "date_n": 848,
+      "min_date": "2009-09-29",
+      "max_date": "2009-10-06"
+    },
+    {
+      "global_wave": 8,
+      "date_n": 1025,
+      "min_date": "2013-06-20",
+      "max_date": "2013-07-07"
+    },
+    {
+      "global_wave": 10,
+      "date_n": 876,
+      "min_date": "2013-08-01",
+      "max_date": "2013-08-11"
+    },
+    {
+      "global_wave": 14,
+      "date_n": 866,
+      "min_date": "2013-09-24",
+      "max_date": "2013-10-03"
+    }
+  ],
+  "limitations": [
+    "Quota sample from commercial online access panel, not a probability sample.",
+    "2009 begins after the financial crisis; it is not a pre-crisis baseline.",
+    "1025/4552 is coverage of the 2009 file, not a response rate: recontact eligibility was selective.",
+    "Only 1527 were eligible for recontact; 1030 returned and five identity-inconsistent cases were removed by producer.",
+    "Cross-campaign selection is not corrected by within-campaign panel weights.",
+    "Economy in wave 1/8 precedes distrust and priority in wave 2/10, but this alone does not identify a causal path.",
+    "Both party-interest and politician-honesty items repeat before each election; neither alone establishes populist ideology.",
+    "Institutional party trust exists in 2009 but not the 2013 wave-3 battery; parliament trust is a separate institution.",
+    "Government performance is party-specific CDU/CSU/SPD in 2009 versus a government scale in 2013; do not silently equate them.",
+    "2013 actual postal votes can be reported in pre-election waves and then routed out of post-election turnout/vote questions.",
+    "Exclude respondents already reporting a postal vote at the attitude wave; unknown status is excluded in strict joint counts.",
+    "The 2009 post-only outcome is conservative; postal responses from later attriters are not recovered without verified routing.",
+    "MIP coding availability is checked, but the changing detailed issue-code dictionary still needs a substantive crosswalk.",
+    "Election-campaign classification, all governing coalition partners and party supply still need separate verification.",
+    "Linked data derive from older parent releases; checked scale agreements are reported, not assumed for every variable."
+  ]
+}

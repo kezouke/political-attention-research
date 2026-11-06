@@ -1,0 +1,5 @@
+year,scenario,joint_economy_priority_two_distrust_items_pre_vote_n,plus_government_responsibility_n,plus_household_economy_n,plus_parliament_and_government_trust_n,identity_flags_excluded_n
+2009,named_vote,524,523,524,523,502
+2009,named_vote_or_explicit_nonvote,556,555,556,555,533
+2013,named_vote,641,618,641,639,607
+2013,named_vote_or_explicit_nonvote,685,658,685,681,649

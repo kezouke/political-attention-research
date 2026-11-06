@@ -1,0 +1,108 @@
+{
+  "permission": {
+    "date": "2026-11-06",
+    "basis": "User reported receiving permission by telephone for the described AI-assisted research workflow and instructed download. No written GESIS confirmation observed.",
+    "scope": "ZA4973, ZA5305, ZA5704, ZA5757. Local code execution; only documentation, metadata and aggregate checks/results exposed to assistant; no raw records or respondent free text sent to AI, no AI training on respondent microdata, no reidentification or raw redistribution.",
+    "terms_url": "https://www.gesis.org/en/institute/data-usage-terms"
+  },
+  "files": [
+    {
+      "study": "ZA4973",
+      "version": "3.0.0",
+      "doi": "10.4232/1.11135",
+      "catalogue_url": "https://search.gesis.org/research_data/ZA4973",
+      "filename": "ZA4973_missing_v3-0-0.sps",
+      "local_path": "data/raw/audit_20261106/ZA4973_missing_v3-0-0.sps",
+      "bytes": 4201,
+      "sha256": "913771465bc835ec7f184fff01452aec07ab14d8b2338d9b4e66f38a7f85cc9c",
+      "download_completed_utc": "2026-11-06T16:56:04.813036+00:00",
+      "method": "authenticated_browser_download",
+      "manual_download_required": true,
+      "raw_redistribution": false
+    },
+    {
+      "study": "ZA4973",
+      "version": "3.0.0",
+      "doi": "10.4232/1.11135",
+      "catalogue_url": "https://search.gesis.org/research_data/ZA4973",
+      "filename": "ZA4973_v3-0-0.sav",
+      "local_path": "data/raw/audit_20261106/ZA4973_v3-0-0.sav",
+      "bytes": 39668422,
+      "sha256": "c902e1ca68a9eb48f7ff33c325a7896b82e7bc3efa7b75d6a0df6fcde6848edc",
+      "download_completed_utc": "2026-11-06T16:55:50.623996+00:00",
+      "method": "authenticated_browser_download",
+      "manual_download_required": true,
+      "raw_redistribution": false
+    },
+    {
+      "study": "ZA5305",
+      "version": "5.0.0",
+      "doi": "10.4232/1.12198",
+      "catalogue_url": "https://search.gesis.org/research_data/ZA5305",
+      "filename": "ZA5305_en_v5-0-0.dta",
+      "local_path": "data/raw/audit_20261106/ZA5305_en_v5-0-0.dta",
+      "bytes": 70662833,
+      "sha256": "5882fc455920f9a62f4fd6e7deb1abd9396ed81dd0fa93199bfd1a1e1ebb08c3",
+      "download_completed_utc": "2026-11-06T17:01:12.489648+00:00",
+      "method": "authenticated_browser_download",
+      "manual_download_required": true,
+      "raw_redistribution": false
+    },
+    {
+      "study": "ZA5704",
+      "version": "3.2.0",
+      "doi": "10.4232/1.12561",
+      "catalogue_url": "https://search.gesis.org/research_data/ZA5704",
+      "filename": "ZA5704_en_v3-2-0.dta",
+      "local_path": "data/raw/audit_20261106/ZA5704_en_v3-2-0.dta",
+      "bytes": 67999146,
+      "sha256": "b1be4ce5830baad311553d6941320ce63ee1a61e123311172e1983527a195eb7",
+      "download_completed_utc": "2026-11-06T17:02:26.816284+00:00",
+      "method": "authenticated_browser_download",
+      "manual_download_required": true,
+      "raw_redistribution": false
+    },
+    {
+      "study": "ZA5704",
+      "version": "3.2.0",
+      "doi": "10.4232/1.12561",
+      "catalogue_url": "https://search.gesis.org/research_data/ZA5704",
+      "filename": "ZA5704_missing_en.do",
+      "local_path": "data/raw/audit_20261106/ZA5704_missing_en.do",
+      "bytes": 1704,
+      "sha256": "0cc1428e4437870cedb5f5d01434081cfc9d91d1733431a897b62fefbf897fb9",
+      "download_completed_utc": "2026-11-06T17:02:38.833335+00:00",
+      "method": "authenticated_browser_download",
+      "manual_download_required": true,
+      "raw_redistribution": false
+    },
+    {
+      "study": "ZA5757",
+      "version": "1.1.0",
+      "doi": "10.4232/1.12536",
+      "catalogue_url": "https://search.gesis.org/research_data/ZA5757",
+      "filename": "ZA5757_missing.do",
+      "local_path": "data/raw/audit_20261106/ZA5757_missing.do",
+      "bytes": 2161,
+      "sha256": "ad4dc9e2129fd253e8a802f276cfb230e34cbefff56a3c5893ec5c7395767da4",
+      "download_completed_utc": "2026-11-06T16:54:27.235595+00:00",
+      "method": "authenticated_browser_download",
+      "manual_download_required": true,
+      "raw_redistribution": false
+    },
+    {
+      "study": "ZA5757",
+      "version": "1.1.0",
+      "doi": "10.4232/1.12536",
+      "catalogue_url": "https://search.gesis.org/research_data/ZA5757",
+      "filename": "ZA5757_v1-1-0.dta",
+      "local_path": "data/raw/audit_20261106/ZA5757_v1-1-0.dta",
+      "bytes": 31403582,
+      "sha256": "da2dcb71f932186f670bcd3896a5b4116f68c281293b76c6fdf5f8d15c7597dc",
+      "download_completed_utc": "2026-11-06T16:53:57.690785+00:00",
+      "method": "authenticated_browser_download",
+      "manual_download_required": true,
+      "raw_redistribution": false
+    }
+  ]
+}

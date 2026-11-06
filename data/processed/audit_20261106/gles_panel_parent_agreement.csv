@@ -1,0 +1,11 @@
+year,linked_variable,parent_variable,both_valid_n,substantive_value_disagreements,validity_disagreements
+2009,kp1_800,kp1_800,851,0,0
+2009,kp1_810,kp1_810,850,0,0
+2009,kp2_040a,kp2_040a,957,0,0
+2009,kp2_040c,kp2_040c,955,0,0
+2009,kp2_160a,kp2_160a,956,0,0
+2013,kp8_800,kp1_800,1015,0,0
+2013,kp8_810,kp1_810,960,0,0
+2013,kp10_040a,kp3_040a,849,0,0
+2013,kp10_040c,kp3_040c,849,0,0
+2013,kp10_160a,kp3_160a,859,0,0

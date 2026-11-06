@@ -1,0 +1,382 @@
+sample,country,variable,code,label,named_response_option
+1,FR,v542,50,Libertas (MPF-CPNT),True
+1,FR,v542,101,LO,True
+1,FR,v542,102,NPA,True
+1,FR,v542,103,FG,True
+1,FR,v542,200,PS (20),True
+1,FR,v542,301,L. d'Alt. Lib. de S. Hold (not ment.),True
+1,FR,v542,304,MoDem (François Bayrou) (40),True
+1,FR,v542,450,Liste de l'UMP et du Nouveau Centre,True
+1,FR,v542,508,DLR (Nicolas Dupont-Aignan),True
+1,FR,v542,600,Liste du FN (80),True
+1,FR,v542,603,L. du Parti de la Fr. de C. Lang (not ment.),True
+1,FR,v542,801,Europe ecologie,True
+1,FR,v542,803,AEI,True
+1,FR,v542,990,Other,False
+1,FR,v542,999,Inap. (not 1 in V541),False
+1,FR,v542,9999,Inap. (not 1 in V6),False
+2,BE,v543,100,PVDA (22),True
+2,BE,v543,200,PS (20),True
+2,BE,v543,201,sp.a (21),True
+2,BE,v543,202,SLP,True
+2,BE,v543,306,Open VLD (41),True
+2,BE,v543,310,MR (53),True
+2,BE,v543,401,CD&V (61),True
+2,BE,v543,404,cdH (60),True
+2,BE,v543,505,Lijst Dedecker (65),True
+2,BE,v543,600,Vlaams Belang (52),True
+2,BE,v543,601,FN (81),True
+2,BE,v543,700,N-VA (50),True
+2,BE,v543,800,ECOLO (55),True
+2,BE,v543,801,Groen! (56),True
+2,BE,v543,990,Other,False
+2,BE,v543,999,Inap. (not 1 in V541),False
+2,BE,v543,9999,Inap. (not 2 in V6),False
+3,NL,v544,200,PvdA (20),True
+3,NL,v544,202,SP (14),True
+3,NL,v544,300,VVD (70),True
+3,NL,v544,301,D66 (22),True
+3,NL,v544,400,CDA (63),True
+3,NL,v544,411,ChristenUnie-SGP,True
+3,NL,v544,602,PVV (76),True
+3,NL,v544,800,GroenLinks (17),True
+3,NL,v544,950,Libertas,True
+3,NL,v544,951,PvdD,True
+3,NL,v544,955,Newropeans,True
+3,NL,v544,990,Other,False
+3,NL,v544,999,Inap. (not 1 in V541),False
+3,NL,v544,9999,Inap. (not 3 in V6),False
+4,DE,v546,105,Die Linke (15),True
+4,DE,v546,200,SPD (20),True
+4,DE,v546,300,FDP (40),True
+4,DE,v546,400,CDU/CSU (60),True
+4,DE,v546,600,NPD (80) (not ment.),True
+4,DE,v546,601,REP (81),True
+4,DE,v546,604,DVU (82) (not ment.),True
+4,DE,v546,805,Gruene (50),True
+4,DE,v546,950,FW,True
+4,DE,v546,990,Other,False
+4,DE,v546,999,Inap. (not 1 in V541),False
+4,DE,v546,9999,Inap. (not 4 in V6),False
+5,IT,v548,102,PRC-PdCI-S2-CU (10),True
+5,IT,v548,150,SL,True
+5,IT,v548,205,Bonino-Pannella (15),True
+5,IT,v548,206,PD (23),True
+5,IT,v548,303,IdV (43),True
+5,IT,v548,350,LD - MAIE (not ment.),True
+5,IT,v548,402,UDC (62),True
+5,IT,v548,501,PdL (71),True
+5,IT,v548,604,La Destra-F. Tric. (81) (not ment.),True
+5,IT,v548,704,LN (75),True
+5,IT,v548,709,L'Autonomia,True
+5,IT,v548,990,Other,False
+5,IT,v548,999,Inap. (not 1 in V541),False
+5,IT,v548,9999,Inap. (not 5 in V6),False
+6,LU,v549,100,KPL (10) (not ment.),True
+6,LU,v549,101,Dei Lenk (12),True
+6,LU,v549,200,LSAP (20),True
+6,LU,v549,300,DP (70),True
+6,LU,v549,400,CSV (60),True
+6,LU,v549,803,Dei Greng (50),True
+6,LU,v549,950,Bierger Lescht (not ment.),True
+6,LU,v549,957,ADR (79),True
+6,LU,v549,990,Other,False
+6,LU,v549,999,Inap. (not 1 in V541),False
+6,LU,v549,9999,Inap. (not 6 in V6),False
+7,DK,v550,101,SF (15),True
+7,DK,v550,200,S (20),True
+7,DK,v550,203,Folkeb. mod EU (16),True
+7,DK,v550,300,V (70),True
+7,DK,v550,302,RV (41),True
+7,DK,v550,303,Lib. All. (42)  (not ment.),True
+7,DK,v550,500,KF (60),True
+7,DK,v550,601,DF (62),True
+7,DK,v550,950,Junibevaeg. (52) (not ment.),True
+7,DK,v550,990,Other,False
+7,DK,v550,999,Inap. (not 1 in V541),False
+7,DK,v550,9999,Inap. (not 7 in V6),False
+8,IE,v551,100,SF (81),True
+8,IE,v551,101,SP,True
+8,IE,v551,200,Labour (20),True
+8,IE,v551,400,FG (30),True
+8,IE,v551,500,FF (60),True
+8,IE,v551,800,Green Party (50) (not ment.),True
+8,IE,v551,950,Libertas (not ment.),True
+8,IE,v551,951,Marian Harkin (Ind.),True
+8,IE,v551,990,Other,False
+8,IE,v551,999,Inap. (not 1 in V541),False
+8,IE,v551,9999,Inap. (not 8 in V6),False
+9,GB,v553,0,NA,False
+9,GB,v553,50,UCUNF (not ment.),True
+9,GB,v553,100,SF (81) (not ment.),True
+9,GB,v553,200,Labour (20),True
+9,GB,v553,201,SDLP (15/30) (not ment.),True
+9,GB,v553,301,LD (40),True
+9,GB,v553,500,Conservatives (60),True
+9,GB,v553,600,BNP (80),True
+9,GB,v553,700,SNP (50),True
+9,GB,v553,701,Plaid Cymru (52),True
+9,GB,v553,800,Greens (51),True
+9,GB,v553,951,UKIP (70),True
+9,GB,v553,990,Other,False
+9,GB,v553,999,Inap. (not 1 in V541),False
+9,GB,v553,9999,Inap. (not 9 in V6),False
+10,GB,v554,50,UCUNF,True
+10,GB,v554,100,SF (81),True
+10,GB,v554,200,Labour (20) (not ment.),True
+10,GB,v554,201,SDLP (15/30),True
+10,GB,v554,301,LD (40) (not ment.),True
+10,GB,v554,500,Conservatives (60),True
+10,GB,v554,600,BNP (80) (not ment.),True
+10,GB,v554,701,DUP (62),True
+10,GB,v554,800,Greens (51),True
+10,GB,v554,951,UKIP (70) (not ment.),True
+10,GB,v554,990,Other,False
+10,GB,v554,999,Inap. (not 1 in V541),False
+10,GB,v554,9999,Inap. (not 10 in V6),False
+11,GR,v555,101,K.K.E (11),True
+11,GR,v555,107,SY.RIZ.A (17),True
+11,GR,v555,200,PASOK (20),True
+11,GR,v555,400,ND (60),True
+11,GR,v555,602,LA.OS. (80),True
+11,GR,v555,803,OP,True
+11,GR,v555,990,Other,False
+11,GR,v555,999,Inap. (not 1 in V541),False
+11,GR,v555,9999,Inap. (not 11 in V6),False
+12,ES,v556,104,IPCV-EUA (not ment.),True
+12,ES,v556,105,IU-ICV-EUIA-BA,True
+12,ES,v556,200,PSOE (20),True
+12,ES,v556,350,UPyD,True
+12,ES,v556,500,PP (70),True
+12,ES,v556,743,NC (not ment.),True
+12,ES,v556,744,UPN (57) (not ment.),True
+12,ES,v556,780,CpE,True
+12,ES,v556,781,Europa de los Pueblos (not ment.),True
+12,ES,v556,782,CA (not ment.),True
+12,ES,v556,784,NA-BAI (not ment.),True
+12,ES,v556,950,Libertas (not ment.),True
+12,ES,v556,990,Other,False
+12,ES,v556,999,Inap. (not 1 in V541),False
+12,ES,v556,9999,Inap. (not 12 in V6),False
+13,PT,v557,9,MPT (90) (not ment.),True
+13,PT,v557,13,PH (not ment.),True
+13,PT,v557,14,MEP (not ment.),True
+13,PT,v557,15,MMS (not ment.),True
+13,PT,v557,100,CDU (PCP-PEV) (10),True
+13,PT,v557,105,BE (11),True
+13,PT,v557,154,PCTP/MRPP (17) (not ment.),True
+13,PT,v557,157,POUS (6) (not ment.),True
+13,PT,v557,200,PS (20),True
+13,PT,v557,201,CDS-PP (60),True
+13,PT,v557,300,PPD/PSD (30),True
+13,PT,v557,600,PPM (81) (not ment.),True
+13,PT,v557,601,PNR (82) (not ment.),True
+13,PT,v557,990,Other,False
+13,PT,v557,999,Inap. (not 1 in V541),False
+13,PT,v557,9999,Inap. (not 13 in V6),False
+14,DE,v547,105,Die Linke (15),True
+14,DE,v547,200,SPD (20),True
+14,DE,v547,300,FDP (40),True
+14,DE,v547,400,CDU/CSU (60),True
+14,DE,v547,600,NPD (80) (not ment.),True
+14,DE,v547,601,REP (81),True
+14,DE,v547,604,DVU (82) (not ment.),True
+14,DE,v547,805,Gruene (50),True
+14,DE,v547,950,FW,True
+14,DE,v547,990,Other,False
+14,DE,v547,999,Inap. (not 1 in V541),False
+14,DE,v547,9999,Inap. (not 14 in V6),False
+16,FI,v558,50,KD-PS,True
+16,FI,v558,100,VAS (10),True
+16,FI,v558,200,SDP (20),True
+16,FI,v558,500,KOK (70),True
+16,FI,v558,700,SFP-RKP (40),True
+16,FI,v558,800,VIHR (50),True
+16,FI,v558,900,KESK (60),True
+16,FI,v558,990,Other,False
+16,FI,v558,999,Inap. (not 1 in V541),False
+16,FI,v558,9999,Inap. (not 16 in V6),False
+17,SE,v559,3,Herp. de kons. (not ment.),True
+17,SE,v559,4,EAP (not ment.),True
+17,SE,v559,100,VP (10),True
+17,SE,v559,200,SAP (20),True
+17,SE,v559,301,C (50),True
+17,SE,v559,302,FP (40),True
+17,SE,v559,400,KD (61),True
+17,SE,v559,501,M (60),True
+17,SE,v559,600,SD,True
+17,SE,v559,601,ND (not ment.),True
+17,SE,v559,800,MP (51),True
+17,SE,v559,950,Junilistan (50),True
+17,SE,v559,951,PP,True
+17,SE,v559,990,Other,False
+17,SE,v559,999,Inap. (not 1 in V541),False
+17,SE,v559,9999,Inap. (not 17 in V6),False
+18,AT,v560,100,KPO (10),True
+18,AT,v560,200,SPO (20),True
+18,AT,v560,300,JuLis,True
+18,AT,v560,401,OVP (60),True
+18,AT,v560,600,FPO (80),True
+18,AT,v560,601,BZO (81),True
+18,AT,v560,800,Die Gruenen (50),True
+18,AT,v560,950,Liste Hans Peter Martin,True
+18,AT,v560,999,Inap. (not 1 in V541),False
+18,AT,v560,9999,Inap. (not 18 in V6),False
+19,CY,v561,100,AKEL,True
+19,CY,v561,200,KS EDEK,True
+19,CY,v561,201,DI.KO.,True
+19,CY,v561,305,EUROKO,True
+19,CY,v561,500,DISY,True
+19,CY,v561,600,ELAM (not ment.),True
+19,CY,v561,800,KOP (not ment.),True
+19,CY,v561,950,Independents (not ment.),False
+19,CY,v561,952,KEK (not ment.),True
+19,CY,v561,990,Other,False
+19,CY,v561,999,Inap. (not 1 in V541),False
+19,CY,v561,9999,Inap. (not 19 in V6),False
+20,CZ,v562,100,KSCM,True
+20,CZ,v562,200,CSSD,True
+20,CZ,v562,400,KDU-CSL,True
+20,CZ,v562,500,ODS,True
+20,CZ,v562,501,SNK/ED,True
+20,CZ,v562,800,SZ,True
+20,CZ,v562,950,NezDem,True
+20,CZ,v562,990,Other,False
+20,CZ,v562,999,Inap. (not 1 in V541),False
+20,CZ,v562,9999,Inap. (not 20 in V6),False
+21,EE,v563,100,EP (not ment.),True
+21,EE,v563,200,SDE,True
+21,EE,v563,300,ER,True
+21,EE,v563,301,EK,True
+21,EE,v563,401,EKD (not ment.),True
+21,EE,v563,501,IRL,True
+21,EE,v563,700,VEE (not ment.),True
+21,EE,v563,800,EER,True
+21,EE,v563,900,ERL,True
+21,EE,v563,950,I. Tarand (Ind.),True
+21,EE,v563,951,LEE (not ment.),True
+21,EE,v563,990,Other,False
+21,EE,v563,999,Inap. (not 1 in V541),False
+21,EE,v563,9999,Inap. (not 21 in V6),False
+22,HU,v564,50,HP-LMP,True
+22,HU,v564,100,Munkaspart,True
+22,HU,v564,200,MSZP,True
+22,HU,v564,300,SZDSZ,True
+22,HU,v564,400,FIDESZ-KDNP,True
+22,HU,v564,500,MDF,True
+22,HU,v564,600,Jobbik,True
+22,HU,v564,700,MCF,True
+22,HU,v564,999,Inap. (not 1 in V541),False
+22,HU,v564,9999,Inap. (not 22 in V6),False
+23,LV,v565,200,LSDSP,True
+23,LV,v565,201,SC,True
+23,LV,v565,305,SCP,True
+23,LV,v565,400,LPP/LC,True
+23,LV,v565,500,TP,True
+23,LV,v565,501,JL,True
+23,LV,v565,502,PS,True
+23,LV,v565,600,TB/LNNK,True
+23,LV,v565,601,Osipova partija (not ment.),True
+23,LV,v565,602,VL,True
+23,LV,v565,603,PDz,True
+23,LV,v565,700,PCTVL,True
+23,LV,v565,950,Libertas.lv,True
+23,LV,v565,951,RP,True
+23,LV,v565,990,Other,False
+23,LV,v565,999,Inap. (not 1 in V541),False
+23,LV,v565,9999,Inap. (not 23 in V6),False
+24,LT,v566,100,FRONTO,True
+24,LT,v566,200,LSDP,True
+24,LT,v566,300,DP,True
+24,LT,v566,301,LiCS,True
+24,LT,v566,303,LRLS,True
+24,LT,v566,305,LCP,True
+24,LT,v566,306,PDP,True
+24,LT,v566,400,KKSS,True
+24,LT,v566,500,TS-LKD,True
+24,LT,v566,600,TT,True
+24,LT,v566,701,LLRA/AWPL,True
+24,LT,v566,990,Other,False
+24,LT,v566,999,Inap. (not 1 in V541),False
+24,LT,v566,9999,Inap. (not 24 in V6),False
+25,MT,v567,200,MLP,True
+25,MT,v567,400,PN,True
+25,MT,v567,600,AN (not ment.),True
+25,MT,v567,601,Imperium Europa (not ment.),True
+25,MT,v567,800,AD,True
+25,MT,v567,950,Libertas Malta (not ment.),True
+25,MT,v567,951,K.U.L. Ewropa (not ment.),True
+25,MT,v567,952,Emmy Bezzina (not ment.),True
+25,MT,v567,953,Partit ta' l-Ajkla (not ment.),True
+25,MT,v567,990,Other,False
+25,MT,v567,999,Inap. (not 1 in V541),False
+25,MT,v567,9999,Inap. (not 25 in V6),False
+26,PL,v568,201,PdP-CL,True
+26,PL,v568,202,SLD - UP,True
+26,PL,v568,203,PPP,True
+26,PL,v568,400,PO,True
+26,PL,v568,500,PiS,True
+26,PL,v568,601,PRP,True
+26,PL,v568,602,UPR,True
+26,PL,v568,900,PSL,True
+26,PL,v568,901,SRP (SO),True
+26,PL,v568,950,Libertas,True
+26,PL,v568,990,Other,False
+26,PL,v568,999,Inap. (not 1 in V541),False
+26,PL,v568,9999,Inap. (not 26 in V6),False
+27,SK,v569,100,KSS,True
+27,SK,v569,101,SDL',True
+27,SK,v569,200,SMER,True
+27,SK,v569,301,SAS,True
+27,SK,v569,302,DSS (not ment.),True
+27,SK,v569,400,SDKU - DS,True
+27,SK,v569,401,KDH,True
+27,SK,v569,402,SF,True
+27,SK,v569,403,Misia 21 (not ment.),True
+27,SK,v569,501,KDS-OKS,True
+27,SK,v569,502,Liga (not ment.),True
+27,SK,v569,600,SNS,True
+27,SK,v569,602,L'S  HZDS,True
+27,SK,v569,700,SMK-MPK,True
+27,SK,v569,701,RIS (not ment.),True
+27,SK,v569,900,ASV (not ment.),True
+27,SK,v569,990,Other,False
+27,SK,v569,999,Inap. (not 1 in V541),False
+27,SK,v569,9999,Inap. (not 27 in V6),False
+28,SI,v570,200,SD,True
+28,SI,v570,201,KSS,True
+28,SI,v570,300,LDS,True
+28,SI,v570,301,ZARES,True
+28,SI,v570,400,N.Si,True
+28,SI,v570,500,SDS,True
+28,SI,v570,501,SLS,True
+28,SI,v570,600,SNS,True
+28,SI,v570,800,SMS-Zeleni,True
+28,SI,v570,801,ZZ,True
+28,SI,v570,950,DeSUS,True
+28,SI,v570,951,NLPB,True
+28,SI,v570,999,Inap. (not 1 in V541),False
+28,SI,v570,9999,Inap. (not 28 in V6),False
+29,BG,v571,50,Napred,True
+29,BG,v571,200,BSP,True
+29,BG,v571,300,NDSV,True
+29,BG,v571,500,GERB,True
+29,BG,v571,501,SDS-DSB,True
+29,BG,v571,502,Lider,True
+29,BG,v571,503,RZS,True
+29,BG,v571,600,ATAKA,True
+29,BG,v571,700,DPS,True
+29,BG,v571,990,Other,False
+29,BG,v571,999,Inap. (not 1 in V541),False
+29,BG,v571,9999,Inap. (not 29 in V6),False
+30,RO,v572,50,PSD-PC,True
+30,RO,v572,300,PNL,True
+30,RO,v572,302,PD-L,True
+30,RO,v572,401,PNT-CD,True
+30,RO,v572,600,PRM,True
+30,RO,v572,700,UDMR,True
+30,RO,v572,950,E. Basescu (Ind.),True
+30,RO,v572,951,P. Abraham (Ind.) (not ment.),True
+30,RO,v572,990,Other,False
+30,RO,v572,999,Inap. (not 1 in V541),False
+30,RO,v572,9999,Inap. (not 30 in V6),False

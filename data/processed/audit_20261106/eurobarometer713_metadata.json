@@ -1,0 +1,1698 @@
+[
+  {
+    "variable": "v6",
+    "label": "NATION - ALL SAMPLES",
+    "value_labels": {
+      "1.0": "France",
+      "2.0": "Belgium",
+      "3.0": "The Netherlands",
+      "4.0": "Germany West",
+      "5.0": "Italy",
+      "6.0": "Luxembourg",
+      "7.0": "Denmark",
+      "8.0": "Ireland",
+      "9.0": "Great Britain",
+      "10.0": "Northern Ireland",
+      "11.0": "Greece",
+      "12.0": "Spain",
+      "13.0": "Portugal",
+      "14.0": "Germany East",
+      "15.0": "Norway (not included)",
+      "16.0": "Finland",
+      "17.0": "Sweden",
+      "18.0": "Austria",
+      "19.0": "Cyprus (Republic)",
+      "20.0": "Czech Republic",
+      "21.0": "Estonia",
+      "22.0": "Hungary",
+      "23.0": "Latvia",
+      "24.0": "Lithuania",
+      "25.0": "Malta",
+      "26.0": "Poland",
+      "27.0": "Slovakia",
+      "28.0": "Slovenia",
+      "29.0": "Bulgaria",
+      "30.0": "Romania",
+      "31.0": "Turkey",
+      "32.0": "Croatia",
+      "33.0": "Cyprus (CY-TCC)",
+      "34.0": "Macedonia (FYROM)"
+    },
+    "declared_missing_ranges": []
+  },
+  {
+    "variable": "v7",
+    "label": "NATION - ALL SAMPLES ISO 3166",
+    "value_labels": {},
+    "declared_missing_ranges": []
+  },
+  {
+    "variable": "v8",
+    "label": "W1 WEIGHT RESULT FROM TARGET",
+    "value_labels": {},
+    "declared_missing_ranges": []
+  },
+  {
+    "variable": "v10",
+    "label": "W4 WEIGHT UNITED KINGDOM",
+    "value_labels": {},
+    "declared_missing_ranges": []
+  },
+  {
+    "variable": "v12",
+    "label": "W3 WEIGHT GERMANY",
+    "value_labels": {},
+    "declared_missing_ranges": []
+  },
+  {
+    "variable": "v37",
+    "label": "NATION GROUP EU27",
+    "value_labels": {
+      "0.0": "Other",
+      "1.0": "EU27"
+    },
+    "declared_missing_ranges": []
+  },
+  {
+    "variable": "v54",
+    "label": "W31 POLIT WEIGHT RESULT FROM TARGET EU27 (VOTING AGE)",
+    "value_labels": {},
+    "declared_missing_ranges": []
+  },
+  {
+    "variable": "v65",
+    "label": "W52 POLIT WEIGHT EU27 (VOTING AGE)",
+    "value_labels": {},
+    "declared_missing_ranges": []
+  },
+  {
+    "variable": "v105",
+    "label": "QA2A SITUATION: NATIONAL ECONOMY",
+    "value_labels": {
+      "1.0": "Very good",
+      "2.0": "Rather good",
+      "3.0": "Rather bad",
+      "4.0": "Very bad",
+      "5.0": "DK",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 5.0,
+        "hi": 5.0
+      },
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v109",
+    "label": "QA2A SITUATION: FINANCIAL HOUSEHOLD",
+    "value_labels": {
+      "1.0": "Very good",
+      "2.0": "Rather good",
+      "3.0": "Rather bad",
+      "4.0": "Very bad",
+      "5.0": "DK",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 5.0,
+        "hi": 5.0
+      },
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v216",
+    "label": "QA9 TRUST IN INSTITUTIONS: POLIT PARTIES",
+    "value_labels": {
+      "1.0": "Tend to trust",
+      "2.0": "Tend not to trust",
+      "3.0": "DK"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 3.0,
+        "hi": 3.0
+      }
+    ]
+  },
+  {
+    "variable": "v217",
+    "label": "QA9 TRUST IN INSTITUTIONS: NAT GOVERNMENT",
+    "value_labels": {
+      "1.0": "Tend to trust",
+      "2.0": "Tend not to trust",
+      "3.0": "DK",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 3.0,
+        "hi": 3.0
+      },
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v218",
+    "label": "QA9 TRUST IN INSTITUTIONS: NAT PARLIAMENT",
+    "value_labels": {
+      "1.0": "Tend to trust",
+      "2.0": "Tend not to trust",
+      "3.0": "DK",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 3.0,
+        "hi": 3.0
+      },
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v541",
+    "label": "QK1 EUROPEAN ELECTIONS - PARTICIPATION",
+    "value_labels": {
+      "1.0": "Voted",
+      "2.0": "Did not vote",
+      "3.0": "DK (not ment.)",
+      "9.0": "Inap. (not 1 to 30 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 3.0,
+        "hi": 3.0
+      },
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v573",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE",
+    "value_labels": {
+      "0.0": "NA",
+      "3.0": "COUNTRY SPECIFIC",
+      "4.0": "COUNTRY SPECIFIC",
+      "9.0": "COUNTRY SPECIFIC",
+      "13.0": "COUNTRY SPECIFIC",
+      "14.0": "COUNTRY SPECIFIC",
+      "15.0": "COUNTRY SPECIFIC",
+      "50.0": "COUNTRY SPECIFIC",
+      "100.0": "COUNTRY SPECIFIC",
+      "101.0": "COUNTRY SPECIFIC",
+      "102.0": "COUNTRY SPECIFIC",
+      "103.0": "COUNTRY SPECIFIC",
+      "104.0": "COUNTRY SPECIFIC",
+      "105.0": "COUNTRY SPECIFIC",
+      "107.0": "COUNTRY SPECIFIC",
+      "150.0": "COUNTRY SPECIFIC",
+      "154.0": "COUNTRY SPECIFIC",
+      "157.0": "COUNTRY SPECIFIC",
+      "200.0": "COUNTRY SPECIFIC",
+      "201.0": "COUNTRY SPECIFIC",
+      "202.0": "COUNTRY SPECIFIC",
+      "203.0": "COUNTRY SPECIFIC",
+      "205.0": "COUNTRY SPECIFIC",
+      "206.0": "COUNTRY SPECIFIC",
+      "300.0": "COUNTRY SPECIFIC",
+      "301.0": "COUNTRY SPECIFIC",
+      "302.0": "COUNTRY SPECIFIC",
+      "303.0": "COUNTRY SPECIFIC",
+      "304.0": "COUNTRY SPECIFIC",
+      "305.0": "COUNTRY SPECIFIC",
+      "306.0": "COUNTRY SPECIFIC",
+      "310.0": "COUNTRY SPECIFIC",
+      "350.0": "COUNTRY SPECIFIC",
+      "400.0": "COUNTRY SPECIFIC",
+      "401.0": "COUNTRY SPECIFIC",
+      "402.0": "COUNTRY SPECIFIC",
+      "403.0": "COUNTRY SPECIFIC",
+      "404.0": "COUNTRY SPECIFIC",
+      "411.0": "COUNTRY SPECIFIC",
+      "450.0": "COUNTRY SPECIFIC",
+      "500.0": "COUNTRY SPECIFIC",
+      "501.0": "COUNTRY SPECIFIC",
+      "502.0": "COUNTRY SPECIFIC",
+      "503.0": "COUNTRY SPECIFIC",
+      "505.0": "COUNTRY SPECIFIC",
+      "508.0": "COUNTRY SPECIFIC",
+      "600.0": "COUNTRY SPECIFIC",
+      "601.0": "COUNTRY SPECIFIC",
+      "602.0": "COUNTRY SPECIFIC",
+      "603.0": "COUNTRY SPECIFIC",
+      "604.0": "COUNTRY SPECIFIC",
+      "700.0": "COUNTRY SPECIFIC",
+      "701.0": "COUNTRY SPECIFIC",
+      "704.0": "COUNTRY SPECIFIC",
+      "709.0": "COUNTRY SPECIFIC",
+      "743.0": "COUNTRY SPECIFIC",
+      "744.0": "COUNTRY SPECIFIC",
+      "780.0": "COUNTRY SPECIFIC",
+      "781.0": "COUNTRY SPECIFIC",
+      "782.0": "COUNTRY SPECIFIC",
+      "784.0": "COUNTRY SPECIFIC",
+      "800.0": "COUNTRY SPECIFIC",
+      "801.0": "COUNTRY SPECIFIC",
+      "803.0": "COUNTRY SPECIFIC",
+      "805.0": "COUNTRY SPECIFIC",
+      "900.0": "COUNTRY SPECIFIC",
+      "901.0": "COUNTRY SPECIFIC",
+      "950.0": "COUNTRY SPECIFIC",
+      "951.0": "COUNTRY SPECIFIC",
+      "952.0": "COUNTRY SPECIFIC",
+      "953.0": "COUNTRY SPECIFIC",
+      "955.0": "COUNTRY SPECIFIC",
+      "957.0": "COUNTRY SPECIFIC",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 1 to 30 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      },
+      {
+        "lo": 0.0,
+        "hi": 0.0
+      }
+    ]
+  },
+  {
+    "variable": "v666",
+    "label": "D11 AGE EXACT",
+    "value_labels": {
+      "15.0": "15 years",
+      "98.0": "98 years"
+    },
+    "declared_missing_ranges": []
+  },
+  {
+    "variable": "v701",
+    "label": "P1 DATE OF INTERVIEW",
+    "value_labels": {
+      "1.0": "Friday 12nd June 2009",
+      "2.0": "Saturday 13rd June 2009",
+      "3.0": "Sunday 14th June 2009",
+      "4.0": "Monday 15th June 2009",
+      "5.0": "Tuesday 16th June 2009",
+      "6.0": "Wednesday 17th June 2009",
+      "7.0": "Thursday 18th June 2009",
+      "8.0": "Friday 19th June 2009",
+      "9.0": "Saturday 20th June 2009",
+      "10.0": "Sunday 21st June 2009",
+      "11.0": "Monday 22nd June 2009",
+      "12.0": "Tuesday 23rd June 2009",
+      "13.0": "Wednesday 24th June 2009",
+      "14.0": "Thursday 25th June 2009",
+      "15.0": "Friday 26th June 2009",
+      "16.0": "Saturday 27th June 2009",
+      "17.0": "Sunday 28th June 2009",
+      "18.0": "Monday 29th June 2009",
+      "19.0": "Tuesday 30th June 2009",
+      "20.0": "Wednesday 1st July 2009",
+      "21.0": "Thursday 2nd July 2009",
+      "22.0": "Friday 3rd July 2009",
+      "23.0": "Saturday 4th July 2009",
+      "24.0": "Sunday 5th July 2009",
+      "25.0": "Monday 6th July 2009",
+      "26.0": "Tuesday 7th July 2009"
+    },
+    "declared_missing_ranges": []
+  },
+  {
+    "variable": "v796",
+    "label": "SPLIT BALLOT (QA4/QA5/QA18, QB5, QC1, QF18, QH1)",
+    "value_labels": {
+      "1.0": "Questionnaire Version A",
+      "2.0": "Questionnaire Version B"
+    },
+    "declared_missing_ranges": []
+  },
+  {
+    "variable": "v133",
+    "label": "QA4A IMPORT ISSUES CTRY: CRIME",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v134",
+    "label": "QA4A IMPORT ISSUES CTRY: ECONOMIC SITUATION",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v135",
+    "label": "QA4A IMPORT ISSUES CTRY: RISING PRICES/INFLA",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v136",
+    "label": "QA4A IMPORT ISSUES CTRY: TAXATION",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v137",
+    "label": "QA4A IMPORT ISSUES CTRY: UNEMPLOYMENT",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v138",
+    "label": "QA4A IMPORT ISSUES CTRY: TERRORISM",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v139",
+    "label": "QA4A IMPORT ISSUES CTRY: DEFENCE/FOREIGN AFF",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v140",
+    "label": "QA4A IMPORT ISSUES CTRY: HOUSING",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v141",
+    "label": "QA4A IMPORT ISSUES CTRY: IMMIGRATION",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v142",
+    "label": "QA4A IMPORT ISSUES CTRY: HEALTHCARE SYSTEM",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v143",
+    "label": "QA4A IMPORT ISSUES CTRY: EDUCATIONAL SYSTEM",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v144",
+    "label": "QA4A IMPORT ISSUES CTRY: PENSIONS",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v145",
+    "label": "QA4A IMPORT ISSUES CTRY: ENVIRONMENT PROTECT (A)",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (Split B)",
+      "99.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      },
+      {
+        "lo": 99.0,
+        "hi": 99.0
+      }
+    ]
+  },
+  {
+    "variable": "v146",
+    "label": "QA4A IMPORT ISSUES CTRY: THE ENVIRONMENT (B)",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (Split A)",
+      "99.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      },
+      {
+        "lo": 99.0,
+        "hi": 99.0
+      }
+    ]
+  },
+  {
+    "variable": "v147",
+    "label": "QA4A IMPORT ISSUES CTRY: ENERGY",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v148",
+    "label": "QA4A IMPORT ISSUES CTRY: OTHERS",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v149",
+    "label": "QA4A IMPORT ISSUES CTRY: NONE",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v150",
+    "label": "QA4A IMPORT ISSUES CTRY: DK",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v151",
+    "label": "QA5A IMPORT ISSUES PERS: CRIME",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v152",
+    "label": "QA5A IMPORT ISSUES PERS: ECONOMIC SITUATION",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v153",
+    "label": "QA5A IMPORT ISSUES PERS: RISING PRICES/INFLA",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v154",
+    "label": "QA5A IMPORT ISSUES PERS: TAXATION",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v155",
+    "label": "QA5A IMPORT ISSUES PERS: UNEMPLOYMENT",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v156",
+    "label": "QA5A IMPORT ISSUES PERS: TERRORISM",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v157",
+    "label": "QA5A IMPORT ISSUES PERS: DEFENCE/FOREIGN AFF",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v158",
+    "label": "QA5A IMPORT ISSUES PERS: HOUSING",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v159",
+    "label": "QA5A IMPORT ISSUES PERS: IMMIGRATION",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v160",
+    "label": "QA5A IMPORT ISSUES PERS: HEALTHCARE SYSTEM",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v161",
+    "label": "QA5A IMPORT ISSUES PERS: EDUCATIONAL SYSTEM",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v162",
+    "label": "QA5A IMPORT ISSUES PERS: PENSIONS",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v163",
+    "label": "QA5A IMPORT ISSUES PERS: ENVIRONMENT PROTECT (A)",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (Split B)",
+      "99.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      },
+      {
+        "lo": 99.0,
+        "hi": 99.0
+      }
+    ]
+  },
+  {
+    "variable": "v164",
+    "label": "QA5A IMPORT ISSUES PERS: THE ENVIRONMENT (B)",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (Split A)",
+      "99.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      },
+      {
+        "lo": 99.0,
+        "hi": 99.0
+      }
+    ]
+  },
+  {
+    "variable": "v165",
+    "label": "QA5A IMPORT ISSUES PERS: ENERGY",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v166",
+    "label": "QA5A IMPORT ISSUES PERS: OTHERS",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v167",
+    "label": "QA5A IMPORT ISSUES PERS: NONE",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v168",
+    "label": "QA5A IMPORT ISSUES PERS: DK",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 9.0,
+        "hi": 9.0
+      }
+    ]
+  },
+  {
+    "variable": "v542",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - FRANCE",
+    "value_labels": {
+      "50.0": "Libertas (MPF-CPNT)",
+      "101.0": "LO",
+      "102.0": "NPA",
+      "103.0": "FG",
+      "200.0": "PS (20)",
+      "301.0": "L. d'Alt. Lib. de S. Hold (not ment.)",
+      "304.0": "MoDem (François Bayrou) (40)",
+      "450.0": "Liste de l'UMP et du Nouveau Centre",
+      "508.0": "DLR (Nicolas Dupont-Aignan)",
+      "600.0": "Liste du FN (80)",
+      "603.0": "L. du Parti de la Fr. de C. Lang (not ment.)",
+      "801.0": "Europe ecologie",
+      "803.0": "AEI",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 1 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v543",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - BELGIUM",
+    "value_labels": {
+      "100.0": "PVDA (22)",
+      "200.0": "PS (20)",
+      "201.0": "sp.a (21)",
+      "202.0": "SLP",
+      "306.0": "Open VLD (41)",
+      "310.0": "MR (53)",
+      "401.0": "CD&V (61)",
+      "404.0": "cdH (60)",
+      "505.0": "Lijst Dedecker (65)",
+      "600.0": "Vlaams Belang (52)",
+      "601.0": "FN (81)",
+      "700.0": "N-VA (50)",
+      "800.0": "ECOLO (55)",
+      "801.0": "Groen! (56)",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 2 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v544",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - NETHERLANDS",
+    "value_labels": {
+      "200.0": "PvdA (20)",
+      "202.0": "SP (14)",
+      "300.0": "VVD (70)",
+      "301.0": "D66 (22)",
+      "400.0": "CDA (63)",
+      "411.0": "ChristenUnie-SGP",
+      "602.0": "PVV (76)",
+      "800.0": "GroenLinks (17)",
+      "950.0": "Libertas",
+      "951.0": "PvdD",
+      "955.0": "Newropeans",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 3 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v545",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - GERMANY",
+    "value_labels": {
+      "105.0": "Die Linke (15)",
+      "200.0": "SPD (20)",
+      "300.0": "FDP (40)",
+      "400.0": "CDU/CSU (60)",
+      "600.0": "NPD (80) (not ment.)",
+      "601.0": "REP (81)",
+      "604.0": "DVU (82) (not ment.)",
+      "805.0": "Gruene (50)",
+      "950.0": "FW",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 4 or 14 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v546",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - GERMANY-WEST",
+    "value_labels": {
+      "105.0": "Die Linke (15)",
+      "200.0": "SPD (20)",
+      "300.0": "FDP (40)",
+      "400.0": "CDU/CSU (60)",
+      "600.0": "NPD (80) (not ment.)",
+      "601.0": "REP (81)",
+      "604.0": "DVU (82) (not ment.)",
+      "805.0": "Gruene (50)",
+      "950.0": "FW",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 4 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v547",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - GERMANY-EAST",
+    "value_labels": {
+      "105.0": "Die Linke (15)",
+      "200.0": "SPD (20)",
+      "300.0": "FDP (40)",
+      "400.0": "CDU/CSU (60)",
+      "600.0": "NPD (80) (not ment.)",
+      "601.0": "REP (81)",
+      "604.0": "DVU (82) (not ment.)",
+      "805.0": "Gruene (50)",
+      "950.0": "FW",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 14 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v548",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - ITALY",
+    "value_labels": {
+      "102.0": "PRC-PdCI-S2-CU (10)",
+      "150.0": "SL",
+      "205.0": "Bonino-Pannella (15)",
+      "206.0": "PD (23)",
+      "303.0": "IdV (43)",
+      "350.0": "LD - MAIE (not ment.)",
+      "402.0": "UDC (62)",
+      "501.0": "PdL (71)",
+      "604.0": "La Destra-F. Tric. (81) (not ment.)",
+      "704.0": "LN (75)",
+      "709.0": "L'Autonomia",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 5 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v549",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - LUXEMBOURG",
+    "value_labels": {
+      "100.0": "KPL (10) (not ment.)",
+      "101.0": "Dei Lenk (12)",
+      "200.0": "LSAP (20)",
+      "300.0": "DP (70)",
+      "400.0": "CSV (60)",
+      "803.0": "Dei Greng (50)",
+      "950.0": "Bierger Lescht (not ment.)",
+      "957.0": "ADR (79)",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 6 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v550",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - DENMARK",
+    "value_labels": {
+      "101.0": "SF (15)",
+      "200.0": "S (20)",
+      "203.0": "Folkeb. mod EU (16)",
+      "300.0": "V (70)",
+      "302.0": "RV (41)",
+      "303.0": "Lib. All. (42)  (not ment.)",
+      "500.0": "KF (60)",
+      "601.0": "DF (62)",
+      "950.0": "Junibevaeg. (52) (not ment.)",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 7 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v551",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - IRELAND",
+    "value_labels": {
+      "100.0": "SF (81)",
+      "101.0": "SP",
+      "200.0": "Labour (20)",
+      "400.0": "FG (30)",
+      "500.0": "FF (60)",
+      "800.0": "Green Party (50) (not ment.)",
+      "950.0": "Libertas (not ment.)",
+      "951.0": "Marian Harkin (Ind.)",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 8 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v552",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - UNITED KINGDOM",
+    "value_labels": {
+      "0.0": "NA",
+      "50.0": "UCUNF",
+      "100.0": "SF (81)",
+      "200.0": "Labour (20)",
+      "201.0": "SDLP (15/30)",
+      "301.0": "LD (40)",
+      "500.0": "Conservatives (60)",
+      "600.0": "BNP (80)",
+      "700.0": "SNP (50)",
+      "701.0": "Plaid Cymru (52) / DUP (62)",
+      "800.0": "Greens (51)",
+      "951.0": "UKIP (70)",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 9 or 10  in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      },
+      {
+        "lo": 0.0,
+        "hi": 0.0
+      }
+    ]
+  },
+  {
+    "variable": "v553",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - GREAT BRITAIN",
+    "value_labels": {
+      "0.0": "NA",
+      "50.0": "UCUNF (not ment.)",
+      "100.0": "SF (81) (not ment.)",
+      "200.0": "Labour (20)",
+      "201.0": "SDLP (15/30) (not ment.)",
+      "301.0": "LD (40)",
+      "500.0": "Conservatives (60)",
+      "600.0": "BNP (80)",
+      "700.0": "SNP (50)",
+      "701.0": "Plaid Cymru (52)",
+      "800.0": "Greens (51)",
+      "951.0": "UKIP (70)",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 9 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      },
+      {
+        "lo": 0.0,
+        "hi": 0.0
+      }
+    ]
+  },
+  {
+    "variable": "v554",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - NORTHERN IRELAND",
+    "value_labels": {
+      "50.0": "UCUNF",
+      "100.0": "SF (81)",
+      "200.0": "Labour (20) (not ment.)",
+      "201.0": "SDLP (15/30)",
+      "301.0": "LD (40) (not ment.)",
+      "500.0": "Conservatives (60)",
+      "600.0": "BNP (80) (not ment.)",
+      "701.0": "DUP (62)",
+      "800.0": "Greens (51)",
+      "951.0": "UKIP (70) (not ment.)",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 10 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v555",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - GREECE",
+    "value_labels": {
+      "101.0": "K.K.E (11)",
+      "107.0": "SY.RIZ.A (17)",
+      "200.0": "PASOK (20)",
+      "400.0": "ND (60)",
+      "602.0": "LA.OS. (80)",
+      "803.0": "OP",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 11 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v556",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - SPAIN",
+    "value_labels": {
+      "104.0": "IPCV-EUA (not ment.)",
+      "105.0": "IU-ICV-EUIA-BA",
+      "200.0": "PSOE (20)",
+      "350.0": "UPyD",
+      "500.0": "PP (70)",
+      "743.0": "NC (not ment.)",
+      "744.0": "UPN (57) (not ment.)",
+      "780.0": "CpE",
+      "781.0": "Europa de los Pueblos (not ment.)",
+      "782.0": "CA (not ment.)",
+      "784.0": "NA-BAI (not ment.)",
+      "950.0": "Libertas (not ment.)",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 12 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v557",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - PORTUGAL",
+    "value_labels": {
+      "9.0": "MPT (90) (not ment.)",
+      "13.0": "PH (not ment.)",
+      "14.0": "MEP (not ment.)",
+      "15.0": "MMS (not ment.)",
+      "100.0": "CDU (PCP-PEV) (10)",
+      "105.0": "BE (11)",
+      "154.0": "PCTP/MRPP (17) (not ment.)",
+      "157.0": "POUS (6) (not ment.)",
+      "200.0": "PS (20)",
+      "201.0": "CDS-PP (60)",
+      "300.0": "PPD/PSD (30)",
+      "600.0": "PPM (81) (not ment.)",
+      "601.0": "PNR (82) (not ment.)",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 13 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v558",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - FINLAND",
+    "value_labels": {
+      "50.0": "KD-PS",
+      "100.0": "VAS (10)",
+      "200.0": "SDP (20)",
+      "500.0": "KOK (70)",
+      "700.0": "SFP-RKP (40)",
+      "800.0": "VIHR (50)",
+      "900.0": "KESK (60)",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 16 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v559",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - SWEDEN",
+    "value_labels": {
+      "3.0": "Herp. de kons. (not ment.)",
+      "4.0": "EAP (not ment.)",
+      "100.0": "VP (10)",
+      "200.0": "SAP (20)",
+      "301.0": "C (50)",
+      "302.0": "FP (40)",
+      "400.0": "KD (61)",
+      "501.0": "M (60)",
+      "600.0": "SD",
+      "601.0": "ND (not ment.)",
+      "800.0": "MP (51)",
+      "950.0": "Junilistan (50)",
+      "951.0": "PP",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 17 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v560",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - AUSTRIA",
+    "value_labels": {
+      "100.0": "KPO (10)",
+      "200.0": "SPO (20)",
+      "300.0": "JuLis",
+      "401.0": "OVP (60)",
+      "600.0": "FPO (80)",
+      "601.0": "BZO (81)",
+      "800.0": "Die Gruenen (50)",
+      "950.0": "Liste Hans Peter Martin",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 18 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v561",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - CYPRUS (REPUBLIC)",
+    "value_labels": {
+      "100.0": "AKEL",
+      "200.0": "KS EDEK",
+      "201.0": "DI.KO.",
+      "305.0": "EUROKO",
+      "500.0": "DISY",
+      "600.0": "ELAM (not ment.)",
+      "800.0": "KOP (not ment.)",
+      "950.0": "Independents (not ment.)",
+      "952.0": "KEK (not ment.)",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 19 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v562",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - CZECH REPUBLIC",
+    "value_labels": {
+      "100.0": "KSCM",
+      "200.0": "CSSD",
+      "400.0": "KDU-CSL",
+      "500.0": "ODS",
+      "501.0": "SNK/ED",
+      "800.0": "SZ",
+      "950.0": "NezDem",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 20 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v563",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - ESTONIA",
+    "value_labels": {
+      "100.0": "EP (not ment.)",
+      "200.0": "SDE",
+      "300.0": "ER",
+      "301.0": "EK",
+      "401.0": "EKD (not ment.)",
+      "501.0": "IRL",
+      "700.0": "VEE (not ment.)",
+      "800.0": "EER",
+      "900.0": "ERL",
+      "950.0": "I. Tarand (Ind.)",
+      "951.0": "LEE (not ment.)",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 21 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v564",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - HUNGARY",
+    "value_labels": {
+      "50.0": "HP-LMP",
+      "100.0": "Munkaspart",
+      "200.0": "MSZP",
+      "300.0": "SZDSZ",
+      "400.0": "FIDESZ-KDNP",
+      "500.0": "MDF",
+      "600.0": "Jobbik",
+      "700.0": "MCF",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 22 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v565",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - LATVIA",
+    "value_labels": {
+      "200.0": "LSDSP",
+      "201.0": "SC",
+      "305.0": "SCP",
+      "400.0": "LPP/LC",
+      "500.0": "TP",
+      "501.0": "JL",
+      "502.0": "PS",
+      "600.0": "TB/LNNK",
+      "601.0": "Osipova partija (not ment.)",
+      "602.0": "VL",
+      "603.0": "PDz",
+      "700.0": "PCTVL",
+      "950.0": "Libertas.lv",
+      "951.0": "RP",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 23 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v566",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - LITHUANIA",
+    "value_labels": {
+      "100.0": "FRONTO",
+      "200.0": "LSDP",
+      "300.0": "DP",
+      "301.0": "LiCS",
+      "303.0": "LRLS",
+      "305.0": "LCP",
+      "306.0": "PDP",
+      "400.0": "KKSS",
+      "500.0": "TS-LKD",
+      "600.0": "TT",
+      "701.0": "LLRA/AWPL",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 24 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v567",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - MALTA",
+    "value_labels": {
+      "200.0": "MLP",
+      "400.0": "PN",
+      "600.0": "AN (not ment.)",
+      "601.0": "Imperium Europa (not ment.)",
+      "800.0": "AD",
+      "950.0": "Libertas Malta (not ment.)",
+      "951.0": "K.U.L. Ewropa (not ment.)",
+      "952.0": "Emmy Bezzina (not ment.)",
+      "953.0": "Partit ta' l-Ajkla (not ment.)",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 25 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v568",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - POLAND",
+    "value_labels": {
+      "201.0": "PdP-CL",
+      "202.0": "SLD - UP",
+      "203.0": "PPP",
+      "400.0": "PO",
+      "500.0": "PiS",
+      "601.0": "PRP",
+      "602.0": "UPR",
+      "900.0": "PSL",
+      "901.0": "SRP (SO)",
+      "950.0": "Libertas",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 26 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v569",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - SLOVAKIA",
+    "value_labels": {
+      "100.0": "KSS",
+      "101.0": "SDL'",
+      "200.0": "SMER",
+      "301.0": "SAS",
+      "302.0": "DSS (not ment.)",
+      "400.0": "SDKU - DS",
+      "401.0": "KDH",
+      "402.0": "SF",
+      "403.0": "Misia 21 (not ment.)",
+      "501.0": "KDS-OKS",
+      "502.0": "Liga (not ment.)",
+      "600.0": "SNS",
+      "602.0": "L'S  HZDS",
+      "700.0": "SMK-MPK",
+      "701.0": "RIS (not ment.)",
+      "900.0": "ASV (not ment.)",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 27 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v570",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - SLOVENIA",
+    "value_labels": {
+      "200.0": "SD",
+      "201.0": "KSS",
+      "300.0": "LDS",
+      "301.0": "ZARES",
+      "400.0": "N.Si",
+      "500.0": "SDS",
+      "501.0": "SLS",
+      "600.0": "SNS",
+      "800.0": "SMS-Zeleni",
+      "801.0": "ZZ",
+      "950.0": "DeSUS",
+      "951.0": "NLPB",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 28 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v571",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - BULGARIA",
+    "value_labels": {
+      "50.0": "Napred",
+      "200.0": "BSP",
+      "300.0": "NDSV",
+      "500.0": "GERB",
+      "501.0": "SDS-DSB",
+      "502.0": "Lider",
+      "503.0": "RZS",
+      "600.0": "ATAKA",
+      "700.0": "DPS",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 29 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  },
+  {
+    "variable": "v572",
+    "label": "QK2 EUROPEAN ELECTIONS VOTE - ROMANIA",
+    "value_labels": {
+      "50.0": "PSD-PC",
+      "300.0": "PNL",
+      "302.0": "PD-L",
+      "401.0": "PNT-CD",
+      "600.0": "PRM",
+      "700.0": "UDMR",
+      "950.0": "E. Basescu (Ind.)",
+      "951.0": "P. Abraham (Ind.) (not ment.)",
+      "990.0": "Other",
+      "999.0": "Inap. (not 1 in V541)",
+      "9999.0": "Inap. (not 30 in V6)"
+    },
+    "declared_missing_ranges": [
+      {
+        "lo": 995.0,
+        "hi": 9999.0
+      }
+    ]
+  }
+]

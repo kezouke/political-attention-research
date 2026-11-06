@@ -2411,5 +2411,15 @@
     "content_type": "text/html; charset=UTF-8",
     "sha256": "f802dc7f490b647798b880a4cd93de4ebcd96938bca68b2a31c282e34f7f137f",
     "local_path": "data/raw/audit_20261106/gesis_data_terms_2026_en.html"
+  },
+  "gles_5704_questionnaire": {
+    "url": "https://access.gesis.org/dbk/59597",
+    "resolved_url": "https://access.gesis.org/dbk/59597",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:08:23.960110+00:00",
+    "bytes": 1677382,
+    "content_type": "application/pdf",
+    "sha256": "706eb5ac58ba8e042752d5b5449355ae7263af600df4eb8888064138b0de202e",
+    "local_path": "data/raw/audit_20261106/gles_5704_questionnaire.pdf"
   }
 }
