@@ -17,7 +17,7 @@ OUT = inputs.OUT
 
 
 def paired(x, early, late, variable, sample, seed):
-    a, b, w = x[early].to_numpy(), x[late].to_numpy(), x.weight_09.to_numpy()
+    a, b, w = x[early].to_numpy(float), x[late].to_numpy(float), x.weight_09.to_numpy(float)
     assert np.isfinite(np.column_stack([a, b, w])).all() and (w > 0).all()
     delta = b - a; rng = np.random.default_rng(seed)
     values = []
