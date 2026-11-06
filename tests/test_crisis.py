@@ -22,6 +22,10 @@ class CrisisEssayTests(unittest.TestCase):
                  and float(row['pre_regime']) >= 2 and float(row['post_regime']) >= 2]
         shifts = [float(row['change_pp']) for row in pairs]
         self.assertEqual((len(shifts), sum(x > 0 for x in shifts), sum(x < 0 for x in shifts)), (29, 15, 7))
+        self.assertEqual(len({row['iso'] for row in pairs}), 28)
+        self.assertEqual((min(row['year'] for row in pairs), max(row['year'] for row in pairs)), ('1991', '2008'))
+        self.assertEqual((min(row['pre_date'][:4] for row in pairs), max(row['post_date'][:4] for row in pairs)),
+                         ('1989', '2013'))
         with_pm = [row for row in pairs if row['pm_change_pp']]
         pm_losses = [row for row in with_pm if float(row['pm_change_pp']) < 0]
         self.assertEqual((len(with_pm), len(pm_losses), sum(float(r['change_pp']) > 0 for r in pm_losses)),
@@ -29,6 +33,10 @@ class CrisisEssayTests(unittest.TestCase):
         spain = next(row for row in pairs if row['iso'] == 'ESP' and row['year'] == '2008')
         self.assertEqual((spain['pre_date'], spain['post_date']), ('2008-03-09', '2011-11-20'))
         self.assertEqual(float(spain['change_pp']), 0)
+        iceland = next(row for row in pairs if row['iso'] == 'ISL')
+        self.assertEqual((iceland['year'], iceland['pre_date'], iceland['post_date']),
+                         ('2008', '2007-05-12', '2009-04-25'))
+        self.assertEqual((float(iceland['pre_vote_pct']), float(iceland['post_vote_pct'])), (0, 22))
 
     def test_slovak_banking_episode_is_not_an_ordinary_recession(self):
         slovak = [row for row in read_csv('crisis_election_pairs') if row['iso'] == 'SVK']
@@ -57,7 +65,9 @@ class CrisisEssayTests(unittest.TestCase):
             self.assertAlmostEqual(row['post_vote_pct'] - row['pre_vote_pct'], row['change_pp'], places=6)
         article = (ROOT / 'docs/index.html').read_text()
         for text in ('When does a crisis strengthen populists?', 'Когда кризис усиливает популистов?',
-                     '15 of the 29', '15 из 29', '46.03%', '46,03%', '16.8% to 46.8%', '16,8% до 46,8%'):
+                     '29 pairs of parliamentary elections in 28 countries',
+                     '29 пар парламентских выборов в 28 странах', '1991–2008', '1989–2013',
+                     '46.03%', '46,03%', '16.8% to 46.8%', '16,8% до 46,8%'):
             self.assertIn(text, article)
         self.assertIn('src="crisis-data.js"', article)
         self.assertIn('priorities.html?lang=ru', article)

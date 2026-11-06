@@ -84,16 +84,6 @@ function table(root, headings, rows) {
   root.replaceChildren(result);
 }
 
-function options(select, values) {
-  const prior = select.value;
-  select.replaceChildren(...values.map(([key, name]) => {
-    const option = element('option', '', name);
-    option.value = key;
-    return option;
-  }));
-  if (values.some(([key]) => key === prior)) select.value = prior;
-}
-
 function interactions(figure, readout, hint) {
   const tooltip = figure.querySelector('.chart-tooltip');
   const marks = [];
@@ -227,7 +217,7 @@ function pairDetails(row) {
 
 function voteChart() {
   dismissActiveTooltip?.();
-  const kind = $('#vote-select').value;
+  const kind = $('#vote-filter input:checked').value;
   const presidential = kind === 'presidential';
   const rows = data.pairs.filter((row) => presidential ? row.type === 'presidential' :
     row.type === 'legislative' && row.kind === kind)
@@ -303,7 +293,7 @@ function incumbentChart() {
 
 function brazilChart() {
   dismissActiveTooltip?.();
-  const issue = $('#brazil-select').value;
+  const issue = $('#brazil-filter input:checked').value;
   const rows = data.brazil.filter((row) => row.issue === issue).sort((a, b) => a.wave - b.wave);
   const peak = Math.max(...rows.map((row) => row.pct_all));
   const bind = interactions($('#brazil-figure'), $('#brazil-readout'),
@@ -351,10 +341,6 @@ function render() {
     if (link.hreflang === lang) link.setAttribute('aria-current', 'true');
     else link.removeAttribute('aria-current');
   }
-  options($('#vote-select'), [['banking', t('Parliament · banking crises', 'Парламент · банковские кризисы')],
-    ['recession', t('Parliament · other recessions', 'Парламент · другие рецессии')],
-    ['presidential', t('Presidency · first rounds', 'Президентские выборы · первые туры')]]);
-  options($('#brazil-select'), Object.entries(issueNames).map(([key, names]) => [key, t(...names)]));
   voteChart();
   incumbentChart();
   brazilChart();
@@ -379,6 +365,6 @@ document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') dismissActiveTooltip?.();
 });
 window.addEventListener('popstate', () => { lang = languageFromUrl(); render(); });
-$('#vote-select').addEventListener('change', voteChart);
-$('#brazil-select').addEventListener('change', brazilChart);
+$('#vote-filter').addEventListener('change', voteChart);
+$('#brazil-filter').addEventListener('change', brazilChart);
 render();
