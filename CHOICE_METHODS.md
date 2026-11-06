@@ -270,6 +270,13 @@ are tracked separately from publishing permitted aggregate results. Permission
 for one researcher’s workflow is not a blanket permission for others or for
 redistribution. The public reconstruction path above does not require those files.
 
+After the final source checks, the project's three downloaded ICENES microdata
+files were deleted under clause 15 of the archive's terms. No respondent-level
+derived dataset was saved. The [completion record](data/processed/three_explanations/archive_completion.json)
+preserves file hashes, the scope of cleanup and the bibliographic-notice status.
+A fresh model replication therefore requires acquiring those licensed source
+files again; the public page and figures still rebuild from committed aggregates.
+
 Full result reports: [Eurobarometer v2](EUROPEAN_RESULTS_V2.md),
 [BES](FIRST_BES_RESULTS.md), [GLES](FIRST_GLES_RESULTS.md),
 [national extension](NATIONAL_RESULTS.md). The exact specifications remain under

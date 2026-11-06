@@ -1,0 +1,185 @@
+{
+  "verified_at_utc": "2026-11-06T21:29:13.975197+00:00",
+  "publication_commit": "aa9a6588ccb0ae60f81de9d5f5779a19de346e1b",
+  "workflow_run": "https://github.com/kezouke/political-attention-research/actions/runs/42296387654",
+  "workflow_conclusion": "success",
+  "url": "https://kezouke.github.io/political-attention-research/",
+  "assets": [
+    {
+      "path": "index.html",
+      "http_status": 200,
+      "sha256": "f8ee330a526390335e29cf8adc575f9e30bf6547f6416cd4a2d2428e853a4aa5",
+      "matches_local": true
+    },
+    {
+      "path": "choice.css",
+      "http_status": 200,
+      "sha256": "404254482d30808273c7fa6ae9735d8f7cfacbf684764a8f07fbda70c87748a3",
+      "matches_local": true
+    },
+    {
+      "path": "choice.js",
+      "http_status": 200,
+      "sha256": "9952718a9e89d253a44898cc20e52d6004f60621d588e54873dfd13580f14770",
+      "matches_local": true
+    },
+    {
+      "path": "figures/choice-before-en.svg",
+      "http_status": 200,
+      "sha256": "1b97e43a09fc0713b58b5c6f8a995df0f202ab1f95fdb38c2ac5e559c12194ce",
+      "matches_local": true
+    },
+    {
+      "path": "figures/choice-before-mobile-en.svg",
+      "http_status": 200,
+      "sha256": "5aed20e1c733c78ccc5d07697d4e394598372974302af0db8dca859e011ffde0",
+      "matches_local": true
+    },
+    {
+      "path": "figures/choice-before-mobile-ru.svg",
+      "http_status": 200,
+      "sha256": "0441bc4665c53a621260862eb5b3c710ab410844ef8020299902080e55771c86",
+      "matches_local": true
+    },
+    {
+      "path": "figures/choice-before-ru.svg",
+      "http_status": 200,
+      "sha256": "3204513fe420710120e5106075f18ef02a7728729e3eb2fd15411f8c8aaac2bd",
+      "matches_local": true
+    },
+    {
+      "path": "figures/choice-countries-en.svg",
+      "http_status": 200,
+      "sha256": "5e0714e289adc5f23c0e9d8f189f2401ed87c6a3bc89c5b21679fb1ecfc60aaa",
+      "matches_local": true
+    },
+    {
+      "path": "figures/choice-countries-mobile-en.svg",
+      "http_status": 200,
+      "sha256": "3a19e9bd442981e486d0ace050531c16c89d7f9999c932553f41da82cbff2f6d",
+      "matches_local": true
+    },
+    {
+      "path": "figures/choice-countries-mobile-ru.svg",
+      "http_status": 200,
+      "sha256": "4e1b028c7fa4d119c9eb3184076abc5bdc6cb0051d1eb0013dd33b8563d8d388",
+      "matches_local": true
+    },
+    {
+      "path": "figures/choice-countries-ru.svg",
+      "http_status": 200,
+      "sha256": "41bf240a072490961a9c28db2a880e797bc1001b81276fc0f6f6c4125f96c15d",
+      "matches_local": true
+    },
+    {
+      "path": "figures/choice-europe-en.svg",
+      "http_status": 200,
+      "sha256": "7a710511f65415214ff37b1270f31d74e2a54af536151bd707262d433a40a3b2",
+      "matches_local": true
+    },
+    {
+      "path": "figures/choice-europe-mobile-en.svg",
+      "http_status": 200,
+      "sha256": "984fa752f873b139f1435f788bc7a337c806372ab8ec029ef9f46a5056a36576",
+      "matches_local": true
+    },
+    {
+      "path": "figures/choice-europe-mobile-ru.svg",
+      "http_status": 200,
+      "sha256": "5d91606ea9a262eb581efde4762ef95121f252ccd70fc35fccfaed79ca2ae883",
+      "matches_local": true
+    },
+    {
+      "path": "figures/choice-europe-ru.svg",
+      "http_status": 200,
+      "sha256": "309cfeb7b7860c5b035e3108834dab1578f5f0494a17a05b0814782f9ee9afba",
+      "matches_local": true
+    },
+    {
+      "path": "figures/decomposition-economy-en.svg",
+      "http_status": 200,
+      "sha256": "6545433720e4bb442c1117e1084cb891f249488de68422ed1e1f6666fc4e4718",
+      "matches_local": true
+    },
+    {
+      "path": "figures/decomposition-economy-mobile-en.svg",
+      "http_status": 200,
+      "sha256": "55df6515f01a7c5b7cb8b1ee79b0850dd3f3a768afcd00828fe368467706f996",
+      "matches_local": true
+    },
+    {
+      "path": "figures/decomposition-economy-mobile-ru.svg",
+      "http_status": 200,
+      "sha256": "7c9b56a5673a9d4b471fea8cbc237dc2afc7edc15d00d290a01e0bd984d77856",
+      "matches_local": true
+    },
+    {
+      "path": "figures/decomposition-economy-ru.svg",
+      "http_status": 200,
+      "sha256": "068114f863041631f1fa65ed0c79fe5d838264d90d2f32512f264c0deeabe258",
+      "matches_local": true
+    },
+    {
+      "path": "figures/horizon-en.svg",
+      "http_status": 200,
+      "sha256": "2cf88aa78319f8ab82c1f58085efe9b0560ff6584e8671afd841b24939e2f8f2",
+      "matches_local": true
+    },
+    {
+      "path": "figures/horizon-mobile-en.svg",
+      "http_status": 200,
+      "sha256": "2e542d93182e368b60470d06b822205097a10dbd1afc8e35ab86f919a7d3afb1",
+      "matches_local": true
+    },
+    {
+      "path": "figures/horizon-mobile-ru.svg",
+      "http_status": 200,
+      "sha256": "4d0976d2c1ff8cf8abdb9da8fffafba8b905f886413b7b2caf5d5b49c75c387b",
+      "matches_local": true
+    },
+    {
+      "path": "figures/horizon-ru.svg",
+      "http_status": 200,
+      "sha256": "13caf224680dc963933a60c0d5fee503e44e37fb41b85f52ece6f5fa91550180",
+      "matches_local": true
+    }
+  ],
+  "browser": [
+    {
+      "width": 390,
+      "lang": "ru",
+      "scrollWidth": 390,
+      "language": "ru",
+      "figures": 5,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "scrollWidth": 390,
+      "language": "en",
+      "figures": 5,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "scrollWidth": 1280,
+      "language": "ru",
+      "figures": 5,
+      "errors": [],
+      "failures": []
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "scrollWidth": 1280,
+      "language": "en",
+      "figures": 5,
+      "errors": [],
+      "failures": []
+    }
+  ]
+}

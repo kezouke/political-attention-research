@@ -13,6 +13,12 @@ for source versions, access conditions and model order. Files live under
 `data/raw/audit_20261106/` locally and must not be committed. Public page rebuilding
 uses aggregate results only and needs none of these respondent files.
 
+At completion, the three ICENES microdata files were deleted in accordance with
+GAGNÍS terms, after the model and input-hash checks passed. Their source metadata
+and published aggregate results remain. See the
+[completion record](../processed/three_explanations/archive_completion.json).
+Re-estimating the Icelandic models requires reacquiring those licensed files.
+
 The source instructions below describe preserved earlier analyses. They remain
 necessary for reproducing those layers, but are not the current survey inventory.
 

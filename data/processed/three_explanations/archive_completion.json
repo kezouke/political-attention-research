@@ -1,0 +1,35 @@
+{
+  "completed_at_utc": "2026-11-06T21:28:21.699308+00:00",
+  "archive": "GAGNÍS",
+  "terms_url": "https://fel.hi.is/is/notendaskilmalar-gagnis",
+  "basis": "Clause 15: delete working data copies at the end of processing.",
+  "files": [
+    {
+      "path": "data/raw/audit_20261106/icenes_2007_file_163.tab",
+      "sha256": "bcb1687ef84825e2834a7e36da455b8a4bc7d0a35b7a52575c002923bbb09ed9",
+      "bytes": 845316,
+      "deleted": true
+    },
+    {
+      "path": "data/raw/audit_20261106/icenes_2009_file_172.tab",
+      "sha256": "e0dcc2f5c27a1f37764de29851314b73a368415ce3887b723043ca0fe7dbeeff",
+      "bytes": 665317,
+      "deleted": true
+    },
+    {
+      "path": "data/raw/audit_20261106/icenes_2013_file_179.tab",
+      "sha256": "72b6c5ddeadbc48421796974d92a586141f0433fad98ad88b520e007f6e2d01d",
+      "bytes": 947155,
+      "deleted": true
+    }
+  ],
+  "duplicate_search_scope": [
+    "research repository",
+    "Downloads directory"
+  ],
+  "identical_duplicates_found": 0,
+  "scope_note": "Working microdata files acquired by this project; no claim about operating-system backups outside the project. No respondent-level derived dataset was saved. Metadata, documentation, code and aggregate published results retained.",
+  "model_checks_before_deletion": "analysis/82_national_comparison_checks.py passed against source hashes before cleanup.",
+  "reproduction_note": "Publication and figures rebuild from committed aggregates. A fresh source-based model run requires reacquiring licensed Icelandic data.",
+  "bibliographic_notice": "Prepared; awaiting explicit permission to send."
+}
