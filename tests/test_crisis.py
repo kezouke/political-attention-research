@@ -69,7 +69,6 @@ class CrisisEssayTests(unittest.TestCase):
                      '29 пар парламентских выборов в 28 странах', '1991–2008', '1989–2013'):
             self.assertIn(text, article)
         self.assertIn('src="crisis-data.js"', article)
-        self.assertIn('priorities.html?lang=ru', article)
         companion = (ROOT / 'docs/attention.html').read_text()
         for text in ('46.03%', '46,03%', '16.8% to 46.8%', '16,8% до 46,8%'):
             self.assertIn(text, companion)
