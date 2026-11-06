@@ -1,0 +1,327 @@
+{
+  "weight": {
+    "label": "Weight",
+    "labelset": "",
+    "value_labels": {}
+  },
+  "age": {
+    "label": "Age",
+    "labelset": "LABA",
+    "value_labels": {
+      "-9": "Not Asked",
+      "-8": "Skipped"
+    }
+  },
+  "gender": {
+    "label": "Gender",
+    "labelset": "",
+    "value_labels": {}
+  },
+  "gor": {
+    "label": "Government Office Region",
+    "labelset": "gor",
+    "value_labels": {
+      "1": "North East",
+      "2": "North West",
+      "3": "Yorkshire and the Humber",
+      "4": "East Midlands",
+      "5": "West Midlands",
+      "6": "East of England",
+      "7": "London",
+      "8": "South East",
+      "9": "South West",
+      "10": "Wales",
+      "11": "Scotland",
+      "12": "Northern Ireland",
+      "13": "Non UK & Invalid"
+    }
+  },
+  "p_edlevel": {
+    "label": "Education level",
+    "labelset": "edlevel",
+    "value_labels": {
+      "0": "No qualifications",
+      "1": "Below GCSE",
+      "2": "GCSE",
+      "3": "A-level",
+      "4": "Undergraduate",
+      "5": "Postgrad"
+    }
+  },
+  "p_work_stat": {
+    "label": "Working Status",
+    "labelset": "p_work_statW25",
+    "value_labels": {
+      "1": "Working full time (30 or more hours per week)",
+      "2": "Working part time (8-29 hours a week)",
+      "3": "Working part time (Less than 8 hours a week)",
+      "4": "Full time student",
+      "5": "Retired",
+      "6": "Unemployed",
+      "7": "Not working",
+      "8": "Other"
+    }
+  },
+  "lr_scale": {
+    "label": "Left-right scale (lr1-lr5)",
+    "labelset": "lrscale",
+    "value_labels": {
+      "10": "Right",
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "0": "Left"
+    }
+  },
+  "partyId": {
+    "label": "Party Identity (Unsqueezed)",
+    "labelset": "pid",
+    "value_labels": {
+      "1": "Conservative",
+      "2": "Labour",
+      "3": "Liberal Democrat",
+      "4": "Scottish National Party (SNP)",
+      "5": "Plaid Cymru",
+      "6": "United Kingdom Independence Party (UKIP)",
+      "7": "Green Party",
+      "8": "British National Party (BNP)",
+      "9": "Other",
+      "11": "Change UK- The Independent Group",
+      "12": "Brexit Party/Reform UK",
+      "10": "No - none",
+      "9999": "Don't know"
+    }
+  },
+  "partyIdStrength": {
+    "label": "Party Identity: Strength",
+    "labelset": "pidStrength",
+    "value_labels": {
+      "1": "Very strong",
+      "2": "Fairly strong",
+      "3": "Not very strong",
+      "9999": "Don't know"
+    }
+  },
+  "generalElectionVote": {
+    "label": "General Election Vote Intention",
+    "labelset": "generalElecVote",
+    "value_labels": {
+      "1": "Conservative",
+      "2": "Labour",
+      "3": "Liberal Democrat",
+      "4": "Scottish National Party (SNP)",
+      "5": "Plaid Cymru",
+      "6": "United Kingdom Independence Party (UKIP)",
+      "7": "Green Party",
+      "8": "British National Party (BNP)",
+      "9": "Other",
+      "11": "Change UK- The Independent Group",
+      "12": "Brexit Party/Reform UK",
+      "13": "An independent candidate",
+      "0": "I would/did not vote",
+      "9999": "Don't know"
+    }
+  },
+  "turnoutUKGeneral": {
+    "label": "General Election Likely Turnout",
+    "labelset": "turnoutUKGeneral",
+    "value_labels": {
+      "1": "Very unlikely that I would vote",
+      "2": "Fairly unlikely",
+      "3": "Neither likely nor unlikely",
+      "4": "Fairly likely",
+      "5": "Very likely that I would vote",
+      "9999": "Don't know"
+    }
+  },
+  "econGenRetro": {
+    "label": "General economic retrospective evaluation: country",
+    "labelset": "econRetro",
+    "value_labels": {
+      "1": "Got a lot worse",
+      "2": "Got a little worse",
+      "3": "Stayed the same",
+      "4": "Got a little better",
+      "5": "Got a lot better",
+      "9999": "Don't know"
+    }
+  },
+  "econPersonalRetro": {
+    "label": "Personal economic retrospective evaluation: household",
+    "labelset": "econRetro",
+    "value_labels": {
+      "1": "Got a lot worse",
+      "2": "Got a little worse",
+      "3": "Stayed the same",
+      "4": "Got a little better",
+      "5": "Got a lot better",
+      "9999": "Don't know"
+    }
+  },
+  "approveUKGovt": {
+    "label": "Approve: UK Government",
+    "labelset": "",
+    "value_labels": {}
+  },
+  "trustMPs": {
+    "label": "Trust MPs in general",
+    "labelset": "polTrust",
+    "value_labels": {
+      "1": "No trust",
+      "7": "A great deal of trust",
+      "9999": "Don't know",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6"
+    }
+  },
+  "small_mii_cat": {
+    "label": "MII (manually-coded/collapsed)",
+    "labelset": "smallmii",
+    "value_labels": {
+      "1": "Europe",
+      "2": "Immigration",
+      "3": "Economy",
+      "4": "Health",
+      "5": "Terrorism",
+      "7": "Inequality",
+      "8": "Environment",
+      "9": "Austerity/spending",
+      "10": "Negativity",
+      "11": "Other lib-auth",
+      "12": "Other left-right",
+      "13": "Other"
+    }
+  },
+  "bestOnMII": {
+    "label": "Best Party On Most Important Issue",
+    "labelset": "bestmii",
+    "value_labels": {
+      "0": "No party is best able to handle this issue",
+      "1": "Conservative",
+      "2": "Labour",
+      "3": "Liberal Democrat",
+      "4": "Scottish National Party (SNP)",
+      "5": "Plaid Cymru",
+      "6": "United Kingdom Independence Party (UKIP)",
+      "7": "Green Party",
+      "8": "British National Party (BNP)",
+      "9": "Other party",
+      "11": "Change UK- The Independent Group",
+      "12": "Brexit Party/Reform UK",
+      "9999": "Don't know"
+    }
+  },
+  "redistSelf": {
+    "label": "Redistribution scale: Self-placement",
+    "labelset": "redist",
+    "value_labels": {
+      "0": "Government should try to make incomes equal",
+      "10": "Government should be less concerned about equal incomes",
+      "9999": "Don't know",
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9"
+    }
+  },
+  "immigSelf": {
+    "label": "Self: Allow more or fewer immigrants",
+    "labelset": "immigprefs",
+    "value_labels": {
+      "0": "Allow many fewer",
+      "10": "Allow many more",
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "9999": "Don't know"
+    }
+  },
+  "immigEcon": {
+    "label": "Immigration bad or good for economy",
+    "labelset": "immigEcon",
+    "value_labels": {
+      "1": "Bad for economy",
+      "7": "Good for economy",
+      "9999": "Don't know",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6"
+    }
+  },
+  "EUIntegrationSelf": {
+    "label": "European Integration scale: self",
+    "labelset": "EUIntegration",
+    "value_labels": {
+      "0": "Unite fully with the European Union",
+      "10": "Protect our independence",
+      "9999": "Don't know",
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9"
+    }
+  },
+  "enviroGrowth": {
+    "label": "Economic growth/Protecting the environment scale",
+    "labelset": "enviro",
+    "value_labels": {
+      "0": "Economic growth should have priority",
+      "10": "Protecting the environment should have priority",
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "9999": "Don't know"
+    }
+  },
+  "polAttention": {
+    "label": "Political Attention Scale",
+    "labelset": "polAtt",
+    "value_labels": {
+      "0": "Pay no attention",
+      "10": "Pay a great deal of attention",
+      "9999": "Don't know",
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9"
+    }
+  }
+}

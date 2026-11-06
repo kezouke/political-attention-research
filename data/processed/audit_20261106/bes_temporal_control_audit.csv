@@ -1,0 +1,5 @@
+year,early_wave,pre_wave,post_wave,early_pre_matched,age_change_valid_pairs,age_change_negative_or_above_broad_limit,age_upper_change_limit,pre_under_18,pre_age_missing_or_over_100,pre_region_outside_1_to_11,pre_post_matched
+2015,1,4,6,21844,21825,73,2,0,5,0,27603
+2017,7,10,13,17771,17771,1,2,0,1,23,20979
+2017,10,11,13,21949,21949,9,2,0,0,0,24432
+2019,16,17,19,22394,22394,20,3,0,1,1,23315

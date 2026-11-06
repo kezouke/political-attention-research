@@ -1,0 +1,23 @@
+{
+  "source_doi": "10.48420/25460980.v1",
+  "official_md5_verified": {
+    "bes_teaching_long_v1": "6f491d68d877423201bd725c533fdd5e",
+    "bes_teaching_wide_v1": "38e75eaa475958736b0f24370b897718"
+  },
+  "wave_variable_combinations_checked": 253,
+  "all_long_values_match_wave_specific_wide_values": true,
+  "controls_provenance": "Use only the variable labelled with the selected pre-election wave; never use wave 25 values to fill earlier waves.",
+  "profile_timing": "Wave-specific profile values are the latest available at that wave, not necessarily a fresh interview response.",
+  "left_right_timing": "Top-up and carried measurements may predate the wave; do not treat every repeated value as a new measurement.",
+  "codebook_version_warning": "Teaching v30 codebook renumbers education and MII; use embedded value labels from pinned v1.",
+  "education_codes_v1": "0..5; current teaching codebook shows 1..6",
+  "mii_codes_v1": "1,2,3,4,5,7,8,9,10,11,12,13; current teaching codebook uses 1..12",
+  "government_approval_scale": "1 strongly disapprove, 5 strongly approve, confirmed in wave19 codebook p167; v1 embedded labels absent",
+  "post_turnout_scale": "Actual post-election turnout is 0/1 despite shared long-file labels for pre-election likelihood; audit 40 verifies routing.",
+  "microdata_exported": false,
+  "sources": [
+    "https://api.figshare.com/v2/articles/25460980/versions/1",
+    "https://www.britishelectionstudy.com/wp-content/uploads/2020/05/Bes_wave19Documentation_V2.pdf",
+    "https://www.britishelectionstudy.com/wp-content/uploads/2025/10/besip_teaching_documentation_v30.0.pdf"
+  ]
+}

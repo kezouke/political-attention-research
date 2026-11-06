@@ -1,0 +1,26 @@
+{
+  "classification": "PopuList 4.0 inclusive primary; 3.0 and strict variants preserved",
+  "wpd_replaced": false,
+  "local_ballot_availability_established": false,
+  "national_presence_is_not_individual_choice_set": true,
+  "minor_unresolved": [
+    "BNP",
+    "Other",
+    "Change UK",
+    "Independent",
+    "Green label in Scotland"
+  ],
+  "future_party_not_backdated": "Brexit Party verified only in 2019; 1900/2100 classification boundaries are not founding dates",
+  "cabinet_sources": [
+    "https://doi.org/10.7910/DVN/5OAH7P",
+    "https://commonslibrary.parliament.uk/research-briefings/sn06404/",
+    "https://www.gov.uk/government/publications/conservative-and-dup-agreement-and-uk-government-financial-support-for-northern-ireland"
+  ],
+  "vote_sources": [
+    "https://commonslibrary.parliament.uk/research-briefings/CBP-7186/",
+    "https://commonslibrary.parliament.uk/research-briefings/cbp-7979/",
+    "https://commonslibrary.parliament.uk/research-briefings/cbp-8749/"
+  ],
+  "primary_machine_readable_party_participation": "Pinned PPEG 2025v1; Commons CSV download returned 403 and was not substituted with invented data",
+  "microdata_exported": false
+}

@@ -1,0 +1,40 @@
+year,election_date,bes_code,survey_label,region_scope,ppeg_name,national_participation_verified,eligible_in_national_history,incumbent_cabinet_party,identity_note,populist_v3_basis,populist_v3_inclusive,outcome_v3_inclusive,populist_v3_strict,outcome_v3_strict,populist_v4_basis,populist_v4_inclusive,outcome_v4_inclusive,populist_v4_strict,outcome_v4_strict
+2015,2015-05-07,1,Conservative,Great_Britain,Conservative Party,True,True,True,verified_national_participant,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+2015,2015-05-07,2,Labour,Great_Britain,Labour Party,True,True,False,verified_national_participant,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+2015,2015-05-07,3,Liberal Democrat,Great_Britain,Liberal Democrats,True,True,True,verified_national_participant,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+2015,2015-05-07,4,SNP,Great_Britain,Scottish National Party,True,True,False,verified_national_participant,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+2015,2015-05-07,5,Plaid Cymru,Great_Britain,Party of Wales,True,True,False,verified_national_participant,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+2015,2015-05-07,6,UKIP,Great_Britain,United Kingdom Independence Party,True,True,False,verified_national_participant,explicit_PopuList_row,1.0,2,1.0,2,explicit_PopuList_row,1.0,2,1.0,2
+2015,2015-05-07,7,Green,England_Wales,Green Party of England and Wales,True,True,False,verified_national_participant,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+2015,2015-05-07,7,Green,Scotland,Green Party of England and Wales,True,True,False,Green label in Scotland does not identify the separately eligible England_Wales party,unresolved,,-1,,-1,unresolved,,-1,,-1
+2015,2015-05-07,8,BNP,Great_Britain,,False,False,False,party_identity_or_PopuList_scope_unverified,unresolved,,-1,,-1,unresolved,,-1,,-1
+2015,2015-05-07,9,Other,Great_Britain,,False,False,False,party_identity_or_PopuList_scope_unverified,unresolved,,-1,,-1,unresolved,,-1,,-1
+2015,2015-05-07,11,Change UK,Great_Britain,,False,False,False,party_identity_or_PopuList_scope_unverified,unresolved,,-1,,-1,unresolved,,-1,,-1
+2015,2015-05-07,12,Brexit Party,Great_Britain,Brexit Party,False,True,False,party_identity_or_PopuList_scope_unverified,unresolved,,-1,,-1,unresolved,,-1,,-1
+2015,2015-05-07,13,Independent,Great_Britain,,False,False,False,party_identity_or_PopuList_scope_unverified,unresolved,,-1,,-1,unresolved,,-1,,-1
+2017,2017-06-08,1,Conservative,Great_Britain,Conservative Party,True,True,True,verified_national_participant,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+2017,2017-06-08,2,Labour,Great_Britain,Labour Party,True,True,False,verified_national_participant,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+2017,2017-06-08,3,Liberal Democrat,Great_Britain,Liberal Democrats,True,True,False,verified_national_participant,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+2017,2017-06-08,4,SNP,Great_Britain,Scottish National Party,True,True,False,verified_national_participant,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+2017,2017-06-08,5,Plaid Cymru,Great_Britain,Party of Wales,True,True,False,verified_national_participant,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+2017,2017-06-08,6,UKIP,Great_Britain,United Kingdom Independence Party,True,True,False,verified_national_participant,explicit_PopuList_row,1.0,2,1.0,2,explicit_PopuList_row,1.0,2,1.0,2
+2017,2017-06-08,7,Green,England_Wales,Green Party of England and Wales,True,True,False,verified_national_participant,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+2017,2017-06-08,7,Green,Scotland,Green Party of England and Wales,True,True,False,Green label in Scotland does not identify the separately eligible England_Wales party,unresolved,,-1,,-1,unresolved,,-1,,-1
+2017,2017-06-08,8,BNP,Great_Britain,,False,False,False,party_identity_or_PopuList_scope_unverified,unresolved,,-1,,-1,unresolved,,-1,,-1
+2017,2017-06-08,9,Other,Great_Britain,,False,False,False,party_identity_or_PopuList_scope_unverified,unresolved,,-1,,-1,unresolved,,-1,,-1
+2017,2017-06-08,11,Change UK,Great_Britain,,False,False,False,party_identity_or_PopuList_scope_unverified,unresolved,,-1,,-1,unresolved,,-1,,-1
+2017,2017-06-08,12,Brexit Party,Great_Britain,Brexit Party,False,True,False,party_identity_or_PopuList_scope_unverified,unresolved,,-1,,-1,unresolved,,-1,,-1
+2017,2017-06-08,13,Independent,Great_Britain,,False,False,False,party_identity_or_PopuList_scope_unverified,unresolved,,-1,,-1,unresolved,,-1,,-1
+2019,2019-12-12,1,Conservative,Great_Britain,Conservative Party,True,True,True,verified_national_participant,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+2019,2019-12-12,2,Labour,Great_Britain,Labour Party,True,True,False,verified_national_participant,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+2019,2019-12-12,3,Liberal Democrat,Great_Britain,Liberal Democrats,True,True,False,verified_national_participant,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+2019,2019-12-12,4,SNP,Great_Britain,Scottish National Party,True,True,False,verified_national_participant,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+2019,2019-12-12,5,Plaid Cymru,Great_Britain,Party of Wales,True,True,False,verified_national_participant,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+2019,2019-12-12,6,UKIP,Great_Britain,United Kingdom Independence Party,True,True,False,verified_national_participant,explicit_PopuList_row,1.0,2,1.0,2,explicit_PopuList_row,1.0,2,1.0,2
+2019,2019-12-12,7,Green,England_Wales,Green Party of England and Wales,True,True,False,verified_national_participant,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+2019,2019-12-12,7,Green,Scotland,Green Party of England and Wales,True,True,False,Green label in Scotland does not identify the separately eligible England_Wales party,unresolved,,-1,,-1,unresolved,,-1,,-1
+2019,2019-12-12,8,BNP,Great_Britain,,False,False,False,party_identity_or_PopuList_scope_unverified,unresolved,,-1,,-1,unresolved,,-1,,-1
+2019,2019-12-12,9,Other,Great_Britain,,False,False,False,party_identity_or_PopuList_scope_unverified,unresolved,,-1,,-1,unresolved,,-1,,-1
+2019,2019-12-12,11,Change UK,Great_Britain,,False,False,False,party_identity_or_PopuList_scope_unverified,unresolved,,-1,,-1,unresolved,,-1,,-1
+2019,2019-12-12,12,Brexit Party,Great_Britain,Brexit Party,True,True,False,verified_national_participant,explicit_PopuList_row,1.0,2,1.0,2,explicit_PopuList_row,1.0,2,1.0,2
+2019,2019-12-12,13,Independent,Great_Britain,,False,False,False,party_identity_or_PopuList_scope_unverified,unresolved,,-1,,-1,unresolved,,-1,,-1

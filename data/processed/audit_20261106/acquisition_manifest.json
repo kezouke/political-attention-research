@@ -2881,5 +2881,75 @@
     "content_type": "application/json",
     "sha256": "c6423611ac5ed5f357902f9e88b4fc7f4c90a7b95f5fd87c8458641a019a96aa",
     "local_path": "data/raw/audit_20261106/ep2009_wbe.json"
+  },
+  "bes_teaching_wide_v1": {
+    "url": "https://ndownloader.figshare.com/files/45212926",
+    "resolved_url": "https://s3-eu-west-1.amazonaws.com/pstorage-manchester-0468148248/45212926/BESIP_teaching_wide.dta.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3OGA3B5WFMQK7NTG/20261106/eu-west-1/s3/aws4_request&X-Amz-Date=20261106T185359Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=6433577a11be26c13a30ccfdf11cbb8746b0fdd45cbec4b2d90ccce5d04dfb8a",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T18:54:03.277373+00:00",
+    "bytes": 46372018,
+    "content_type": "application/zip",
+    "sha256": "c074dd3e76be0b5258e3df4ce0d71c3677cd615785b360169a9374db7259f35e",
+    "local_path": "data/raw/audit_20261106/bes_teaching_wide_v1.zip"
+  },
+  "uk_2017_commons_page": {
+    "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7979/",
+    "resolved_url": "https://commonslibrary.parliament.uk/research-briefings/cbp-7979/",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T18:57:35.777879+00:00",
+    "bytes": 5577,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "292be96124706f15c0518958ec7d6b3faffc4065bed25970f31bafee7d0d63ea",
+    "local_path": "data/raw/audit_20261106/uk_2017_commons_page.html"
+  },
+  "uk_2015_commons_page": {
+    "url": "https://commonslibrary.parliament.uk/research-briefings/CBP-7186/",
+    "resolved_url": "https://commonslibrary.parliament.uk/research-briefings/CBP-7186/",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T18:57:35.846791+00:00",
+    "bytes": 5577,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "9a22f82e867587170b5a545607c9036518d88ba42f4218240518fdaad60632bc",
+    "local_path": "data/raw/audit_20261106/uk_2015_commons_page.html"
+  },
+  "uk_2019_commons_page": {
+    "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8749/",
+    "resolved_url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8749/",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T18:57:35.899209+00:00",
+    "bytes": 5556,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "29f7fedd33367ee1abd50dbee1e8fe0f2fc62d64661fbfaa70cd610be343d75e",
+    "local_path": "data/raw/audit_20261106/uk_2019_commons_page.html"
+  },
+  "uk_2017_official_candidates": {
+    "url": "https://researchbriefings.files.parliament.uk/documents/CBP-7979/HoC-GE2017-results-by-candidate.csv",
+    "resolved_url": "https://researchbriefings.files.parliament.uk/documents/CBP-7979/HoC-GE2017-results-by-candidate.csv",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T18:57:51.998116+00:00",
+    "bytes": 5728,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "d325c289b48f29211826fea155a2a6ff41cf3ca0fc062830ec7dcb7a751d49c8",
+    "local_path": "data/raw/audit_20261106/uk_2017_official_candidates.csv"
+  },
+  "uk_2019_official_candidates": {
+    "url": "https://researchbriefings.files.parliament.uk/documents/CBP-8749/HoC-GE2019-results-by-candidate.csv",
+    "resolved_url": "https://researchbriefings.files.parliament.uk/documents/CBP-8749/HoC-GE2019-results-by-candidate.csv",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T18:57:52.052823+00:00",
+    "bytes": 5728,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "9bef021fb7bbdf16b7b3c3f2a37bee82eb4503146e71a9f6c115fe2518714285",
+    "local_path": "data/raw/audit_20261106/uk_2019_official_candidates.csv"
+  },
+  "uk_2015_official_candidates": {
+    "url": "https://researchbriefings.files.parliament.uk/documents/CBP-7186/HoC-GE2015-results-by-candidate.csv",
+    "resolved_url": "https://researchbriefings.files.parliament.uk/documents/CBP-7186/HoC-GE2015-results-by-candidate.csv",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T18:57:52.065363+00:00",
+    "bytes": 5728,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "d46e921ea76c0d1f8f4cb7854b96fee9b92402d2c8004c183d9f0216dabd076a",
+    "local_path": "data/raw/audit_20261106/uk_2015_official_candidates.csv"
   }
 }

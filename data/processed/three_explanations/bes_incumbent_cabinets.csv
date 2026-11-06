@@ -1,0 +1,4 @@
+context,iso,comparison_date,cabinet_inauguration,prime_minister,government_type,government_parties,pm_party,formal_support_parties,expert_or_caretaker,last_non_ec_inauguration,last_non_ec_government_parties,status
+BES_national,GBR,2015-05-07,2010-05-20,"Cameron, David",MWC,Conservative Party | Liberal Democrats,Conservative Party,,False,2010-05-20,Conservative Party | Liberal Democrats,Named incumbent parties verified; external DUP support is not cabinet membership
+BES_national,GBR,2017-06-08,2016-07-13,"May, Theresa",SPMa,Conservative Party,Conservative Party,,False,2016-07-13,Conservative Party,Named incumbent parties verified; external DUP support is not cabinet membership
+BES_national,GBR,2019-12-12,2019-07-24,"Johnson, Boris",SPMi,Conservative Party,Conservative Party,Ulster Democratic Unionist Party,False,2019-07-24,Conservative Party,Named incumbent parties verified; external DUP support is not cabinet membership

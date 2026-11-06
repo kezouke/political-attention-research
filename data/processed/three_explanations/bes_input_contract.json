@@ -1,0 +1,135 @@
+{
+  "fixed_input_hashes": {
+    "analysis/51_eurobarometer_models.py": "ee3a4cb0c5c14ef002fd49c5fa3ec64997d72c432e8068a3053846ab1248bb50",
+    "analysis/56_bes_input_provenance_audit.py": "45413355e2665b936f964e74a30ba706315fc0b17d6430d0b218bc7ba2142fe2",
+    "analysis/57_bes_party_crosswalk.py": "1cfd45dca79676330c9c54b6ca34854d9bae316525b34bc3890c846d37ff0a6c",
+    "analysis/58_bes_model_inputs.py": "f3aa9f99a22d1ef55f1e770e5839ed675a623d3ce5b280b58e74c5ff6be12ed9",
+    "planning/analysis-protocol-v1.md": "9ac5cd202b25df98ed01e1b86779c26590b8ec0d1f227a36aa86b18b8e8ac2f4",
+    "planning/bes-measurement-notes.md": "0ce6822872cf76e0daeba9b704784ef6f8afc73536be665d641a9b1016ec390f",
+    "planning/bes-analysis-lock.md": "1d1e951c9bdc73adfb215d45dbd625985ce3adb7706b9cbaa3f8268ebc9b7c5e",
+    "data/processed/three_explanations/bes_party_crosswalk.csv": "051d12b651f242101cedc30e806bbf096b5ef77123bc006fc1acd27f432c30c2",
+    "data/processed/three_explanations/bes_incumbent_cabinets.csv": "ff08ea0d23e71840c0ad35e564ef4406bf42cc64d8729b36c5af08489578e984",
+    "data/processed/three_explanations/bes_locked_sample_counts.csv": "576b831f5fbd4f474f803126458f3ffd3a2843f02ef50a7fe3547836ee11645d",
+    "data/raw/audit_20261106/bes_teaching_long_v1.zip": "2b1eeff18d46d0abd15dd5d3cc4b9acc4408274d44297a97eba3b75ab4abb46d"
+  },
+  "numeric_controls": [
+    "age_scaled",
+    "age_squared",
+    "age_missing",
+    "left_right",
+    "left_right_squared",
+    "left_right_missing"
+  ],
+  "categorical_controls": [
+    "gender_category",
+    "region_category",
+    "education_category",
+    "employment_category",
+    "party_identity",
+    "party_identity_strength",
+    "pre_intention_group"
+  ],
+  "blocks": {
+    "baseline": [],
+    "economy_government": [
+      "economy_bad",
+      "government_disapproval"
+    ],
+    "plus_priority": [
+      "economy_bad",
+      "government_disapproval",
+      "economic_priority"
+    ],
+    "full": [
+      "economy_bad",
+      "government_disapproval",
+      "economic_priority",
+      "politician_distrust"
+    ],
+    "without_economy": [
+      "government_disapproval",
+      "economic_priority",
+      "politician_distrust"
+    ],
+    "without_government": [
+      "economy_bad",
+      "economic_priority",
+      "politician_distrust"
+    ],
+    "without_priority": [
+      "economy_bad",
+      "government_disapproval",
+      "politician_distrust"
+    ],
+    "without_trust": [
+      "economy_bad",
+      "government_disapproval",
+      "economic_priority"
+    ]
+  },
+  "contrasts": {
+    "economy_bad": [
+      0.25,
+      0.75
+    ],
+    "government_disapproval": [
+      0.25,
+      0.75
+    ],
+    "economic_priority": [
+      0.0,
+      1.0
+    ],
+    "politician_distrust": [
+      0.3333333333333333,
+      0.6666666666666666
+    ]
+  },
+  "seed": 20261106,
+  "main_regularization_C": 1.0,
+  "bootstrap_respondent_draws": 1000,
+  "sample_totals": {
+    "2015:government_vs_opposition": 22132,
+    "2015:opposition_type": 13053,
+    "2015:nonvote_vs_vote": 23937,
+    "2015:four_outcomes": 23447,
+    "2017:government_vs_opposition": 15901,
+    "2017:opposition_type": 9131,
+    "2017:nonvote_vs_vote": 17336,
+    "2017:four_outcomes": 17100,
+    "2019:government_vs_opposition": 17690,
+    "2019:opposition_type": 9433,
+    "2019:nonvote_vs_vote": 19811,
+    "2019:four_outcomes": 19324
+  },
+  "pre_post_waves": {
+    "2015": {
+      "pre": 4,
+      "post": 6,
+      "election_date": "2015-05-07"
+    },
+    "2017": {
+      "pre": 10,
+      "post": 13,
+      "election_date": "2017-06-08"
+    },
+    "2019": {
+      "pre": 17,
+      "post": 19,
+      "election_date": "2019-12-12"
+    }
+  },
+  "early_waves": {
+    "2015": 1,
+    "2017": 7,
+    "2019": 16
+  },
+  "primary_priority": "Economy, code 3 in pinned v1; broad codes 3,7,9 only a sensitivity",
+  "primary_includes_pre_intention": true,
+  "missing_pre_intention_excluded": false,
+  "unknown_party_treated_as_nonvote": false,
+  "turnout_requires_classified_party": false,
+  "future_controls_used": false,
+  "time_horizon_2017_longer": true,
+  "raw_records_or_identifiers_exported": false
+}
