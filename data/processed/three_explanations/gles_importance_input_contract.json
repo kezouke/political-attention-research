@@ -1,0 +1,63 @@
+{
+  "fixed_input_hashes": {
+    "analysis/70_gles_importance_change_inputs.py": "89d2f147404a00b38b021ef5c7def5141ef1d7f78d07784970b06952881214c8",
+    "planning/gles-importance-change-lock.md": "31394a72a15331517f72c874717ad7a36cdb431a21573b57fae02752302513ba",
+    "data/processed/three_explanations/gles_input_contract.json": "12d83be33e8a99a47cc15d9604d886e7344287e45e6fb130b103e12a4555da6b",
+    "analysis/66_gles_model_inputs.py": "b9c8588f4c334321868dfc97d6287c170d6925977ce04f4aa9b79ebd0ac549ed",
+    "data/processed/three_explanations/gles_importance_locked_counts.csv": "a42304bcf57e24f447ec8f9e1a1f6773a81518cac41372216bec21325bf2af38"
+  },
+  "parent_input_contract": "gles_input_contract.json",
+  "topics": {
+    "tax_welfare": [
+      "1090",
+      "1100"
+    ],
+    "immigration": [
+      "1130",
+      "1140"
+    ],
+    "climate_growth": [
+      "1290",
+      "1300"
+    ]
+  },
+  "interview_windows": [
+    {
+      "wave": 2,
+      "valid_interview_dates_n": 4598,
+      "start": "2013-07-18 07:01:55",
+      "end": "2013-07-28 23:04:14",
+      "already_postal_n": 0
+    },
+    {
+      "wave": 4,
+      "valid_interview_dates_n": 4355,
+      "start": "2013-08-15 07:25:53",
+      "end": "2013-08-25 23:03:12",
+      "already_postal_n": 27
+    }
+  ],
+  "primary_intention_wave": 2,
+  "late_intention_wave": 4,
+  "midwave_distrust_is_secondary_adjustment": true,
+  "primary_late_importance_contrast": [
+    0.5,
+    0.75
+  ],
+  "position_scenarios": {
+    "observed": "observed late positions",
+    "low_position": 0.16666666666666666,
+    "high_position": 0.8333333333333334
+  },
+  "sample_totals": {
+    "tax_welfare": 3040,
+    "immigration": 3032,
+    "climate_growth": 3036,
+    "all_three": 2962
+  },
+  "primary_C": 1.0,
+  "seed": 20261106,
+  "bootstrap_person_draws": 1000,
+  "microdata_exported": false,
+  "political_association_models_fitted": false
+}

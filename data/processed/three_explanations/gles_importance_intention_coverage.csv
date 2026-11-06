@@ -1,0 +1,9 @@
+topic,require_core,n,early_intention_unresolved_n,late_intention_unresolved_n
+tax_welfare,True,3040,174,147
+tax_welfare,False,3432,218,174
+immigration,True,3032,173,148
+immigration,False,3423,219,174
+climate_growth,True,3036,177,151
+climate_growth,False,3431,222,178
+all_three,True,2962,171,145
+all_three,False,3339,215,171
