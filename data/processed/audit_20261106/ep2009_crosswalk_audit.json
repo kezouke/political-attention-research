@@ -1,0 +1,61 @@
+{
+  "method": "Conservative partial crosswalk; unreviewed coalitions/identity changes are unresolved",
+  "survey_options": 295,
+  "options_with_ep_identity": 225,
+  "joint_counts_v4_inclusive": {
+    "government": 5034,
+    "nonvote": 11704,
+    "other_opposition": 3518,
+    "populist_opposition": 1397,
+    "unresolved": 2223
+  },
+  "countries_with_each_three_vote_category_observed": 19,
+  "countries_with_at_least_30_in_each_vote_category": 11,
+  "identity_flags": [
+    {
+      "country": "EE",
+      "party_id": 417,
+      "reason": "ParlGov ERL/EKRE continuity spans 2012 merger; do not backcast EKRE label"
+    },
+    {
+      "country": "LT",
+      "party_id": 887,
+      "reason": "Earlier Centre Union ID differs from PopuList Centre Party ID 2635"
+    },
+    {
+      "country": "LT",
+      "party_id": 1056,
+      "reason": "FRONTAS versus later Socialist Peoples Front continuity requires review"
+    },
+    {
+      "country": "LV",
+      "party_id": 521,
+      "reason": "ParlGov combines TB/LNNK and later National Alliance, separately labelled by PopuList"
+    },
+    {
+      "country": "RO",
+      "party_id": 761,
+      "reason": "ParlGov generic independent ID cannot classify Elena Basescu"
+    },
+    {
+      "country": "SI",
+      "party_id": 706,
+      "reason": "PopuList ID 706 names United Left; ParlGov ID 706 names Social Democrats"
+    },
+    {
+      "country": "IT",
+      "party_id": 596,
+      "reason": "ParlGov FI/PdL continuity; PopuList has separate FI1 and PdL rows"
+    }
+  ],
+  "limitations": [
+    "Counts are unweighted feasibility counts, not attitudes/outcome associations or power estimates.",
+    "Other opposition means within verified PopuList scope and not classified populist under the selected version/rule.",
+    "Post-election attitudes do not identify prior change or causes of voting.",
+    "Czech and Hungarian caretaker periods have no automatic government/opposition assignment.",
+    "ParlGov may aggregate alliances and party successors; unresolved entries cannot inherit the leading party label.",
+    "Official EP summaries have been acquired, but they aggregate small lists and are not a complete ballot catalogue.",
+    "Partial mapping is not final analysis eligibility. Cross-country exclusions are not chosen from effects.",
+    "Unresolved votes and nonvoters stay distinct. Zero observed populist votes is not absence of populist supply."
+  ]
+}

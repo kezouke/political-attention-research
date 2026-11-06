@@ -2471,5 +2471,415 @@
     "content_type": "text/html; charset=UTF-8",
     "sha256": "754a9587ecdfff240cafd632e80c8d658cfc98e45df8711e79ebf15f634d6cab",
     "local_path": "data/raw/audit_20261106/populist_country_reports_note.html"
+  },
+  "ep_downloads_index": {
+    "url": "https://results.elections.europa.eu/en/tools/download-datasheets/",
+    "resolved_url": "https://results.elections.europa.eu/en/tools/download-datasheets/",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:31:57.720573+00:00",
+    "bytes": 2221985,
+    "content_type": "text/html",
+    "sha256": "5b09c5a4d8a293a9f52524a4c7dbc88e4c8819c04e543d859d406b031e233c5e",
+    "local_path": "data/raw/audit_20261106/ep_downloads_index.html"
+  },
+  "parlgov_party": {
+    "url": "https://www.parlgov.org/data/parlgov-development_csv-utf-8/view_party.csv",
+    "resolved_url": "https://www.parlgov.org/data/parlgov-development_csv-utf-8/view_party.csv",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:31:58.463748+00:00",
+    "bytes": 257997,
+    "content_type": "text/plain",
+    "sha256": "df757e62f647a1b0a9366236dfe835a1e607888229f7e0a58d919093e4cd520d",
+    "local_path": "data/raw/audit_20261106/parlgov_party.csv"
+  },
+  "parlgov_election": {
+    "url": "https://www.parlgov.org/data/parlgov-development_csv-utf-8/view_election.csv",
+    "resolved_url": "https://www.parlgov.org/data/parlgov-development_csv-utf-8/view_election.csv",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:31:58.530624+00:00",
+    "bytes": 1142264,
+    "content_type": "text/plain",
+    "sha256": "4b318c36b1cbe8de74af4a3ca77295f86dd420bbba74b5d24099923fee99ac64",
+    "local_path": "data/raw/audit_20261106/parlgov_election.csv"
+  },
+  "parlgov_cabinet": {
+    "url": "https://www.parlgov.org/data/parlgov-development_csv-utf-8/view_cabinet.csv",
+    "resolved_url": "https://www.parlgov.org/data/parlgov-development_csv-utf-8/view_cabinet.csv",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:31:58.537463+00:00",
+    "bytes": 1783351,
+    "content_type": "text/plain",
+    "sha256": "bd39f73335e8bc49c00d5000ab5a68e7a8c41ca0eb17d8c89ff6d05ba93e6063",
+    "local_path": "data/raw/audit_20261106/parlgov_cabinet.csv"
+  },
+  "parlgov_codebook": {
+    "url": "https://www.parlgov.org/data/codebook.pdf",
+    "resolved_url": "https://www.parlgov.org/data/codebook.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:31:58.836453+00:00",
+    "bytes": 1395530,
+    "content_type": "application/pdf",
+    "sha256": "2a7531aa366b448f0b373dae2d5cde52a0699b7bce390b5a3f24045d1ea0984e",
+    "local_path": "data/raw/audit_20261106/parlgov_codebook.pdf"
+  },
+  "ep2009_cy": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/cy.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/cy.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:15.491591+00:00",
+    "bytes": 2708,
+    "content_type": "application/json",
+    "sha256": "b43c711c9a43a7243575a25df124550470af943b07989717e54d47a3bd60de2e",
+    "local_path": "data/raw/audit_20261106/ep2009_cy.json"
+  },
+  "ep2009_bg": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/bg.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/bg.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:15.497075+00:00",
+    "bytes": 3310,
+    "content_type": "application/json",
+    "sha256": "952456be0d3b71c983b2001cad3888b4a75589d8e04c2cd431452deac3702ae2",
+    "local_path": "data/raw/audit_20261106/ep2009_bg.json"
+  },
+  "ep2009_be": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/be.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/be.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:15.510238+00:00",
+    "bytes": 6038,
+    "content_type": "application/json",
+    "sha256": "49c6793c02e895bb0f87b0ac8caafe5c2c4f157fe90eb5c56fe93baa75c09edf",
+    "local_path": "data/raw/audit_20261106/ep2009_be.json"
+  },
+  "ep2009_at": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/at.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/at.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:15.552169+00:00",
+    "bytes": 3005,
+    "content_type": "application/json",
+    "sha256": "d60db33bc207e3ddd732b1bc133b75313e9921de3d0b2f50b65ad8ef5b293801",
+    "local_path": "data/raw/audit_20261106/ep2009_at.json"
+  },
+  "ep2009_cz": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/cz.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/cz.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:15.933845+00:00",
+    "bytes": 2712,
+    "content_type": "application/json",
+    "sha256": "b4d82b358a756a234693bbe398b7bbd08ea2c66ab67734d65c46416c5ede798b",
+    "local_path": "data/raw/audit_20261106/ep2009_cz.json"
+  },
+  "ep2009_de": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/de.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/de.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:15.991148+00:00",
+    "bytes": 3320,
+    "content_type": "application/json",
+    "sha256": "57c9dccf3dd2d45ea1bef565cbd8a3969791c749f1654f22c32045698962b398",
+    "local_path": "data/raw/audit_20261106/ep2009_de.json"
+  },
+  "ep2009_dk": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/dk.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/dk.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:16.062607+00:00",
+    "bytes": 3311,
+    "content_type": "application/json",
+    "sha256": "976a3c05d1ddf1074d7a1a04e484e26fc5677cf1882e39aaedd3b1ae2e8b2257",
+    "local_path": "data/raw/audit_20261106/ep2009_dk.json"
+  },
+  "ep2009_ee": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/ee.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/ee.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:16.066413+00:00",
+    "bytes": 3012,
+    "content_type": "application/json",
+    "sha256": "f667bf64dfbe23936d81fc20017dae7d0253c1a1c9089d23ffb7bf3529bceba3",
+    "local_path": "data/raw/audit_20261106/ep2009_ee.json"
+  },
+  "ep2009_el": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/el.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/el.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:16.636153+00:00",
+    "bytes": 3312,
+    "content_type": "application/json",
+    "sha256": "933eba5fcb94024d7f0c54bb548e60ab65c9a67b65775fcb2fa68b43a657a345",
+    "local_path": "data/raw/audit_20261106/ep2009_el.json"
+  },
+  "ep2009_es": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/es.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/es.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:16.636471+00:00",
+    "bytes": 5556,
+    "content_type": "application/json",
+    "sha256": "f6e773ad2cd8a0791fdb4be47ad9cdebc834f2e029d2dcae8188849d07f7f70b",
+    "local_path": "data/raw/audit_20261106/ep2009_es.json"
+  },
+  "ep2009_fbe": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/fbe.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/fbe.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:16.695430+00:00",
+    "bytes": 3613,
+    "content_type": "application/json",
+    "sha256": "b334978bd53989081c1eb1c367dfa114362a4531f4faa79aba8e547dcc70c7b2",
+    "local_path": "data/raw/audit_20261106/ep2009_fbe.json"
+  },
+  "ep2009_eu": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/eu.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/eu.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:16.706184+00:00",
+    "bytes": 833,
+    "content_type": "application/json",
+    "sha256": "fbd45c449309f1f7460476d2a0cb5e3a04810bfe8d62782feddf9286ec6fa324",
+    "local_path": "data/raw/audit_20261106/ep2009_eu.json"
+  },
+  "ep2009_fr": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/fr.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/fr.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:17.039670+00:00",
+    "bytes": 6341,
+    "content_type": "application/json",
+    "sha256": "1d9f1d630effb41375aec691d49c3bf1b9d4d54553a9ecf99a690689da1aa129",
+    "local_path": "data/raw/audit_20261106/ep2009_fr.json"
+  },
+  "ep2009_fi": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/fi.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/fi.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:17.062593+00:00",
+    "bytes": 4638,
+    "content_type": "application/json",
+    "sha256": "1dc4808a9b5ffbb62250f351ea8dc4e61a4870a56580c38891e8420e8914790b",
+    "local_path": "data/raw/audit_20261106/ep2009_fi.json"
+  },
+  "ep2009_gb": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/gb.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/gb.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:17.105156+00:00",
+    "bytes": 4033,
+    "content_type": "application/json",
+    "sha256": "bf1d9bdbfe7baf474da226f0c69cc3e849edb808857c25ee71bfd75fc96b39a9",
+    "local_path": "data/raw/audit_20261106/ep2009_gb.json"
+  },
+  "ep2009_gbe": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/gbe.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/gbe.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:17.110425+00:00",
+    "bytes": 2341,
+    "content_type": "application/json",
+    "sha256": "97c73b4f6983f353f208bd4b1e203e60a727940b1b1aaeb495fd389c9856f528",
+    "local_path": "data/raw/audit_20261106/ep2009_gbe.json"
+  },
+  "ep2009_groups": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/groups.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/groups.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:17.457141+00:00",
+    "bytes": 33678,
+    "content_type": "application/json",
+    "sha256": "ec21a37b1cd7b2d1fb2ce0cc4b1fee0f855a604186635f6c25d265618aebd877",
+    "local_path": "data/raw/audit_20261106/ep2009_groups.json"
+  },
+  "ep2009_gender-balance": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/gender-balance.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/gender-balance.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:17.466627+00:00",
+    "bytes": 6335,
+    "content_type": "application/json",
+    "sha256": "af01d262ac195bc51ae8ec455440e5865433d794673585099f3b9c46cddfab7b",
+    "local_path": "data/raw/audit_20261106/ep2009_gender-balance.json"
+  },
+  "ep2009_ie": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/ie.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/ie.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:17.486505+00:00",
+    "bytes": 3013,
+    "content_type": "application/json",
+    "sha256": "107a9aaca11299b9ed9bc3eb8fd410fd6e41b47b32ebcb0482b4dd455b56f48d",
+    "local_path": "data/raw/audit_20261106/ep2009_ie.json"
+  },
+  "ep2009_hu": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/hu.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/hu.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:17.490245+00:00",
+    "bytes": 3614,
+    "content_type": "application/json",
+    "sha256": "dbdf30d1e2829c66a7294243a8f640febdcb8ef51db7b4ff7afe7e50c44b3023",
+    "local_path": "data/raw/audit_20261106/ep2009_hu.json"
+  },
+  "ep2009_it": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/it.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/it.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:17.857816+00:00",
+    "bytes": 3318,
+    "content_type": "application/json",
+    "sha256": "c6446d6fb1c47dbd2b58af043ea0c30395ad12d410dd6075a8640f58eba94b26",
+    "local_path": "data/raw/audit_20261106/ep2009_it.json"
+  },
+  "ep2009_lu": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/lu.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/lu.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:17.864709+00:00",
+    "bytes": 2711,
+    "content_type": "application/json",
+    "sha256": "d2097881ef3da2cdfa1576b98a23849aa42a9d1a348e62af4decbc5901f1ecce",
+    "local_path": "data/raw/audit_20261106/ep2009_lu.json"
+  },
+  "ep2009_lv": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/lv.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/lv.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:17.869882+00:00",
+    "bytes": 4037,
+    "content_type": "application/json",
+    "sha256": "e991511f6fab9157df4c9038d6b6b2b5a939f8ded65b3d5d4cde53d5cae0c022",
+    "local_path": "data/raw/audit_20261106/ep2009_lv.json"
+  },
+  "ep2009_lt": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/lt.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/lt.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:17.872729+00:00",
+    "bytes": 3315,
+    "content_type": "application/json",
+    "sha256": "de8779ee064cece48a99a79537e044b16e14406e7119f3f244f7f77fa01360cc",
+    "local_path": "data/raw/audit_20261106/ep2009_lt.json"
+  },
+  "ep2009_ni": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/ni.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/ni.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:18.258807+00:00",
+    "bytes": 2405,
+    "content_type": "application/json",
+    "sha256": "b5405db05464c5a97451937cac2fa6e2d0ba7206116d7c8d10fcfa1248b37816",
+    "local_path": "data/raw/audit_20261106/ep2009_ni.json"
+  },
+  "ep2009_mt": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/mt.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/mt.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:18.263323+00:00",
+    "bytes": 2105,
+    "content_type": "application/json",
+    "sha256": "bfd7eaa48b9845c4e7d9a6aafb158295687c2dec119454eab84936e799520f39",
+    "local_path": "data/raw/audit_20261106/ep2009_mt.json"
+  },
+  "ep2009_nl": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/nl.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/nl.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:18.263508+00:00",
+    "bytes": 4638,
+    "content_type": "application/json",
+    "sha256": "d9953ed16cf2674eb091443c30f9ad9d6bdaec9a7d0b0d02d8e48029eaf2d960",
+    "local_path": "data/raw/audit_20261106/ep2009_nl.json"
+  },
+  "ep2009_parties": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/parties.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/parties.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:18.307072+00:00",
+    "bytes": 70408,
+    "content_type": "application/json",
+    "sha256": "8dc77cabd13a92e6d5cd1d5c932cd2a3b0712a6f505d38a26d0bdabfbc354a2c",
+    "local_path": "data/raw/audit_20261106/ep2009_parties.json"
+  },
+  "ep2009_ro": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/ro.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/ro.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:18.673087+00:00",
+    "bytes": 3922,
+    "content_type": "application/json",
+    "sha256": "33e4ca0a40dbb8f75447075a1a240abea4d29a90675922c52d3f20092a4f37a2",
+    "local_path": "data/raw/audit_20261106/ep2009_ro.json"
+  },
+  "ep2009_pl": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/pl.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/pl.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:18.687912+00:00",
+    "bytes": 3319,
+    "content_type": "application/json",
+    "sha256": "88a107354481f9cd81ccdbbc86e8808458ab98af5a7b7d54c21435eaa3ebd8af",
+    "local_path": "data/raw/audit_20261106/ep2009_pl.json"
+  },
+  "ep2009_pt": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/pt.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/pt.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:18.698975+00:00",
+    "bytes": 3322,
+    "content_type": "application/json",
+    "sha256": "cd5f1766d9bcf536fe75290512ce6460766cadb655d4bea7c55b9ec41598f96d",
+    "local_path": "data/raw/audit_20261106/ep2009_pt.json"
+  },
+  "ep2009_se": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/se.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/se.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:18.725524+00:00",
+    "bytes": 3917,
+    "content_type": "application/json",
+    "sha256": "a259ac66aface36cb4adb05edca4437e8eb7875d3b1038412aa3fe7b308efce2",
+    "local_path": "data/raw/audit_20261106/ep2009_se.json"
+  },
+  "ep2009_si": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/si.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/si.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:19.062392+00:00",
+    "bytes": 3012,
+    "content_type": "application/json",
+    "sha256": "a93f20c01bec97733c8a00f8a57e5cfed41dba78cbcf0ddc6037b71b0d017381",
+    "local_path": "data/raw/audit_20261106/ep2009_si.json"
+  },
+  "ep2009_sk": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/sk.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/sk.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:19.082531+00:00",
+    "bytes": 3315,
+    "content_type": "application/json",
+    "sha256": "4ad3fa90e58c9107a8f53626af963130446013f3c721625a79cad134885d5e80",
+    "local_path": "data/raw/audit_20261106/ep2009_sk.json"
+  },
+  "ep2009_uk": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/uk.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/uk.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:19.095509+00:00",
+    "bytes": 5135,
+    "content_type": "application/json",
+    "sha256": "be2ca7f087744bb34143e7fcecd5fcd60febf12a19dce4a32423c056a5a103f7",
+    "local_path": "data/raw/audit_20261106/ep2009_uk.json"
+  },
+  "ep2009_wbe": {
+    "url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/wbe.json",
+    "resolved_url": "https://results.elections.europa.eu/data-sheets/json/2009-2014/election-results/wbe.json",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T17:32:19.128182+00:00",
+    "bytes": 2711,
+    "content_type": "application/json",
+    "sha256": "c6423611ac5ed5f357902f9e88b4fc7f4c90a7b95f5fd87c8458641a019a96aa",
+    "local_path": "data/raw/audit_20261106/ep2009_wbe.json"
   }
 }

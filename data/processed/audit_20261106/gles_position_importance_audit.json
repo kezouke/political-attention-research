@@ -1,0 +1,129 @@
+{
+  "linked_availability": [
+    {
+      "topic": "tax_welfare",
+      "position_scale_2009": "seven_only",
+      "both_years_position_and_importance_clean_identity": 342,
+      "both_years_plus_core_attitudes_and_outcomes": 185,
+      "extra_2013_position_code_11_observed": 0
+    },
+    {
+      "topic": "tax_welfare",
+      "position_scale_2009": "seven_or_eleven",
+      "both_years_position_and_importance_clean_identity": 663,
+      "both_years_plus_core_attitudes_and_outcomes": 359,
+      "extra_2013_position_code_11_observed": 0
+    },
+    {
+      "topic": "immigration",
+      "position_scale_2009": "seven_only",
+      "both_years_position_and_importance_clean_identity": 349,
+      "both_years_plus_core_attitudes_and_outcomes": 186,
+      "extra_2013_position_code_11_observed": 0
+    },
+    {
+      "topic": "immigration",
+      "position_scale_2009": "seven_or_eleven",
+      "both_years_position_and_importance_clean_identity": 663,
+      "both_years_plus_core_attitudes_and_outcomes": 357,
+      "extra_2013_position_code_11_observed": 0
+    },
+    {
+      "topic": "climate_growth",
+      "position_scale_2009": "seven_only",
+      "both_years_position_and_importance_clean_identity": 403,
+      "both_years_plus_core_attitudes_and_outcomes": 199,
+      "extra_2013_position_code_11_observed": 0
+    },
+    {
+      "topic": "climate_growth",
+      "position_scale_2009": "seven_or_eleven",
+      "both_years_position_and_importance_clean_identity": 757,
+      "both_years_plus_core_attitudes_and_outcomes": 365,
+      "extra_2013_position_code_11_observed": 0
+    },
+    {
+      "topic": "all_three",
+      "position_scale_2009": "seven_only",
+      "both_years_position_and_importance_clean_identity": 164,
+      "both_years_plus_core_attitudes_and_outcomes": 91
+    },
+    {
+      "topic": "all_three",
+      "position_scale_2009": "seven_or_eleven",
+      "both_years_position_and_importance_clean_identity": 581,
+      "both_years_plus_core_attitudes_and_outcomes": 340
+    }
+  ],
+  "linked_parent_agreement": [
+    {
+      "topic": "tax_welfare",
+      "linked_valid_2009_7point": 410,
+      "linked_valid_2009_11point": 398,
+      "parent_linked_substantive_disagreements": 0
+    },
+    {
+      "topic": "immigration",
+      "linked_valid_2009_7point": 423,
+      "linked_valid_2009_11point": 407,
+      "parent_linked_substantive_disagreements": 0
+    },
+    {
+      "topic": "climate_growth",
+      "linked_valid_2009_7point": 481,
+      "linked_valid_2009_11point": 425,
+      "parent_linked_substantive_disagreements": 0
+    }
+  ],
+  "linked_2013_repeated": [
+    {
+      "topic": "tax_welfare",
+      "waves": "9_to_11",
+      "clean_identity_n": 747,
+      "plus_core_attitudes_later_vote_and_not_already_postal": 583
+    },
+    {
+      "topic": "immigration",
+      "waves": "9_to_11",
+      "clean_identity_n": 747,
+      "plus_core_attitudes_later_vote_and_not_already_postal": 585
+    },
+    {
+      "topic": "climate_growth",
+      "waves": "9_to_11",
+      "clean_identity_n": 748,
+      "plus_core_attitudes_later_vote_and_not_already_postal": 585
+    }
+  ],
+  "full_2013_campaign": [
+    {
+      "year": 2013,
+      "topic": "tax_welfare",
+      "pre_position_importance_plus_core_and_outcome": 3267,
+      "repeated_position_importance_plus_core_and_outcome_before_postal": 3126
+    },
+    {
+      "year": 2013,
+      "topic": "immigration",
+      "pre_position_importance_plus_core_and_outcome": 3260,
+      "repeated_position_importance_plus_core_and_outcome_before_postal": 3121
+    },
+    {
+      "year": 2013,
+      "topic": "climate_growth",
+      "pre_position_importance_plus_core_and_outcome": 3261,
+      "repeated_position_importance_plus_core_and_outcome_before_postal": 3124
+    }
+  ],
+  "limitations": [
+    "2009 and 2013 are both after crisis onset. No pre-crisis individual baseline.",
+    "2009 position assignment has seven- and eleven-point forms; use seven-point subgroup first for position changes.",
+    "Importance is absolute importance of each prompted topic, not a ranked choice or a fixed attention budget.",
+    "Climate position wording changes from willingness to accept economic harm to priority for climate versus growth.",
+    "Climate position change across years is not an invariant measure; within-2013 wording is consistent.",
+    "Questionnaire importance endpoints and codes have reversed visual direction; actual code 1 is high importance.",
+    "The 2009 wave-4 position variables are explicitly labelled incorrect in the parent release and are absent in the linked file; do not use them.",
+    "Availability counts do not measure issue change, effects, representativeness or model power.",
+    "Parent-link agreement is checked for every selected topic/scale; no row-level values are exported."
+  ]
+}

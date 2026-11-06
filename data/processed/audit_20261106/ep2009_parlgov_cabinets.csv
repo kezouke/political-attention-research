@@ -1,0 +1,28 @@
+country,parlgov_cabinet,start_date,government_party_ids,party_government_comparison_usable,source
+AT,Faymann I,2008-12-02,973|1013,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+BE,Rompuy,2008-12-30,723|915|1110|1192|1378,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+BG,Stanishev,2005-08-17,544|1160|1286,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+CY,Christofias I,2008-02-28,572|851|945,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+CZ,Fischer,2009-04-09,1567,False,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+DE,Merkel I,2005-11-22,558|1727,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+DK,Rasmussen L I,2009-04-05,590|1605,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+EE,Ansip III,2009-05-21,113|1597,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+ES,Zapatero II,2008-04-12,902,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+FI,Vanhanen II,2007-04-19,94|585|1062|1118,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+FR,Fillon II,2007-06-18,658|1058,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+GB,Brown,2007-06-27,1556,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+GR,Karamanlis Kos II,2007-10-01,47,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+HU,Bajnai,2009-04-14,1591|1617,False,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+IE,Cowen,2008-05-07,280|651|1573,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+IT,Berlusconi IV,2008-05-08,596|1436,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+LT,Kubilius II,2008-11-27,482|983|1045|1502,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+LU,Juncker III,2004-07-31,701|1234,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+LV,Dombrovskis I,2009-02-26,445|466|521|811|1518,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+MT,Gonzi II,2008-03-12,984,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+NL,Balkenende V,2007-02-22,235|742|1206,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+PL,Tusk I,2007-11-16,512|664,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+PT,Socrates I,2005-03-12,725,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+RO,Boc I,2008-12-22,958|1120,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+SE,Reinfeldt I,2006-10-05,282|657|892|1461,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+SI,Pahor I,2008-11-21,326|706|1252|1587,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately
+SK,Fico I,2006-07-04,220|1072|1142,True,ParlGov development 2023-11-04; PPEG candidate registry checked separately

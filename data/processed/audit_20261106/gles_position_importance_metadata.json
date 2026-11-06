@@ -1,0 +1,261 @@
+[
+  {
+    "topic": "tax_welfare",
+    "variable": "kp1_1090",
+    "label": "Soziooekonomische Dimension, Ego",
+    "value_labels": {
+      "-99": "keine Angabe",
+      "-98": "weiss nicht",
+      "-97": "trifft nicht zu",
+      "-96": "Split",
+      "-95": "nicht teilgenommen",
+      "-92": "Fehler in Daten",
+      "1": "1 (2009: Split 1; 2013)  weniger Steuern und weniger sozialstaatliche Leistungen",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7 (2009: Split 1; 2013)  mehr Steuern und mehr sozialstaatliche Leistungen",
+      "11": "11 (2009: Split 2)  weniger Steuern und weniger sozialstaatliche Leistungen",
+      "12": "12",
+      "13": "13",
+      "14": "14",
+      "15": "15",
+      "16": "16",
+      "17": "17",
+      "18": "18",
+      "19": "19",
+      "20": "20",
+      "21": "21 (2009: Split 2)  mehr Steuern und mehr sozialstaatliche Leistungen"
+    }
+  },
+  {
+    "topic": "tax_welfare",
+    "variable": "kp1_1100",
+    "label": "Sozio-oekonomische Dimension, Wichtigkeit",
+    "value_labels": {
+      "-99": "keine Angabe",
+      "-98": "weiss nicht",
+      "-97": "trifft nicht zu",
+      "-95": "nicht teilgenommen",
+      "-92": "Fehler in Daten",
+      "1": "sehr wichtig",
+      "2": "wichtig",
+      "3": "teils wichtig, teils nicht",
+      "4": "nicht so wichtig",
+      "5": "voellig unwichtig"
+    }
+  },
+  {
+    "topic": "tax_welfare",
+    "variable": "kp9_1090",
+    "label": "Sozio-oekonomische Dimension, Ego",
+    "value_labels": {
+      "-99": "keine Angabe",
+      "-98": "weiss nicht",
+      "-97": "trifft nicht zu",
+      "-95": "nicht teilgenommen",
+      "-94": "nicht in Auswahlgesamtheit",
+      "-93": "Interview abgebrochen",
+      "1": "1 weniger Steuern und weniger sozialstaatliche Leistungen",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7 mehr sozialstaatliche Leistungen und mehr Steuern"
+    }
+  },
+  {
+    "topic": "tax_welfare",
+    "variable": "kp9_1100",
+    "label": "Sozio-oekonomische Dimension, Wichtigkeit",
+    "value_labels": {
+      "-99": "keine Angabe",
+      "-98": "weiss nicht",
+      "-97": "trifft nicht zu",
+      "-95": "nicht teilgenommen",
+      "-94": "nicht in Auswahlgesamtheit",
+      "-93": "Interview abgebrochen",
+      "1": "sehr wichtig",
+      "2": "wichtig",
+      "3": "mittelmaessig",
+      "4": "nicht so wichtig",
+      "5": "ueberhaupt nicht wichtig"
+    }
+  },
+  {
+    "topic": "immigration",
+    "variable": "kp1_1130",
+    "label": "Zuzugsmoeglichkeiten Auslaender, Ego",
+    "value_labels": {
+      "-99": "keine Angabe",
+      "-98": "weiss nicht",
+      "-97": "trifft nicht zu",
+      "-96": "Split",
+      "-95": "nicht teilgenommen",
+      "-92": "Fehler in Daten",
+      "1": "1 (2009: Split 1; 2013)  Zuzug von Auslaendern erleichtern",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7 (2009: Split 1; 2013)  Zuzug von Auslaendern einschraenken",
+      "11": "11 (2009: Split 2)  Zuzug von Auslaendern erleichtern",
+      "12": "12",
+      "13": "13",
+      "14": "14",
+      "15": "15",
+      "16": "16",
+      "17": "17",
+      "18": "18",
+      "19": "19",
+      "20": "20",
+      "21": "21 (2009: Split 2)  Zuzug von Auslaendern einschraenken"
+    }
+  },
+  {
+    "topic": "immigration",
+    "variable": "kp1_1140",
+    "label": "Zuzugsmoeglichkeiten Auslaender, Wichtigkeit",
+    "value_labels": {
+      "-99": "keine Angabe",
+      "-98": "weiss nicht",
+      "-97": "trifft nicht zu",
+      "-95": "nicht teilgenommen",
+      "-92": "Fehler in Daten",
+      "1": "sehr wichtig",
+      "2": "wichtig",
+      "3": "teils wichtig, teils nicht",
+      "4": "nicht so wichtig",
+      "5": "voellig unwichtig"
+    }
+  },
+  {
+    "topic": "immigration",
+    "variable": "kp9_1130",
+    "label": "Zuzugsmoeglichkeiten Auslaender, Ego",
+    "value_labels": {
+      "-99": "keine Angabe",
+      "-98": "weiss nicht",
+      "-97": "trifft nicht zu",
+      "-95": "nicht teilgenommen",
+      "-94": "nicht in Auswahlgesamtheit",
+      "-93": "Interview abgebrochen",
+      "1": "1 Zuzug von Auslaendern erleichtern",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7 Zuzug von Auslaendern einschraenken",
+      "11": "11 Zuzug von Auslaendern einschraenken"
+    }
+  },
+  {
+    "topic": "immigration",
+    "variable": "kp9_1140",
+    "label": "Zuzugsmoeglichkeiten Auslaender, Wichtigkeit",
+    "value_labels": {
+      "-99": "keine Angabe",
+      "-98": "weiss nicht",
+      "-97": "trifft nicht zu",
+      "-95": "nicht teilgenommen",
+      "-94": "nicht in Auswahlgesamtheit",
+      "-93": "Interview abgebrochen",
+      "1": "sehr wichtig",
+      "2": "wichtig",
+      "3": "mittelmaessig",
+      "4": "nicht so wichtig",
+      "5": "ueberhaupt nicht wichtig"
+    }
+  },
+  {
+    "topic": "climate_growth",
+    "variable": "kp2_1290",
+    "label": "Klimaschutz, Ego",
+    "value_labels": {
+      "-99": "keine Angabe",
+      "-98": "weiss nicht",
+      "-97": "trifft nicht zu",
+      "-96": "Split",
+      "-95": "nicht teilgenommen",
+      "-92": "Fehler in Daten",
+      "1": "1 (2009: Split 1; 2013)  Bekaempfung des Klimawandels, auch wenn es der Wirtschaft schadet",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7 (2009: Split 1; 2013)  keine Bekaempfung des Klimawandels, wenn es der Wirtschaft schadet",
+      "11": "11 (2009: Split 2)  Bekaempfung des Klimawandels, auch wenn es der Wirtschaft schadet",
+      "12": "12",
+      "13": "13",
+      "14": "14",
+      "15": "15",
+      "16": "16",
+      "17": "17",
+      "18": "18",
+      "19": "19",
+      "20": "20",
+      "21": "21 (2009: Split 2)  keine Bekaempfung des Klimawandels, wenn es der Wirtschaft schadet"
+    }
+  },
+  {
+    "topic": "climate_growth",
+    "variable": "kp2_1300",
+    "label": "Klimaschutz, Wichtigkeit",
+    "value_labels": {
+      "-99": "keine Angabe",
+      "-98": "weiss nicht",
+      "-97": "trifft nicht zu",
+      "-95": "nicht teilgenommen",
+      "-92": "Fehler in Daten",
+      "1": "sehr wichtig",
+      "2": "wichtig",
+      "3": "teils wichtig, teils nicht",
+      "4": "nicht so wichtig",
+      "5": "voellig unwichtig"
+    }
+  },
+  {
+    "topic": "climate_growth",
+    "variable": "kp9_1290",
+    "label": "Klimaschutz, Ego",
+    "value_labels": {
+      "-99": "keine Angabe",
+      "-98": "weiss nicht",
+      "-97": "trifft nicht zu",
+      "-95": "nicht teilgenommen",
+      "-94": "nicht in Auswahlgesamtheit",
+      "-93": "Interview abgebrochen",
+      "1": "1 Vorrang fuer Bekaempfung des Klimawandels",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7 Vorrang fuer Wirtschaftswachstum"
+    }
+  },
+  {
+    "topic": "climate_growth",
+    "variable": "kp9_1300",
+    "label": "Klimaschutz, Wichtigkeit",
+    "value_labels": {
+      "-99": "keine Angabe",
+      "-98": "weiss nicht",
+      "-97": "trifft nicht zu",
+      "-95": "nicht teilgenommen",
+      "-94": "nicht in Auswahlgesamtheit",
+      "-93": "Interview abgebrochen",
+      "1": "sehr wichtig",
+      "2": "wichtig",
+      "3": "mittelmaessig",
+      "4": "nicht so wichtig",
+      "5": "ueberhaupt nicht wichtig"
+    }
+  }
+]
