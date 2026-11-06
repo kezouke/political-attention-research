@@ -2,6 +2,8 @@
 
 ## Crisis and electoral gains, November 2026
 
+- **6 November, explanatory revision:** reorganised both language versions around governing-party losses, the distribution of populist gains, election timing, the Hungarian debt mechanism and the resulting interpretation. Added the existing recession and calm-period benchmarks to the prose, explained sensitivity to election selection, and distinguished the comparison from Funke, Schularick and Trebesch. Kept the Spanish case focused on the delayed breakthrough and the Brazilian companion focused on corruption. The data, calculations and historical archive are unchanged.
+
 - Reframed the bilingual essay around elections after crises. The [new comparison](CRISIS_METHODS.md) pairs actual elections in multiple regions, distinguishes bank crises from other recessions, and reports timing and measurement sensitivities.
 - Used Iberia to distinguish a new challenger from an existing parliamentary route. Added Japan as a case of established opposition gaining and Hungary as a documented case of differential household exposure.
 - Retained Brazil's survey series and campaign evidence with the election timeline. Added a separate eight-country electoral check to the 16-country Eurobarometer comparison.
