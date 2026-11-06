@@ -1,0 +1,27 @@
+year,election_date,gles_code,survey_label,ppeg_name,national_participation_verified,eligible_national_history,incumbent_cabinet_party,populist_v3_basis,populist_v3_inclusive,outcome_v3_inclusive,populist_v3_strict,outcome_v3_strict,populist_v4_basis,populist_v4_inclusive,outcome_v4_inclusive,populist_v4_strict,outcome_v4_strict
+2009,2009-09-27,1,CDU/CSU,Christian Democratic Union,True,True,True,eligible_party_not_listed,0.0,0,0.0,0,eligible_party_not_listed,0.0,0,0.0,0
+2009,2009-09-27,2,CDU,Christian Democratic Union,True,True,True,eligible_party_not_listed,0.0,0,0.0,0,eligible_party_not_listed,0.0,0,0.0,0
+2009,2009-09-27,3,CSU,Christian Democratic Union,True,True,True,eligible_party_not_listed,0.0,0,0.0,0,eligible_party_not_listed,0.0,0,0.0,0
+2009,2009-09-27,4,SPD,Social Democratic Party of Germany,True,True,True,eligible_party_not_listed,0.0,0,0.0,0,eligible_party_not_listed,0.0,0,0.0,0
+2009,2009-09-27,5,FDP,Free Democratic Party,True,True,False,eligible_party_not_listed,0.0,1,0.0,1,eligible_party_not_listed,0.0,1,0.0,1
+2009,2009-09-27,6,Greens,Alliance 90/Greens,True,True,False,eligible_party_not_listed,0.0,1,0.0,1,eligible_party_not_listed,0.0,1,0.0,1
+2009,2009-09-27,7,The Left,The Left,True,True,False,explicit_PopuList_row,1.0,2,0.0,1,explicit_PopuList_row,1.0,2,0.0,1
+2009,2009-09-27,215,Pirates,Pirate Party Germany,True,True,False,eligible_party_not_listed,0.0,1,0.0,1,eligible_party_not_listed,0.0,1,0.0,1
+2009,2009-09-27,225,Republicans,The Republicans,True,True,False,explicit_PopuList_row,1.0,2,1.0,2,explicit_PopuList_row,1.0,2,1.0,2
+2009,2009-09-27,322,AfD,Alternative for Germany,False,True,False,unresolved_scope_or_participation,,-1,,-1,unresolved_scope_or_participation,,-1,,-1
+2009,2009-09-27,180,Free Voters,,False,False,False,unresolved_scope_or_participation,,-1,,-1,unresolved_scope_or_participation,,-1,,-1
+2009,2009-09-27,206,NPD,National Democratic Party of Germany,True,False,False,unresolved_scope_or_participation,,-1,,-1,unresolved_scope_or_participation,,-1,,-1
+2009,2009-09-27,209,OeDP,Ecological Democratic Party,True,False,False,unresolved_scope_or_participation,,-1,,-1,unresolved_scope_or_participation,,-1,,-1
+2013,2013-09-22,1,CDU/CSU,Christian Democratic Union,True,True,True,eligible_party_not_listed,0.0,0,0.0,0,eligible_party_not_listed,0.0,0,0.0,0
+2013,2013-09-22,2,CDU,Christian Democratic Union,True,True,True,eligible_party_not_listed,0.0,0,0.0,0,eligible_party_not_listed,0.0,0,0.0,0
+2013,2013-09-22,3,CSU,Christian Democratic Union,True,True,True,eligible_party_not_listed,0.0,0,0.0,0,eligible_party_not_listed,0.0,0,0.0,0
+2013,2013-09-22,4,SPD,Social Democratic Party of Germany,True,True,False,eligible_party_not_listed,0.0,1,0.0,1,eligible_party_not_listed,0.0,1,0.0,1
+2013,2013-09-22,5,FDP,Free Democratic Party,True,True,True,eligible_party_not_listed,0.0,0,0.0,0,eligible_party_not_listed,0.0,0,0.0,0
+2013,2013-09-22,6,Greens,Alliance 90/Greens,True,True,False,eligible_party_not_listed,0.0,1,0.0,1,eligible_party_not_listed,0.0,1,0.0,1
+2013,2013-09-22,7,The Left,The Left,True,True,False,explicit_PopuList_row,1.0,2,0.0,1,explicit_PopuList_row,1.0,2,0.0,1
+2013,2013-09-22,215,Pirates,Pirate Party Germany,True,True,False,eligible_party_not_listed,0.0,1,0.0,1,eligible_party_not_listed,0.0,1,0.0,1
+2013,2013-09-22,225,Republicans,The Republicans,True,True,False,explicit_PopuList_row,1.0,2,1.0,2,explicit_PopuList_row,1.0,2,1.0,2
+2013,2013-09-22,322,AfD,Alternative for Germany,True,True,False,explicit_PopuList_row,1.0,2,1.0,2,explicit_PopuList_row,1.0,2,1.0,2
+2013,2013-09-22,180,Free Voters,,False,False,False,unresolved_scope_or_participation,,-1,,-1,unresolved_scope_or_participation,,-1,,-1
+2013,2013-09-22,206,NPD,National Democratic Party of Germany,True,False,False,unresolved_scope_or_participation,,-1,,-1,unresolved_scope_or_participation,,-1,,-1
+2013,2013-09-22,209,OeDP,Ecological Democratic Party,True,False,False,unresolved_scope_or_participation,,-1,,-1,unresolved_scope_or_participation,,-1,,-1

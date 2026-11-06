@@ -1,0 +1,32 @@
+[
+  {
+    "year": 2009,
+    "parent_n": 4552,
+    "post_voted_n": 2397,
+    "postal_reported_n": 0,
+    "party_report_conflicts": 0,
+    "turnout_contradictions": 0,
+    "already_postal_at_pre_n": 0,
+    "available_codes_for_one_problem_answer": [
+      "kp2_840_c1",
+      "kp2_840_c2",
+      "kp2_840_c3"
+    ]
+  },
+  {
+    "year": 2013,
+    "parent_n": 5256,
+    "post_voted_n": 2887,
+    "postal_reported_n": 986,
+    "party_report_conflicts": 0,
+    "turnout_contradictions": 0,
+    "already_postal_at_pre_n": 17,
+    "available_codes_for_one_problem_answer": [
+      "kp3_840_c1",
+      "kp3_840_c2",
+      "kp3_840_c3",
+      "kp3_840_c4",
+      "kp3_840_c5"
+    ]
+  }
+]

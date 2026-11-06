@@ -75,8 +75,8 @@ def main():
         mask = base & clean & gov_trust
         age = d[mapping['age']] if year == 2009 else year - d[mapping['birth_year_for_local_age_derivation']]
         requirements = {'age': age.between(18, 100), 'gender': d[mapping['gender']].isin([1, 2]),
-                        'education': d[mapping['education']].isin([1, 2, 3, 4, 5, 9]),
-                        'employment': d[mapping['employment']].between(1, 12),
+                        'education': d[mapping['education']].isin([1, 2, 3, 4, 5, 6 if year == 2009 else 9]),
+                        'employment': d[mapping['employment']].between(1, 14 if year == 2009 else 12),
                         'left_right': d[mapping['left_right']].between(1, 11),
                         'party_identity_nonmissing_code': d[mapping['party_identity']].gt(0),
                         'pre_intention_named_code': d[mapping['pre_intention']].between(1, 799)}

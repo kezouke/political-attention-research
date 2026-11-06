@@ -2951,5 +2951,15 @@
     "content_type": "text/html; charset=UTF-8",
     "sha256": "d46e921ea76c0d1f8f4cb7854b96fee9b92402d2c8004c183d9f0216dabd076a",
     "local_path": "data/raw/audit_20261106/uk_2015_official_candidates.csv"
+  },
+  "gles_5305_methods": {
+    "url": "https://www.gesis.org/fileadmin/upload/forschung/publikationen/gesis_reihen/gesis_methodenberichte/2013/TechnicalReport_2013-17.pdf",
+    "resolved_url": "https://www.gesis.org/fileadmin/upload/forschung/publikationen/gesis_reihen/gesis_methodenberichte/2013/TechnicalReport_2013-17.pdf",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T19:40:56.688288+00:00",
+    "bytes": 4543,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "153e4a48ed599ed1940705543acf205f2b8621c292a99bed96113b075e64cc22",
+    "local_path": "data/raw/audit_20261106/gles_5305_methods.pdf"
   }
 }

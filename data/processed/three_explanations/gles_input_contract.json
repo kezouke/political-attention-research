@@ -1,0 +1,111 @@
+{
+  "fixed_input_hashes": {
+    "analysis/66_gles_model_inputs.py": "b9c8588f4c334321868dfc97d6287c170d6925977ce04f4aa9b79ebd0ac549ed",
+    "analysis/46_gles_panel_audit.py": "cc031932338e15933e9e7c01988108a8846f7e7650ae3d74219d077cf0405ac7",
+    "analysis/47_party_classification_audit.py": "1ecf392aa18f32d5d2fa23f23ba2877007cfdc77d1d73787736ce735a9b4f715",
+    "analysis/61_gles_measurement_harmonization.py": "7afdfd8083426e7a32bd8967e63456a22297a26aac097619dff3e466a7512e93",
+    "planning/analysis-protocol-v1.md": "9ac5cd202b25df98ed01e1b86779c26590b8ec0d1f227a36aa86b18b8e8ac2f4",
+    "planning/gles-analysis-lock.md": "cd20fb760ce11f02890abce72076af923660f063c8e860515741142a22c28b11",
+    "data/processed/three_explanations/gles_party_crosswalk.csv": "81be19c391507d97f743b8babd747b08e5c7de59052cba177a7794f8dfdbd1e5",
+    "data/processed/three_explanations/gles_locked_sample_counts.csv": "e8bdc213a53b6817c792746aa2572ca74f8d67bb6d3c86fb75a082f9a3e702a3",
+    "data/raw/audit_20261106/ZA5305_en_v5-0-0.dta": "5882fc455920f9a62f4fd6e7deb1abd9396ed81dd0fa93199bfd1a1e1ebb08c3",
+    "data/raw/audit_20261106/ZA5704_en_v3-2-0.dta": "b1be4ce5830baad311553d6941320ce63ee1a61e123311172e1983527a195eb7"
+  },
+  "sample_totals": {
+    "2009:government_vs_opposition": 1190,
+    "2009:opposition_type": 639,
+    "2009:nonvote_vs_vote": 1370,
+    "2009:four_outcomes": 1290,
+    "2013:government_vs_opposition": 3021,
+    "2013:opposition_type": 2067,
+    "2013:nonvote_vs_vote": 3502,
+    "2013:four_outcomes": 3291
+  },
+  "blocks": {
+    "baseline": [],
+    "economy_government": [
+      "economy_bad",
+      "government_distrust"
+    ],
+    "plus_priority": [
+      "economy_bad",
+      "government_distrust",
+      "economic_priority"
+    ],
+    "full": [
+      "economy_bad",
+      "government_distrust",
+      "economic_priority",
+      "politicians_dishonest",
+      "parties_only_votes"
+    ],
+    "without_economy": [
+      "government_distrust",
+      "economic_priority",
+      "politicians_dishonest",
+      "parties_only_votes"
+    ],
+    "without_government": [
+      "economy_bad",
+      "economic_priority",
+      "politicians_dishonest",
+      "parties_only_votes"
+    ],
+    "without_priority": [
+      "economy_bad",
+      "government_distrust",
+      "politicians_dishonest",
+      "parties_only_votes"
+    ],
+    "without_trust": [
+      "economy_bad",
+      "government_distrust",
+      "economic_priority"
+    ]
+  },
+  "contrasts": {
+    "economy_bad": [
+      0.25,
+      0.75
+    ],
+    "government_distrust": [
+      0.25,
+      0.75
+    ],
+    "economic_priority": [
+      0.0,
+      1.0
+    ],
+    "politicians_dishonest": [
+      0.25,
+      0.75
+    ],
+    "parties_only_votes": [
+      0.25,
+      0.75
+    ]
+  },
+  "numeric_controls": [
+    "age_scaled",
+    "age_squared",
+    "left_right",
+    "left_right_squared",
+    "left_right_missing"
+  ],
+  "categorical_controls": [
+    "gender_category",
+    "region_category",
+    "education_category",
+    "employment_category",
+    "community_category",
+    "party_identity",
+    "party_identity_strength",
+    "pre_intention_group"
+  ],
+  "seed": 20261106,
+  "main_regularization_C": 1.0,
+  "bootstrap_respondent_draws": 1000,
+  "classification_warning": "The Left is a borderline populist case; strict excludes it in both years. AfD exists only in 2013.",
+  "cross_year_person_link": "lfdn is only unique within a parent file; use ZA5757 designed linkage for cross-year analysis",
+  "microdata_exported": false
+}
