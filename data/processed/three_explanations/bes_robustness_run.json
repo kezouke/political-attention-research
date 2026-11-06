@@ -1,0 +1,26 @@
+{
+  "start_utc": "2026-11-06T19:40:10.057829+00:00",
+  "end_utc": "2026-11-06T19:48:59.190096+00:00",
+  "script_sha256": "485fa8f44ce98fb80e74faedfd4588e7ce29d99568d22d266264048318e318b2",
+  "input_contract_sha256": "9680da5a025c9c12c23472760478e844e13fcf720756371c5e6df607f9a7ec41",
+  "specification_sha256": "b44bc59ff62718ff129cf27b4b8ff4d52d4837b6bf5e20bc54751d61a4a32e28",
+  "nonlinear_parameters": {
+    "learning_rate": 0.05,
+    "max_iter": 200,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 40,
+    "l2_regularization": 1.0,
+    "early_stopping": false,
+    "random_state": 20261106
+  },
+  "hyperparameter_search": false,
+  "heldout_loss_bootstrap_draws": 2000,
+  "validation_intervals_refit_training": false,
+  "selection_estimation": "Five-fold out-of-fold probabilities from pre-election complete core sample",
+  "selection_margins_have_intervals": false,
+  "microdata_exported": false,
+  "remaining": [
+    "Within-person change analysis",
+    "Constituency party availability in 2019"
+  ]
+}

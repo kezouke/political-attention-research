@@ -1,0 +1,15 @@
+{
+  "locked_hashes_match": true,
+  "temporal_validation_combinations": 176,
+  "temporal_paired_comparisons": 176,
+  "nonlinear_validation_combinations": 36,
+  "nonlinear_paired_comparisons": 36,
+  "selection_models": 6,
+  "selection_sensitivity_fits": 36,
+  "unweighted_record_exports": false,
+  "reference_margins_match_original_within_0_001pp": true,
+  "max_reference_margin_difference_pp": 0.00011748211861117852,
+  "probability_and_calibration_checks_passed": true,
+  "fixed_heldout_loss_bootstrap_draws": 2000,
+  "validation_intervals_refit_training": false
+}
