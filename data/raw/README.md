@@ -1,5 +1,21 @@
 # Raw data inputs
 
+
+## Current survey extension
+
+The 7 November 2026 essay uses locally obtained Eurobarometer, GLES, BES and
+national election-study inputs. Exact public source URLs, local filenames and
+hashes are recorded in `data/processed/audit_20261106/acquisition_manifest.json`
+and `authenticated_downloads.json`. The latter records GESIS versions and the
+user-reported permission for the described workflow; it contains no credentials.
+See [the current methods guide](../../CHOICE_METHODS.md#re-estimate-from-licensed-local-inputs)
+for source versions, access conditions and model order. Files live under
+`data/raw/audit_20261106/` locally and must not be committed. Public page rebuilding
+uses aggregate results only and needs none of these respondent files.
+
+The source instructions below describe preserved earlier analyses. They remain
+necessary for reproducing those layers, but are not the current survey inventory.
+
 Raw data and source documents are deliberately not committed. All results used by the article are included in `data/processed/` or in the previous analysis snapshot. To recompute, place the following files here. Source terms apply independently of this repository's code licence. Do not commit account identifiers or credentials.
 
 | File | Source used | Access and citation |

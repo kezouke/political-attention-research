@@ -1,92 +1,1510 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>After a crisis: new programmes or new winners?</title>
-<meta name="description" content="An original decomposition of party programmes and electoral change after banking crises, with temporal prediction tests and a multilingual BERT benchmark.">
+<title>After a crisis, who receives discontent?</title>
+<meta name="description" content="An original study of economic assessments, priorities, trust and political choice: 29 crises, a common European survey and national panels.">
 <script>if(new URLSearchParams(location.search).get('lang')==='ru')document.documentElement.lang='ru';</script>
-<link rel="stylesheet" href="research.css?v=20261106"><script defer src="research-data.js"></script><script defer src="research.js?v=20261106"></script></head>
+<link rel="stylesheet" href="choice.css?v=20261107"><script defer src="choice.js?v=20261107"></script></head>
 <body><a class="skip" href="#story"><span data-copy="ru">К тексту</span><span data-copy="en">Skip to the essay</span></a>
 <header class="masthead"><a class="brand" href="#top">Political Attention Research</a><nav class="locale" aria-label="Language / Язык"><a href="?lang=en" hreflang="en" data-locale>EN</a><a href="?lang=ru" hreflang="ru" data-locale>RU</a></nav></header>
-<div class="hero" id="top"><div class="hero-copy" lang="ru" data-copy="ru"><p class="eyebrow">Политическая экономия · данные · NLP</p><h1>После кризиса: новые программы или новые победители?</h1><p class="deck">Мы проследили 29 кризисов до вторых выборов. Разложение программ в 16 эпизодах показывает: общая повестка часто менялась внутри прежних партий, а усиление экономических тем не сопровождалось сопоставимым выигрышем от перераспределения голосов.</p><p class="meta">Елисей Смирнов · 6 ноября 2026 · Исследовательское эссе</p></div><div class="hero-copy" lang="en" data-copy="en"><p class="eyebrow">Political economy · data · NLP</p><h1>After a crisis: new programmes or new winners?</h1><p class="deck">We followed 29 crises through the second election. Programme decompositions for 16 episodes show that the aggregate agenda often changed within established parties, while vote reweighting did not produce a comparable economic shift.</p><p class="meta">Elisei Smirnov · 6 November 2026 · Research essay</p></div>
-<nav class="contents" aria-label="Sections / Разделы"><a href="#horizon"><span data-copy="ru">Горизонт выборов</span><span data-copy="en">Electoral horizon</span></a><a href="#decomposition"><span data-copy="ru">Программы и голоса</span><span data-copy="en">Programmes and votes</span></a><a href="#alternatives"><span data-copy="ru">Альтернативные объяснения</span><span data-copy="en">Alternative explanations</span></a><a href="#prediction"><span data-copy="ru">Проверка прогноза</span><span data-copy="en">Prediction test</span></a></nav></div>
-<main id="story"><section class="section" id="opening"><div class="prose" lang="ru" data-copy="ru"><h2>Один кризис, две смены политического предложения</h2>
-<p>В ноябре 2011 года испанские социалисты потеряли около 15 процентных пунктов голосов, а большинство получила консервативная Народная партия. Банковский кризис начался тремя годами раньше. На следующих парламентских выборах, в декабре 2015-го, появился другой крупный победитель: Podemos и её региональные союзники получили около 21% голосов. Это новая левая сила, которую World Populism Dataset относит к популистским: её кампания противопоставляла обычных граждан политической и экономической элите.</p>
-<p>Такую последовательность легко описать как переход от экономических трудностей к протестному голосованию. Но эта формулировка пропускает важный вопрос: что успели предложить прежние партии до прорыва новых? Они могли изменить программы задолго до следующей смены победителей. А новые партии могли говорить о знакомых проблемах, предлагая другие способы их решения.</p>
-<p>Мы прослеживаем <strong>29 банковских кризисов в 28 странах до вторых парламентских выборов</strong>, затем сопоставляем программы там, где сохранились достаточно полные данные. В программной части остаются 16 эпизодов в 15 странах. Это позволяет разделить три изменения: содержание программ прежних партий, их доли голосов и состав наблюдаемых партий. Разделение существенно: популярность новой партии и появление новой темы не обязательно происходят одновременно.</p></div><div class="prose" lang="en" data-copy="en"><h2>One crisis, two changes in political supply</h2>
-<p>In November 2011, Spain’s Socialists lost roughly 15 percentage points of the vote and the conservative People’s Party won a majority. The banking crisis had begun three years earlier. At the next parliamentary election, in December 2015, another major winner emerged: Podemos and its regional allies won about 21%. This new left-wing force is classified as populist by the World Populism Dataset: its campaign opposed ordinary citizens to a political and economic elite.</p>
-<p>It is tempting to describe this sequence as economic hardship turning into protest voting. That account leaves an important question unanswered: what had the established parties offered before the newcomers broke through? They could have revised their programmes well before the next change in winners. New parties, in turn, could address familiar problems while proposing different remedies.</p>
-<p>We follow <strong>29 banking crises in 28 countries through the second parliamentary election</strong>, then compare programmes where sufficiently complete records survive. The programme analysis retains 16 episodes in 15 countries. It separates three changes: the content of continuing parties’ programmes, their vote shares, and the roster of observed parties. A new party’s success and a new issue’s emergence need not coincide.</p></div></section>
-<section class="section" id="horizon"><div class="prose" lang="ru" data-copy="ru"><h2>Первые выборы показывают только начало</h2>
-<p>Сначала проверим, насколько испанская последовательность характерна для других кризисов. В прежнем расчёте мы сравнивали последние выборы перед кризисом с первыми после него. Теперь сохраняем ту же исходную точку и добавляем вторые выборы. Все 29 эпизодов проходят проверку: второе голосование состоялось в пределах десяти лет, без нового банковского кризиса в используемой хронике, при демократическом режиме по классификации V-Dem.</p>
-<p>На первых выборах медианный прирост популистских кампаний составляет <strong>0,18 п. п.</strong>, на вторых <strong>5,48 п. п.</strong> Среднее изменение увеличивается с 5,35 до 9,54 п. п. Прирост относительно докризисного голосования наблюдается соответственно в 15 и 18 эпизодах. Медианный срок после начала кризиса составляет около двух и шести лет. Это одна и та же выборка, поэтому различие не возникает из-за добавления других стран.</p>
-<p>Популизм здесь означает определённый способ объяснять политику. По критериям <a href="https://world-populism-dataset.github.io/website/data.html">World Populism Dataset</a>, элита удерживает власть в своих интересах и сознательно причиняет ущерб обычным людям. Обещание повысить доходы или критика некомпетентного правительства сами по себе для этой классификации недостаточны. Складываются доли голосов за классифицированные кампании, как левые, так и правые. База обычно охватывает кампании от 5% голосов; изменение суммы может отражать и изменение классификации.</p></div><div class="prose" lang="en" data-copy="en"><h2>The first election captures only the beginning</h2>
-<p>First, is Spain’s sequence unusual? Our earlier calculation compared the last pre-crisis election with the first election afterwards. We now retain the same baseline and add the second election. All 29 episodes qualify: the second ballot took place within ten years, without a subsequent banking onset in the chronology, and under a democratic regime according to V-Dem.</p>
-<p>The median gain for populist campaigns is <strong>0.18 percentage points</strong> at the first election and <strong>5.48 points</strong> at the second. The mean rises from 5.35 to 9.54 points. Gains relative to the pre-crisis election occur in 15 and 18 episodes respectively. The median elapsed time is about two and six years. Because the sample stays fixed, different country composition does not generate this contrast.</p>
-<p>Populism here denotes a particular account of politics. Under the <a href="https://world-populism-dataset.github.io/website/data.html">World Populism Dataset’s</a> criteria, an elite holds power for its own benefit and deliberately harms ordinary people. Promising higher incomes or criticising an incompetent government is insufficient. We sum the vote shares of classified campaigns on both the left and right. The source generally covers campaigns receiving at least 5%; changes in the total can also reflect changes in classification.</p></div><figure class="figure" id="horizon-figure"><h3><span data-copy="ru">Одни и те же 29 эпизодов, два следующих голосования</span><span data-copy="en">The same 29 episodes, two subsequent elections</span></h3><div data-copy="ru" lang="ru" class="chart-image"><img id="horizon-image-ru" src="figures/horizon-ru.svg" alt="Одни и те же 29 эпизодов, два следующих голосования" loading="eager" width="920"></div><div data-copy="en" lang="en" class="chart-image"><img id="horizon-image-en" src="figures/horizon-en.svg" alt="The same 29 episodes, two subsequent elections" loading="eager" width="920"></div><figcaption><span data-copy="ru">Каждая тонкая линия: один кризис. Все изменения относительно последних выборов до кризиса. Соединение точек показывает порядок выборов, а не ежегодную траекторию. Кризисы начались в 1991–2008 годах; вторые выборы состоялись в 1997–2018 годах.</span><span data-copy="en">Each thin line represents one crisis. All changes use the last pre-crisis election as baseline. Lines show election order, not annual trajectories. Crisis onsets: 1991–2008; second elections: 1997–2018.</span></figcaption><details><summary><span data-copy="ru">Посмотреть все выборы</span><span data-copy="en">Explore all elections</span></summary><div id="horizon-table" class="table-scroll"></div></details></figure></section>
-<section class="section" id="benchmark"><div class="prose" lang="ru" data-copy="ru"><h2>Более поздний рост ещё не доказывает влияние кризиса</h2>
-<p>За шесть лет поддержка партий может измениться и без банковского кризиса. Поэтому сравним результат с двумя последовательными выборами в спокойные периоды: без банковского кризиса и годового сокращения ВВП на всём интервале. Нашлось 50 таких последовательностей в 21 стране. Их медианное изменение к вторым выборам составляет +1,69 п. п., а среднее +4,26 п. п.</p>
-<p>Состав стран различается. Если сначала сравнить кризисные и спокойные последовательности внутри каждой из 21 общей страны, а затем дать странам одинаковый вес, разница средних к вторым выборам составляет +5,41 п. п. Но интервал, полученный повторной выборкой стран, широк: от −1,19 до +12,04 п. п. Общие мировые потрясения дополнительно ограничивают такую оценку неопределённости. Это описательное сравнение, которое не воспроизводит мир без конкретного кризиса.</p>
-<p>Таким образом, первые выборы действительно пропускают часть последующих перемен. Однако вся поздняя прибавка не становится автоматически последствием финансового краха. <a href="https://cepr.org/voxeu/columns/political-aftermath-financial-crises-going-extremes">Funke, Schularick и Trebesch</a> исследуют последствия кризисов на значительно более длинной истории и отдельно рассматривают ультраправых. Наш показатель объединяет популистские кампании разных направлений и отвечает на более узкий вопрос о последовательности выборов.</p>
-<p>Теперь можно перейти от того, <em>когда</em> изменились голоса, к тому, <em>что</em> партии предложили избирателям между этими голосованиями.</p></div><div class="prose" lang="en" data-copy="en"><h2>A later gain does not establish a crisis effect</h2>
-<p>Party support can change over six years without a banking crisis. We therefore compare two successive elections in calm periods, with neither a banking crisis nor an annual GDP contraction anywhere in the interval. There are 50 such sequences in 21 countries. By the second election their median change is +1.69 points and their mean change +4.26 points.</p>
-<p>The country mix differs. Comparing banking and calm sequences within each of the 21 shared countries, then weighting countries equally, gives a mean second-election difference of +5.41 points. But a country-resampling interval is wide: −1.19 to +12.04 points. Shared global shocks further limit that uncertainty calculation. This descriptive comparison does not reconstruct a world without each particular crisis.</p>
-<p>The first election therefore misses some subsequent changes. The entire later gain cannot automatically be attributed to the financial crash. <a href="https://cepr.org/voxeu/columns/political-aftermath-financial-crises-going-extremes">Funke, Schularick and Trebesch</a> examine a much longer historical period and consider the far right separately. Our measure combines populist campaigns across ideological directions and addresses the narrower question of electoral sequence.</p>
-<p>We can now move from <em>when</em> votes changed to <em>what</em> parties offered voters between those elections.</p></div></section>
-<section class="section" id="programmes"><div class="prose" lang="ru" data-copy="ru"><h2>Экономическая повестка не возникла с нуля</h2>
-<p>Для сравнения предложений используем <a href="https://doi.org/10.25522/manifesto.mpds.2023a">Manifesto Project 2023a</a>. Исследователи разбивают программы на отдельные смысловые высказывания и относят их к темам. Мы считаем долю основных экономических категорий, затем усредняем её между доступными программами с весами по результатам партий на соответствующих выборах.</p>
-<p>Например, если две партии получают 60% и 40% голосов, а экономике посвящены 20% и 30% их программ, взвешенная доля равна 24%: 0,6 × 20 + 0,4 × 30. Это характеристика программ с учётом поддержки партий. Она не означает, что 24% избирателей голосовали из-за экономики.</p>
-<p>В основной выборке программы должны представлять не менее 75% голосов на обоих голосованиях. Восстановленные и заменённые тексты исключены. Из исходных 29 эпизодов остаются 16, преимущественно европейских, включая два латвийских кризиса. Для десяти эпизодов нет подходящих программ хотя бы на одном конце, ещё для трёх охват недостаточен. Поэтому результаты этой части нельзя переносить на все 28 стран.</p>
-<p>До кризиса основные экономические категории занимали в среднем 23,3% взвешенного текста, после него 24,8%. Если добавить социальные расходы, образование, труд и другие материальные вопросы, получится 47,6% и 49,8%. Эти темы уже были крупной частью программ. При этом в узком экономическом показателе рост наблюдается лишь в восьми эпизодах из 16; в остальных восьми доля снижается.</p></div><div class="prose" lang="en" data-copy="en"><h2>The economic agenda did not start from zero</h2>
-<p>To compare proposals we use the <a href="https://doi.org/10.25522/manifesto.mpds.2023a">Manifesto Project 2023a</a>. Researchers divide programmes into individual meaningful statements and assign them to topics. We calculate the share of core economic categories and average it across available programmes, using each party’s vote share at the corresponding election as its weight.</p>
-<p>Suppose two parties win 60% and 40% of the votes, while economics occupies 20% and 30% of their programmes. The weighted share is 24%: 0.6 × 20 + 0.4 × 30. This describes programmes weighted by party support. It does not mean that 24% of voters chose a party because of economics.</p>
-<p>The primary sample requires programme coverage of at least 75% of votes at both elections. Estimated and substitute texts are excluded. Sixteen of the original 29 episodes remain, predominantly European and including two Latvian crises. Ten episodes lack eligible programmes at one or both endpoints; three more have insufficient coverage. This part cannot represent all 28 countries.</p>
-<p>Before the crisis, core economic categories averaged 23.3% of weighted programme text; afterwards, 24.8%. Adding welfare, education, labour and other material issues yields 47.6% and 49.8%. These subjects were already substantial. The narrower economic share rises in just eight of the 16 episodes and falls in the other eight.</p></div></section>
-<section class="section" id="decomposition"><div class="prose" lang="ru" data-copy="ru"><h2>Кто изменил общую повестку?</h2>
-<p>Даже небольшой общий сдвиг может скрывать крупные изменения, которые компенсируют друг друга. Вернёмся к двум партиям из примера. Общая экономическая доля вырастет, если обе перепишут свои программы. Она вырастет и при неизменных текстах, если больше голосов получит партия, которая уже уделяла экономике больше места. Чтобы различить эти процессы, мы отдельно учитываем изменение текстов и изменение электоральных весов.</p>
-<p>В среднем по 16 эпизодам изменения программ повторно наблюдаемых партий дают <strong>+3,00 п. п.</strong> экономической доли. Перераспределение голосов между ними даёт <strong>−0,61 п. п.</strong>, изменение состава партийных записей ещё <strong>−0,79 п. п.</strong> Вместе это наблюдаемые +1,60 п. п. Разложение точное: мы усредняем два порядка расчёта, сначала меняя тексты, затем веса, и наоборот.</p>
-<p>Изменение состава записей нельзя целиком назвать появлением новых партий. Туда попадают новые участники, распавшиеся союзы, изменившиеся идентификаторы и отсутствующие программы. Поэтому отдельно сравниваем только партии, присутствующие на обоих голосованиях. В 11 эпизодах они представляют не менее 75% голосов с каждой стороны. В девяти из этих 11 сравнений вклад изменения их программ по абсолютной величине больше вклада перераспределения голосов.</p>
-<p>Это главный результат разложения: <strong>сдвиг в закодированной повестке часто происходит внутри прежних партий</strong>. Он не сводится к приходу участников, которые уже говорили о других проблемах. Но положительный вклад текста ещё не означает, что переписанная программа помогла партии победить.</p></div><div class="prose" lang="en" data-copy="en"><h2>Who changed the aggregate agenda?</h2>
-<p>A small net shift can conceal large offsetting changes. Return to the two-party example. The aggregate economic share rises if both parties rewrite their programmes. It also rises with unchanged texts if the party already devoting more space to economics wins more votes. We separate text changes from changes in electoral weights to distinguish these processes.</p>
-<p>Across the 16 episodes, programme changes within repeatedly observed parties contribute an average <strong>+3.00 points</strong> to the economic share. Vote reweighting among them contributes <strong>−0.61 points</strong>; changes in the record roster contribute another <strong>−0.79 points</strong>. Together these equal the observed +1.60 points. The decomposition is exact: we average the two possible calculation orders, changing texts before weights and weights before texts.</p>
-<p>Roster change cannot simply be called new-party entry. It includes new participants, dissolved alliances, changed identifiers and missing programmes. We therefore also compare only parties observed at both elections. In 11 episodes these represent at least 75% of votes on each side. In nine of those 11 comparisons, the absolute contribution of programme changes exceeds that of vote reweighting.</p>
-<p>The central accounting result is that <strong>shifts in the coded agenda often occur within established parties</strong>. They cannot be reduced to the arrival of actors already discussing other problems. A positive text contribution, however, does not establish that rewriting a programme helped a party win.</p></div><figure class="figure" id="decomposition-figure"><h3><span data-copy="ru">Общий сдвиг складывается из трёх компонентов</span><span data-copy="en">Three components add up to the aggregate shift</span></h3><div class="explorer-controls"><label for="topic-select"><span data-copy="ru">Тема</span><span data-copy="en">Topic</span></label><select id="topic-select"><option value="economy">Экономика / Economy</option><option value="anticorruption">Борьба с коррупцией / Anticorruption</option><option value="environment">Охрана окружающей среды / Environmental protection</option></select></div><div data-copy="ru" lang="ru" class="chart-image"><img id="decomposition-image-ru" src="figures/decomposition-economy-ru.svg" alt="Общий сдвиг складывается из трёх компонентов" loading="eager" width="920"></div><div data-copy="en" lang="en" class="chart-image"><img id="decomposition-image-en" src="figures/decomposition-economy-en.svg" alt="Three components add up to the aggregate shift" loading="eager" width="920"></div><figcaption><span data-copy="ru">Основной набор экономических категорий. 16 эпизодов, охват программ не менее 75% голосов на обоих концах. Точка показывает сумму компонентов. Изменение состава записей включает пропуски и изменения партийных идентификаторов.</span><span data-copy="en">Core economic categories. Sixteen episodes, with programme coverage of at least 75% of votes at both endpoints. Diamonds show the sum of the components. Roster changes include missing records and changed party identifiers.</span></figcaption><details><summary><span data-copy="ru">Посмотреть числа и охват по странам</span><span data-copy="en">Explore values and country coverage</span></summary><div id="decomposition-table" class="table-scroll"></div></details></figure></section>
-<section class="section" id="alternatives"><div class="prose" lang="ru" data-copy="ru"><h2>Какие объяснения выдерживают проверку</h2>
-<p>Первое возможное объяснение: это обычное обновление программ, которое происходит перед любыми выборами. Данные с ним согласуются. Среди 75 сопоставимых пар спокойного периода вклад изменения текстов также чаще всего оказывается крупнейшим: в 51 паре. Само преобладание этого компонента не является особенностью банковского кризиса.</p>
-<p>Второе: экономические темы начали усиливаться раньше. Для 14 кризисных эпизодов доступны программы и в предшествующем межвыборном интервале. Средний экономический сдвиг после кризиса превышает предшествующий на 1,36 п. п., но интервал повторной выборки стран составляет от −3,58 до +6,55 п. п. У нас нет точной оценки дополнительного поворота, специфичного для кризиса.</p>
-<p>Третье: часть изменений создаёт способ измерения. В восьми из 16 эпизодов у сопоставленных партий меняется руководство по кодированию. Если сохранить только партии с одной известной версией правил и снова потребовать 75% охвата, остаются четыре эпизода. В трёх вклад текстов по-прежнему больше вклада голосов, но такая проверка слишком мала для уверенного обобщения. Ошибки кодирования тоже попадают в компонент изменения программ.</p>
-<p>Наконец, средние зависят от исторической волны и состава выборки. Без кризисов 2007–2009 годов остаются четыре программных сравнения, а средний экономический сдвиг меняет знак. Повышение порога охвата до 90% оставляет девять эпизодов и увеличивает средний прирост. Поэтому мы публикуем все варианты, а не выбираем одно число как универсальный ответ.</p></div><div class="prose" lang="en" data-copy="en"><h2>Which alternative explanations survive?</h2>
-<p>First, this may be the ordinary revision of programmes before elections. The data are consistent with that explanation. Among 75 eligible calm-period pairs, text changes are also the largest component most often: in 51 pairs. Their predominance is not distinctive to banking crises.</p>
-<p>Second, economic topics may have been gaining space already. For 14 crisis episodes, programmes are also available for the preceding electoral interval. The average economic shift after the crisis exceeds the preceding shift by 1.36 points, but the country-resampling interval is −3.58 to +6.55 points. We lack a precise estimate of an additional crisis-specific turn.</p>
-<p>Third, measurement can generate part of the change. In eight of the 16 episodes, matched parties cross a coding-handbook revision. Keeping only parties coded under the same known handbook, and again requiring 75% coverage, leaves four episodes. Text changes still outweigh vote reweighting in three, but this check is too small for a confident generalisation. Coding errors also enter the programme-change component.</p>
-<p>Finally, averages depend on the historical wave and sample composition. Excluding crises beginning in 2007–2009 leaves four programme comparisons and reverses the mean economic shift. Raising the coverage threshold to 90% retains nine episodes and increases the mean gain. We publish all these variants rather than selecting one number as a universal answer.</p></div></section>
-<section class="section" id="policies"><div class="prose" lang="ru" data-copy="ru"><h2>Одна тема может содержать противоположные предложения</h2>
-<p>Разложение объясняет, откуда берётся общий сдвиг. Но чего именно хотят партии, когда пишут об экономике? Поддержка бизнеса, бюджетная дисциплина и расширение пособий могут увеличивать внимание к материальным проблемам, предлагая разным группам разные выгоды и издержки.</p>
-<p>В Испании взвешенная доля основных экономических категорий выросла с 21,1% в 2008 году до 28,4% в 2011-м. К 2015 году она снизилась до 26,8%, хотя именно тогда состоялся прорыв Podemos. При этом доля высказываний за расширение социальных расходов выросла с 7,2% до 12,0%, а категория финансовой дисциплины сократилась с 2,6% до 1,1%. Социальные расходы учитываются отдельно от узкого экономического набора.</p>
-<p>Меняется не только количество разговоров об экономике, но и состав предложений. Это не доказательство того, что конкретная мера принесла голоса Podemos: приведённые значения относятся ко всем доступным программам, а между выборами менялись правила кодирования. Но оно показывает, почему один широкий ярлык «экономика» недостаточен для описания политической перемены.</p>
-<p><a href="https://cepr.org/voxeu/columns/political-constraints-aftermath-financial-crises">Mian, Sufi и Trebbi</a> предлагают механизм, помогающий понять это различие: финансовый кризис наносит группам неодинаковые потери, и желательные для них способы восстановления могут расходиться. Наши национальные данные не проверяют этот механизм на уровне людей. Они позволяют увидеть разнообразие предложений, которое исчезает при объединении всех материальных вопросов в одну категорию.</p></div><div class="prose" lang="en" data-copy="en"><h2>One topic can contain conflicting proposals</h2>
-<p>The decomposition identifies where an aggregate shift comes from. But what do parties want when they discuss economics? Business support, fiscal discipline and welfare expansion can all focus attention on material problems while distributing benefits and costs differently.</p>
-<p>In Spain, the weighted share of core economic categories rose from 21.1% in 2008 to 28.4% in 2011. By 2015 it fell to 26.8%, even as Podemos broke through. Meanwhile, statements supporting welfare expansion rose from 7.2% to 12.0%, and economic orthodoxy fell from 2.6% to 1.1%. Welfare is measured separately from the narrow economic category set.</p>
-<p>Both the amount of economic discussion and the mix of proposals can change. This does not establish that a particular policy won votes for Podemos: the figures describe all available programmes, and coding instructions changed between elections. It does show why a single broad label, “economics”, is insufficient to describe political change.</p>
-<p><a href="https://cepr.org/voxeu/columns/political-constraints-aftermath-financial-crises">Mian, Sufi and Trebbi</a> propose a mechanism that helps explain the distinction: a financial crisis imposes different losses on different groups, whose preferred recovery policies may diverge. Our national data do not test that individual-level mechanism. They reveal a diversity of proposals that disappears when all material issues are collapsed into one category.</p></div><figure class="figure" id="policies-figure"><h3><span data-copy="ru">Испания: экономические темы и предлагаемые меры менялись по-разному</span><span data-copy="en">Spain: economic topics and proposed remedies changed differently</span></h3><div data-copy="ru" lang="ru" class="chart-image"><img id="policies-image-ru" src="figures/spain-policies-ru.svg" alt="Испания: экономические темы и предлагаемые меры менялись по-разному" loading="eager" width="920"></div><div data-copy="en" lang="en" class="chart-image"><img id="policies-image-en" src="figures/spain-policies-en.svg" alt="Spain: economic topics and proposed remedies changed differently" loading="eager" width="920"></div><figcaption><span data-copy="ru">Доли закодированных высказываний, взвешенные по голосам доступных партий. Шкалы панелей различаются. Между выборами менялись инструкции кодирования. Эти категории не описывают всю кампанию или мотивы голосования.</span><span data-copy="en">Shares of coded statements, weighted by available parties’ votes. Panel scales differ. Coding instructions changed between elections. These categories do not describe the entire campaign or voting motives.</span></figcaption></figure></section>
-<section class="section" id="prediction"><div class="prose" lang="ru" data-copy="ru"><h2>Помогают ли программы предсказывать голоса?</h2>
-<p>Описать изменение программы и объяснить успех партии по-прежнему разные задачи. Проверим более скромное утверждение: помогают ли тематические доли улучшить прогноз изменения голосов у партий, участвующих в обоих выборах?</p>
-<p>Обучаем модели только на более ранних выборах и проверяем на следующих пятилетних отрезках, с 2000–2004 по 2015–2019 годы. В проверке 89 пар выборов в 27 странах и 463 наблюдения продолжающих участие партий. Базовая модель знает предыдущую долю голосов, партийное семейство, год и длину межвыборного интервала. Расширенная получает ещё прежние тематические доли и изменения программ. При настройке модели страны разделяются между обучением и проверкой.</p>
-<p>Средняя абсолютная ошибка базовой модели составляет <strong>4,15 п. п.</strong> голосов, расширенной <strong>4,17 п. п.</strong> Каждая пара выборов имеет одинаковый вес. Добавление программ в этой проверке не улучшило прогноз. Это не означает, что программы не влияют на выбор: модель проста, не учитывает лидеров, опросы и статус правящей партии, а новые участники исключены. Результат ограничивает более конкретное обещание: одних этих тематических признаков недостаточно, чтобы уверенно объяснить электоральный выигрыш.</p></div><div class="prose" lang="en" data-copy="en"><h2>Do programmes help predict votes?</h2>
-<p>Describing programme change and explaining electoral success remain different tasks. We test a more modest claim: do topic shares improve predictions of vote-share changes among parties competing at both elections?</p>
-<p>Models learn only from earlier elections and are evaluated in subsequent five-year blocks, from 2000–2004 through 2015–2019. The test covers 89 election pairs in 27 countries and 463 continuing-party observations. The baseline uses previous vote share, party family, year and electoral-interval length. The expanded model also receives previous topic shares and programme changes. Model tuning separates countries between training and validation.</p>
-<p>The baseline’s mean absolute error is <strong>4.15 percentage points</strong> of votes; the expanded model’s is <strong>4.17 points</strong>. Each election pair has equal weight. Programme features did not improve this test. That does not establish that programmes have no influence: the model is simple, omits leaders, polls and incumbency, and excludes entrants. It limits the narrower promise that these topic features alone can reliably explain electoral gains.</p></div><figure class="figure" id="prediction-figure"><h3><span data-copy="ru">Тематические признаки не улучшили эту проверку прогноза</span><span data-copy="en">Topic features did not improve this forecasting test</span></h3><div data-copy="ru" lang="ru" class="chart-image"><img id="prediction-image-ru" src="figures/prediction-ru.svg" alt="Тематические признаки не улучшили эту проверку прогноза" loading="eager" width="920"></div><div data-copy="en" lang="en" class="chart-image"><img id="prediction-image-en" src="figures/prediction-en.svg" alt="Topic features did not improve this forecasting test" loading="eager" width="920"></div><figcaption><span data-copy="ru">Чем ниже ошибка, тем лучше. Каждый период проверяется моделью, обученной только на более ранних выборах. Среднее сначала рассчитывается внутри каждой пары выборов, затем между парами. Только партии, наблюдаемые на обоих концах.</span><span data-copy="en">Lower error is better. Each period is evaluated using a model trained only on earlier elections. Errors are averaged within election pairs first, then across pairs. Only parties observed at both endpoints are included.</span></figcaption></figure></section>
-<section class="section" id="answer"><div class="prose" lang="ru" data-copy="ru"><h2>Политическая перемена состоит из нескольких процессов</h2>
-<p>В изученных эпизодах нет единого перехода к экономической повестке. Материальные вопросы занимали много места ещё до кризисов. После них доля экономических тем росла в одних странах и снижалась в других. Там, где закодированная повестка менялась, значительную часть изменения часто создавали программы прежних партий, а не только перераспределение поддержки.</p>
-<p>Электоральная перестройка имеет собственную последовательность: первые выборы пропускают часть последующего роста популистских кампаний. Но поздний рост голосов, обновление программы и смена предлагаемых мер не являются одним и тем же событием. Из этих данных нельзя заключить, что определённая риторика вызвала определённое голосование, или что избиратели перестали интересоваться темой, которую партия стала реже упоминать.</p>
-<p>Поэтому политическую реакцию на экономические трудности полезно описывать точнее: какие группы понесли потери, какие способы помощи появились, какие партии их предложили и как изменилась поддержка. Мы измерили два последних процесса и показали, почему их нельзя подменять одним показателем. Для объяснения выбора отдельных людей понадобятся данные об их потерях, взглядах, приоритетах и голосовании.</p></div><div class="prose" lang="en" data-copy="en"><h2>Political change contains several distinct processes</h2>
-<p>The episodes studied do not display a uniform turn towards an economic agenda. Material questions occupied substantial space before the crises. Afterwards, economic topic shares rose in some countries and fell in others. Where the coded agenda changed, revisions within established parties often contributed substantially, alongside shifts in support.</p>
-<p>Electoral restructuring follows its own sequence: first elections miss some subsequent gains for populist campaigns. But later vote gains, programme revision and changes in proposed remedies are not the same event. These data cannot show that particular rhetoric caused particular votes, or that voters stopped caring about an issue a party mentioned less frequently.</p>
-<p>A more precise account of the response to hardship asks which groups suffered losses, which remedies emerged, which parties offered them and how support changed. We measured party proposals and support, showing why one cannot substitute for the other. Explaining individual choices requires evidence on people’s losses, attitudes, priorities and votes.</p></div></section>
-<section class="section" id="methods"><details class="methods-details"><summary><span data-copy="ru">NLP, данные и воспроизводимость</span><span data-copy="en">NLP, data and reproducibility</span></summary><div class="prose" lang="ru" data-copy="ru"><h2>Как мы проверяли автоматическое чтение программ</h2>
-<p>Для NLP-проверки использовали испанские высказывания с внешней разметкой Comparative Agendas Project. Обучение охватывает программы 1982–2000 годов, настройка проведена на программе 2004 года, итоговая проверка на 3 636 высказываниях PSOE 2008 года. Повторяющиеся между периодами тексты удалены из обучения и настройки.</p>
-<p>Сравнили TF–IDF и логистическую регрессию с многоязычным BERT-энкодером <a href="https://huggingface.co/intfloat/multilingual-e5-small">E5-small</a> и обученным линейным классификатором. Энкодер работал локально на GPU Mac; его веса не дообучались. На последнем документе точность выросла с 50,0% до 60,2%, macro-F1 с 0,482 до 0,588. Ошибка мягкой оценки доли экономических тем снизилась с +2,62 до +1,16 п. п. Но долю гражданских прав BERT недооценил на 3,93 п. п.</p>
-<p>Один документ не подтверждает переносимость на другие страны и языки. Разметка CAP отличается от Manifesto Project. Поэтому предсказания модели не подставлены в основные исторические расчёты. Ни высказывания, ни закрытые исходные данные не опубликованы заново; доступны код, агрегированные ошибки и версия модели.</p></div><div class="prose" lang="en" data-copy="en"><h2>How we tested automated programme reading</h2>
-<p>The NLP benchmark uses Spanish statements with external Comparative Agendas Project labels. Training covers 1982–2000 programmes, tuning uses the 2004 programme, and final evaluation uses 3,636 statements from PSOE’s 2008 programme. Cross-period text repetitions were removed from training and tuning.</p>
-<p>We compare TF–IDF plus logistic regression with the multilingual BERT encoder <a href="https://huggingface.co/intfloat/multilingual-e5-small">E5-small</a> plus a trained linear classifier. The encoder ran locally on the Mac GPU; its weights were frozen. On the final document, accuracy increased from 50.0% to 60.2% and macro-F1 from 0.482 to 0.588. The soft economic-share estimate’s error fell from +2.62 to +1.16 points. But BERT underestimated civil-rights content by 3.93 points.</p>
-<p>One document does not validate transfer to other countries or languages. CAP’s coding scheme differs from the Manifesto Project’s. Model predictions therefore do not replace the primary historical measurements. Source statements and restricted raw inputs are not republished; code, aggregate errors and the model revision are available.</p></div><div class="prose" lang="ru" data-copy="ru"><p>Все разложения являются описательными. Независимой экспертной рецензии не было; ИИ использовался при подготовке кода и текста. Классификации партий и эталонная тематическая разметка взяты из указанных исследовательских источников. Исходные результаты сохранены, новые расчёты опубликованы отдельно.</p></div><div class="prose" lang="en" data-copy="en"><p>All decompositions are descriptive. The work has not undergone independent peer review; AI assisted with code and text preparation. Party classifications and reference topic annotations come from the cited research sources. Earlier results are preserved and the new calculations are published separately.</p></div>
-<div class="prose source-links"><a href="https://github.com/kezouke/political-attention-research/blob/main/RESEARCH_METHODS.md"><span data-copy="ru">Методы и ограничения</span><span data-copy="en">Methods and limitations</span></a> · <a href="https://github.com/kezouke/political-attention-research/blob/main/RESEARCH_AUDIT_2026.md"><span data-copy="ru">Проверка выводов</span><span data-copy="en">Claim audit</span></a> · <a href="https://github.com/kezouke/political-attention-research/tree/main/data/processed"><span data-copy="ru">Таблицы результатов</span><span data-copy="en">Result tables</span></a></div></details></section></main>
-<footer class="footer"><div class="footer-inner"><p><a href="https://github.com/kezouke/political-attention-research"><span data-copy="ru">Репозиторий исследования</span><span data-copy="en">Research repository</span></a> · <a href="https://www.linkedin.com/in/elisei-smirnov-ds/">Elisei Smirnov</a></p><p><span data-copy="ru">Код, происхождение данных и все проверки доступны в репозитории.</span><span data-copy="en">Code, data provenance and all checks are available in the repository.</span></p></div></footer></body></html>
+<div class="hero" id="top"><div class="hero-copy" lang="ru" data-copy="ru"><p class="eyebrow">Политическая экономия · опросы · модели</p><h1>После кризиса: кому достаётся недовольство?</h1><p class="deck">Потеря голосов правительством, поддержка популистов и неучастие имеют разные связи с экономикой и доверием. Мы проверили их на международных данных и повторных опросах одних и тех же людей.</p><p class="meta">Елисей Смирнов · 7 ноября 2026 · Исследовательское эссе</p></div><div class="hero-copy" lang="en" data-copy="en"><p class="eyebrow">Political economy · surveys · models</p><h1>After a crisis, who receives discontent?</h1><p class="deck">Government losses, populist support and abstention have different relationships with the economy and trust. We test them using international data and repeated surveys of the same people.</p><p class="meta">Elisei Smirnov · 7 November 2026 · Research essay</p></div><nav class="contents" aria-label="Sections / Разделы"><a href="#horizon"><span data-copy="ru">После кризиса</span><span data-copy="en">After the crisis</span></a><a href="#europe"><span data-copy="ru">Получатели недовольства</span><span data-copy="en">Recipients of discontent</span></a><a href="#before"><span data-copy="ru">До голосования</span><span data-copy="en">Before voting</span></a><a href="#priorities"><span data-copy="ru">Приоритеты</span><span data-copy="en">Priorities</span></a><a href="#countries"><span data-copy="ru">Различия стран</span><span data-copy="en">Country differences</span></a><a href="#offers"><span data-copy="ru">Предложения партий</span><span data-copy="en">Party offers</span></a></nav></div><main id="story"><section class="section" id="opening"><div class="prose" lang="ru" data-copy="ru"><h2>Испания сменила правительство раньше, чем поддержала Podemos</h2>
+<p><a href="https://www.boe.es/boe/dias/2011/12/10/pdfs/BOE-A-2011-19391.pdf">В ноябре 2011 года</a> испанские социалисты потеряли около 15 процентных пунктов голосов. Большинство получила консервативная Народная партия, давно участвовавшая в управлении страной. Банковский кризис начался тремя годами раньше. На следующих парламентских выборах, в декабре 2015-го, Podemos и её региональные союзники <a href="https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867&amp;lang=es">получили около 21% голосов</a>. Поражение правительства и прорыв новой силы оказались разными событиями, разделёнными четырьмя годами.</p>
+<p>Podemos важна для этого сравнения не просто как новая левая партия. <a href="https://world-populism-dataset.github.io/website/countries/spain.html">World Populism Dataset</a> относит её кампанию к популистским: она противопоставляла обычных граждан политической и экономической элите, действующей в собственных интересах. В 2011 году голоса перешли к привычной альтернативе социалистам. В 2015-м крупную поддержку получила партия, оспаривавшая устройство прежней системы представительства.</p>
+<p>Почему экономическое недовольство сопровождает такие разные исходы? Избиратель может наказать конкретное правительство, пересмотреть важность отдельных вопросов или утратить доверие к политикам вообще. Эти объяснения часто соединяют в одну историю: кризис заставил людей заняться экономикой и привёл их к популистам. Но каждый переход в этой истории нужно проверить отдельно.</p>
+<p>Мы начинаем с <strong>29 банковских кризисов в 28 странах</strong>, затем переходим к общему европейскому опросу и национальным исследованиям восьми стран. Международные результаты показывают, когда менялись голоса. Опросы позволяют различить оценки экономики, приоритеты и доверие. Британская и немецкая панели проверяют, какие ответы предшествовали голосованию. Вместе они дают более определённый вывод о получателях недовольства, хотя не устанавливают единую причинную цепочку от кризиса к популизму.</p>
+</div><div class="prose" lang="en" data-copy="en"><h2>Spain changed governments before Podemos broke through</h2>
+<p><a href="https://www.boe.es/boe/dias/2011/12/10/pdfs/BOE-A-2011-19391.pdf">In November 2011</a>, Spain’s Socialists lost roughly 15 percentage points of the vote. The conservative People’s Party, an established governing alternative, won a majority. The banking crisis had begun three years earlier. At the next parliamentary election, in December 2015, Podemos and its regional allies <a href="https://www.boe.es/buscar/doc.php?id=BOE-A-2016-867&amp;lang=es">won about 21%</a>. The incumbent’s defeat and the new party’s breakthrough were separate events, four years apart.</p>
+<p>Podemos matters here for more than being a new left-wing party. The <a href="https://world-populism-dataset.github.io/website/countries/spain.html">World Populism Dataset</a> classifies its campaign as populist: it opposed ordinary citizens to political and economic elites pursuing their own interests. In 2011, voters supported a familiar alternative to the Socialists. In 2015, a party challenging the established system of representation gained substantial support.</p>
+<p>Why does economic discontent accompany such different outcomes? A voter might punish a particular government, reconsider which issues matter most, or lose trust in politicians generally. These explanations are often joined into one story: a crisis redirected attention towards the economy and led voters to populists. Each link in that story needs a separate test.</p>
+<p>We begin with <strong>29 banking crises in 28 countries</strong>, then examine a common European survey and national studies in eight countries. International election results show when votes changed. Surveys distinguish economic assessments, priorities and trust. British and German panels establish which answers preceded voting. Together they clarify who receives discontent, although they do not establish a single causal chain from crisis to populism.</p>
+</div></section>
+<section class="section" id="horizon"><div class="prose" lang="ru" data-copy="ru"><h2>Первые выборы пропускают часть перемен</h2>
+<p>Испанская последовательность подсказывает, зачем смотреть дальше ближайших выборов. Для каждого из 29 кризисов мы сравниваем последние докризисные выборы с первыми и вторыми после начала кризиса. Вторые должны состояться в пределах десяти лет, без нового банковского кризиса в используемой хронике и при демократическом режиме. Выборка одна и та же на обоих горизонтах.</p>
+<p>Медианный прирост суммарной доли популистских кампаний составляет <strong>0,18 процентного пункта на первых выборах и 5,48 на вторых</strong>. Медианный срок от начала кризиса до голосования увеличивается примерно с двух до шести лет. Поэтому небольшой результат на первых выборах ещё не означает, что политическая перестройка закончилась.</p>
+</div><div class="prose" lang="en" data-copy="en"><h2>The first election misses some subsequent change</h2>
+<p>Spain’s sequence suggests why we should look beyond the next election. For each crisis, we compare the last pre-crisis election with the first and second elections afterwards. The second must occur within ten years, without another banking crisis in the chronology and under a democratic regime. The sample remains identical at both horizons.</p>
+<p>The median increase in the combined vote share of populist campaigns is <strong>0.18 percentage points at the first election and 5.48 at the second</strong>. The median time since the crisis increases from about two to six years. A small first-election change therefore does not mean that political restructuring is over.</p>
+</div><figure class="figure" id="figure-horizon"><div data-copy="ru" lang="ru"><h3>Поздний сдвиг заметнее, но не одинаков во всех кризисах</h3><picture><source media="(max-width:600px)" srcset="figures/horizon-mobile-ru.svg"><img src="figures/horizon-ru.svg" alt="Поздний сдвиг заметнее, но не одинаков во всех кризисах" loading="lazy" width="920"></picture><figcaption>Каждая тонкая линия соединяет первые и вторые выборы одного из 29 эпизодов. Изменение относительно последних докризисных выборов. Чёрная линия: медиана. Это порядок выборов, а не ежегодная траектория. Начало кризисов: 1991–2008; вторые выборы: 1997–2018. Классификация кампаний: WPD.</figcaption><details><summary>Числа и охват</summary><div class="table-scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ISO</th>
+      <th>Кризис</th>
+      <th>Первые выборы</th>
+      <th>Сдвиг, п. п.</th>
+      <th>Вторые выборы</th>
+      <th>Сдвиг, п. п.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ARG</td>
+      <td>2001</td>
+      <td>2003-04-27</td>
+      <td>36.30</td>
+      <td>2005-10-23</td>
+      <td>29.90</td>
+    </tr>
+    <tr>
+      <td>BEL</td>
+      <td>2008</td>
+      <td>2010-06-13</td>
+      <td>-4.24</td>
+      <td>2014-05-25</td>
+      <td>-12.00</td>
+    </tr>
+    <tr>
+      <td>BGR</td>
+      <td>1996</td>
+      <td>1997-04-19</td>
+      <td>5.27</td>
+      <td>2001-06-18</td>
+      <td>42.74</td>
+    </tr>
+    <tr>
+      <td>BOL</td>
+      <td>1994</td>
+      <td>1997-06-01</td>
+      <td>5.10</td>
+      <td>2002-06-30</td>
+      <td>-1.70</td>
+    </tr>
+    <tr>
+      <td>BRA</td>
+      <td>1994</td>
+      <td>1998-10-04</td>
+      <td>-1.10</td>
+      <td>2002-10-06</td>
+      <td>-14.90</td>
+    </tr>
+    <tr>
+      <td>COL</td>
+      <td>1998</td>
+      <td>2002-03-10</td>
+      <td>0.00</td>
+      <td>2006-03-12</td>
+      <td>17.50</td>
+    </tr>
+    <tr>
+      <td>DEU</td>
+      <td>2008</td>
+      <td>2009-09-27</td>
+      <td>3.20</td>
+      <td>2013-09-22</td>
+      <td>-0.10</td>
+    </tr>
+    <tr>
+      <td>DNK</td>
+      <td>2008</td>
+      <td>2011-09-15</td>
+      <td>-1.73</td>
+      <td>2015-06-18</td>
+      <td>7.20</td>
+    </tr>
+    <tr>
+      <td>ECU</td>
+      <td>1998</td>
+      <td>2002-10-20</td>
+      <td>-11.50</td>
+      <td>2006-10-15</td>
+      <td>0.13</td>
+    </tr>
+    <tr>
+      <td>ESP</td>
+      <td>2008</td>
+      <td>2011-11-20</td>
+      <td>0.00</td>
+      <td>2015-12-20</td>
+      <td>20.66</td>
+    </tr>
+    <tr>
+      <td>FIN</td>
+      <td>1991</td>
+      <td>1995-03-19</td>
+      <td>0.00</td>
+      <td>1999-03-21</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>GBR</td>
+      <td>2007</td>
+      <td>2010-05-06</td>
+      <td>0.00</td>
+      <td>2015-05-07</td>
+      <td>12.65</td>
+    </tr>
+    <tr>
+      <td>GRC</td>
+      <td>2008</td>
+      <td>2009-10-04</td>
+      <td>0.58</td>
+      <td>2012-05-06</td>
+      <td>29.31</td>
+    </tr>
+    <tr>
+      <td>IND</td>
+      <td>1993</td>
+      <td>1996-04-27</td>
+      <td>0.18</td>
+      <td>1998-02-16</td>
+      <td>5.48</td>
+    </tr>
+    <tr>
+      <td>IRL</td>
+      <td>2008</td>
+      <td>2011-02-25</td>
+      <td>3.00</td>
+      <td>2016-02-26</td>
+      <td>6.91</td>
+    </tr>
+    <tr>
+      <td>ISL</td>
+      <td>2008</td>
+      <td>2009-04-25</td>
+      <td>22.00</td>
+      <td>2013-04-27</td>
+      <td>29.53</td>
+    </tr>
+    <tr>
+      <td>ITA</td>
+      <td>2008</td>
+      <td>2013-02-24</td>
+      <td>0.61</td>
+      <td>2018-03-04</td>
+      <td>17.60</td>
+    </tr>
+    <tr>
+      <td>JPN</td>
+      <td>1997</td>
+      <td>2000-06-25</td>
+      <td>0.00</td>
+      <td>2003-11-09</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>LVA</td>
+      <td>1995</td>
+      <td>1995-09-30</td>
+      <td>30.05</td>
+      <td>1998-10-03</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>LVA</td>
+      <td>2008</td>
+      <td>2010-10-02</td>
+      <td>-8.54</td>
+      <td>2011-09-17</td>
+      <td>18.33</td>
+    </tr>
+    <tr>
+      <td>NLD</td>
+      <td>2008</td>
+      <td>2010-06-09</td>
+      <td>9.56</td>
+      <td>2012-09-12</td>
+      <td>4.19</td>
+    </tr>
+    <tr>
+      <td>NOR</td>
+      <td>1991</td>
+      <td>1993-09-13</td>
+      <td>-6.70</td>
+      <td>1997-09-16</td>
+      <td>2.30</td>
+    </tr>
+    <tr>
+      <td>PHL</td>
+      <td>1997</td>
+      <td>1998-05-11</td>
+      <td>26.68</td>
+      <td>2001-05-14</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>POL</td>
+      <td>1992</td>
+      <td>1993-09-19</td>
+      <td>0.00</td>
+      <td>1997-09-21</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>PRT</td>
+      <td>2008</td>
+      <td>2009-09-27</td>
+      <td>3.58</td>
+      <td>2011-06-05</td>
+      <td>-1.15</td>
+    </tr>
+    <tr>
+      <td>ROU</td>
+      <td>1998</td>
+      <td>2000-11-26</td>
+      <td>19.48</td>
+      <td>2004-11-28</td>
+      <td>13.00</td>
+    </tr>
+    <tr>
+      <td>TUR</td>
+      <td>2000</td>
+      <td>2002-11-03</td>
+      <td>26.13</td>
+      <td>2007-07-22</td>
+      <td>31.18</td>
+    </tr>
+    <tr>
+      <td>USA</td>
+      <td>2007</td>
+      <td>2008-11-04</td>
+      <td>0.00</td>
+      <td>2010-11-02</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>VEN</td>
+      <td>1994</td>
+      <td>1998-11-08</td>
+      <td>-2.70</td>
+      <td>2000-07-30</td>
+      <td>17.90</td>
+    </tr>
+  </tbody>
+</table></div></details></div><div data-copy="en" lang="en"><h3>Later gains are larger, but crises differ</h3><picture><source media="(max-width:600px)" srcset="figures/horizon-mobile-en.svg"><img src="figures/horizon-en.svg" alt="Later gains are larger, but crises differ" loading="lazy" width="920"></picture><figcaption>Each thin line joins the first and second elections for one of 29 episodes. Changes use the last pre-crisis election as baseline. Black line: median. These are successive elections, not annual trajectories. Crisis onsets: 1991–2008; second elections: 1997–2018. Campaign classification: WPD.</figcaption><details><summary>Values and coverage</summary><div class="table-scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ISO</th>
+      <th>Crisis</th>
+      <th>First election</th>
+      <th>Change, pp</th>
+      <th>Second election</th>
+      <th>Change, pp</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ARG</td>
+      <td>2001</td>
+      <td>2003-04-27</td>
+      <td>36.30</td>
+      <td>2005-10-23</td>
+      <td>29.90</td>
+    </tr>
+    <tr>
+      <td>BEL</td>
+      <td>2008</td>
+      <td>2010-06-13</td>
+      <td>-4.24</td>
+      <td>2014-05-25</td>
+      <td>-12.00</td>
+    </tr>
+    <tr>
+      <td>BGR</td>
+      <td>1996</td>
+      <td>1997-04-19</td>
+      <td>5.27</td>
+      <td>2001-06-18</td>
+      <td>42.74</td>
+    </tr>
+    <tr>
+      <td>BOL</td>
+      <td>1994</td>
+      <td>1997-06-01</td>
+      <td>5.10</td>
+      <td>2002-06-30</td>
+      <td>-1.70</td>
+    </tr>
+    <tr>
+      <td>BRA</td>
+      <td>1994</td>
+      <td>1998-10-04</td>
+      <td>-1.10</td>
+      <td>2002-10-06</td>
+      <td>-14.90</td>
+    </tr>
+    <tr>
+      <td>COL</td>
+      <td>1998</td>
+      <td>2002-03-10</td>
+      <td>0.00</td>
+      <td>2006-03-12</td>
+      <td>17.50</td>
+    </tr>
+    <tr>
+      <td>DEU</td>
+      <td>2008</td>
+      <td>2009-09-27</td>
+      <td>3.20</td>
+      <td>2013-09-22</td>
+      <td>-0.10</td>
+    </tr>
+    <tr>
+      <td>DNK</td>
+      <td>2008</td>
+      <td>2011-09-15</td>
+      <td>-1.73</td>
+      <td>2015-06-18</td>
+      <td>7.20</td>
+    </tr>
+    <tr>
+      <td>ECU</td>
+      <td>1998</td>
+      <td>2002-10-20</td>
+      <td>-11.50</td>
+      <td>2006-10-15</td>
+      <td>0.13</td>
+    </tr>
+    <tr>
+      <td>ESP</td>
+      <td>2008</td>
+      <td>2011-11-20</td>
+      <td>0.00</td>
+      <td>2015-12-20</td>
+      <td>20.66</td>
+    </tr>
+    <tr>
+      <td>FIN</td>
+      <td>1991</td>
+      <td>1995-03-19</td>
+      <td>0.00</td>
+      <td>1999-03-21</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>GBR</td>
+      <td>2007</td>
+      <td>2010-05-06</td>
+      <td>0.00</td>
+      <td>2015-05-07</td>
+      <td>12.65</td>
+    </tr>
+    <tr>
+      <td>GRC</td>
+      <td>2008</td>
+      <td>2009-10-04</td>
+      <td>0.58</td>
+      <td>2012-05-06</td>
+      <td>29.31</td>
+    </tr>
+    <tr>
+      <td>IND</td>
+      <td>1993</td>
+      <td>1996-04-27</td>
+      <td>0.18</td>
+      <td>1998-02-16</td>
+      <td>5.48</td>
+    </tr>
+    <tr>
+      <td>IRL</td>
+      <td>2008</td>
+      <td>2011-02-25</td>
+      <td>3.00</td>
+      <td>2016-02-26</td>
+      <td>6.91</td>
+    </tr>
+    <tr>
+      <td>ISL</td>
+      <td>2008</td>
+      <td>2009-04-25</td>
+      <td>22.00</td>
+      <td>2013-04-27</td>
+      <td>29.53</td>
+    </tr>
+    <tr>
+      <td>ITA</td>
+      <td>2008</td>
+      <td>2013-02-24</td>
+      <td>0.61</td>
+      <td>2018-03-04</td>
+      <td>17.60</td>
+    </tr>
+    <tr>
+      <td>JPN</td>
+      <td>1997</td>
+      <td>2000-06-25</td>
+      <td>0.00</td>
+      <td>2003-11-09</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>LVA</td>
+      <td>1995</td>
+      <td>1995-09-30</td>
+      <td>30.05</td>
+      <td>1998-10-03</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>LVA</td>
+      <td>2008</td>
+      <td>2010-10-02</td>
+      <td>-8.54</td>
+      <td>2011-09-17</td>
+      <td>18.33</td>
+    </tr>
+    <tr>
+      <td>NLD</td>
+      <td>2008</td>
+      <td>2010-06-09</td>
+      <td>9.56</td>
+      <td>2012-09-12</td>
+      <td>4.19</td>
+    </tr>
+    <tr>
+      <td>NOR</td>
+      <td>1991</td>
+      <td>1993-09-13</td>
+      <td>-6.70</td>
+      <td>1997-09-16</td>
+      <td>2.30</td>
+    </tr>
+    <tr>
+      <td>PHL</td>
+      <td>1997</td>
+      <td>1998-05-11</td>
+      <td>26.68</td>
+      <td>2001-05-14</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>POL</td>
+      <td>1992</td>
+      <td>1993-09-19</td>
+      <td>0.00</td>
+      <td>1997-09-21</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>PRT</td>
+      <td>2008</td>
+      <td>2009-09-27</td>
+      <td>3.58</td>
+      <td>2011-06-05</td>
+      <td>-1.15</td>
+    </tr>
+    <tr>
+      <td>ROU</td>
+      <td>1998</td>
+      <td>2000-11-26</td>
+      <td>19.48</td>
+      <td>2004-11-28</td>
+      <td>13.00</td>
+    </tr>
+    <tr>
+      <td>TUR</td>
+      <td>2000</td>
+      <td>2002-11-03</td>
+      <td>26.13</td>
+      <td>2007-07-22</td>
+      <td>31.18</td>
+    </tr>
+    <tr>
+      <td>USA</td>
+      <td>2007</td>
+      <td>2008-11-04</td>
+      <td>0.00</td>
+      <td>2010-11-02</td>
+      <td>0.00</td>
+    </tr>
+    <tr>
+      <td>VEN</td>
+      <td>1994</td>
+      <td>1998-11-08</td>
+      <td>-2.70</td>
+      <td>2000-07-30</td>
+      <td>17.90</td>
+    </tr>
+  </tbody>
+</table></div></details></div></figure><div class="prose" lang="ru" data-copy="ru"><p>За шесть лет партии могут усилиться и без финансового краха. Мы нашли 50 последовательностей двух выборов в спокойные периоды: без банковского кризиса и годового сокращения ВВП на всём интервале. После сравнения кризисных и спокойных последовательностей внутри 21 общей страны, с одинаковым весом стран, разница средних к вторым выборам равна <strong>+5,41 п. п.</strong> Интервал неопределённости широк: <strong>от −1,19 до +12,04 п. п.</strong> После исключения кризисов 2007–2009 годов медианный кризисный прирост в оставшихся 16 эпизодах составляет лишь 1,22 пункта.</p>
+<p>Эта выборка показывает задержку и неоднородность сдвига. Она не позволяет приписать кризису всю последующую прибавку голосов. <a href="https://cepr.org/voxeu/columns/political-aftermath-financial-crises-going-extremes">Funke, Schularick и Trebesch</a> исследовали более длинную историю и отдельно сравнивали финансовые кризисы с другими спадами; их показатель крайне правых также отличается от нашей суммы левых и правых популистских кампаний.</p>
+<p>Остаётся вопрос, на который последовательность выборов ответить не может: чем различались люди, выбравшие привычную оппозицию, популистов или неучастие?</p>
+</div><div class="prose" lang="en" data-copy="en"><p>Parties can gain support over six years without a financial collapse. We identify 50 two-election sequences in calm periods, with neither a banking crisis nor an annual GDP contraction throughout the interval. Comparing crisis and calm sequences within 21 shared countries, with countries weighted equally, gives a second-election mean difference of <strong>+5.41 points</strong>. Its uncertainty interval is wide: <strong>−1.19 to +12.04 points</strong>. Excluding crises that began in 2007–2009 leaves 16 episodes with a median crisis-period gain of just 1.22 points.</p>
+<p>This sample reveals delay and heterogeneity. It cannot attribute the entire subsequent gain to the crisis. <a href="https://cepr.org/voxeu/columns/political-aftermath-financial-crises-going-extremes">Funke, Schularick and Trebesch</a> studied a much longer history and explicitly compared financial crises with other downturns. Their far-right outcome also differs from our combined left- and right-wing populist campaigns.</p>
+<p>Electoral sequences leave a question unanswered: how did people choosing established opposition parties, populists or abstention differ?</p>
+</div></section>
+<section class="section" id="choices"><div class="prose" lang="ru" data-copy="ru"><h2>Три вида недовольства требуют разных вопросов</h2>
+<p>Представим двух людей, считающих экономику плохой. Один главным вопросом выборов считает занятость, другой иммиграцию. Первый может доверять политикам и рассчитывать на смену кабинета. Второй может считать все партии корыстными и вообще не прийти на выборы. Одинаковая оценка экономики не сообщает ни приоритет, ни адрес политического недовольства.</p>
+<p>Поэтому мы разделяем три утверждения. <strong>«Экономика ухудшается»</strong> описывает оценку положения дел. <strong>«Экономика важнее других вопросов»</strong> описывает приоритет. <strong>«Политикам нельзя доверять»</strong> описывает отношение к представителям. Отдельный вопрос об отношении к действующему правительству позволяет отличить недовольство конкретным кабинетом от недоверия партиям вообще. Эти ответы могут совпадать у одного человека, но не заменяют друг друга.</p>
+<p>Так же разделены исходы: голос за партии кабинета, за популистскую партию вне кабинета, за другую партию вне кабинета и явное неучастие. Последний вариант существенен: исследование только голосовавших заранее исключило бы людей, чьё недоверие связано с отказом выбирать. Отказ назвать партию и неизвестный партийный код не считаются неучастием.</p>
+<p>Здесь нужно уточнить, кого мы называем популистами. В исторической части <a href="https://world-populism-dataset.github.io/website/data.html">WPD</a> классифицирует <strong>кампанию</strong>, в которой обычные люди противопоставляются элите, намеренно использующей власть в своих интересах. Одной критики некомпетентности, обещания повысить доходы или обвинения отдельного чиновника в коррупции недостаточно. Это классификация политической риторики, а не проверка истинности обвинений и не оценка качества программы. Складываются голоса за такие кампании, независимо от их левой или правой позиции; обычный порог охвата базы составляет 5% голосов.</p>
+<p>Для европейских опросов нужна более подробная партийная классификация, включая небольшие партии и выборы Европарламента. Мы используем <a href="https://popu-list.org/elementor-page-1041/">The PopuList 4.0</a>, экспертный список партий с датированными периодами популизма. В него входят, например, британские UKIP и Brexit Party. Основной вариант включает пограничные случаи, а отдельная проверка исключает их. Немецкая Die Linke после 2007 года относится к таким случаям; это существенно меняет состав популистского голоса. Непопулярная власть или любая новая оппозиция не становятся популистами автоматически. Два источника измеряют разные единицы, поэтому их числа не склеиваются в один ряд.</p>
+</div><div class="prose" lang="en" data-copy="en"><h2>Three kinds of discontent require different questions</h2>
+<p>Consider two people who regard the economy as poor. One considers employment the central election issue; the other prioritises immigration. The first might trust politicians and expect a change of government to help. The second might consider every party self-serving and stay home. The same economic assessment reveals neither an issue priority nor the target of political dissatisfaction.</p>
+<p>We therefore separate three statements. <strong>“The economy is deteriorating”</strong> describes an assessment of conditions. <strong>“The economy matters more than other issues”</strong> describes a priority. <strong>“Politicians cannot be trusted”</strong> describes an attitude towards representatives. A separate question about the incumbent government distinguishes dissatisfaction with that cabinet from distrust of parties generally. One person can hold all these views, but the questions are not interchangeable.</p>
+<p>We also separate four outcomes: voting for cabinet parties, populist parties outside the cabinet, other parties outside the cabinet, and explicitly reported abstention. The last matters because studying voters alone would exclude people whose distrust accompanies withdrawal. Refusing to name a party and reporting an unidentified party are not coded as abstention.</p>
+<p>Who counts as populist? In the historical analysis, <a href="https://world-populism-dataset.github.io/website/data.html">WPD</a> classifies a <strong>campaign</strong> opposing ordinary people to an elite deliberately using power for its own benefit. Criticising incompetence, promising higher incomes or accusing an individual official of corruption is insufficient. This classifies rhetoric, not the truth of accusations or the quality of policy. We sum classified campaign votes across ideological positions; the dataset’s usual coverage threshold is 5% of votes.</p>
+<p>European surveys require more detailed party coverage, including small parties and European Parliament elections. We use <a href="https://popu-list.org/elementor-page-1041/">The PopuList 4.0</a>, an expert party classification with dated populist periods. British examples include UKIP and the Brexit Party. The primary definition includes borderline cases; a mandatory alternative excludes them. Germany’s Die Linke after 2007 is one such case, substantially affecting the composition of the populist vote. An unpopular government or a new opposition party does not automatically qualify. The two sources classify different units, so their results are not combined into one series.</p>
+</div></section>
+<section class="section" id="europe"><div class="prose" lang="ru" data-copy="ru"><h2>Недоверие правительству и партиям имеет разных получателей</h2>
+<p>Общий вопрос для Европы позволяет задать <a href="https://doi.org/10.4232/1.11135">Eurobarometer 71.3</a>, проведённый после выборов Европарламента 2009 года. В нём есть одинаковые вопросы об экономике, важных проблемах, доверии правительству и партиям. Для совместного сравнения четырёх исходов остаются <strong>15 962 человека в 19 странах</strong>. Каждая страна получает одинаковый суммарный вес, чтобы результат не определялся размером её выборки.</p>
+<p>На следующем графике показаны условные разницы вероятностей. Модель сравнивает доверие и недоверие, сохраняя остальные наблюдаемые признаки человека: оценку экономики, приоритеты, другой вид доверия, страну и социальные характеристики. Например, разница +8 пунктов означает, что средняя предсказанная вероятность исхода выше на 8 пунктов. Это не число людей, которые действительно поменяли решение, и не эффект принудительного изменения доверия.</p>
+</div><div class="prose" lang="en" data-copy="en"><h2>Distrusting the government and distrusting parties have different recipients</h2>
+<p><a href="https://doi.org/10.4232/1.11135">Eurobarometer 71.3</a>, conducted after the 2009 European Parliament election, supplies common questions about the economy, important problems, trust in government and trust in parties. The joint four-outcome comparison retains <strong>15,962 people in 19 countries</strong>. Each country receives the same total weight, preventing its sample size from determining the result.</p>
+<p>The next chart shows conditional probability differences. The model compares trust with distrust while retaining each person’s other observed characteristics: economic assessment, priorities, the other trust measure, country and social characteristics. A difference of +8 points, for example, means an eight-point higher average predicted probability. It is neither a count of people who actually changed their decision nor the effect of experimentally changing trust.</p>
+</div><figure class="figure" id="figure-europe"><div data-copy="ru" lang="ru"><h3>У общего недоверия партиям выделяется неучастие</h3><picture><source media="(max-width:600px)" srcset="figures/choice-europe-mobile-ru.svg"><img src="figures/choice-europe-ru.svg" alt="У общего недоверия партиям выделяется неучастие" loading="lazy" width="920"></picture><figcaption>Eurobarometer 2009: 15 962 человека, 19 стран. Недоверие вместо доверия при сохранении остальных признаков. Линии: 95%-ные интервалы из 1 000 повторных выборок стран. Страны имеют одинаковый вес. Все установки измерены после выборов. PopuList 4.0 включает пограничные случаи; популистские партии кабинета входят в исход «партии кабинета».</figcaption><details><summary>Числа и охват</summary><div class="table-scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Сравнение</th>
+      <th>Исход</th>
+      <th>Человек</th>
+      <th>Разница, п. п.</th>
+      <th>Нижняя 95%</th>
+      <th>Верхняя 95%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Правительство</td>
+      <td>Партии кабинета</td>
+      <td>15962</td>
+      <td>-16.03</td>
+      <td>-18.58</td>
+      <td>-12.30</td>
+    </tr>
+    <tr>
+      <td>Правительство</td>
+      <td>Другие вне кабинета</td>
+      <td>15962</td>
+      <td>6.72</td>
+      <td>2.28</td>
+      <td>10.56</td>
+    </tr>
+    <tr>
+      <td>Правительство</td>
+      <td>Популисты вне кабинета</td>
+      <td>15962</td>
+      <td>5.25</td>
+      <td>3.06</td>
+      <td>7.61</td>
+    </tr>
+    <tr>
+      <td>Правительство</td>
+      <td>Неучастие</td>
+      <td>15962</td>
+      <td>4.07</td>
+      <td>1.60</td>
+      <td>6.99</td>
+    </tr>
+    <tr>
+      <td>Партии</td>
+      <td>Партии кабинета</td>
+      <td>15962</td>
+      <td>-3.33</td>
+      <td>-5.69</td>
+      <td>-0.90</td>
+    </tr>
+    <tr>
+      <td>Партии</td>
+      <td>Другие вне кабинета</td>
+      <td>15962</td>
+      <td>-4.30</td>
+      <td>-7.33</td>
+      <td>-0.13</td>
+    </tr>
+    <tr>
+      <td>Партии</td>
+      <td>Популисты вне кабинета</td>
+      <td>15962</td>
+      <td>-0.61</td>
+      <td>-3.30</td>
+      <td>1.48</td>
+    </tr>
+    <tr>
+      <td>Партии</td>
+      <td>Неучастие</td>
+      <td>15962</td>
+      <td>8.24</td>
+      <td>4.51</td>
+      <td>11.46</td>
+    </tr>
+  </tbody>
+</table></div></details></div><div data-copy="en" lang="en"><h3>Abstention stands out for general distrust of parties</h3><picture><source media="(max-width:600px)" srcset="figures/choice-europe-mobile-en.svg"><img src="figures/choice-europe-en.svg" alt="Abstention stands out for general distrust of parties" loading="lazy" width="920"></picture><figcaption>Eurobarometer 2009: 15,962 people in 19 countries. Distrust rather than trust, retaining other characteristics. Lines: 95% intervals from 1,000 country resamples. Countries have equal weight. Attitudes follow the election. PopuList 4.0 includes borderline cases; populist cabinet parties belong to the cabinet outcome.</figcaption><details><summary>Values and coverage</summary><div class="table-scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Comparison</th>
+      <th>Outcome</th>
+      <th>People</th>
+      <th>Difference, pp</th>
+      <th>Lower 95%</th>
+      <th>Upper 95%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Government</td>
+      <td>Cabinet parties</td>
+      <td>15962</td>
+      <td>-16.03</td>
+      <td>-18.58</td>
+      <td>-12.30</td>
+    </tr>
+    <tr>
+      <td>Government</td>
+      <td>Other outside cabinet</td>
+      <td>15962</td>
+      <td>6.72</td>
+      <td>2.28</td>
+      <td>10.56</td>
+    </tr>
+    <tr>
+      <td>Government</td>
+      <td>Populists outside cabinet</td>
+      <td>15962</td>
+      <td>5.25</td>
+      <td>3.06</td>
+      <td>7.61</td>
+    </tr>
+    <tr>
+      <td>Government</td>
+      <td>Abstention</td>
+      <td>15962</td>
+      <td>4.07</td>
+      <td>1.60</td>
+      <td>6.99</td>
+    </tr>
+    <tr>
+      <td>Parties</td>
+      <td>Cabinet parties</td>
+      <td>15962</td>
+      <td>-3.33</td>
+      <td>-5.69</td>
+      <td>-0.90</td>
+    </tr>
+    <tr>
+      <td>Parties</td>
+      <td>Other outside cabinet</td>
+      <td>15962</td>
+      <td>-4.30</td>
+      <td>-7.33</td>
+      <td>-0.13</td>
+    </tr>
+    <tr>
+      <td>Parties</td>
+      <td>Populists outside cabinet</td>
+      <td>15962</td>
+      <td>-0.61</td>
+      <td>-3.30</td>
+      <td>1.48</td>
+    </tr>
+    <tr>
+      <td>Parties</td>
+      <td>Abstention</td>
+      <td>15962</td>
+      <td>8.24</td>
+      <td>4.51</td>
+      <td>11.46</td>
+    </tr>
+  </tbody>
+</table></div></details></div></figure><div class="prose" lang="ru" data-copy="ru"><p>При недоверии правительству вероятность голоса за партии кабинета ниже примерно на 16 пунктов. Положительные разницы распределены между другими партиями и неучастием. У общего недоверия партиям другая картина: <strong>+8,24 п. п. для неучастия</strong>, с интервалом от +4,51 до +11,46. Для популистского голоса разница составляет −0,61 пункта, а интервал от −3,30 до +1,48 включает оба направления.</p>
+<p>В отдельном сравнении власти с остальными голосовавшими плохая оценка экономики связана с меньшей вероятностью поддержки кабинета. Но среди людей, уже выбравших партии вне кабинета, та же оценка не позволяет уверенно отличить популистский голос от другого. Экономическое недовольство сообщает больше об отношении к власти, чем о конкретном получателе освободившегося голоса.</p>
+<p>У этого результата есть очевидная альтернатива: человек мог сначала выбрать партию, а затем объяснить свой выбор плохой экономикой или недоверием. Все эти ответы получены после выборов. Чтобы проверить временной порядок, нужны ответы тех же людей до голосования.</p>
+</div><div class="prose" lang="en" data-copy="en"><p>Distrust of government is associated with roughly a 16-point lower probability of voting for cabinet parties. Positive differences are distributed between other parties and abstention. Distrust of parties generally looks different: <strong>+8.24 points for abstention</strong>, with an interval from +4.51 to +11.46. The populist-vote difference is −0.61 points, with an interval from −3.30 to +1.48 spanning both directions.</p>
+<p>In a separate comparison of cabinet parties with other voters, a poor economic assessment is associated with less government support. Among people already choosing parties outside the cabinet, however, that assessment does not clearly distinguish a populist vote from another vote. Economic discontent tells us more about attitudes towards incumbents than about the particular recipient of the available vote.</p>
+<p>An obvious alternative remains: people might first choose a party and then explain their choice through poor economic conditions or distrust. All these answers were collected after the election. Testing temporal order requires answers from the same people before they vote.</p>
+</div></section>
+<section class="section" id="before"><div class="prose" lang="ru" data-copy="ru"><h2>Что меняется, когда недоверие измерено до выборов</h2>
+<p><a href="https://doi.org/10.48420/25460980.v1">British Election Study</a> позволяет связать предвыборные установки с последующим сообщённым голосом в 2015, 2017 и 2019 годах. Мы учитываем уже названное намерение голосовать, партийную привязанность и другие исходные характеристики. Вопрос становится строже: сообщает ли недоверие что-то о будущем выборе сверх того, что человек уже говорил о своих предпочтениях?</p>
+<p>В первой проверке связь с популистским голосом заметно уменьшается после учёта этих предпочтений. При доверии депутатам 3 вместо 5 на семибалльной шкале разница для популистского голоса составляет +0,74, +0,31 и +0,24 пункта соответственно. Без исходного намерения и партийной привязанности она равна +5,22, +1,25 и +1,08. Это показывает, сколько связи уже присутствует в прежних предпочтениях. Оно не доказывает, что намерение является причинным посредником недоверия.</p>
+<p>Затем мы используем <strong>повторные ответы</strong>: сравниваем поздние установки при одинаковых ранних оценках экономики, правительства, приоритета и доверия. На графике сохраняются ранние партийные предпочтения. Так мы приближаемся к вопросу об изменении установок, хотя по-прежнему не наблюдаем случайно назначенного изменения доверия.</p>
+</div><div class="prose" lang="en" data-copy="en"><h2>What changes when distrust is measured before voting</h2>
+<p>The <a href="https://doi.org/10.48420/25460980.v1">British Election Study</a> links pre-election attitudes to subsequently reported votes in 2015, 2017 and 2019. We account for stated voting intention, party identification and other initial characteristics. This asks a stricter question: does distrust tell us anything about subsequent choice beyond what people already said about their preferences?</p>
+<p>In the first test, the populist-vote association becomes substantially smaller after accounting for those preferences. Trust in MPs at 3 rather than 5 on a seven-point scale corresponds to differences of +0.74, +0.31 and +0.24 points respectively. Without prior intention and party identification, the differences are +5.22, +1.25 and +1.08. This shows how much association is already present in earlier preferences. It does not establish intention as a causal mediator of distrust.</p>
+<p>We then use <strong>repeated answers</strong>, comparing later attitudes conditional on the same earlier assessments of the economy, government, priority and trust. The chart retains early party preferences. This moves closer to a question about changing attitudes, although it still does not observe randomly assigned changes in trust.</p>
+</div><figure class="figure" id="figure-before"><div data-copy="ru" lang="ru"><h3>Повторные ответы сохраняют связь с неучастием</h3><picture><source media="(max-width:600px)" srcset="figures/choice-before-mobile-ru.svg"><img src="figures/choice-before-ru.svg" alt="Повторные ответы сохраняют связь с неучастием" loading="lazy" width="920"></picture><figcaption>BES: позднее доверие депутатам 3 вместо 5 на шкале 1–7 при одинаковых ранних установках и намерении. Остальные поздние установки также учтены. Показаны два из четырёх совместных исходов. Линии: 95%-ные интервалы, 1 000 повторных выборок людей. UKIP и Brexit Party классифицированы по PopuList. Это условные разницы, не наблюдённые переходы избирателей.</figcaption><details><summary>Числа и охват</summary><div class="table-scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Сравнение</th>
+      <th>Исход</th>
+      <th>Человек</th>
+      <th>Разница, п. п.</th>
+      <th>Нижняя 95%</th>
+      <th>Верхняя 95%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2015</td>
+      <td>Популисты вне кабинета</td>
+      <td>15613</td>
+      <td>2.05</td>
+      <td>1.11</td>
+      <td>2.97</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Неучастие</td>
+      <td>15613</td>
+      <td>1.20</td>
+      <td>0.42</td>
+      <td>1.90</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Популисты вне кабинета</td>
+      <td>8758</td>
+      <td>0.64</td>
+      <td>0.27</td>
+      <td>0.94</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Неучастие</td>
+      <td>8758</td>
+      <td>1.98</td>
+      <td>0.99</td>
+      <td>2.75</td>
+    </tr>
+    <tr>
+      <td>2019</td>
+      <td>Популисты вне кабинета</td>
+      <td>3111</td>
+      <td>0.65</td>
+      <td>0.05</td>
+      <td>1.12</td>
+    </tr>
+    <tr>
+      <td>2019</td>
+      <td>Неучастие</td>
+      <td>3111</td>
+      <td>2.30</td>
+      <td>0.79</td>
+      <td>3.61</td>
+    </tr>
+  </tbody>
+</table></div></details></div><div data-copy="en" lang="en"><h3>Repeated answers retain an association with abstention</h3><picture><source media="(max-width:600px)" srcset="figures/choice-before-mobile-en.svg"><img src="figures/choice-before-en.svg" alt="Repeated answers retain an association with abstention" loading="lazy" width="920"></picture><figcaption>BES: later trust in MPs at 3 rather than 5 on a 1–7 scale, conditional on early attitudes and intention. Other later attitudes are also included. Two of four jointly modelled outcomes are shown. Lines: 95% intervals, 1,000 participant resamples. PopuList classifies UKIP and the Brexit Party. These are conditional differences, not observed voter transitions.</figcaption><details><summary>Values and coverage</summary><div class="table-scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Comparison</th>
+      <th>Outcome</th>
+      <th>People</th>
+      <th>Difference, pp</th>
+      <th>Lower 95%</th>
+      <th>Upper 95%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2015</td>
+      <td>Populists outside cabinet</td>
+      <td>15613</td>
+      <td>2.05</td>
+      <td>1.11</td>
+      <td>2.97</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>Abstention</td>
+      <td>15613</td>
+      <td>1.20</td>
+      <td>0.42</td>
+      <td>1.90</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Populists outside cabinet</td>
+      <td>8758</td>
+      <td>0.64</td>
+      <td>0.27</td>
+      <td>0.94</td>
+    </tr>
+    <tr>
+      <td>2017</td>
+      <td>Abstention</td>
+      <td>8758</td>
+      <td>1.98</td>
+      <td>0.99</td>
+      <td>2.75</td>
+    </tr>
+    <tr>
+      <td>2019</td>
+      <td>Populists outside cabinet</td>
+      <td>3111</td>
+      <td>0.65</td>
+      <td>0.05</td>
+      <td>1.12</td>
+    </tr>
+    <tr>
+      <td>2019</td>
+      <td>Abstention</td>
+      <td>3111</td>
+      <td>2.30</td>
+      <td>0.79</td>
+      <td>3.61</td>
+    </tr>
+  </tbody>
+</table></div></details></div></figure><div class="prose" lang="ru" data-copy="ru"><p>Во всех трёх повторных сравнениях меньшее доверие связано с большей вероятностью неучастия. Положительная связь с популистским голосом тоже сохраняется, но её размер неодинаков: около двух пунктов в 2015 году и около 0,6 в двух следующих случаях. В 2015-м популистская разница больше, чем разница неучастия. Поэтому и британский результат нельзя свести к правилу, что недоверяющие люди всегда уходят с выборов.</p>
+<p>У повторений есть свои пределы. Для выборов 2017 года ранние ответы относятся к 2015-му, поздние к концу 2016-го; интервал пересекает референдум о ЕС и смену состава кабинета. В 2019 году ранний вопрос о доверии задан только части панели, и её случайный отбор не подтверждён. В совместных моделях остаются 15 613, 8 758 и 3 111 человек. Британская панель начинается в 2014 году и не показывает, что произошло с доверием этих людей из-за кризиса 2008-го.</p>
+<p>Большая выборка также не гарантирует полезного прогноза. В повторных сравнениях отдельная добавка недоверия улучшает вероятностный прогноз четырёх исходов менее чем на заранее выбранный 1% во всех трёх годах. При переносе исходной модели между выборами меняется даже знак пользы полного блока установок для некоторых задач. Связь, различимая внутри одного опроса, ещё не становится правилом, которое переносится на следующие выборы.</p>
+</div><div class="prose" lang="en" data-copy="en"><p>In all three repeated comparisons, lower trust is associated with a higher probability of abstention. A positive populist-vote association also remains, but its size varies: roughly two points in 2015 and 0.6 in the next two cases. In 2015, the populist difference exceeds the abstention difference. The British results therefore do not support a rule that distrusting people always withdraw from elections.</p>
+<p>The repetitions have limitations. For the 2017 election, early answers come from 2015 and later answers from late 2016; the interval crosses the EU referendum and a change in cabinet composition. In 2019, the early trust question reaches only part of the panel, whose random selection is unverified. Joint models retain 15,613, 8,758 and 3,111 people. The panel begins in 2014 and cannot show how the 2008 crisis changed these individuals’ trust.</p>
+<p>A large sample also does not guarantee useful prediction. In the repeated comparisons, adding distrust separately improves four-outcome probabilistic prediction by less than the specified 1% threshold in all three years. When the original model transfers between elections, even the direction of the full attitude block’s contribution changes for some tasks. An association detectable within one survey is not automatically a rule that transfers to the next election.</p>
+</div></section>
+<section class="section" id="priorities"><div class="prose" lang="ru" data-copy="ru"><h2>Стала ли экономика важнее при прежних взглядах</h2>
+<p>Недоверие не исчерпывает возможных изменений. Человек может сохранить свои взгляды, но начать выбирать партию по другому вопросу. Например, он по-прежнему поддерживает социальные расходы, однако теперь при голосовании больше думает об иммиграции. Именно различие между позицией и важностью темы лежит в основе объяснения, которое обсуждают <a href="https://cepr.org/voxeu/columns/decomposing-rise-populist-radical-right-how-changes-priorities-explain-electoral">Gidron и Kikuchi</a>.</p>
+<p>Обычный вопрос о главной проблеме страны не позволяет отделить это изменение от изменения взглядов. Немецкая панель GLES перед выборами 2013 года задаёт оба вопроса отдельно для налогов и социальных расходов, иммиграции и климата. Мы сравниваем ответы июля и августа, учитываем раннюю важность, раннюю и позднюю позицию, а также исходное намерение голосовать. В совместной проверке трёх тем остаются <strong>2 962 человека</strong>.</p>
+<p>Повышение поздней важности каждой темы на один пункт пятибалльной шкалы связано примерно с одним процентным пунктом популистского голоса, но все три интервала включают ноль. Добавление поздней важности после поздних позиций <strong>не улучшает предсказание на отложенных людях</strong>: вероятностная ошибка в совместной модели увеличивается примерно на 0,55%. Значения отдельных вариантов, которые выглядят убедительнее, не заменяют этот совместный результат.</p>
+<p>Эта проверка не обнаруживает надёжной дополнительной информации от краткосрочного изменения важности. Она не опровергает долгосрочное объяснение смены приоритетов: несколько недель одной немецкой кампании отличаются от межстранового исследования за 2005–2020 годы. Кроме того, абсолютные оценки важности не задают фиксированного бюджета внимания. В нашей совместной выборке около 14% участников повысили важность как минимум двух тем сразу. Из роста интереса к экономике нельзя автоматически вывести падение интереса к климату.</p>
+<p>Получается, что отношения между экономикой, приоритетами и выбором зависят от того, что именно измеряет вопрос и когда он задан. Следующая проверка меняет ещё одно условие: переносит сравнение на национальные выборы других стран.</p>
+</div><div class="prose" lang="en" data-copy="en"><h2>Did economic issues become more important without views changing?</h2>
+<p>Distrust is not the only possible change. People can retain their views while starting to choose parties on a different issue. Someone might still support social spending but increasingly consider immigration when voting. This distinction between position and importance underlies the explanation discussed by <a href="https://cepr.org/voxeu/columns/decomposing-rise-populist-radical-right-how-changes-priorities-explain-electoral">Gidron and Kikuchi</a>.</p>
+<p>A standard question about the country’s main problem cannot separate this change from changing views. Germany’s GLES panel before the 2013 election asks both questions separately for taxation and social spending, immigration, and climate. We compare July and August answers, accounting for early importance, early and late positions, and initial voting intention. The joint three-topic test retains <strong>2,962 people</strong>.</p>
+<p>A one-point increase in later importance on the five-point scale is associated with roughly one percentage point of populist voting for each topic, but all three intervals include zero. Adding late importance after late positions <strong>does not improve prediction for held-out people</strong>: probabilistic error in the joint model increases by about 0.55%. Individual specifications that look more convincing do not replace this joint result.</p>
+<p>This test finds no reliable additional information from short-term importance changes. It does not refute a longer-term priorities explanation: a few weeks of one German campaign differ from cross-country research covering 2005–2020. Absolute importance ratings also do not impose a fixed attention budget. About 14% of participants in our joint sample increased the importance of at least two topics simultaneously. Greater concern about the economy does not automatically imply less concern about climate.</p>
+<p>The relationships between the economy, priorities and choice thus depend on what a question measures and when it is asked. The next test changes another condition: it examines national elections in additional countries.</p>
+</div></section>
+<section class="section" id="countries"><div class="prose" lang="ru" data-copy="ru"><h2>Одинаковое недоверие не означает одинакового выбора</h2>
+<p>Дополнительные национальные данные охватывают Испанию 2015 года, Нидерланды 2010 и 2012 годов, Португалию 2005 и 2009-го, Исландию 2013-го, Бельгию 2014-го и Данию 2007-го. Вместе с британскими и немецкими выборами это 13 случаев в восьми странах. Мы не объединяем их в одну регрессию: вопросы различаются, часть ответов получена после выборов, а два случая предшествуют кризисной волне 2008 года. Здесь проверяется повторяемость связей, а не величина общего кризисного эффекта.</p>
+</div><div class="prose" lang="en" data-copy="en"><h2>Distrust does not imply the same choice everywhere</h2>
+<p>Additional national data cover Spain in 2015, the Netherlands in 2010 and 2012, Portugal in 2005 and 2009, Iceland in 2013, Belgium in 2014, and Denmark in 2007. Including British and German elections gives 13 cases in eight countries. We do not pool them into one regression: questions differ, some answers follow elections, and two cases precede the 2008 crisis wave. These tests examine whether associations recur, not the size of a common crisis effect.</p>
+</div><figure class="figure" id="figure-countries"><div data-copy="ru" lang="ru"><h3>Получатели недоверия различаются между опросами</h3><picture><source media="(max-width:600px)" srcset="figures/choice-countries-mobile-ru.svg"><img src="figures/choice-countries-ru.svg" alt="Получатели недоверия различаются между опросами" loading="lazy" width="920"></picture><figcaption>Совместные модели исходов, PopuList 4.0 с пограничными случаями. Недоверие 0,75 вместо 0,25 на приведённой шкале 0–1; вопросы между странами различаются. Линии: 95%-ные интервалы из 1 000 повторных выборок людей, без полного восстановления дизайна обследований. Отсутствующая популистская точка в Португалии означает отсутствие категории в модели, а не нулевую оценку. Испанские смешанные списки в основном варианте не классифицированы. Бельгия, Исландия и Португалия 2009: без весов; остальные используют проверенные веса.</figcaption><details><summary>Числа и охват</summary><div class="table-scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Сравнение</th>
+      <th>Исход</th>
+      <th>Человек</th>
+      <th>Разница, п. п.</th>
+      <th>Нижняя 95%</th>
+      <th>Верхняя 95%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ES2015</td>
+      <td>Популисты вне кабинета</td>
+      <td>4500</td>
+      <td>-1.47</td>
+      <td>-3.27</td>
+      <td>0.22</td>
+    </tr>
+    <tr>
+      <td>ES2015</td>
+      <td>Неучастие</td>
+      <td>4500</td>
+      <td>7.07</td>
+      <td>5.48</td>
+      <td>8.58</td>
+    </tr>
+    <tr>
+      <td>NL2010</td>
+      <td>Популисты вне кабинета</td>
+      <td>1959</td>
+      <td>2.91</td>
+      <td>-0.93</td>
+      <td>6.78</td>
+    </tr>
+    <tr>
+      <td>NL2010</td>
+      <td>Неучастие</td>
+      <td>1959</td>
+      <td>4.07</td>
+      <td>1.72</td>
+      <td>6.55</td>
+    </tr>
+    <tr>
+      <td>NL2012</td>
+      <td>Популисты вне кабинета</td>
+      <td>1383</td>
+      <td>6.50</td>
+      <td>2.13</td>
+      <td>10.75</td>
+    </tr>
+    <tr>
+      <td>NL2012</td>
+      <td>Неучастие</td>
+      <td>1383</td>
+      <td>10.21</td>
+      <td>6.65</td>
+      <td>13.72</td>
+    </tr>
+    <tr>
+      <td>PT2005</td>
+      <td>Неучастие</td>
+      <td>1683</td>
+      <td>3.25</td>
+      <td>-1.11</td>
+      <td>7.15</td>
+    </tr>
+    <tr>
+      <td>PT2009</td>
+      <td>Неучастие</td>
+      <td>608</td>
+      <td>6.62</td>
+      <td>1.87</td>
+      <td>10.72</td>
+    </tr>
+    <tr>
+      <td>IS2013</td>
+      <td>Популисты вне кабинета</td>
+      <td>1007</td>
+      <td>-3.80</td>
+      <td>-9.51</td>
+      <td>1.30</td>
+    </tr>
+    <tr>
+      <td>IS2013</td>
+      <td>Неучастие</td>
+      <td>1007</td>
+      <td>5.11</td>
+      <td>2.14</td>
+      <td>8.15</td>
+    </tr>
+    <tr>
+      <td>BE2014</td>
+      <td>Популисты вне кабинета</td>
+      <td>1370</td>
+      <td>3.09</td>
+      <td>0.33</td>
+      <td>6.04</td>
+    </tr>
+    <tr>
+      <td>BE2014</td>
+      <td>Неучастие</td>
+      <td>1370</td>
+      <td>1.27</td>
+      <td>-0.41</td>
+      <td>2.74</td>
+    </tr>
+    <tr>
+      <td>DK2007</td>
+      <td>Популисты вне кабинета</td>
+      <td>3193</td>
+      <td>4.84</td>
+      <td>0.90</td>
+      <td>8.71</td>
+    </tr>
+    <tr>
+      <td>DK2007</td>
+      <td>Неучастие</td>
+      <td>3193</td>
+      <td>0.99</td>
+      <td>-0.81</td>
+      <td>3.12</td>
+    </tr>
+  </tbody>
+</table></div></details></div><div data-copy="en" lang="en"><h3>Recipients of distrust differ across surveys</h3><picture><source media="(max-width:600px)" srcset="figures/choice-countries-mobile-en.svg"><img src="figures/choice-countries-en.svg" alt="Recipients of distrust differ across surveys" loading="lazy" width="920"></picture><figcaption>Joint outcome models, PopuList 4.0 including borderline cases. Distrust at 0.75 rather than 0.25 on a rescaled 0–1 scale; questions differ across countries. Lines: 95% intervals from 1,000 participant resamples, not a reconstruction of the full survey design. Missing Portuguese populist points mean an absent model category, not a zero estimate. Spanish mixed lists are unclassified in the primary analysis. Belgium, Iceland and Portugal 2009 are unweighted; other surveys use verified weights.</figcaption><details><summary>Values and coverage</summary><div class="table-scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Comparison</th>
+      <th>Outcome</th>
+      <th>People</th>
+      <th>Difference, pp</th>
+      <th>Lower 95%</th>
+      <th>Upper 95%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ES2015</td>
+      <td>Populists outside cabinet</td>
+      <td>4500</td>
+      <td>-1.47</td>
+      <td>-3.27</td>
+      <td>0.22</td>
+    </tr>
+    <tr>
+      <td>ES2015</td>
+      <td>Abstention</td>
+      <td>4500</td>
+      <td>7.07</td>
+      <td>5.48</td>
+      <td>8.58</td>
+    </tr>
+    <tr>
+      <td>NL2010</td>
+      <td>Populists outside cabinet</td>
+      <td>1959</td>
+      <td>2.91</td>
+      <td>-0.93</td>
+      <td>6.78</td>
+    </tr>
+    <tr>
+      <td>NL2010</td>
+      <td>Abstention</td>
+      <td>1959</td>
+      <td>4.07</td>
+      <td>1.72</td>
+      <td>6.55</td>
+    </tr>
+    <tr>
+      <td>NL2012</td>
+      <td>Populists outside cabinet</td>
+      <td>1383</td>
+      <td>6.50</td>
+      <td>2.13</td>
+      <td>10.75</td>
+    </tr>
+    <tr>
+      <td>NL2012</td>
+      <td>Abstention</td>
+      <td>1383</td>
+      <td>10.21</td>
+      <td>6.65</td>
+      <td>13.72</td>
+    </tr>
+    <tr>
+      <td>PT2005</td>
+      <td>Abstention</td>
+      <td>1683</td>
+      <td>3.25</td>
+      <td>-1.11</td>
+      <td>7.15</td>
+    </tr>
+    <tr>
+      <td>PT2009</td>
+      <td>Abstention</td>
+      <td>608</td>
+      <td>6.62</td>
+      <td>1.87</td>
+      <td>10.72</td>
+    </tr>
+    <tr>
+      <td>IS2013</td>
+      <td>Populists outside cabinet</td>
+      <td>1007</td>
+      <td>-3.80</td>
+      <td>-9.51</td>
+      <td>1.30</td>
+    </tr>
+    <tr>
+      <td>IS2013</td>
+      <td>Abstention</td>
+      <td>1007</td>
+      <td>5.11</td>
+      <td>2.14</td>
+      <td>8.15</td>
+    </tr>
+    <tr>
+      <td>BE2014</td>
+      <td>Populists outside cabinet</td>
+      <td>1370</td>
+      <td>3.09</td>
+      <td>0.33</td>
+      <td>6.04</td>
+    </tr>
+    <tr>
+      <td>BE2014</td>
+      <td>Abstention</td>
+      <td>1370</td>
+      <td>1.27</td>
+      <td>-0.41</td>
+      <td>2.74</td>
+    </tr>
+    <tr>
+      <td>DK2007</td>
+      <td>Populists outside cabinet</td>
+      <td>3193</td>
+      <td>4.84</td>
+      <td>0.90</td>
+      <td>8.71</td>
+    </tr>
+    <tr>
+      <td>DK2007</td>
+      <td>Abstention</td>
+      <td>3193</td>
+      <td>0.99</td>
+      <td>-0.81</td>
+      <td>3.12</td>
+    </tr>
+  </tbody>
+</table></div></details></div></figure><div class="prose" lang="ru" data-copy="ru"><p>В испанском опросе недоверие партиям связано прежде всего с неучастием. Положительной условной связи с голосом за Podemos модель не показывает. В Нидерландах 2012 года оно связано сразу с двумя исходами: <strong>+6,50 пункта для популистского голоса и +10,21 для неучастия</strong>. Эти различия сохраняют важный вопрос о получателе недовольства, который исчез бы в едином показателе «протестного поведения».</p>
+<p>Размеры между странами нельзя читать как рейтинг силы одного эффекта. В Испании и Нидерландах спрашивают о партиях, в Дании и Бельгии о политиках, а в Португалии об их отзывчивости к таким людям, как респондент. Бельгийская выборка охватывает Фландрию и Валлонию, без Брюсселя. Для трёх опросов подходящий вес не подтверждён, поэтому основной расчёт невзвешенный. Эти ограничения остаются рядом с межстрановым сравнением.</p>
+<p>Даже название «оппозиция» иногда вводит в заблуждение. Датская народная партия <a href="https://data.ipu.org/election-summary/HTML/2087_07.htm">поддерживала правительство извне</a>. В опросе 2007 года неодобрение кабинета связано с меньшей вероятностью голоса за неё. Популистская риторика не обязывает партию быть против действующего кабинета. Её избиратели могут доверять правительству и одновременно считать политический класс в целом чуждым себе.</p>
+<p>Граница популизма тоже меняет ответ. Исключение пограничных партий уменьшает бельгийскую разницу недоверия для популистского голоса с +3,09 до +0,70 пункта. В Исландии исчезает сама популистская категория: наблюдаемый результат относился к Прогрессивной партии, пограничному случаю PopuList. Поэтому её сильную связь с экономическим приоритетом нельзя объявить общей закономерностью для популистов.</p>
+<p>Национальные сравнения возвращают нас к политическому предложению. Экономический вопрос может быть важен, но ещё нужно знать, какая партия предлагает приемлемое решение и как она связана с действующей властью.</p>
+</div><div class="prose" lang="en" data-copy="en"><p>In the Spanish survey, distrust of parties is primarily associated with abstention. The model does not show a positive conditional association with voting for Podemos. In the Netherlands in 2012, distrust is associated with two outcomes: <strong>+6.50 points for populist voting and +10.21 for abstention</strong>. A combined measure of “protest behaviour” would conceal this distinction between recipients of discontent.</p>
+<p>Magnitudes across countries are not a ranking of the strength of one effect. Spain and the Netherlands ask about parties, Denmark and Belgium about politicians, and Portugal about their responsiveness to people like the respondent. The Belgian sample covers Flanders and Wallonia, excluding Brussels. Suitable weights could not be verified for three surveys, so their primary estimates are unweighted. These limitations remain alongside the international comparison.</p>
+<p>Even “opposition” can be misleading. The Danish People’s Party <a href="https://data.ipu.org/election-summary/HTML/2087_07.htm">supported the government externally</a>. In the 2007 survey, cabinet disapproval is associated with a lower probability of voting for it. Populist rhetoric does not oblige a party to oppose the incumbent cabinet. Its voters can approve of the government while distrusting the political class generally.</p>
+<p>The boundary of populism also changes the answer. Excluding borderline parties reduces Belgium’s distrust difference for populist voting from +3.09 to +0.70 points. In Iceland, the populist category disappears altogether: the observed result concerned the Progressive Party, a PopuList borderline case. Its strong association with economic priority therefore cannot be declared a general pattern for populists.</p>
+<p>These national comparisons bring us back to political supply. An economic issue may matter, but we still need to know which party offers an acceptable remedy and how that party relates to the incumbent government.</p>
+</div></section>
+<section class="section" id="offers"><div class="prose" lang="ru" data-copy="ru"><h2>Важна не только тема, но и обещанное решение</h2>
+<p>Чтобы проверить, возникла ли после кризисов единая экономическая повестка, мы сохранили анализ партийных программ. Достаточное покрытие, не менее 75% голосов на каждом конце сравнения, есть для <strong>16 кризисных эпизодов в 15 странах</strong>. Доля закодированных экономических тем выросла в восьми эпизодах и снизилась в восьми. Увеличение экономического содержания программ не является универсальным спутником последующего популистского роста.</p>
+<p>Мы сравниваем последние докризисные и первые последующие программы: это проверка начальной реакции партий. Общий сдвиг имеет несколько источников. Прежние партии могут переписать тексты; избиратели могут дать больше голосов партиям с иной повесткой; в данных могут появиться или исчезнуть документы. Мы разделяем эти компоненты. В 10 из 16 кризисных эпизодов крупнейший по абсолютной величине компонент связан с изменениями программ продолжающих участвовать партий. Но то же наблюдается в 51 из 75 спокойных эпизодов, поэтому этот результат не выделяет особого кризисного механизма.</p>
+</div><div class="prose" lang="en" data-copy="en"><h2>The proposed remedy matters alongside the issue</h2>
+<p>To test whether crises produced a common economic agenda, we retain our analysis of party programmes. Sufficient coverage, at least 75% of votes at both endpoints, exists for <strong>16 crisis episodes in 15 countries</strong>. The share of coded economic topics rose in eight and fell in eight. Increasing economic content is not a universal companion of subsequent populist gains.</p>
+<p>We compare the last pre-crisis with the first subsequent programmes, testing parties’ initial response. Aggregate changes have several sources. Established parties can revise texts; voters can give more weight to parties with a different agenda; documents can enter or leave the observed record. We separate these components. In 10 of 16 crisis episodes, the largest absolute component comes from programme changes within continuing parties. The same holds in 51 of 75 calm episodes, so it does not identify a distinctive crisis mechanism.</p>
+</div><figure class="figure" id="figure-programmes"><div data-copy="ru" lang="ru"><h3>Общая доля экономических тем меняется несколькими способами</h3><picture><source media="(max-width:600px)" srcset="figures/decomposition-economy-mobile-ru.svg"><img src="figures/decomposition-economy-ru.svg" alt="Общая доля экономических тем меняется несколькими способами" loading="lazy" width="920"></picture><figcaption>16 кризисных эпизодов, программы представляют не менее 75% голосов на обоих концах. Показан переход от последних докризисных к первым послекризисным выборам, в отличие от двух горизонтов первого графика. Точка: общий сдвиг доли закодированных экономических высказываний. Состав записей включает как появление партий, так и пропуски документов и изменения идентификаторов. Это доли текста, не приоритеты граждан.</figcaption><details><summary>Числа и охват</summary><div class="table-scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ISO</th>
+      <th>Кризис</th>
+      <th>Всего, п. п.</th>
+      <th>Программы</th>
+      <th>Голоса</th>
+      <th>Состав</th>
+      <th>Охват до, %</th>
+      <th>Охват после, %</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BEL</td>
+      <td>2008</td>
+      <td>2.76</td>
+      <td>2.11</td>
+      <td>-0.35</td>
+      <td>1.00</td>
+      <td>95.14</td>
+      <td>93.87</td>
+    </tr>
+    <tr>
+      <td>DEU</td>
+      <td>2008</td>
+      <td>-0.99</td>
+      <td>-0.82</td>
+      <td>-1.06</td>
+      <td>0.89</td>
+      <td>96.07</td>
+      <td>93.99</td>
+    </tr>
+    <tr>
+      <td>DNK</td>
+      <td>2008</td>
+      <td>5.31</td>
+      <td>4.93</td>
+      <td>0.38</td>
+      <td>0.00</td>
+      <td>99.12</td>
+      <td>99.15</td>
+    </tr>
+    <tr>
+      <td>ESP</td>
+      <td>2008</td>
+      <td>7.29</td>
+      <td>7.77</td>
+      <td>-1.85</td>
+      <td>1.36</td>
+      <td>95.87</td>
+      <td>96.68</td>
+    </tr>
+    <tr>
+      <td>FIN</td>
+      <td>1991</td>
+      <td>-0.56</td>
+      <td>-0.49</td>
+      <td>-0.07</td>
+      <td>-0.00</td>
+      <td>96.88</td>
+      <td>94.93</td>
+    </tr>
+    <tr>
+      <td>GBR</td>
+      <td>2007</td>
+      <td>6.26</td>
+      <td>6.34</td>
+      <td>-0.08</td>
+      <td>0.00</td>
+      <td>89.59</td>
+      <td>88.12</td>
+    </tr>
+    <tr>
+      <td>GRC</td>
+      <td>2008</td>
+      <td>-0.59</td>
+      <td>0.11</td>
+      <td>-0.15</td>
+      <td>-0.55</td>
+      <td>96.93</td>
+      <td>89.54</td>
+    </tr>
+    <tr>
+      <td>IRL</td>
+      <td>2008</td>
+      <td>15.20</td>
+      <td>17.44</td>
+      <td>-2.88</td>
+      <td>0.63</td>
+      <td>93.37</td>
+      <td>87.44</td>
+    </tr>
+    <tr>
+      <td>ISL</td>
+      <td>2008</td>
+      <td>10.70</td>
+      <td>12.71</td>
+      <td>-1.02</td>
+      <td>-0.98</td>
+      <td>96.73</td>
+      <td>97.19</td>
+    </tr>
+    <tr>
+      <td>ITA</td>
+      <td>2008</td>
+      <td>-4.69</td>
+      <td>-4.10</td>
+      <td>-9.97</td>
+      <td>9.38</td>
+      <td>88.51</td>
+      <td>92.89</td>
+    </tr>
+    <tr>
+      <td>JPN</td>
+      <td>1997</td>
+      <td>-1.33</td>
+      <td>3.45</td>
+      <td>-0.94</td>
+      <td>-3.83</td>
+      <td>91.03</td>
+      <td>98.47</td>
+    </tr>
+    <tr>
+      <td>LVA</td>
+      <td>1995</td>
+      <td>-17.07</td>
+      <td>-11.32</td>
+      <td>-3.30</td>
+      <td>-2.46</td>
+      <td>89.46</td>
+      <td>87.97</td>
+    </tr>
+    <tr>
+      <td>LVA</td>
+      <td>2008</td>
+      <td>-1.56</td>
+      <td>0.42</td>
+      <td>2.93</td>
+      <td>-4.91</td>
+      <td>88.61</td>
+      <td>94.28</td>
+    </tr>
+    <tr>
+      <td>NLD</td>
+      <td>2008</td>
+      <td>6.41</td>
+      <td>6.77</td>
+      <td>-0.36</td>
+      <td>0.00</td>
+      <td>98.77</td>
+      <td>98.90</td>
+    </tr>
+    <tr>
+      <td>PRT</td>
+      <td>2008</td>
+      <td>-2.72</td>
+      <td>-2.16</td>
+      <td>-0.55</td>
+      <td>0.00</td>
+      <td>97.64</td>
+      <td>96.48</td>
+    </tr>
+    <tr>
+      <td>ROU</td>
+      <td>1998</td>
+      <td>1.13</td>
+      <td>4.79</td>
+      <td>9.46</td>
+      <td>-13.11</td>
+      <td>80.33</td>
+      <td>76.82</td>
+    </tr>
+  </tbody>
+</table></div></details></div><div data-copy="en" lang="en"><h3>Several processes change the aggregate economic-topic share</h3><picture><source media="(max-width:600px)" srcset="figures/decomposition-economy-mobile-en.svg"><img src="figures/decomposition-economy-en.svg" alt="Several processes change the aggregate economic-topic share" loading="lazy" width="920"></picture><figcaption>Sixteen crisis episodes, with programmes covering at least 75% of votes at both endpoints. This compares the last pre-crisis with the first post-crisis election, unlike the first chart’s two horizons. Diamond: net change in the coded economic-statement share. Record composition includes party entry, missing documents and identifier changes. These are text shares, not citizens’ priorities.</figcaption><details><summary>Values and coverage</summary><div class="table-scroll"><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ISO</th>
+      <th>Crisis</th>
+      <th>Total, pp</th>
+      <th>Programmes</th>
+      <th>Votes</th>
+      <th>Roster</th>
+      <th>Coverage before, %</th>
+      <th>Coverage after, %</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BEL</td>
+      <td>2008</td>
+      <td>2.76</td>
+      <td>2.11</td>
+      <td>-0.35</td>
+      <td>1.00</td>
+      <td>95.14</td>
+      <td>93.87</td>
+    </tr>
+    <tr>
+      <td>DEU</td>
+      <td>2008</td>
+      <td>-0.99</td>
+      <td>-0.82</td>
+      <td>-1.06</td>
+      <td>0.89</td>
+      <td>96.07</td>
+      <td>93.99</td>
+    </tr>
+    <tr>
+      <td>DNK</td>
+      <td>2008</td>
+      <td>5.31</td>
+      <td>4.93</td>
+      <td>0.38</td>
+      <td>0.00</td>
+      <td>99.12</td>
+      <td>99.15</td>
+    </tr>
+    <tr>
+      <td>ESP</td>
+      <td>2008</td>
+      <td>7.29</td>
+      <td>7.77</td>
+      <td>-1.85</td>
+      <td>1.36</td>
+      <td>95.87</td>
+      <td>96.68</td>
+    </tr>
+    <tr>
+      <td>FIN</td>
+      <td>1991</td>
+      <td>-0.56</td>
+      <td>-0.49</td>
+      <td>-0.07</td>
+      <td>-0.00</td>
+      <td>96.88</td>
+      <td>94.93</td>
+    </tr>
+    <tr>
+      <td>GBR</td>
+      <td>2007</td>
+      <td>6.26</td>
+      <td>6.34</td>
+      <td>-0.08</td>
+      <td>0.00</td>
+      <td>89.59</td>
+      <td>88.12</td>
+    </tr>
+    <tr>
+      <td>GRC</td>
+      <td>2008</td>
+      <td>-0.59</td>
+      <td>0.11</td>
+      <td>-0.15</td>
+      <td>-0.55</td>
+      <td>96.93</td>
+      <td>89.54</td>
+    </tr>
+    <tr>
+      <td>IRL</td>
+      <td>2008</td>
+      <td>15.20</td>
+      <td>17.44</td>
+      <td>-2.88</td>
+      <td>0.63</td>
+      <td>93.37</td>
+      <td>87.44</td>
+    </tr>
+    <tr>
+      <td>ISL</td>
+      <td>2008</td>
+      <td>10.70</td>
+      <td>12.71</td>
+      <td>-1.02</td>
+      <td>-0.98</td>
+      <td>96.73</td>
+      <td>97.19</td>
+    </tr>
+    <tr>
+      <td>ITA</td>
+      <td>2008</td>
+      <td>-4.69</td>
+      <td>-4.10</td>
+      <td>-9.97</td>
+      <td>9.38</td>
+      <td>88.51</td>
+      <td>92.89</td>
+    </tr>
+    <tr>
+      <td>JPN</td>
+      <td>1997</td>
+      <td>-1.33</td>
+      <td>3.45</td>
+      <td>-0.94</td>
+      <td>-3.83</td>
+      <td>91.03</td>
+      <td>98.47</td>
+    </tr>
+    <tr>
+      <td>LVA</td>
+      <td>1995</td>
+      <td>-17.07</td>
+      <td>-11.32</td>
+      <td>-3.30</td>
+      <td>-2.46</td>
+      <td>89.46</td>
+      <td>87.97</td>
+    </tr>
+    <tr>
+      <td>LVA</td>
+      <td>2008</td>
+      <td>-1.56</td>
+      <td>0.42</td>
+      <td>2.93</td>
+      <td>-4.91</td>
+      <td>88.61</td>
+      <td>94.28</td>
+    </tr>
+    <tr>
+      <td>NLD</td>
+      <td>2008</td>
+      <td>6.41</td>
+      <td>6.77</td>
+      <td>-0.36</td>
+      <td>0.00</td>
+      <td>98.77</td>
+      <td>98.90</td>
+    </tr>
+    <tr>
+      <td>PRT</td>
+      <td>2008</td>
+      <td>-2.72</td>
+      <td>-2.16</td>
+      <td>-0.55</td>
+      <td>0.00</td>
+      <td>97.64</td>
+      <td>96.48</td>
+    </tr>
+    <tr>
+      <td>ROU</td>
+      <td>1998</td>
+      <td>1.13</td>
+      <td>4.79</td>
+      <td>9.46</td>
+      <td>-13.11</td>
+      <td>80.33</td>
+      <td>76.82</td>
+    </tr>
+  </tbody>
+</table></div></details></div></figure><div class="prose" lang="ru" data-copy="ru"><p>Сама доля экономических высказываний не сообщает, кому обещают помочь. Заёмщик с валютной ипотекой может добиваться уменьшения долга, вкладчик опасаться потерь банка, работник требовать защиты занятости. Все три требования относятся к экономике, но предполагают разные распределения потерь. Кодирование темы не восстанавливает эту разницу.</p>
+<p>В Венгрии крупным получателем голосов стала крайне правая Jobbik. <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jofi.13138">Gyöngyösi и Verner</a> связывают с валютным долгом около <strong>2,8 процентного пункта прироста голосов крайне правых в Венгрии</strong>, примерно пятую часть прироста 2006–2010 годов. Падение форинта увеличило платежи заёмщиков, получающих доход в форинтах. Авторы сравнивают почтовые округа с разной докризисной долей валютных кредитов, проверяя прежние электоральные тенденции и другие местные изменения. Jobbik предлагала облегчение долга. Эта оценка опирается на неодинаковую подверженность долговому шоку; наши общие опросные связи такого сравнения не воспроизводят.</p>
+<p>Этот пример показывает, какого звена не хватает для объяснения конкретной победы: измеренных потерь определённых людей и предложения, которое адресует именно их положение. Рост общего недоверия или числа экономических слов сам по себе это звено не устанавливает.</p>
+</div><div class="prose" lang="en" data-copy="en"><p>The economic-statement share does not reveal who is promised help. A foreign-currency mortgage borrower might demand debt reduction, a depositor fear bank losses, and a worker seek employment protection. All three demands concern the economy but imply different distributions of losses. Topic classification cannot recover that distinction.</p>
+<p>Hungary’s far-right Jobbik became a major recipient of votes. <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/jofi.13138">Gyöngyösi and Verner</a> attribute about <strong>2.8 percentage points of Hungary’s far-right vote gain</strong> to foreign-currency debt, roughly one fifth of the 2006–2010 increase. Forint depreciation raised repayment costs for borrowers earning forints. The authors compare postal districts with different pre-crisis foreign-currency loan shares, checking earlier voting trends and other local changes. Jobbik offered debt relief. Their estimate relies on unequal exposure to a debt shock; our general survey associations do not reproduce that comparison.</p>
+<p>This identifies a missing link in explaining a particular victory: measured losses experienced by identifiable groups and an offer addressing their circumstances. More distrust or more economic words does not establish that link by itself.</p>
+</div></section>
+<section class="section" id="answer"><div class="prose" lang="ru" data-copy="ru"><h2>Что удалось различить</h2>
+<p>Наиболее повторяющееся наблюдение касается отношения к действующему кабинету. Плохие экономические оценки и неодобрение правительства связаны с меньшей поддержкой его партий. Это согласуется с объяснением через наказание власти. Но голос за привычного конкурента, голос за популистов и неучастие остаются разными исходами, даже когда все три сопровождаются недовольством.</p>
+<p>Общее недоверие помогает различить эти исходы в некоторых странах и годах. Оно связано не только с популистским голосом, но и с неучастием; часть связи уже присутствует в прежних партийных предпочтениях. Краткая немецкая панель не даёт надёжной дополнительной поддержки объяснению через смену важности тем, а программы не показывают единого роста экономической доли. Из этого нельзя вывести, что приоритеты или риторика не имеют значения. Данные ограничивают более сильное утверждение, что они одинаково переводят экономическое недовольство в популистские голоса по всей Европе.</p>
+<p>Поэтому объяснение конкретной победы требует назвать получателя недовольства и показать, почему его предложение подошло определённой группе. Наше исследование разделяет эти вопросы и проверяет, какие связи сохраняются при смене времени измерения, страны и партийной классификации. Единую историю о том, как кризис автоматически меняет повестку и приводит к власти противников элит, эти проверки не поддерживают.</p>
+</div><div class="prose" lang="en" data-copy="en"><h2>What the evidence distinguishes</h2>
+<p>The most recurring observation concerns the incumbent cabinet. Poor economic assessments and government disapproval are associated with less support for its parties. This is consistent with incumbent punishment. Yet an established competitor’s vote, a populist vote and abstention remain different outcomes, even when all accompany dissatisfaction.</p>
+<p>General distrust helps distinguish these outcomes in some countries and years. It is associated with abstention as well as populist voting; part of its association is already present in earlier party preferences. The short German panel does not provide reliable additional support for an importance-shift explanation, and programmes show no uniform increase in economic content. This does not establish that priorities or rhetoric are irrelevant. It limits the stronger claim that they uniformly convert economic discontent into populist votes across Europe.</p>
+<p>Explaining a particular victory therefore requires naming the recipient of discontent and showing why its offer suited a particular group. Our study separates these questions and tests which associations survive changes in measurement timing, country and party classification. The tests do not support a single story in which a crisis automatically changes the agenda and brings opponents of the elite to power.</p>
+</div></section><section class="section" id="methods"><details class="methods-details"><summary><span data-copy="ru">Методы, дополнительные проверки и данные</span><span data-copy="en">Methods, additional checks and data</span></summary><div class="prose" lang="ru" data-copy="ru"><h3>Как проверены выводы</h3>
+<p>Основные сравнения заданы до соответствующих расчётов. Это продолжение разведочного проекта, а не полностью пререгистрированное исследование. Ранее просмотренные результаты и последующие уточнения отмечены в <a href="https://github.com/kezouke/political-attention-research/blob/main/planning/analysis-protocol-v1.md">протоколе</a>. Проверены альтернативные партийные классификации, коалиции, формулировки приоритетов, веса, исходные предпочтения, наблюдаемый отбор в панели и перенос прогнозов. Коррупционные скандалы, бюджетные сокращения и индивидуальная доступность кандидатов не устранены единым сопоставимым контролем. Большое число людей не заменяет число независимых стран.</p>
+<p>Логистические модели используют слабую регуляризацию; нелинейный ориентир проверен отдельно для европейского среза и британской панели. Улучшение прогноза оценивается на людях или выборах, не использованных для обучения соответствующей модели. Log loss штрафует уверенные ошибочные вероятности. Критерий полезной добавки: снижение этой ошибки не менее чем на 1% при положительной нижней границе интервала. Для послевыборных опросов это проверка обобщения внутри данных, не прогноз заранее. Интервалы проверки качества используют повторные выборки фиксированных ошибок без нового обучения моделей; опросные интервалы не включают всю неопределённость дизайна и измерений.</p>
+<p>Дополнительное связанное сравнение Германии 2009/2013 содержит 360 человек после всех ограничений. В этой отобранной группе экономические оценки улучшились и экономический приоритет снизился, но недоверие не снизилось аналогично. Малые группы и отбор не позволяют считать это общеевропейской причинной проверкой. Полные результаты: <a href="https://github.com/kezouke/political-attention-research/blob/main/EUROPEAN_RESULTS_V2.md">общий срез</a>, <a href="https://github.com/kezouke/political-attention-research/blob/main/FIRST_BES_RESULTS.md">Великобритания</a>, <a href="https://github.com/kezouke/political-attention-research/blob/main/FIRST_GLES_RESULTS.md">Германия</a>, <a href="https://github.com/kezouke/political-attention-research/blob/main/NATIONAL_RESULTS.md">другие национальные опросы</a>.</p>
+<h3>Что дали программы и машинное обучение</h3>
+<p>Смена инструкций кодирования затрагивает восемь из 16 программных эпизодов; требование одинаковых инструкций и полного покрытия оставляет только четыре. Это ограничивает точность сравнения тем. Сохранён и отрицательный прогнозный результат: добавление тем программ не улучшило среднюю абсолютную ошибку на 89 парах выборов в 27 странах, 4,17 против 4,15 п. п. у базовой модели.</p>
+<p>В отдельном испанском тесте многоязычный E5-small с линейным классификатором дал macro-F1 0,588 против 0,482 у TF–IDF на 3 636 фрагментах отложенной программы. Один документ не проверяет перенос между странами и не валидирует распознавание обвинений элит. Поиск в Hugging Face и публичных архивах не дал подходящего независимого многоязычного эталона таких обвинений. Поэтому новая автоматическая мера не подставлена в основные выводы. <a href="https://github.com/kezouke/political-attention-research/blob/main/DATA_AUDIT_2026.md">Аудит данных</a> сохраняет найденные источники и причины исключений.</p>
+<h3>Источники и воспроизводимость</h3>
+<p>Eurobarometer 71.3: <a href="https://doi.org/10.4232/1.11135">ZA4973 v3.0.0</a>. GLES: <a href="https://doi.org/10.4232/1.12198">2009</a>, <a href="https://doi.org/10.4232/1.12561">2013</a>, <a href="https://doi.org/10.4232/1.12536">связанный выпуск</a>. BES: <a href="https://doi.org/10.48420/25460980.v1">teaching v1</a>. Национальные источники, версии и коды вопросов перечислены в методах. Кампании WPD и партии PopuList имеют разные единицы и пороги охвата; отсутствие партии в списке не автоматически означает отрицательную метку.</p>
+<p>Графики и страницу можно восстановить из открытых агрегатов. Микроданные и свободные ответы не публикуются; для повтора анализа нужно самостоятельно получить исходные файлы по условиям поставщиков. ИИ использовался при подготовке кода и текста; независимой экспертной рецензии не было. <a href="https://github.com/kezouke/political-attention-research/blob/main/CHOICE_METHODS.md">Методы и порядок воспроизведения</a> · <a href="https://github.com/kezouke/political-attention-research/blob/main/CHOICE_AUDIT.md">Проверка утверждений и переходов</a> · <a href="https://github.com/kezouke/political-attention-research/tree/main/data/processed/three_explanations">Таблицы результатов</a>.</p>
+</div><div class="prose" lang="en" data-copy="en"><h3>How the conclusions were checked</h3>
+<p>Main comparisons were specified before their respective model runs. This continues an exploratory project; it is not fully preregistered. Previously viewed results and subsequent decisions are recorded in the <a href="https://github.com/kezouke/political-attention-research/blob/main/planning/analysis-protocol-v1.md">protocol</a>. Checks cover party definitions, coalitions, priority wording, weights, initial preferences, observed panel selection and prediction transfer. Corruption scandals, fiscal cuts and individual candidate availability have not been eliminated by a common comparable control. Many people do not substitute for independent countries.</p>
+<p>Logistic models use weak regularisation; a nonlinear benchmark is evaluated separately for the European cross-section and British panel. Predictive improvement is assessed on people or elections not used to train the corresponding model. Log loss penalises confidently wrong probabilities. Useful improvement requires at least a 1% reduction and a positive interval lower bound. Post-election surveys test generalisation within the data, not advance forecasting. Validation intervals resample fixed held-out losses without refitting; survey intervals do not include all design and measurement uncertainty.</p>
+<p>An additional linked German 2009/2013 comparison retains 360 people. In this selected group, economic assessments improved and economic priority declined, without a corresponding decline in distrust. Small groups and selection prevent interpreting this as a European causal test. Full results: <a href="https://github.com/kezouke/political-attention-research/blob/main/EUROPEAN_RESULTS_V2.md">common survey</a>, <a href="https://github.com/kezouke/political-attention-research/blob/main/FIRST_BES_RESULTS.md">Britain</a>, <a href="https://github.com/kezouke/political-attention-research/blob/main/FIRST_GLES_RESULTS.md">Germany</a>, <a href="https://github.com/kezouke/political-attention-research/blob/main/NATIONAL_RESULTS.md">additional national surveys</a>.</p>
+<h3>What programmes and machine learning contributed</h3>
+<p>Coding-instruction changes affect eight of the 16 programme episodes; requiring identical instructions and sufficient coverage leaves only four. This limits topic comparisons. We also retain a negative prediction result: programme topics did not improve mean absolute error across 89 election pairs in 27 countries, at 4.17 versus the baseline’s 4.15 vote-share points.</p>
+<p>In a separate Spanish benchmark, multilingual E5-small with a linear classifier achieved macro-F1 of 0.588 versus TF–IDF’s 0.482 on 3,636 statements from a held-out programme. One document does not validate cross-country transfer or elite-blame classification. Searches of Hugging Face and public archives did not produce a suitable independent multilingual elite-blame benchmark. No new automated measure was therefore inserted into the main findings. The <a href="https://github.com/kezouke/political-attention-research/blob/main/DATA_AUDIT_2026.md">data audit</a> preserves candidate sources and exclusions.</p>
+<h3>Sources and reproducibility</h3>
+<p>Eurobarometer 71.3: <a href="https://doi.org/10.4232/1.11135">ZA4973 v3.0.0</a>. GLES: <a href="https://doi.org/10.4232/1.12198">2009</a>, <a href="https://doi.org/10.4232/1.12561">2013</a>, <a href="https://doi.org/10.4232/1.12536">linked release</a>. BES: <a href="https://doi.org/10.48420/25460980.v1">teaching v1</a>. Methods list national sources, versions and question codes. WPD campaigns and PopuList parties have different units and coverage thresholds; an unlisted party does not automatically receive a negative label.</p>
+<p>Figures and the page rebuild from public aggregates. Microdata and free-text answers are not redistributed; reproducing the analysis requires obtaining source files under their providers’ terms. AI assisted with code and text; there has been no independent peer review. <a href="https://github.com/kezouke/political-attention-research/blob/main/CHOICE_METHODS.md">Methods and reproduction</a> · <a href="https://github.com/kezouke/political-attention-research/blob/main/CHOICE_AUDIT.md">Claim and transition audit</a> · <a href="https://github.com/kezouke/political-attention-research/tree/main/data/processed/three_explanations">Result tables</a>.</p>
+</div></details></section></main>
+<footer class="footer"><div class="footer-inner"><p><a href="https://github.com/kezouke/political-attention-research"><span data-copy="ru">Репозиторий исследования</span><span data-copy="en">Research repository</span></a> · <a href="https://www.linkedin.com/in/elisei-smirnov-ds/">Elisei Smirnov</a></p></div></footer></body></html>

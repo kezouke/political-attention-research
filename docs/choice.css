@@ -1,0 +1,11 @@
+@import url('research.css');
+.figure img {display:block;width:100%;height:auto}
+.figure details {margin-top:1rem;font-size:.85rem}
+.figure details summary {cursor:pointer;color:var(--teal)}
+.table-scroll table {border-collapse:collapse;font-size:.8rem;width:100%}
+.table-scroll th,.table-scroll td {padding:.45rem .65rem;border-bottom:1px solid var(--line);text-align:right}
+.table-scroll th:first-child,.table-scroll td:first-child {text-align:left}
+.methods-details summary {cursor:pointer;font-weight:650}
+.methods-details .prose {max-width:760px}
+.methods-details h3 {font-family:var(--serif);font-size:1.45rem}
+@media(max-width:600px){.section{padding:0 18px}.figure{padding:10px}.figure h3{font-size:1.3rem}.hero{padding-inline:18px}.masthead{padding-inline:18px}.brand{letter-spacing:.06em;font-size:.66rem}.figure figcaption{font-size:.8rem}}

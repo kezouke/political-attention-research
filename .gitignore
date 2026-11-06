@@ -19,3 +19,6 @@ analysis/baseline/data/*
 
 # Private browser screenshots and temporary research work.
 /tmp/
+
+# Rebuildable figure previews and local browser QA screenshots.
+/output/research_figures/choice/

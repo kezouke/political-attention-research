@@ -1,0 +1,38 @@
+[
+  {
+    "width_px": 390,
+    "language": "ru",
+    "figures": 5,
+    "loaded_images": 5,
+    "horizontal_overflow": false,
+    "javascript_errors": [],
+    "failed_requests": []
+  },
+  {
+    "width_px": 390,
+    "language": "en",
+    "figures": 5,
+    "loaded_images": 5,
+    "horizontal_overflow": false,
+    "javascript_errors": [],
+    "failed_requests": []
+  },
+  {
+    "width_px": 1280,
+    "language": "ru",
+    "figures": 5,
+    "loaded_images": 5,
+    "horizontal_overflow": false,
+    "javascript_errors": [],
+    "failed_requests": []
+  },
+  {
+    "width_px": 1280,
+    "language": "en",
+    "figures": 5,
+    "loaded_images": 5,
+    "horizontal_overflow": false,
+    "javascript_errors": [],
+    "failed_requests": []
+  }
+]

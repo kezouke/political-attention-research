@@ -1,26 +1,61 @@
 # Political Attention Research
 
-[After a crisis: new programmes or new winners?](https://kezouke.github.io/political-attention-research/?lang=en) · [После кризиса: новые программы или новые победители?](https://kezouke.github.io/political-attention-research/?lang=ru)
+[After a crisis, who receives discontent?](https://kezouke.github.io/political-attention-research/?lang=en) · [После кризиса: кому достаётся недовольство?](https://kezouke.github.io/political-attention-research/?lang=ru)
 
-A bilingual research essay follows 29 banking crises through two parliamentary elections and decomposes programme-agenda changes in the 16 episodes with sufficient manifesto coverage. It separates revisions within continuing parties, vote reweighting and changes in the observed record roster. Calm periods, preceding intervals, coding changes and coverage rules test alternative interpretations. A historical prediction check and a local multilingual BERT benchmark constrain what the text measures can establish.
+One bilingual research essay distinguishes incumbent punishment, issue priorities
+and general political distrust. It preserves 29 historical banking-crisis episodes
+and programme decompositions, adds a common European survey, and tests timing,
+repeated attitudes and transfer using British and German panels. National
+comparisons cover eight countries without pretending their questions form one
+balanced panel.
 
-The calculations are descriptive and do not identify a causal effect of programme changes. The current essay uses one connected question rather than combining unrelated country vignettes. See [methods](RESEARCH_METHODS.md), [protocol and exploratory additions](RESEARCH_PROTOCOL.md), and [claim and editorial audit](RESEARCH_AUDIT_2026.md).
+Government disapproval, populist voting and abstention have different conditional
+relationships with distrust. Prior party preferences and the definition of populism
+matter. The study retains weak predictive additions and negative importance/topic
+results. It does not identify a common causal chain from the 2008 crisis to populism.
 
-The previous first-election study is preserved at commit `7f380831a4b4c66a75ec6b29e80fea3cbab2a1a9`, with its original outputs unchanged and a local page at `docs/crisis-baseline.html`. The earlier priorities research remains in the repository. Neither archive is a required continuation of the current post.
+[Methods and reproduction](CHOICE_METHODS.md) · [Claim and editorial audit](CHOICE_AUDIT.md) ·
+[Data audit, including Hugging Face](DATA_AUDIT_2026.md) ·
+[Agreed six-page research plan](output/pdf/political-economy-research-six-pager-ru.pdf)
+
+Detailed results: [Eurobarometer v2](EUROPEAN_RESULTS_V2.md),
+[BES](FIRST_BES_RESULTS.md), [GLES](FIRST_GLES_RESULTS.md),
+[national comparisons](NATIONAL_RESULTS.md). The common four-outcome European
+sample includes 15,962 people in 19 countries. The 13 national cases span eight
+countries; they serve different measurement and timing tests, not one pooled effect.
 
 ## Build the current essay
 
-The page and static publication figures can be rebuilt without restricted raw data:
+Python 3.12 is recommended. The article and checks below use committed aggregate
+results, without licensed respondent records:
 
 ```sh
-python -m pip install -r requirements.txt
-python analysis/29_research_figures.py
-python analysis/30_build_research_page.py
-python -m unittest discover -s tests
+python -m pip install -r requirements-dev.txt
+python analysis/83_national_results_report.py
+python analysis/84_choice_publication_figures.py
+python analysis/85_build_choice_essay.py
+python analysis/86_choice_publication_checks.py
+python -m pytest -q
+node tests/choice.test.js
 node tests/site.test.js
 ```
 
-For the full source-based analysis, generate the local election calendar with script 21, then run scripts 23, 24, 26, 27 and 28. Script 25 is the optional NLP experiment and requires `requirements-research.lock`, the CAP raw text and a download of the pinned E5-small model. Script 31 verifies newly listed crisis onsets in the 2026 IMF update. Exact ordering, inputs and limitations are in [RESEARCH_METHODS.md](RESEARCH_METHODS.md). All raw texts, respondent records, model weights and embeddings remain local.
+The full source-based estimation sequence, exact survey versions, measurement
+contracts, uncertainty and data-access restrictions are in [CHOICE_METHODS.md](CHOICE_METHODS.md).
+Raw respondent rows, identifiers, free text, credentials, model weights and
+embeddings are excluded from the repository. Code and prose were developed with
+AI assistance; the work has not undergone independent expert peer review.
+
+## Preserved results
+
+The original first-election study remains at commit
+`7f380831a4b4c66a75ec6b29e80fea3cbab2a1a9` and `docs/crisis-baseline.html`.
+The programme extension is preserved in `docs/programme-baseline.html`, scripts
+23–30 and its aggregate tables. Its [methods](RESEARCH_METHODS.md) and
+[original audit](RESEARCH_AUDIT_2026.md) remain available. Script 30 builds that
+historical article and overwrites the main page if run; use script 85 for the
+current essay. Earlier priority research remains in the repository and is not a
+required continuation of the current post.
 
 ## Repository map
 
@@ -32,7 +67,9 @@ For the full source-based analysis, generate the local election calendar with sc
 | `data/raw/README.md` | Versions, sources, checksums and instructions for obtaining raw inputs. Raw inputs are deliberately excluded. |
 | `analysis/baseline/` | Earlier research scripts, quantitative models, model validation, figures, output tables and the previous Russian article. |
 | `tests/` | Data-contract and result checks. |
-| `RESEARCH.md` | Research questions, evidence map, findings and open limitations. |
+| `CHOICE_METHODS.md` / `CHOICE_AUDIT.md` | Current methods, numerical claims, limitations and transition review. |
+| `article/` | Current Russian and English prose, compiled into one page. |
+| `RESEARCH.md` | Preserved earlier questions, evidence map and findings. |
 | `research_audit.md` | Claim-to-evidence audit, independent computational checks and sensitivity bounds. |
 | `RESEARCH_CHANGELOG.md` | New findings, changed conclusions and unresolved gaps. |
 | `CAUSAL_DESIGN.md` | Rival mechanisms, required data and tests that could falsify the proposed causal chain. |

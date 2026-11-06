@@ -1,0 +1,33 @@
+{
+  "numeric_claims_passed": 37,
+  "figures": 5,
+  "parallel_article_sections": 9,
+  "local_assets_present": true,
+  "internal_links_resolve": true,
+  "raw_microdata_read": false,
+  "meaning_and_transition_review": "CHOICE_AUDIT.md; separate editorial review, not established by these assertions",
+  "sha256": {
+    "analysis/84_choice_publication_figures.py": "9ebe326492bf027b60041e480a1e3491b5e6d812857dff1cbc1b26235e5640f1",
+    "analysis/85_build_choice_essay.py": "4d683ee9f6992a4f3dbe8a53cfe5bdf21010b1e0daf43372c0515efe600e5e2d",
+    "analysis/86_choice_publication_checks.py": "033237c32a5adbebaa22309a5e01166dda02ca8e3b4ee9ed34d53733d3e0625c",
+    "article/essay.en.md": "db16b8b20b265c84c963cd2631a924a2b788f095ebc3cfbdae971b6a5f4a2fe4",
+    "article/essay.ru.md": "5dbc4b811d0fd55076c8b54aa917509d2efc5391ae7f19717c052838fe7cef0a",
+    "data/processed/crisis_dynamics_benchmarks.csv": "5aff7405101185ee5a7c36af209856d412d73f39b7db66b985f5a7b32188d310",
+    "data/processed/crisis_dynamics_summary.csv": "1e333cde1e899293e594e72e4c046457853a3519c265832e14c4c118faf37f4d",
+    "data/processed/nlp_metrics.csv": "63e3c08a4380d92feab70b533e243c7b28e4115a01a451c88c6ded1f0b30d073",
+    "data/processed/programme_decomposition.csv": "9a1c832c913a52eb7826a4837045561ac3aa4a95200d0fecfab6bf52c2f72d80",
+    "data/processed/programme_prediction_elections.csv": "717cc8feb5c5357342acc19fe197d2c2a64e5b2177e661e004912119cd71fdda",
+    "data/processed/three_explanations/bes_change_incremental_validation.csv": "94b9dda66f47aff8fd1e08d7c04088dfc06854c3d95bb02d3e98b5baf503c4b1",
+    "data/processed/three_explanations/bes_change_model_margins.csv": "3d2bad34ca63388a108cdbc221479f7b5d7d5b3dc954b72089fe185eb9c28be8",
+    "data/processed/three_explanations/bes_model_margins.csv": "1a13221bb93ada07e380a0bcc0379b4c203e4ef43946bb9a3f577f27fcd9fa84",
+    "data/processed/three_explanations/bes_model_sensitivity.csv": "ee07a8848e1494cc905a82883d2ba8ed445cbc8bd80bf1423d8c27fb21f73dda",
+    "data/processed/three_explanations/eb_v2/eb_model_margins.csv": "5d48f0a81a75fa7dc95b767c266ea17d5bbdd6841de3ac7676a117b917dcd2c6",
+    "data/processed/three_explanations/gles_importance_incremental_validation.csv": "bfc0d8328a664b0c768f18889e78c3559c0d86b64b898dad497c63cd0ae8c965",
+    "data/processed/three_explanations/gles_importance_model_margins.csv": "faa93be50008cd4240b83d3e5f5e8f0725e8c49263e140dd885f792b3d2881eb",
+    "data/processed/three_explanations/gles_importance_simultaneous.csv": "9aaaf9754aae24190aeeae4d1deed6fffe9946e3918cd5badb7c7064213a3ffc",
+    "data/processed/three_explanations/national_model_margins.csv": "fa276cf7f1d9ac5aa8e45519ac85c715e850da9a437c13172c6a0baf24d19ce7",
+    "data/processed/three_explanations/national_sensitivity.csv": "d8113d6ab86f8364727ec2555b5ab5fa1b8e47ea1230358a4100c9605e93ca75",
+    "data/processed/three_explanations/national_sensitivity_status.csv": "6c0c3f2308fd4606517185abd0c7cd04246f166d15084e4d250b4f4aeb8f3cb7",
+    "docs/index.html": "f8ee330a526390335e29cf8adc575f9e30bf6547f6416cd4a2d2428e853a4aa5"
+  }
+}
