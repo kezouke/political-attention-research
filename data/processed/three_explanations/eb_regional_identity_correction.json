@@ -1,0 +1,14 @@
+{
+  "all_adult_Greens_responses": 29,
+  "core_complete_Greens_responses": 28,
+  "core_complete_Scottish_Greens_responses": 1,
+  "core_complete_unresolved_region_Greens_responses": 0,
+  "correction": "Generic Greens response only mapped to the eligible England/Wales party when region establishes England or Wales",
+  "reason": "Scottish Greens is a distinct party; absence from PopuList does not establish a negative label without verified scope",
+  "region_variables": {
+    "v743": "P7 region I, Scotland code 16; England/Wales 6..15",
+    "v772": "P7 region II, Scotland code 1, cross-checked"
+  },
+  "respondent_rows_exported": false,
+  "revised_model_fitted_by_this_script": false
+}
