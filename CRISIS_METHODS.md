@@ -8,7 +8,7 @@ The outcome is the change, in percentage points, in the sum of the valid-vote sh
 
 The study keeps lower-house or unicameral parliamentary elections separate from first-round direct elections for the national executive. For parallel ballots with both list and constituency values in WPD, it uses the list figure. The WPD percentage is retained where the provider supplies an aggregate for an alliance. PPEG shares used to track the governing party may weight multiple tiers. Seat shares, votes, and the ability to form a government answer different questions.
 
-The classification is supplied by WPD, not newly coded for this essay. Its authors describe the use of qualitative secondary texts and a small group of lead coders in their [2023 dataset presentation](https://auspsa.org.au/storage/2023/11/APSA23_Abstracts20221115.pdf). The [Greek case notes](https://world-populism-dataset.github.io/website/countries/greece.html) document the SYRIZA and Independent Greeks examples used in the essay.
+The classification is supplied by WPD, not newly coded for this essay. Its authors describe the use of qualitative secondary texts and a small group of lead coders in their [2023 dataset presentation](https://auspsa.org.au/storage/2023/11/APSA23_Abstracts20221115.pdf). The essay illustrates the definition with a hypothetical banking-crisis example, not a quotation or a new coding decision. For documented classifications across the political spectrum, see WPD’s [Greek case notes](https://world-populism-dataset.github.io/website/countries/greece.html).
 
 ## Election calendar and crisis dates
 
