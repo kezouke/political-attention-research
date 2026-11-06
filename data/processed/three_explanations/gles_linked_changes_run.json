@@ -1,0 +1,26 @@
+{
+  "start_utc": "2026-11-06T20:09:56.209872+00:00",
+  "end_utc": "2026-11-06T20:09:57.886471+00:00",
+  "hashes": {
+    "analysis/74_gles_designed_long_link.py": "48ad9260e36bbe795b3c13cbf604ba3449828d04107a9f24a74f861872462af6",
+    "planning/gles-long-link-specification.md": "cab9b6dd77f569f8db8a36239b62823b8ff6c8207b3ad0fa7ef7f09614d161c1",
+    "data/processed/three_explanations/gles_input_contract.json": "12d83be33e8a99a47cc15d9604d886e7344287e45e6fb130b103e12a4555da6b",
+    "data/raw/audit_20261106/ZA5757_v1-1-0.dta": "da2dcb71f932186f670bcd3896a5b4116f68c281293b76c6fdf5f8d15c7597dc",
+    "analysis/49_gles_priority_position_audit.py": "8e65f3b10459e3e1e4b3194169cfe4aafb10d87d4757d678415476dead669a5d"
+  },
+  "clean_linked_n": 972,
+  "both_core_n": 467,
+  "both_core_and_outcomes_n": 360,
+  "initial_complete_2009_n": 1955,
+  "paired_estimates": 13,
+  "weight": "2009 initial wave gew_q1_w1, not a corrected longitudinal weight",
+  "vote_model_fitted": false,
+  "climate_position_change_computed": false,
+  "microdata_exported": false,
+  "limitations": [
+    "Selected survivors",
+    "Both years follow crisis onset",
+    "Government coalition changes",
+    "Seven/eleven endpoint rescaling is a sensitivity assumption"
+  ]
+}

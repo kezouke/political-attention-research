@@ -1,0 +1,14 @@
+{
+  "input_hashes_match": true,
+  "selection_models": 8,
+  "weighted_vote_models": 36,
+  "selection_margin_rows": 516,
+  "reference_reproduces_primary": true,
+  "reference_numerical_tolerance_probability": 1e-05,
+  "probability_checks_passed": true,
+  "paired_linked_estimates": 13,
+  "linked_sample_n": 360,
+  "paired_bootstrap_draws": 2000,
+  "raw_records_read": false,
+  "selection_correction_removes_unobserved_bias": false
+}

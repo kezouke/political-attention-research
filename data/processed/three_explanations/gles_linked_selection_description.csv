@@ -1,0 +1,15 @@
+sample,variable,n,weighted_mean
+initial_complete_2009,economy_bad,1955,0.7788218345415034
+initial_complete_2009,government_distrust,1955,0.5507278361611249
+initial_complete_2009,economic_priority,1955,0.6617553523217093
+initial_complete_2009,politicians_dishonest,1955,0.6016583783022633
+initial_complete_2009,parties_only_votes,1955,0.6646790628716165
+initial_complete_2009,age_scaled,1955,-0.03999960795448462
+initial_complete_2009,left_right,1955,0.005302327306165657
+retained_complete_both_years,economy_bad,360,0.7706522576157181
+retained_complete_both_years,government_distrust,360,0.5144318246438122
+retained_complete_both_years,economic_priority,360,0.6398351461178237
+retained_complete_both_years,politicians_dishonest,360,0.5800267004829261
+retained_complete_both_years,parties_only_votes,360,0.6483010893929334
+retained_complete_both_years,age_scaled,360,-0.03692820746268628
+retained_complete_both_years,left_right,360,-0.03943549227766042

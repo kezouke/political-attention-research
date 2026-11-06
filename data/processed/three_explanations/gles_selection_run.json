@@ -1,0 +1,18 @@
+{
+  "start_utc": "2026-11-06T20:08:25.965303+00:00",
+  "end_utc": "2026-11-06T20:08:29.783920+00:00",
+  "hashes": {
+    "analysis/73_gles_observed_selection.py": "b81a2ff7b2018ab8bc9b4768ea8fd3cf7241449b961218e7ac180ecf6ec6b6be",
+    "planning/gles-selection-specification.md": "f3c4344d9cf69cbd81d3e64ef3cd9d5bcbac365ce99f209021b704b426a639f4",
+    "data/processed/three_explanations/gles_input_contract.json": "12d83be33e8a99a47cc15d9604d886e7344287e45e6fb130b103e12a4555da6b",
+    "data/processed/three_explanations/gles_importance_input_contract.json": "2e35aa97b5cb59c4ce08dd9fd7cfe27af687834ff3f0dc92e7d4fa0be5767d65",
+    "analysis/67_gles_pre_election_models.py": "6c3da04db59fd425918e1de77b2d8b3d761c66245f4d284760058885c4b4e19b",
+    "analysis/71_gles_importance_change_models.py": "2afb54faf9a31b3b525ee3c738080d975abe98fd6cec1331613a88d5f9fc4264"
+  },
+  "selection_models": 8,
+  "weighted_vote_fits": 36,
+  "marginal_rows": 516,
+  "microdata_exported": false,
+  "new_marginal_intervals": false,
+  "limitation": "Correction for observed covariates only, conditional on complete pre-election core"
+}
