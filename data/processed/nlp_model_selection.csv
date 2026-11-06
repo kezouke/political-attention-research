@@ -1,0 +1,7 @@
+model,C,validation_macro_f1
+tfidf,0.1,0.11486827
+tfidf,1,0.42994849
+tfidf,10,0.51283047
+e5_bert,1,0.53742249
+e5_bert,10,0.62463613
+e5_bert,100,0.58525567

@@ -1,6 +1,6 @@
 # Research map
 
-The current essay asks when a crisis strengthens populists. [Crisis and electoral gains](CRISIS_METHODS.md) maps the new evidence and explains how to reproduce it. The sections below document the previous study of public priorities and the material retained in its [archived essay](docs/priorities.html).
+The current essay separates programme revisions and electoral reweighting after banking crises. [Current methods](RESEARCH_METHODS.md), [protocol](RESEARCH_PROTOCOL.md) and [claim audit](RESEARCH_AUDIT_2026.md) document the new work. The initial [first-election comparison](CRISIS_METHODS.md) and all its results are preserved. The sections below document the earlier study of public priorities and material retained in the archive.
 
 ## Explanatory question and hypotheses
 

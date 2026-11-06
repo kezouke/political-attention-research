@@ -63,7 +63,7 @@ class CrisisEssayTests(unittest.TestCase):
                             and r['year'] == 2015 and r['post_vote_pct'] == 46.03 for r in data['pairs']))
         for row in data['pairs']:
             self.assertAlmostEqual(row['post_vote_pct'] - row['pre_vote_pct'], row['change_pp'], places=6)
-        article = (ROOT / 'docs/index.html').read_text()
+        article = (ROOT / 'docs/crisis-baseline.html').read_text()
         for text in ('Do populists gain when the governing party loses votes?', 'Прибавляют ли популисты, когда власть теряет голоса?',
                      '29 pairs of parliamentary elections in 28 countries',
                      '29 пар парламентских выборов в 28 странах', '1991–2008', '1989–2013'):

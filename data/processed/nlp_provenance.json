@@ -1,0 +1,46 @@
+{
+  "model": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "device": "mps",
+  "max_tokens": 256,
+  "embeddings_sha256": "92ec6ed185407b63e162efb5d14258ff30fd4f326b14116dc8aeadc6bf70ae83",
+  "source_sha256": "25404b088e8b49794e6a41d667d4295cffc46a4bb652c40a8c9899f4704875e7",
+  "cross_split_duplicates_removed": 62,
+  "elapsed_seconds": 237.2596321105957,
+  "train_years": [
+    1982,
+    1986,
+    1989,
+    1993,
+    1996,
+    2000
+  ],
+  "validation_year": 2004,
+  "test_year": 2008,
+  "groups": {
+    "economy": [
+      1,
+      5,
+      15
+    ],
+    "material_broad": [
+      1,
+      3,
+      5,
+      6,
+      13,
+      14,
+      15
+    ],
+    "environment": [
+      7
+    ],
+    "civil_rights": [
+      2
+    ],
+    "government": [
+      20
+    ]
+  },
+  "warning": "One later PSOE document; no multilingual or out-of-corpus validation. Encoder pretraining contamination is not audited."
+}

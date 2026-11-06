@@ -1,0 +1,13 @@
+sample,outcome,n,countries,mean_pp,median_pp,equal_country_mean,bootstrap_low,bootstrap_high,increased
+banking,first_change_pp,29,28,5.3522414,0.18,5.1592857,1.3831384,9.4117455,15
+banking,second_change_pp,29,28,9.5401034,5.48,9.5535,4.7206027,14.745171,18
+banking,additional_pp,29,28,4.1878621,3.91,4.3942143,-0.36596429,9.1782661,15
+calm,first_change_pp,50,21,2.918,0,1.6649048,-2.0347536,5.2821119,22
+calm,second_change_pp,50,21,4.2563,1.685,2.2452857,-2.1546623,6.4980087,27
+calm,additional_pp,50,21,1.3383,0,0.58038095,-1.626328,2.5498835,22
+banking_common_countries,first_change_pp,22,21,2.7925,0,2.4133333,-0.60431548,5.8883393,10
+banking_common_countries,second_change_pp,22,21,7.7246818,4.835,7.6560952,3.3608095,12.10491,14
+banking_common_countries,additional_pp,22,21,4.9321818,4.605,5.2427619,1.2597476,9.6222024,12
+within_country_bank_minus_calm,first_change_pp,21,21,0.74842857,0,0.74842857,-4.0883948,5.974825,
+within_country_bank_minus_calm,second_change_pp,21,21,5.4108095,2.7333333,5.4108095,-1.1893825,12.03917,
+within_country_bank_minus_calm,additional_pp,21,21,4.662381,3.8625,4.662381,-0.035371032,9.1035454,

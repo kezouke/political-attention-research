@@ -1,0 +1,19 @@
+@import url('crisis.css');
+h1 {font-size:clamp(2.8rem,6.7vw,5.3rem);max-width:930px;line-height:1.08}
+.hero {padding-top:64px;padding-bottom:52px}
+.hero-copy {max-width:930px}
+.hero .deck {max-width:780px}
+.prose h2 {font-size:clamp(1.9rem,3.6vw,2.7rem);line-height:1.14}
+.chart-image img {display:block;width:100%;height:auto}
+.figure h3 {font-size:clamp(1.2rem,2.6vw,1.7rem);margin-bottom:1.1rem}
+.explorer-controls {display:flex;align-items:center;flex-wrap:wrap;gap:.7rem;margin-bottom:1rem;font-size:.88rem}
+select {font:inherit;padding:.5rem .7rem;border:1px solid var(--line);border-radius:4px;background:white;max-width:100%;color:var(--ink)}
+.methods-details {padding:1.2rem;background:var(--mint);border-radius:5px}
+.methods-details h2 {font-size:1.65rem;margin-top:1rem}
+.methods-details p {font-size:.92rem}
+.table-scroll {max-height:500px;overflow:auto}
+.table-scroll table {min-width:680px}
+.table-scroll thead {position:sticky;top:0;background:#fff}
+.source-links {font-size:.88rem}
+@media(max-width:600px){.hero{padding-top:40px}.figure{padding:12px}.chart-image img{width:100%;min-width:0}.methods-details{padding:.8rem}}
+@media print{.locale,.contents,.explorer-controls,.skip{display:none}.hero{padding:20px}.section{break-inside:auto}.figure{break-inside:avoid}.chart-image img{min-width:0}body{font-size:11pt}}

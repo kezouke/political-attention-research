@@ -1,6 +1,8 @@
 # Crisis and electoral gains
 
-This note documents the essay [Do populists gain when the governing party loses votes?](docs/index.html): the comparison of first parliamentary elections after banking crises, benchmarks from other periods, Spain’s later populist breakthrough and the Hungarian debt study. The former `docs/attention.html` route redirects to the article. The Brazil campaign and European inflation sections have been removed from the essay; their earlier data and analyses remain in the repository.
+This note documents the preserved first-election essay [Do populists gain when the governing party loses votes?](docs/crisis-baseline.html): the comparison of first parliamentary elections after banking crises, benchmarks from other periods, Spain’s later populist breakthrough and the Hungarian debt study. The former `docs/attention.html` route redirects to the article. The Brazil campaign and European inflation sections have been removed from the essay; their earlier data and analyses remain in the repository.
+
+The new two-election and programme study is documented in [RESEARCH_METHODS.md](RESEARCH_METHODS.md).
 
 ## What is measured
 

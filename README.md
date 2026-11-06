@@ -1,12 +1,26 @@
 # Political Attention Research
 
-[Do populists gain when the governing party loses votes?](https://kezouke.github.io/political-attention-research/?lang=en) · [Прибавляют ли популисты, когда власть теряет голоса?](https://kezouke.github.io/political-attention-research/?lang=ru)
+[After a crisis: new programmes or new winners?](https://kezouke.github.io/political-attention-research/?lang=en) · [После кризиса: новые программы или новые победители?](https://kezouke.github.io/political-attention-research/?lang=ru)
 
-A bilingual essay asks whether governing-party losses coincide with populist gains at the first parliamentary election after a banking crisis. It compares 29 election pairs in 28 countries, with governing-party results available for 21 pairs. Comparisons with other periods establish a benchmark; Spain shows the limit of stopping at the first election; the Hungarian debt study illustrates how to estimate the contribution of a specific financial loss.
+A bilingual research essay follows 29 banking crises through two parliamentary elections and decomposes programme-agenda changes in the 16 episodes with sufficient manifesto coverage. It separates revisions within continuing parties, vote reweighting and changes in the observed record roster. Calm periods, preceding intervals, coding changes and coverage rules test alternative interpretations. A historical prediction check and a local multilingual BERT benchmark constrain what the text measures can establish.
 
-Open `docs/index.html` for the complete essay and interactive figures. It works offline. Older links to `docs/attention.html` redirect to the article, preserving the language; links to the removed Brazil and inflation sections open the start of the post. The [research methods](CRISIS_METHODS.md) document sources, sample selection, classifications and the limits of each comparison. Earlier analyses remain in the repository, and `docs/priorities.html` remains an archived essay.
+The calculations are descriptive and do not identify a causal effect of programme changes. The current essay uses one connected question rather than combining unrelated country vignettes. See [methods](RESEARCH_METHODS.md), [protocol and exploratory additions](RESEARCH_PROTOCOL.md), and [claim and editorial audit](RESEARCH_AUDIT_2026.md).
 
-Пост отвечает на один вопрос: сопровождаются ли потери правящей партии ростом популистов на первых парламентских выборах после банковского кризиса. Разделы идут от ирландского примера к сравнению стран, другим периодам, испанской последовательности выборов и венгерскому исследованию валютных долгов.
+The previous first-election study is preserved at commit `7f380831a4b4c66a75ec6b29e80fea3cbab2a1a9`, with its original outputs unchanged and a local page at `docs/crisis-baseline.html`. The earlier priorities research remains in the repository. Neither archive is a required continuation of the current post.
+
+## Build the current essay
+
+The page and static publication figures can be rebuilt without restricted raw data:
+
+```sh
+python -m pip install -r requirements.txt
+python analysis/29_research_figures.py
+python analysis/30_build_research_page.py
+python -m unittest discover -s tests
+node tests/site.test.js
+```
+
+For the full source-based analysis, generate the local election calendar with script 21, then run scripts 23, 24, 26, 27 and 28. Script 25 is the optional NLP experiment and requires `requirements-research.lock`, the CAP raw text and a download of the pinned E5-small model. Script 31 verifies newly listed crisis onsets in the 2026 IMF update. Exact ordering, inputs and limitations are in [RESEARCH_METHODS.md](RESEARCH_METHODS.md). All raw texts, respondent records, model weights and embeddings remain local.
 
 ## Repository map
 
@@ -27,7 +41,7 @@ Open `docs/index.html` for the complete essay and interactive figures. It works 
 
 The baseline analysis is retained as a snapshot, not silently replaced. Some original inputs require registration or separate downloads and cannot be redistributed here. See [the baseline guide](analysis/baseline/README.md). Do not interpret a historical snapshot limitation as the current status of the updated ESS analysis.
 
-## Reproduce the crisis comparison
+## Reproduce the preserved first-election comparison
 
 Place the ten named inputs from [the source guide](data/raw/README.md#crisis-and-elections) in `data/raw/`. Then run:
 

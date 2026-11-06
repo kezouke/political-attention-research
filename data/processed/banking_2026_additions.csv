@@ -1,0 +1,14 @@
+country,iso,year,borderline,pdf_page
+Angola,AGO,2015,False,9
+Azerbaijan,AZE,2015,False,9
+Chad,TCD,2015,False,9
+Equatorial Guinea,GNQ,2015,False,9
+Ghana,GHA,2015,False,9
+Kazakhstan,KAZ,2014,False,9
+Lebanon,LBN,2019,False,9
+Nicaragua,NIC,2018,True,9
+Republic of the Congo,COG,2018,False,9
+São Tomé and Príncipe,STP,2016,False,9
+Sri Lanka,LKA,2023,True,9
+Tajikistan,TJK,2016,False,9
+Vietnam,VNM,2022,True,9

@@ -1,0 +1,5 @@
+sample,rank,n,countries,mean_pp,median_pp,increases,q25_pp,q75_pp,median_years
+balanced_two,1,29,28,5.3522414,0.18,15,0,5.27,1.9247091
+balanced_two,2,29,28,9.5401034,5.48,18,0,17.9,5.8781656
+balanced_two_no_2007_09,1,16,16,7.949375,0.09,8,-0.275,21.1425,2.1232033
+balanced_two_no_2007_09,2,16,16,8.970625,1.215,9,0,17.6,5.926078
