@@ -176,6 +176,16 @@ multilingual elite-blame benchmark. Existing E5 versus TF–IDF topic results re
 an experiment, not a validated replacement for expert party classifications.
 See the [audit](DATA_AUDIT_2026.md) and preserved [programme methods](RESEARCH_METHODS.md).
 
+The six-pager also called for a separate check of a newer Manifesto release.
+That numerical check is still incomplete. Script 87 compares public 2026a
+document metadata with 2023a: all 225 document keys used at the endpoints of
+the 16 published banking pairs remain, with no added keys at those endpoints.
+This does not establish unchanged topic values or vote weights. The numerical
+2026a download requires a separate Manifesto account. The
+[refresh specification](planning/manifesto-refresh-specification.md) fixes the
+comparison before those new values are inspected. The article's programme
+estimates remain explicitly estimates from 2023a.
+
 ## Rebuild the public article without microdata
 
 Python 3.12 is the analysis environment. From the repository root:

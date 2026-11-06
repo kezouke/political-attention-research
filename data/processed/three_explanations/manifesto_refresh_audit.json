@@ -1,0 +1,21 @@
+{
+  "baseline_version": "2023a",
+  "metadata_version": "2026a",
+  "baseline_sha256": "0e5b5d7eebbda9a81519f316333dcf8a3960006dcbb8149f82e271e142599670",
+  "metadata_sha256": "4f4a874d0ef7513c3e8d54f920ed58473a06fa5f6c4c4e1d42316a9dca101b49",
+  "baseline_rows": 5089,
+  "current_metadata_rows": 5330,
+  "full_catalog_common_keys": 5082,
+  "full_catalog_added_keys": 248,
+  "full_catalog_removed_or_recoded_keys": 7,
+  "main_banking_pairs": 16,
+  "main_banking_endpoints": 32,
+  "main_banking_unique_used_document_keys": 225,
+  "main_banking_used_keys_missing": 0,
+  "main_banking_endpoints_with_added_keys": 0,
+  "topic_values_compared": false,
+  "numerical_replay_completed": false,
+  "access_status": "Official numerical downloads and dashboard downloads require a Manifesto account; no authenticated account available in this task.",
+  "interpretation": "Key coverage does not validate topic values, vote weights, coding manuals or document types. Published estimates remain explicitly based on 2023a; robustness to 2026a is not established.",
+  "raw_rows_redistributed": false
+}

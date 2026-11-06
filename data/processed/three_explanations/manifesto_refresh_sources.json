@@ -1,0 +1,50 @@
+{
+  "terms.html": {
+    "url": "https://manifestoproject.wzb.eu/information/documents/terms_of_use",
+    "resolved_url": "https://manifestoproject.wzb.eu/information/documents/terms_of_use",
+    "fetched_at_utc": "2026-11-06T21:33:50.767020+00:00",
+    "bytes": 13409,
+    "sha256": "5710991f8a6ee2e7940d0879b272bc754af955c1a829ec68577dcbeb71182433",
+    "local_path": "data/raw/manifesto_refresh_20261107/terms.html"
+  },
+  "datasets.html": {
+    "url": "https://manifestoproject.wzb.eu/datasets",
+    "resolved_url": "https://manifestoproject.wzb.eu/datasets",
+    "fetched_at_utc": "2026-11-06T21:33:51.249442+00:00",
+    "bytes": 22397,
+    "sha256": "d6584e9924ec1f7c2e4488addf3834a5527eeb4e9e6b660f4bfb70d75675a80b",
+    "local_path": "data/raw/manifesto_refresh_20261107/datasets.html"
+  },
+  "release_notes_2026a.pdf": {
+    "url": "https://manifestoproject.wzb.eu/down/data/2026a/codebooks/release_notes_MPDS2026a.pdf",
+    "resolved_url": "https://manifestoproject.wzb.eu/down/data/2026a/codebooks/release_notes_MPDS2026a.pdf",
+    "fetched_at_utc": "2026-11-06T21:33:52.073435+00:00",
+    "bytes": 124570,
+    "sha256": "aab3e8ae2a01f5fc39706dcf1dde8a35dec66d82f6cf9b2aac0f39379b9c9c25",
+    "local_path": "data/raw/manifesto_refresh_20261107/release_notes_2026a.pdf"
+  },
+  "documents_2026a.csv": {
+    "url": "https://manifestoproject.wzb.eu/down/data/2026a/codebooks/documents_MPDataset_MPDS2026a.csv",
+    "resolved_url": "https://manifestoproject.wzb.eu/down/data/2026a/codebooks/documents_MPDataset_MPDS2026a.csv",
+    "fetched_at_utc": "2026-11-06T21:33:52.625994+00:00",
+    "bytes": 546672,
+    "sha256": "4f4a874d0ef7513c3e8d54f920ed58473a06fa5f6c4c4e1d42316a9dca101b49",
+    "local_path": "data/raw/manifesto_refresh_20261107/documents_2026a.csv"
+  },
+  "parties_long_2026a.csv": {
+    "url": "https://manifestoproject.wzb.eu/down/data/2026a/codebooks/parties_long_MPDataset_MPDS2026a.csv",
+    "resolved_url": "https://manifestoproject.wzb.eu/down/data/2026a/codebooks/parties_long_MPDataset_MPDS2026a.csv",
+    "fetched_at_utc": "2026-11-06T21:33:53.113615+00:00",
+    "bytes": 455559,
+    "sha256": "87bad5f99a877f28a4e221de1d0549ab210871b88a2ffaf4f82530ec71cb93ef",
+    "local_path": "data/raw/manifesto_refresh_20261107/parties_long_2026a.csv"
+  },
+  "citation_2026a.txt": {
+    "url": "https://manifestoproject.wzb.eu/down/data/2026a/citations/citation_MPDS2026a.txt",
+    "resolved_url": "https://manifestoproject.wzb.eu/down/data/2026a/citations/citation_MPDS2026a.txt",
+    "fetched_at_utc": "2026-11-06T21:33:53.552343+00:00",
+    "bytes": 428,
+    "sha256": "bb47700032efd732d301ac2f777edcfc8f03c238a31b73eb167458f98c948da4",
+    "local_path": "data/raw/manifesto_refresh_20261107/citation_2026a.txt"
+  }
+}
