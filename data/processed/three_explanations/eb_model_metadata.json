@@ -1,0 +1,237 @@
+[
+  {
+    "source": "v105",
+    "label": "QA2A SITUATION: NATIONAL ECONOMY",
+    "value_labels": {
+      "1.0": "Very good",
+      "2.0": "Rather good",
+      "3.0": "Rather bad",
+      "4.0": "Very bad",
+      "5.0": "DK",
+      "9.0": "Inap. (33 in V6)"
+    }
+  },
+  {
+    "source": "v109",
+    "label": "QA2A SITUATION: FINANCIAL HOUSEHOLD",
+    "value_labels": {
+      "1.0": "Very good",
+      "2.0": "Rather good",
+      "3.0": "Rather bad",
+      "4.0": "Very bad",
+      "5.0": "DK",
+      "9.0": "Inap. (33 in V6)"
+    }
+  },
+  {
+    "source": "v134",
+    "label": "QA4A IMPORT ISSUES CTRY: ECONOMIC SITUATION",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    }
+  },
+  {
+    "source": "v135",
+    "label": "QA4A IMPORT ISSUES CTRY: RISING PRICES/INFLA",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    }
+  },
+  {
+    "source": "v136",
+    "label": "QA4A IMPORT ISSUES CTRY: TAXATION",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    }
+  },
+  {
+    "source": "v137",
+    "label": "QA4A IMPORT ISSUES CTRY: UNEMPLOYMENT",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    }
+  },
+  {
+    "source": "v152",
+    "label": "QA5A IMPORT ISSUES PERS: ECONOMIC SITUATION",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    }
+  },
+  {
+    "source": "v153",
+    "label": "QA5A IMPORT ISSUES PERS: RISING PRICES/INFLA",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    }
+  },
+  {
+    "source": "v155",
+    "label": "QA5A IMPORT ISSUES PERS: UNEMPLOYMENT",
+    "value_labels": {
+      "0.0": "Not mentioned",
+      "1.0": "Mentioned",
+      "9.0": "Inap. (33 in V6)"
+    }
+  },
+  {
+    "source": "v216",
+    "label": "QA9 TRUST IN INSTITUTIONS: POLIT PARTIES",
+    "value_labels": {
+      "1.0": "Tend to trust",
+      "2.0": "Tend not to trust",
+      "3.0": "DK"
+    }
+  },
+  {
+    "source": "v217",
+    "label": "QA9 TRUST IN INSTITUTIONS: NAT GOVERNMENT",
+    "value_labels": {
+      "1.0": "Tend to trust",
+      "2.0": "Tend not to trust",
+      "3.0": "DK",
+      "9.0": "Inap. (33 in V6)"
+    }
+  },
+  {
+    "source": "v218",
+    "label": "QA9 TRUST IN INSTITUTIONS: NAT PARLIAMENT",
+    "value_labels": {
+      "1.0": "Tend to trust",
+      "2.0": "Tend not to trust",
+      "3.0": "DK",
+      "9.0": "Inap. (33 in V6)"
+    }
+  },
+  {
+    "source": "v219",
+    "label": "QA9 TRUST IN INSTITUTIONS: EUROPEAN UNION",
+    "value_labels": {
+      "1.0": "Tend to trust",
+      "2.0": "Tend not to trust",
+      "3.0": "DK"
+    }
+  },
+  {
+    "source": "v221",
+    "label": "QA10 EU IMAGE - POSITIVE/NEGATIVE",
+    "value_labels": {
+      "1.0": "Very positive",
+      "2.0": "Fairly positive",
+      "3.0": "Neutral",
+      "4.0": "Fairly negative",
+      "5.0": "Very negative",
+      "6.0": "DK"
+    }
+  },
+  {
+    "source": "v54",
+    "label": "W31 POLIT WEIGHT RESULT FROM TARGET EU27 (VOTING AGE)",
+    "value_labels": {}
+  },
+  {
+    "source": "v65",
+    "label": "W52 POLIT WEIGHT EU27 (VOTING AGE)",
+    "value_labels": {}
+  },
+  {
+    "source": "v659",
+    "label": "D1 LEFT-RIGHT PLACEMENT",
+    "value_labels": {
+      "1.0": "Box 1 - left",
+      "2.0": "Box 2",
+      "3.0": "Box 3",
+      "4.0": "Box 4",
+      "5.0": "Box 5",
+      "6.0": "Box 6",
+      "7.0": "Box 7",
+      "8.0": "Box 8",
+      "9.0": "Box 9",
+      "10.0": "Box 10 - right",
+      "97.0": "Refusal",
+      "98.0": "DK"
+    }
+  },
+  {
+    "source": "v664",
+    "label": "D8 AGE EDUCATION - RECODED",
+    "value_labels": {
+      "1.0": "Up to 14 years",
+      "2.0": "15 years",
+      "3.0": "16 years",
+      "4.0": "17 years",
+      "5.0": "18 years",
+      "6.0": "19 years",
+      "7.0": "20 years",
+      "8.0": "21 years",
+      "9.0": "22 years and older",
+      "10.0": "Still studying",
+      "11.0": "No full-time education",
+      "97.0": "Refusal",
+      "98.0": "DK"
+    }
+  },
+  {
+    "source": "v665",
+    "label": "D10 GENDER",
+    "value_labels": {
+      "1.0": "Male",
+      "2.0": "Female"
+    }
+  },
+  {
+    "source": "v666",
+    "label": "D11 AGE EXACT",
+    "value_labels": {
+      "15.0": "15 years",
+      "98.0": "98 years"
+    }
+  },
+  {
+    "source": "v671",
+    "label": "D25 TYPE OF COMMUNITY",
+    "value_labels": {
+      "1.0": "Rural area or village",
+      "2.0": "Small/middle town",
+      "3.0": "Large town",
+      "8.0": "DK"
+    }
+  },
+  {
+    "source": "v696",
+    "label": "D60 DIFFICULTIES PAYING BILLS - LAST YEAR",
+    "value_labels": {
+      "1.0": "Most of the time",
+      "2.0": "From time to time",
+      "3.0": "Almost never / never",
+      "7.0": "Refusal (SPONT.)"
+    }
+  },
+  {
+    "source": "v795",
+    "label": "C14 RESPONDENT OCCUPATION SCALE",
+    "value_labels": {
+      "0.0": "NA",
+      "1.0": "Self-employed (5 to 9 in V669)",
+      "2.0": "Managers (10 to 12 in V669)",
+      "3.0": "Other white collars (13 or 14 in V669)",
+      "4.0": "Manual workers (15 to 18 in V669)",
+      "5.0": "House persons (1 in V669)",
+      "6.0": "Unemployed (3 in V669)",
+      "7.0": "Retired (4 in V669)",
+      "8.0": "Students (2 in V669)"
+    }
+  }
+]
