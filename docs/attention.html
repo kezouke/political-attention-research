@@ -3,128 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Survey responses and elections in Brazil in 2018 and Europe after 2022.">
-  <title>What voters worried about before elections</title>
-  <script>if (new URLSearchParams(location.search).get('lang') === 'ru') document.documentElement.lang = 'ru';</script>
-  <link rel="stylesheet" href="crisis.css?v=20261106">
-  <script defer src="crisis-data.js"></script>
-  <script defer src="crisis.js?v=20261106.2"></script>
+  <title>Why crises do not always bring votes to populists</title>
+  <link rel="canonical" href="https://kezouke.github.io/political-attention-research/">
+  <script>
+    const article = new URL('index.html', location.href);
+    article.search = location.search;
+    article.hash = location.hash;
+    location.replace(article.href);
+  </script>
 </head>
 <body>
-  <a href="#story" class="skip"><span lang="en" data-copy="en">Skip to the essay</span><span lang="ru" data-copy="ru">К тексту</span></a>
-  <header class="masthead">
-    <a class="brand" href="#top">Political Attention Research</a>
-    <nav class="locale" aria-label="Language / Язык">
-      <a href="?lang=en" hreflang="en" lang="en" data-locale>EN</a>
-      <a href="?lang=ru" hreflang="ru" lang="ru" data-locale>RU</a>
-    </nav>
-  </header>
-
-  <div class="hero" id="top">
-    <div lang="en" data-copy="en">
-      <p class="eyebrow">Political Attention Research</p>
-      <h1>What voters worried about before elections</h1>
-      <p class="deck">More Brazilians named corruption as their country’s main problem before the 2018 presidential election. In Europe, more respondents put inflation among their country’s main problems in 2022, while voting changed by different amounts across countries. We compare what people named in surveys, what candidates said and what the election results show.</p>
-      <p class="meta">6 November 2026 · Research essay</p>
-      <nav class="contents" aria-label="Essay sections"><a href="#brazil">Corruption in Brazil</a><a href="#prices">Inflation in Europe</a></nav>
-    </div>
-    <div lang="ru" data-copy="ru">
-      <p class="eyebrow">Political Attention Research</p>
-      <h1>Что волновало избирателей перед выборами</h1>
-      <p class="deck">В Бразилии коррупцию стали чаще называть главной проблемой перед президентскими выборами 2018 года. В Европе в 2022-м рост цен чаще попадал в число главных проблем, а результаты выборов менялись по-разному. Сопоставим ответы на опросы, заявления кандидатов и итоги голосования.</p>
-      <p class="meta">6 ноября 2026 · Исследовательское эссе</p>
-      <nav class="contents" aria-label="Разделы эссе"><a href="#brazil">Коррупция в Бразилии</a><a href="#prices">Инфляция в Европе</a></nav>
-    </div>
-  </div>
-
-  <main id="story">
-    <noscript><div class="section nojs"><span lang="en" data-copy="en">The full essay is available below. Interactive charts require JavaScript.</span><span lang="ru" data-copy="ru">Полный текст доступен ниже. Для интерактивных графиков нужен JavaScript.</span></div></noscript>
-
-    <section class="section" id="brazil">
-      <div class="prose" lang="en" data-copy="en">
-        <h2>Corruption rose in Brazilian surveys before Bolsonaro’s campaign</h2>
-        <p>In Latinobarómetro, interviewers asked Brazilians to name the country’s most important problem without offering a list. The share that named corruption rose from 2.9% in 2010 to 31.2% in 2017. In the intervening years, the Lava Jato investigation began in 2014, uncovered bribery involving contracts at the state oil company Petrobras and implicated politicians from several parties. By 2024, 4.4% of respondents named corruption first.</p>
-      </div>
-      <div class="prose" lang="ru" data-copy="ru">
-        <h2>В Бразилии коррупцию стали чаще называть главной проблемой до кампании Болсонару</h2>
-        <p>Интервьюеры Latinobarómetro просили назвать одну главную проблему Бразилии без списка ответов. Доля назвавших коррупцию выросла с 2,9% в 2010 году до 31,2% в 2017-м. Начавшееся в 2014 году расследование Lava Jato вскрыло махинации с контрактами государственной нефтяной компании Petrobras и затронуло политиков нескольких партий. К 2024 году коррупцию назвали главной проблемой 4,4% опрошенных.</p>
-      </div>
-      <figure class="figure" id="brazil-figure" aria-labelledby="brazil-title">
-        <h3 id="brazil-title"><span lang="en" data-copy="en">What did Brazilians name as their country's top problem?</span><span lang="ru" data-copy="ru">Что жители Бразилии называли главной проблемой?</span></h3>
-        <p class="chart-kicker"><span lang="en" data-copy="en">Share who named the issue first, %. Scale 0–40% for every issue.</span><span lang="ru" data-copy="ru">Доля опрошенных, назвавших выбранную тему главной проблемой страны. Шкала от 0 до 40%.</span></p>
-        <fieldset class="chart-filter" id="brazil-filter">
-          <legend><span lang="en" data-copy="en">Survey answer</span><span lang="ru" data-copy="ru">Ответ в опросе</span></legend>
-          <div class="chart-filter-options">
-            <label><input type="radio" name="brazil-filter" value="corruption" checked><span class="filter-label"><span lang="en" data-copy="en">Corruption</span><span lang="ru" data-copy="ru">Коррупция</span></span></label>
-            <label><input type="radio" name="brazil-filter" value="health"><span class="filter-label"><span lang="en" data-copy="en">Health care</span><span lang="ru" data-copy="ru">Здравоохранение</span></span></label>
-            <label><input type="radio" name="brazil-filter" value="economy_strict"><span class="filter-label"><span lang="en" data-copy="en">Economic problems</span><span lang="ru" data-copy="ru">Экономические проблемы</span></span></label>
-          </div>
-        </fieldset>
-        <div id="brazil-plot" class="bar-plot" role="group" aria-labelledby="brazil-title"></div>
-        <div class="readout" id="brazil-readout"></div>
-        <span class="chart-tooltip" aria-hidden="true" hidden></span>
-        <details><summary><span lang="en" data-copy="en">View survey waves</span><span lang="ru" data-copy="ru">Посмотреть значения по волнам</span></summary><div id="brazil-table" class="table-scroll"></div></details>
-        <figcaption><span lang="en" data-copy="en">Ten survey waves. Bars are spaced by wave, with no estimates between waves. Shares use all respondents in each wave.</span><span lang="ru" data-copy="ru">Десять волн. Столбцы идут по порядку волн, интервалы между опросами различались. Доли рассчитаны от всех опрошенных в каждой волне.</span> <a href="https://latinobarometro.org/agregados">Latinobarómetro</a>.</figcaption>
-      </figure>
-      <div class="prose" lang="en" data-copy="en">
-        <p>Jair Bolsonaro’s platform named fighting corruption as a priority before the first round of the October 2018 presidential election, when he won 46.03% of valid votes. In the runoff campaign, his team linked corruption to the Workers’ Party, the party of his opponent Fernando Haddad. Researchers found references to corruption in 10 of Bolsonaro’s 11 distinct television programmes and in two of Haddad’s 14. Each programme was counted once, regardless of repeat broadcasts. The survey figures above show when people had started naming the issue.</p>
-        <p>The sequence matters: corruption had become a prominent public concern before Bolsonaro’s 2018 campaign, and his team subsequently made it a repeated theme of its runoff television programmes. The surveys establish the earlier rise in concern, while the campaign study documents how the candidate used the issue. Neither comparison estimates how many votes the anticorruption message won.</p>
-        <p class="cite"><a href="https://eleitorbrasil.com/memory/2018/35a67dff4ebc802db20b2f59723c3d32e52146c896caf923456b00059e2577eb.pdf">Bolsonaro's August platform</a> <a href="https://www.tse.jus.br/comunicacao/noticias/2018/Outubro/concluida-totalizacao-de-votos-do-1o-turno-das-eleicoes-2018">First-round count</a> <a href="https://revistaseletronicas.pucrs.br/civitas/article/view/37248/">Television campaign study</a></p>
-      </div>
-      <div class="prose" lang="ru" data-copy="ru">
-        <p>Жаир Болсонару включил борьбу с коррупцией в программу к первому туру президентских выборов октября 2018 года. В первом туре он получил 46,03% действительных голосов.</p>
-        <p>Между турами штаб Болсонару связывал коррупцию с Партией трудящихся, от которой баллотировался его соперник Фернанду Аддад. Исследователи нашли упоминания коррупции в 10 из 11 отдельных телепрограмм Болсонару и в двух из 14 программ Аддада. Повторные показы в этот подсчёт не входят.</p>
-        <p>Эта последовательность важна: коррупция стала заметной общественной проблемой до кампании Болсонару 2018 года, а его штаб затем регулярно обращался к ней в телепрограммах между турами. Опросы устанавливают более ранний рост внимания, исследование кампании показывает использование темы кандидатом. Ни одно из этих сравнений не оценивает, сколько голосов принесло антикоррупционное обещание.</p>
-        <p class="cite"><a href="https://eleitorbrasil.com/memory/2018/35a67dff4ebc802db20b2f59723c3d32e52146c896caf923456b00059e2577eb.pdf">Программа Болсонару, август</a> <a href="https://www.tse.jus.br/comunicacao/noticias/2018/Outubro/concluida-totalizacao-de-votos-do-1o-turno-das-eleicoes-2018">Итоги первого тура</a> <a href="https://revistaseletronicas.pucrs.br/civitas/article/view/37248/">Исследование телепрограмм</a></p>
-      </div>
-    </section>
-
-    <section class="section" id="prices">
-      <div class="prose" lang="en" data-copy="en">
-        <h2>Concern about prices rose across Europe. Votes moved by different amounts.</h2>
-        <p>Eurobarometer asked respondents to choose up to two of the most important problems facing their country from a list. In all 16 countries with comparable data for 2021 and 2022, the share selecting rising prices, inflation or the cost of living increased. The country average rose from 16.8% to 46.8%, giving each country the same weight. This is a different question from Brazil’s open-ended survey, so we compare changes within each survey.</p>
-        <p>Eight countries had usable parliamentary election pairs before and after 2022. The share won by parties classified as populist by The PopuList rose in seven. Across all eight pairs, the ordering by increase in concern about prices barely matches the ordering by increase in populist votes. The rank correlation is +0.07. The election years vary by country, and this comparison describes the eight available pairs.</p>
-        <p>In Germany and Ireland, the share selecting prices rose by about 32 and 34 percentage points respectively from 2021 to 2022. In Germany the populist share went from 10.34% in 2021 to 25.78% in 2025. In 2025, Alternative for Germany won 20.8% of party-list votes and the new Sahra Wagenknecht Alliance won nearly 5%. In Ireland the combined share fell from 24.53% in 2020 to 22.60% in 2024.</p>
-        <p class="cite"><a href="https://www.gesis.org/en/eurobarometer-data-service/overview/eb-trends-trend-files/list-of-trends/polit-issues-national">Eurobarometer question and response options</a> <a href="https://bundeswahlleiterin.de/bundestagswahlen/2025/ergebnisse/bund-99.html">German election results</a></p>
-      </div>
-      <div class="prose" lang="ru" data-copy="ru">
-        <h2>Цены стали чаще называть проблемой. Голоса изменились по-разному.</h2>
-        <p>В Eurobarometer респонденты могли выбрать из списка до двух главных проблем своей страны. Во всех 16 странах, по которым у нас есть данные за 2021 и 2022 годы, выросла доля тех, кто выбрал вариант «рост цен, инфляция, стоимость жизни». В среднем по странам доля выросла с 16,8% до 46,8%. У каждой страны в этом среднем одинаковый вес. В бразильском опросе люди называли одну проблему без подсказки. Поэтому изменения сравниваем внутри каждого опроса.</p>
-        <p>В восьми странах удалось сопоставить парламентские выборы до и после 2022 года. Доля партий, которые The PopuList относит к популистским, выросла в семи. Если упорядочить все восемь стран по росту упоминаний цен, этот порядок почти не совпадает с порядком по приросту голосов за популистов. Ранговая корреляция составляет +0,07. Выборы в этих странах проходили в разные годы. Результат описывает восемь доступных пар.</p>
-        <p>В Германии с 2021 по 2022 год цены стали упоминать чаще примерно на 32 п. п., в Ирландии примерно на 34 п. п. В Германии доля голосов за популистов выросла с 10,34% в 2021 году до 25,78% в 2025-м. На выборах 2025 года «Альтернатива для Германии» получила 20,8% голосов за партийные списки, а новый «Союз Сары Вагенкнехт» получил почти 5%. В Ирландии суммарная доля снизилась с 24,53% в 2020 году до 22,60% в 2024-м.</p>
-        <p class="cite"><a href="https://www.gesis.org/en/eurobarometer-data-service/overview/eb-trends-trend-files/list-of-trends/polit-issues-national">Вопрос и варианты ответа в Eurobarometer</a> <a href="https://bundeswahlleiterin.de/bundestagswahlen/2025/ergebnisse/bund-99.html">Итоги выборов в Германии</a></p>
-      </div>
-      <figure class="figure" id="prices-figure" aria-labelledby="prices-title">
-        <h3 id="prices-title"><span lang="en" data-copy="en">Did larger shifts in attention come with larger electoral gains?</span><span lang="ru" data-copy="ru">Прибавили ли популисты больше там, где цены стали упоминать чаще?</span></h3>
-        <p class="chart-kicker"><span lang="en" data-copy="en">Eight countries with a usable election pair. All 16 survey countries appear in the table.</span><span lang="ru" data-copy="ru">На графике восемь стран с выборами до и после 2022 года. В таблице все 16 стран и причины, по которым остальные выборы нельзя сравнить.</span></p>
-        <p class="axis-caption"><span lang="en" data-copy="en">↑ Populist vote share change, pp</span><span lang="ru" data-copy="ru">↑ Сдвиг доли голосов за популистов, п. п.</span></p>
-        <div id="prices-plot" class="plot scatter" role="group" aria-labelledby="prices-title"></div>
-        <p class="axis-caption x"><span lang="en" data-copy="en">Change in price mentions, 2021 to 2022, pp →</span><span lang="ru" data-copy="ru">Сдвиг упоминаний цен, 2021–2022, п. п. →</span></p>
-        <div class="readout" id="prices-readout"></div>
-        <span class="chart-tooltip" aria-hidden="true" hidden></span>
-        <details><summary><span lang="en" data-copy="en">View all 16 countries and coverage</span><span lang="ru" data-copy="ru">Посмотреть данные и охват по всем 16 странам</span></summary><div id="prices-table" class="table-scroll"></div></details>
-        <figcaption><span lang="en" data-copy="en">Last parliamentary election before 2022 and first after it through October 2025. The election sample excludes countries with an election in 2022 or more than one election in an endpoint year.</span><span lang="ru" data-copy="ru">Последние парламентские выборы до 2022 года и первые после него до октября 2025-го. Исключены страны с выборами в 2022 году или несколькими выборами в одном из сравниваемых годов.</span> <a href="https://www.sustainabilityperformances.eu/spes-explorer/">SPES</a> · <a href="https://popu-list.org/">The PopuList</a> · <a href="https://ppeg.wzb.eu/">PPEG</a>.</figcaption>
-      </figure>
-    </section>
-
-    <section class="section" id="answer">
-      <div class="prose" lang="en" data-copy="en">
-        <h2>What the surveys and elections measure</h2>
-        <p>The Brazilian surveys date the rise of concern about corruption. The television programmes show how Bolsonaro’s team used the issue against its opponent. The European comparison shows that similarly large increases in concern about prices can accompany very different election results. To estimate how much weight a particular issue carried in the choice of party, we would need evidence that connects voters’ priorities to their own choices.</p>
-      </div>
-      <div class="prose" lang="ru" data-copy="ru">
-        <h2>Что показывают опросы и результаты выборов</h2>
-        <p>Бразильские опросы показывают, когда люди стали чаще называть коррупцию главной проблемой. Телепрограммы показывают, как штаб Болсонару использовал эту тему против соперника. Сравнение европейских выборов показывает, что при похожем росте внимания к ценам доли партий могут меняться по-разному. Чтобы оценить, насколько сама тема повлияла на выбор партии, нужны данные, которые связывают приоритеты отдельных избирателей с их голосованием.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="footer-inner">
-      <p><a href="index.html?lang=en" lang="en" data-copy="en">Elections after banking crises</a><a href="index.html?lang=ru" lang="ru" data-copy="ru">Выборы после банковских кризисов</a></p>
-      <p lang="en" data-copy="en"><a href="https://github.com/kezouke/political-attention-research">Research repository</a> · <a href="https://github.com/kezouke/political-attention-research/blob/main/CRISIS_METHODS.md" data-methods>Methods and data coverage</a></p>
-      <p lang="ru" data-copy="ru"><a href="https://github.com/kezouke/political-attention-research">Репозиторий исследования</a> · <a href="https://github.com/kezouke/political-attention-research/blob/main/CRISIS_METHODS.md" data-methods>Методы и охват данных</a></p>
-    </div>
-  </footer>
+  <p lang="ru"><a href="index.html?lang=ru">Читать общий пост: почему кризис не всегда приносит голоса популистам</a></p>
+  <p lang="en"><a href="index.html?lang=en">Read the full essay: why crises do not always bring votes to populists</a></p>
 </body>
 </html>

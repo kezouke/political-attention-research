@@ -1,12 +1,12 @@
 # Political Attention Research
 
-[Elections after banking crises](https://kezouke.github.io/political-attention-research/?lang=en) · [Выборы после банковских кризисов](https://kezouke.github.io/political-attention-research/?lang=ru)
+[Why crises do not always bring votes to populists](https://kezouke.github.io/political-attention-research/?lang=en) · [Почему кризис не всегда приносит голоса популистам](https://kezouke.github.io/political-attention-research/?lang=ru)
 
-A bilingual research essay comparing parliamentary elections around banking crises, with evidence from Spain and Hungary. A companion essay compares public concerns and election results in Brazil and Europe.
+One bilingual research essay asks why crises and public discontent do not consistently benefit populists. It connects election comparisons around banking crises with the emergence of Podemos in Spain, foreign-currency debt in Hungary, concern about prices in Europe and Bolsonaro’s use of corruption in Brazil.
 
-Open `docs/index.html` for the banking-crisis essay, `docs/attention.html` for the companion essay, or `docs/priorities.html` for the earlier essay on jobs, prices and housing. All three work offline. The [crisis methods](CRISIS_METHODS.md) explain the episode selection, source checks, alternative classifications and what the comparisons can establish.
+Open `docs/index.html` for the complete essay and all interactive figures. It works offline. Older links to `docs/attention.html` redirect to the corresponding section of this article, preserving the language. The [research methods](CRISIS_METHODS.md) document sources, sample selection, classifications and the limits of each comparison. `docs/priorities.html` remains an archived earlier essay.
 
-Основное эссе сравнивает результаты партии власти и популистов до и после банковских кризисов. Материал о коррупции в Бразилии и инфляции в Европе вынесен в отдельное эссе.
+Один пост объясняет, почему потери власти и рост общественного недовольства не всегда сопровождаются успехом популистов. Сравнение выборов, Испания, Венгрия, европейская инфляция и бразильская кампания входят в общий текст. Источники и подробности расчётов доступны по ссылкам рядом с данными и в методах исследования.
 
 ## Repository map
 
