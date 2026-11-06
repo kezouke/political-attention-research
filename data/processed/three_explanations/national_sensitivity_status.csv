@@ -1,0 +1,251 @@
+dataset,target,scenario,reference_n,alternative_n,same_people,reference_classes,alternative_classes,estimable
+ES2015,government_vs_opposition,C_0.1,4466,4466,True,"[0, 1]","[0, 1]",True
+ES2015,government_vs_opposition,C_10,4466,4466,True,"[0, 1]","[0, 1]",True
+ES2015,government_vs_opposition,unweighted,4466,4466,True,"[0, 1]","[0, 1]",True
+ES2015,government_vs_opposition,broad_priority,4466,4466,True,"[0, 1]","[0, 1]",True
+ES2015,government_vs_opposition,without_early_intention,4466,4466,True,"[0, 1]","[0, 1]",True
+ES2015,government_vs_opposition,v3_inclusive,4466,4466,True,"[0, 1]","[0, 1]",True
+ES2015,government_vs_opposition,v4_strict,4466,4466,True,"[0, 1]","[0, 1]",True
+ES2015,government_vs_opposition,es_coalitions,4466,4466,True,"[0, 1]","[0, 1]",True
+ES2015,government_vs_opposition,pre_economy,4456,4456,True,"[0, 1]","[0, 1]",True
+ES2015,opposition_type,C_0.1,2653,2653,True,"[0, 1]","[0, 1]",True
+ES2015,opposition_type,C_10,2653,2653,True,"[0, 1]","[0, 1]",True
+ES2015,opposition_type,unweighted,2653,2653,True,"[0, 1]","[0, 1]",True
+ES2015,opposition_type,broad_priority,2653,2653,True,"[0, 1]","[0, 1]",True
+ES2015,opposition_type,without_early_intention,2653,2653,True,"[0, 1]","[0, 1]",True
+ES2015,opposition_type,v3_inclusive,2653,2653,True,"[0, 1]","[0, 1]",True
+ES2015,opposition_type,v4_strict,2653,2653,True,"[0, 1]","[0, 1]",True
+ES2015,opposition_type,es_coalitions,2653,3291,False,"[0, 1]","[0, 1]",True
+ES2015,opposition_type,pre_economy,2650,2650,True,"[0, 1]","[0, 1]",True
+ES2015,nonvote_vs_vote,C_0.1,5863,5863,True,"[0, 1]","[0, 1]",True
+ES2015,nonvote_vs_vote,C_10,5863,5863,True,"[0, 1]","[0, 1]",True
+ES2015,nonvote_vs_vote,unweighted,5863,5863,True,"[0, 1]","[0, 1]",True
+ES2015,nonvote_vs_vote,broad_priority,5863,5863,True,"[0, 1]","[0, 1]",True
+ES2015,nonvote_vs_vote,without_early_intention,5863,5863,True,"[0, 1]","[0, 1]",True
+ES2015,nonvote_vs_vote,v3_inclusive,5863,5863,True,"[0, 1]","[0, 1]",True
+ES2015,nonvote_vs_vote,v4_strict,5863,5863,True,"[0, 1]","[0, 1]",True
+ES2015,nonvote_vs_vote,es_coalitions,5863,5863,True,"[0, 1]","[0, 1]",True
+ES2015,nonvote_vs_vote,pre_economy,5847,5847,True,"[0, 1]","[0, 1]",True
+ES2015,all_outcomes,C_0.1,4500,4500,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+ES2015,all_outcomes,C_10,4500,4500,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+ES2015,all_outcomes,unweighted,4500,4500,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+ES2015,all_outcomes,broad_priority,4500,4500,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+ES2015,all_outcomes,without_early_intention,4500,4500,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+ES2015,all_outcomes,v3_inclusive,4500,4500,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+ES2015,all_outcomes,v4_strict,4500,4500,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+ES2015,all_outcomes,es_coalitions,4500,5138,False,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+ES2015,all_outcomes,pre_economy,4489,4489,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+NL2010,government_vs_opposition,C_0.1,1805,1805,True,"[0, 1]","[0, 1]",True
+NL2010,government_vs_opposition,C_10,1805,1805,True,"[0, 1]","[0, 1]",True
+NL2010,government_vs_opposition,unweighted,1805,1805,True,"[0, 1]","[0, 1]",True
+NL2010,government_vs_opposition,broad_priority,1805,1805,True,"[0, 1]","[0, 1]",True
+NL2010,government_vs_opposition,without_early_intention,1805,1805,True,"[0, 1]","[0, 1]",True
+NL2010,government_vs_opposition,v3_inclusive,1805,1805,True,"[0, 1]","[0, 1]",True
+NL2010,government_vs_opposition,v4_strict,1805,1805,True,"[0, 1]","[0, 1]",True
+NL2010,government_vs_opposition,nl_previous_cabinet,1805,1805,True,"[0, 1]","[0, 1]",True
+NL2010,opposition_type,C_0.1,1506,1506,True,"[0, 1]","[0, 1]",True
+NL2010,opposition_type,C_10,1506,1506,True,"[0, 1]","[0, 1]",True
+NL2010,opposition_type,unweighted,1506,1506,True,"[0, 1]","[0, 1]",True
+NL2010,opposition_type,broad_priority,1506,1506,True,"[0, 1]","[0, 1]",True
+NL2010,opposition_type,without_early_intention,1506,1506,True,"[0, 1]","[0, 1]",True
+NL2010,opposition_type,v3_inclusive,1506,1506,True,"[0, 1]","[0, 1]",True
+NL2010,opposition_type,v4_strict,1506,1506,True,"[0, 1]","[0, 1]",True
+NL2010,opposition_type,nl_previous_cabinet,1150,1150,True,"[0, 1]","[0, 1]",True
+NL2010,nonvote_vs_vote,C_0.1,1984,1984,True,"[0, 1]","[0, 1]",True
+NL2010,nonvote_vs_vote,C_10,1984,1984,True,"[0, 1]","[0, 1]",True
+NL2010,nonvote_vs_vote,unweighted,1984,1984,True,"[0, 1]","[0, 1]",True
+NL2010,nonvote_vs_vote,broad_priority,1984,1984,True,"[0, 1]","[0, 1]",True
+NL2010,nonvote_vs_vote,without_early_intention,1984,1984,True,"[0, 1]","[0, 1]",True
+NL2010,nonvote_vs_vote,v3_inclusive,1984,1984,True,"[0, 1]","[0, 1]",True
+NL2010,nonvote_vs_vote,v4_strict,1984,1984,True,"[0, 1]","[0, 1]",True
+NL2010,nonvote_vs_vote,nl_previous_cabinet,1984,1984,True,"[0, 1]","[0, 1]",True
+NL2010,all_outcomes,C_0.1,1959,1959,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+NL2010,all_outcomes,C_10,1959,1959,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+NL2010,all_outcomes,unweighted,1959,1959,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+NL2010,all_outcomes,broad_priority,1959,1959,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+NL2010,all_outcomes,without_early_intention,1959,1959,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+NL2010,all_outcomes,v3_inclusive,1959,1959,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+NL2010,all_outcomes,v4_strict,1959,1959,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+NL2010,all_outcomes,nl_previous_cabinet,1959,1959,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+NL2012,government_vs_opposition,C_0.1,1210,1210,True,"[0, 1]","[0, 1]",True
+NL2012,government_vs_opposition,C_10,1210,1210,True,"[0, 1]","[0, 1]",True
+NL2012,government_vs_opposition,unweighted,1210,1210,True,"[0, 1]","[0, 1]",True
+NL2012,government_vs_opposition,broad_priority,1210,1210,True,"[0, 1]","[0, 1]",True
+NL2012,government_vs_opposition,without_early_intention,1210,1210,True,"[0, 1]","[0, 1]",True
+NL2012,government_vs_opposition,v3_inclusive,1210,1210,True,"[0, 1]","[0, 1]",True
+NL2012,government_vs_opposition,v4_strict,1210,1210,True,"[0, 1]","[0, 1]",True
+NL2012,government_vs_opposition,narrow_priority,1210,1210,True,"[0, 1]","[0, 1]",True
+NL2012,opposition_type,C_0.1,763,763,True,"[0, 1]","[0, 1]",True
+NL2012,opposition_type,C_10,763,763,True,"[0, 1]","[0, 1]",True
+NL2012,opposition_type,unweighted,763,763,True,"[0, 1]","[0, 1]",True
+NL2012,opposition_type,broad_priority,763,763,True,"[0, 1]","[0, 1]",True
+NL2012,opposition_type,without_early_intention,763,763,True,"[0, 1]","[0, 1]",True
+NL2012,opposition_type,v3_inclusive,763,763,True,"[0, 1]","[0, 1]",True
+NL2012,opposition_type,v4_strict,763,763,True,"[0, 1]","[0, 1]",True
+NL2012,opposition_type,narrow_priority,763,763,True,"[0, 1]","[0, 1]",True
+NL2012,nonvote_vs_vote,C_0.1,1402,1402,True,"[0, 1]","[0, 1]",True
+NL2012,nonvote_vs_vote,C_10,1402,1402,True,"[0, 1]","[0, 1]",True
+NL2012,nonvote_vs_vote,unweighted,1402,1402,True,"[0, 1]","[0, 1]",True
+NL2012,nonvote_vs_vote,broad_priority,1402,1402,True,"[0, 1]","[0, 1]",True
+NL2012,nonvote_vs_vote,without_early_intention,1402,1402,True,"[0, 1]","[0, 1]",True
+NL2012,nonvote_vs_vote,v3_inclusive,1402,1402,True,"[0, 1]","[0, 1]",True
+NL2012,nonvote_vs_vote,v4_strict,1402,1402,True,"[0, 1]","[0, 1]",True
+NL2012,nonvote_vs_vote,narrow_priority,1402,1402,True,"[0, 1]","[0, 1]",True
+NL2012,all_outcomes,C_0.1,1383,1383,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+NL2012,all_outcomes,C_10,1383,1383,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+NL2012,all_outcomes,unweighted,1383,1383,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+NL2012,all_outcomes,broad_priority,1383,1383,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+NL2012,all_outcomes,without_early_intention,1383,1383,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+NL2012,all_outcomes,v3_inclusive,1383,1383,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+NL2012,all_outcomes,v4_strict,1383,1383,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+NL2012,all_outcomes,narrow_priority,1383,1383,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+PT2005,government_vs_opposition,C_0.1,1347,1347,True,"[0, 1]","[0, 1]",True
+PT2005,government_vs_opposition,C_10,1347,1347,True,"[0, 1]","[0, 1]",True
+PT2005,government_vs_opposition,unweighted,1347,1347,True,"[0, 1]","[0, 1]",True
+PT2005,government_vs_opposition,broad_priority,1347,1347,True,"[0, 1]","[0, 1]",True
+PT2005,government_vs_opposition,without_early_intention,1347,1347,True,"[0, 1]","[0, 1]",True
+PT2005,government_vs_opposition,v3_inclusive,1347,1347,True,"[0, 1]","[0, 1]",True
+PT2005,government_vs_opposition,v4_strict,1347,1347,True,"[0, 1]","[0, 1]",True
+PT2005,nonvote_vs_vote,C_0.1,1992,1992,True,"[0, 1]","[0, 1]",True
+PT2005,nonvote_vs_vote,C_10,1992,1992,True,"[0, 1]","[0, 1]",True
+PT2005,nonvote_vs_vote,unweighted,1992,1992,True,"[0, 1]","[0, 1]",True
+PT2005,nonvote_vs_vote,broad_priority,1992,1992,True,"[0, 1]","[0, 1]",True
+PT2005,nonvote_vs_vote,without_early_intention,1992,1992,True,"[0, 1]","[0, 1]",True
+PT2005,nonvote_vs_vote,v3_inclusive,1992,1992,True,"[0, 1]","[0, 1]",True
+PT2005,nonvote_vs_vote,v4_strict,1992,1992,True,"[0, 1]","[0, 1]",True
+PT2005,all_outcomes,C_0.1,1683,1683,True,"[0, 1, 3]","[0, 1, 3]",True
+PT2005,all_outcomes,C_10,1683,1683,True,"[0, 1, 3]","[0, 1, 3]",True
+PT2005,all_outcomes,unweighted,1683,1683,True,"[0, 1, 3]","[0, 1, 3]",True
+PT2005,all_outcomes,broad_priority,1683,1683,True,"[0, 1, 3]","[0, 1, 3]",True
+PT2005,all_outcomes,without_early_intention,1683,1683,True,"[0, 1, 3]","[0, 1, 3]",True
+PT2005,all_outcomes,v3_inclusive,1683,1683,True,"[0, 1, 3]","[0, 1, 3]",True
+PT2005,all_outcomes,v4_strict,1683,1683,True,"[0, 1, 3]","[0, 1, 3]",True
+PT2009,government_vs_opposition,C_0.1,491,491,True,"[0, 1]","[0, 1]",True
+PT2009,government_vs_opposition,C_10,491,491,True,"[0, 1]","[0, 1]",True
+PT2009,government_vs_opposition,unweighted,491,491,True,"[0, 1]","[0, 1]",True
+PT2009,government_vs_opposition,broad_priority,491,491,True,"[0, 1]","[0, 1]",True
+PT2009,government_vs_opposition,without_early_intention,491,491,True,"[0, 1]","[0, 1]",True
+PT2009,government_vs_opposition,v3_inclusive,491,491,True,"[0, 1]","[0, 1]",True
+PT2009,government_vs_opposition,v4_strict,491,491,True,"[0, 1]","[0, 1]",True
+PT2009,nonvote_vs_vote,C_0.1,755,755,True,"[0, 1]","[0, 1]",True
+PT2009,nonvote_vs_vote,C_10,755,755,True,"[0, 1]","[0, 1]",True
+PT2009,nonvote_vs_vote,unweighted,755,755,True,"[0, 1]","[0, 1]",True
+PT2009,nonvote_vs_vote,broad_priority,755,755,True,"[0, 1]","[0, 1]",True
+PT2009,nonvote_vs_vote,without_early_intention,755,755,True,"[0, 1]","[0, 1]",True
+PT2009,nonvote_vs_vote,v3_inclusive,755,755,True,"[0, 1]","[0, 1]",True
+PT2009,nonvote_vs_vote,v4_strict,755,755,True,"[0, 1]","[0, 1]",True
+PT2009,all_outcomes,C_0.1,608,608,True,"[0, 1, 3]","[0, 1, 3]",True
+PT2009,all_outcomes,C_10,608,608,True,"[0, 1, 3]","[0, 1, 3]",True
+PT2009,all_outcomes,unweighted,608,608,True,"[0, 1, 3]","[0, 1, 3]",True
+PT2009,all_outcomes,broad_priority,608,608,True,"[0, 1, 3]","[0, 1, 3]",True
+PT2009,all_outcomes,without_early_intention,608,608,True,"[0, 1, 3]","[0, 1, 3]",True
+PT2009,all_outcomes,v3_inclusive,608,608,True,"[0, 1, 3]","[0, 1, 3]",True
+PT2009,all_outcomes,v4_strict,608,608,True,"[0, 1, 3]","[0, 1, 3]",True
+IS2013,government_vs_opposition,C_0.1,939,939,True,"[0, 1]","[0, 1]",True
+IS2013,government_vs_opposition,C_10,939,939,True,"[0, 1]","[0, 1]",True
+IS2013,government_vs_opposition,unweighted,939,939,True,"[0, 1]","[0, 1]",True
+IS2013,government_vs_opposition,broad_priority,939,939,True,"[0, 1]","[0, 1]",True
+IS2013,government_vs_opposition,without_early_intention,939,939,True,"[0, 1]","[0, 1]",True
+IS2013,government_vs_opposition,v3_inclusive,939,939,True,"[0, 1]","[0, 1]",True
+IS2013,government_vs_opposition,v4_strict,939,939,True,"[0, 1]","[0, 1]",True
+IS2013,opposition_type,C_0.1,642,642,True,"[0, 1]","[0, 1]",True
+IS2013,opposition_type,C_10,642,642,True,"[0, 1]","[0, 1]",True
+IS2013,opposition_type,unweighted,642,642,True,"[0, 1]","[0, 1]",True
+IS2013,opposition_type,broad_priority,642,642,True,"[0, 1]","[0, 1]",True
+IS2013,opposition_type,without_early_intention,642,642,True,"[0, 1]","[0, 1]",True
+IS2013,opposition_type,v3_inclusive,642,642,True,"[0, 1]","[0, 1]",True
+IS2013,opposition_type,v4_strict,642,642,True,"[0, 1]",[0],False
+IS2013,nonvote_vs_vote,C_0.1,1136,1136,True,"[0, 1]","[0, 1]",True
+IS2013,nonvote_vs_vote,C_10,1136,1136,True,"[0, 1]","[0, 1]",True
+IS2013,nonvote_vs_vote,unweighted,1136,1136,True,"[0, 1]","[0, 1]",True
+IS2013,nonvote_vs_vote,broad_priority,1136,1136,True,"[0, 1]","[0, 1]",True
+IS2013,nonvote_vs_vote,without_early_intention,1136,1136,True,"[0, 1]","[0, 1]",True
+IS2013,nonvote_vs_vote,v3_inclusive,1136,1136,True,"[0, 1]","[0, 1]",True
+IS2013,nonvote_vs_vote,v4_strict,1136,1136,True,"[0, 1]","[0, 1]",True
+IS2013,all_outcomes,C_0.1,1007,1007,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+IS2013,all_outcomes,C_10,1007,1007,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+IS2013,all_outcomes,unweighted,1007,1007,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+IS2013,all_outcomes,broad_priority,1007,1007,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+IS2013,all_outcomes,without_early_intention,1007,1007,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+IS2013,all_outcomes,v3_inclusive,1007,1007,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+IS2013,all_outcomes,v4_strict,1007,1007,True,"[0, 1, 2, 3]","[0, 1, 3]",True
+BE2014,government_vs_opposition,C_0.1,1311,1311,True,"[0, 1]","[0, 1]",True
+BE2014,government_vs_opposition,C_10,1311,1311,True,"[0, 1]","[0, 1]",True
+BE2014,government_vs_opposition,unweighted,1311,1311,True,"[0, 1]","[0, 1]",True
+BE2014,government_vs_opposition,broad_priority,1311,1311,True,"[0, 1]","[0, 1]",True
+BE2014,government_vs_opposition,without_early_intention,1311,1311,True,"[0, 1]","[0, 1]",True
+BE2014,government_vs_opposition,v3_inclusive,1311,1311,True,"[0, 1]","[0, 1]",True
+BE2014,government_vs_opposition,v4_strict,1311,1311,True,"[0, 1]","[0, 1]",True
+BE2014,government_vs_opposition,party_trust,1309,1309,True,"[0, 1]","[0, 1]",True
+BE2014,government_vs_opposition,WEIGHT1,1311,1311,True,"[0, 1]","[0, 1]",True
+BE2014,government_vs_opposition,WEIGHT2,1311,1311,True,"[0, 1]","[0, 1]",True
+BE2014,government_vs_opposition,WEIGHT3,1311,1311,True,"[0, 1]","[0, 1]",True
+BE2014,government_vs_opposition,WEIGHT4,1244,1244,True,"[0, 1]","[0, 1]",True
+BE2014,opposition_type,C_0.1,527,527,True,"[0, 1]","[0, 1]",True
+BE2014,opposition_type,C_10,527,527,True,"[0, 1]","[0, 1]",True
+BE2014,opposition_type,unweighted,527,527,True,"[0, 1]","[0, 1]",True
+BE2014,opposition_type,broad_priority,527,527,True,"[0, 1]","[0, 1]",True
+BE2014,opposition_type,without_early_intention,527,527,True,"[0, 1]","[0, 1]",True
+BE2014,opposition_type,v3_inclusive,527,527,True,"[0, 1]","[0, 1]",True
+BE2014,opposition_type,v4_strict,527,527,True,"[0, 1]","[0, 1]",True
+BE2014,opposition_type,party_trust,527,527,True,"[0, 1]","[0, 1]",True
+BE2014,opposition_type,WEIGHT1,527,527,True,"[0, 1]","[0, 1]",True
+BE2014,opposition_type,WEIGHT2,527,527,True,"[0, 1]","[0, 1]",True
+BE2014,opposition_type,WEIGHT3,527,527,True,"[0, 1]","[0, 1]",True
+BE2014,opposition_type,WEIGHT4,500,500,True,"[0, 1]","[0, 1]",True
+BE2014,nonvote_vs_vote,C_0.1,1473,1473,True,"[0, 1]","[0, 1]",True
+BE2014,nonvote_vs_vote,C_10,1473,1473,True,"[0, 1]","[0, 1]",True
+BE2014,nonvote_vs_vote,unweighted,1473,1473,True,"[0, 1]","[0, 1]",True
+BE2014,nonvote_vs_vote,broad_priority,1473,1473,True,"[0, 1]","[0, 1]",True
+BE2014,nonvote_vs_vote,without_early_intention,1473,1473,True,"[0, 1]","[0, 1]",True
+BE2014,nonvote_vs_vote,v3_inclusive,1473,1473,True,"[0, 1]","[0, 1]",True
+BE2014,nonvote_vs_vote,v4_strict,1473,1473,True,"[0, 1]","[0, 1]",True
+BE2014,nonvote_vs_vote,party_trust,1471,1471,True,"[0, 1]","[0, 1]",True
+BE2014,nonvote_vs_vote,WEIGHT1,1473,1473,True,"[0, 1]","[0, 1]",True
+BE2014,nonvote_vs_vote,WEIGHT2,1473,1473,True,"[0, 1]","[0, 1]",True
+BE2014,nonvote_vs_vote,WEIGHT3,1411,1411,True,"[0, 1]","[0, 1]",True
+BE2014,nonvote_vs_vote,WEIGHT4,1381,1381,True,"[0, 1]","[0, 1]",True
+BE2014,all_outcomes,C_0.1,1370,1370,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+BE2014,all_outcomes,C_10,1370,1370,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+BE2014,all_outcomes,unweighted,1370,1370,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+BE2014,all_outcomes,broad_priority,1370,1370,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+BE2014,all_outcomes,without_early_intention,1370,1370,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+BE2014,all_outcomes,v3_inclusive,1370,1370,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+BE2014,all_outcomes,v4_strict,1370,1370,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+BE2014,all_outcomes,party_trust,1368,1368,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+BE2014,all_outcomes,WEIGHT1,1370,1370,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+BE2014,all_outcomes,WEIGHT2,1370,1370,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+BE2014,all_outcomes,WEIGHT3,1370,1370,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+BE2014,all_outcomes,WEIGHT4,1300,1300,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+DK2007,government_vs_opposition,C_0.1,3184,3184,True,"[0, 1]","[0, 1]",True
+DK2007,government_vs_opposition,C_10,3184,3184,True,"[0, 1]","[0, 1]",True
+DK2007,government_vs_opposition,unweighted,3184,3184,True,"[0, 1]","[0, 1]",True
+DK2007,government_vs_opposition,broad_priority,3184,3184,True,"[0, 1]","[0, 1]",True
+DK2007,government_vs_opposition,without_early_intention,3184,3184,True,"[0, 1]","[0, 1]",True
+DK2007,government_vs_opposition,v3_inclusive,3184,3184,True,"[0, 1]","[0, 1]",True
+DK2007,government_vs_opposition,v4_strict,3184,3184,True,"[0, 1]","[0, 1]",True
+DK2007,government_vs_opposition,exclude_web,1075,1075,True,"[0, 1]","[0, 1]",True
+DK2007,opposition_type,C_0.1,1984,1984,True,"[0, 1]","[0, 1]",True
+DK2007,opposition_type,C_10,1984,1984,True,"[0, 1]","[0, 1]",True
+DK2007,opposition_type,unweighted,1984,1984,True,"[0, 1]","[0, 1]",True
+DK2007,opposition_type,broad_priority,1984,1984,True,"[0, 1]","[0, 1]",True
+DK2007,opposition_type,without_early_intention,1984,1984,True,"[0, 1]","[0, 1]",True
+DK2007,opposition_type,v3_inclusive,1984,1984,True,"[0, 1]","[0, 1]",True
+DK2007,opposition_type,v4_strict,1984,1984,True,"[0, 1]","[0, 1]",True
+DK2007,opposition_type,exclude_web,675,675,True,"[0, 1]","[0, 1]",True
+DK2007,nonvote_vs_vote,C_0.1,3236,3236,True,"[0, 1]","[0, 1]",True
+DK2007,nonvote_vs_vote,C_10,3236,3236,True,"[0, 1]","[0, 1]",True
+DK2007,nonvote_vs_vote,unweighted,3236,3236,True,"[0, 1]","[0, 1]",True
+DK2007,nonvote_vs_vote,broad_priority,3236,3236,True,"[0, 1]","[0, 1]",True
+DK2007,nonvote_vs_vote,without_early_intention,3236,3236,True,"[0, 1]","[0, 1]",True
+DK2007,nonvote_vs_vote,v3_inclusive,3236,3236,True,"[0, 1]","[0, 1]",True
+DK2007,nonvote_vs_vote,v4_strict,3236,3236,True,"[0, 1]","[0, 1]",True
+DK2007,nonvote_vs_vote,exclude_web,1105,1105,True,"[0, 1]","[0, 1]",True
+DK2007,all_outcomes,C_0.1,3193,3193,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+DK2007,all_outcomes,C_10,3193,3193,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+DK2007,all_outcomes,unweighted,3193,3193,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+DK2007,all_outcomes,broad_priority,3193,3193,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+DK2007,all_outcomes,without_early_intention,3193,3193,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+DK2007,all_outcomes,v3_inclusive,3193,3193,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+DK2007,all_outcomes,v4_strict,3193,3193,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True
+DK2007,all_outcomes,exclude_web,1084,1084,True,"[0, 1, 2, 3]","[0, 1, 2, 3]",True

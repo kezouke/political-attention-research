@@ -1,0 +1,17 @@
+{
+  "start_utc": "2026-11-06T20:41:17.027331+00:00",
+  "end_utc": "2026-11-06T20:47:30.874238+00:00",
+  "hashes": {
+    "analysis/81_national_comparison_models.py": "08bf0994ec8ce424338f4a2ab3267961fb199ca837188cbc0d72baabad2a5f27",
+    "data/processed/three_explanations/national_input_contract.json": "f5e70181d0dd448486e453a31b1722185f4210961570dd9559af8466ceeead06",
+    "analysis/51_eurobarometer_models.py": "ee3a4cb0c5c14ef002fd49c5fa3ec64997d72c432e8068a3053846ab1248bb50",
+    "analysis/59_bes_pre_election_models.py": "555203a678ad463c5d2325e80592f0de693e72e9e95e7a44f6c8d6ff49deba52"
+  },
+  "full_models": 30,
+  "margin_bootstrap_draws": 1000,
+  "validation_loss_draws": 2000,
+  "refitted_folds_for_validation_intervals": false,
+  "resampling_unit": "individual within survey, not reconstructed survey PSU",
+  "pooled_cross_country_coefficients": false,
+  "microdata_exported": false
+}
