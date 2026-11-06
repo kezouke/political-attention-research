@@ -1,0 +1,29 @@
+{
+  "start_utc": "2026-11-06T19:49:01.008598+00:00",
+  "end_utc": "2026-11-06T19:51:36.611526+00:00",
+  "script_sha256": "6c3da04db59fd425918e1de77b2d8b3d761c66245f4d284760058885c4b4e19b",
+  "contract_sha256": "12d83be33e8a99a47cc15d9604d886e7344287e45e6fb130b103e12a4555da6b",
+  "shared_BES_model_sha256": "555203a678ad463c5d2325e80592f0de693e72e9e95e7a44f6c8d6ff49deba52",
+  "shared_logistic_helper_sha256": "ee3a4cb0c5c14ef002fd49c5fa3ec64997d72c432e8068a3053846ab1248bb50",
+  "bootstrap_draws_per_marginal_estimate": 1000,
+  "heldout_loss_bootstrap_draws": 2000,
+  "nested_C_grid": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "inner_folds": 3,
+  "outer_folds": 5,
+  "nested_blocks": [
+    "baseline",
+    "full"
+  ],
+  "validation_intervals_refit_training": false,
+  "microdata_exported": false,
+  "interpretation": "Pre-election conditional associations, not a causal crisis effect",
+  "remaining": [
+    "Within-person changes of issue importance and policy positions",
+    "Designed 2009/2013 linkage",
+    "Observed-selection sensitivity"
+  ]
+}

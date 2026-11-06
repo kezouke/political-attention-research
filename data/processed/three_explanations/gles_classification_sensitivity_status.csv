@@ -1,0 +1,25 @@
+year,target,scenario,n,same_classes_and_minimum_5,reason_if_skipped
+2009,government_vs_opposition,v3_inclusive,1190,True,
+2009,government_vs_opposition,v4_strict,1190,True,
+2009,government_vs_opposition,v3_strict,1190,True,
+2009,opposition_type,v3_inclusive,639,True,
+2009,opposition_type,v4_strict,639,False,A primary class is absent or has fewer than five observed people
+2009,opposition_type,v3_strict,639,False,A primary class is absent or has fewer than five observed people
+2009,nonvote_vs_vote,v3_inclusive,1370,True,
+2009,nonvote_vs_vote,v4_strict,1370,True,
+2009,nonvote_vs_vote,v3_strict,1370,True,
+2009,four_outcomes,v3_inclusive,1290,True,
+2009,four_outcomes,v4_strict,1290,False,A primary class is absent or has fewer than five observed people
+2009,four_outcomes,v3_strict,1290,False,A primary class is absent or has fewer than five observed people
+2013,government_vs_opposition,v3_inclusive,3021,True,
+2013,government_vs_opposition,v4_strict,3021,True,
+2013,government_vs_opposition,v3_strict,3021,True,
+2013,opposition_type,v3_inclusive,2067,True,
+2013,opposition_type,v4_strict,2067,True,
+2013,opposition_type,v3_strict,2067,True,
+2013,nonvote_vs_vote,v3_inclusive,3502,True,
+2013,nonvote_vs_vote,v4_strict,3502,True,
+2013,nonvote_vs_vote,v3_strict,3502,True,
+2013,four_outcomes,v3_inclusive,3291,True,
+2013,four_outcomes,v4_strict,3291,True,
+2013,four_outcomes,v3_strict,3291,True,

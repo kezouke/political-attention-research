@@ -1,0 +1,41 @@
+{
+  "locked_hashes_match": true,
+  "completed_year_target_models": 8,
+  "marginal_estimates": 100,
+  "bootstrap_draws_per_estimate": 1000,
+  "validation_combinations": 80,
+  "paired_validation_comparisons": 72,
+  "nested_inner_C_candidates": 240,
+  "nested_outer_fits": 80,
+  "sensitivity_specifications": 228,
+  "classification_checks_unestimable": [
+    {
+      "year": 2009,
+      "target": "opposition_type",
+      "scenario": "v4_strict"
+    },
+    {
+      "year": 2009,
+      "target": "opposition_type",
+      "scenario": "v3_strict"
+    },
+    {
+      "year": 2009,
+      "target": "four_outcomes",
+      "scenario": "v4_strict"
+    },
+    {
+      "year": 2009,
+      "target": "four_outcomes",
+      "scenario": "v3_strict"
+    }
+  ],
+  "probability_and_calibration_checks_passed": true,
+  "raw_records_read_by_this_check": false,
+  "validation_intervals_refit_training": false,
+  "remaining": [
+    "Within-person changes of issue importance and policy positions",
+    "Designed 2009/2013 linkage",
+    "Observed-selection sensitivity"
+  ]
+}
