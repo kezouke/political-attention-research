@@ -49,7 +49,7 @@ def versions(x):
         if name == 'reference': w = inputs.normalized_weights(x).to_numpy()
         else:
             probability = x.observation_probability.clip(lower=.05) if name == 'ipw_floor_0.05' else x.observation_probability
-            w = (x.weight / probability).to_numpy(); w *= len(x) / w.sum()
+            w = (x.weight / probability).to_numpy(copy=True); w *= len(x) / w.sum()
         yield name, w, {'effective_n': float(w.sum() ** 2 / np.square(w).sum()),
                         **{f'weight_q{q}': float(np.quantile(w, q / 100)) for q in [0, 1, 5, 50, 95, 99, 100]}}
 
