@@ -1,0 +1,9 @@
+dataset,source_n,age_eligible_n,core_n,core_known_turnout_n,core_explicit_nonvote_n,core_priority_yes_n,weight,timing
+ES2015,6242,6242,5872,5863,672,4013,PESO,government/intention/age/LR pre; economy/priority/trust/vote/education post
+NL2010,2621,2564,1984,1984,154,723,WGT5,priority/government/intention pre; economy/trust/LR/vote post
+NL2012,1677,1677,1402,1402,173,760,WGT2,post; party trust in dropoff questionnaire
+PT2005,2801,2750,2046,1992,336,1344,ponsd,post
+PT2009,1317,1312,791,755,117,430,unweighted,post
+IS2013,1479,1479,1199,1136,68,685,unweighted,post
+BE2014,2019,2019,1474,1473,59,1007,unweighted,priority/government/trust/intention/LR pre; economy/vote post
+DK2007,4018,3998,3284,3236,43,278,V523,post; mixed survey sources including web panel

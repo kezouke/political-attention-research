@@ -1,0 +1,110 @@
+dataset,year,country,survey_code,survey_label,ppeg_name,populist_id,national_participation_verified,national_scope_eligible,mixed_list_unresolved,incumbent,v3_basis,populist_v3_inclusive,outcome_v3_inclusive,populist_v3_strict,outcome_v3_strict,v4_basis,populist_v4_inclusive,outcome_v4_inclusive,populist_v4_strict,outcome_v4_strict
+ES2015,2015,Spain,1,PP,People's Party,,True,True,False,True,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+ES2015,2015,Spain,2,PSOE,Spanish Socialist Workers' Party,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+ES2015,2015,Spain,3,Podemos,We can,2376.0,True,True,False,False,explicit_dated_PopuList_row,1.0,2,1.0,2,explicit_dated_PopuList_row,1.0,2,1.0,2
+ES2015,2015,Spain,4,Ciudadanos,Citizens,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+ES2015,2015,Spain,5,IU (Unidad Popular),Popular Unity,,True,True,True,False,coalition_identity_requires_component_classification,,-1,,-1,coalition_identity_requires_component_classification,,-1,,-1
+ES2015,2015,Spain,6,En Comú Podem,In Common We Can,,True,True,True,False,coalition_identity_requires_component_classification,,-1,,-1,coalition_identity_requires_component_classification,,-1,,-1
+ES2015,2015,Spain,7,Compromís-Podemos-És el Moment,It is time,,True,True,True,False,coalition_identity_requires_component_classification,,-1,,-1,coalition_identity_requires_component_classification,,-1,,-1
+ES2015,2015,Spain,8,ERC,Catalan Republican Left,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+ES2015,2015,Spain,9,Convergència (Democràcia i Llibertat),Democracy and Freedom,,True,True,True,False,coalition_identity_requires_component_classification,,-1,,-1,coalition_identity_requires_component_classification,,-1,,-1
+ES2015,2015,Spain,10,En Marea,In Tide,,True,True,True,False,coalition_identity_requires_component_classification,,-1,,-1,coalition_identity_requires_component_classification,,-1,,-1
+ES2015,2015,Spain,11,EAJ-PNV,Basque Nationalist Party,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+ES2015,2015,Spain,12,EH Bildu,Basque Country Unite,2603.0,True,True,False,False,explicit_dated_PopuList_row,0.0,1,0.0,1,explicit_dated_PopuList_row,0.0,1,0.0,1
+ES2015,2015,Spain,13,CC-PNC,Canarian Coalition,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+ES2015,2015,Spain,14,UPN,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+ES2015,2015,Spain,15,PAR,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+ES2015,2015,Spain,16,Foro Asturias,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+ES2015,2015,Spain,17,Nueva Canarias,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+ES2015,2015,Spain,18,ICV,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+ES2015,2015,Spain,19,CHA,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+ES2015,2015,Spain,20,UPyD,"Union, Progress and Democracy",,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+ES2015,2015,Spain,21,BNG (Nós-Candidatura Galega),,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+ES2015,2015,Spain,22,Geroa Bai,Yes to the Future,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+ES2015,2015,Spain,23,Unió,Democratic Union of Catalonia,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+ES2015,2015,Spain,24,PACMA,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+ES2015,2015,Spain,25,Otro,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+NL2010,2010,Netherlands,1,CDA,Christian Democratic Appeal,,True,True,False,True,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+NL2010,2010,Netherlands,2,PvdA,Labour Party,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+NL2010,2010,Netherlands,3,VVD,People's Party for Freedom and Democracy,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+NL2010,2010,Netherlands,4,GroenLinks,Green Left,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+NL2010,2010,Netherlands,5,SP,Socialist Party,357.0,True,True,False,False,explicit_dated_PopuList_row,1.0,2,0.0,1,explicit_dated_PopuList_row,1.0,2,0.0,1
+NL2010,2010,Netherlands,6,D66,Democrats '66,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+NL2010,2010,Netherlands,7,ChristenUnie,Christian Union,,True,True,False,True,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+NL2010,2010,Netherlands,8,SGP,Political Reformed Party,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+NL2010,2010,Netherlands,9,Partij voor de Vrijheid (Geert Wilders),Party for Freedom,1501.0,True,True,False,False,explicit_dated_PopuList_row,1.0,2,1.0,2,explicit_dated_PopuList_row,1.0,2,1.0,2
+NL2010,2010,Netherlands,10,Partij voor de Dieren,Party for the Animals,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+NL2010,2010,Netherlands,11,Trots op Nederland (Rita Verdonk),,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+NL2012,2012,Netherlands,1,CDA,Christian Democratic Appeal,,True,True,False,True,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+NL2012,2012,Netherlands,2,PvdA,Labour Party,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+NL2012,2012,Netherlands,3,VVD,People's Party for Freedom and Democracy,,True,True,False,True,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+NL2012,2012,Netherlands,4,GroenLinks,Green Left,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+NL2012,2012,Netherlands,5,SP,Socialist Party,357.0,True,True,False,False,explicit_dated_PopuList_row,1.0,2,0.0,1,explicit_dated_PopuList_row,1.0,2,0.0,1
+NL2012,2012,Netherlands,6,D66,Democrats '66,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+NL2012,2012,Netherlands,7,ChristenUnie,Christian Union,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+NL2012,2012,Netherlands,8,SGP,Political Reformed Party,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+NL2012,2012,Netherlands,9,Partij voor de Vrijheid,Party for Freedom,1501.0,True,True,False,False,explicit_dated_PopuList_row,1.0,2,1.0,2,explicit_dated_PopuList_row,1.0,2,1.0,2
+NL2012,2012,Netherlands,10,Partij voor de Dieren,Party for the Animals,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+NL2012,2012,Netherlands,11,Democratisch Politiek Keerpunt,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+NL2012,2012,Netherlands,12,50Plus,50plus,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+PT2005,2005,Portugal,1,Bloco de Esquerda,Left Bloc,557.0,True,True,False,False,explicit_dated_PopuList_row,0.0,1,0.0,1,explicit_dated_PopuList_row,0.0,1,0.0,1
+PT2005,2005,Portugal,2,CDS-PP,Social Democratic Center - Popular Party,,True,True,False,True,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+PT2005,2005,Portugal,3,CDU (PCP/PEV),CDU: PCP + PEV,,True,True,False,False,PCP_explicit_zero_PEV_eligible_unlisted,0.0,1,0.0,1,PCP_explicit_zero_PEV_eligible_unlisted,0.0,1,0.0,1
+PT2005,2005,Portugal,4,PPD-PSD,Social Democratic Party,,True,True,False,True,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+PT2005,2005,Portugal,5,PS,Portuguese Socialist Party,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+PT2005,2005,Portugal,6,Outro,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+PT2009,2009,Portugal,1,Bloco de Esquerda,Left Bloc,557.0,True,True,False,False,explicit_dated_PopuList_row,0.0,1,0.0,1,explicit_dated_PopuList_row,0.0,1,0.0,1
+PT2009,2009,Portugal,2,CDS-PP,Social Democratic Center - Popular Party,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+PT2009,2009,Portugal,3,CDU (PCP/PEV),CDU: PCP + PEV,,True,True,False,False,PCP_explicit_zero_PEV_eligible_unlisted,0.0,1,0.0,1,PCP_explicit_zero_PEV_eligible_unlisted,0.0,1,0.0,1
+PT2009,2009,Portugal,4,PPD-PSD,Social Democratic Party,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+PT2009,2009,Portugal,5,PS,Portuguese Socialist Party,,True,True,False,True,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+PT2009,2009,Portugal,8,Frente Ecologia e Humanismo,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+PT2009,2009,Portugal,9,Movimento Esperança Portugal,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+PT2009,2009,Portugal,10,Movimento Mérito e Sociedade,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+PT2009,2009,Portugal,11,Nova Democracia,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+PT2009,2009,Portugal,12,Partido Comunista dos Trabalhadores Portugueses,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+PT2009,2009,Portugal,13,Partido da Terra,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+PT2009,2009,Portugal,14,Partido Humanista,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+PT2009,2009,Portugal,15,Partido Nacional Renovador,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+PT2009,2009,Portugal,16,Partido Operário de Unidade Socialista,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+PT2009,2009,Portugal,17,Partido Popular Monárquico,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+PT2009,2009,Portugal,18,Portugal Pro Vida,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+PT2009,2009,Portugal,19,Partido Trabalhista,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+PT2009,2009,Portugal,20,Partido Os Verdes,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+IS2013,2013,Iceland,1,Social Democratic Alliance,The Alliance - Social Democratic Party of Iceland,,True,True,False,True,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+IS2013,2013,Iceland,2,Progressive Party,Progressive Party,1455.0,True,True,False,False,explicit_dated_PopuList_row,1.0,2,0.0,1,explicit_dated_PopuList_row,1.0,2,0.0,1
+IS2013,2013,Iceland,3,Independence Party,Independence Party,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+IS2013,2013,Iceland,4,Left Green Movement,Left Green Movement,,True,True,False,True,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+IS2013,2013,Iceland,5,Bright Future,Bright Future,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+IS2013,2013,Iceland,6,Pirate Party,Pirate Party,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+IS2013,2013,Iceland,7,Dawn,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+IS2013,2013,Iceland,8,Democratic Watch,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+IS2013,2013,Iceland,10,Right-Green Peoples Party,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+IS2013,2013,Iceland,12,Rural Party,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+IS2013,2013,Iceland,13,Rainbow,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+IS2013,2013,Iceland,14,Households Party,,,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+BE2014,2014,Belgium,1,CD&V,Christian Democrats & Flemish,,True,True,False,True,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+BE2014,2014,Belgium,2,Groen,Green,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+BE2014,2014,Belgium,3,N-VA,New Flemish Alliance,501.0,True,True,False,False,explicit_dated_PopuList_row,1.0,2,0.0,1,explicit_dated_PopuList_row,0.0,1,0.0,1
+BE2014,2014,Belgium,4,SP.A,Socialist Party Different,,True,True,False,True,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+BE2014,2014,Belgium,5,Vlaams Belang,Flemish Interest,993.0,True,True,False,False,explicit_dated_PopuList_row,1.0,2,1.0,2,explicit_dated_PopuList_row,1.0,2,1.0,2
+BE2014,2014,Belgium,6,Open VLD,Open Flemish Liberals and Democrats,,True,True,False,True,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+BE2014,2014,Belgium,7,LDD,,221.0,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+BE2014,2014,Belgium,8,PvdA +,Workers' Party of Belgium,256.0,True,True,False,False,explicit_dated_PopuList_row,0.0,1,0.0,1,explicit_dated_PopuList_row,1.0,2,0.0,1
+BE2014,2014,Belgium,20,PS,Francophone Socialist Party,,True,True,False,True,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+BE2014,2014,Belgium,21,MR,Reform Movement,,True,True,False,True,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+BE2014,2014,Belgium,22,CDH,Democratic and Humanist Center,,True,True,False,True,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+BE2014,2014,Belgium,23,ECOLO,Francophone Greens,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+BE2014,2014,Belgium,24,FDF,Francophone Democratic Federalists,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+BE2014,2014,Belgium,25,FN,,171.0,False,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+BE2014,2014,Belgium,26,PTB GO,Workers' Party of Belgium,256.0,True,True,False,False,explicit_dated_PopuList_row,0.0,1,0.0,1,explicit_dated_PopuList_row,1.0,2,0.0,1
+BE2014,2014,Belgium,27,PP (Parti Populaire),Popular Party,438.0,True,True,False,False,explicit_dated_PopuList_row,1.0,2,1.0,2,explicit_dated_PopuList_row,1.0,2,1.0,2
+DK2007,2007,Denmark,1,A: Socialdemokraterne,Social Democrats,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+DK2007,2007,Denmark,2,B. Radikale,Danish Social Liberal Party,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+DK2007,2007,Denmark,3,C: Konservative,Conservative People's Party,,True,True,False,True,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+DK2007,2007,Denmark,5,F: Socialistisk Folkeparti,Socialist People's Party,1644.0,True,True,False,False,explicit_dated_PopuList_row,0.0,1,0.0,1,explicit_dated_PopuList_row,0.0,1,0.0,1
+DK2007,2007,Denmark,6,K: Kristendemokraterne,Christian Democrats,,True,False,False,False,unresolved_identity_or_scope,,-1,,-1,unresolved_identity_or_scope,,-1,,-1
+DK2007,2007,Denmark,7,O: Dansk Folkeparti,Danish People's Party,1418.0,True,True,False,False,explicit_dated_PopuList_row,1.0,2,1.0,2,explicit_dated_PopuList_row,1.0,2,1.0,2
+DK2007,2007,Denmark,8,Y: Ny Alliance,New Alliance,,True,True,False,False,eligible_national_party_not_listed,0.0,1,0.0,1,eligible_national_party_not_listed,0.0,1,0.0,1
+DK2007,2007,Denmark,9,V: Venstre,"Left, Denmark's Liberal Party",,True,True,False,True,eligible_national_party_not_listed,0.0,0,0.0,0,eligible_national_party_not_listed,0.0,0,0.0,0
+DK2007,2007,Denmark,10,Ø: Enhedslisten,Red-Green Unity List,306.0,True,True,False,False,explicit_dated_PopuList_row,0.0,1,0.0,1,explicit_dated_PopuList_row,0.0,1,0.0,1

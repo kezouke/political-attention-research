@@ -1,0 +1,33 @@
+dataset,target,n,class_counts,estimable,minimum_class_rule
+ES2015,government_vs_opposition,4466,"{""0"": 3291, ""1"": 1175}",True,20
+ES2015,opposition_type,2653,"{""0"": 1983, ""1"": 670}",True,20
+ES2015,nonvote_vs_vote,5863,"{""0"": 5191, ""1"": 672}",True,20
+ES2015,all_outcomes,4500,"{""0"": 1175, ""1"": 1983, ""2"": 670, ""3"": 672}",True,20
+NL2010,government_vs_opposition,1805,"{""0"": 1506, ""1"": 299}",True,20
+NL2010,opposition_type,1506,"{""0"": 1090, ""1"": 416}",True,20
+NL2010,nonvote_vs_vote,1984,"{""0"": 1830, ""1"": 154}",True,20
+NL2010,all_outcomes,1959,"{""0"": 299, ""1"": 1090, ""2"": 416, ""3"": 154}",True,20
+NL2012,government_vs_opposition,1210,"{""0"": 763, ""1"": 447}",True,20
+NL2012,opposition_type,763,"{""0"": 557, ""1"": 206}",True,20
+NL2012,nonvote_vs_vote,1402,"{""0"": 1229, ""1"": 173}",True,20
+NL2012,all_outcomes,1383,"{""0"": 447, ""1"": 557, ""2"": 206, ""3"": 173}",True,20
+PT2005,government_vs_opposition,1347,"{""0"": 946, ""1"": 401}",True,20
+PT2005,opposition_type,946,"{""0"": 946}",False,20
+PT2005,nonvote_vs_vote,1992,"{""0"": 1656, ""1"": 336}",True,20
+PT2005,all_outcomes,1683,"{""0"": 401, ""1"": 946, ""3"": 336}",True,20
+PT2009,government_vs_opposition,491,"{""0"": 273, ""1"": 218}",True,20
+PT2009,opposition_type,273,"{""0"": 273}",False,20
+PT2009,nonvote_vs_vote,755,"{""0"": 638, ""1"": 117}",True,20
+PT2009,all_outcomes,608,"{""0"": 218, ""1"": 273, ""3"": 117}",True,20
+IS2013,government_vs_opposition,939,"{""0"": 642, ""1"": 297}",True,20
+IS2013,opposition_type,642,"{""0"": 402, ""1"": 240}",True,20
+IS2013,nonvote_vs_vote,1136,"{""0"": 1068, ""1"": 68}",True,20
+IS2013,all_outcomes,1007,"{""0"": 297, ""1"": 402, ""2"": 240, ""3"": 68}",True,20
+BE2014,government_vs_opposition,1311,"{""0"": 527, ""1"": 784}",True,20
+BE2014,opposition_type,527,"{""0"": 411, ""1"": 116}",True,20
+BE2014,nonvote_vs_vote,1473,"{""0"": 1414, ""1"": 59}",True,20
+BE2014,all_outcomes,1370,"{""0"": 784, ""1"": 411, ""2"": 116, ""3"": 59}",True,20
+DK2007,government_vs_opposition,3184,"{""0"": 2018, ""1"": 1166}",True,20
+DK2007,opposition_type,1984,"{""0"": 1678, ""1"": 306}",True,20
+DK2007,nonvote_vs_vote,3236,"{""0"": 3193, ""1"": 43}",True,20
+DK2007,all_outcomes,3193,"{""0"": 1166, ""1"": 1678, ""2"": 306, ""3"": 43}",True,20

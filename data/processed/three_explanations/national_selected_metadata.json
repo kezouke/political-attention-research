@@ -1,0 +1,1546 @@
+{
+  "ES2015": {
+    "CCAA": {
+      "label": "Comunidad autónoma",
+      "values": {
+        "1": "Andalucía",
+        "2": "Aragón",
+        "3": "Asturias (Principado de)",
+        "4": "Balears (Illes)",
+        "5": "Canarias",
+        "6": "Cantabria",
+        "7": "Castilla-La Mancha",
+        "8": "Castilla y León",
+        "9": "Cataluña",
+        "10": "Comunitat Valenciana",
+        "11": "Extremadura",
+        "12": "Galicia",
+        "13": "Madrid (Comunidad de)",
+        "14": "Murcia (Región de)",
+        "15": "Navarra (Comunidad Foral de)",
+        "16": "País Vasco",
+        "17": "Rioja (La)",
+        "18": "Ceuta (Ciudad autónoma de)",
+        "19": "Melilla (Ciudad autónoma de)"
+      }
+    },
+    "P11R": {
+      "label": "Intención de voto en las elecciones generales de 2015 [recodificada]",
+      "values": {
+        "1": "PP",
+        "2": "PSOE",
+        "3": "IU (Unidad Popular)",
+        "4": "UPyD",
+        "5": "Ciudadanos",
+        "6": "Podemos",
+        "7": "Convergència (Democràcia i Llibertat)",
+        "8": "ERC",
+        "10": "Unió",
+        "12": "PNV",
+        "13": "EH Bildu",
+        "14": "Geroa Bai",
+        "16": "BNG (Nós-Candidatura Galega)",
+        "18": "CC",
+        "20": "Compromís-Podemos-És el Moment",
+        "24": "MES",
+        "25": "PI",
+        "43": "En Comú Podem",
+        "45": "En Marea",
+        "90": "Otro",
+        "95": "Voto nulo",
+        "96": "En blanco",
+        "97": "No votaría",
+        "98": "No sabe todavía",
+        "99": "N.C."
+      }
+    },
+    "P21": {
+      "label": "Escala de autoubicación ideológica (1-10)",
+      "values": {
+        "1": "1 Izquierda",
+        "10": "10 Derecha",
+        "98": "N.S.",
+        "99": "N.C."
+      }
+    },
+    "P27": {
+      "label": "Sexo de la persona entrevistada",
+      "values": {
+        "1": "Hombre",
+        "2": "Mujer"
+      }
+    },
+    "P28": {
+      "label": "Edad de la persona entrevistada",
+      "values": {
+        "99": "N.C."
+      }
+    },
+    "P5": {
+      "label": "Valoración de la gestión del gobierno central del PP (4 años)",
+      "values": {
+        "1": "Muy buena",
+        "2": "Buena",
+        "3": "Regular",
+        "4": "Mala",
+        "5": "Muy mala",
+        "8": "N.S.",
+        "9": "N.C."
+      }
+    },
+    "PESO": {
+      "label": "Coeficientes de ponderación",
+      "values": {
+        "0": "N.P.",
+        "1": "Menciona"
+      }
+    },
+    "PESTUDIOS": {
+      "label": "Estudios de la persona entrevistada [recodificada]",
+      "values": {
+        "1": "Sin estudios",
+        "2": "Primaria",
+        "3": "Secundaria 1ª etapa",
+        "4": "Secundaria 2ª etapa",
+        "8": "Cualificación profesional",
+        "5": "F.P.",
+        "6": "Superiores",
+        "7": "Otros",
+        "98": "N.S.",
+        "99": "N.C."
+      }
+    },
+    "PP29": {
+      "label": "Participación electoral en las elecciones generales de 2015",
+      "values": {
+        "1": "No pudo votar",
+        "2": "No quiso ir a votar",
+        "3": "Normalmente vota, pero esta vez no quiso hacerlo",
+        "4": "Normalmente vota, pero esta vez no pudo hacerlo",
+        "5": "Sí que votó",
+        "9": "N.C."
+      }
+    },
+    "PP301": {
+      "label": "Primer lugar",
+      "values": {
+        "1": "El paro",
+        "2": "El terrorismo (internacional)",
+        "3": "La corrupción",
+        "4": "La inseguridad ciudadana",
+        "5": "El Estado de las autonomías/cuestión territorial (menciones genéricas)",
+        "6": "La vivienda",
+        "7": "La economía (menciones genéricas)",
+        "8": "La inmigración",
+        "9": "La sanidad",
+        "10": "La educación",
+        "11": "El medio ambiente",
+        "13": "La creación de empleo",
+        "14": "La reforma laboral",
+        "15": "La crisis económica",
+        "16": "La situación del país",
+        "17": "La recuperación económica",
+        "18": "El fraude fiscal",
+        "19": "Las pensiones",
+        "20": "Las políticas sociales/los temas sociales/los derechos sociales",
+        "21": "Los desahucios",
+        "22": "La violencia contra la mujer",
+        "23": "Las reformas institucionales/La reforma de la Constitución",
+        "24": "Los impuestos/la política fiscal",
+        "25": "La unidad de España",
+        "26": "Cataluña (menciones genéricas)",
+        "27": "Los ataques contra Cataluña/anti-Cataluña",
+        "28": "La independencia de Cataluña",
+        "29": "El referéndum/la autodeterminación de Cataluña",
+        "30": "Las promesas, propuestas electorales (menciones genéricas)",
+        "31": "Las críticas entre partidos/candidatos/as (genéricas o a partidos concretos)",
+        "32": "El derrotar al Gobierno/el Presidente del Gobierno",
+        "33": "El cambio",
+        "34": "El bipartidismo",
+        "35": "Los nuevos partidos/los partidos emergentes",
+        "36": "El poder, la competición por el poder, búsqueda del poder",
+        "37": "Los pactos",
+        "38": "El sistema electoral/la ley electoral",
+        "39": "Los/as refugiados/as",
+        "40": "La protección de los animales",
+        "41": "Los/as políticos/as, la política",
+        "42": "Los recortes",
+        "43": "La precariedad. Los bajos salarios",
+        "44": "La independencia/autodeterminación en genérico",
+        "45": "La falta de Gobierno",
+        "46": "La emigración",
+        "47": "Los nacionalismos",
+        "48": "La justicia",
+        "49": "Las drogas",
+        "50": "Los problemas de la agricultura, ganadería",
+        "51": "La juventud",
+        "52": "Las infraestructuras",
+        "95": "Otros temas",
+        "96": "Todos los temas",
+        "97": "Ningún tema",
+        "98": "N.S.",
+        "99": "N.C."
+      }
+    },
+    "PP31R": {
+      "label": "Recuerdo de voto en las elecciones generales de 2015 de los votantes [recodificada]",
+      "values": {
+        "0": "N.P.",
+        "1": "PP",
+        "2": "PSOE",
+        "3": "Podemos",
+        "4": "Ciudadanos",
+        "5": "IU (Unidad Popular)",
+        "6": "En Comú Podem",
+        "7": "Compromís-Podemos-És el Moment",
+        "8": "ERC",
+        "9": "Convergència (Democràcia i Llibertat)",
+        "10": "En Marea",
+        "11": "EAJ-PNV",
+        "12": "EH Bildu",
+        "13": "CC-PNC",
+        "14": "UPN",
+        "15": "PAR",
+        "16": "Foro Asturias",
+        "17": "Nueva Canarias",
+        "18": "ICV",
+        "19": "CHA",
+        "20": "UPyD",
+        "21": "BNG (Nós-Candidatura Galega)",
+        "22": "Geroa Bai",
+        "23": "Unió",
+        "24": "PACMA",
+        "25": "Otro",
+        "77": "Voto nulo",
+        "96": "Votar en blanco",
+        "99": "N.C."
+      }
+    },
+    "PP602": {
+      "label": "Los partidos políticos",
+      "values": {
+        "0": "0 No confía nada en absoluto",
+        "10": "10 Confía totalmente",
+        "98": "N.S.",
+        "99": "N.C."
+      }
+    },
+    "PP9": {
+      "label": "Valoración retrospectiva de la situación económica de España (4 años)",
+      "values": {
+        "1": "Ha mejorado mucho",
+        "2": "Ha mejorado un poco",
+        "3": "Ha permanecido igual que estaba",
+        "4": "Ha empeorado un poco",
+        "5": "Ha empeorado mucho",
+        "8": "N.S.",
+        "9": "N.C."
+      }
+    }
+  },
+  "NL2010": {
+    "V010": {
+      "label": "Respondent - Gender",
+      "values": {
+        "994.0": "PA",
+        "995.0": "CATI",
+        "2.0": "Female",
+        "999.0": "INAP",
+        "997.0": "DK/NA",
+        "996.0": "PAPI",
+        "1.0": "Male",
+        "998.0": "REF"
+      }
+    },
+    "V041": {
+      "label": "Most important national problem (first answer)",
+      "values": {
+        "3.0": "Politics",
+        "99997.0": "DK/NA",
+        "2.0": "Social security",
+        "11.0": "Housing",
+        "13.0": "Population",
+        "99991.0": "There are no problems",
+        "15.0": "Norms and Values",
+        "8.0": "Income/Price levels",
+        "4.0": "Crime",
+        "5.0": "Defense",
+        "12.0": "Environment",
+        "6.0": "Health care",
+        "9.0": "Employment",
+        "99995.0": "CATI",
+        "14.0": "Minorities",
+        "16.0": "Leisure time",
+        "1.0": "Economy/Financial situation",
+        "99996.0": "PAPI",
+        "7.0": "Education",
+        "10.0": "Traffic/mobility"
+      }
+    },
+    "V073": {
+      "label": "General satisfaction with government",
+      "values": {
+        "997.0": "DK/NA",
+        "994.0": "PA",
+        "3.0": "Neither satisfied nor dissatisfied",
+        "1.0": "Very satisfied",
+        "995.0": "CATI",
+        "998.0": "REF",
+        "2.0": "Satisfied",
+        "4.0": "Dissatisfied",
+        "5.0": "Very dissatisfied",
+        "999.0": "INAP",
+        "996.0": "PAPI"
+      }
+    },
+    "V081": {
+      "label": "Vote intention 2010 parliamentary elections",
+      "values": {
+        "7.0": "ChristenUnie",
+        "2.0": "PvdA",
+        "5.0": "SP",
+        "11.0": "TON",
+        "6.0": "D66",
+        "8.0": "SGP",
+        "999.0": "INAP",
+        "4.0": "GroenLinks",
+        "998.0": "REF",
+        "996.0": "PAPI",
+        "15.0": "Other party",
+        "10.0": "PvdD",
+        "9.0": "PVV",
+        "12.0": "Blank vote",
+        "997.0": "DK/NA",
+        "14.0": "Local party",
+        "13.0": "Invalid",
+        "1.0": "CDA",
+        "995.0": "CATI",
+        "994.0": "PA",
+        "3.0": "VVD"
+      }
+    },
+    "V410": {
+      "label": "Highest education (completed) of respondent",
+      "values": {
+        "997.0": "DK/NA",
+        "2.0": "Lower vocational",
+        "995.0": "CATI",
+        "1.0": "Elementary",
+        "996.0": "PAPI",
+        "5.0": "Higher level vocational/University",
+        "4.0": "Middle level vocational/Higher level secondary",
+        "-1.0": "Currently elementary",
+        "3.0": "Secondary"
+      }
+    },
+    "V443": {
+      "label": "Age",
+      "values": {
+        "998.0": "REF",
+        "995.0": "CATI",
+        "999.0": "INAP",
+        "997.0": "DK/NA",
+        "994.0": "PA",
+        "996.0": "PAPI"
+      }
+    },
+    "V510": {
+      "label": "Did vote in 2010 parliamentary elections",
+      "values": {
+        "0.0": "No",
+        "998.0": "REF",
+        "996.0": "PAPI",
+        "994.0": "PA",
+        "999.0": "INAP",
+        "995.0": "CATI",
+        "997.0": "DK/NA",
+        "1.0": "Yes"
+      }
+    },
+    "V512": {
+      "label": "Party voted for in 2010 parliamentary elections",
+      "values": {
+        "13.0": "Ongeldig",
+        "2.0": "PvdA",
+        "8.0": "SGP",
+        "7.0": "ChristenUnie",
+        "14.0": "invalid",
+        "996.0": "PAPI",
+        "6.0": "D66",
+        "997.0": "DK/NA",
+        "1.0": "CDA",
+        "995.0": "CATI",
+        "15.0": "other party",
+        "9.0": "Partij voor de Vrijheid (Geert Wilders)",
+        "5.0": "SP",
+        "3.0": "VVD",
+        "11.0": "Trots op Nederland (Rita Verdonk)",
+        "999.0": "INAP",
+        "16.0": "DK",
+        "12.0": "blanco",
+        "10.0": "Partij voor de Dieren",
+        "994.0": "PA",
+        "998.0": "REF",
+        "4.0": "GroenLinks"
+      }
+    },
+    "V711": {
+      "label": "Left-right self-rating (10 point scale)",
+      "values": {
+        "1.0": "one",
+        "997.0": "DK/NA",
+        "996.0": "PAPI",
+        "5.0": "five",
+        "0.0": "0 left",
+        "991.0": "DK party",
+        "4.0": "four",
+        "7.0": "seven",
+        "998.0": "REF",
+        "994.0": "PA",
+        "6.0": "six",
+        "995.0": "CATI",
+        "999.0": "INAP",
+        "9.0": "nine",
+        "2.0": "two",
+        "10.0": "10 right",
+        "8.0": "eight",
+        "3.0": "three"
+      }
+    },
+    "V811": {
+      "label": "Trust: Political parties",
+      "values": {
+        "994.0": "PA",
+        "996.0": "PAPI",
+        "3.0": "Not so much",
+        "1.0": "Very Much",
+        "997.0": "DK/NA",
+        "4.0": "No trust at all",
+        "995.0": "CATI",
+        "2.0": "Fairly much",
+        "998.0": "REF",
+        "999.0": "INAP"
+      }
+    },
+    "V820": {
+      "label": "Evaluation economic situation in the Netherlands: past twelve months",
+      "values": {
+        "998.0": "REF",
+        "1.0": "Improved",
+        "995.0": "CATI",
+        "994.0": "PA",
+        "999.0": "INAP",
+        "2.0": "Got worse",
+        "996.0": "PAPI",
+        "3.0": "No difference",
+        "997.0": "DK/NA"
+      }
+    },
+    "WGT5": {
+      "label": "Weight V: age, gender, marital status, urbanization, region, ethnicity (All wave I & II)",
+      "values": {}
+    }
+  },
+  "NL2012": {
+    "V071": {
+      "label": "Most important national problem 1st (code)",
+      "values": {
+        "999.0": "DK/NA/Cannot be coded",
+        "10.0": "Traffic/mobility",
+        "8.0": "Income/Price levels/Taxes",
+        "16.0": "Media",
+        "1.0": "Economy/Financial situation",
+        "991.0": "There are no problems",
+        "14.0": "Minorities",
+        "6.0": "Healthcare",
+        "12.0": "Environment",
+        "13.0": "Population",
+        "9.0": "Employment",
+        "7.0": "Education",
+        "4.0": "Crime",
+        "2.0": "Social security",
+        "3.0": "Politics",
+        "5.0": "Defense",
+        "11.0": "Housing",
+        "15.0": "Norms and Values"
+      }
+    },
+    "V093": {
+      "label": "General satisfaction with government",
+      "values": {
+        "4.0": "Dissatisfied",
+        "1.0": "Very satisfied",
+        "998.0": "NA/Refusal",
+        "2.0": "Satisfied",
+        "3.0": "Satisfied nor dissatisfied",
+        "5.0": "Very unsatisfied",
+        "995.0": "INAP",
+        "999.0": "Don't know"
+      }
+    },
+    "V130": {
+      "label": "Left-right self-rating (10 point scale)",
+      "values": {
+        "10.0": "10 right",
+        "6.0": "Six",
+        "3.0": "Three",
+        "4.0": "Four",
+        "8.0": "Eight",
+        "0.0": "0 left",
+        "998.0": "NA/Refusal",
+        "999.0": "Don't know",
+        "11.0": "Does not know party",
+        "9.0": "Nine",
+        "2.0": "Two",
+        "7.0": "Seven",
+        "995.0": "INAP",
+        "1.0": "One",
+        "5.0": "Five"
+      }
+    },
+    "V210": {
+      "label": "Did (not) vote in 20122 parliamentary elections",
+      "values": {
+        "2.0": "No",
+        "1.0": "Yes",
+        "999.0": "Don't know",
+        "998.0": "NA/Refusal",
+        "995.0": "INAP"
+      }
+    },
+    "V212": {
+      "label": "Party voted for in 2012 parliamentary elections",
+      "values": {
+        "11.0": "Democratisch Politiek Keerpunt",
+        "1.0": "CDA",
+        "995.0": "INAP",
+        "9.0": "Partij voor de Vrijheid",
+        "15.0": "Invalid",
+        "8.0": "SGP",
+        "7.0": "ChristenUnie",
+        "2.0": "PvdA",
+        "4.0": "GroenLinks",
+        "999.0": "Don't know",
+        "16.0": "DK",
+        "3.0": "VVD",
+        "6.0": "D66",
+        "14.0": "Blanco",
+        "998.0": "NA/Refusal",
+        "13.0": "Other party",
+        "10.0": "Partij voor de Dieren",
+        "12.0": "50Plus",
+        "5.0": "SP"
+      }
+    },
+    "V311": {
+      "label": "Evaluation economic situation in the Netherlands, past twelve months",
+      "values": {
+        "1.0": "Improved",
+        "998.0": "NA/Refusal",
+        "995.0": "INAP",
+        "3.0": "Got worse",
+        "999.0": "Don't know",
+        "2.0": "Remained the same"
+      }
+    },
+    "V340": {
+      "label": "Age respondent at election date (12 sept 2012)",
+      "values": {
+        "96.0": "96 years old",
+        "18.0": "18 years old"
+      }
+    },
+    "V341": {
+      "label": "Gender",
+      "values": {
+        "1.0": "Male",
+        "2.0": "Female"
+      }
+    },
+    "V344": {
+      "label": "Highest education (completed) of respondent",
+      "values": {
+        "5.0": "Higher level vocational/University",
+        "998.0": "NA/Refusal",
+        "4.0": "Middle level vocational/Higher level secondary",
+        "3.0": "Secondary",
+        "999.0": "DK",
+        "2.0": "Lower vocational",
+        "9.0": "Onbekend",
+        "1.0": "Elementary"
+      }
+    },
+    "V451": {
+      "label": "Trust: Political parties",
+      "values": {
+        "998.0": "DK/NA",
+        "1.0": "Very Much",
+        "3.0": "Not so much",
+        "2.0": "Fairly much",
+        "994.0": "PA",
+        "4.0": "No trust at all"
+      }
+    },
+    "WGT2": {
+      "label": "Weight papi without voting behaviour",
+      "values": {}
+    }
+  },
+  "PT2005": {
+    "Sexo": {
+      "label": "Sexo",
+      "values": {
+        "1.0": "Masculino",
+        "9.0": "Sexo não registado por inquiridor",
+        "2.0": "Feminino"
+      }
+    },
+    "d2": {
+      "label": "Idade",
+      "values": {
+        "999.0": "Idade não registada"
+      }
+    },
+    "d4": {
+      "label": "Qual foi o grau de escolaridade mais elevado que atingiu?",
+      "values": {
+        "6.0": "Secundário incompleto",
+        "13.0": "Nr",
+        "3.0": "Primário completo",
+        "12.0": "Ns",
+        "9.0": "Superior completo",
+        "7.0": "Secundário completo",
+        "10.0": "Pós-Graduação incompleta",
+        "1.0": "Nenhum",
+        "2.0": "Primário incompleto",
+        "11.0": "Pós-Graduação completa",
+        "5.0": "Ensino Básico completo",
+        "8.0": "Superior incompleto",
+        "4.0": "Ensino Básico incompleto"
+      }
+    },
+    "p1": {
+      "label": "Qual foi o problema mais importante com que Portugal se deparou nos últimos 3 anos?",
+      "values": {
+        "36.0": "O Euro",
+        "9.0": "Má situação da economia em geral",
+        "73.0": "Iraque",
+        "8.0": "Críticas à política e ao governo em geral",
+        "12.0": "Eleições: estratégia de campanha",
+        "59.0": "Ciências: médicas e farmacêuticas, genética, clonagem, trans",
+        "6.0": "Aborto",
+        "33.0": "Competitividade",
+        "74.0": "Processo de paz no Médio Oriente",
+        "30.0": "Bolsa, Mercado de capitais",
+        "54.0": "Política cultural do estado, língua portuguesa, subsídios à",
+        "57.0": "Educação",
+        "18.0": "Eleições: debates entre partidos e políticos",
+        "87.0": "Administração pública, burocracia",
+        "31.0": "Orçamento nacional ou local",
+        "42.0": "Ordenados/rendimentos, pobreza",
+        "62.0": "Integração europeia, alargamento",
+        "69.0": "Habitação, mercado imibiliário, rendas, empréstimos",
+        "98.0": "Outro tópico",
+        "88.0": "Valores e normas sociais",
+        "5.0": "Sida",
+        "34.0": "Consumidores",
+        "999.0": "Nr",
+        "56.0": "Droga, consumo e tráfico, combate a consumo ou tráfico",
+        "71.0": "Infraestruturas, tráfego, transportes",
+        "17.0": "Eleições: posições dos partidos sobre temas",
+        "64.0": "Política da União Europeia em geral",
+        "61.0": "Energia",
+        "85.0": "Guerra/Paz",
+        "75.0": "Políticas de migração/imigração: asilo. Legalização, residên",
+        "89.0": "Outro tópico político",
+        "40.0": "Comércio Internaciona, balança de pagamentos, défice comerci",
+        "94.0": "Desastres naturais",
+        "38.0": "Pensões, reformas",
+        "35.0": "Dívida pública",
+        "52.0": "Sistema judicial, tribunais",
+        "90.0": "Acidentes",
+        "39.0": "Impostos e política fiscal",
+        "65.0": "Política externa, relações entre estados, organizações inter",
+        "11.0": "Eleições: os candidatos, os políticos, os partidos, a sua im",
+        "81.0": "Outros conflitos e problemas sociais",
+        "97.0": "Clima",
+        "55.0": "Defesa e segurança externa",
+        "80.0": "Direitos humanos",
+        "67.0": "Alimentos geneticamente modificados",
+        "15.0": "Eleições: resultados eleitorais",
+        "10.0": "Eleições: as eleições em si mesmas e o procedimento de votaç",
+        "50.0": "Agricultura e pescas",
+        "19.0": "Outros tópicos relacionados com eleições",
+        "86.0": "Democracia",
+        "76.0": "Políticas de integração/minorias: direitos sociais, político",
+        "58.0": "Ciências: física, geologia, astronomia, etc",
+        "41.0": "Desemprego",
+        "16.0": "Eleições: abstenção",
+        "91.0": "Crimes concretos",
+        "43.0": "Políticas sociais, segurança social, abono de família",
+        "78.0": "Terrorismo",
+        "77.0": "Regiões, políticas regionais",
+        "53.0": "Criminalidade, lei e ordem, combate ao crime, insegurança",
+        "79.0": "Conflitos violentos, manifestações, agitação social",
+        "92.0": "Cultura (artes, filmes, música, teatro, media)",
+        "49.0": "Outros tópicos ligados à economia ou política económica",
+        "68.0": "Saúde e cuidados de saúde, sistema nacional de saúde, sua re",
+        "14.0": "Eleições: sondagens",
+        "66.0": "Segurança alimentar, BSE, etc",
+        "32.0": "Empresas, negócios, falências, indústria",
+        "37.0": "Inflação",
+        "51.0": "Corrupção política",
+        "95.0": "Religião",
+        "93.0": "Interesse humano: pessoas conhecidas, celebridades, eventos",
+        "96.0": "Desporto",
+        "63.0": "Instituições europeias, constituição europeia, comissão euro",
+        "99.0": "Ns",
+        "72.0": "Conflitos inter e intra-partidários, lutas entre facções ou",
+        "70.0": "Meios de comunicação social, informação, política audio-visu",
+        "60.0": "Ambiente, poluição, aquecimento global, etc",
+        "13.0": "Eleições: propaganda política"
+      }
+    },
+    "p12.3": {
+      "label": "Os políticos não se importam muito com aquilo que pensam pessoas como eu",
+      "values": {
+        "2.0": "Concorda",
+        "3.0": "Não concorda nem discorda",
+        "5.0": "Discorda totalmente",
+        "7.0": "Nr",
+        "6.0": "Ns",
+        "4.0": "Discorda",
+        "1.0": "Concorda totalmente"
+      }
+    },
+    "p24": {
+      "label": "Em relação às últimas eleições, qual das seguintes situações é adequada ao seu caso?",
+      "values": {
+        "2.0": "Não votou",
+        "5.0": "Nr",
+        "1.0": "Votou",
+        "3.0": "Não votou porque não estava recenseado",
+        "4.0": "Ns"
+      }
+    },
+    "p25": {
+      "label": "Importa-se de me dizer em que partido/coligação votou?",
+      "values": {
+        "2.0": "CDS-PP",
+        "97.0": "Não recenseado",
+        "6.0": "Outro",
+        "7.0": "Votou em branco ou votou nulo",
+        "99.0": "Nr à p24",
+        "5.0": "PS",
+        "10.0": "Ns",
+        "98.0": "Ns à p24",
+        "11.0": "Nr",
+        "3.0": "CDU (PCP/PEV)",
+        "1.0": "Bloco de Esquerda",
+        "4.0": "PPD-PSD",
+        "8.0": "Abstenção",
+        "96.0": "Abstenção"
+      }
+    },
+    "p5": {
+      "label": "Pensando no desempenho geral do governo de Pedro Santana Lopes, como avaliaria o trabalho desse governo?",
+      "values": {
+        "1.0": "Muito bom",
+        "3.0": "Mau",
+        "4.0": "Muito mau",
+        "6.0": "Nr",
+        "5.0": "Ns",
+        "2.0": "Bom"
+      }
+    },
+    "p61": {
+      "label": "Na sua opinião, no último ano, o estado da economia em Portugal:",
+      "values": {
+        "7.0": "Nr",
+        "2.0": "Melhorou pouco",
+        "5.0": "Piorou muito",
+        "6.0": "Ns",
+        "3.0": "Ficou na mesma",
+        "1.0": "Melhorou muito",
+        "4.0": "Piorou um pouco"
+      }
+    },
+    "p69": {
+      "label": "Onde é que se posicionaria numa escala de 0 a 10, onde 0 significa esquerda e 10 direita?",
+      "values": {
+        "0.0": "Esquerda",
+        "11.0": "Ns",
+        "12.0": "Nr",
+        "10.0": "Direita"
+      }
+    },
+    "ponsd": {
+      "label": "Ponderador socio-demográfico:sexo, idade(18-34, 35-54, 55+) e instrução (básico ou menos, secundário, superior)",
+      "values": {}
+    }
+  },
+  "PT2009": {
+    "D2": {
+      "label": "Idade",
+      "values": {
+        "999.0": "Não respondeu"
+      }
+    },
+    "D4": {
+      "label": "Qual foi o grau de escolaridade mais elevado que atingiu? ",
+      "values": {
+        "99.0": "Não responde",
+        "3.0": "Primário completo (4ª classe)",
+        "2.0": "Primário incompleto",
+        "7.0": "Superior completo (bacharelato/licenciatura…)",
+        "4.0": "Secundário incompleto",
+        "1.0": "Nenhum",
+        "5.0": "Secundário completo (antigo 7º/ actual 12º ano)",
+        "98.0": "Não sabe",
+        "6.0": "Superior incompleto"
+      }
+    },
+    "P1": {
+      "label": "Qual foi o assunto mais importante, para si pessoalmente, nestas eleições legislativas?",
+      "values": {
+        "1.0": "Desemprego",
+        "24.0": "Falta de entendimento entre partidos",
+        "16.0": "Salários",
+        "54.0": "Liberdade de expressão",
+        "50.0": "Apoios à habitação",
+        "36.0": "A atribuição de subsídios a quem não precisa",
+        "32.0": "Casamento entre pessoas do mesmo sexo",
+        "12.0": "Desenvolvimento do país",
+        "28.0": "Apoio às pequenas e médias empresas",
+        "6.0": "Obras públicas",
+        "38.0": "A subida dos preços/Diminuição do poder de compra",
+        "5.0": "Segurança/ Criminalidade",
+        "21.0": "Situação dos professores",
+        "11.0": "Redução dos impostos",
+        "53.0": "O aborto",
+        "90.0": "Outros",
+        "22.0": "Mudança de governo",
+        "45.0": "Aumento do fundo de desemprego",
+        "33.0": "Meio ambiente",
+        "27.0": "Pobreza",
+        "42.0": "A oposição ser fraca",
+        "19.0": "Não cumprimento das promessas políticas",
+        "99.0": "Não responde",
+        "7.0": "Governação do país",
+        "49.0": "Melhoria do nível de vida",
+        "8.0": "As reformas",
+        "30.0": "Estabilidade política",
+        "26.0": "Controlo do défice",
+        "51.0": "Investimentos públicos",
+        "43.0": "Orçamento de estado",
+        "4.0": "Saúde",
+        "25.0": "Agricultura",
+        "14.0": "Justiça",
+        "37.0": "Atribuição de casas aos mais necessitados",
+        "98.0": "Não sabe",
+        "52.0": "Políticas face ao trabalho",
+        "2.0": "Situação económica/financeira",
+        "47.0": "Formação do governo",
+        "18.0": "Apoios a crianças, idosos e outros grupos",
+        "23.0": "Segurança Social",
+        "10.0": "A maioria absoluta",
+        "41.0": "Desigualdade social",
+        "34.0": "Fundos comunitários",
+        "39.0": "Tratar melhor os deficientes",
+        "15.0": "Crise",
+        "17.0": "Manutenção do PS no governo",
+        "20.0": "Ordenado mínimo nacional",
+        "55.0": "Políticas de emigração",
+        "9.0": "Corrupção",
+        "44.0": "Urbanísmo",
+        "13.0": "A abstenção/Apelo ao voto",
+        "31.0": "Divida externa",
+        "97.0": "Nenhum",
+        "3.0": "Educação",
+        "29.0": "Escutas telefónicas",
+        "48.0": "O futuro do país",
+        "46.0": "Programa político dos partidos",
+        "40.0": "Custo de vida",
+        "35.0": "Maus investimentos"
+      }
+    },
+    "P11_5": {
+      "label": "Grau de concordância: \"Os políticos não se importam muito com aquilo que pensam pessoas como eu. \"",
+      "values": {
+        "5.0": "Concorda totalmente",
+        "1.0": "Discorda totalmente",
+        "4.0": "Concorda",
+        "2.0": "Discorda",
+        "98.0": "Não sabe",
+        "3.0": "Não concorda nem discorda",
+        "99.0": "Não responde"
+      }
+    },
+    "P27": {
+      "label": "Em relação a essas eleições, qual das seguintes situações é adequada ao seu caso? ",
+      "values": {
+        "3.0": "Não votou porque não estava recenseado",
+        "99.0": "Não responde",
+        "98.0": "Não sabe",
+        "1.0": "Votou",
+        "2.0": "Não votou porque não quis ou não pôde"
+      }
+    },
+    "P28": {
+      "label": "Importa-se de me dizer em que partido/coligação votou?",
+      "values": {
+        "13.0": "Partido da Terra",
+        "14.0": "Partido Humanista",
+        "8.0": "Frente Ecologia e Humanismo",
+        "99.0": "Não responde",
+        "16.0": "Partido Operário de Unidade Socialista",
+        "11.0": "Nova Democracia",
+        "17.0": "Partido Popular Monárquico",
+        "10.0": "Movimento Mérito e Sociedade",
+        "3.0": "CDU (PCP/PEV)",
+        "18.0": "Portugal Pro Vida",
+        "20.0": "Partido Os Verdes",
+        "2.0": "CDS-PP",
+        "97.0": "Votou em branco ou votou nulo",
+        "9.0": "Movimento Esperança Portugal",
+        "4.0": "PPD-PSD",
+        "12.0": "Partido Comunista dos Trabalhadores Portugueses",
+        "15.0": "Partido Nacional Renovador",
+        "98.0": "Não sabe",
+        "19.0": "Partido Trabalhista",
+        "5.0": "PS",
+        "1.0": "Bloco de Esquerda"
+      }
+    },
+    "P69": {
+      "label": "Na sua opinião, no último ano, o estado da economia em Portugal… ",
+      "values": {
+        "1.0": "Piorou muito",
+        "99.0": "Não responde",
+        "2.0": "Piorou um pouco",
+        "4.0": "Melhorou pouco",
+        "98.0": "Não sabe",
+        "3.0": "Ficou na mesma",
+        "5.0": "Melhorou muito"
+      }
+    },
+    "P7": {
+      "label": "Pensando no DESEMPENHO GERAL do governo de José Sócrates, como avaliaria o trabalho desse governo? Diria que o governo fez um trabalho… ?",
+      "values": {
+        "98.0": "Não sabe",
+        "3.0": "Bom",
+        "99.0": "Não responde",
+        "1.0": "Muito mau",
+        "2.0": "Mau",
+        "4.0": "Muito Bom"
+      }
+    },
+    "P76": {
+      "label": "Em política, as pessoas por vezes falam de esquerda e direita. Onde é que se posicionaria numa escala de 0 a 10, onde 0 significa esquerda e 10 significa direita?",
+      "values": {
+        "99.0": "Não responde",
+        "10.0": "Direita",
+        "0.0": "Esquerda",
+        "98.0": "Não sabe"
+      }
+    },
+    "SEXO": {
+      "label": "Sexo",
+      "values": {
+        "2.0": "Feminino",
+        "1.0": "Masculino"
+      }
+    }
+  },
+  "IS2013": {
+    "age": {
+      "label": "Respondent�s age",
+      "values": {}
+    },
+    "ecobettwors": {
+      "label": "Would you say that over the past twelve months, the state of the economy in Iceland has gotten better, stayed about the same, or gotten worse?",
+      "values": {
+        "9.0": "Missing",
+        "1.0": "Gotten better",
+        "3.0": "Stayed about the same",
+        "8.0": "Don�t know (volunteered)",
+        "5.0": "Gotten worse",
+        "7.0": "Refuses to answer (volunteered)"
+      }
+    },
+    "education": {
+      "label": "Education of the respondent",
+      "values": {
+        "2.0": "Incomplete primary",
+        "7.0": "University undergraduate degree incomplete",
+        "5.0": "Complete secondary",
+        "98.0": "Don�t know (volunteered)",
+        "6.0": "Post-secondary trade / vocational school",
+        "8.0": "University undergraduate degree complete",
+        "99.0": "Missing",
+        "97.0": "Refuses to answer (volunteered)",
+        "4.0": "Incomplete secondary",
+        "3.0": "Complete primary"
+      }
+    },
+    "gender": {
+      "label": "Gender of the respondent.",
+      "values": {
+        "1.0": "Male",
+        "2.0": "Female"
+      }
+    },
+    "govprfmJS": {
+      "label": "How good or bad a job in general do you think the government of the Social Democratic Alliance and the Left-Green Movement, that was in power from 2009 until 2013, has done while it was in power?",
+      "values": {
+        "9.0": "Missing",
+        "8.0": "Don�t know (volunteered)",
+        "1.0": "Very good",
+        "7.0": "Refuses to answer (volunteered)",
+        "4.0": "Very bad",
+        "3.0": "Somewhat bad",
+        "2.0": "Somewhat good"
+      }
+    },
+    "issue12013": {
+      "label": "What has been the most important issue to you personally in this election? � Coded categories.",
+      "values": {
+        "99.0": "Missing",
+        "2.0": "Welfare system / health / education",
+        "6.0": "Labour market",
+        "3.0": "European Union / the euro",
+        "97.0": "Refuses to answer (volunteered)",
+        "5.0": "Democracy / issues of democracy",
+        "4.0": "Environment / energy issues",
+        "90.0": "Other issues",
+        "98.0": "Don�t know (volunteered)",
+        "7.0": "The issues abot natural resources",
+        "89.0": "None / names none",
+        "8.0": "The issue about the Constitution",
+        "9.0": "Taxes",
+        "1.0": "The economy"
+      }
+    },
+    "lrscale": {
+      "label": "Left-right self-placement of the respondent",
+      "values": {
+        "99.0": "Missing",
+        "6.0": "6",
+        "10.0": "Right",
+        "7.0": "7",
+        "8.0": "8",
+        "2.0": "2",
+        "9.0": "9",
+        "1.0": "1",
+        "3.0": "3",
+        "0.0": "Left",
+        "5.0": "5",
+        "98.0": "Don�t know (volunteered)",
+        "4.0": "4",
+        "97.0": "Refuses to answer (volunteered)"
+      }
+    },
+    "pltrust": {
+      "label": "Do you think that politicians are in general trustworthy, that many of them are trustworthy, some are trustworthy, few, or perhaps none?",
+      "values": {
+        "9.0": "Missing",
+        "4.0": "Few",
+        "7.0": "Refuses to answer (volunteered)",
+        "3.0": "Some",
+        "1.0": "In general",
+        "5.0": "None",
+        "8.0": "Don�t know (volunteered)",
+        "2.0": "Many"
+      }
+    },
+    "prtvote13": {
+      "label": "What party or list did you vote for?",
+      "values": {
+        "5.0": "Bright Future",
+        "12.0": "Rural Party",
+        "98.0": "Don�t know (volunteered)",
+        "7.0": "Dawn",
+        "92.0": "Cast a blank ballot",
+        "2.0": "Progressive Party",
+        "96.0": "Not applicable",
+        "14.0": "Households Party",
+        "8.0": "Democratic Watch",
+        "3.0": "Independence Party",
+        "10.0": "Right-Green Peoples Party",
+        "1.0": "Social Democratic Alliance",
+        "4.0": "Left Green Movement",
+        "97.0": "Refuses to answer (volunteered)",
+        "13.0": "Rainbow",
+        "6.0": "Pirate Party",
+        "99.0": "Missing"
+      }
+    },
+    "vote13": {
+      "label": "Did you vote in the Althingi election on April 27th?",
+      "values": {
+        "2.0": "No",
+        "1.0": "Yes",
+        "9.0": "Missing",
+        "7.0": "Refuses to answer (volunteered)",
+        "8.0": "Don�t know (volunteered)"
+      }
+    }
+  },
+  "BE2014": {
+    "REGION": {
+      "label": null,
+      "values": {
+        "1": "Vlaanderen",
+        "2": "Wallonië"
+      }
+    },
+    "V21": {
+      "label": "If elections to the House of Representatives were held today, which of the following parties would you vote for?",
+      "values": {
+        "1": "CD&V",
+        "2": "Groen",
+        "3": "N-VA",
+        "4": "SP.A",
+        "5": "Vlaams Belang",
+        "6": "Open VLD",
+        "7": "LDD",
+        "8": "PvdA +",
+        "10": "Stemt blanco",
+        "11": "Stemt ongeldig",
+        "12": "Gaat niet stemmen",
+        "13": "Weigert te antwoorden",
+        "20": "PS",
+        "21": "MR",
+        "22": "CDH",
+        "23": "ECOLO",
+        "24": "FDF",
+        "25": "FN",
+        "26": "PTB GO",
+        "27": "PP (Parti Populaire)",
+        "98": "Andere partij",
+        "99": "wn - ga"
+      }
+    },
+    "V25": {
+      "label": "Which of these issues would be most important in determining your vote?",
+      "values": {
+        "1": "Werkgelegenheid",
+        "2": "Milieu",
+        "3": "Criminaliteit",
+        "4": "Immigratie",
+        "5": "Economie",
+        "6": "Staatshervorming",
+        "7": "Defensie",
+        "8": "Belastingen",
+        "99": "wn - ga"
+      }
+    },
+    "V3": {
+      "label": "What is the highest degree that you have obtained?",
+      "values": {
+        "1": "Geen",
+        "2": "Lager onderwijs",
+        "3": "Algemeen secundair, niet volledig afgewerkt (Lager ASO)",
+        "4": "Technisch secundair, niet volledig afgewerkt (Lager TSO)",
+        "5": "Beroeps secundair, niet volledig afgewerkt (Lager BSO)",
+        "6": "Algemeen secundair, volledig afgewerkt (Hoger ASO)",
+        "7": "Technisch secundair, volledig afgewerkt (Hoger TSO)",
+        "8": "Beroeps secundair, volledig afgewerkt (Hoger BSO)",
+        "9": "Hoger niet-universitair onderwijs",
+        "10": "Universitair onderwijs",
+        "99": "wn - ga"
+      }
+    },
+    "V40": {
+      "label": "The notions of “left” and “right” are often used in politics. Can you place your own opinions on a scale from 0 to 10, where 0 means “left”, 10 means “right”, and 5 means “center”?",
+      "values": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5 - In het centrum",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10 - Rechts",
+        "11": "0 - Links",
+        "99": "wn - ga"
+      }
+    },
+    "V400": {
+      "label": "Would you say that over the past twelve months, the state of the Belgian economy ... ?",
+      "values": {
+        "1": "verbeterd is",
+        "2": "dezelfde gebleven is",
+        "3": "verslechterd is",
+        "99": "wn - ga"
+      }
+    },
+    "V40B": {
+      "label": "Did you vote on May 25?",
+      "values": {
+        "1": "Ja",
+        "2": "Nee"
+      }
+    },
+    "V54": {
+      "label": "To what extent are you satisfied with the politics pursued by the Federal Government?",
+      "values": {
+        "1": "Heel ontevreden",
+        "2": "Eerder ontevreden",
+        "3": "Noch tevreden, noch ontevreden",
+        "4": "Eerder tevreden",
+        "5": "Heel tevreden",
+        "99": "wn - ga"
+      }
+    },
+    "V59_10": {
+      "label": null,
+      "values": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10 - Volledig vertrouwen",
+        "11": "0 - Helemaal geen vertrouwen",
+        "99": "wn - ga"
+      }
+    },
+    "V60B": {
+      "label": "For which party did you vote for the federal Chamber of Representatives?",
+      "values": {
+        "1": "CD&V",
+        "2": "Groen",
+        "3": "N-VA",
+        "4": "SP.A",
+        "5": "Vlaams Belang",
+        "6": "Open VLD",
+        "7": "LDD",
+        "8": "PvdA +",
+        "10": "Stemde blanco",
+        "11": "Stemde ongeldig",
+        "12": "Ging niet stemmen",
+        "13": "Weigert te antwoorden",
+        "20": "PS",
+        "21": "MR",
+        "22": "CDH",
+        "23": "ECOLO",
+        "24": "FDF",
+        "25": "FN",
+        "26": "PTB GO",
+        "27": "PP (Parti Populaire)",
+        "98": "Andere partij",
+        "99": "wn - ga"
+      }
+    },
+    "V70015_1": {
+      "label": "You are a…",
+      "values": {
+        "1": "Man",
+        "2": "Vrouw"
+      }
+    },
+    "V70018_1": {
+      "label": "In what year were you born?",
+      "values": {}
+    }
+  },
+  "DK2007": {
+    "V175": {
+      "label": "DANMARKS ØKO. SITUATION",
+      "values": {
+        "1.0": "Meget bedre",
+        "2.0": "Noget bedre",
+        "3.0": "Ingen ændring",
+        "4.0": "Noget dårligere",
+        "5.0": "Meget dårligere",
+        "8.0": "Ved ikke"
+      }
+    },
+    "V191": {
+      "label": "FOGH REGERINGENS ARB.",
+      "values": {
+        "1.0": "Meget godt",
+        "2.0": "Godt",
+        "3.0": "Hverken godt eller dårligt",
+        "4.0": "Dårligt",
+        "5.0": "Meget dårligt",
+        "8.0": "Ved ikke"
+      }
+    },
+    "V275": {
+      "label": "TILLID DANSKE POLITIKERE",
+      "values": {
+        "1.0": "Meget stor tillid",
+        "2.0": "Ret stor tillid",
+        "3.0": "Ret lille tillid",
+        "4.0": "Meget lille tillid",
+        "8.0": "Ved ikke"
+      }
+    },
+    "V28": {
+      "label": "STEMTE V. VALG 13.NOV 07",
+      "values": {
+        "1.0": "A: Socialdemokraterne",
+        "2.0": "B. Radikale",
+        "3.0": "C: Konservative",
+        "5.0": "F: Socialistisk Folkeparti",
+        "6.0": "K: Kristendemokraterne",
+        "7.0": "O: Dansk Folkeparti",
+        "8.0": "Y: Ny Alliance",
+        "9.0": "V: Venstre",
+        "10.0": "Ø: Enhedslisten",
+        "11.0": "Kandidat uden for partierne",
+        "12.0": "Husker ikke parti",
+        "13.0": "Vil ikke svare hvilket parti eg stemte på",
+        "14.0": "Stemte blankt",
+        "15.0": "Stemte ikke",
+        "16.0": "Havde ikke stemmeret",
+        "17.0": "Andre svar"
+      }
+    },
+    "V291": {
+      "label": "RESP. HØJRE/VEN. PLAC.",
+      "values": {
+        "1.0": "0. Venstre",
+        "2.0": "1.",
+        "3.0": "2.",
+        "4.0": "3.",
+        "5.0": "4.",
+        "6.0": "5.",
+        "7.0": "6.",
+        "8.0": "7.",
+        "9.0": "8.",
+        "10.0": "9.",
+        "11.0": "10. Højre",
+        "88.0": "Ved ikke",
+        "98.0": "Vil ikke svare"
+      }
+    },
+    "V379": {
+      "label": "køn",
+      "values": {
+        "1.0": "Mand",
+        "2.0": "Kvinde"
+      }
+    },
+    "V488": {
+      "label": "UDDANNELSE (Q79 OG Q80)",
+      "values": {
+        "1.0": "Folkeskole/mellemskole/ eal-eksamen/Præliminæreksamen",
+        "2.0": "Studentereksamen/HF/HH/HG/ TX-eksamen",
+        "3.0": "Erhvervseksamen Grundlæggende/afsluttende)",
+        "4.0": "Højere/videregående uddannelse"
+      }
+    },
+    "V514": {
+      "label": "alder",
+      "values": {}
+    },
+    "V523": {
+      "label": "WEIGTH (AGE,REG,GEN,EDU.",
+      "values": {}
+    },
+    "V81": {
+      "label": "VIGT. PROBLEM REKODET",
+      "values": {
+        "1": "Diffuse svar; alting",
+        "2": "Andet specifikt",
+        "3": "Ved ikke",
+        "9": "Uoplyst",
+        "10": "Ingen problemer",
+        "20": "Regeringsdannelse, herunder sammensætning",
+        "30": "Samarbejdsorienteret",
+        "40": "Uspecificeret fremgang for landet",
+        "45": "Fremtiden",
+        "46": "stabilitet",
+        "50": "Planlægning og prioritering",
+        "60": "Fremme forståelsen af politiske spørgsmål",
+        "61": "Fremme forståelsen af EU-politiske spørgsmål",
+        "70": "Indenrigspolitik",
+        "80": "Moral og etik",
+        "81": "Tillid/troværdighed",
+        "90": "Andre nonpolitiske svar",
+        "100": "Politikernes troværdighed",
+        "101": "Overholdelse af valgløfter",
+        "110": "Politikernes samarbejde",
+        "120": "Politikernes egne interesser",
+        "130": "Spærregrænsen hæves",
+        "140": "Politikernes varetagelse af befolkningens interesser",
+        "150": "Demokrati/ rettigheder, herunder menneskerettigheder",
+        "160": "Administrationen (hovedstadens dominans etc.)",
+        "161": "Kommuner",
+        "170": "Bureaukrati",
+        "171": "Lovforenkling",
+        "180": "Nedskæringer på råd, nævn og udvalg",
+        "190": "Andet specifikt om politikere, administration og demokrati",
+        "191": "Kommunalreformen",
+        "200": "Økonomien",
+        "201": "Indkomstpolitik",
+        "210": "Beskæftigelsen, arbejdsløsheden, herunder",
+        "211": "Ungdomsarbejdsløsheden",
+        "212": "Holder arbejdspladser i landet",
+        "220": "Privatisering",
+        "230": "Betalingsbalance/ udlandsgæld",
+        "231": "Konkurrenceevne overfor udlandet",
+        "240": "Renteforhold",
+        "250": "Inflation, pristal",
+        "260": "Produktion og investering",
+        "270": "Ejendoms- og konkurrenceforhold",
+        "280": "Efterløn (for bevarelse af)",
+        "281": "Slette efterløn",
+        "282": "”Pensionsbomben”, ”Det grå guld”",
+        "283": "Udhuling af privat pension",
+        "290": "Andet specifikt om økonomien",
+        "291": "Økonomisk krise generelt",
+        "300": "Erhvervspolitik",
+        "310": "Landbrugets problemer / fiskeri",
+        "311": "Økologi",
+        "320": "Erhvervslivets vilkår, herunder erhvervspolitik",
+        "330": "Handelens problemer",
+        "340": "Små næringsdrivende, herunder selvstændige",
+        "350": "Nedsættelse af arbejdstiden",
+        "360": "Lønniveau, herunder overenskomstforhandlinger",
+        "370": "Ligeløn/ kvinders løn, herunder ligestilling",
+        "380": "Sort arbejde",
+        "390": "Andet specifikt om erhvervslivet og arbejdsvilkår, herunder",
+        "391": "Arbejdskraft fra Østeuropa",
+        "392": "Manglende arbejdskraft",
+        "393": "Vækst",
+        "400": "Skatter generelt",
+        "410": "Moms og afgifter generelt",
+        "420": "Den offentlige sektor",
+        "421": "Offentlige udgifters stigning",
+        "422": "Offentlige udgifters fordeling",
+        "423": "Offentlige besparelser",
+        "424": "Andet specifikt om det offentlige",
+        "430": "Skattereform/ skattetrykket",
+        "431": "Indtægtsskatternes højde, herunder ”lønsomt at arbejde”",
+        "432": "Skattelettelser",
+        "433": "Skattestop",
+        "434": "Samordningsfradrag / sambeskatning",
+        "435": "Parcelhusejernes skat, herunder ejendomsværdiskat",
+        "440": "Forbedring, regulering",
+        "450": "Finanspolitik",
+        "451": "Finansloven",
+        "490": "Andet specifikt om skattepolitik og afgifter",
+        "500": "For mange flygtninge/indvandrere (negative",
+        "501": "Ikke flere flygtninge/indvandrere",
+        "502": "Hjemsendelse af flygtninge/indvandrere",
+        "503": "Familiesammenføringer",
+        "510": "For slap flygtninge/indvandrerpolitik, herunder for megen",
+        "511": "Bekvemmelighedsflygtninge",
+        "512": "Kriminalitet blandt flygtninge/indvandrere",
+        "513": "Tvangsægteskaber",
+        "514": "Andengenerationsindvandrere",
+        "520": "Andre specifikke negative tilkendegivelser, herunder",
+        "530": "Integration af flygtninge/indvandrere (neutrale",
+        "540": "Flygtninge/indvandrere u.n.a., herunder indvandrerdebatten",
+        "550": "Flygtninge-/indvandrer-/udlændinge-/integrationspolitik",
+        "560": "Sikre en bedre integration (positive tilkendegivelser)",
+        "561": "Bekæmpelse af racisme",
+        "562": "For restriktiv politik og lovgivning på",
+        "563": "Flygtninge og udlændinges problem med at komme i arbejde",
+        "570": "Andre specifikke positive tilkendegivelser",
+        "580": "Andet specifikt om flygtninge/indvandrere og integration",
+        "600": "Sociale problemer, herunder socialpolitik og social velfærd",
+        "610": "De svageste i samfundet",
+        "611": "De handicappedes forhold",
+        "612": "Hjemløse",
+        "613": "Narkomani/ alkoholisme",
+        "614": "Omsorg for psykisk syge",
+        "615": "Syge",
+        "616": "Polarisering/marginalisering",
+        "620": "Ældres vilkår/ forhold",
+        "621": "Folke- og invalidepension",
+        "622": "Plejehjem/ hjemmehjælp",
+        "623": "Ældrepolitik generelt",
+        "630": "Børnefamilier/ daginstitutioner",
+        "631": "Børns vilkår",
+        "632": "Barselspolitik",
+        "633": "Børnepolitik u.n.a.",
+        "640": "Uddannelse/ uddannelsesforhold generelt",
+        "641": "Folkeskolen/ skolepolitik",
+        "642": "Lærlingeuddannelser",
+        "643": "Højere uddannelser",
+        "644": "Forskning",
+        "645": "Omskoling, videreuddannelse",
+        "646": "Økonomisk støtte til studerende, herunder studerendes",
+        "650": "Sundheds-, sygehussektoren",
+        "651": "Ventelister",
+        "652": "Privathospitaler",
+        "653": "Ingen nedskæring i sundhedssektoren",
+        "654": "Sundhed generelt, herunder sundhedspolitik",
+        "660": "Boligproblemer",
+        "661": "Ungdomsboliger",
+        "670": "Velfærd, herunder Velfærdsstat, og velfærdspolitik u.n.a.",
+        "671": "Ulighed og omfordeling",
+        "672": "Sociale goder bevares herunder vedrørende orlovsordninger",
+        "673": "Sociale udgifter ned",
+        "674": "Borgerløn",
+        "675": "Brugerbetaling",
+        "676": "Udlicitering",
+        "677": "Overførselsindkomster / sociale ydelser / bistand o. lign.",
+        "678": "Velfærdsreformer, herunder velfærdstaten i fremtiden",
+        "679": "Bevarelse velfærden, sikre velfærden",
+        "680": "Vold",
+        "681": "Kriminalitet",
+        "682": "Lov og orden",
+        "683": "Retspolitik",
+        "684": "Politiet",
+        "690": "Andet specifikt socialpolitiske svar",
+        "691": "De unges problemer",
+        "692": "Regionale problemer, herunder Bornholm",
+        "693": "Kulturpolitik",
+        "694": "Kirkelige spørgsmål",
+        "700": "Udenrigspolitik generelt",
+        "710": "Tilpasning EU, indre marked, herunder ØMU’en",
+        "711": "EU-forbehold",
+        "712": "EU’s udvidelse",
+        "713": "Skepsis over for EU",
+        "714": "EU- forhold generelt, herunder forfatning",
+        "715": "EU (positiv)",
+        "720": "NATO, Mellemøsten",
+        "730": "Nedskæring af forsvaret",
+        "731": "Forsvaret bevares/ sikkerhedspolitik",
+        "732": "Forsvarspolitik u.n.a.",
+        "740": "Ulandshjælp (positiv), herunder global ulighed",
+        "741": "Ulandshjælp bremses",
+        "750": "Verdensfred",
+        "751": "Krig",
+        "752": "Terror",
+        "753": "Krigen i Irak  og Afganistan  , herunder Danmarks rolle",
+        "760": "Globalisering",
+        "770": "Bedre internationalt samarbejde",
+        "790": "Andre specifikke udenrigspolitiske svar",
+        "800": "Miljø/ miljøspørgsmål, herunder energispørgsmål",
+        "810": "Forureningsproblemet",
+        "820": "Fødevarer",
+        "830": "Dyrevelfærd",
+        "840": "Andre specifikke miljøspørgsmål",
+        "850": "Infrastruktur",
+        "860": "Trafik, fartgrænser , trafikforhold generelt",
+        "870": "Offentlig transport",
+        "880": "Broerne: Storstrøm, Storebælt, Øresund",
+        "890": "Andre specifikke trafikpolitiske svar",
+        "900": "Klare sig selv/ personlig frihed",
+        "901": "Respekt for det enkelte menneske",
+        "902": "Accept af hinanden",
+        "903": "Plads til alle/solidaritet",
+        "904": "Alle kan og skal bidrage til samfundet",
+        "905": "Bevare danskheden",
+        "1000": "Vælte nuværende regering",
+        "1010": "Få en borgerlig regering",
+        "1020": "Få en socialistisk regering",
+        "1100": "Bevare nuværende regering",
+        "1200": "Andre specifikke politiske tilkendegivelser"
+      }
+    }
+  }
+}

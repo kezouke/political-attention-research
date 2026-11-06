@@ -1,0 +1,419 @@
+dataset,code,source_label,primary_economic,broad_economic
+ES2015,1.0,El paro,True,True
+ES2015,2.0,El terrorismo (internacional),False,False
+ES2015,3.0,La corrupción,False,False
+ES2015,4.0,La inseguridad ciudadana,False,False
+ES2015,5.0,El Estado de las autonomías/cuestión territorial (menciones genéricas),False,False
+ES2015,6.0,La vivienda,False,True
+ES2015,7.0,La economía (menciones genéricas),True,True
+ES2015,8.0,La inmigración,False,False
+ES2015,9.0,La sanidad,False,False
+ES2015,10.0,La educación,False,False
+ES2015,11.0,El medio ambiente,False,False
+ES2015,13.0,La creación de empleo,True,True
+ES2015,14.0,La reforma laboral,True,True
+ES2015,15.0,La crisis económica,True,True
+ES2015,16.0,La situación del país,False,False
+ES2015,17.0,La recuperación económica,True,True
+ES2015,18.0,El fraude fiscal,False,True
+ES2015,19.0,Las pensiones,False,True
+ES2015,20.0,Las políticas sociales/los temas sociales/los derechos sociales,False,True
+ES2015,21.0,Los desahucios,False,True
+ES2015,22.0,La violencia contra la mujer,False,False
+ES2015,23.0,Las reformas institucionales/La reforma de la Constitución,False,False
+ES2015,24.0,Los impuestos/la política fiscal,False,True
+ES2015,25.0,La unidad de España,False,False
+ES2015,26.0,Cataluña (menciones genéricas),False,False
+ES2015,27.0,Los ataques contra Cataluña/anti-Cataluña,False,False
+ES2015,28.0,La independencia de Cataluña,False,False
+ES2015,29.0,El referéndum/la autodeterminación de Cataluña,False,False
+ES2015,30.0,"Las promesas, propuestas electorales (menciones genéricas)",False,False
+ES2015,31.0,Las críticas entre partidos/candidatos/as (genéricas o a partidos concretos),False,False
+ES2015,32.0,El derrotar al Gobierno/el Presidente del Gobierno,False,False
+ES2015,33.0,El cambio,False,False
+ES2015,34.0,El bipartidismo,False,False
+ES2015,35.0,Los nuevos partidos/los partidos emergentes,False,False
+ES2015,36.0,"El poder, la competición por el poder, búsqueda del poder",False,False
+ES2015,37.0,Los pactos,False,False
+ES2015,38.0,El sistema electoral/la ley electoral,False,False
+ES2015,39.0,Los/as refugiados/as,False,False
+ES2015,40.0,La protección de los animales,False,False
+ES2015,41.0,"Los/as políticos/as, la política",False,False
+ES2015,42.0,Los recortes,False,True
+ES2015,43.0,La precariedad. Los bajos salarios,True,True
+ES2015,44.0,La independencia/autodeterminación en genérico,False,False
+ES2015,45.0,La falta de Gobierno,False,False
+ES2015,46.0,La emigración,False,False
+ES2015,47.0,Los nacionalismos,False,False
+ES2015,48.0,La justicia,False,False
+ES2015,49.0,Las drogas,False,False
+ES2015,50.0,"Los problemas de la agricultura, ganadería",True,True
+ES2015,51.0,La juventud,False,False
+ES2015,52.0,Las infraestructuras,False,False
+ES2015,95.0,Otros temas,False,False
+NL2010,1.0,Economy/Financial situation,True,True
+NL2010,2.0,Social security,False,True
+NL2010,3.0,Politics,False,False
+NL2010,4.0,Crime,False,False
+NL2010,5.0,Defense,False,False
+NL2010,6.0,Health care,False,True
+NL2010,7.0,Education,False,True
+NL2010,8.0,Income/Price levels,True,True
+NL2010,9.0,Employment,True,True
+NL2010,10.0,Traffic/mobility,False,False
+NL2010,11.0,Housing,False,True
+NL2010,12.0,Environment,False,False
+NL2010,13.0,Population,False,False
+NL2010,14.0,Minorities,False,False
+NL2010,15.0,Norms and Values,False,False
+NL2010,16.0,Leisure time,False,False
+NL2012,1.0,Economy/Financial situation,True,True
+NL2012,2.0,Social security,False,True
+NL2012,3.0,Politics,False,False
+NL2012,4.0,Crime,False,False
+NL2012,5.0,Defense,False,False
+NL2012,6.0,Healthcare,False,True
+NL2012,7.0,Education,False,True
+NL2012,8.0,Income/Price levels/Taxes,True,True
+NL2012,9.0,Employment,True,True
+NL2012,10.0,Traffic/mobility,False,False
+NL2012,11.0,Housing,False,True
+NL2012,12.0,Environment,False,False
+NL2012,13.0,Population,False,False
+NL2012,14.0,Minorities,False,False
+NL2012,15.0,Norms and Values,False,False
+NL2012,16.0,Media,False,False
+PT2005,36.0,O Euro,False,True
+PT2005,9.0,Má situação da economia em geral,True,True
+PT2005,73.0,Iraque,False,False
+PT2005,8.0,Críticas à política e ao governo em geral,False,False
+PT2005,12.0,Eleições: estratégia de campanha,False,False
+PT2005,59.0,"Ciências: médicas e farmacêuticas, genética, clonagem, trans",False,False
+PT2005,6.0,Aborto,False,False
+PT2005,33.0,Competitividade,True,True
+PT2005,74.0,Processo de paz no Médio Oriente,False,False
+PT2005,30.0,"Bolsa, Mercado de capitais",True,True
+PT2005,54.0,"Política cultural do estado, língua portuguesa, subsídios à",False,False
+PT2005,57.0,Educação,False,False
+PT2005,18.0,Eleições: debates entre partidos e políticos,False,False
+PT2005,87.0,"Administração pública, burocracia",False,False
+PT2005,31.0,Orçamento nacional ou local,False,True
+PT2005,42.0,"Ordenados/rendimentos, pobreza",True,True
+PT2005,62.0,"Integração europeia, alargamento",False,False
+PT2005,69.0,"Habitação, mercado imibiliário, rendas, empréstimos",False,True
+PT2005,98.0,Outro tópico,False,False
+PT2005,88.0,Valores e normas sociais,False,False
+PT2005,5.0,Sida,False,False
+PT2005,34.0,Consumidores,True,True
+PT2005,56.0,"Droga, consumo e tráfico, combate a consumo ou tráfico",False,False
+PT2005,71.0,"Infraestruturas, tráfego, transportes",False,False
+PT2005,17.0,Eleições: posições dos partidos sobre temas,False,False
+PT2005,64.0,Política da União Europeia em geral,False,False
+PT2005,61.0,Energia,False,False
+PT2005,85.0,Guerra/Paz,False,False
+PT2005,75.0,"Políticas de migração/imigração: asilo. Legalização, residên",False,False
+PT2005,89.0,Outro tópico político,False,False
+PT2005,40.0,"Comércio Internaciona, balança de pagamentos, défice comerci",True,True
+PT2005,94.0,Desastres naturais,False,False
+PT2005,38.0,"Pensões, reformas",False,True
+PT2005,35.0,Dívida pública,True,True
+PT2005,52.0,"Sistema judicial, tribunais",False,False
+PT2005,90.0,Acidentes,False,False
+PT2005,39.0,Impostos e política fiscal,False,True
+PT2005,65.0,"Política externa, relações entre estados, organizações inter",False,False
+PT2005,11.0,"Eleições: os candidatos, os políticos, os partidos, a sua im",False,False
+PT2005,81.0,Outros conflitos e problemas sociais,False,False
+PT2005,97.0,Clima,False,False
+PT2005,55.0,Defesa e segurança externa,False,False
+PT2005,80.0,Direitos humanos,False,False
+PT2005,67.0,Alimentos geneticamente modificados,False,False
+PT2005,15.0,Eleições: resultados eleitorais,False,False
+PT2005,10.0,Eleições: as eleições em si mesmas e o procedimento de votaç,False,False
+PT2005,50.0,Agricultura e pescas,False,False
+PT2005,19.0,Outros tópicos relacionados com eleições,False,False
+PT2005,86.0,Democracia,False,False
+PT2005,76.0,"Políticas de integração/minorias: direitos sociais, político",False,False
+PT2005,58.0,"Ciências: física, geologia, astronomia, etc",False,False
+PT2005,41.0,Desemprego,True,True
+PT2005,16.0,Eleições: abstenção,False,False
+PT2005,91.0,Crimes concretos,False,False
+PT2005,43.0,"Políticas sociais, segurança social, abono de família",False,True
+PT2005,78.0,Terrorismo,False,False
+PT2005,77.0,"Regiões, políticas regionais",False,False
+PT2005,53.0,"Criminalidade, lei e ordem, combate ao crime, insegurança",False,False
+PT2005,79.0,"Conflitos violentos, manifestações, agitação social",False,False
+PT2005,92.0,"Cultura (artes, filmes, música, teatro, media)",False,False
+PT2005,49.0,Outros tópicos ligados à economia ou política económica,True,True
+PT2005,68.0,"Saúde e cuidados de saúde, sistema nacional de saúde, sua re",False,False
+PT2005,14.0,Eleições: sondagens,False,False
+PT2005,66.0,"Segurança alimentar, BSE, etc",False,False
+PT2005,32.0,"Empresas, negócios, falências, indústria",True,True
+PT2005,37.0,Inflação,True,True
+PT2005,51.0,Corrupção política,False,False
+PT2005,95.0,Religião,False,False
+PT2005,93.0,"Interesse humano: pessoas conhecidas, celebridades, eventos",False,False
+PT2005,96.0,Desporto,False,False
+PT2005,63.0,"Instituições europeias, constituição europeia, comissão euro",False,False
+PT2005,72.0,"Conflitos inter e intra-partidários, lutas entre facções ou",False,False
+PT2005,70.0,"Meios de comunicação social, informação, política audio-visu",False,False
+PT2005,60.0,"Ambiente, poluição, aquecimento global, etc",False,False
+PT2005,13.0,Eleições: propaganda política,False,False
+PT2009,1.0,Desemprego,True,True
+PT2009,24.0,Falta de entendimento entre partidos,False,False
+PT2009,16.0,Salários,True,True
+PT2009,54.0,Liberdade de expressão,False,False
+PT2009,50.0,Apoios à habitação,False,True
+PT2009,36.0,A atribuição de subsídios a quem não precisa,False,False
+PT2009,32.0,Casamento entre pessoas do mesmo sexo,False,False
+PT2009,12.0,Desenvolvimento do país,False,False
+PT2009,28.0,Apoio às pequenas e médias empresas,True,True
+PT2009,6.0,Obras públicas,False,False
+PT2009,38.0,A subida dos preços/Diminuição do poder de compra,True,True
+PT2009,5.0,Segurança/ Criminalidade,False,False
+PT2009,21.0,Situação dos professores,False,False
+PT2009,11.0,Redução dos impostos,False,True
+PT2009,53.0,O aborto,False,False
+PT2009,90.0,Outros,False,False
+PT2009,22.0,Mudança de governo,False,False
+PT2009,45.0,Aumento do fundo de desemprego,False,True
+PT2009,33.0,Meio ambiente,False,False
+PT2009,27.0,Pobreza,True,True
+PT2009,42.0,A oposição ser fraca,False,False
+PT2009,19.0,Não cumprimento das promessas políticas,False,False
+PT2009,7.0,Governação do país,False,False
+PT2009,49.0,Melhoria do nível de vida,True,True
+PT2009,8.0,As reformas,False,True
+PT2009,30.0,Estabilidade política,False,False
+PT2009,26.0,Controlo do défice,False,True
+PT2009,51.0,Investimentos públicos,False,True
+PT2009,43.0,Orçamento de estado,False,True
+PT2009,4.0,Saúde,False,False
+PT2009,25.0,Agricultura,False,False
+PT2009,14.0,Justiça,False,False
+PT2009,37.0,Atribuição de casas aos mais necessitados,False,True
+PT2009,52.0,Políticas face ao trabalho,True,True
+PT2009,2.0,Situação económica/financeira,True,True
+PT2009,47.0,Formação do governo,False,False
+PT2009,18.0,"Apoios a crianças, idosos e outros grupos",False,True
+PT2009,23.0,Segurança Social,False,True
+PT2009,10.0,A maioria absoluta,False,False
+PT2009,41.0,Desigualdade social,True,True
+PT2009,34.0,Fundos comunitários,False,False
+PT2009,39.0,Tratar melhor os deficientes,False,False
+PT2009,15.0,Crise,True,True
+PT2009,17.0,Manutenção do PS no governo,False,False
+PT2009,20.0,Ordenado mínimo nacional,True,True
+PT2009,55.0,Políticas de emigração,False,False
+PT2009,9.0,Corrupção,False,False
+PT2009,44.0,Urbanísmo,False,False
+PT2009,13.0,A abstenção/Apelo ao voto,False,False
+PT2009,31.0,Divida externa,False,True
+PT2009,3.0,Educação,False,False
+PT2009,29.0,Escutas telefónicas,False,False
+PT2009,48.0,O futuro do país,False,False
+PT2009,46.0,Programa político dos partidos,False,False
+PT2009,40.0,Custo de vida,True,True
+PT2009,35.0,Maus investimentos,False,False
+IS2013,1.0,The economy,True,True
+IS2013,2.0,Welfare system / health / education,False,True
+IS2013,3.0,European Union / the euro,False,True
+IS2013,4.0,Environment / energy issues,False,False
+IS2013,5.0,Democracy / issues of democracy,False,False
+IS2013,6.0,Labour market,True,True
+IS2013,7.0,The issues abot natural resources,False,False
+IS2013,8.0,The issue about the Constitution,False,False
+IS2013,9.0,Taxes,False,True
+IS2013,90.0,Other issues,False,False
+BE2014,1.0,Werkgelegenheid,True,True
+BE2014,2.0,Milieu,False,False
+BE2014,3.0,Criminaliteit,False,False
+BE2014,4.0,Immigratie,False,False
+BE2014,5.0,Economie,True,True
+BE2014,6.0,Staatshervorming,False,False
+BE2014,7.0,Defensie,False,False
+BE2014,8.0,Belastingen,False,True
+DK2007,2.0,Andet specifikt,False,False
+DK2007,20.0,"Regeringsdannelse, herunder sammensætning",False,False
+DK2007,30.0,Samarbejdsorienteret,False,False
+DK2007,40.0,Uspecificeret fremgang for landet,False,False
+DK2007,45.0,Fremtiden,False,False
+DK2007,46.0,stabilitet,False,False
+DK2007,50.0,Planlægning og prioritering,False,False
+DK2007,60.0,Fremme forståelsen af politiske spørgsmål,False,False
+DK2007,61.0,Fremme forståelsen af EU-politiske spørgsmål,False,False
+DK2007,70.0,Indenrigspolitik,False,False
+DK2007,80.0,Moral og etik,False,False
+DK2007,81.0,Tillid/troværdighed,False,False
+DK2007,100.0,Politikernes troværdighed,False,False
+DK2007,101.0,Overholdelse af valgløfter,False,False
+DK2007,110.0,Politikernes samarbejde,False,False
+DK2007,120.0,Politikernes egne interesser,False,False
+DK2007,130.0,Spærregrænsen hæves,False,False
+DK2007,140.0,Politikernes varetagelse af befolkningens interesser,False,False
+DK2007,150.0,"Demokrati/ rettigheder, herunder menneskerettigheder",False,False
+DK2007,160.0,Administrationen (hovedstadens dominans etc.),False,False
+DK2007,161.0,Kommuner,False,False
+DK2007,170.0,Bureaukrati,False,False
+DK2007,171.0,Lovforenkling,False,False
+DK2007,180.0,"Nedskæringer på råd, nævn og udvalg",False,False
+DK2007,190.0,"Andet specifikt om politikere, administration og demokrati",False,False
+DK2007,191.0,Kommunalreformen,False,False
+DK2007,200.0,Økonomien,True,True
+DK2007,201.0,Indkomstpolitik,True,True
+DK2007,210.0,"Beskæftigelsen, arbejdsløsheden, herunder",True,True
+DK2007,211.0,Ungdomsarbejdsløsheden,True,True
+DK2007,212.0,Holder arbejdspladser i landet,True,True
+DK2007,220.0,Privatisering,False,True
+DK2007,230.0,Betalingsbalance/ udlandsgæld,True,True
+DK2007,231.0,Konkurrenceevne overfor udlandet,True,True
+DK2007,240.0,Renteforhold,True,True
+DK2007,250.0,"Inflation, pristal",True,True
+DK2007,260.0,Produktion og investering,True,True
+DK2007,270.0,Ejendoms- og konkurrenceforhold,True,True
+DK2007,280.0,Efterløn (for bevarelse af),False,True
+DK2007,281.0,Slette efterløn,False,True
+DK2007,282.0,"”Pensionsbomben”, ”Det grå guld”",False,True
+DK2007,283.0,Udhuling af privat pension,False,True
+DK2007,290.0,Andet specifikt om økonomien,True,True
+DK2007,291.0,Økonomisk krise generelt,True,True
+DK2007,300.0,Erhvervspolitik,True,True
+DK2007,310.0,Landbrugets problemer / fiskeri,True,True
+DK2007,311.0,Økologi,False,True
+DK2007,320.0,"Erhvervslivets vilkår, herunder erhvervspolitik",True,True
+DK2007,330.0,Handelens problemer,True,True
+DK2007,340.0,"Små næringsdrivende, herunder selvstændige",True,True
+DK2007,350.0,Nedsættelse af arbejdstiden,True,True
+DK2007,360.0,"Lønniveau, herunder overenskomstforhandlinger",True,True
+DK2007,370.0,"Ligeløn/ kvinders løn, herunder ligestilling",True,True
+DK2007,380.0,Sort arbejde,True,True
+DK2007,390.0,"Andet specifikt om erhvervslivet og arbejdsvilkår, herunder",True,True
+DK2007,391.0,Arbejdskraft fra Østeuropa,False,True
+DK2007,392.0,Manglende arbejdskraft,True,True
+DK2007,393.0,Vækst,True,True
+DK2007,400.0,Skatter generelt,False,True
+DK2007,410.0,Moms og afgifter generelt,False,True
+DK2007,420.0,Den offentlige sektor,False,True
+DK2007,421.0,Offentlige udgifters stigning,False,True
+DK2007,422.0,Offentlige udgifters fordeling,False,True
+DK2007,423.0,Offentlige besparelser,False,True
+DK2007,424.0,Andet specifikt om det offentlige,False,True
+DK2007,430.0,Skattereform/ skattetrykket,False,True
+DK2007,431.0,"Indtægtsskatternes højde, herunder ”lønsomt at arbejde”",False,True
+DK2007,432.0,Skattelettelser,False,True
+DK2007,433.0,Skattestop,False,True
+DK2007,434.0,Samordningsfradrag / sambeskatning,False,True
+DK2007,435.0,"Parcelhusejernes skat, herunder ejendomsværdiskat",False,True
+DK2007,440.0,"Forbedring, regulering",False,True
+DK2007,450.0,Finanspolitik,False,True
+DK2007,451.0,Finansloven,False,True
+DK2007,490.0,Andet specifikt om skattepolitik og afgifter,False,True
+DK2007,500.0,For mange flygtninge/indvandrere (negative,False,False
+DK2007,501.0,Ikke flere flygtninge/indvandrere,False,False
+DK2007,502.0,Hjemsendelse af flygtninge/indvandrere,False,False
+DK2007,503.0,Familiesammenføringer,False,False
+DK2007,510.0,"For slap flygtninge/indvandrerpolitik, herunder for megen",False,False
+DK2007,511.0,Bekvemmelighedsflygtninge,False,False
+DK2007,512.0,Kriminalitet blandt flygtninge/indvandrere,False,False
+DK2007,513.0,Tvangsægteskaber,False,False
+DK2007,514.0,Andengenerationsindvandrere,False,False
+DK2007,520.0,"Andre specifikke negative tilkendegivelser, herunder",False,False
+DK2007,530.0,Integration af flygtninge/indvandrere (neutrale,False,False
+DK2007,540.0,"Flygtninge/indvandrere u.n.a., herunder indvandrerdebatten",False,False
+DK2007,550.0,Flygtninge-/indvandrer-/udlændinge-/integrationspolitik,False,False
+DK2007,560.0,Sikre en bedre integration (positive tilkendegivelser),False,False
+DK2007,561.0,Bekæmpelse af racisme,False,False
+DK2007,562.0,For restriktiv politik og lovgivning på,False,False
+DK2007,563.0,Flygtninge og udlændinges problem med at komme i arbejde,False,False
+DK2007,570.0,Andre specifikke positive tilkendegivelser,False,False
+DK2007,580.0,Andet specifikt om flygtninge/indvandrere og integration,False,False
+DK2007,600.0,"Sociale problemer, herunder socialpolitik og social velfærd",False,True
+DK2007,610.0,De svageste i samfundet,False,True
+DK2007,611.0,De handicappedes forhold,False,False
+DK2007,612.0,Hjemløse,False,False
+DK2007,613.0,Narkomani/ alkoholisme,False,False
+DK2007,614.0,Omsorg for psykisk syge,False,False
+DK2007,615.0,Syge,False,False
+DK2007,616.0,Polarisering/marginalisering,False,True
+DK2007,620.0,Ældres vilkår/ forhold,False,True
+DK2007,621.0,Folke- og invalidepension,False,True
+DK2007,622.0,Plejehjem/ hjemmehjælp,False,False
+DK2007,623.0,Ældrepolitik generelt,False,False
+DK2007,630.0,Børnefamilier/ daginstitutioner,False,False
+DK2007,631.0,Børns vilkår,False,False
+DK2007,632.0,Barselspolitik,False,False
+DK2007,633.0,Børnepolitik u.n.a.,False,False
+DK2007,640.0,Uddannelse/ uddannelsesforhold generelt,False,False
+DK2007,641.0,Folkeskolen/ skolepolitik,False,False
+DK2007,642.0,Lærlingeuddannelser,False,False
+DK2007,643.0,Højere uddannelser,False,False
+DK2007,644.0,Forskning,False,False
+DK2007,645.0,"Omskoling, videreuddannelse",False,False
+DK2007,646.0,"Økonomisk støtte til studerende, herunder studerendes",False,False
+DK2007,650.0,"Sundheds-, sygehussektoren",False,False
+DK2007,651.0,Ventelister,False,False
+DK2007,652.0,Privathospitaler,False,False
+DK2007,653.0,Ingen nedskæring i sundhedssektoren,False,False
+DK2007,654.0,"Sundhed generelt, herunder sundhedspolitik",False,False
+DK2007,660.0,Boligproblemer,False,False
+DK2007,661.0,Ungdomsboliger,False,False
+DK2007,670.0,"Velfærd, herunder Velfærdsstat, og velfærdspolitik u.n.a.",False,False
+DK2007,671.0,Ulighed og omfordeling,False,False
+DK2007,672.0,Sociale goder bevares herunder vedrørende orlovsordninger,False,False
+DK2007,673.0,Sociale udgifter ned,False,False
+DK2007,674.0,Borgerløn,False,False
+DK2007,675.0,Brugerbetaling,False,False
+DK2007,676.0,Udlicitering,False,False
+DK2007,677.0,Overførselsindkomster / sociale ydelser / bistand o. lign.,False,False
+DK2007,678.0,"Velfærdsreformer, herunder velfærdstaten i fremtiden",False,False
+DK2007,679.0,"Bevarelse velfærden, sikre velfærden",False,False
+DK2007,680.0,Vold,False,False
+DK2007,681.0,Kriminalitet,False,False
+DK2007,682.0,Lov og orden,False,False
+DK2007,683.0,Retspolitik,False,False
+DK2007,684.0,Politiet,False,False
+DK2007,690.0,Andet specifikt socialpolitiske svar,False,False
+DK2007,691.0,De unges problemer,False,False
+DK2007,692.0,"Regionale problemer, herunder Bornholm",False,False
+DK2007,693.0,Kulturpolitik,False,False
+DK2007,694.0,Kirkelige spørgsmål,False,False
+DK2007,700.0,Udenrigspolitik generelt,False,False
+DK2007,710.0,"Tilpasning EU, indre marked, herunder ØMU’en",False,False
+DK2007,711.0,EU-forbehold,False,False
+DK2007,712.0,EU’s udvidelse,False,False
+DK2007,713.0,Skepsis over for EU,False,False
+DK2007,714.0,"EU- forhold generelt, herunder forfatning",False,False
+DK2007,715.0,EU (positiv),False,False
+DK2007,720.0,"NATO, Mellemøsten",False,False
+DK2007,730.0,Nedskæring af forsvaret,False,False
+DK2007,731.0,Forsvaret bevares/ sikkerhedspolitik,False,False
+DK2007,732.0,Forsvarspolitik u.n.a.,False,False
+DK2007,740.0,"Ulandshjælp (positiv), herunder global ulighed",False,False
+DK2007,741.0,Ulandshjælp bremses,False,False
+DK2007,750.0,Verdensfred,False,False
+DK2007,751.0,Krig,False,False
+DK2007,752.0,Terror,False,False
+DK2007,753.0,"Krigen i Irak  og Afganistan  , herunder Danmarks rolle",False,False
+DK2007,760.0,Globalisering,False,False
+DK2007,770.0,Bedre internationalt samarbejde,False,False
+DK2007,790.0,Andre specifikke udenrigspolitiske svar,False,False
+DK2007,800.0,"Miljø/ miljøspørgsmål, herunder energispørgsmål",False,False
+DK2007,810.0,Forureningsproblemet,False,False
+DK2007,820.0,Fødevarer,False,False
+DK2007,830.0,Dyrevelfærd,False,False
+DK2007,840.0,Andre specifikke miljøspørgsmål,False,False
+DK2007,850.0,Infrastruktur,False,False
+DK2007,860.0,"Trafik, fartgrænser , trafikforhold generelt",False,False
+DK2007,870.0,Offentlig transport,False,False
+DK2007,880.0,"Broerne: Storstrøm, Storebælt, Øresund",False,False
+DK2007,890.0,Andre specifikke trafikpolitiske svar,False,False
+DK2007,900.0,Klare sig selv/ personlig frihed,False,False
+DK2007,901.0,Respekt for det enkelte menneske,False,False
+DK2007,902.0,Accept af hinanden,False,False
+DK2007,903.0,Plads til alle/solidaritet,False,False
+DK2007,904.0,Alle kan og skal bidrage til samfundet,False,False
+DK2007,905.0,Bevare danskheden,False,False
+DK2007,1000.0,Vælte nuværende regering,False,False
+DK2007,1010.0,Få en borgerlig regering,False,False
+DK2007,1020.0,Få en socialistisk regering,False,False
+DK2007,1100.0,Bevare nuværende regering,False,False
+DK2007,1200.0,Andre specifikke politiske tilkendegivelser,False,False

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "cis_2750_marginals_followup",
+    "url": "https://www.cis.es/documents/d/cis/Es2750pdf",
+    "final_url": "https://www.cis.es/en/documents/d/guest/Es2750pdf",
+    "status": 410,
+    "pdf": false,
+    "path": "data/raw/audit_20261106/cis_2750_marginals_followup.failed.txt",
+    "sha256": "ced3db5709b1d76d32c7ba3160f23d7911c90e604f1d876f8bacde9deaf28c25"
+  },
+  {
+    "name": "cis_2750_questionnaire_followup",
+    "url": "https://www.cis.es/documents/d/cis/cues2750pdf",
+    "final_url": "https://www.cis.es/documents/d/guest/cues2750pdf",
+    "status": 200,
+    "pdf": false,
+    "path": "data/raw/audit_20261106/cis_2750_questionnaire_followup.failed.txt",
+    "sha256": "614693b6209c7d95ae43dfd8b750ebfc254fde650ff01ec56c7cb39e7ffb8c35"
+  }
+]

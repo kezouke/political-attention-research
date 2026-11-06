@@ -1,0 +1,886 @@
+{
+  "ES2015": {
+    "iso": "ESP",
+    "country": "Spain",
+    "year": 2015,
+    "date": "2015-12-20",
+    "stem": "cis_7715",
+    "economy": [
+      "PP9",
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      1,
+      5
+    ],
+    "government": [
+      "P5",
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      1,
+      5
+    ],
+    "trust": [
+      "PP602",
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      10,
+      0
+    ],
+    "priority": "PP301",
+    "priority_main": [
+      1,
+      7,
+      13,
+      14,
+      15,
+      17,
+      43,
+      50
+    ],
+    "priority_broad": [
+      1,
+      6,
+      7,
+      13,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      24,
+      42,
+      43,
+      50
+    ],
+    "priority_valid": null,
+    "vote": "PP31R",
+    "turnout": [
+      "PP29",
+      [
+        5
+      ],
+      [
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    "age": "P28",
+    "gender": "P27",
+    "education": [
+      "PESTUDIOS",
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "lr": [
+      "P21",
+      1,
+      10
+    ],
+    "region": [
+      "CCAA",
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    ],
+    "intention": "P11R",
+    "weight": "PESO",
+    "timing": "government/intention/age/LR pre; economy/priority/trust/vote/education post",
+    "priority_question": "first personal election issue; expanded response list, not comparable to 2008/2011 list"
+  },
+  "NL2010": {
+    "iso": "NLD",
+    "country": "Netherlands",
+    "year": 2010,
+    "date": "2010-06-09",
+    "stem": "dpes_2010",
+    "economy": [
+      "V820",
+      [
+        1,
+        2,
+        3
+      ],
+      null,
+      null
+    ],
+    "government": [
+      "V073",
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      1,
+      5
+    ],
+    "trust": [
+      "V811",
+      [
+        1,
+        2,
+        3,
+        4
+      ],
+      1,
+      4
+    ],
+    "priority": "V041",
+    "priority_main": [
+      1,
+      8,
+      9
+    ],
+    "priority_broad": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      11
+    ],
+    "priority_valid": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "vote": "V512",
+    "turnout": [
+      "V510",
+      [
+        1
+      ],
+      [
+        0
+      ]
+    ],
+    "age": "V443",
+    "gender": "V010",
+    "education": [
+      "V410",
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "lr": [
+      "V711",
+      0,
+      10
+    ],
+    "region": null,
+    "intention": "V081",
+    "weight": "WGT5",
+    "timing": "priority/government/intention pre; economy/trust/LR/vote post",
+    "priority_question": "first national problem; income and prices share one category"
+  },
+  "NL2012": {
+    "iso": "NLD",
+    "country": "Netherlands",
+    "year": 2012,
+    "date": "2012-09-12",
+    "stem": "dpes_2012",
+    "economy": [
+      "V311",
+      [
+        1,
+        2,
+        3
+      ],
+      1,
+      3
+    ],
+    "government": [
+      "V093",
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      1,
+      5
+    ],
+    "trust": [
+      "V451",
+      [
+        1,
+        2,
+        3,
+        4
+      ],
+      1,
+      4
+    ],
+    "priority": "V071",
+    "priority_main": [
+      1,
+      8,
+      9
+    ],
+    "priority_broad": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      11
+    ],
+    "priority_valid": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "vote": "V212",
+    "turnout": [
+      "V210",
+      [
+        1
+      ],
+      [
+        2
+      ]
+    ],
+    "age": "V340",
+    "gender": "V341",
+    "education": [
+      "V344",
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "lr": [
+      "V130",
+      0,
+      10
+    ],
+    "region": null,
+    "intention": null,
+    "weight": "WGT2",
+    "timing": "post; party trust in dropoff questionnaire",
+    "priority_question": "first national problem; income, prices and taxes share category 8"
+  },
+  "PT2005": {
+    "iso": "PRT",
+    "country": "Portugal",
+    "year": 2005,
+    "date": "2005-02-20",
+    "stem": "pes_2005",
+    "economy": [
+      "p61",
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      1,
+      5
+    ],
+    "government": [
+      "p5",
+      [
+        1,
+        2,
+        3,
+        4
+      ],
+      1,
+      4
+    ],
+    "trust": [
+      "p12.3",
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      5,
+      1
+    ],
+    "priority": "p1",
+    "priority_main": [
+      9,
+      30,
+      32,
+      33,
+      34,
+      35,
+      37,
+      40,
+      41,
+      42,
+      49
+    ],
+    "priority_broad": [
+      9,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      49,
+      69
+    ],
+    "priority_valid": null,
+    "vote": "p25",
+    "turnout": [
+      "p24",
+      [
+        1
+      ],
+      [
+        2
+      ]
+    ],
+    "age": "d2",
+    "gender": "Sexo",
+    "education": [
+      "d4",
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    ],
+    "lr": [
+      "p69",
+      0,
+      10
+    ],
+    "region": null,
+    "intention": null,
+    "weight": "ponsd",
+    "timing": "post",
+    "priority_question": "most important national problem over last three years"
+  },
+  "PT2009": {
+    "iso": "PRT",
+    "country": "Portugal",
+    "year": 2009,
+    "date": "2009-09-27",
+    "stem": "pes_2009",
+    "economy": [
+      "P69",
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      5,
+      1
+    ],
+    "government": [
+      "P7",
+      [
+        1,
+        2,
+        3,
+        4
+      ],
+      4,
+      1
+    ],
+    "trust": [
+      "P11_5",
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      1,
+      5
+    ],
+    "priority": "P1",
+    "priority_main": [
+      1,
+      2,
+      15,
+      16,
+      20,
+      27,
+      28,
+      38,
+      40,
+      41,
+      49,
+      52
+    ],
+    "priority_broad": [
+      1,
+      2,
+      8,
+      11,
+      15,
+      16,
+      18,
+      20,
+      23,
+      26,
+      27,
+      28,
+      31,
+      37,
+      38,
+      40,
+      41,
+      43,
+      45,
+      49,
+      50,
+      51,
+      52
+    ],
+    "priority_valid": null,
+    "vote": "P28",
+    "turnout": [
+      "P27",
+      [
+        1
+      ],
+      [
+        2
+      ]
+    ],
+    "age": "D2",
+    "gender": "SEXO",
+    "education": [
+      "D4",
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "lr": [
+      "P76",
+      0,
+      10
+    ],
+    "region": null,
+    "intention": null,
+    "weight": null,
+    "timing": "post",
+    "priority_question": "most important personal election issue; national-problem question separate"
+  },
+  "IS2013": {
+    "iso": "ISL",
+    "country": "Iceland",
+    "year": 2013,
+    "date": "2013-04-27",
+    "stem": "icenes_2013",
+    "economy": [
+      "ecobettwors",
+      [
+        1,
+        3,
+        5
+      ],
+      1,
+      5
+    ],
+    "government": [
+      "govprfmJS",
+      [
+        1,
+        2,
+        3,
+        4
+      ],
+      1,
+      4
+    ],
+    "trust": [
+      "pltrust",
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      1,
+      5
+    ],
+    "priority": "issue12013",
+    "priority_main": [
+      1,
+      6
+    ],
+    "priority_broad": [
+      1,
+      2,
+      3,
+      6,
+      9
+    ],
+    "priority_valid": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      90
+    ],
+    "vote": "prtvote13",
+    "turnout": [
+      "vote13",
+      [
+        1
+      ],
+      [
+        2
+      ]
+    ],
+    "age": "age",
+    "gender": "gender",
+    "education": [
+      "education",
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    ],
+    "lr": [
+      "lrscale",
+      0,
+      10
+    ],
+    "region": null,
+    "intention": null,
+    "weight": null,
+    "timing": "post",
+    "priority_question": "first personal election issue"
+  },
+  "BE2014": {
+    "iso": "BEL",
+    "country": "Belgium",
+    "year": 2014,
+    "date": "2014-05-25",
+    "stem": "partirep_2014",
+    "economy": [
+      "V400",
+      [
+        1,
+        2,
+        3
+      ],
+      1,
+      3
+    ],
+    "government": [
+      "V54",
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      5,
+      1
+    ],
+    "trust": [
+      "V59_10",
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      10,
+      0
+    ],
+    "priority": "V25",
+    "priority_main": [
+      1,
+      5
+    ],
+    "priority_broad": [
+      1,
+      5,
+      8
+    ],
+    "priority_valid": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "vote": "V60B",
+    "turnout": [
+      "V40B",
+      [
+        1
+      ],
+      [
+        2
+      ]
+    ],
+    "age": "V70018_1",
+    "gender": "V70015_1",
+    "education": [
+      "V3",
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    ],
+    "lr": [
+      "V40",
+      0,
+      10
+    ],
+    "region": [
+      "REGION",
+      [
+        1,
+        2
+      ]
+    ],
+    "intention": "V21",
+    "weight": null,
+    "timing": "priority/government/trust/intention/LR pre; economy/vote post",
+    "priority_question": "most important for vote among eight fixed topics; Flanders/Wallonia only"
+  },
+  "DK2007": {
+    "iso": "DNK",
+    "country": "Denmark",
+    "year": 2007,
+    "date": "2007-11-13",
+    "stem": "dnes_2007",
+    "economy": [
+      "V175",
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      1,
+      5
+    ],
+    "government": [
+      "V191",
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      1,
+      5
+    ],
+    "trust": [
+      "V275",
+      [
+        1,
+        2,
+        3,
+        4
+      ],
+      1,
+      4
+    ],
+    "priority": "V81",
+    "priority_main": [
+      200,
+      201,
+      210,
+      211,
+      212,
+      230,
+      231,
+      240,
+      250,
+      260,
+      270,
+      290,
+      291,
+      300,
+      310,
+      320,
+      330,
+      340,
+      350,
+      360,
+      370,
+      380,
+      390,
+      392,
+      393
+    ],
+    "priority_broad": null,
+    "priority_valid": null,
+    "vote": "V28",
+    "turnout": null,
+    "age": "V514",
+    "gender": "V379",
+    "education": [
+      "V488",
+      [
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    "lr": [
+      "V291",
+      1,
+      11
+    ],
+    "region": null,
+    "intention": null,
+    "weight": "V523",
+    "timing": "post; mixed survey sources including web panel",
+    "priority_question": "first most important problem politicians should address; producer detailed code key"
+  }
+}
