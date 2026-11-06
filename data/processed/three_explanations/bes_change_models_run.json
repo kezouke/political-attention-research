@@ -1,0 +1,20 @@
+{
+  "start_utc": "2026-11-06T20:17:02.777101+00:00",
+  "end_utc": "2026-11-06T20:25:27.713538+00:00",
+  "hashes": {
+    "analysis/77_bes_repeated_attitude_models.py": "b446692c94e74499819e265a0fc7ae1199b1f5ef3f2d200a677e31b3625b61c6",
+    "data/processed/three_explanations/bes_change_input_contract.json": "576af336c9da3c46b4502bf29f4266b5ae73a53328f895e34bda83121e9bcc1c",
+    "analysis/59_bes_pre_election_models.py": "555203a678ad463c5d2325e80592f0de693e72e9e95e7a44f6c8d6ff49deba52",
+    "analysis/51_eurobarometer_models.py": "ee3a4cb0c5c14ef002fd49c5fa3ec64997d72c432e8068a3053846ab1248bb50"
+  },
+  "bootstrap_draws_per_estimate": 1000,
+  "heldout_loss_draws": 2000,
+  "training_refitted_for_validation_intervals": false,
+  "early_waves": {
+    "2015": 1,
+    "2017": 4,
+    "2019": 16
+  },
+  "microdata_exported": false,
+  "interpretation": "Late attitudes conditional on earlier levels and initial preferences; no causal claim"
+}

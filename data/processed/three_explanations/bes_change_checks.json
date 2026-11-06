@@ -1,0 +1,15 @@
+{
+  "input_hashes_match": true,
+  "full_models": 12,
+  "margin_rows": 120,
+  "bootstrap_draws_per_margin": 1000,
+  "validation_comparisons": 96,
+  "sensitivity_specifications_estimable": 112,
+  "sensitivity_fits": 224,
+  "positions_specifications_unestimable": 8,
+  "reference_reproduces_primary": true,
+  "probability_checks_passed": true,
+  "priority_transition_cells": 12,
+  "raw_records_read": false,
+  "causal_interpretation_supported": false
+}
