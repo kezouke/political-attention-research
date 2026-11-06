@@ -186,6 +186,16 @@ This does not establish unchanged topic values or vote weights. The numerical
 comparison before those new values are inspected. The article's programme
 estimates remain explicitly estimates from 2023a.
 
+Script 88 replays the full 2023a calculation without overwriting it. All 1,722
+coverage rows, 8,130 estimate rows and 350 summary rows match the saved CSVs
+at their recorded numerical precision. It also prepares the same comparison
+for an authenticated 2026a CSV, but that branch has not yet been run against
+the new release. The baseline-only command is
+`python analysis/88_manifesto_version_replay.py`; add `--candidate PATH_TO_2026A_CSV`
+only after acquiring the actual numerical release. Its keys must match the
+official 2026a document catalog. Separate outputs go under
+`data/processed/three_explanations/manifesto_refresh/`.
+
 ## Rebuild the public article without microdata
 
 Python 3.12 is the analysis environment. From the repository root:
