@@ -2391,5 +2391,25 @@
     "content_type": "application/pdf",
     "sha256": "c64bb875408d156db7b0250205e1e90098651027a6630940cbd853d56ddb7acd",
     "local_path": "data/raw/audit_20261106/grc_2009_questionnaire.pdf"
+  },
+  "gesis_data_terms_2026_de": {
+    "url": "https://www.gesis.org/institut/datennutzungsbedingungen",
+    "resolved_url": "https://www.gesis.org/institut/datennutzungsbedingungen",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T16:49:02.520092+00:00",
+    "bytes": 5657,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "1f6966796bc9abdf864ce59dbc60e4725ce97aa88636f5bf31396a87c7b81b95",
+    "local_path": "data/raw/audit_20261106/gesis_data_terms_2026_de.html"
+  },
+  "gesis_data_terms_2026_en": {
+    "url": "https://www.gesis.org/en/institute/data-usage-terms",
+    "resolved_url": "https://www.gesis.org/en/institute/data-usage-terms",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T16:49:02.525068+00:00",
+    "bytes": 5657,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "f802dc7f490b647798b880a4cd93de4ebcd96938bca68b2a31c282e34f7f137f",
+    "local_path": "data/raw/audit_20261106/gesis_data_terms_2026_en.html"
   }
 }
