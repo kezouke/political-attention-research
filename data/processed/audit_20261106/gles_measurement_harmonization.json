@@ -1,0 +1,17 @@
+{
+  "vote_models_fitted": false,
+  "raw_records_or_identifiers_exported": false,
+  "problem_code_warning": "Euro codes move from 4020/4021 in 2009 to 4331 etc. in 2013; same numeric range is not invariant meaning",
+  "corruption_code_warning": "Corruption codes shift from 3416..3418 to 3417..3419; retained separately",
+  "economic_primary_candidate": "Domestic economy, labour and energy prices; currency/Euro, public finance and redistribution kept separate",
+  "first_code_only": "The producer may assign multiple codes to one most-important-problem answer; any-code variant remains required",
+  "government_measure": "Government trust 1..5 exists in both years; 2009 party performance and 2013 whole-government performance are distinct alternatives",
+  "left_right_scale": "1..11 in both parent files; not the 7/11 split used for separate policy positions",
+  "demographics_2013": "Questionnaire identifies gender/year of birth, education, employment and federal state as wave1 items renamed kpx because treated as time invariant",
+  "dependent_interviewing": "Some other variables stored under an early wave include later answers; measurement flags must be used for any such extra controls",
+  "region_2009": "Archived fedstate timing still needs verification before use as a strictly pre-election predictor",
+  "method_documents": [
+    "https://access.gesis.org/dbk/59599",
+    "https://access.gesis.org/dbk/59597"
+  ]
+}

@@ -1,0 +1,503 @@
+year,variable,code,label,topic_group,economic_domestic_primary_candidate,economic_broad_sensitivity_candidate
+2009,kp2_840_c1,1000,political processes,other_substantive,False,False
+2009,kp2_840_c1,1100,political conflicts and scandals,other_substantive,False,False
+2009,kp2_840_c1,1110,political conflicts in general,other_substantive,False,False
+2009,kp2_840_c1,1111,conflicts in the federal government in particular,other_substantive,False,False
+2009,kp2_840_c1,1112,conflicts between CDU and CSU in particular,other_substantive,False,False
+2009,kp2_840_c1,1113,conflicts within the CDU in particular,other_substantive,False,False
+2009,kp2_840_c1,1114,conflicts within the CSU in particular,other_substantive,False,False
+2009,kp2_840_c1,1115,conflicts within the SPD in particular,other_substantive,False,False
+2009,kp2_840_c1,1116,conflicts within the GRUENEN in particular,other_substantive,False,False
+2009,kp2_840_c1,1117,conflicts within the FDP in particular,other_substantive,False,False
+2009,kp2_840_c1,1118,conflicts within the LINKE in particular,other_substantive,False,False
+2009,kp2_840_c1,1119,conflicts between parties in particular,other_substantive,False,False
+2009,kp2_840_c1,1120,political scandals in general,other_substantive,False,False
+2009,kp2_840_c1,1122,scandals in federal politics in particular,other_substantive,False,False
+2009,kp2_840_c1,1123,special issue staff car-affair (Ulla Schmidt),other_substantive,False,False
+2009,kp2_840_c1,1199,other specific mention related to political conflicts and scandals,other_substantive,False,False
+2009,kp2_840_c1,1200,Bundestag election campaign,other_substantive,False,False
+2009,kp2_840_c1,1400,"Bundestag election (i.e. turnout, ueberhang mandates, reform of electoral law)",other_substantive,False,False
+2009,kp2_840_c1,1500,federal state and local elections and election campaign (i.e. federal state election in Thuringia etc.),other_substantive,False,False
+2009,kp2_840_c1,1700,other specific mention with regard to political processes,other_substantive,False,False
+2009,kp2_840_c1,2000,political structures,other_substantive,False,False
+2009,kp2_840_c1,2010,"bureaucracy, officialdom in general",other_substantive,False,False
+2009,kp2_840_c1,2020,earnings of politicians in general,other_substantive,False,False
+2009,kp2_840_c1,2030,lobbying in general,other_substantive,False,False
+2009,kp2_840_c1,2100,type of government,other_substantive,False,False
+2009,kp2_840_c1,2110,democracy in general,other_substantive,False,False
+2009,kp2_840_c1,2111,discontent with democracy in general,other_substantive,False,False
+2009,kp2_840_c1,2112,participatory rights,other_substantive,False,False
+2009,kp2_840_c1,2113,direct democracy/referenda,other_substantive,False,False
+2009,kp2_840_c1,2200,formal institutions,other_substantive,False,False
+2009,kp2_840_c1,2210,"level of influence on EU-politics of Bundestag, Bundesrat",other_substantive,False,False
+2009,kp2_840_c1,2300,principles of state organization,other_substantive,False,False
+2009,kp2_840_c1,2310,federalism in general,other_substantive,False,False
+2009,kp2_840_c1,2400,normative order,other_substantive,False,False
+2009,kp2_840_c1,2410,impairment of values and morals in general,other_substantive,False,False
+2009,kp2_840_c1,2420,disenchantment with politics in general,other_substantive,False,False
+2009,kp2_840_c1,2430,criticism towards parties in general,other_substantive,False,False
+2009,kp2_840_c1,2431,criticism towards CDU/CSU in particular,other_substantive,False,False
+2009,kp2_840_c1,2432,criticism towards CDU in particular,other_substantive,False,False
+2009,kp2_840_c1,2433,criticism towards CSU in particular,other_substantive,False,False
+2009,kp2_840_c1,2434,criticism towards SPD in particular,other_substantive,False,False
+2009,kp2_840_c1,2435,criticism towards the GRUENEN in particular,other_substantive,False,False
+2009,kp2_840_c1,2436,criticism towards FDP in particular,other_substantive,False,False
+2009,kp2_840_c1,2437,criticism towards the LINKEN in particular,other_substantive,False,False
+2009,kp2_840_c1,2438,other specific mention with regard to criticism towards parties,other_substantive,False,False
+2009,kp2_840_c1,2440,criticism towards politicians in general,other_substantive,False,False
+2009,kp2_840_c1,2441,specific mention related to criticism towards politicians (name of the politician must be mentioned),other_substantive,False,False
+2009,kp2_840_c1,2450,criticism towards federal government bodies in general,other_substantive,False,False
+2009,kp2_840_c1,2451,specific mention to criticism towards government bodies (i.e. federal state governments),other_substantive,False,False
+2009,kp2_840_c1,2460,"criticism towards political structures in general (i.e. inactivity,  to bypass management levels ""durchregieren”)",other_substantive,False,False
+2009,kp2_840_c1,2470,criticism towards society in general,other_substantive,False,False
+2009,kp2_840_c1,2471,lack of prospects in particular,other_substantive,False,False
+2009,kp2_840_c1,2472,jealousy in particular,other_substantive,False,False
+2009,kp2_840_c1,2473,acquisitiveness in particular,other_substantive,False,False
+2009,kp2_840_c1,2474,lack of societal solidarity/solidarity in particular,other_substantive,False,False
+2009,kp2_840_c1,2475,no equal opportunity in particular (i.e. chances of success depend on the income of the parents),other_substantive,False,False
+2009,kp2_840_c1,2480,national pride in general,other_substantive,False,False
+2009,kp2_840_c1,2499,other specific mention with regard to normative order,other_substantive,False,False
+2009,kp2_840_c1,2500,other specific mention with regard to political structures,other_substantive,False,False
+2009,kp2_840_c1,3000,policy fields,other_substantive,False,False
+2009,kp2_840_c1,3100,foreign affairs,other_substantive,False,False
+2009,kp2_840_c1,3110,Europe in general,other_substantive,False,False
+2009,kp2_840_c1,3111,European Union/EU (as organisation) in particular,other_substantive,False,False
+2009,kp2_840_c1,3112,special issue EU-accession of Turkey,other_substantive,False,False
+2009,kp2_840_c1,3113,special issue Lisbon treaty,other_substantive,False,False
+2009,kp2_840_c1,3120,international organisations in general,other_substantive,False,False
+2009,kp2_840_c1,3160,foreign aid in general,other_substantive,False,False
+2009,kp2_840_c1,3170,Germany's position in the world in general,other_substantive,False,False
+2009,kp2_840_c1,3171,relationship to other countries,other_substantive,False,False
+2009,kp2_840_c1,3172,special issue relationship of Germany to the USA,other_substantive,False,False
+2009,kp2_840_c1,3175,globalisation in particular,other_substantive,False,False
+2009,kp2_840_c1,3180,international conflicts/wars in general,other_substantive,False,False
+2009,kp2_840_c1,3181,terrorism as international problem/attacks outside of Germany in particular,other_substantive,False,False
+2009,kp2_840_c1,3299,other mention with regard to international relations,other_substantive,False,False
+2009,kp2_840_c1,3300,defence,other_substantive,False,False
+2009,kp2_840_c1,3310,"armament, disarmament in general",other_substantive,False,False
+2009,kp2_840_c1,3320,(world-) peace in general,other_substantive,False,False
+2009,kp2_840_c1,3330,German Federal Armed Forces in general,other_substantive,False,False
+2009,kp2_840_c1,3331,foreign deployments/foreign assignment in particular (i.e. intervention of German forces abroad),other_substantive,False,False
+2009,kp2_840_c1,3333,"special issue, Afghanistan mission",other_substantive,False,False
+2009,kp2_840_c1,3399,other specific mention with regard to defence,other_substantive,False,False
+2009,kp2_840_c1,3400,domestic security,other_substantive,False,False
+2009,kp2_840_c1,3410,crime/violence in general,other_substantive,False,False
+2009,kp2_840_c1,3411,delinquency of foreigners in particular,other_substantive,False,False
+2009,kp2_840_c1,3412,terrorism in Germany/ danger of attack in Germany in particular,other_substantive,False,False
+2009,kp2_840_c1,3413,islamic fundamentalism in particular,other_substantive,False,False
+2009,kp2_840_c1,3414,right-wing extremism in particular,other_substantive,False,False
+2009,kp2_840_c1,3415,left-wing extremism in particular,other_substantive,False,False
+2009,kp2_840_c1,3416,corruption in particular,corruption,False,False
+2009,kp2_840_c1,3417,special issue corrupt politicians,corruption,False,False
+2009,kp2_840_c1,3418,special issue economic-/employer-corruption,corruption,False,False
+2009,kp2_840_c1,3419,people running amok in particular,other_substantive,False,False
+2009,kp2_840_c1,3420,justice and judiciary in general (i.e. congestion of courts of justice),other_substantive,False,False
+2009,kp2_840_c1,3421,judiciary in particular (i.e. concrete judgements),other_substantive,False,False
+2009,kp2_840_c1,3422,civil rights in particular,other_substantive,False,False
+2009,kp2_840_c1,3423,data protection in particular,other_substantive,False,False
+2009,kp2_840_c1,3424,special issue state surveillance,other_substantive,False,False
+2009,kp2_840_c1,3425,laws on arms in particular,other_substantive,False,False
+2009,kp2_840_c1,3426,violent computer games,other_substantive,False,False
+2009,kp2_840_c1,3499,other specific mention with regard to domestic security,other_substantive,False,False
+2009,kp2_840_c1,3500,infrastructure,other_substantive,False,False
+2009,kp2_840_c1,3510,transport in general,other_substantive,False,False
+2009,kp2_840_c1,3519,particular mention with regard to transport,other_substantive,False,False
+2009,kp2_840_c1,3520,energy policy in general,energy_other_than_prices,False,False
+2009,kp2_840_c1,3521,"energy prices (electricity,  Diesel fuel, Gas, Oil, etc.) in particular",domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3522,energy supply in particular (i.e. dependency of Germany on energy supply from abroad),energy_other_than_prices,False,False
+2009,kp2_840_c1,3523,nucelar power in particular,energy_other_than_prices,False,False
+2009,kp2_840_c1,3524,special issue nuclear power phase-out,energy_other_than_prices,False,False
+2009,kp2_840_c1,3526,special issue final storage,energy_other_than_prices,False,False
+2009,kp2_840_c1,3527,alternative/regenerative (renewable) energy in particular,energy_other_than_prices,False,False
+2009,kp2_840_c1,3528,coal subsidies/open-cast mining in particular,energy_other_than_prices,False,False
+2009,kp2_840_c1,3530,housing market in general,other_substantive,False,False
+2009,kp2_840_c1,3550,internet in general,other_substantive,False,False
+2009,kp2_840_c1,3551,blocking of websites in particular,other_substantive,False,False
+2009,kp2_840_c1,3599,other mention with regard to infrastructure,other_substantive,False,False
+2009,kp2_840_c1,3600,environmental policy,environment_climate,False,False
+2009,kp2_840_c1,3610,environmental protection in general,environment_climate,False,False
+2009,kp2_840_c1,3611,damage caused to the environment/environmental pollution in particular,environment_climate,False,False
+2009,kp2_840_c1,3620,climate protection in general,environment_climate,False,False
+2009,kp2_840_c1,3621,climate change in particular,environment_climate,False,False
+2009,kp2_840_c1,3630,nature conservation in general,environment_climate,False,False
+2009,kp2_840_c1,3640,animal protection in general,environment_climate,False,False
+2009,kp2_840_c1,3699,other specific mention with regard to environmental policy,environment_climate,False,False
+2009,kp2_840_c1,3700,social policy,other_substantive,False,False
+2009,kp2_840_c1,3710,family policy in general,other_substantive,False,False
+2009,kp2_840_c1,3713,children in particular (i.e. child benefits),other_substantive,False,False
+2009,kp2_840_c1,3714,special issue childcare,other_substantive,False,False
+2009,kp2_840_c1,3715,special issue neglect of children,other_substantive,False,False
+2009,kp2_840_c1,3716,adolescents in particular,other_substantive,False,False
+2009,kp2_840_c1,3720,equity in general,distribution_poverty_security,False,True
+2009,kp2_840_c1,3721,poverty in particular,distribution_poverty_security,False,True
+2009,kp2_840_c1,3722,special issue child poverty,distribution_poverty_security,False,True
+2009,kp2_840_c1,3723,special issue old-age poverty,distribution_poverty_security,False,True
+2009,kp2_840_c1,3724,special issue income gap,distribution_poverty_security,False,True
+2009,kp2_840_c1,3725,social security in particular,distribution_poverty_security,False,True
+2009,kp2_840_c1,3730,equality in general (reference: disadvantaged societal groups),other_substantive,False,False
+2009,kp2_840_c1,3731,women/equal rights in particular,other_substantive,False,False
+2009,kp2_840_c1,3732,disabled persons in particular,other_substantive,False,False
+2009,kp2_840_c1,3740,elderly persons in general,other_substantive,False,False
+2009,kp2_840_c1,3741,retirement pension in particular,other_substantive,False,False
+2009,kp2_840_c1,3742,special issue annuity rate/ level of retirement pension,other_substantive,False,False
+2009,kp2_840_c1,3743,special issue guarantee of retirement pensions,other_substantive,False,False
+2009,kp2_840_c1,3744,special issue taxation of retirement pensions,other_substantive,False,False
+2009,kp2_840_c1,3745,special issue prolongation of time worked in a lifetime /retirement pension in the age of 67,other_substantive,False,False
+2009,kp2_840_c1,3750,immigration in general,immigration,False,False
+2009,kp2_840_c1,3751,integration in particular,immigration,False,False
+2009,kp2_840_c1,3752,restriction of immigration in particular,immigration,False,False
+2009,kp2_840_c1,3753,percentage of foreigners in Germany,immigration,False,False
+2009,kp2_840_c1,3754,governmental benefits for foreigners (i.e. social benefits),immigration,False,False
+2009,kp2_840_c1,3760,health policy in general,other_substantive,False,False
+2009,kp2_840_c1,3761,fostering in care,other_substantive,False,False
+2009,kp2_840_c1,3762,special issue compulsory long-term care insurance,other_substantive,False,False
+2009,kp2_840_c1,3763,health care reform in particular,other_substantive,False,False
+2009,kp2_840_c1,3764,special issue 'Gesundheitsfonds',other_substantive,False,False
+2009,kp2_840_c1,3765,explosion of costs in the public health sector in particular,other_substantive,False,False
+2009,kp2_840_c1,3766,special issue premium for health insurance fund,other_substantive,False,False
+2009,kp2_840_c1,3767,"insurance benefits,  health insurance funds in particular",other_substantive,False,False
+2009,kp2_840_c1,3768,"special issue, persons insured by compulsory health insurances vs.persons insured by private insurances",other_substantive,False,False
+2009,kp2_840_c1,3769,income of doctors in particular,other_substantive,False,False
+2009,kp2_840_c1,3770,contagions/epidemics in particular,other_substantive,False,False
+2009,kp2_840_c1,3771,special issue pandemic/swine influenza,other_substantive,False,False
+2009,kp2_840_c1,3799,other specific mention with regard to social policy,other_substantive,False,False
+2009,kp2_840_c1,3800,labour market policy,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3810,"unemployment, unemployment rate in general",domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3811,unemployment among young people in particular,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3812,special issue lack of apprenticeship training positions,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3830,Agenda 2010/Hartz IV in general,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3840,wage policy in general,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3841,wage level in particular,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3842,ancillary wage costs in particular,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3843,short time work in particular,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3844,reduction of wages in particular,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3845,minimum wage in particular,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3850,"precarious employment (i.e. time-work/labour leasing, limited contracts, internships) in general",domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3851,Minijobs in particular,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3852,protection against dismissal in particular,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3860,industrial conflicts (strikes)/collective bargaining/collective wage agreements in general,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3870,jobs in general (i.e. 'Arbeit fuer Alle'/'mehr Arbeit'),domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3871,reduction of jobs in particular,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3872,special issue relocation of jobs to other country,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3880,lack of skilled persons in general,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3881,emigration of qualified employees in particular (i.e. 'brain drain'),domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3899,other specific mention with regard to labour market policy,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3900,economic policy,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3910,economic situation in general,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3911,economic crisis/financial crisis/ banking crisis in particular,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3912,special issue economic recession/economic downturn,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3913,special issue price level/inflation/deflation,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3915,special issue nationalisation of banks,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3916,special issue public aid for banks,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3917,special issue supervision of banks,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3919,special issue special banks (i.e. Hypo Real Estate - HRE),domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3920,special issue manager salaries and bonuses,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3921,special issue responsibility of managers,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3922,special issue business activity support programme ('Konjunkturspritzen'),domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3923,special issue car scrapping  bonus ('Umweltpraemie'),domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3930,middle class in general,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3940,bankrupcy in general,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3941,public aids/credit approval process/guarantees for business companies in particular,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3949,"specific mention with regard to public aids (specific business companies, i.e. Opel)",domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3960,power of the economy in politics/political influence of the economy,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,3980,subsidies in general,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,4000,consumer protection in general (i.e. food safety),domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,4020,Euro (currency),euro_currency,False,True
+2009,kp2_840_c1,4021,stability of the Euro,euro_currency,False,True
+2009,kp2_840_c1,4099,other specific mention with regard to economic policy,domestic_economy_labour_prices,True,True
+2009,kp2_840_c1,4100,education policy,other_substantive,False,False
+2009,kp2_840_c1,4110,preschool education in general,other_substantive,False,False
+2009,kp2_840_c1,4120,elementary and high school policy in general,other_substantive,False,False
+2009,kp2_840_c1,4121,full-time schools in particular,other_substantive,False,False
+2009,kp2_840_c1,4122,Programme for International Student Assessment (PISA) in particular,other_substantive,False,False
+2009,kp2_840_c1,4130,higher education policy in general,other_substantive,False,False
+2009,kp2_840_c1,4131,conditions for studying/equipment of universities in particular,other_substantive,False,False
+2009,kp2_840_c1,4132,enrollment fee in particular,other_substantive,False,False
+2009,kp2_840_c1,4199,other specific mention with regard to education policy,other_substantive,False,False
+2009,kp2_840_c1,4200,"cultural and educational policy, leisure policy",other_substantive,False,False
+2009,kp2_840_c1,4300,fiscal policy,public_finance_tax,False,True
+2009,kp2_840_c1,4310,budgetary policy/national budget in general,public_finance_tax,False,True
+2009,kp2_840_c1,4311,budget reorganisation and budget consolidation in particular,public_finance_tax,False,True
+2009,kp2_840_c1,4312,federal/national deficit in particular,public_finance_tax,False,True
+2009,kp2_840_c1,4313,additional deficit in particular,public_finance_tax,False,True
+2009,kp2_840_c1,4314,privatisation in particular,public_finance_tax,False,True
+2009,kp2_840_c1,4320,tax policy in general,public_finance_tax,False,True
+2009,kp2_840_c1,4321,tax system in particular,public_finance_tax,False,True
+2009,kp2_840_c1,4324,tax burden in particular,public_finance_tax,False,True
+2009,kp2_840_c1,4325,waste of taxes in particular,public_finance_tax,False,True
+2009,kp2_840_c1,4326,tax increases in particular,public_finance_tax,False,True
+2009,kp2_840_c1,4328,tax reduction/'tax cuts' in particular,public_finance_tax,False,True
+2009,kp2_840_c1,4399,other specific mention with regard to fiscal policy,public_finance_tax,False,True
+2009,kp2_840_c1,4400,Eastern Germany,other_substantive,False,False
+2009,kp2_840_c1,4410,situation in Eastern Germany in general,other_substantive,False,False
+2009,kp2_840_c1,4420,assimilation/ reconstruction of Eastern Germany,other_substantive,False,False
+2009,kp2_840_c1,4421,solidarity tax in particular,other_substantive,False,False
+2009,kp2_840_c1,4430,emigration from the Eastern part in general,other_substantive,False,False
+2009,kp2_840_c1,4499,other specific mention with regard to Eastern Germany,other_substantive,False,False
+2009,kp2_840_c1,4500,other specific mention with regard to policy fields,other_substantive,False,False
+2009,kp2_840_c1,5000,other,other_substantive,False,False
+2013,kp3_840_c1,1000,political processes,other_substantive,False,False
+2013,kp3_840_c1,1100,political conflicts and scandals,other_substantive,False,False
+2013,kp3_840_c1,1110,political conflicts in general,other_substantive,False,False
+2013,kp3_840_c1,1111,conflicts in the federal government in particular,other_substantive,False,False
+2013,kp3_840_c1,1112,conflicts between CDU and CSU in particular,other_substantive,False,False
+2013,kp3_840_c1,1113,conflicts within the CDU in particular,other_substantive,False,False
+2013,kp3_840_c1,1114,conflicts within the CSU in particular,other_substantive,False,False
+2013,kp3_840_c1,1115,conflicts within the SPD in particular,other_substantive,False,False
+2013,kp3_840_c1,1116,conflicts within the GRUENEN in particular,other_substantive,False,False
+2013,kp3_840_c1,1117,conflicts within the FDP in particular,other_substantive,False,False
+2013,kp3_840_c1,1118,conflicts within the LINKE in particular,other_substantive,False,False
+2013,kp3_840_c1,1119,conflicts within the AfD in particular,other_substantive,False,False
+2013,kp3_840_c1,1120,conflicts between parties in particular,other_substantive,False,False
+2013,kp3_840_c1,1130,political scandals in general,other_substantive,False,False
+2013,kp3_840_c1,1131,scandals in state politics in particular,other_substantive,False,False
+2013,kp3_840_c1,1132,scandals in federal politics in particular,other_substantive,False,False
+2013,kp3_840_c1,1133,special issue Steinbruecks the finger,other_substantive,False,False
+2013,kp3_840_c1,1134,special issue Steinbrueck-extortion,other_substantive,False,False
+2013,kp3_840_c1,1135,special issue plagiarism affair,other_substantive,False,False
+2013,kp3_840_c1,1136,special issue retirement of prime minister Platzeck,other_substantive,False,False
+2013,kp3_840_c1,1199,other specific mention related to political conflicts and scandals,other_substantive,False,False
+2013,kp3_840_c1,1200,Bundestag election campaign,other_substantive,False,False
+2013,kp3_840_c1,1400,Bundestag election,other_substantive,False,False
+2013,kp3_840_c1,1500,federal state and local elections and election campaign,other_substantive,False,False
+2013,kp3_840_c1,1700,other specific mention with regard to political processes,other_substantive,False,False
+2013,kp3_840_c1,2000,political structures,other_substantive,False,False
+2013,kp3_840_c1,2010,"bureaucracy, officialdom in general",other_substantive,False,False
+2013,kp3_840_c1,2020,earnings of politicians in general,other_substantive,False,False
+2013,kp3_840_c1,2030,lobbying in general,other_substantive,False,False
+2013,kp3_840_c1,2100,type of government,other_substantive,False,False
+2013,kp3_840_c1,2110,democracy in general,other_substantive,False,False
+2013,kp3_840_c1,2111,discontent with democracy in general,other_substantive,False,False
+2013,kp3_840_c1,2112,participatory rights,other_substantive,False,False
+2013,kp3_840_c1,2113,direct democracy/referenda,other_substantive,False,False
+2013,kp3_840_c1,2200,formal institutions,other_substantive,False,False
+2013,kp3_840_c1,2210,"level of influence on EU-politics of Bundestag, Bundesrat",other_substantive,False,False
+2013,kp3_840_c1,2300,principles of state organization,other_substantive,False,False
+2013,kp3_840_c1,2310,federalism in general,other_substantive,False,False
+2013,kp3_840_c1,2400,normative order,other_substantive,False,False
+2013,kp3_840_c1,2410,impairment of values and morals in general,other_substantive,False,False
+2013,kp3_840_c1,2420,disenchantment with politics in general,other_substantive,False,False
+2013,kp3_840_c1,2430,criticism towards parties in general,other_substantive,False,False
+2013,kp3_840_c1,2431,criticism towards CDU/CSU in particular,other_substantive,False,False
+2013,kp3_840_c1,2432,criticism towards CDU in particular,other_substantive,False,False
+2013,kp3_840_c1,2433,criticism towards CSU in particular,other_substantive,False,False
+2013,kp3_840_c1,2434,criticism towards SPD in particular,other_substantive,False,False
+2013,kp3_840_c1,2435,criticism towards the GRUENEN in particular,other_substantive,False,False
+2013,kp3_840_c1,2436,criticism towards FDP in particular,other_substantive,False,False
+2013,kp3_840_c1,2437,criticism towards the LINKEN in particular,other_substantive,False,False
+2013,kp3_840_c1,2438,criticism towards the AfD in particular,other_substantive,False,False
+2013,kp3_840_c1,2439,other specific mention with regard to criticism towards parties (i.e. NPD),other_substantive,False,False
+2013,kp3_840_c1,2440,criticism towards politicians in general,other_substantive,False,False
+2013,kp3_840_c1,2441,specific mention related to criticism towards politicians,other_substantive,False,False
+2013,kp3_840_c1,2450,criticism towards federal government bodies in general,other_substantive,False,False
+2013,kp3_840_c1,2451,specific mention to criticism towards government bodies (i.e. Land Government),other_substantive,False,False
+2013,kp3_840_c1,2460,criticism towards political structures in general (i.e. idleness),other_substantive,False,False
+2013,kp3_840_c1,2470,criticism towards society in general,other_substantive,False,False
+2013,kp3_840_c1,2471,lack of prospects in particular,other_substantive,False,False
+2013,kp3_840_c1,2472,jealousy in particular,other_substantive,False,False
+2013,kp3_840_c1,2473,acquisitiveness in particular,other_substantive,False,False
+2013,kp3_840_c1,2474,lack of societal solidarity/solidarity in particular,other_substantive,False,False
+2013,kp3_840_c1,2475,no equal opportunity in particular,other_substantive,False,False
+2013,kp3_840_c1,2480,national pride in general,other_substantive,False,False
+2013,kp3_840_c1,2499,other specific mention with regard to normative order,other_substantive,False,False
+2013,kp3_840_c1,2500,other specific mention with regard to political structures,other_substantive,False,False
+2013,kp3_840_c1,3000,policy fields,other_substantive,False,False
+2013,kp3_840_c1,3100,foreign affairs,other_substantive,False,False
+2013,kp3_840_c1,3110,Europe in general,other_substantive,False,False
+2013,kp3_840_c1,3111,European Union/EU (as organisation) in particular,other_substantive,False,False
+2013,kp3_840_c1,3112,special issue EU-accession of Turkey,other_substantive,False,False
+2013,kp3_840_c1,3113,special issue EU-accession of Croatia,other_substantive,False,False
+2013,kp3_840_c1,3120,international organisations in general,other_substantive,False,False
+2013,kp3_840_c1,3160,foreign aid in general (no aid for Euro-countries),other_substantive,False,False
+2013,kp3_840_c1,3161,development aid in particular,other_substantive,False,False
+2013,kp3_840_c1,3170,Germany's position in the world in general,other_substantive,False,False
+2013,kp3_840_c1,3171,relationship to other countries,other_substantive,False,False
+2013,kp3_840_c1,3172,special issue relationship of Germany to the USA,other_substantive,False,False
+2013,kp3_840_c1,3175,globalisation in particular,other_substantive,False,False
+2013,kp3_840_c1,3176,special issue global equity,other_substantive,False,False
+2013,kp3_840_c1,3180,international conflicts/wars in general,other_substantive,False,False
+2013,kp3_840_c1,3181,terrorism as international problem/attacks outside of Germany in particular,other_substantive,False,False
+2013,kp3_840_c1,3183,special issue revolution in Egypt,other_substantive,False,False
+2013,kp3_840_c1,3184,special issue civil war in Syria,other_substantive,False,False
+2013,kp3_840_c1,3299,other mention with regard to international relations,other_substantive,False,False
+2013,kp3_840_c1,3300,defence,other_substantive,False,False
+2013,kp3_840_c1,3310,"armament, disarmament in general",other_substantive,False,False
+2013,kp3_840_c1,3311,drones of the German armed forces in particular,other_substantive,False,False
+2013,kp3_840_c1,3320,(world-) peace in general,other_substantive,False,False
+2013,kp3_840_c1,3330,German Federal Armed Forces in general,other_substantive,False,False
+2013,kp3_840_c1,3331,foreign deployments/foreign assignment in particular,other_substantive,False,False
+2013,kp3_840_c1,3332,"special issue, Afghanistan mission",other_substantive,False,False
+2013,kp3_840_c1,3399,other specific mention with regard to defence,other_substantive,False,False
+2013,kp3_840_c1,3400,domestic security/judicature,other_substantive,False,False
+2013,kp3_840_c1,3410,crime/violence in general,other_substantive,False,False
+2013,kp3_840_c1,3411,delinquency of foreigners in particular,other_substantive,False,False
+2013,kp3_840_c1,3412,terrorism in Germany/ danger of attack in Germany in particular,other_substantive,False,False
+2013,kp3_840_c1,3413,islamic fundamentalism in particular,other_substantive,False,False
+2013,kp3_840_c1,3414,right-wing extremism in particular,other_substantive,False,False
+2013,kp3_840_c1,3415,special issue NSU (Nationalsozialistischer Untergrund),other_substantive,False,False
+2013,kp3_840_c1,3416,left-wing extremism in particular,other_substantive,False,False
+2013,kp3_840_c1,3417,corruption in particular,corruption,False,False
+2013,kp3_840_c1,3418,special issue corrupt politicians,corruption,False,False
+2013,kp3_840_c1,3419,special issue economic-/employer-corruption,corruption,False,False
+2013,kp3_840_c1,3420,people running amok in particular,other_substantive,False,False
+2013,kp3_840_c1,3421,child maltreatment in particular,other_substantive,False,False
+2013,kp3_840_c1,3430,justice and judiciary in general,other_substantive,False,False
+2013,kp3_840_c1,3431,judiciary in particular,other_substantive,False,False
+2013,kp3_840_c1,3432,special issue Gustl Mollath,other_substantive,False,False
+2013,kp3_840_c1,3433,civil rights in particular,other_substantive,False,False
+2013,kp3_840_c1,3434,data protection in particular,other_substantive,False,False
+2013,kp3_840_c1,3435,special issue state surveillance,other_substantive,False,False
+2013,kp3_840_c1,3436,special issue intelligence service in particular,other_substantive,False,False
+2013,kp3_840_c1,3437,laws on arms in particular,other_substantive,False,False
+2013,kp3_840_c1,3499,other specific mention with regard to domestic security,other_substantive,False,False
+2013,kp3_840_c1,3500,infrastructure,other_substantive,False,False
+2013,kp3_840_c1,3510,transport in general,other_substantive,False,False
+2013,kp3_840_c1,3511,traffic in particular,other_substantive,False,False
+2013,kp3_840_c1,3512,special issue automobile charge,other_substantive,False,False
+2013,kp3_840_c1,3513,urban public transport in particular,other_substantive,False,False
+2013,kp3_840_c1,3519,particular mention with regard to transport,other_substantive,False,False
+2013,kp3_840_c1,3520,energy policy in general,energy_other_than_prices,False,False
+2013,kp3_840_c1,3521,"energy prices (electricity,  diesel fuel, gas, oil, etc.) in particular",domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3522,energy supply in particular (i.e. dependency of Germany on energy supply abroad),energy_other_than_prices,False,False
+2013,kp3_840_c1,3523,nucelar power in particular,energy_other_than_prices,False,False
+2013,kp3_840_c1,3524,special issue nuclear power phase-out,energy_other_than_prices,False,False
+2013,kp3_840_c1,3525,special issue energy revolution,energy_other_than_prices,False,False
+2013,kp3_840_c1,3526,special issue final storage,energy_other_than_prices,False,False
+2013,kp3_840_c1,3527,alternative/regenerative (renewable) energy in particular,energy_other_than_prices,False,False
+2013,kp3_840_c1,3528,coal subsidies/open-cast mining in particular,energy_other_than_prices,False,False
+2013,kp3_840_c1,3529,fracking in particular,energy_other_than_prices,False,False
+2013,kp3_840_c1,3540,housing market in general,other_substantive,False,False
+2013,kp3_840_c1,3541,house building in particular,other_substantive,False,False
+2013,kp3_840_c1,3542,rental price in particular,other_substantive,False,False
+2013,kp3_840_c1,3560,internet in general,other_substantive,False,False
+2013,kp3_840_c1,3561,blocking of websites in particular,other_substantive,False,False
+2013,kp3_840_c1,3570,town-land-difference/land in particular,other_substantive,False,False
+2013,kp3_840_c1,3599,other mention with regard to infrastructure,other_substantive,False,False
+2013,kp3_840_c1,3600,environmental policy,environment_climate,False,False
+2013,kp3_840_c1,3610,environmental protection in general,environment_climate,False,False
+2013,kp3_840_c1,3611,damage caused to the environment/environmental pollution in particular,environment_climate,False,False
+2013,kp3_840_c1,3612,eco-tax in particular,environment_climate,False,False
+2013,kp3_840_c1,3620,climate protection in general,environment_climate,False,False
+2013,kp3_840_c1,3621,climate change in particular,environment_climate,False,False
+2013,kp3_840_c1,3630,nature conservation in general,environment_climate,False,False
+2013,kp3_840_c1,3632,flood in particular,environment_climate,False,False
+2013,kp3_840_c1,3640,animal protection in general,environment_climate,False,False
+2013,kp3_840_c1,3699,other specific mention with regard to environmental policy,environment_climate,False,False
+2013,kp3_840_c1,3700,social policy,other_substantive,False,False
+2013,kp3_840_c1,3710,family policy in general,other_substantive,False,False
+2013,kp3_840_c1,3713,children in particular (i.e. child benefits),other_substantive,False,False
+2013,kp3_840_c1,3714,special issue childcare,other_substantive,False,False
+2013,kp3_840_c1,3715,special issue child care subsidy,other_substantive,False,False
+2013,kp3_840_c1,3716,adolescents in particular,other_substantive,False,False
+2013,kp3_840_c1,3720,equity in general,distribution_poverty_security,False,True
+2013,kp3_840_c1,3721,poverty in particular,distribution_poverty_security,False,True
+2013,kp3_840_c1,3722,special issue child poverty,distribution_poverty_security,False,True
+2013,kp3_840_c1,3723,special issue old-age poverty,distribution_poverty_security,False,True
+2013,kp3_840_c1,3724,special issue income gap,distribution_poverty_security,False,True
+2013,kp3_840_c1,3725,social security in particular,distribution_poverty_security,False,True
+2013,kp3_840_c1,3730,equality in general,other_substantive,False,False
+2013,kp3_840_c1,3731,women/equal rights in particular,other_substantive,False,False
+2013,kp3_840_c1,3732,disabled persons in particular,other_substantive,False,False
+2013,kp3_840_c1,3740,elderly persons in general,other_substantive,False,False
+2013,kp3_840_c1,3741,retirement pension in particular,other_substantive,False,False
+2013,kp3_840_c1,3742,special issue annuity rate/ level of retirement pension,other_substantive,False,False
+2013,kp3_840_c1,3743,special issue guarantee of retirement pensions,other_substantive,False,False
+2013,kp3_840_c1,3744,special issue taxation of retirement pensions,other_substantive,False,False
+2013,kp3_840_c1,3745,special issue prolongation of time worked in a lifetime,other_substantive,False,False
+2013,kp3_840_c1,3750,immigration in general,immigration,False,False
+2013,kp3_840_c1,3751,integration in particular,immigration,False,False
+2013,kp3_840_c1,3752,restriction of immigration in particular,immigration,False,False
+2013,kp3_840_c1,3753,asylum in particular,immigration,False,False
+2013,kp3_840_c1,3754,percentage of foreigners in Germany,immigration,False,False
+2013,kp3_840_c1,3755,governmental benefits for foreigners (i.e. social benefits) in particular,immigration,False,False
+2013,kp3_840_c1,3760,health policy in general,other_substantive,False,False
+2013,kp3_840_c1,3761,fostering in care,other_substantive,False,False
+2013,kp3_840_c1,3762,special issue compulsory long-term care insurance,other_substantive,False,False
+2013,kp3_840_c1,3763,health care reform in particular,other_substantive,False,False
+2013,kp3_840_c1,3764,explosion of costs in the public health sector in particular,other_substantive,False,False
+2013,kp3_840_c1,3765,special issue premium for health insurance fund,other_substantive,False,False
+2013,kp3_840_c1,3766,"insurance benefits,  health insurance funds in particular",other_substantive,False,False
+2013,kp3_840_c1,3767,special issue persons insured by compulsory health vs.private insurances,other_substantive,False,False
+2013,kp3_840_c1,3768,income of doctors in particular,other_substantive,False,False
+2013,kp3_840_c1,3769,contagions/epidemics in particular,other_substantive,False,False
+2013,kp3_840_c1,3770,feeding in particular,other_substantive,False,False
+2013,kp3_840_c1,3771,organ transplant in particular,other_substantive,False,False
+2013,kp3_840_c1,3780,demographic change in particular,other_substantive,False,False
+2013,kp3_840_c1,3781,inter-generation fairness in particular,other_substantive,False,False
+2013,kp3_840_c1,3799,other specific mention with regard to social policy,other_substantive,False,False
+2013,kp3_840_c1,3800,labour market policy,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3810,"unemployment, unemployment rate in general",domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3811,unemployment among young people in particular,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3812,special issue lack of apprenticeship training positions,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3830,Agenda 2010/Hartz IV in general,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3840,wage policy in general,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3841,wage level in particular,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3842,ancillary wage costs in particular,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3843,short time work in particular,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3844,reduction of wages in particular,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3845,minimum wage in particular,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3850,precarious employment in general,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3851,Minijobs in particular,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3852,protection against dismissal in particular,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3860,industrial conflicts/collective bargaining/collective wage agreements in general,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3870,jobs in general,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3871,reduction of jobs in particular,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3880,lack of skilled persons in general,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3881,emigration of qualified employees in particular (i.e. ''brain drain''),domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3899,other specific mention with regard to labour market policy,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3900,economic policy,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3910,economic situation in general,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3911,economic crisis/financial crisis/ banking crisis in particular,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3912,special issue economic recession/economic downturn,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3913,special issue price level/inflation/deflation,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3914,special issue nationalisation of banks,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3915,special issue public aid for banks,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3916,special issue supervision of banks,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3917,special issue manager salaries and bonuses,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3918,special issue responsibility of managers,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3919,special issue business activity support programme (''Konjunkturspritzen''),domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3930,middle class in general,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3940,bankrupcy in general,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3941,public aids/credit approval process/guarantees business companies in particular,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3949,specific mention with regard to public aids (specific business companies),domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3960,power of the economy in politics/political influence of the economy,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,3980,subsidies in general,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,4000,consumer protection in general,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,4099,other specific mention with regard to economic policy,domestic_economy_labour_prices,True,True
+2013,kp3_840_c1,4100,education policy,other_substantive,False,False
+2013,kp3_840_c1,4110,preschool education in general,other_substantive,False,False
+2013,kp3_840_c1,4120,elementary and high school policy in general,other_substantive,False,False
+2013,kp3_840_c1,4121,full-time schools in particular,other_substantive,False,False
+2013,kp3_840_c1,4122,Programme for International Student Assessment (PISA) in particular,other_substantive,False,False
+2013,kp3_840_c1,4130,higher education policy in general,other_substantive,False,False
+2013,kp3_840_c1,4131,conditions for studying/equipment of universities in particular,other_substantive,False,False
+2013,kp3_840_c1,4132,enrollment fee in particular,other_substantive,False,False
+2013,kp3_840_c1,4199,other specific mention with regard to education policy,other_substantive,False,False
+2013,kp3_840_c1,4200,"cultural and educational policy, leisure policy",other_substantive,False,False
+2013,kp3_840_c1,4300,fiscal policy,public_finance_tax,False,True
+2013,kp3_840_c1,4310,budgetary policy/national budget in general,public_finance_tax,False,True
+2013,kp3_840_c1,4311,budget reorganisation and budget consolidation in particular,public_finance_tax,False,True
+2013,kp3_840_c1,4312,federal/national deficit in particular,public_finance_tax,False,True
+2013,kp3_840_c1,4313,additional deficit in particular,public_finance_tax,False,True
+2013,kp3_840_c1,4314,privatisation in particular,public_finance_tax,False,True
+2013,kp3_840_c1,4320,tax policy in general,public_finance_tax,False,True
+2013,kp3_840_c1,4321,tax system in particular,public_finance_tax,False,True
+2013,kp3_840_c1,4324,tax burden in particular,public_finance_tax,False,True
+2013,kp3_840_c1,4325,waste of taxes in particular,public_finance_tax,False,True
+2013,kp3_840_c1,4326,tax increases in particular,public_finance_tax,False,True
+2013,kp3_840_c1,4327,Uli Hoeness in particular,public_finance_tax,False,True
+2013,kp3_840_c1,4328,tax reduction/''tax cuts'' in particular,public_finance_tax,False,True
+2013,kp3_840_c1,4329,tax equity in particular,public_finance_tax,False,True
+2013,kp3_840_c1,4330,currency in general,euro_currency,False,True
+2013,kp3_840_c1,4331,Euro in particular,euro_currency,False,True
+2013,kp3_840_c1,4332,special issue Greece financial helps,euro_currency,False,True
+2013,kp3_840_c1,4333,special issue financial helps for other European Countries,euro_currency,False,True
+2013,kp3_840_c1,4399,other specific mention with regard to fiscal policy,public_finance_tax,False,True
+2013,kp3_840_c1,4400,Eastern Germany,other_substantive,False,False
+2013,kp3_840_c1,4410,situation in Eastern Germany in general,other_substantive,False,False
+2013,kp3_840_c1,4420,assimilation/ reconstruction of Eastern Germany,other_substantive,False,False
+2013,kp3_840_c1,4421,solidarity tax in particular,other_substantive,False,False
+2013,kp3_840_c1,4430,emigration from the Eastern part in general,other_substantive,False,False
+2013,kp3_840_c1,4499,other specific mention with regard to Eastern Germany,other_substantive,False,False
+2013,kp3_840_c1,4500,other specific mention with regard to policy fields,other_substantive,False,False
+2013,kp3_840_c1,5000,other,other_substantive,False,False
