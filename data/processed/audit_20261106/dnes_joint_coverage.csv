@@ -1,0 +1,6 @@
+year,scenario,eligible_n,economy_priority_trust_named_vote_n,economy_priority_trust_named_vote_or_abstention_n,same_with_positive_demographic_weight_n,all_three_measured_before_vote,comparable_government_approval_across_years_verified
+2007,all_archive_rows,4018,3199,3245,3245,False,False
+2007,excluding_webpanel_source_6,1442,1087,1115,1115,False,False
+2011,all_archive_rows,2078,1643,1694,1694,False,False
+2015,all_archive_rows,4147,1639,1707,1650,False,False
+2015,producer_complete_interviews,2001,1584,1650,1650,False,False

@@ -1068,5 +1068,1328 @@
     "content_type": "application/pdf",
     "sha256": "0c1e5b82ca265beedf6aaefa72368e7b7f13b26df045540ada50447fdc03cadd",
     "local_path": "data/raw/audit_20261106/cis_2920_marginals.pdf"
+  },
+  "dpes_2006_metadata": {
+    "url": "https://ssh.datastations.nl/api/datasets/:persistentId/?persistentId=doi:10.17026/DANS-X7H-HMH5",
+    "resolved_url": "https://ssh.datastations.nl/api/datasets/:persistentId/?persistentId=doi:10.17026/DANS-X7H-HMH5",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:20.529465+00:00",
+    "bytes": 26323,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "6e71cf199b0d1877d534aa071602a46c72a6a9c9660fadf8cb9a4c818cb2afde",
+    "local_path": "data/raw/audit_20261106/dpes_2006_metadata.json"
+  },
+  "dpes_2012_metadata": {
+    "url": "https://ssh.datastations.nl/api/datasets/:persistentId/?persistentId=doi:10.17026/DANS-X5H-AKDS",
+    "resolved_url": "https://ssh.datastations.nl/api/datasets/:persistentId/?persistentId=doi:10.17026/DANS-X5H-AKDS",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:20.577525+00:00",
+    "bytes": 22403,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "d37e5c9e4b0ffcfc310385ffebcf74993e1f1330b8a7deb8625b411fdb1391e3",
+    "local_path": "data/raw/audit_20261106/dpes_2012_metadata.json"
+  },
+  "dpes_2010_metadata": {
+    "url": "https://ssh.datastations.nl/api/datasets/:persistentId/?persistentId=doi:10.17026/DANS-XVH-TGHY",
+    "resolved_url": "https://ssh.datastations.nl/api/datasets/:persistentId/?persistentId=doi:10.17026/DANS-XVH-TGHY",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:20.586858+00:00",
+    "bytes": 29261,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "7d3b5088b9ab0ca4645dcf6146f3dea75a982152880ef6943170c674f6cf38f9",
+    "local_path": "data/raw/audit_20261106/dpes_2010_metadata.json"
+  },
+  "dpes_2006_file_144407": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/144407",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-x7h-hmh5/186e9bf4e89-585b1f16322b?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Dropoff_schriftelijke_vragenlijst_.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152851Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=da9f8132ace6e5b3b767049d2271bb3ec5a92af27add7c966ce383301eaf5129",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:52.476503+00:00",
+    "bytes": 244424,
+    "content_type": "application/pdf",
+    "sha256": "89cf0741ee95f623a3451a5da4679158cb02f5e2642319b77acb92e40962702d",
+    "local_path": "data/raw/audit_20261106/dpes_2006_file_144407.pdf"
+  },
+  "dpes_2010_english_sav": {
+    "url": "https://www.nkodata.nl/hosted-files/download/13",
+    "resolved_url": "https://www.nkodata.nl/hosted-files/download/13",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:52.891281+00:00",
+    "bytes": 15038595,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "74cca9bb1110344a30c8d6685c78be358ed024ad0b478aa16e0c108e0a23c86c",
+    "local_path": "data/raw/audit_20261106/dpes_2010_english_sav.sav"
+  },
+  "dpes_2006_file_144406": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/144406",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-x7h-hmh5/186e9bf4d34-6d012c098a0f?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27steekproefnko2006_def.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152853Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=62d3aef4f5c6acd3040b16e0511740d91a463dcb2310c97e1bba89df2774d394",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:53.678531+00:00",
+    "bytes": 493773,
+    "content_type": "application/pdf",
+    "sha256": "b605da2d8f2330c5e7262866a92b30abf11f072cb4d5802b8dd2908f21de6751",
+    "local_path": "data/raw/audit_20261106/dpes_2006_file_144406.pdf"
+  },
+  "dpes_2006_file_144356": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/144356",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-x7h-hmh5/186e9beff75-2c93e1fb2f3c?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27NKO%25202006.por&response-content-type=application%2Fx-spss-por&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152852Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=35370ede83542c05b3499b9627faf9ae72a0367f3332a46c4561d71bb8d8962d",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:54.514962+00:00",
+    "bytes": 6786484,
+    "content_type": "application/x-spss-por",
+    "sha256": "68a4a95784f702cc53ad043cf2bbc0a35c847ba0f964f67a9e4a31a8cb577e1f",
+    "local_path": "data/raw/audit_20261106/dpes_2006_file_144356.por"
+  },
+  "dpes_2006_file_144402": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/144402",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-x7h-hmh5/186e9bf47f6-9832b2879fc6?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Vragenlijst_facetoface_1egolf.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152853Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=b9d1aa76c6e652cd756c4dd20acf5220eabb42372b24ed53effa7db672f713fc",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:54.918892+00:00",
+    "bytes": 1416729,
+    "content_type": "application/pdf",
+    "sha256": "8fec53de1c1a9f4c0ad5bcb0083725c686030a8266915e832f39645f55211de3",
+    "local_path": "data/raw/audit_20261106/dpes_2006_file_144402.pdf"
+  },
+  "dpes_2006_english_codebook": {
+    "url": "https://www.nkodata.nl/hosted-files/download/2",
+    "resolved_url": "https://www.nkodata.nl/hosted-files/download/2",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:55.201746+00:00",
+    "bytes": 2051953,
+    "content_type": "application/pdf",
+    "sha256": "45ce24bc02889d74188700eea801b71b71fd4698e290993640179334170cf103",
+    "local_path": "data/raw/audit_20261106/dpes_2006_english_codebook.pdf"
+  },
+  "dpes_2006_file_144404": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/144404",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-x7h-hmh5/186e9bf4aa3-5cd3e0e07990?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Vragenlijst_facetoface_2egolf.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152854Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=0297a1013d6ce10d321fbce992f77a22c3ac7ed86e6145294a93d438a7f80927",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:55.478144+00:00",
+    "bytes": 1527676,
+    "content_type": "application/pdf",
+    "sha256": "67792d7411519482c8e31a1526a2b8f8fa81cfdf4d5ee1608b61c57ed6ae1199",
+    "local_path": "data/raw/audit_20261106/dpes_2006_file_144404.pdf"
+  },
+  "dpes_2006_file_144403": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/144403",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-x7h-hmh5/186e9bf493b-79b8b8d7af27?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Vragenlijst_telefonisch_2egolf.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152855Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=49ddfedaa4c6aa22f15514d6c7593fbb23e51cc0eb88eb7d1f1b5a7d658f3a3d",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:55.967024+00:00",
+    "bytes": 576317,
+    "content_type": "application/pdf",
+    "sha256": "e95d4ae23f30332b30f4170f1df2f100158798af9f4873d906bd01b52773fb81",
+    "local_path": "data/raw/audit_20261106/dpes_2006_file_144403.pdf"
+  },
+  "dpes_2006_file_144408": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/144408",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-x7h-hmh5/186e9bf4fe9-129821813d7f?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Vragenlijst_telefonisch_non-response.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152855Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=383fe6d3677e460a2f1e3860e2aaebd6f3a941040e64124050632d84bd2aff73",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:56.260646+00:00",
+    "bytes": 741471,
+    "content_type": "application/pdf",
+    "sha256": "934d30dc4d4d65012baddd9eb5cb035d6abfbb7e2e7a65c250151bfb0250d71c",
+    "local_path": "data/raw/audit_20261106/dpes_2006_file_144408.pdf"
+  },
+  "dpes_2006_file_144405": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/144405",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-x7h-hmh5/186e9bf4bf6-05721d891e6b?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Vragenlijst_schriftelijk_non-response.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152855Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=3c46ad75dcb05a497218e6c4ed51581a2f061615747d849b5b9a22164721e710",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:56.389085+00:00",
+    "bytes": 252355,
+    "content_type": "application/pdf",
+    "sha256": "edeb031bc6abcf9b57b81d8c2685e49a7d7bde6d512e3c7ee29cc3047f71f00a",
+    "local_path": "data/raw/audit_20261106/dpes_2006_file_144405.pdf"
+  },
+  "dpes_2010_file_152273": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/152273",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-xvh-tghy/186ea4ecbc3-adb794f7e8b0?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Drop%2520off%2520vragenlijst.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152856Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=e3b4d894406786cf0000d5f3b77f163000b042d76697c1a21a24e4e779cb2fd7",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:56.529881+00:00",
+    "bytes": 44428,
+    "content_type": "application/pdf",
+    "sha256": "82a43b7c4afb25772eccd5d1b8f7058a4c83f55ef1018647b9ecda58d2093843",
+    "local_path": "data/raw/audit_20261106/dpes_2010_file_152273.pdf"
+  },
+  "dpes_2010_file_152274": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/152274",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-xvh-tghy/186ea4eccdc-8563a4e73c9b?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27PAPI%2520vragenlijst%25201e%2520golf.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152856Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=4daeafbea6ff746e6fb6042d0bceb6294175c1490ed9bf8994116c203ac6abde",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:57.143893+00:00",
+    "bytes": 50531,
+    "content_type": "application/pdf",
+    "sha256": "0bc704677b946041189321f36665cdb04d663105af09ba054e0a104c4694ef93",
+    "local_path": "data/raw/audit_20261106/dpes_2010_file_152274.pdf"
+  },
+  "dpes_2010_file_152279": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/152279",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-xvh-tghy/186ea4ed1bb-9d8f99d9d56e?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27PAPI%2520vragenlijst%25202e%2520golf.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152857Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=62a08a8c073d0707926d9dd2f29100ab973f71d6c8b0d19603d71e886ababf71",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:57.793474+00:00",
+    "bytes": 53920,
+    "content_type": "application/pdf",
+    "sha256": "e784e85b80dd0d4c0fd42ec2099405704eb6509cf5774f77b2474163cc619b33",
+    "local_path": "data/raw/audit_20261106/dpes_2010_file_152279.pdf"
+  },
+  "dpes_2010_file_152271": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/152271",
+    "resolved_url": "https://ssh.datastations.nl/api/access/datafile/152271",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:58.561156+00:00",
+    "bytes": 5996891,
+    "content_type": "text/tab-separated-values; name=\"NKO_2010_GEANONIMISEERD.tab\";charset=UTF-8",
+    "sha256": "513c3473d77ff7a21d69331567d985ee53c70161d591ebfa692bf88d194b3dfe",
+    "local_path": "data/raw/audit_20261106/dpes_2010_file_152271.tab"
+  },
+  "dpes_2010_file_152276": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/152276",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-xvh-tghy/186ea4ecec3-f711f23832ec?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27steekproef%2520NKO_2010.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152858Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=00b05eee92dd7d16c05aa596c5cc15a98afb344814f97aead982f1d993694961",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:58.656734+00:00",
+    "bytes": 528583,
+    "content_type": "application/pdf",
+    "sha256": "f1dbd4dd8f9d1dac9a8b3ab0327de39719a457758365b793060db4bb4b124f30",
+    "local_path": "data/raw/audit_20261106/dpes_2010_file_152276.pdf"
+  },
+  "dpes_2010_file_152284": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/152284",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-xvh-tghy/186ea4ed76f-2df9482282f6?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27NKO%25202010%2520DANSDEF_geanonimiseerd.por&response-content-type=application%2Fx-spss-por&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152856Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=57b97ba85e4d54d3425fbabb61e617862710db8ff01b96bf8228208643361c8c",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:58.748649+00:00",
+    "bytes": 6087270,
+    "content_type": "application/x-spss-por",
+    "sha256": "a9a5854156f655cc156d115669c2fabc788282d47d3786c274abeee9974024c4",
+    "local_path": "data/raw/audit_20261106/dpes_2010_file_152284.por"
+  },
+  "dpes_2010_file_152275": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/152275",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-xvh-tghy/186ea4ecdbb-a97d887152e7?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Toelichting%25201%2520interviewmodussen%2520NKO%25202010.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152858Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=ddb7909f21428f4dba9650a6cf6b648f63595f3f894bcf596d253af28da031fc",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:59.198817+00:00",
+    "bytes": 62632,
+    "content_type": "application/pdf",
+    "sha256": "54f2bd28406ec2a61e7a73967af624ee065ee7601ac9f02e4d3d82c4b6da7d7f",
+    "local_path": "data/raw/audit_20261106/dpes_2010_file_152275.pdf"
+  },
+  "dpes_2010_file_152283": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/152283",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-xvh-tghy/186ea4ed63e-ff3659709df1?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Toelichting%25202%2520interviewmodussen%2520NKO%25202010.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152858Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=faefb75b3ec7e7049172ea7c5c20f204b059538f955f0b66a6d56ec339a0bba1",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:59.267013+00:00",
+    "bytes": 81821,
+    "content_type": "application/pdf",
+    "sha256": "0f7b2a436fe25f600552f27154ef4d88f5b1c3549abb61e5c59b6bb768ad2f06",
+    "local_path": "data/raw/audit_20261106/dpes_2010_file_152283.pdf"
+  },
+  "dpes_2010_file_152268": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/152268",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-xvh-tghy/186ea4ec57c-68691d634a52?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Toonkaarten%2520%2520_CAPI%2520-%25201e%2520golf.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152858Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=f8a6569b5dc73aa84dcd2574d97e2b89f554fcecdc16007209bc8c02bd838672",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:59.370443+00:00",
+    "bytes": 119629,
+    "content_type": "application/pdf",
+    "sha256": "bd24693969faf2179b71d13c7f8b18a1f35a007b4fa23b8258116e5b5eeed2be",
+    "local_path": "data/raw/audit_20261106/dpes_2010_file_152268.pdf"
+  },
+  "dpes_2010_file_152280": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/152280",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-xvh-tghy/186ea4ed29e-e852aee43147?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Toonkaarten%2520_CAPI%2520-%25202e%2520golf.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152859Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=cb9fd5c9f5a3fc1df15b5100ffe7e1e68b854bd03f4008635c65ab602975a60d",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:28:59.838883+00:00",
+    "bytes": 117708,
+    "content_type": "application/pdf",
+    "sha256": "e21dc98930dcc71744a64e121e75b26c73793f87fd0e6673cb7cb624f1bdf8b7",
+    "local_path": "data/raw/audit_20261106/dpes_2010_file_152280.pdf"
+  },
+  "dpes_2010_file_152282": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/152282",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-xvh-tghy/186ea4ed528-70cd9dd62db3?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Vraagteksten%2520en%2520schema%2527s%2520_CAPI%2520-%25201e%2520golf.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152859Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=f7eeddc28669dad7e653d8c783ef2b5701e08dbad00bc3ceb60a7dadf3fe6a1c",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:29:00.147249+00:00",
+    "bytes": 1097694,
+    "content_type": "application/pdf",
+    "sha256": "df234683bb49c5d8df032f14ef7b8cfc6c86cdd8cacb09c7f6b5da30b0d03058",
+    "local_path": "data/raw/audit_20261106/dpes_2010_file_152282.pdf"
+  },
+  "dpes_2010_file_152277": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/152277",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-xvh-tghy/186ea4ecfb3-7bb6d42e8d56?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Vraagteksten%2520en%2520schema%2527s%2520%2520_CAPI%2520-%25202e%2520golf.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152859Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=2d746a5a095d316539c1a9070d034e5a7e54115ac2d4c87b6f139d3a8f713e96",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:29:00.563656+00:00",
+    "bytes": 1287577,
+    "content_type": "application/pdf",
+    "sha256": "945185f161383fad8a6645d4cad833c6380e7826547bf8ed9f9314c6a82f0c2b",
+    "local_path": "data/raw/audit_20261106/dpes_2010_file_152277.pdf"
+  },
+  "dpes_2006_file_144350": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/144350",
+    "resolved_url": "https://ssh.datastations.nl/api/access/datafile/144350",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:29:00.637202+00:00",
+    "bytes": 6896285,
+    "content_type": "text/tab-separated-values; name=\"NKO2006_DANSDEF_20070913.tab\";charset=UTF-8",
+    "sha256": "49c0ddbcfed5e0c6119e8ae03f544617c10af0bd7bba9991135ce634ad46208d",
+    "local_path": "data/raw/audit_20261106/dpes_2006_file_144350.tab"
+  },
+  "dpes_2010_file_152272": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/152272",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-xvh-tghy/186ea4ecacd-5694c0c38e98?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Vraagteksten%2520en%2520schema%2527s%2520_CATI%2520-%25201e%2520golf.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152900Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=ba640dc3aedb935f466d4b3000d169e64ba07e740d961326ef6ef2bee51a0b8f",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:29:00.648985+00:00",
+    "bytes": 742520,
+    "content_type": "application/pdf",
+    "sha256": "b319aa84a6a20bc505ac4e16b6da90cfdd4c4f4d61100c51daffb5522fb999cc",
+    "local_path": "data/raw/audit_20261106/dpes_2010_file_152272.pdf"
+  },
+  "dpes_2010_file_152278": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/152278",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-xvh-tghy/186ea4ed0a9-f674c93abef8?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Vraagteksten%2520en%2520schema%2527s%2520_CATI%2520-%25202e%2520golf.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152900Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=782d267cd0548038a3d90395ef68c47384bb4374d9719eb8a2c3898fa432ab32",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:29:00.946541+00:00",
+    "bytes": 715734,
+    "content_type": "application/pdf",
+    "sha256": "610ee8c14030830399906a877d7b313fe7d9b5940b2fd99947fdac5a9bb75148",
+    "local_path": "data/raw/audit_20261106/dpes_2010_file_152278.pdf"
+  },
+  "dpes_2012_file_168686": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/168686",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-x5h-akds/186eb2aa161-11a32eb337fa?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27NKO2012.por&response-content-type=application%2Fx-spss-por&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152900Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=216f1f181e980488fbc983f34d8eafb0063202939605d46fa3de1daeb25cfb61",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:29:01.301205+00:00",
+    "bytes": 94208,
+    "content_type": "application/x-spss-por",
+    "sha256": "eea17f1c9d917cbb9198c199d0cb5efccfb03776e980988720d868934d09e38e",
+    "local_path": "data/raw/audit_20261106/dpes_2012_file_168686.por"
+  },
+  "dpes_2012_file_168669": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/168669",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-x5h-akds/186eb2a6055-e6096d886252?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27NKO2012_Codebook.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T152900Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=5128d311664c25314f80c185a86b9dbab97593c8d88156aeaa62c60df5952310",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:29:01.680399+00:00",
+    "bytes": 607306,
+    "content_type": "application/pdf",
+    "sha256": "4454b3abde7e16e6549ae92553c976d34da859e2eb336e411ce99ebd8fd49fee",
+    "local_path": "data/raw/audit_20261106/dpes_2012_file_168669.pdf"
+  },
+  "dpes_2012_file_168672": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/168672",
+    "resolved_url": "https://ssh.datastations.nl/api/access/datafile/168672",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:29:01.743161+00:00",
+    "bytes": 2578858,
+    "content_type": "text/tab-separated-values; name=\"NKO2012.tab\";charset=UTF-8",
+    "sha256": "dbc45d57a55a69006e1ffc468ce5852cc41255912da85bf7869eed57ec098565",
+    "local_path": "data/raw/audit_20261106/dpes_2012_file_168672.tab"
+  },
+  "dpes_2012_ddi": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/168672/metadata/ddi",
+    "resolved_url": "https://ssh.datastations.nl/api/access/datafile/168672/metadata/ddi",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:34:45.539223+00:00",
+    "bytes": 662079,
+    "content_type": "text/xml;charset=UTF-8",
+    "sha256": "f03bb2b2d0f5d6241d6c35e8fef18bf54c94280371eb0e61a0ef38368dcadd4d",
+    "local_path": "data/raw/audit_20261106/dpes_2012_ddi.xml"
+  },
+  "dpes_2006_ddi": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/144350/metadata/ddi",
+    "resolved_url": "https://ssh.datastations.nl/api/access/datafile/144350/metadata/ddi",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:34:45.866616+00:00",
+    "bytes": 1536419,
+    "content_type": "text/xml;charset=UTF-8",
+    "sha256": "5753833c574c3fdef4b276d9f521825978d903f4c9a15e2aace72f81db6ffd9c",
+    "local_path": "data/raw/audit_20261106/dpes_2006_ddi.xml"
+  },
+  "dpes_2010_ddi": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/152271/metadata/ddi",
+    "resolved_url": "https://ssh.datastations.nl/api/access/datafile/152271/metadata/ddi",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:34:45.891424+00:00",
+    "bytes": 1182006,
+    "content_type": "text/xml;charset=UTF-8",
+    "sha256": "e620776d052741d4585ddcfa5e4b758c0f233ef3583e07bf0f7103f2f865e182",
+    "local_path": "data/raw/audit_20261106/dpes_2010_ddi.xml"
+  },
+  "ees_2009_reshare_metadata": {
+    "url": "https://reshare.ukdataservice.ac.uk/852634/",
+    "resolved_url": "https://reshare.ukdataservice.ac.uk/852634/",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:35:13.284651+00:00",
+    "bytes": 48750,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "0f0f53cd7ae3e7d348c161523ab64f22c54fc40a5c41e8f2159dcdefd3fa4b29",
+    "local_path": "data/raw/audit_20261106/ees_2009_reshare_metadata.html"
+  },
+  "ees_2009_release_notes": {
+    "url": "https://reshare.ukdataservice.ac.uk/852634/2/ReleaseNotes_June2011.doc",
+    "resolved_url": "https://reshare.ukdataservice.ac.uk/852634/2/ReleaseNotes_June2011.doc",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:35:13.813686+00:00",
+    "bytes": 40448,
+    "content_type": "application/msword",
+    "sha256": "b9b2199c8958b8df59319edbc4113c11b7ed2841c9f7ce99b29275c3c0be9af9",
+    "local_path": "data/raw/audit_20261106/ees_2009_release_notes.doc"
+  },
+  "ees_2009_questionnaire": {
+    "url": "https://reshare.ukdataservice.ac.uk/852634/1/EES_2009_VoterStudy.pdf",
+    "resolved_url": "https://reshare.ukdataservice.ac.uk/852634/1/EES_2009_VoterStudy.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:35:13.983966+00:00",
+    "bytes": 206031,
+    "content_type": "application/pdf",
+    "sha256": "617e48fd5131f6d4580ab216a34906856304a2889d3d7f2744ff19131d46ce33",
+    "local_path": "data/raw/audit_20261106/ees_2009_questionnaire.pdf"
+  },
+  "ees_2009_voter_data": {
+    "url": "https://reshare.ukdataservice.ac.uk/852634/3/EES_2009_FR_20110601.sav",
+    "resolved_url": "https://reshare.ukdataservice.ac.uk/852634/3/EES_2009_FR_20110601.sav",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:35:27.504417+00:00",
+    "bytes": 40347192,
+    "content_type": "application/octet-stream",
+    "sha256": "e5dcbdf640a9b2053a8c3e7bb3cc120385f77d8feaa1d193b64ba2412b65fa90",
+    "local_path": "data/raw/audit_20261106/ees_2009_voter_data.sav"
+  },
+  "ees_2009_v7_questionnaire": {
+    "url": "https://access.gesis.org/dbk/72201",
+    "resolved_url": "https://access.gesis.org/dbk/72201",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:38:17.671853+00:00",
+    "bytes": 385794,
+    "content_type": "application/pdf",
+    "sha256": "5a5a6c0e91ee194e0602d0bbd0d1a9ca2dfef14c189beae0e59a3eaf9b455928",
+    "local_path": "data/raw/audit_20261106/ees_2009_v7_questionnaire.pdf"
+  },
+  "ees_2009_malta_questionnaire": {
+    "url": "https://access.gesis.org/dbk/72208",
+    "resolved_url": "https://access.gesis.org/dbk/72208",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:38:17.702639+00:00",
+    "bytes": 370893,
+    "content_type": "application/pdf",
+    "sha256": "85899f2517175cf0931a78edef3b1665b6d00f731f2d45042a83f4af575f2384",
+    "local_path": "data/raw/audit_20261106/ees_2009_malta_questionnaire.pdf"
+  },
+  "cnep_archive_page": {
+    "url": "https://www.upf.edu/web/cnep/data-archive",
+    "resolved_url": "https://www.upf.edu/web/cnep/data-archive",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T15:43:10.140537+00:00",
+    "bytes": 5453,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "aaf6f74478baa206fee464f92c8ab07e9494689c5f236ff0bc3977ef745eee05",
+    "local_path": "data/raw/audit_20261106/cnep_archive_page.html"
+  },
+  "pes_2009_metadata": {
+    "url": "https://datahub.polen.fccn.pt/api/datasets/:persistentId/?persistentId=doi:10.57979/CJNJ0C",
+    "resolved_url": "https://datahub.polen.fccn.pt/api/datasets/:persistentId/?persistentId=doi:10.57979/CJNJ0C",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:10.472821+00:00",
+    "bytes": 10964,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "60b3d1ba0a1a2c05881e63a724e3c17df7414ceeb4a3c95ba3737123b013eaf3",
+    "local_path": "data/raw/audit_20261106/pes_2009_metadata.json"
+  },
+  "pes_2005_metadata": {
+    "url": "https://datahub.polen.fccn.pt/api/datasets/:persistentId/?persistentId=doi:10.57979/O6ZARW",
+    "resolved_url": "https://datahub.polen.fccn.pt/api/datasets/:persistentId/?persistentId=doi:10.57979/O6ZARW",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:10.506335+00:00",
+    "bytes": 13046,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "aabc04e67cde44288ada3d606e4e56e0eb300450d76dd8fd70ef0ec78aa3a906",
+    "local_path": "data/raw/audit_20261106/pes_2005_metadata.json"
+  },
+  "icenes_archive_page": {
+    "url": "https://icenes.hi.is/en/data/post-electoral-voter-survey",
+    "resolved_url": "https://icenes.hi.is/en/data/post-electoral-voter-survey",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:10.691318+00:00",
+    "bytes": 70326,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "2f8523395450be4e62567add423699785e69f0a0ecb66eabc23b11982c05dcbf",
+    "local_path": "data/raw/audit_20261106/icenes_archive_page.html"
+  },
+  "pes_2011_metadata": {
+    "url": "https://datahub.polen.fccn.pt/api/datasets/:persistentId/?persistentId=doi:10.57979/CPRJSD",
+    "resolved_url": "https://datahub.polen.fccn.pt/api/datasets/:persistentId/?persistentId=doi:10.57979/CPRJSD",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:10.825037+00:00",
+    "bytes": 10565,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "4f55a108f01a50e559da31b687426aa573d871cd05d765c7ee4d87a86680e4a1",
+    "local_path": "data/raw/audit_20261106/pes_2011_metadata.json"
+  },
+  "pes_2005_file_9263": {
+    "url": "https://datahub.polen.fccn.pt/api/access/datafile/9263",
+    "resolved_url": "https://datahub.polen.fccn.pt/api/access/datafile/9263",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:43.476019+00:00",
+    "bytes": 1412424,
+    "content_type": "text/tab-separated-values; name=\"Dados_Originais_Estudo_Eleitoral_Portugues%202005.tab\";charset=UTF-8",
+    "sha256": "127bdd112c7a397869944f04fde069a2140b273f5050fd121a40db431475d86e",
+    "local_path": "data/raw/audit_20261106/pes_2005_file_9263.tab"
+  },
+  "pes_2005_file_9265": {
+    "url": "https://datahub.polen.fccn.pt/api/access/datafile/9265",
+    "resolved_url": "https://stor-004.a.acnca.pt/repositorio-polen/10.57979/O6ZARW/1a085bc7f9e-534a022fc64c?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Questionario_Estudo_Eleitoral_Portugues_2005.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T154342Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ZVXIEYCPXNZTL1WIF5NE%2F20261106%2FregionOne%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=da9943df6060e158bac7924c5e7defe90506e885776fe1c82696953d78e5ec25",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:43.718414+00:00",
+    "bytes": 466448,
+    "content_type": "application/pdf",
+    "sha256": "a073bc66e9460221b29ae693df95147cf067200b9fef16f0bd5b9cf8ab23132b",
+    "local_path": "data/raw/audit_20261106/pes_2005_file_9265.pdf"
+  },
+  "pes_2005_file_9266": {
+    "url": "https://datahub.polen.fccn.pt/api/access/datafile/9266",
+    "resolved_url": "https://stor-004.a.acnca.pt/repositorio-polen/10.57979/O6ZARW/1a085bc7df4-7b4817b14d00?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Codebook_Estudo_Eleitoral_Portugues_2005.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T154342Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ZVXIEYCPXNZTL1WIF5NE%2F20261106%2FregionOne%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=7c9b61eff33c27ca5c73770bd4bbb7b5dc6df96cd81b483c3bfc414a651a3110",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:43.763575+00:00",
+    "bytes": 570594,
+    "content_type": "application/pdf",
+    "sha256": "df3df165231c33d51536281da200ad8d6b3f89f76d6b05f47c5c712b43d77ec6",
+    "local_path": "data/raw/audit_20261106/pes_2005_file_9266.pdf"
+  },
+  "pes_2005_ddi": {
+    "url": "https://datahub.polen.fccn.pt/api/access/datafile/9263/metadata/ddi",
+    "resolved_url": "https://datahub.polen.fccn.pt/api/access/datafile/9263/metadata/ddi",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:43.928047+00:00",
+    "bytes": 311920,
+    "content_type": "text/xml;charset=UTF-8",
+    "sha256": "fc871d073bb2931e93560a7647d50fcc6c9e807ff08d307d968e4333212fc46c",
+    "local_path": "data/raw/audit_20261106/pes_2005_ddi.xml"
+  },
+  "pes_2009_file_9273": {
+    "url": "https://datahub.polen.fccn.pt/api/access/datafile/9273",
+    "resolved_url": "https://datahub.polen.fccn.pt/api/access/datafile/9273",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:44.411990+00:00",
+    "bytes": 735283,
+    "content_type": "text/tab-separated-values; name=\"Dados_Originais_Estudo_Eleitoral_Portugues%202009.tab\";charset=UTF-8",
+    "sha256": "e5ed171a46dfd8b0461a901fb9f5130a8a1cb3caa3ba8b8afd4f7bf81f723324",
+    "local_path": "data/raw/audit_20261106/pes_2009_file_9273.tab"
+  },
+  "pes_2009_file_9275": {
+    "url": "https://datahub.polen.fccn.pt/api/access/datafile/9275",
+    "resolved_url": "https://stor-004.a.acnca.pt/repositorio-polen/10.57979/CJNJ0C/1a08603c0bb-1125f450a285?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Codebook_Estudo_Eleitoral_Portugues_2009.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T154343Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ZVXIEYCPXNZTL1WIF5NE%2F20261106%2FregionOne%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=fb1f9b2f871d41d6e662ecb125446bb876ceda27afc107aafed0525eeb836c08",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:44.732177+00:00",
+    "bytes": 1293842,
+    "content_type": "application/pdf",
+    "sha256": "9ed61d599efae520227001dfcde28029b3c064bfb7a24148d67499c3e673e5a7",
+    "local_path": "data/raw/audit_20261106/pes_2009_file_9275.pdf"
+  },
+  "pes_2009_file_9276": {
+    "url": "https://datahub.polen.fccn.pt/api/access/datafile/9276",
+    "resolved_url": "https://stor-004.a.acnca.pt/repositorio-polen/10.57979/CJNJ0C/1a08603c190-40165796084f?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Questionario_Estudo_Eleitoral_2009.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T154344Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ZVXIEYCPXNZTL1WIF5NE%2F20261106%2FregionOne%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=cdcdee8da1f630025cd63b57c514634a9cfb9f351653b09b68a598e0ab3da301",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:45.029974+00:00",
+    "bytes": 715153,
+    "content_type": "application/pdf",
+    "sha256": "0aff894b4cb5cf700fd72e301cd14bf6889c407f2043293d44e365357c23466f",
+    "local_path": "data/raw/audit_20261106/pes_2009_file_9276.pdf"
+  },
+  "pes_2009_ddi": {
+    "url": "https://datahub.polen.fccn.pt/api/access/datafile/9273/metadata/ddi",
+    "resolved_url": "https://datahub.polen.fccn.pt/api/access/datafile/9273/metadata/ddi",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:45.058471+00:00",
+    "bytes": 366395,
+    "content_type": "text/xml;charset=UTF-8",
+    "sha256": "6b8a1d01087129ff2244c284c04b6cf1056a4e2ca1da18c5babda79c4d9a27e4",
+    "local_path": "data/raw/audit_20261106/pes_2009_ddi.xml"
+  },
+  "pes_2011_file_9279": {
+    "url": "https://datahub.polen.fccn.pt/api/access/datafile/9279",
+    "resolved_url": "https://datahub.polen.fccn.pt/api/access/datafile/9279",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:45.378124+00:00",
+    "bytes": 391835,
+    "content_type": "text/tab-separated-values; name=\"Dados_originais_Estudo_Eleitoral_Portugues_2011.tab\";charset=UTF-8",
+    "sha256": "81d743f3d1b6b9b1c83db06977af61b30680a9750fda8cc1b53bb7ede04c5842",
+    "local_path": "data/raw/audit_20261106/pes_2011_file_9279.tab"
+  },
+  "pes_2011_file_9280": {
+    "url": "https://datahub.polen.fccn.pt/api/access/datafile/9280",
+    "resolved_url": "https://stor-004.a.acnca.pt/repositorio-polen/10.57979/CPRJSD/1a08aaba06f-92149f8c98b5?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Codebook_Estudo_Eleitoral_Portugues_2011.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T154344Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ZVXIEYCPXNZTL1WIF5NE%2F20261106%2FregionOne%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=6cfc9c1148b52cebb54d752f6070d05fb8045d34cf104d0da4da784aadcffce2",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:45.482909+00:00",
+    "bytes": 468804,
+    "content_type": "application/pdf",
+    "sha256": "ac3fce76234a2d487d1c916d97f72df1e3afa7fd150b147bb4c64e208112399c",
+    "local_path": "data/raw/audit_20261106/pes_2011_file_9280.pdf"
+  },
+  "pes_2011_ddi": {
+    "url": "https://datahub.polen.fccn.pt/api/access/datafile/9279/metadata/ddi",
+    "resolved_url": "https://datahub.polen.fccn.pt/api/access/datafile/9279/metadata/ddi",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:45.974804+00:00",
+    "bytes": 283746,
+    "content_type": "text/xml;charset=UTF-8",
+    "sha256": "61b5d6a593a595ac5586f9b1a4ab2f6adba3373337edb467521b27675d5795d9",
+    "local_path": "data/raw/audit_20261106/pes_2011_ddi.xml"
+  },
+  "icenes_2007_metadata": {
+    "url": "https://gagnis.hi.is/api/datasets/:persistentId/?persistentId=doi:10.34881/1.00007",
+    "resolved_url": "https://gagnis.hi.is/api/datasets/:persistentId/?persistentId=doi:10.34881/1.00007",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:46.056214+00:00",
+    "bytes": 26783,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "261aa29fe9fc6a919ac73484a0ba56802b1653fddfea92c8c9a8b343b7975786",
+    "local_path": "data/raw/audit_20261106/icenes_2007_metadata.json"
+  },
+  "icenes_2009_metadata": {
+    "url": "https://gagnis.hi.is/api/datasets/:persistentId/?persistentId=doi:10.34881/1.00008",
+    "resolved_url": "https://gagnis.hi.is/api/datasets/:persistentId/?persistentId=doi:10.34881/1.00008",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:46.172993+00:00",
+    "bytes": 24531,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "66e0f3fd4e127694143296d903de672e6e6527a167a60f48f0c671b34e34400e",
+    "local_path": "data/raw/audit_20261106/icenes_2009_metadata.json"
+  },
+  "pes_2011_file_9281": {
+    "url": "https://datahub.polen.fccn.pt/api/access/datafile/9281",
+    "resolved_url": "https://stor-004.a.acnca.pt/repositorio-polen/10.57979/CPRJSD/1a08aaba13b-87b039badc7f?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Questionario_Estudo_Eleitoral_Portugues_2011.pdf&response-content-type=application%2Fpdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T154345Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ZVXIEYCPXNZTL1WIF5NE%2F20261106%2FregionOne%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=ca6bb71546f734d1bf08f4dcfd255ab5575bc5599d84be299b0fd728bee1e857",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:46.183211+00:00",
+    "bytes": 537512,
+    "content_type": "application/pdf",
+    "sha256": "acdb998ec031c0343ad288e5f986ecb8ddb06183f7fa10fdbbe505c02c2705ea",
+    "local_path": "data/raw/audit_20261106/pes_2011_file_9281.pdf"
+  },
+  "eb713_questionnaire": {
+    "url": "https://access.gesis.org/dbk/16144",
+    "resolved_url": "https://access.gesis.org/dbk/16144",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:46.608412+00:00",
+    "bytes": 372833,
+    "content_type": "application/pdf",
+    "sha256": "2e853ffe49dc7edcba75dfa00ef681e674f06b8357942defc0aa29573b7deca2",
+    "local_path": "data/raw/audit_20261106/eb713_questionnaire.pdf"
+  },
+  "icenes_2013_metadata": {
+    "url": "https://gagnis.hi.is/api/datasets/:persistentId/?persistentId=doi:10.34881/1.00009",
+    "resolved_url": "https://gagnis.hi.is/api/datasets/:persistentId/?persistentId=doi:10.34881/1.00009",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:46.807334+00:00",
+    "bytes": 25865,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "284e8d60697b262f04b51f5976119cef200cc81da2a439b7c10605fce7d8fbb1",
+    "local_path": "data/raw/audit_20261106/icenes_2013_metadata.json"
+  },
+  "eb713_variable_report": {
+    "url": "https://access.gesis.org/dbk/47580",
+    "resolved_url": "https://access.gesis.org/dbk/47580",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:43:47.413482+00:00",
+    "bytes": 5014963,
+    "content_type": "application/pdf",
+    "sha256": "db3a381f3440725092e2cd2f6ccf060d9d3a75a21bf6f8c3556d851988d1716f",
+    "local_path": "data/raw/audit_20261106/eb713_variable_report.pdf"
+  },
+  "icenes_2007_file_168": {
+    "url": "https://gagnis.hi.is/api/access/datafile/168",
+    "resolved_url": "https://gagnis.hi.is/api/access/datafile/168",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:44:23.283872+00:00",
+    "bytes": 145408,
+    "content_type": "application/pdf; name=\"ICENES_2007_Design_Report_english_2release.pdf\";charset=UTF-8",
+    "sha256": "71b181cce48996394e8903ca1da5d522fd2c2dff4811a17668da8485e406f985",
+    "local_path": "data/raw/audit_20261106/icenes_2007_file_168.pdf"
+  },
+  "icenes_2007_file_163": {
+    "url": "https://gagnis.hi.is/api/access/datafile/163",
+    "resolved_url": "https://gagnis.hi.is/api/access/datafile/163",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:44:23.592507+00:00",
+    "bytes": 845316,
+    "content_type": "text/tab-separated-values; name=\"ICENES_2007_open_access_english_3release.tab\";charset=UTF-8",
+    "sha256": "bcb1687ef84825e2834a7e36da455b8a4bc7d0a35b7a52575c002923bbb09ed9",
+    "local_path": "data/raw/audit_20261106/icenes_2007_file_163.tab"
+  },
+  "icenes_2007_file_164": {
+    "url": "https://gagnis.hi.is/api/access/datafile/164",
+    "resolved_url": "https://gagnis.hi.is/api/access/datafile/164",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:44:23.598142+00:00",
+    "bytes": 397421,
+    "content_type": "application/pdf; name=\"ICENES_2007_Codebook_open_access_english_3release.pdf\";charset=UTF-8",
+    "sha256": "5ce2bd3d0142d5a9507206a671630de873649d0276566053049f98eb69d4615d",
+    "local_path": "data/raw/audit_20261106/icenes_2007_file_164.pdf"
+  },
+  "icenes_2007_ddi": {
+    "url": "https://gagnis.hi.is/api/access/datafile/163/metadata/ddi",
+    "resolved_url": "https://gagnis.hi.is/api/access/datafile/163/metadata/ddi",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:44:23.858328+00:00",
+    "bytes": 346090,
+    "content_type": "text/xml;charset=UTF-8",
+    "sha256": "924a25f77f6074d064242852da43472c73ad8be307217286499f2bd7d3939cf6",
+    "local_path": "data/raw/audit_20261106/icenes_2007_ddi.xml"
+  },
+  "icenes_2007_file_161": {
+    "url": "https://gagnis.hi.is/api/access/datafile/161",
+    "resolved_url": "https://gagnis.hi.is/api/access/datafile/161",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:44:24.141429+00:00",
+    "bytes": 400790,
+    "content_type": "application/pdf; name=\"ICENES_2007_Questionnaire_english_2release.pdf\";charset=UTF-8",
+    "sha256": "c9d87850dfb14f125b6742f3e7198c1d637bff356c5caf9c32392cc281a2c060",
+    "local_path": "data/raw/audit_20261106/icenes_2007_file_161.pdf"
+  },
+  "icenes_2009_file_176": {
+    "url": "https://gagnis.hi.is/api/access/datafile/176",
+    "resolved_url": "https://gagnis.hi.is/api/access/datafile/176",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:44:24.283548+00:00",
+    "bytes": 421349,
+    "content_type": "application/pdf; name=\"ICENES_2009_Codebook_open_access_english_3release.pdf\";charset=UTF-8",
+    "sha256": "277d2773e8bfac9c900a781ca41cc295c402cee28e422c730de7d5f4eb3db8f9",
+    "local_path": "data/raw/audit_20261106/icenes_2009_file_176.pdf"
+  },
+  "icenes_2009_file_175": {
+    "url": "https://gagnis.hi.is/api/access/datafile/175",
+    "resolved_url": "https://gagnis.hi.is/api/access/datafile/175",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:44:24.295460+00:00",
+    "bytes": 131254,
+    "content_type": "application/pdf; name=\"ICENES_2009_Design_Report_english.pdf\";charset=UTF-8",
+    "sha256": "309b05d035644a644dcc2944ab80c592b27ebdbd78f661b2b5b0d46d8fc38254",
+    "local_path": "data/raw/audit_20261106/icenes_2009_file_175.pdf"
+  },
+  "icenes_2009_file_172": {
+    "url": "https://gagnis.hi.is/api/access/datafile/172",
+    "resolved_url": "https://gagnis.hi.is/api/access/datafile/172",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:44:24.579381+00:00",
+    "bytes": 665317,
+    "content_type": "text/tab-separated-values; name=\"ICENES_2009_open_access_english_3release.tab\";charset=UTF-8",
+    "sha256": "e0dcc2f5c27a1f37764de29851314b73a368415ce3887b723043ca0fe7dbeeff",
+    "local_path": "data/raw/audit_20261106/icenes_2009_file_172.tab"
+  },
+  "icenes_2013_file_184": {
+    "url": "https://gagnis.hi.is/api/access/datafile/184",
+    "resolved_url": "https://gagnis.hi.is/api/access/datafile/184",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:44:25.059619+00:00",
+    "bytes": 492823,
+    "content_type": "application/pdf; name=\"ICENES_2013_codebook_open_access_english_1release.pdf\";charset=UTF-8",
+    "sha256": "33583ffe031b4d945f1e474dff12a687106e9a69308a70ecf4ef1a67b2a526d4",
+    "local_path": "data/raw/audit_20261106/icenes_2013_file_184.pdf"
+  },
+  "icenes_2013_file_181": {
+    "url": "https://gagnis.hi.is/api/access/datafile/181",
+    "resolved_url": "https://gagnis.hi.is/api/access/datafile/181",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:44:25.161018+00:00",
+    "bytes": 129128,
+    "content_type": "application/pdf; name=\"ICENES_2013_design_report_english.pdf\";charset=UTF-8",
+    "sha256": "cb961ac6dfdadaabea7e2308f72b7cb06df337b6f4705c62b33881bc2295ae1a",
+    "local_path": "data/raw/audit_20261106/icenes_2013_file_181.pdf"
+  },
+  "icenes_2009_file_174": {
+    "url": "https://gagnis.hi.is/api/access/datafile/174",
+    "resolved_url": "https://gagnis.hi.is/api/access/datafile/174",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:44:25.195316+00:00",
+    "bytes": 404506,
+    "content_type": "application/pdf; name=\"ICENES_2009_Questionnaire_english.pdf\";charset=UTF-8",
+    "sha256": "18fff570a9f931142c0b8782d0306f72c76aa389dfd214753459eda5b0aa888e",
+    "local_path": "data/raw/audit_20261106/icenes_2009_file_174.pdf"
+  },
+  "icenes_2009_ddi": {
+    "url": "https://gagnis.hi.is/api/access/datafile/172/metadata/ddi",
+    "resolved_url": "https://gagnis.hi.is/api/access/datafile/172/metadata/ddi",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:44:25.315826+00:00",
+    "bytes": 318941,
+    "content_type": "text/xml;charset=UTF-8",
+    "sha256": "68977d58e5b01c9456cd39f9de1c2ea5923cb26b537a44dd770d9ecc778cec4e",
+    "local_path": "data/raw/audit_20261106/icenes_2009_ddi.xml"
+  },
+  "icenes_2013_file_180": {
+    "url": "https://gagnis.hi.is/api/access/datafile/180",
+    "resolved_url": "https://gagnis.hi.is/api/access/datafile/180",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:44:25.850055+00:00",
+    "bytes": 969478,
+    "content_type": "application/pdf; name=\"ICENES_2013_Questionnaire_english.pdf\";charset=UTF-8",
+    "sha256": "12deea7c5ed16dd4885e9184120f00df3b72fb8eea8fadf537893bc7cb01fdf3",
+    "local_path": "data/raw/audit_20261106/icenes_2013_file_180.pdf"
+  },
+  "icenes_2013_file_179": {
+    "url": "https://gagnis.hi.is/api/access/datafile/179",
+    "resolved_url": "https://gagnis.hi.is/api/access/datafile/179",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:44:26.069662+00:00",
+    "bytes": 947155,
+    "content_type": "text/tab-separated-values; name=\"ICENESS_2013_open_access_english_1release.tab\";charset=UTF-8",
+    "sha256": "72b6c5ddeadbc48421796974d92a586141f0433fad98ad88b520e007f6e2d01d",
+    "local_path": "data/raw/audit_20261106/icenes_2013_file_179.tab"
+  },
+  "icenes_2013_ddi": {
+    "url": "https://gagnis.hi.is/api/access/datafile/179/metadata/ddi",
+    "resolved_url": "https://gagnis.hi.is/api/access/datafile/179/metadata/ddi",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:44:26.391875+00:00",
+    "bytes": 452391,
+    "content_type": "text/xml;charset=UTF-8",
+    "sha256": "041fc0bb9ab61b65d120f47069afdaf393af4dafc995c27d9a091486881dc6b9",
+    "local_path": "data/raw/audit_20261106/icenes_2013_ddi.xml"
+  },
+  "cnep_osf_replication_metadata": {
+    "url": "https://api.osf.io/v2/nodes/d6jvw/files/osfstorage/",
+    "resolved_url": "https://api.osf.io/v2/nodes/d6jvw/files/osfstorage/",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:44:26.788374+00:00",
+    "bytes": 10932,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "sha256": "4a7e7cf0ddd89f3c1c0e1dd3f41e7cb9ce341d962a0402d809fb696b95ec5e65",
+    "local_path": "data/raw/audit_20261106/cnep_osf_replication_metadata.json"
+  },
+  "cnep_osu_archive_page": {
+    "url": "https://u.osu.edu/cnep/",
+    "status": "error",
+    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "retrieved_utc": "2026-11-06T15:44:27.603175+00:00"
+  },
+  "eb713_uw_directory": {
+    "url": "https://august.csscr.washington.edu/~data/data9/publicdata/data/eurob713/",
+    "status": "error",
+    "error": "HTTPSConnectionPool(host='august.csscr.washington.edu', port=443): Read timed out. (read timeout=15)",
+    "retrieved_utc": "2026-11-06T15:44:40.334328+00:00"
+  },
+  "cnep_replication_appendix": {
+    "url": "https://osf.io/download/y9bhm/",
+    "resolved_url": "https://idvyorynw6xy.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/cos-prod-osf-1-files-fra/9ba0cbb2fb9f1235013c6ff8192e93f3c041bfcdf959a1f4e34cf7bc792c5651?response-content-disposition=attachment%3B+filename%3D%22Online_appendix_extremism_polarization.pdf%22%3B+filename%2A%3DUTF-8%27%27Online_appendix_extremism_polarization.pdf&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8a1e5869d3122814cba7bd4265a84ad444199855%2F20261106%2Feu-frankfurt-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T154730Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=52bf7027a863843df8344017eb0361f5f40f41d3a97ad1c5d509bb6476055702",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:47:32.547232+00:00",
+    "bytes": 952186,
+    "content_type": "application/octet-stream",
+    "sha256": "9ba0cbb2fb9f1235013c6ff8192e93f3c041bfcdf959a1f4e34cf7bc792c5651",
+    "local_path": "data/raw/audit_20261106/cnep_replication_appendix.pdf"
+  },
+  "cnep_replication_merge57": {
+    "url": "https://osf.io/download/mwyfk/",
+    "resolved_url": "https://idvyorynw6xy.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/cos-prod-osf-1-files-fra/a806f82bc20b2aa415274aaf8fcb66ffbf93afc7b03be3fdc9bc4ff9db6c271c?response-content-disposition=attachment%3B+filename%3D%22Merge57%2BPABvariables050521.dta%22%3B+filename%2A%3DUTF-8%27%27Merge57%252BPABvariables050521.dta&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=8a1e5869d3122814cba7bd4265a84ad444199855%2F20261106%2Feu-frankfurt-1%2Fs3%2Faws4_request&X-Amz-Date=20261106T154730Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=7a5d2ec8aadeba6708a557a969c11f887c82c2c196a8bf7ebe97aa739a16733e",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:48:08.386405+00:00",
+    "bytes": 93277812,
+    "content_type": "application/octet-stream",
+    "sha256": "a806f82bc20b2aa415274aaf8fcb66ffbf93afc7b03be3fdc9bc4ff9db6c271c",
+    "local_path": "data/raw/audit_20261106/cnep_replication_merge57.dta"
+  },
+  "eb_energy_replication_metadata": {
+    "url": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/JWY5S0",
+    "resolved_url": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/JWY5S0",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T15:53:32.632188+00:00",
+    "bytes": 199,
+    "content_type": "text/html; charset=iso-8859-1",
+    "sha256": "5b13fb5957b84ef7bb9d0b6cd509c947ff6a37d67efdac2b896ddd3b908aad10",
+    "local_path": "data/raw/audit_20261106/eb_energy_replication_metadata.json"
+  },
+  "eb_restat_replication_metadata": {
+    "url": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/8EPWQF",
+    "resolved_url": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/8EPWQF",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T15:53:32.638464+00:00",
+    "bytes": 199,
+    "content_type": "text/html; charset=iso-8859-1",
+    "sha256": "5b13fb5957b84ef7bb9d0b6cd509c947ff6a37d67efdac2b896ddd3b908aad10",
+    "local_path": "data/raw/audit_20261106/eb_restat_replication_metadata.json"
+  },
+  "cnep_osf_node": {
+    "url": "https://api.osf.io/v2/nodes/d6jvw/",
+    "resolved_url": "https://api.osf.io/v2/nodes/d6jvw/",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:53:32.693460+00:00",
+    "bytes": 5451,
+    "content_type": "application/vnd.api+json; charset=utf-8",
+    "sha256": "03c422aabde03f50c582d2545ee044be597a1c478587818aa963f25a1f8a3bd5",
+    "local_path": "data/raw/audit_20261106/cnep_osf_node.json"
+  },
+  "ees_2014_panel_questionnaire": {
+    "url": "https://www.gesis.org/fileadmin/upload/dienstleistung/daten/umfragedaten/wahlstudien/dokumente/EES-2014-Panel-survey-questionnnaire.pdf",
+    "resolved_url": "https://www.gesis.org/fileadmin/upload/dienstleistung/daten/umfragedaten/wahlstudien/dokumente/EES-2014-Panel-survey-questionnnaire.pdf",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T15:58:58.181409+00:00",
+    "bytes": 4543,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "d8a371c2e03de062c919e9e1809c7009a94e395424b01822989aed97c26e7c20",
+    "local_path": "data/raw/audit_20261106/ees_2014_panel_questionnaire.pdf"
+  },
+  "dnes_archive_page": {
+    "url": "https://en.rigsarkivet.dk/guide/the-danish-national-election-study/",
+    "resolved_url": "https://en.rigsarkivet.dk/guide/the-danish-national-election-study/",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:58:58.385986+00:00",
+    "bytes": 78494,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "6c4b80b9ef3bae08cbe07baedf07e23d2c4d7e73d5547060130faf9a89dd5d2f",
+    "local_path": "data/raw/audit_20261106/dnes_archive_page.html"
+  },
+  "irish_archive_page": {
+    "url": "https://www.irishelectionstudies.org/index.php?page=data",
+    "resolved_url": "https://www.irishelectionstudies.org/index.php?page=data",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:58:58.521683+00:00",
+    "bytes": 11142,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "91681980b34583ff6e171e33d7768298bdc56bad68d66582a2750af5c38b7375",
+    "local_path": "data/raw/audit_20261106/irish_archive_page.html"
+  },
+  "dnes_2011_page": {
+    "url": "https://digidata.rigsarkivet.dk/aflevering/37893",
+    "resolved_url": "https://digidata.rigsarkivet.dk/aflevering/37893",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:09.832780+00:00",
+    "bytes": 47701,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "5b476f295e7c58eef1a2e4fbb7ad72a7e07a18a0d89a0763c4ff2a88506bac95",
+    "local_path": "data/raw/audit_20261106/dnes_2011_page.html"
+  },
+  "dnes_2007_page": {
+    "url": "https://digidata.rigsarkivet.dk/aflevering/37820",
+    "resolved_url": "https://digidata.rigsarkivet.dk/aflevering/37820",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:09.833643+00:00",
+    "bytes": 47009,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "9a204e4b00ba3c3459ed46ee165068310a94de42d4bfac10db62ae34b6973984",
+    "local_path": "data/raw/audit_20261106/dnes_2007_page.html"
+  },
+  "dnes_2015_page": {
+    "url": "https://digidata.rigsarkivet.dk/aflevering/38093",
+    "resolved_url": "https://digidata.rigsarkivet.dk/aflevering/38093",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:09.840759+00:00",
+    "bytes": 47962,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "7d08846a9529d011fdc31eca7493e456993770fe560c7b97b4e6d5e8ffef9fd3",
+    "local_path": "data/raw/audit_20261106/dnes_2015_page.html"
+  },
+  "irish_study_1_page": {
+    "url": "https://www.irishelectionstudies.org/index.php?page=view_dataset&id=1",
+    "resolved_url": "https://www.irishelectionstudies.org/index.php?page=view_dataset&id=1",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:09.953192+00:00",
+    "bytes": 2481,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "a12e91e401019c418817e1588238346bb5147210b4a4c46ed8660dad7ce5482a",
+    "local_path": "data/raw/audit_20261106/irish_study_1_page.html"
+  },
+  "irish_study_2_page": {
+    "url": "https://www.irishelectionstudies.org/index.php?page=view_dataset&id=2",
+    "resolved_url": "https://www.irishelectionstudies.org/index.php?page=view_dataset&id=2",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:10.439212+00:00",
+    "bytes": 2480,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "b25fd51ab968a8b6eeefdf9485b7e9787ddc0d10e08c524b162f8d74f62895c1",
+    "local_path": "data/raw/audit_20261106/irish_study_2_page.html"
+  },
+  "irish_study_26_page": {
+    "url": "https://www.irishelectionstudies.org/index.php?page=view_dataset&id=26",
+    "resolved_url": "https://www.irishelectionstudies.org/index.php?page=view_dataset&id=26",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:11.012844+00:00",
+    "bytes": 2513,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "09d46c05948f508faf4f71f0f615e1dae1adbd3938171b27a85fddd38ad35a88",
+    "local_path": "data/raw/audit_20261106/irish_study_26_page.html"
+  },
+  "irish_study_19_page": {
+    "url": "https://www.irishelectionstudies.org/index.php?page=view_dataset&id=19",
+    "resolved_url": "https://www.irishelectionstudies.org/index.php?page=view_dataset&id=19",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:11.440703+00:00",
+    "bytes": 2555,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "45108c078fb1159761c949f50359f4401f9bef87a95de83d44f1f91b7d4d8fc8",
+    "local_path": "data/raw/audit_20261106/irish_study_19_page.html"
+  },
+  "irish_study_25_page": {
+    "url": "https://www.irishelectionstudies.org/index.php?page=view_dataset&id=25",
+    "resolved_url": "https://www.irishelectionstudies.org/index.php?page=view_dataset&id=25",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:11.550699+00:00",
+    "bytes": 2535,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "647bb48c31d0cc336c9969660b349037ddef816ed1c071454b6df9c7d066a8e9",
+    "local_path": "data/raw/audit_20261106/irish_study_25_page.html"
+  },
+  "irish_study_20_page": {
+    "url": "https://www.irishelectionstudies.org/index.php?page=view_dataset&id=20",
+    "resolved_url": "https://www.irishelectionstudies.org/index.php?page=view_dataset&id=20",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:11.566502+00:00",
+    "bytes": 2571,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "c0fa3b35f1620bd9c324da2695873fc33b8e0ced2195f1d29bbdaef7bd3684af",
+    "local_path": "data/raw/audit_20261106/irish_study_20_page.html"
+  },
+  "dnes_2007_doc_31": {
+    "url": "https://digidata.rigsarkivet.dk/aflevering/37820/metoderapport%20fra%20gallup%20-%20hovedundersoegelsen.pdf",
+    "resolved_url": "https://digidata.rigsarkivet.dk/aflevering/37820/metoderapport%20fra%20gallup%20-%20hovedundersoegelsen.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:32.817631+00:00",
+    "bytes": 160677,
+    "content_type": "application/pdf",
+    "sha256": "a0929a3c83fed0df9e7e2b4a07d5683d6a56c0c40ab631b853755652954781b2",
+    "local_path": "data/raw/audit_20261106/dnes_2007_doc_31.pdf"
+  },
+  "dnes_2007_doc_30": {
+    "url": "https://digidata.rigsarkivet.dk/aflevering/37820/cawi_skema.pdf",
+    "resolved_url": "https://digidata.rigsarkivet.dk/aflevering/37820/cawi_skema.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:32.920841+00:00",
+    "bytes": 369606,
+    "content_type": "application/pdf",
+    "sha256": "80570c670e30ae9242a25dc0c0eb9b484886aa758c639b6bd0f99173352322a8",
+    "local_path": "data/raw/audit_20261106/dnes_2007_doc_30.pdf"
+  },
+  "dnes_2007_doc_33": {
+    "url": "https://digidata.rigsarkivet.dk/aflevering/37820/notat%20om%20v%C3%A6gt%20til%20valgundersoegelsen%204%20juni2012.pdf",
+    "resolved_url": "https://digidata.rigsarkivet.dk/aflevering/37820/notat%20om%20v%C3%A6gt%20til%20valgundersoegelsen%204%20juni2012.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:33.324948+00:00",
+    "bytes": 177723,
+    "content_type": "application/pdf",
+    "sha256": "ef312d218982c4974cd117218b5e183fa0719403824d0641152cd56c3c8fa1da",
+    "local_path": "data/raw/audit_20261106/dnes_2007_doc_33.pdf"
+  },
+  "dnes_2007_doc_34": {
+    "url": "https://digidata.rigsarkivet.dk/aflevering/37820/kodebog.pdf",
+    "resolved_url": "https://digidata.rigsarkivet.dk/aflevering/37820/kodebog.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:34.188854+00:00",
+    "bytes": 3536249,
+    "content_type": "application/pdf",
+    "sha256": "cd822c93daa76916695e0420e31f9b7e7e6a83658e877bb9ebc11c1598950cdf",
+    "local_path": "data/raw/audit_20261106/dnes_2007_doc_34.pdf"
+  },
+  "dnes_2011_doc_32": {
+    "url": "https://digidata.rigsarkivet.dk/aflevering/37893/afleveringsskema%20vu11.pdf",
+    "resolved_url": "https://digidata.rigsarkivet.dk/aflevering/37893/afleveringsskema%20vu11.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:34.588494+00:00",
+    "bytes": 73975,
+    "content_type": "application/pdf",
+    "sha256": "0edc7116eacb409864e169c418393b091041cdb4d3f36dde1fdd8009c559c0fc",
+    "local_path": "data/raw/audit_20261106/dnes_2011_doc_32.pdf"
+  },
+  "dnes_2007_doc_32": {
+    "url": "https://digidata.rigsarkivet.dk/aflevering/37820/metoderapport%20fra%20gallup%20-%20web.pdf",
+    "resolved_url": "https://digidata.rigsarkivet.dk/aflevering/37820/metoderapport%20fra%20gallup%20-%20web.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:34.839434+00:00",
+    "bytes": 1792889,
+    "content_type": "application/pdf",
+    "sha256": "32ef841fc2e57f9e641c3b0c5ff3c20aa59a34f426bc4d83a46c38292af33e3a",
+    "local_path": "data/raw/audit_20261106/dnes_2007_doc_32.pdf"
+  },
+  "dnes_2011_doc_33": {
+    "url": "https://digidata.rigsarkivet.dk/aflevering/37893/valg%202011%20endeligt%20skema.pdf",
+    "resolved_url": "https://digidata.rigsarkivet.dk/aflevering/37893/valg%202011%20endeligt%20skema.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:35.190541+00:00",
+    "bytes": 375572,
+    "content_type": "application/pdf",
+    "sha256": "d59c0152cd9d49ea6e86a0ab2035c6de9f5608c8c5c857b8c731ec0c600092ac",
+    "local_path": "data/raw/audit_20261106/dnes_2011_doc_33.pdf"
+  },
+  "dnes_2011_doc_34": {
+    "url": "https://digidata.rigsarkivet.dk/aflevering/37893/valgunders%C3%B8gelsen%202011%20-%20teknisk%20rapport%2021-12-12.pdf",
+    "resolved_url": "https://digidata.rigsarkivet.dk/aflevering/37893/valgunders%C3%B8gelsen%202011%20-%20teknisk%20rapport%2021-12-12.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:35.339488+00:00",
+    "bytes": 287122,
+    "content_type": "application/pdf",
+    "sha256": "84a80dd52c0aa7e6fbf3e93d975520153e45dc0c9695412e690c0b3429463245",
+    "local_path": "data/raw/audit_20261106/dnes_2011_doc_34.pdf"
+  },
+  "dnes_2011_doc_35": {
+    "url": "https://digidata.rigsarkivet.dk/aflevering/37893/exhibit%201%20project%20description%20v%204.pdf",
+    "resolved_url": "https://digidata.rigsarkivet.dk/aflevering/37893/exhibit%201%20project%20description%20v%204.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:35.626960+00:00",
+    "bytes": 91928,
+    "content_type": "application/pdf",
+    "sha256": "dbfdd3b423a6439327f4be620d6e7d71faa298eaf01daa4e435642f7e68bd779",
+    "local_path": "data/raw/audit_20261106/dnes_2011_doc_35.pdf"
+  },
+  "dnes_2011_doc_36": {
+    "url": "https://digidata.rigsarkivet.dk/aflevering/37893/vu11%20publikationer.pdf",
+    "resolved_url": "https://digidata.rigsarkivet.dk/aflevering/37893/vu11%20publikationer.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:35.731570+00:00",
+    "bytes": 18854,
+    "content_type": "application/pdf",
+    "sha256": "a7d00585b938c3288618fbaed01e4c0794c909cecdd9aeb0e9daad63e956d99f",
+    "local_path": "data/raw/audit_20261106/dnes_2011_doc_36.pdf"
+  },
+  "dnes_2011_doc_37": {
+    "url": "https://digidata.rigsarkivet.dk/aflevering/37893/kodebog.pdf",
+    "resolved_url": "https://digidata.rigsarkivet.dk/aflevering/37893/kodebog.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:36.320542+00:00",
+    "bytes": 525853,
+    "content_type": "application/pdf",
+    "sha256": "9f0b4930982c5f9432d86cf0685ff3f44dfec05cf64590652d2ee27f9a08600b",
+    "local_path": "data/raw/audit_20261106/dnes_2011_doc_37.pdf"
+  },
+  "dnes_2015_doc_30": {
+    "url": "https://digidata.rigsarkivet.dk/aflevering/38093/anmeldelsesskema.pdf",
+    "resolved_url": "https://digidata.rigsarkivet.dk/aflevering/38093/anmeldelsesskema.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:37.246871+00:00",
+    "bytes": 326727,
+    "content_type": "application/pdf",
+    "sha256": "cac8d0fff7a00732336a62f65a7b5afc8db51a341d52883fcab9e43931ce2f70",
+    "local_path": "data/raw/audit_20261106/dnes_2015_doc_30.pdf"
+  },
+  "dnes_2015_doc_32": {
+    "url": "https://digidata.rigsarkivet.dk/aflevering/38093/danish-election-study-2015-carlsberg-24-sep-2-pages.pdf",
+    "resolved_url": "https://digidata.rigsarkivet.dk/aflevering/38093/danish-election-study-2015-carlsberg-24-sep-2-pages.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:39.057194+00:00",
+    "bytes": 509567,
+    "content_type": "application/pdf",
+    "sha256": "ab7e5161c43caa6b420b21778bccda15d70b744a44e177e4702ac0946a7a0609",
+    "local_path": "data/raw/audit_20261106/dnes_2015_doc_32.pdf"
+  },
+  "dnes_2015_doc_33": {
+    "url": "https://digidata.rigsarkivet.dk/aflevering/38093/kodebog.pdf",
+    "resolved_url": "https://digidata.rigsarkivet.dk/aflevering/38093/kodebog.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:39.643807+00:00",
+    "bytes": 661983,
+    "content_type": "application/pdf",
+    "sha256": "1aa977530a828cb43617a1f03476138de83ce8dcd77199b6c8ad8bdbb60afe2d",
+    "local_path": "data/raw/audit_20261106/dnes_2015_doc_33.pdf"
+  },
+  "dnes_2015_doc_31": {
+    "url": "https://digidata.rigsarkivet.dk/aflevering/38093/6%20april%202016%20dokumentation_valgunders%C3%B8gelsen%202015.pdf",
+    "resolved_url": "https://digidata.rigsarkivet.dk/aflevering/38093/6%20april%202016%20dokumentation_valgunders%C3%B8gelsen%202015.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:39.771052+00:00",
+    "bytes": 3756486,
+    "content_type": "application/pdf",
+    "sha256": "58d4919c03c5698dfc8534cde3a890f1d01b066dd80309c4d61dae30c1a139bf",
+    "local_path": "data/raw/audit_20261106/dnes_2015_doc_31.pdf"
+  },
+  "dnes_2007_archive": {
+    "url": "https://digidata.rigsarkivet.dk/download/37820",
+    "resolved_url": "https://digidata.rigsarkivet.dk/download/37820",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:39.958272+00:00",
+    "bytes": 9260166,
+    "content_type": "application/zip",
+    "sha256": "74bb95e91c2f47493bc90a83ef5b6a8a09eb06bef7c31bb17aa7044c7d0a1218",
+    "local_path": "data/raw/audit_20261106/dnes_2007_archive.zip",
+    "note": "Download endpoint directly returns ZIP; initial HTML suffix corrected after content inspection."
+  },
+  "dnes_2011_archive": {
+    "url": "https://digidata.rigsarkivet.dk/download/37893",
+    "resolved_url": "https://digidata.rigsarkivet.dk/download/37893",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:38.145393+00:00",
+    "bytes": 3249588,
+    "content_type": "application/zip",
+    "sha256": "fbcc4f5ea99e3cb372ae76b389b9f6cea6faea0ec00141562b2bb36f92c49215",
+    "local_path": "data/raw/audit_20261106/dnes_2011_archive.zip",
+    "note": "Download endpoint directly returns ZIP; initial HTML suffix corrected after content inspection."
+  },
+  "dnes_2015_archive": {
+    "url": "https://digidata.rigsarkivet.dk/download/38093",
+    "resolved_url": "https://digidata.rigsarkivet.dk/download/38093",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:59:41.826146+00:00",
+    "bytes": 7387657,
+    "content_type": "application/zip",
+    "sha256": "895d1e57f20e0d933c744960c38998b911971499a09612670e46ccdc1053d3fc",
+    "local_path": "data/raw/audit_20261106/dnes_2015_archive.zip",
+    "note": "Download endpoint directly returns ZIP; initial HTML suffix corrected after content inspection."
+  },
+  "ees_2014_questionnaire": {
+    "url": "https://access.gesis.org/dbk/54975",
+    "resolved_url": "https://access.gesis.org/dbk/54975",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T16:05:26.306088+00:00",
+    "bytes": 108172,
+    "content_type": "application/pdf",
+    "sha256": "7e3cf98a986b9e79f63dc5e009cdc35e00e36990434c1fa3f857dfbc6de76d88",
+    "local_path": "data/raw/audit_20261106/ees_2014_questionnaire.pdf"
+  },
+  "ees_2004_portuguese_questionnaire": {
+    "url": "https://access.gesis.org/dbk/13021",
+    "resolved_url": "https://access.gesis.org/dbk/13021",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T16:05:26.325412+00:00",
+    "bytes": 116653,
+    "content_type": "application/pdf",
+    "sha256": "eaa6c06e8f83505f6bb90050dc7d3052f65dc9a31754112ec35dd95eadf566b3",
+    "local_path": "data/raw/audit_20261106/ees_2004_portuguese_questionnaire.pdf"
+  },
+  "irish_faq": {
+    "url": "https://www.irishelectionstudies.org/index.php?page=faq",
+    "resolved_url": "https://www.irishelectionstudies.org/index.php?page=faq",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T16:05:26.646682+00:00",
+    "bytes": 10482,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "37437e6bc75919fbc6c81b3dde6c555f55b5ba86e34097cbcb01d360124dc26a",
+    "local_path": "data/raw/audit_20261106/irish_faq.html"
+  },
+  "itanes_portal": {
+    "url": "https://www.itanes.it/data-portal/",
+    "resolved_url": "https://www.itanes.it/data-portal/",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T16:05:27.545999+00:00",
+    "bytes": 63958,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "3a4e3ab13429dc86eafd21caa1ba943e4ab78d3ff91ad0d326cf0ca02f90f9f1",
+    "local_path": "data/raw/audit_20261106/itanes_portal.html"
+  },
+  "partirep_2009_metadata": {
+    "url": "https://ssh.datastations.nl/api/datasets/:persistentId/?persistentId=doi:10.17026/dans-2c7-pyzw",
+    "resolved_url": "https://ssh.datastations.nl/api/datasets/:persistentId/?persistentId=doi:10.17026/dans-2c7-pyzw",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T16:05:59.270955+00:00",
+    "bytes": 10398,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "e2d6f8f58e5311095f6740adbd38ef161980a128d0f0d46d3b693734682e0487",
+    "local_path": "data/raw/audit_20261106/partirep_2009_metadata.json"
+  },
+  "partirep_2009_codebook": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/30707",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-2c7-pyzw/186e076ef2e-1bd86a52ada4?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%272009_Codebook_FINAL.ods&response-content-type=application%2Fvnd.oasis.opendocument.spreadsheet&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T160612Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=d9b42d4fb823d28539ee55a1d224b77ee7ffb2d337e7a5e9b07a436053be2c19",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T16:06:13.461859+00:00",
+    "bytes": 32217,
+    "content_type": "application/vnd.oasis.opendocument.spreadsheet",
+    "sha256": "d6d22ee1128b733ff34697c52b66ee3ab1f14d5ae56fb6f8a5de33c92314fd4c",
+    "local_path": "data/raw/audit_20261106/partirep_2009_codebook.ods"
+  },
+  "partirep_2009_setup": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/30705",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-2c7-pyzw/186e076eacb-f7c4cff2fbeb?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%272009_Dataset_FINAL.do&response-content-type=application%2Fx-stata-syntax&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T160612Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=cdfd0103895a1a5cc26432e4e47e76aec587428b7a88ba6bcb505d16e3a01ac5",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T16:06:13.548088+00:00",
+    "bytes": 100821,
+    "content_type": "application/x-stata-syntax",
+    "sha256": "beca4bd725fb860394457d1220703756db520a6db4189ad5f9a6017ae4147bc8",
+    "local_path": "data/raw/audit_20261106/partirep_2009_setup.do"
+  },
+  "partirep_2009_data": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/30706",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-2c7-pyzw/186e076ec9a-d4dd5c0cdb69?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%272009_Dataset_FINAL.dat&response-content-type=text%2Fx-fixed-field&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T160613Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=be1588724aded7a9a41c64a15cd8219db550048560f24bff498859e0c072b307",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T16:06:27.717026+00:00",
+    "bytes": 34566399,
+    "content_type": "text/x-fixed-field",
+    "sha256": "ec69c8700623f1cac031540f94d02b66a4538a5a1ead6de5ff4aa0caffc359a0",
+    "local_path": "data/raw/audit_20261106/partirep_2009_data.dat"
+  },
+  "partirep_2009_migration": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/30704",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-2c7-pyzw/186e076e51a-29d8cb0c8320?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27easy-migration.zip&response-content-type=application%2Fzip&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T160749Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=a92905b3f5ff3e24339bf4458105b53b641b0aead240a96e5053440642e3d545",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T16:07:49.428724+00:00",
+    "bytes": 23269,
+    "content_type": "application/zip",
+    "sha256": "2af5034a016fc3b148663244d1867fa43e0fb739cd4079be2c567cb609160e55",
+    "local_path": "data/raw/audit_20261106/partirep_2009_migration.zip"
+  },
+  "partirep_dans_search": {
+    "url": "https://ssh.datastations.nl/api/search?q=PartiRep&type=dataset&per_page=30",
+    "resolved_url": "https://ssh.datastations.nl/api/search?q=PartiRep&type=dataset&per_page=30",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T16:08:03.381254+00:00",
+    "bytes": 5846,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "da2045beb47f2806d18a48af64ebea15f989b4970381883fe047ac5c59529a6d",
+    "local_path": "data/raw/audit_20261106/partirep_dans_search.json"
+  },
+  "partirep_2014_metadata": {
+    "url": "https://ssh.datastations.nl/api/datasets/:persistentId/?persistentId=doi:10.17026/DANS-XWM-MQ42",
+    "resolved_url": "https://ssh.datastations.nl/api/datasets/:persistentId/?persistentId=doi:10.17026/DANS-XWM-MQ42",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T16:08:16.304482+00:00",
+    "bytes": 10113,
+    "content_type": "application/json;charset=UTF-8",
+    "sha256": "a74cb6e2f917ce375508de9ae76e2e7185cd8853ea53257a4d11ccdae14a1eb8",
+    "local_path": "data/raw/audit_20261106/partirep_2014_metadata.json"
+  },
+  "partirep_2014_codebook": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/30733",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-xwm-mq42/186e077383b-8afe40ff6697?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%272014_Codebook_FINAL.ods&response-content-type=application%2Fvnd.oasis.opendocument.spreadsheet&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T160824Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=4bee1a4f5910a7b6b99f8cf604efd5919d4c203ce345c541927b68618828db9a",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T16:08:24.388161+00:00",
+    "bytes": 28765,
+    "content_type": "application/vnd.oasis.opendocument.spreadsheet",
+    "sha256": "f5b9cc6c21b980a055576162e7319856e54cbb2893c29df2c617495dce861532",
+    "local_path": "data/raw/audit_20261106/partirep_2014_codebook.ods"
+  },
+  "partirep_2014_setup": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/30734",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-xwm-mq42/186e077398d-04e95b0c6927?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%272014_Dataset_FINAL.sps&response-content-type=application%2Fx-spss-syntax&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T160824Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=3b0f8c8890ef587f71eebccb8fc712160bf9313b956d986da00df46a42ed039c",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T16:08:25.740785+00:00",
+    "bytes": 2670685,
+    "content_type": "application/x-spss-syntax",
+    "sha256": "9f1f13ff04f3325f1d561344f2e6a15a331a722d02cce9398d72cec9b015e43d",
+    "local_path": "data/raw/audit_20261106/partirep_2014_setup.sps"
+  },
+  "partirep_2014_data": {
+    "url": "https://ssh.datastations.nl/api/access/datafile/30736",
+    "resolved_url": "https://objectstore.surf.nl/store/10.17026/dans-xwm-mq42/186e0773b23-405380861c31?response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%272014_Dataset_FINAL.dat&response-content-type=text%2Fx-fixed-field&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20261106T160824Z&X-Amz-SignedHeaders=host&X-Amz-Credential=35fc8da682c74d72b90fd6d561df5e35%2F20261106%2Fdataverse%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=c021dff869b0f50138a1a3e1c04f042b42e775cda6bf12311e716088621289cc",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T16:08:29.488258+00:00",
+    "bytes": 11334666,
+    "content_type": "text/x-fixed-field",
+    "sha256": "19810b165f470be4ee1d706a2d2c15c83cd391235c406917c94420b52cd4c9cb",
+    "local_path": "data/raw/audit_20261106/partirep_2014_data.dat"
+  },
+  "elnes_2014_panel_page": {
+    "url": "https://elnes.gr/node/1483",
+    "status": "error",
+    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "retrieved_utc": "2026-11-06T16:17:04.365010+00:00"
+  },
+  "elnes_2009_page": {
+    "url": "https://elnes.gr/node/8",
+    "status": "error",
+    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "retrieved_utc": "2026-11-06T16:17:04.368249+00:00"
+  },
+  "elnes_2012_page": {
+    "url": "https://elnes.gr/node/5",
+    "status": "error",
+    "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "retrieved_utc": "2026-11-06T16:17:04.368318+00:00"
+  },
+  "lva_2010_questionnaire": {
+    "url": "https://cses.org/datacenter/module3/survey/LVA_2010_Untrans_Latvian.pdf",
+    "resolved_url": "https://cses.org/datacenter/module3/survey/LVA_2010_Untrans_Latvian.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T16:17:05.173401+00:00",
+    "bytes": 316298,
+    "content_type": "application/pdf",
+    "sha256": "3c10ee19d5fa8f9d59fdbd3a8c2c562e24037b5ab19cf7ab608a4c660995bbac",
+    "local_path": "data/raw/audit_20261106/lva_2010_questionnaire.pdf"
+  },
+  "grc_2009_questionnaire": {
+    "url": "https://cses.org/datacenter/module3/survey/GRC_2009_English.pdf",
+    "resolved_url": "https://cses.org/datacenter/module3/survey/GRC_2009_English.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T16:17:05.294620+00:00",
+    "bytes": 126170,
+    "content_type": "application/pdf",
+    "sha256": "c64bb875408d156db7b0250205e1e90098651027a6630940cbd853d56ddb7acd",
+    "local_path": "data/raw/audit_20261106/grc_2009_questionnaire.pdf"
   }
 }

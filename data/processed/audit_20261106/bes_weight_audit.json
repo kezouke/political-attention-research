@@ -1,0 +1,15 @@
+{
+  "weight_source": "https://www.britishelectionstudy.com/wp-content/uploads/2025/10/besip_teaching_documentation_v30.0.pdf",
+  "page": 2,
+  "verified": "The teaching documentation describes weights for each wave, old format waves 1-4 and new format thereafter; it does not identify the single teaching weight as a longitudinal weight.",
+  "release_warning": "Documentation is later than pinned v1; longitudinal weights in the full BES file have not been shown to exist in this teaching file.",
+  "cautions": [
+    "This is selection on observables, not a test of missing at random.",
+    "Pre-wave cross-sectional weights do not correct subsequent panel attrition.",
+    "Kish n reflects weight dispersion only, not full complex survey design.",
+    "Retaining undecided pre-voters differs from selecting only those with a named pre-election intention.",
+    "Future outcome models should separate abstention, other party and unknown vote.",
+    "In post-election waves abstention is turnoutUKGeneral=0, while generalElectionVote is missing by routing; absence of a party answer is not automatically nonresponse.",
+    "Do not infer national representativeness from a large number of online respondents."
+  ]
+}

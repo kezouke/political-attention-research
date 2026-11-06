@@ -1,0 +1,255 @@
+year,sheet,variable,question
+2009,Full_Codebook,Variable name,Label  [English]
+2009,Full_Codebook,G1_V0,"Do you have the right to vote at the Walloon/Flemish elections and the European elections on June 7, 2009?"
+2009,Full_Codebook,G1_V1,Postal Code
+2009,Full_Codebook,G1_V2,Gender
+2009,Full_Codebook,G1_V3,In what year were you born?
+2009,Full_Codebook,G1_V4,In what language(s) do you generally speak with your family? You can mention several languages.
+2009,Full_Codebook,G1_V5,What is the highest level of formal education that you have obtained?
+2009,Full_Codebook,G1_V6,Are you currently practising a profession?
+2009,Full_Codebook,G1_V6,1: Yes
+2009,Full_Codebook,G1_V7,FILTER: ONLY ASK QUESTION 7 IF CODE 1 FOR QUESTION 6 Are you...?
+2009,Full_Codebook,G1_V8,FILTER: ONLY ASK QUESTION 8 IF CODE 1 FOR QUESTION 7 What is your main profession?
+2009,Full_Codebook,G1_V9,FILTER: ONLY ASK QUESTION 8 IF CODE 1 FOR QUESTION 7 What is your main profession?
+2009,Full_Codebook,G1_V10,FILTER: ONLY ASK QUESTION 10 IF CODE 2 FOR QUESTION 6 Are you...?
+2009,Full_Codebook,G1_V11,Are you in a steady relationship?
+2009,Full_Codebook,G1_V12,"How many children do you have, including those who don't live at your home anymore, and those that you have adopted?"
+2009,Full_Codebook,G1_V13,Do you personally regard yourself as being...?
+2009,Full_Codebook,G1_V14,"Apart from social and familial events such as baptisms, weddings, or funerals, how often do you attend religious services?"
+2009,Full_Codebook,G1_V15,To which cultural or geographic entity do you feel you belong most?
+2009,Full_Codebook,G1_V16,To which cultural or geographic entity do you feel you belong second most?
+2009,Full_Codebook,G1_V17_*,"In our country, many people are members of associations. I will now read you a list of associations. Could you say, for each association, whether you are or have been a member, or not?"
+2009,Full_Codebook,G1_V18_*,To what extent are you currently involved in [ASSOCIATION]?
+2009,Full_Codebook,G1_V19,Which political party or party's youth organisation are (or were) you a member of?
+2009,Full_Codebook,G1_V20,Elections for the Walloon/Flemish Parliament will be held on the 7 th of June. Are you already certain for which party you are going to vote?
+2009,Full_Codebook,G1_V21,"If the Flemish/Walloon regional elections were held today, and you therefore HAD to make a choice, which of the following parties would you vote for?"
+2009,Full_Codebook,G1_V22,"You have indicated that you would vote for [PARTY] in the elections to the Flemish / Walloon Parliament. People often have various reasons for voting for a given party. Could you explain, in your own words, why you would vote for this party?"
+2009,Full_Codebook,G1_V23,"You have declared that you would vote for [PARTY] in the elections to the Flemish/Walloon Parliament. Have you ever in the past voted for another party than this one at national, regional or European elections?"
+2009,Full_Codebook,G1_V24,"During the last elections on Sunday, June 10th, 2007, you could vote in the elections to the federal Parliament. Which party have you voted for to the Chamber of Representatives?"
+2009,Full_Codebook,G1_V25,"Why would you currently vote for [PARTY], whereas you chose [PARTY] in 2007?"
+2009,Full_Codebook,G1_V26,"If voting was not compulsory anymore in Belgium, would you always, often, sometimes or never go out to vote?"
+2009,Full_Codebook,G1_V27,The federal parliament consists of...
+2009,Full_Codebook,G1_V28,The Chairman of the Chamber of Representatives is ...
+2009,Full_Codebook,G1_V29,Which of the following matters is the federal Government NOT competent for?
+2009,Full_Codebook,G1_V30,Who is the vice-Premier representing the socialist party in the federal Government?
+2009,Full_Codebook,G1_V31,Which party is NOT a member of the federal Government?
+2009,Full_Codebook,G1_V32,"To what extent are you interested in politics in general? Give a value on a scale from 0 to 10, where 0 means that you are not interested in politics at all, and 10 means you are very interested in politics. Intermediary values allow you to qualify your answer."
+2009,Full_Codebook,G1_V33,"In politics, the concepts of ""left"" and ""right"" are often used. Using the following scale from 0 to 10, where 0 means the left, 10 means the right, and 5 represents the centre, where would you place yourself?"
+2009,Full_Codebook,G1_V34,"Considering the Flemish/Walloon population at large, do you think the Flemish/Walloon population's opinions are located rather to the left, the right, or the centre? Use the same scale ranging from 0 to 10, where 0 means the left, 5 the centre, and 10 the right."
+2009,Full_Codebook,G1_V35,"Considering the policies carried out by the Flemish/Walloon government, do you think that they tend to be located rather to the left, the right, or the centre? Use the same scale ranging from 0 to 10, where 0 means the left, 5 the centre, and 10 the right."
+2009,Full_Codebook,G1_V36,"There is currently a lot of debate regarding the proper distribution of powers between the federal and regional levels of government. Some people think that more powers should go to the regions and communities. Other people think that more powers should go to the federal state. Where would place your opinion on a scale ranging from 0 to 10, where 0 means that Regions and Communities should have all powers, and 10 means that all powers should be attributed to the federal State? The value 5 means that you agree with the current situation."
+2009,Full_Codebook,G1_V37,"Some people think the European integration should be pushed further. Others think that it has already gone too far. What do you think about this topic? Where would you place your opinion on a scale ranging from 0 to 10, where 0 means that, in your opinion, European integration has already gone too far, and 10 means that this integration should be pushed further. The value 5 means that you agree with the current situation."
+2009,Full_Codebook,G1_V38_*,To what extent do you agree with the following propositions?
+2009,Full_Codebook,G1_V39,To what extent are you satisfied with the policies carried out by the Flemish / Walloon government for the past 5 years?
+2009,Full_Codebook,G1_V40,"What do you think about the ideas of the Flemish parties? For each party, give a value between 0 and 10, where 0 means that you totally disagree with this party's ideas, and 10 means that you totally agree with its ideas."
+2009,Full_Codebook,G1_V41,"What do you think about the ideas of the French-speaking parties? For each party, give a value between 0 and 10, where 0 means that you totally disagree with this party's ideas, and 10 means that you totally agree with its ideas."
+2009,Full_Codebook,G1_V42,"To what extent do you think these people are qualified to govern Flanders/Wallonia? For each person, give a value on a scale from 0 to 10, where 0 means that, for you, this person is totally unqualified, and 10 means that he/she is totally qualified."
+2009,Full_Codebook,G1_V43_*,"For each of the following institutions, could you indicate to what extent they have an influence on your daily life?"
+2009,Full_Codebook,G1_V44_*,"Could you, on a scale from 0 to 10, assess your personal trust in the following institutions? 0 means that you totally distrust this institution, and 10 means that you totally trust it."
+2009,Full_Codebook,G1_V45,"In general, do you think that most people can be trusted, or that one should be careful in his/her relations with others? Could you give an answer located on a scale from 0 and 10, where 0 means that one is never careful enough and 10 means that most people can be trusted?"
+2009,Full_Codebook,G1_V46,"Do you think that most people would try to take advantage of you if they have an opportunity to do so, or that they would try to be honest?"
+2009,Full_Codebook,G1_V47,"Could you say, in your own words, what do you consider to be the MOST IMPORTANT problem that our country faces at the moment?"
+2009,Full_Codebook,G1_V48,"When you think about Flemings/Walloons, do you think that...?"
+2009,Full_Codebook,G1_V49_*,Could you say to what extent do you agree with each of the following propositions on political issues?
+2009,Full_Codebook,G1_V50,"If you look back at the past year, how has the economic situation of your family evolved?"
+2009,Full_Codebook,G1_V51,And how do you think that the economic situation of your family will evolve in the next year?
+2009,Full_Codebook,G1_V52_*,"Now, I'm going to bring up topics that are sometimes discussed in society. To what extent do you find these things acceptable?"
+2009,Full_Codebook,G1_V53_*,To what extent do you agree with the following propositions regarding women's status in society and politics?
+2009,Full_Codebook,G1_V54_*,"If elections were held today, on the basis of which issues would you make a choice between the different parties? I am going to read a list of political issues. Could you say, for each issue, to what extent is it important to determine your vote?"
+2009,Full_Codebook,G1_V55,Question 55
+2009,Full_Codebook,G1_V56,"The next question may be a bit more complicated, but could you try to explain what does the word ""democracy"" mean to you?"
+2009,Full_Codebook,G1_V57_*,"There are different views on what democracy is or should be. I am going to read some potential characteristics of a democracy. Could you say, for each of them, to what extent do you think that they are important for democracy?"
+2009,Full_Codebook,G1_V58_*,We often hear that the relationship between politicians and citizens has deteriorated. I am going to read to you a list of statements that are sometimes heard in this regard. Could you say to what extent do you agree with each of them?
+2009,Full_Codebook,G1_V59_*,"Over the past few years, different views on the deteriorating relationship between citizens and politicians have inspired several suggestions for reforms. For each of the following potential reform, could you indicate to what extent you think that they are desirable?"
+2009,Full_Codebook,G1_V60_*,"There are different opinions on policies. Overall, do you think that [The Flemish/Walloon population/The Flemish/Walloon politicians] is/are rather divided or rather united on policies?"
+2009,Full_Codebook,G1_V61_*,"When you think about the work of our representatives, to what extent do you find the following behaviour acceptable?"
+2009,Full_Codebook,G1_V62_*,"Now, I'm going to enumerate several qualities of a representative. Could you say, for each of them, if you find it important in order to be a good representative?"
+2009,Full_Codebook,G1_V63_*,"Could you say, for each of the following behaviour, how important is it in order to be a ‘good citizen’? Give a score between 1 and 7, where 1 means that it is not important at all for you and 7 means that it is very important for you."
+2009,Full_Codebook,G1_V64_*,"During the past two weeks, can you indicate how often have you...?"
+2009,Full_Codebook,G1_V65,Which newspaper have you read most often in the past two weeks?
+2009,Full_Codebook,G1_V66_*,On which TV channel have you watched the news most often in the past two weeks?
+2009,Full_Codebook,G1_V67_*,"To keep informed about political news, people often use different media. Could you say, for each of the following media, whether you find them trustworthy?"
+2009,Full_Codebook,G1_V68_*,"In between elections, political parties try to keep in touch with voters and try to inform citizens in different ways. During the past month, to what extent have you…"
+2009,Full_Codebook,G1_V69_*,People occasionally talk about politics. Could you indicate how often you have talked about politics with the following persons during the past month?
+2009,Full_Codebook,G1_V70_*,"Citizens have different possibilities to try to improve things in Belgium, or to prevent them from deteriorating. Over the past twelve months, how often have you performed the following actions?"
+2009,Full_Codebook,G1_V71_*,"Citizens have many possibilities to try to influence decisions that transform our society. For each of the following means, could you indicate the effectiveness that you attribute to it, 1 meaning that you find it not effective at all, and 7 that you think it is very effective?"
+2009,Full_Codebook,G1_V72,"That was all I wanted to ask you for the moment. Knowing that many events will happen in Belgian politics during the months to come, this election survey from the universities of Brussels, Antwerp and Louvain will be followed by two other surveys, one just before and one just after the elections in June. In order to measure the potential changes in your point of view on politics during the next months, and to understand the impact of news on the attitudes of the population, we would like to ask you to take part in these two surveys. It would help us tremendously to better understand politics and elections. Two subsequent surveys are planned. Both are going to be performed by phone. Moreover, each of them should not take more than 15 minutes of your time, and are therefore much less intensive than this first interview. The first survey is going to be held just before the elections (between May 25th and June 6th). The second survey is going to be organised just after the elections (between June 22nd and July 11th). In order to thank you for your participation to the three surveys, I will give you a gift token of 7 Euros, valid in most shops. Can I count on your participation in these two phone surveys?"
+2009,Full_Codebook,G2_V1_*,"During the past two weeks, can you indicate how often have you...?"
+2009,Full_Codebook,G2_V2,"Over the past month, which party did you see the most in the media?"
+2009,Full_Codebook,G2_V3,Has this party made a good or a bad impression on you?
+2009,Full_Codebook,G2_V4,The elections for the Walloon/Flemish Parliament will be held on the 7 th of June. Are you already certain for which party you are going to vote?
+2009,Full_Codebook,G2_V5,"If the Flemish / Walloon regional elections were to be held today, and you HAD to make a choice, which of the following parties would you vote for?"
+2009,Full_Codebook,G2_V6_*,"You indicated that you would vote for [PARTY] for the Flemish/Walloon Parliament. People often have various reasons for voting for a given party. Could you, in your own words, explain why you would vote for this party?"
+2009,Full_Codebook,G2_V7_*,"During the previous interview, you indicated that you would vote for [PARTY]. Is there a particular reason why you now want to vote for [PARTY], and not for [PARTY] anymore?"
+2009,Full_Codebook,G2_V8_*,"The electoral campaign is getting under way. What is your personal prediction about each party participating in the elections for the Flemish/Walloon Parliament? Could you say, for each party, whether it will improve its result, or whether it will obtain a lower result in comparison to the 2007 federal elections?"
+2009,Full_Codebook,G2_V9_*,"In Belgium, a party has to obtain at least 5% of the votes in a district to gain a seat. For some parties, it is not sure that this 5% threshold will be reached. Could you say, for the following parties, if you think that they will probably reach the electoral threshold or not?"
+2009,Full_Codebook,G2_V10_*,"What do you think about the ideas of the Flemish/Walloon parties? For each party, give a value between 0 and 10, where 0 means that you totally disagree with this party's ideas, and 10 means that you totally agree with its ideas."
+2009,Full_Codebook,G2_V11_*,"To what extent do you think that these people are qualified to govern Flanders/Wallonia? For each person, give a value on a scale from 0 to 10, where 0 means that, for you, this person is totally unqualified, and 10 means that he/she is totally qualified."
+2009,Full_Codebook,G2_V12_*,"In Belgium, we have a federal government as well as regional governments (the Flemish government, the Walloon government, and the Brussels government). Could you say which of the following parties are currently part of the FLEMISH/WALLOON government?"
+2009,Full_Codebook,G2_V13_*,"And for the BELGIAN FEDERAL GOVERNMENT, could you say which of the following parties are currently part of it?"
+2009,Full_Codebook,G2_V14,Could you describe in your own words what do you think is the most important problem that the country is facing at this moment?
+2009,Full_Codebook,G2_V15_*,"During the electoral campaign, political parties try to keep in touch with and inform voters. Over the past month, how often have you…?"
+2009,Full_Codebook,G2_V16,"Over the past month, which party did you see the most in the media?"
+2009,Full_Codebook,G2_V17_*,"People occasionally talk about politics. Could you say how often you have talked about politics with the following persons, over the past month?"
+2009,Full_Codebook,G2_V18_*,Could you say how often do you talk with people of your entourage about...?
+2009,Full_Codebook,G2_V19_*,"If the elections were held today, on the basis of which issues would you make a choice between the different parties? I am going to read a list of political issues. Could you say, for each issue, to what extent is it important in determining your vote?"
+2009,Full_Codebook,G2_V20,Which of these issues is the most important in determining your vote?
+2009,Full_Codebook,G3_V1,To what extent have you followed the electoral campaign?
+2009,Full_Codebook,G3_V2,"If there was an article in the newspaper that was devoted to the electoral campaign, you would have read it...?"
+2009,Full_Codebook,G3_V3_*,"The various TV channels aired several shows devoted to the elections during the weeks preceding the elections. Could you say whether you watched, or not, the following shows?"
+2009,Full_Codebook,G3_V4,"In the last week before the elections, which party did you see the most in the media?"
+2009,Full_Codebook,G3_V5,Has this party made a good or a bad impression on you?
+2009,Full_Codebook,G3_V6,"On Sunday, June 7th, you have voted in the elections for the Flemish/Walloon Parliament. Which of the following parties have you voted for?"
+2009,Full_Codebook,G3_V7,"You indicated that you voted for [PARTY] for the Flemish/Walloon Parliament. People often have various reasons for voting for a given party. Could you, in your own words, explain why you voted for this party?"
+2009,Full_Codebook,G3_V8,"During the previous interview, you have indicated that you wanted to vote for [PARTY]. Is there any particular reason for which you voted for [PARTY] rather than for [PARTY]?"
+2009,Full_Codebook,G3_V9,"In order to determine their vote, some voters look at what parties have done in the past. Others look at what parties promise to do in the future. And others think that both are important. When you voted in the elections for the Flemish/Walloon Parliament, were you thinking...?"
+2009,Full_Codebook,G3_V10_*,"Now, I'm going to read a list of reasons which a person could have to vote for a party. If you think about your vote for the Flemish/Walloon Parliament, could you say, for each of these reasons, how important was it in determining your vote choice?"
+2009,Full_Codebook,G3_V11,"In the elections for the Flemish/Walloon Parliament, have you casted a vote for the list, or have you casted a preferential vote for one or several particular candidates on the list?"
+2009,Full_Codebook,G3_V12,"How many candidates have you cast a preferential vote for? If you don't remember the exact number, give an estimate."
+2009,Full_Codebook,G3_V13,Was it a man or a woman?
+2009,Full_Codebook,G3_V14,And did you vote...?
+2009,Full_Codebook,G3_V15,Would you have voted for the same party if this candidate had not been on its list?
+2009,Full_Codebook,G3_V16,Would you have voted for the same party if these candidates had not been on its list?
+2009,Full_Codebook,G3_V17_*,"People often have various reasons to vote for a specific candidate. Could you say, for each of the following reasons, to what extent has it been important to determine your preferential vote?"
+2009,Full_Codebook,G3_V18,"On Sunday 7 th of June, you also voted in the European elections. Which of the following parties did you vote for?"
+2009,Full_Codebook,G3_V19,"You indicated that you voted for [PARTY] for the European Parliament. People often have various reasons for voting for a given party. Could you, in your own words, explain why you voted for this party?"
+2009,Full_Codebook,G3_V20_*,"Could you, on a scale from 0 to 10, assess your personal trust in the following institutions? 0 means that you totally distrust this institution, and 10 means that you totally trust it."
+2009,Full_Codebook,G3_V21,"In the last weeks of the campaign, which parties’ OWN communications did you see the most?"
+2009,Full_Codebook,G3_V22_*,People sometimes talk about politics. Could you say how often have you talked about politics with the following persons since the elections?
+2009,Full_Codebook,G3_V23_*,"Since the elections, could you say to what extent have you talked with people you know about...?"
+2009,Full_Codebook,G3_V24,"Could you say, in your own words, what do you consider to be the MOST IMPORTANT problem that our country is facing at the moment?"
+2009,Full_Codebook,G3_V25_*,"When people think about a particular issue, they often spontaneously think about a party. Some parties are thus spontaneously associated to some issues. I am going to present to you several issues. Could you say which Flemish/French-speaking party first comes to mind when you think about this topic? It does not necessarily mean that you agree with the position of this party. If no party comes to mind when I mention an issue, just say so and we’ll move to the next topic."
+2009,Full_Codebook,G3_V26,"Over the five past years, have you tried to contact a politician to talk about a specific personal problem?"
+2009,Full_Codebook,G3_V27,Has the intervention of this politician helped you to solve your problem?
+2009,Full_Codebook,G3_V28,Have you voted for this politician in most of the elections which he or she has ran for?
+2009,Full_Codebook,G3_V29,"How do you think a representative should vote when his/her party has an opinion on a particular issue, which is different from his/her own opinion?"
+2009,Full_Codebook,G3_V30,"How do you think a representative should vote when she/he has an opinion on a particular issue, which is different from the opinion of his/her voters?"
+2009,Full_Codebook,G3_V31,How do you think a representative should vote when his/her voters have a different opinion than the opinion of his/her own party?
+2014,Full_Codebook_-_G1,Variable name,Label  [English]
+2014,Full_Codebook_-_G1,V70019_1,Code postal
+2014,Full_Codebook_-_G1,V70015_1,You are a…
+2014,Full_Codebook_-_G1,V70018_1,In what year were you born?
+2014,Full_Codebook_-_G1,V2_*,In what language(s) do you usually speak with your family?
+2014,Full_Codebook_-_G1,V3,What is the highest degree that you have obtained?
+2014,Full_Codebook_-_G1,V4,Do you live with a partner?
+2014,Full_Codebook_-_G1,V5_1,"How many children do you have, including those who no longer live with you, and adopted children?"
+2014,Full_Codebook_-_G1,V6,Do you currently exercise a professional activity (as your main occupation)?
+2014,Full_Codebook_-_G1,V7,What is the name or title of your main job?
+2014,Full_Codebook_-_G1,V8,What was the name or title of your main job?
+2014,Full_Codebook_-_G1,V9,Are you … ?
+2014,Full_Codebook_-_G1,V10,How many employees do you have or did you have?
+2014,Full_Codebook_-_G1,V11,"In your main job, do you have any responsibility for directing or supervising the work of other employees?"
+2014,Full_Codebook_-_G1,V12,"In your main job, did you have any responsibility for directing or supervising the work of other employees?"
+2014,Full_Codebook_-_G1,V13,"Considering all sources of income, in which category does your total net household income fall, including any overtime income? If you do not know the exact amount, please provide an estimate."
+2014,Full_Codebook_-_G1,V14,Do you personally consider yourself to be...?
+2014,Full_Codebook_-_G1,V15,"With the exception of family and social events such as baptisms, weddings, and funerals, how often do you attend religious services?"
+2014,Full_Codebook_-_G1,V16,Which of these statements most closely matches your view of yourself?
+2014,Full_Codebook_-_G1,V17,"In June 2010, elections to the House of Representatives were held. Which party did you vote for?"
+2014,Full_Codebook_-_G1,V18_*,"In our country, there are many political parties. I would like to know to what extent you find them sympathetic or not. Can you give me a score between 0 and 10 for each party, knowing that 0 means ""not at all sympathetic"" and 10 ""very sympathetic"". If you haven't heard of or don't know enough about a party, please say so."
+2014,Full_Codebook_-_G1,V19,Is there a party in particular that you feel close to or closer than other parties?
+2014,Full_Codebook_-_G1,V20,"If yes, how close do you feel to this party? Do you feel … ?"
+2014,Full_Codebook_-_G1,V21,"If elections to the House of Representatives were held today, which of the following parties would you vote for?"
+2014,Full_Codebook_-_G1,V22,"Is there a second party that you would vote for? If yes, what is this party?"
+2014,Full_Codebook_-_G1,V23_*,"If voting were no longer compulsory in Belgium, would you always vote, most of the time vote, sometimes vote or never vote?"
+2014,Full_Codebook_-_G1,V24_*,"If the elections were held today, on the basis of which issues would you make your choice between the different parties? I am going to read you a list of political issues. Can you tell me for each of these issues how important it would be in determining your vote?"
+2014,Full_Codebook_-_G1,V25,Which of these issues would be most important in determining your vote?
+2014,Full_Codebook_-_G1,V26,Political parties play an important role in political life. Can you indicate which each of the following statements apply to you?
+2014,Full_Codebook_-_G1,V27_*,Have you ever been asked to join a political party by any of the following people?
+2014,Full_Codebook_-_G1,V28_*,"Can you indicate for the following parties, on a scale of 0 to 10, how likely are they to be part of the next Belgian federal government, where 0 means “not at all likely” and 10 “very likely”?"
+2014,Full_Codebook_-_G1,V29_*,"Parliamentarians have different characteristics. Can you indicate how important each of the following characteristics is to you, on a scale of 0 to 10, where 0 means “not at all important” and 10 means “very important”?"
+2014,Full_Codebook_-_G1,V30_*,"How important is it to you that parliamentarians represent the following groups? Assign a score between 0 and 10, 0 means “not at all important”, and 10 means “very important”."
+2014,Full_Codebook_-_G1,V31_1,Parliamentarians exercise their function in different ways. Can you rank the following tasks from the one that you consider the least important to the one that you consider the most important?
+2014,Full_Codebook_-_G1,V31_2,What is the 2nd most important task of a parliamentarian?
+2014,Full_Codebook_-_G1,V31_3,What is the 3rd most important job of a parliamentarian?
+2014,Full_Codebook_-_G1,V31_4,ANY REMAINING RESPONSE (least important)
+2014,Full_Codebook_-_G1,V32_*,"Do you think parliamentarians pay too much or too little attention to the following groups or actors? Assign a score between 0 and 10, 0 means “parliamentarians pay too little attention”, and 10 means “parliamentarians pay too much attention”."
+2014,Full_Codebook_-_G1,V33,"For the elections, each party must constitute lists of candidates. Who do you think should be responsible for determining who ends up on the lists? Should this decision be made by…?"
+2014,Full_Codebook_-_G1,V34,"How interested are you in politics in general? Give a score between 0 and 10, where 0 means you have no interest in politics, and 10 means you have a lot."
+2014,Full_Codebook_-_G1,V35,What is the Federal Parliament made up of?
+2014,Full_Codebook_-_G1,V36,Who is the current Speaker of the House of Representatives?
+2014,Full_Codebook_-_G1,V37,Which party is NOT part of the Flemish/Walloon regional government?
+2014,Full_Codebook_-_G1,V38,How many Member States are there in the European Union?
+2014,Full_Codebook_-_G1,V39,Which party is NOT in the Federal Government?
+2014,Full_Codebook_-_G1,V40,"The notions of “left” and “right” are often used in politics. Can you place your own opinions on a scale from 0 to 10, where 0 means “left”, 10 means “right”, and 5 means “center”?"
+2014,Full_Codebook_-_G1,V41_*,To what extent do you agree with the following statements?
+2014,Full_Codebook_-_G1,V42_*,Can you indicate for each of the following statements whether you tend to agree or disagree?
+2014,Full_Codebook_-_G1,V4203_*,"For each of the following areas of state intervention, which party do you spontaneously think of?"
+2014,Full_Codebook_-_G1,V4204_*,And what is the second party you spontaneously think of?
+2014,Full_Codebook_-_G1,V4303_*,"Which party do you think is most likely to stick to its agenda in the following areas, regardless of whether you agree with that party or not?"
+2014,Full_Codebook_-_G1,V4304_*,And which is the second party that you think is the most suitable?
+2014,Full_Codebook_-_G1,V44_*_*,"When you think of the same areas, can you indicate which parties (and their views) do you generally agree with? You can choose several parties."
+2014,Full_Codebook_-_G1,V45,"In the political field, there are different opinions regarding the organization of the economy. Some believe that “society should have control over corporations”, while others believe that “corporations should be completely free to do whatever they want”. In relation to your personal convictions, where would you place yourself? Assign a score between 0 and 10, 0 means “society must have control over businesses”, and 10 means “businesses must be completely free”."
+2014,Full_Codebook_-_G1,V46,"In politics, it is sometimes necessary to choose between opposing propositions. Suppose you are asked to indicate your preference between “environmental protection” and “job security”. Where would you place yourself on a scale of 0 to 10?"
+2014,Full_Codebook_-_G1,V47,"There is a lot of discussion at the moment about the right balance between the powers of the federal and regional levels. Some believe that the Regions and Communities should have more powers, while others say that it is the federal state that should see its powers strengthened. Where would you place yourself on a scale of 0 to 10, where 0 means that the Regions and Communities should have all powers, and where 10 means that all powers should be attributed to the Federal State? A value of 5 means that you are happy with the situation as it is."
+2014,Full_Codebook_-_G1,V48,Can you tell me why you chose this option?
+2014,Full_Codebook_-_G1,V49,"Some believe that European integration should be pushed further. Others believe that it has already gone too far. What do you think? Where would you place yourself on a scale of 0 to 10, where 0 means that, for you, European integration has already gone too far, and 10 means that this integration should be taken further. A value of 5 means that you are happy with the situation as it is."
+2014,Full_Codebook_-_G1,V50,Can you tell me why you chose this option?
+2014,Full_Codebook_-_G1,V51_*,To what extent do you agree or disagree with the following statements?
+2014,Full_Codebook_-_G1,V52,To what extent are you satisfied with the politics pursued by the Flammish/Walloon government?
+2014,Full_Codebook_-_G1,V54,To what extent are you satisfied with the politics pursued by the Federal Government?
+2014,Full_Codebook_-_G1,V55,How satisfied are you with the politics pursued by the European Union?
+2014,Full_Codebook_-_G1,V56,To which cultural or geographical entity do you feel you belong first and foremost?
+2014,Full_Codebook_-_G1,V57,And what cultural or geographical entity do you feel you belong to secondly?
+2014,Full_Codebook_-_G1,V5801,How often do you go to Wallonia/Flanders to spend your holidays or free time?
+2014,Full_Codebook_-_G1,V5802,How often do you go to Wallonia/Flanders to visit French/Dutch-speaking friends?
+2014,Full_Codebook_-_G1,V5803,How often do you go to Wallonia/Flanders for shopping?
+2014,Full_Codebook_-_G1,V5804,"How often do you consult the French/Dutch-speaking media (newspapers, radio, television, etc.)?"
+2014,Full_Codebook_-_G1,V59_*,"Could you, on a scale from 0 to 10, evaluate your personal confidence in the institutions that I am going to mention to you? 0 means you don't trust this institution at all, and 10 means you trust this institution a lot."
+2014,Full_Codebook_-_G1,V60,"Generally speaking, are you very satisfied, fairly satisfied, not very satisfied, or not satisfied at all with the functioning of democracy in Belgium?"
+2014,Full_Codebook_-_G1,V61_*,There are different ways of making political decisions. Can you tell me to what extent do you agree with the following statements?
+2014,Full_Codebook_-_G1,V62_*,There are different opinions on how we do politics in Belgium. Can you tell me to what extent do you agree or disagree with the following statements?
+2014,Full_Codebook_-_G1,V63_*,Citizens have different means of action to try to improve things in Belgium or to help prevent them from getting worse. Have you in the last twelve months done the following things?
+2014,Full_Codebook_-_G1,V64_*,"Citizens can do different things to try to influence political decisions. Can you, for each of the following actions, indicate the effectiveness that you attribute to them, 1 meaning that you consider it not effective at all and 7 that you consider it very effective?"
+2014,Full_Codebook_-_G1,V65_*,There is a lot of discussion about how politics works. Could you for each of the following statements say whether do you agree or not?
+2014,Full_Codebook_-_G1,V66_*,"Can you, for each of the following institutions, say to what extent they influence your daily personal life?"
+2014,Full_Codebook_-_G1,V67_*,"At what level of power do you think the following areas should be addressed? At the regional level, at the federal level, or at the European level?"
+2014,Full_Codebook_-_G1,V68,"If it were announced tomorrow that the European Union had been abandoned, would you feel a big regret, indifferent, or a big relief?"
+2014,Full_Codebook_-_G1,V69_*,Can you indicate to what extent you agree with the following statements on the European Union?
+2014,Full_Codebook_-_G1,V70_*,To what extent do you agree with the following statements? To be a European citizen means to me...
+2014,Full_Codebook_-_G1,V71_*,To what extent can citizens like you influence politics? Can you indicate it for the following subjects?
+2014,Full_Codebook_-_G1,V71_*,1: A construction project on your street
+2014,Full_Codebook_-_G1,V72_*,How important do you think it is for a good citizen to participate in the following activities?
+2014,Full_Codebook_-_G1,V73,"In your opinion, is it generally good or bad for the Belgian economy that people from other countries come to live in Belgium?"
+2014,Full_Codebook_-_G1,V74,"Do you find that the cultural life in Belgium is, in general, impoverished or enriched by the fact that people from other countries come to live in Belgium?"
+2014,Full_Codebook_-_G1,V75,Has Belgium become a less or a more pleasant place to live due to the presence of people from other countries?
+2014,Full_Codebook_-_G1,V76,"Do you find that people with an immigrant background have come to take advantage of our wealth, or are they contributing to the wealth of the country?"
+2014,Full_Codebook_-_G1,V77_*,"Can you for each of the identities below indicate how much does it apply to you? You can indicate this on a scale from 0 to 10, where 0 means not at all, and 10 means a lot."
+2014,Full_Codebook_-_G1,V78_*,To what extent do you agree with the following statements about the presence and role of women and men in society and politics?
+2014,Full_Codebook_-_G1,V79_*,Can you indicate for each of the following statements whether do you tend to agree or disagree?
+2014,Full_Codebook_-_G2,Variable name,Label  [English]
+2014,Full_Codebook_-_G2,V40B,Did you vote on May 25?
+2014,Full_Codebook_-_G2,V50B,Can you tell me why you didn't vote?
+2014,Full_Codebook_-_G2,V6002,Did you vote on the list of Flemish Brabant or on the list of Brussels before the federal elections?
+2014,Full_Codebook_-_G2,V60B,For which party did you vote for the federal Chamber of Representatives?
+2014,Full_Codebook_-_G2,V70,Can you say in your own words why did you vote for that party?
+2014,Full_Codebook_-_G2,V80,"When you were interviewed a few weeks ago, you indicated that you intended to vote for [PARTY NAME]. Is there a specific reason why you changed your mind?"
+2014,Full_Codebook_-_G2,V90,When did you decide to vote for this party in the federal elections?
+2014,Full_Codebook_-_G2,V100,Did you vote for the list or did you vote for one or more candidates on that list?
+2014,Full_Codebook_-_G2,V110_*,Can you give me the number(s) or name(s) of the candidate(s) you voted for?
+2014,Full_Codebook_-_G2,V120,"Can you explain to me in your own words why did you vote for this candidate? If you voted for several candidates, please give the reason why you voted for your most important candidate."
+2014,Full_Codebook_-_G2,V130,When did you decide which candidate(s) you would vote for in the federal elections?
+2014,Full_Codebook_-_G2,V140,"Which was most important to you when making your vote choice, the candidate(s) or the party? You can answer by giving a number between 0 and 10. 0 means that only the candidate was important and 10 that only the party was important."
+2014,Full_Codebook_-_G2,V150,Which party did you vote for in the EUROPEAN elections?
+2014,Full_Codebook_-_G2,V160,"Did you vote for the list in the European elections, or did you vote for one or more candidates on that list?"
+2014,Full_Codebook_-_G2,V170,To what extent do you agree with the following statement? I chose this party because of its positions on European politics.
+2014,Full_Codebook_-_G2,V180_*,Can you give me the number(s) or name(s) of the candidate(s) that you voted for?
+2014,Full_Codebook_-_G2,V190,To what extent do you agree with the following statement? I chose this/these candidate/candidates because of his/their views on European politics.
+2014,Full_Codebook_-_G2,V200,Which party did you vote for in the election to the WALOON/FLEMISH PARLIAMENT?
+2014,Full_Codebook_-_G2,V210,"Regarding the elections to the Walloon/Flemish Parliament, did you vote for the list or for one or more candidates on the list?"
+2014,Full_Codebook_-_G2,V220_*,Can you give me the number(s) or name(s) of the candidate(s) that you voted for?
+2014,Full_Codebook_-_G2,V240_*,"For the following, can you say how often you did them during the electoral campaign?"
+2014,Full_Codebook_-_G2,V260_*,Did you do the following during the campaign?
+2014,Full_Codebook_-_G2,V270_*,"During the campaign, you could fill in various voting guides and tests. In which of the following did you participate?"
+2014,Full_Codebook_-_G2,V28001_*/V28003_*,"Which specific voting test of De Stemtest 2014 (VRT and De Standaard)/Le Test électoral (RTBF, La Libre Belgique, La Derniere Heure, and Paris Match) did you participate in?"
+2014,Full_Codebook_-_G2,V300,And do you remember which party was in first place for you in De Stemtest 2014 (VRT and De Standaard)/Le Test électoral 2014 (RTBF/La Libre Belgique/Paris Match/La Dernière Heure) for the federal elections?
+2014,Full_Codebook_-_G2,V330_*,"In politics, the terms “left” and “right” are often used. Can you rate the following political parties on a scale of 0 to 10, where 0 means “left”, 5 means “center”, and 10 means “right”?"
+2014,Full_Codebook_-_G2,V340,And where would you place yourself on this scale? 0 is still left and 10 is right.
+2014,Full_Codebook_-_G2,V360_*,Can you indicate to what extent do you agree or disagree with each of the following statements?
+2014,Full_Codebook_-_G2,V370,"MP's must regularly vote for or against a particular proposal in parliament. How, in your opinion, should a MP vote when his/her party has one view  and he/she has another?"
+2014,Full_Codebook_-_G2,V380,How do you think a Member of Parliament should vote when his/her own opinion on an issue does not match the opinion of the voters who voted for him/her?
+2014,Full_Codebook_-_G2,V390,"How, in your view, should a Member of Parliament vote when the voters who voted for him/her hold one view and his/her party takes a different position?"
+2014,Full_Codebook_-_G2,V400,"Would you say that over the past twelve months, the state of the Belgian economy ... ?"
+2014,Full_Codebook_-_G2,V410,Would you say that the state of the Belgian economy...?
+2014,Full_Codebook_-_G2,V420,Would you say that the state of the Belgian economy...?
+2014,Full_Codebook_-_G2,V440_*,Can you indicate to what extent do you agree or disagree with each of the following statements?
+2014,Full_Codebook_-_G2,V460_*,"How would you rate the following groups on a scale of 0 to 10? 0 means that you have very negative feelings towards the group, 10 that you have very positive feelings towards the group."

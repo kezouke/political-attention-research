@@ -1,0 +1,20 @@
+{
+  "deposit_doi": "10.5255/UKDA-SN-852634",
+  "license": "CC BY 4.0",
+  "filename": "ees_2009_voter_data.sav",
+  "n": 27069,
+  "countries": 27,
+  "n_joint_ep_vote": 13092,
+  "n_joint_national_intention": 15612,
+  "cautions": [
+    "q44 is national parliamentary responsiveness, not direct national elite trust.",
+    "q41 concerns EU institutions, not national political parties.",
+    "All interviews follow EP elections; q28 is hypothetical national intention, not a later observed vote.",
+    "One 2009 cross-section cannot establish a change caused by the crisis.",
+    "EP and national elections must not be substituted in the original crisis calendar.",
+    "v131/v132 calibrate to EP vote outcomes; v132 excludes nonvoters through zero weight.",
+    "File called ees_2009_questionnaire.pdf in the acquisition log is actually advance release notes; final notes are in ees_2009_release_notes.doc.",
+    "Questionnaire text is in separately acquired ees_2009_v7_questionnaire.pdf and national Maltese version.",
+    "Primary deposit reports mixed mode in seven states but lists nine in its advance notes; use actual t200 by country."
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "2014": {
+    "pre_n": 2019,
+    "post_n": 1532,
+    "retained_fraction": 0.758791480931154,
+    "layout_columns": 741,
+    "numeric_columns_read": 673,
+    "unique_ids": true,
+    "pre_fieldwork": [
+      "2014-03-20",
+      "2014-05-17"
+    ],
+    "election_date": "2014-05-25",
+    "post_fieldwork": [
+      "2014-05-26",
+      "2014-07-01"
+    ],
+    "turnout_vote_item_disagreements": 1,
+    "trust_code_11_means": "0: no trust, not above maximum trust",
+    "selected_value_labels": {
+      "V25": {
+        "1": "Werkgelegenheid",
+        "2": "Milieu",
+        "3": "Criminaliteit",
+        "4": "Immigratie",
+        "5": "Economie",
+        "6": "Staatshervorming",
+        "7": "Defensie",
+        "8": "Belastingen",
+        "99": "wn - ga"
+      },
+      "V54": {
+        "1": "Heel ontevreden",
+        "2": "Eerder ontevreden",
+        "3": "Noch tevreden, noch ontevreden",
+        "4": "Eerder tevreden",
+        "5": "Heel tevreden",
+        "99": "wn - ga"
+      },
+      "V59_4": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10 - Volledig vertrouwen",
+        "11": "0 - Helemaal geen vertrouwen",
+        "99": "wn - ga"
+      },
+      "V59_10": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10 - Volledig vertrouwen",
+        "11": "0 - Helemaal geen vertrouwen",
+        "99": "wn - ga"
+      },
+      "V400": {
+        "1": "verbeterd is",
+        "2": "dezelfde gebleven is",
+        "3": "verslechterd is",
+        "99": "wn - ga"
+      },
+      "V40B": {
+        "1": "Ja",
+        "2": "Nee"
+      },
+      "V60B": {
+        "1": "CD&V",
+        "2": "Groen",
+        "3": "N-VA",
+        "4": "SP.A",
+        "5": "Vlaams Belang",
+        "6": "Open VLD",
+        "7": "LDD",
+        "8": "PvdA +",
+        "10": "Stemde blanco",
+        "11": "Stemde ongeldig",
+        "12": "Ging niet stemmen",
+        "13": "Weigert te antwoorden",
+        "20": "PS",
+        "21": "MR",
+        "22": "CDH",
+        "23": "ECOLO",
+        "24": "FDF",
+        "25": "FN",
+        "26": "PTB GO",
+        "27": "PP (Parti Populaire)",
+        "98": "Andere partij",
+        "99": "wn - ga"
+      },
+      "V24_1": {
+        "1": "Heel belangrijk",
+        "2": "Eerder belangrijk",
+        "3": "Noch belangrijk, noch onbelangrijk",
+        "4": "Eerder onbelangrijk",
+        "5": "Helemaal onbelangrijk",
+        "6": "wn - ga"
+      },
+      "V24_2": {
+        "1": "Heel belangrijk",
+        "2": "Eerder belangrijk",
+        "3": "Noch belangrijk, noch onbelangrijk",
+        "4": "Eerder onbelangrijk",
+        "5": "Helemaal onbelangrijk",
+        "6": "wn - ga"
+      },
+      "V24_3": {
+        "1": "Heel belangrijk",
+        "2": "Eerder belangrijk",
+        "3": "Noch belangrijk, noch onbelangrijk",
+        "4": "Eerder onbelangrijk",
+        "5": "Helemaal onbelangrijk",
+        "6": "wn - ga"
+      },
+      "V24_4": {
+        "1": "Heel belangrijk",
+        "2": "Eerder belangrijk",
+        "3": "Noch belangrijk, noch onbelangrijk",
+        "4": "Eerder onbelangrijk",
+        "5": "Helemaal onbelangrijk",
+        "6": "wn - ga"
+      },
+      "V24_5": {
+        "1": "Heel belangrijk",
+        "2": "Eerder belangrijk",
+        "3": "Noch belangrijk, noch onbelangrijk",
+        "4": "Eerder onbelangrijk",
+        "5": "Helemaal onbelangrijk",
+        "6": "wn - ga"
+      },
+      "V24_6": {
+        "1": "Heel belangrijk",
+        "2": "Eerder belangrijk",
+        "3": "Noch belangrijk, noch onbelangrijk",
+        "4": "Eerder onbelangrijk",
+        "5": "Helemaal onbelangrijk",
+        "6": "wn - ga"
+      },
+      "V24_7": {
+        "1": "Heel belangrijk",
+        "2": "Eerder belangrijk",
+        "3": "Noch belangrijk, noch onbelangrijk",
+        "4": "Eerder onbelangrijk",
+        "5": "Helemaal onbelangrijk",
+        "6": "wn - ga"
+      },
+      "V24_8": {
+        "1": "Heel belangrijk",
+        "2": "Eerder belangrijk",
+        "3": "Noch belangrijk, noch onbelangrijk",
+        "4": "Eerder onbelangrijk",
+        "5": "Helemaal onbelangrijk",
+        "6": "wn - ga"
+      }
+    }
+  },
+  "2009": {
+    "raw_lines": 2331,
+    "microdata_parsed": false,
+    "blocker": "Missing fixed-width Stata dictionary; .do contains labels but no field positions",
+    "archive_wave_sizes": [
+      2331,
+      1845,
+      1698
+    ],
+    "election_level": "regional and European, not federal"
+  },
+  "limitations": [
+    "2014 trust, issue priority and government satisfaction are pre-election; economic assessment is post-election.",
+    "The 2014 sample covers eligible Flanders and Wallonia residents aged at most 85, excluding Brussels.",
+    "2014 government satisfaction raw codes 1..5 run from very satisfied to very dissatisfied.",
+    "2014 trust raw code 11 means zero trust. Use 11->0; raw codes 1..10 retain their values.",
+    "2014 SPSS labels add federal party code 27 (PP), absent from English ODS; keep producer data labels.",
+    "Weight construction is not verified. None is assumed to be a longitudinal or purely demographic weight.",
+    "2009 questionnaires contain household economy, government satisfaction, politician trust and priorities, but no joint counts are claimed.",
+    "2009 and 2014 are separate panels; no cross-election respondent linkage has been established.",
+    "Changing issue lists and election levels prevent direct unqualified 2009/2014 comparisons.",
+    "Both current DANS deposits specify CC-BY-4.0. No raw respondent data or free text redistributed."
+  ]
+}

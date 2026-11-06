@@ -1,0 +1,58 @@
+study,country,year,geographic_europe_2004_2019,n
+1 AR07,1 Argentina,2007,False,799
+2 BU96,2 Bulgaria,1996,False,1216
+3 CL93,3 Chile,1993,False,1305
+4 CL00,3 Chile,2000,False,795
+5 CN08,4 China,2008,False,5098
+7 GR96,6 Greece,1996,False,966
+8 GR04,6 Greece,2004,True,1307
+9 HK98,7  Hong Kong,1998,False,988
+10 HK15,7  Hong Kong,2015,False,1057
+11 HU98,8 Hungary,1998,False,1500
+12 HU06,8 Hungary,2006,True,1033
+13 IN99,9 Indonesia,1999,False,2488
+14 IN04,9 Indonesia,2004,False,1194
+15 IN09,9 Indonesia,2009,False,1980
+16 IT96,10 Italy,1996,False,2502
+17 IT06,10 Italy,2006,True,2005
+19 MX06,12 Mexico,2006,False,2620
+20 MZ04,13 Mozambique,2004,False,1214
+21 PT05,14 Portugal,2005,True,2801
+22 SA04,15 South Africa,2004,False,1200
+23 SA09,15 South Africa,2009,False,1200
+24 SP93,16 Spain,1993,False,1448
+25 SP04,16 Spain,2004,True,2929
+26 TW04,17 Taiwan,2004,False,1252
+27 GB92,18 Great Britain,1992,False,3534
+28 US92,19 United States,1992,False,1323
+29 US04,19 United States,2004,False,1816
+30 UR94,20 Uruguay,1994,False,1005
+31 UR04,20 Uruguay,2004,False,929
+32 DR10,21 Dominican Republic,2010,False,1467
+33 MX12,12 Mexico,2012,False,1600
+34 US12,19 United States,2012,False,1289
+35 IT13,10 Italy,2013,True,1508
+36 KE13,22 Kenya,2013,False,1200
+37 CO14,23 Colombia,2014,False,1102
+38 IN14,9 Indonesia,2014,False,1737
+39 SA14,15 South Africa,2014,False,1300
+40 TR14,24 Turkey,2014,True,1173
+42 GR15,6 Greece,2015,True,1008
+43 PT15,14 Portugal,2015,True,1499
+44 SP15,16 Spain,2015,True,2411
+45 TW16,17 Taiwan,2016,False,1000
+46 IR16,25 Iran,2016,False,1203
+47 RU16,26 Russia,2016,True,1602
+48 SP11,16 Spain,2011,True,6082
+49 US16,19 United States,2016,False,1600
+50 FR17,27 France,2017,True,2000
+51 GB17,18 Great Britain,2017,True,2000
+52 GE17,5 Germany,2017,True,3236
+53 CL17,3 Chile,2017,False,1625
+54 CO18,23 Colombia,2018,False,1118
+55 IT18,10 Italy,2018,True,3005
+56 MX18,12 Mexico,2018,False,1428
+57 UK19,28 Ukraine,2019,True,2001
+58 SA19,15 South Africa,2019,False,1625
+59 US20,19 United States,2020,False,2000
+60 IN19,9 Indonesia,2019,False,1078

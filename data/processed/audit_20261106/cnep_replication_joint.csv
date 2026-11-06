@@ -1,0 +1,58 @@
+study,country,year,geographic_europe_2004_2019,n,economy_government_dont_care_vote_n,economy_priority_elite_vote_n,reason_for_zero
+1 AR07,1 Argentina,2007,False,799,0,0,No respondent issue-priority question in this replication file
+2 BU96,2 Bulgaria,1996,False,1216,0,0,No respondent issue-priority question in this replication file
+3 CL93,3 Chile,1993,False,1305,0,0,No respondent issue-priority question in this replication file
+4 CL00,3 Chile,2000,False,795,0,0,No respondent issue-priority question in this replication file
+5 CN08,4 China,2008,False,5098,0,0,No respondent issue-priority question in this replication file
+7 GR96,6 Greece,1996,False,966,0,0,No respondent issue-priority question in this replication file
+8 GR04,6 Greece,2004,True,1307,0,0,No respondent issue-priority question in this replication file
+9 HK98,7  Hong Kong,1998,False,988,0,0,No respondent issue-priority question in this replication file
+10 HK15,7  Hong Kong,2015,False,1057,313,0,No respondent issue-priority question in this replication file
+11 HU98,8 Hungary,1998,False,1500,0,0,No respondent issue-priority question in this replication file
+12 HU06,8 Hungary,2006,True,1033,0,0,No respondent issue-priority question in this replication file
+13 IN99,9 Indonesia,1999,False,2488,0,0,No respondent issue-priority question in this replication file
+14 IN04,9 Indonesia,2004,False,1194,0,0,No respondent issue-priority question in this replication file
+15 IN09,9 Indonesia,2009,False,1980,1324,0,No respondent issue-priority question in this replication file
+16 IT96,10 Italy,1996,False,2502,0,0,No respondent issue-priority question in this replication file
+17 IT06,10 Italy,2006,True,2005,0,0,No respondent issue-priority question in this replication file
+19 MX06,12 Mexico,2006,False,2620,0,0,No respondent issue-priority question in this replication file
+20 MZ04,13 Mozambique,2004,False,1214,0,0,No respondent issue-priority question in this replication file
+21 PT05,14 Portugal,2005,True,2801,0,0,No respondent issue-priority question in this replication file
+22 SA04,15 South Africa,2004,False,1200,0,0,No respondent issue-priority question in this replication file
+23 SA09,15 South Africa,2009,False,1200,895,0,No respondent issue-priority question in this replication file
+24 SP93,16 Spain,1993,False,1448,0,0,No respondent issue-priority question in this replication file
+25 SP04,16 Spain,2004,True,2929,0,0,No respondent issue-priority question in this replication file
+26 TW04,17 Taiwan,2004,False,1252,0,0,No respondent issue-priority question in this replication file
+27 GB92,18 Great Britain,1992,False,3534,0,0,No respondent issue-priority question in this replication file
+28 US92,19 United States,1992,False,1323,0,0,No respondent issue-priority question in this replication file
+29 US04,19 United States,2004,False,1816,0,0,No respondent issue-priority question in this replication file
+30 UR94,20 Uruguay,1994,False,1005,0,0,No respondent issue-priority question in this replication file
+31 UR04,20 Uruguay,2004,False,929,0,0,No respondent issue-priority question in this replication file
+32 DR10,21 Dominican Republic,2010,False,1467,0,0,No respondent issue-priority question in this replication file
+33 MX12,12 Mexico,2012,False,1600,1168,0,No respondent issue-priority question in this replication file
+34 US12,19 United States,2012,False,1289,0,0,No respondent issue-priority question in this replication file
+35 IT13,10 Italy,2013,True,1508,0,0,No respondent issue-priority question in this replication file
+36 KE13,22 Kenya,2013,False,1200,0,0,No respondent issue-priority question in this replication file
+37 CO14,23 Colombia,2014,False,1102,528,0,No respondent issue-priority question in this replication file
+38 IN14,9 Indonesia,2014,False,1737,1254,0,No respondent issue-priority question in this replication file
+39 SA14,15 South Africa,2014,False,1300,754,0,No respondent issue-priority question in this replication file
+40 TR14,24 Turkey,2014,True,1173,837,0,No respondent issue-priority question in this replication file
+42 GR15,6 Greece,2015,True,1008,721,0,No respondent issue-priority question in this replication file
+43 PT15,14 Portugal,2015,True,1499,0,0,No respondent issue-priority question in this replication file
+44 SP15,16 Spain,2015,True,2411,0,0,No respondent issue-priority question in this replication file
+45 TW16,17 Taiwan,2016,False,1000,748,0,No respondent issue-priority question in this replication file
+46 IR16,25 Iran,2016,False,1203,432,0,No respondent issue-priority question in this replication file
+47 RU16,26 Russia,2016,True,1602,819,0,No respondent issue-priority question in this replication file
+48 SP11,16 Spain,2011,True,6082,4079,0,No respondent issue-priority question in this replication file
+49 US16,19 United States,2016,False,1600,1221,0,No respondent issue-priority question in this replication file
+50 FR17,27 France,2017,True,2000,1341,0,No respondent issue-priority question in this replication file
+51 GB17,18 Great Britain,2017,True,2000,1725,0,No respondent issue-priority question in this replication file
+52 GE17,5 Germany,2017,True,3236,2530,0,No respondent issue-priority question in this replication file
+53 CL17,3 Chile,2017,False,1625,740,0,No respondent issue-priority question in this replication file
+54 CO18,23 Colombia,2018,False,1118,684,0,No respondent issue-priority question in this replication file
+55 IT18,10 Italy,2018,True,3005,2038,0,No respondent issue-priority question in this replication file
+56 MX18,12 Mexico,2018,False,1428,1006,0,No respondent issue-priority question in this replication file
+57 UK19,28 Ukraine,2019,True,2001,0,0,No respondent issue-priority question in this replication file
+58 SA19,15 South Africa,2019,False,1625,737,0,No respondent issue-priority question in this replication file
+59 US20,19 United States,2020,False,2000,1661,0,No respondent issue-priority question in this replication file
+60 IN19,9 Indonesia,2019,False,1078,792,0,No respondent issue-priority question in this replication file

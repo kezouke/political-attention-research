@@ -1,0 +1,540 @@
+variable,label
+A_A_Country,Country of Respondent
+A_A_CountryYear,Country and Year of Survey
+A_A_IDCountry,Respondent ID Number Assigned by Country Team
+A_A_WtCombined,
+A_EconSit,Satisfaction with national economic situation at time of election
+A_GovPerf,Satisfaction with government performance
+A_PolitSit_F,National Political Situation
+A_RespSit,Satisfaction with respondent economic situation at time of election
+B_DemAuth,Support for democracy
+B_DemAuth2,"Support for democracy, irrelevant in middle"
+B_DemBest_F,Democracy is the Best System for country
+B_DemExtent,Extent of democracy
+B_DemMeanCrit,Freedom to criticize government
+B_DemMeanElec,Free and fair elections
+B_DemMeanGap,Smaller income gap
+B_DemMeanJobs,Jobs for everyone
+B_DemMeanMedia,Free and uncensored media
+B_DemMeanMinorities,Protecting the rights of minorities
+B_DemSat,Satisfaction with democracy
+B_DontCare,Politicians don't care
+B_DontCare2,Politicians don't care trichotomy
+B_MediaExtent,How free are media
+B_MilRule,Favors military rule
+B_NoInflu_F,No influence on government
+B_NoInflu2_F,No influence on government trichotomy
+B_OfficialsListen,Officials listen to demands for change
+B_OnePartyRule,Favors one party rule
+B_PolCompl,Politics too complicated
+B_PolCompl2,Politics too complicated trichotomy
+B_PoliticalDecisions,"Political decisions without Congress,media,courts"
+B_PoliticalOpponents,Politics is fight between friends and enemies of the people
+B_PolsDefendRich,Politicians defend interests of the rich
+B_PresDict,Favors presidential dictatorship
+B_ReligRule,Favors religious leaders rule
+B_TrustGov,Trust the government to do what is right
+B_TrustMedia,Trust the media
+C_LRGov1,Largest governing party left or right placement
+C_LRGov2,2nd largest governing party left or right placement
+C_LRGov3,3rd largest governing party left or right placement
+C_LRGov4,4th largest governing party left or right placement
+C_LRGov5,5th largest governing party left or right placement
+C_LRGov6,6th largest governing party left or right placement
+C_LROpp1,Largest opposition party left or right placement
+C_LROpp2,2nd largest opposition party left or right placement
+C_LROpp3,3rd largest opposition party left or right placement
+C_LROpp4,4th largest opposition party left or right placement
+C_LROpp5,Fifth largest opposition party left or right placement
+C_LROpp6,6th largest opposition party left or right placement
+C_LROpp7,7th largest opposition party left or right placement
+C_LROppNew1,Largest opposition party without legislative seats left or right placement
+C_LROppNew2,2nd largest opposition party without legislative seats left or right placement
+C_LROppNew3,3rd largest opposition party without legislative seats left or right placement
+C_LROppNew4,4th largest opposition party without legislative seats left or right placement
+C_LROppNew5,5th largest opposition party without legislative seats left or right placement
+C_LROppOther,All opposition parties with less than 1% of the vote left or right placement
+C_LRSelf,R left or right self placement
+C_PartyID,Party Identification
+C_PartyIDStrength,Strength of party identification
+C_PartyIDWhich,Party R identifies with
+C_ProxGov1_F,Closeness to largest governing party
+C_ProxGov2_F,Closeness to 2nd largest governing party
+C_ProxGov3_F,Closeness to 3rd largest governing party
+C_ProxGov4_F,Closeness to 4th largest governing party
+C_ProxGov5_F,Closeness to 5th largest governing party
+C_ProxGov6_F,Closeness to 6th largest governing party
+C_ProxOpp1_F,Closeness to largest opposition party
+C_ProxOpp2_F,Closeness to 2nd largest opposition party
+C_ProxOpp3_F,Closeness to 3rd largest opposition party
+C_ProxOpp4_F,Closeness to 4th largest opposition party
+C_ProxOpp5_F,Closeness to 5th largest opposition party
+C_ProxOpp6_F,Closeness to 6th largest opposition party
+C_ProxOpp7_F,Closeness to 7th largest opposition party
+C_ProxOppNew1_F,Closeness to largest opposition party without legislative seats
+C_ProxOppNew2_F,Closeness to 2nd largest opposition party without legislative seats
+C_ProxOppOther_F,Closeness to opposition partywith <1% of vote
+C_ThermGov1Leader,Favorability: Leader of largest governing party
+C_ThermGov1LeaderB,Favorability: 2nd leader of largest governing party
+C_ThermGov2Leader,Favorability: Leader of 2nd largest governing party
+C_ThermGov3Leader,Favorability: Leader of 3rd largest governing party
+C_ThermGov4Leader,Favorability: Leader of 4th largest governing party
+C_ThermGov5Leader,Favorability: Leader of 5th largest governing party
+C_ThermGov6Leader,Favorability: Leader of 6th largest governing party
+C_ThermOpp1Leader,Favorability: Leader of largest opposition party
+C_ThermOpp1LeaderB,Favorability: 2nd leader of largest opposition party
+C_ThermOpp2Leader,Favorability: Leader of 2nd largest opposition party
+C_ThermOpp3Leader,Favorability: Leader of third largest opposition party
+C_ThermOpp4Leader,Favorability: Leader of 4th largest opposition party
+C_ThermOpp5Leader,Favorability: Leader of fifth largest opposition party
+C_ThermOpp6Leader,Favorability: Leader of 6th largest opposition party
+C_ThermOpp7Leader,Favorability: Leader of 7th largest opposition party
+C_ThermOppNew1Leader,Favorability: Leader of largest opposition party without legislative seats
+C_ThermOppNew1LeaderB,Favorability: Second leader of largest opposition party without legislative seat
+C_ThermOppNew2Leader,Favorability: Leader of 2nd largest opposition party without legislative seats
+C_ThermOppNew3Leader,Favorability: Leader of 3rd largest opposition party without legislative seats
+C_ThermOppNew4Leader,Favorability: Leader of 4th largest opposition party without legislative seats
+C_ThermOppNew5Leader,Favorability: Leader of 5th largest opposition party without legislative seats
+C_ThermOppOtherLeader,Favorability: Leader of largest opposition party with <1% of vote
+D_CamInternet,Campaign news via Internet
+D_CamPaper,Campaign news via newspapers
+D_CamRadio,Campaign news via Radio
+D_CamTV,Campaign news via TV
+D_InterBias,Internet sources favored
+D_InterFriends,People known personally
+D_InterFriends1,People known personally dichotomized
+D_InterFriendsFreq_F,People known personally
+D_InterInfo,Non-party/candidate sources
+D_InterInfo_F,Political information sites [dichotomous version]
+D_Internet,Campaign info via computer or mobile
+D_InternetFreq_F,Campaign news via Internet
+D_InterNews,News media outlets
+D_InterNews_F,News media outlets
+D_InterNewsFreq_F,News media outlets
+D_InterOther,Other people
+D_InterOtherFreq_F,Other people
+D_InterPart,Internet partial to
+D_InterParty,Party or candidate sources
+D_InterParty_F,Party websites
+D_InterPartyFreq_F,Party or candidate sources
+D_InterShare,Shared own thoughts or opinions
+D_InterShare1,Shared own thoughts or opinions dichotomized
+D_InterShareFreq_F,Shared own thoughts or opinions
+D_MediaAgre,# media supporting your party
+D_Pap1Bias,Newspaper 1 biased
+D_Pap1Freq_F,Newspaper1 frequency
+D_Pap1Part,Newspaper 1 partial to
+D_Pap2Bias_F,Newspaper 2 biased
+D_Pap2Freq_F,Newspaper2 frequency
+D_Pap2Part_F,Newspaper 2 partial to
+D_PapAtent_F,Overall attention to campaign news in newspapers
+D_Paper1_F,Newspaper 1 name
+D_Platform,Which E-platform
+D_Rad1Bias,Radio 1 biased
+D_Rad1Freq_F,Frequency Radio 1
+D_Rad1Part,Radio 1 partial to
+D_Rad2Bias_F,Radio 2 biased
+D_Rad2Freq_F,Frequency Radio 2
+D_Rad2Part_F,Radio 2 partial to
+D_RadAtent_F,Attention to radio campaign
+D_TV1Bias,TV 1 biased
+D_TV1Freq_F,Frequency TV 1
+D_TV1Net_F,Network of TV1
+D_TV1Part,TV1 partial to
+D_TV2Bias_F,Broadcast 2 biased
+D_TV2Freq_F,TV2 frequency
+D_TV2Net_F,Network of TV2
+D_TV2Part_F,TV2 partial to
+D_TVAtent_F,Attention to Television campaign
+D_TVDebateWin_F,Best candidate in debates
+E_ComLeaderAdvise2,"Community leader, type advises support for specific party"
+E_ComLeaderAdvise1_F,"Community leader, advise support for specific party"
+E_ComLeaderPart,"Community leader, which party favors"
+E_Disc1,"Discussant 1, identity"
+E_Disc2,"Discussant 2, identity"
+E_Disc1Agre_F,"Discussion agreement, Discussant 1"
+E_Disc1Freq,"Frequency campaign discussion, Discussant 1"
+E_Disc1Know_F,"How well informed, Discussant 1"
+E_Disc1Part,"Party Support, Discussant 1"
+E_Disc2Agre_F,"Discussion agreement, Discussant 2"
+E_Disc2Freq,"Frequency campaign discussion, Discussant 2"
+E_Disc2Know_F,"How well informed, Discussant 2"
+E_Disc2Part,"Party Support, Discussant 2"
+E_DiscAgree,Discussants share party preference
+E_DiscAgree_F,Discussants share party preference
+E_DiscNumber,Number of discussants
+E_FamAgre_F,Normally agrees with family
+E_FamTalk,"Frequency campaign discussion, family"
+E_FamTalkPart,"Perceived party support, family"
+E_FriendAgre_F,Normally agrees with friends
+E_FriendTalk,"Frequency campaign discussion, friends"
+E_FriendTalkPart,"Perceived party support, friends"
+E_NeighAgre_F,Normally agrees with neighbors
+E_NeighTalk,"Frequency campaign discussion, neighbors"
+E_NeighTalkPart,"Perceived party support, neighbors"
+E_PolTalkYouth_F,Frequency of political discussion in youth
+E_SpouAgre_F,"Discussion agreement, spouse"
+E_SpouAgre2_F,"Discussion agreement, spouse [single excluded]"
+E_SpouKnow_F,"How well informed, spouse"
+E_SpouKnow2_F,"How well informed, spouse [single excluded]"
+E_SpouTalk,"Frequency campaign discussion, spouse"
+E_SpouTalk2,"Frequency campaign discussion, spouse only if partner"
+E_SpouVote,"Party Support, Spouse"
+E_SpouVote2,"Party Support, Spouse only if partner"
+E_WorkAgre_F,Normally agrees with co-workers
+E_WorkTalk,"Frequency campaign discussion, co-workers"
+E_WorkTalk2,"Frequency campaign discussion, co-workers (for L.WorkStat workers only)"
+E_WorkTalkPart,"Perceived party support, co-workers"
+E_WorkTalkPart2,"Perceived party support, co-workers for L.WorkStat workers only"
+F_Aso1,Most Important organization
+F_Aso2,2nd most Important organization
+F_Aso3,3rd most Important organization
+F_Aso1_2,Organizations contacting
+F_Aso1Cont,Received campaign news from group 1
+F_Aso1ContHow,How campaign news received from group
+F_Aso1Freq,"Frequency of participation, group 1"
+F_Aso1Know2_F,"Direct contact, Group 1, if contacted."
+F_Aso1Media_F,Information via media
+F_Aso1Part,Which party group 1 supported
+F_Aso2Cont,Received campaign news from group 2
+F_Aso2ContHow,How campaign news received from group
+F_Aso2Freq,"Frequency of participation, group 2"
+F_Aso2Know2_F,"Direct contact, Group 2, if contacted."
+F_Aso2Media_F,Information via media
+F_Aso2Part,Which party group 2 supported
+F_Aso3Cont,Received campaign news from group 3
+F_Aso3ContHow,How campaign news received from group
+F_Aso3Freq,"Frequency of participation, group 3"
+F_Aso3Know2_F,"Direct contact, Group 3 if contacted."
+F_Aso3Media_F,Information via media
+F_Aso3Part,Which party group 3 supported
+F_AsoCharity,"Member, Charitable organization"
+F_AsoComm,"Member, Community organization [neighborhood, parent]"
+F_AsoFrat,"Member, Fraternal organization [fraternal, veterans, ethnic]"
+F_AsoMove,"Member, Social movement [environmental, feminist, peace]"
+F_AsoOther,"Member, Other type of group"
+F_AsoParty,"Member, Political party or group"
+F_AsoProf,"Member, Professional, business or farmer organization"
+F_AsoRelig,"Member, Religious group"
+F_AsoSocial,"Member, Social organization [sport, youth, cultural]"
+F_AsoTU,"Member, Trade union"
+H_CamMoney_F,Contributed money to party
+H_CamPersuade,Tried to persuade other
+H_CamPersuade2,Tried to persuade other [dichotomous version]
+H_CamWork,Worked for party
+H_CamWork_F,Worked for party
+H_Decide,When decided
+H_Informed,Interviewer's assessment of R's level of political knowledge
+H_InfoTest,Number of correct answers to 3 to 11 Infotest items
+H_Interest,Interest in politics
+H_InterestCam_F,Interest in 2012 campaign
+H_OnlineProtest,Online support for protest
+H_Protest,Took part in protest
+H_Protest_F,Took part in protest
+H_Turnout,Voted in most recent general election
+H_VoteWhichPrevious,Party voted for in previous general election
+H_VoteWhichRecent,Party voted for in most recent general election
+I_Gov1Contact_F,Gov1 Contact
+I_Gov1ContactOther,"Gov1, Other contact"
+I_Gov1ContactPers,"Gov1, contact in person"
+I_Gov2Contact_F,Gov2 Contact
+I_Gov2ContactOther,"Gov2, Other contact"
+I_Gov2ContactPers,"Gov2, contact in person"
+I_Gov3Contact_F,Gov3 Contact
+I_Gov3ContactOther,"Gov3, Other contact"
+I_Gov3ContactPers,"Gov3, contact in person"
+I_Gov4Contact_F,Gov4 Contact
+I_Gov4ContactOther,"Gov4, Other contact"
+I_Gov4ContactPers,"Gov4, contact in person"
+I_Gov5Contact_F,Gov5 Contact
+I_Gov5ContactOther,"Gov5, Other contact"
+I_Gov5ContactPers,"Gov5, contact in person"
+I_Gov6Contact_F,Gov6 Contact
+I_Gov6ContactOther,"Gov6, Other contact"
+I_Gov6ContactPers,"Gov6, contact in person"
+I_MeetAny,Attended party meetings
+I_MeetGov1,Attended Gov1 party meeting
+I_MeetGov2,Attended Gov2 party meeting
+I_MeetGov3,Attended Gov3 party meeting
+I_MeetGov4,Attended Gov4 party meeting
+I_MeetGov5,Attended Gov5 party meeting
+I_MeetGov6,Attended Gov6 party meeting
+I_MeetOpp1,Attended Opp1 party meeting
+I_MeetOpp2,Attended Opp2 party meeting
+I_MeetOpp3,Attended Opp3 party meeting
+I_MeetOpp4,Attended Opp4 party meeting
+I_MeetOpp5,Attended Opp5 party meeting
+I_MeetOpp6,Attended Opp6 party meeting
+I_MeetOpp7,Attended Opp7 party meeting
+I_MeetOppNew1,Attended OppNew1 party meeting
+I_MeetOppNew2,Attended OppNew2 party meeting
+I_MeetOppNew3,Attended OppNew3 party meeting
+I_MeetOppNew4,Attended OppNew4 party meeting
+I_MeetOppNew5,Attended OppNew5 party meeting
+I_MeetOppOther,Attended OppOther party meeting
+I_Opp1Contact_F,Opp1 Contact
+I_Opp1ContactOther,"Opp1, Other contact"
+I_Opp1ContactPers,"Opp1, contact in person"
+I_Opp2Contact_F,Opp2 Contact
+I_Opp2ContactOther,"Opp2, Other contact"
+I_Opp2ContactPers,"Opp2, contact in person"
+I_Opp3Contact_F,Opp3 Contact
+I_Opp3ContactOther,"Opp3, Other contact"
+I_Opp3ContactPers,"Opp3, contact in person"
+I_Opp4Contact_F,Opp4 Contact
+I_Opp4ContactOther,"Opp4, Other contact"
+I_Opp4ContactPers,"Opp4, contact in person"
+I_Opp5Contact_F,Opp5 Contact
+I_Opp5ContactOther,"Opp5, other contact"
+I_Opp5ContactPers,"Opp5, contact in person"
+I_Opp6Contact_F,Opp6 Contact
+I_Opp6ContactOther,"Opp6, other contact"
+I_Opp6ContactPers,"Opp6, contact in person"
+I_Opp7Contact_F,Opp7 Contact
+I_Opp7ContactOther,"Opp7, other contact"
+I_Opp7ContactPers,"Opp7, contact in person"
+I_OppNew1Contact_F,OppNew1 Contact
+I_OppNew1ContactOther,"OppNew1, other contact"
+I_OppNew1ContactPers,"OppNew1, contact in person"
+I_OppNew2Contact_F,OppNew2 Contact
+I_OppNew2ContactOther,"OppNew2, other contact"
+I_OppNew2ContactPers,"OppNew2, contact in person"
+I_OppNew3Contact_F,OppNew3 Contact
+I_OppNew3ContactOther,"OppNew3, other contact"
+I_OppNew3ContactPers,"OppNew3, contact in person"
+I_OppNew4Contact_F,OppNew4 Contact
+I_OppNew4ContactOther,"OppNew4, other contact"
+I_OppNew4ContactPers,"OppNew4, contact in person"
+I_OppNew5Contact_F,OppNew5 Contact
+I_OppNew5ContactOther,"OppNew5, other contact"
+I_OppNew5ContactPers,"OppNew5, contact in person"
+I_OppOtherContact_F,OppOther Contact
+I_OppOtherContactOther,"OppOther, Other contact"
+I_OppOtherContactPers,"OppOther, contact in person"
+I_PartyContact,Contacted by Party
+J_Abortion_F,Opposition to abortion vs. support for abortion
+J_Climate,Support for govt action on climate vs. climate not a problem
+J_Community_F,Support for individualism vs. communitarianism
+J_Compete_F,Support for competition at work vs. maintaining good relations
+J_Compromise,Agree that parties must compromise
+J_Conflict,Support for avoiding conflict vs. acceptance of conflict
+J_Customs,Support for assimilation vs. ethnic distinctiveness
+J_EcoGrow,Support for economic growth vs. environmental protection
+J_EcoGrow_F,Support for economic growth vs. environmental protection
+J_EqualInd,Support for economic incentives vs. equal distribution of wealth
+J_GovParent_F,Support for state paternalism vs. popular control of government
+J_GovWellBeing_F,Support for individual responsibility for social well-being vs. government respo
+J_Immigrants,Immigrants welcome vs. Deport immigrants
+J_MajorityRule,Agree that Government must follow the law
+J_OrderLib,Support for law and order vs. civil liberties
+J_OurWay,Opposition to foreign influence vs. openness to foreign influence
+J_Particip,Support for decision making by experts vs. participatory decision making
+J_Particip_F,Support for quick and informed decision making vs. participatory decision making
+J_PrivPub2,Support for privatization vs. public enterprises
+J_PrivPub_F,Support for privatization vs. public enterprises
+J_ReligLaw,Support for religiously based law vs. secular law
+J_ReligLib_F,Support Suppport for religious based laws vs. freedom of individuals to bellieve
+J_ServTax,Support for reduced taxes vs. increased government assistance
+J_SexRole,Support for separate roles vs. men and women share
+J_TimeResolves_F,Support for letting time resolve problems vs. confronting problems
+J_Trade,Support for trade limits vs. trade makes prosperous
+K_BribeVote1_F,Offered bribe to vote for specific party
+K_BuyVote2,Offered bribe to vote for specific party
+K_Disrupt_F,Acceptability of disrupting least liked party
+K_ElectsFF,Freeness and fairness of elections
+K_PressVote1_F,Pressured to vote for a specific party
+K_PrevList2,Voting prevented because not on list
+K_PrevList1_F,Voting prevented because not on list
+K_PrevMeet2,Campaign event attendance prevented
+K_PrevMeet1_F,Campaign event attendance prevented
+K_PrevReg1_F,Prevented from registering
+K_PrevVote2,Voting prevented due to intimidation
+K_PrevVote1_F,Voting prevented due to intimidation
+K_Violence_F,Acceptability of using violence to prevent least liked party from coming to powe
+L_Age,
+L_Alone,Respondent alone during interview
+L_Education,Highest level of education
+L_Ethnicity,Race or ethnicity
+L_Gender,Gender
+L_Househead,IS R main earner in household
+L_Housing,Housing
+L_Income,Household Income (Adjusted for PPP 2005 US $)
+L_Income2,Household Income (MD imputed as country mean)
+L_Language,
+L_Married,Marital status
+L_Neighborhood_F,Neighborhood type
+L_Occupation,Main occupation
+L_OccupationHH,Household head main occupation
+L_ReligFreq,Religiosity
+L_ReligHowMuch,Religiousness
+L_Religion,Religious affiliation
+L_Rural,Place of residence
+L_SubjClass,Subjective class ID
+L_SuperMany_F,Supervisor
+L_Supervise_F,Supervisor
+L_TimeCity_F,Time spent in this area
+L_WorkPrivPub,Main sector
+L_WorkPrivPubHH,"Private or public agency, main earner in household (if not R)"
+L_WorkSector_F,Main sector
+L_WorkSectorHH_F,Main sector
+L_WorkStat,Work status
+L_WorkStatHH,Work status
+L_WTACROSS,Weight to set all countries to 1200
+L_WtCombined,
+L_WtWithin,WithinWeight with missing data
+N_NatID,Primary Group Identity
+N_NatID2,Secondary Group Identity
+N_StatePref,Secondary Group Identity
+filter__,A.A.CountryYear = 60 (FILTER)
+rC_ThermGov1Leader,"Gov1 Thermo, no MD"
+rC_ThermGov1LeaderB,"Gov1B Thermo, no MD"
+rC_ThermGov2Leader,"Gov2 Thermo, no MD"
+rC_ThermGov3Leader,"Gov3 Thermo, no MD"
+rC_ThermGov4Leader,"Gov4 Thermo, no MD"
+rC_ThermGov5Leader,"Gov5 Thermo, no MD"
+rC_ThermGov6Leader,"Gov6 Thermo, no MD"
+rC_ThermOpp1Leader,"Opp1 Thermo, no MD"
+rC_ThermOpp1LeaderB,"Opp1B Thermo, no MD"
+rC_ThermOpp2Leader,"Opp2 Thermo, no MD"
+rC_ThermOpp3Leader,"Opp3 Thermo, no MD"
+rC_ThermOpp4Leader,"Opp4 Thermo, no MD"
+rC_ThermOpp5Leader,"Opp5 Thermo, no MD"
+rC_ThermOpp6Leader,"Opp6 Thermo, no MD"
+rC_ThermOpp7Leader,"Opp7 Thermo, no MD"
+rC_ThermOppNew1Leader,"OppNew1 Thermo, no MD"
+rC_ThermOppNew2Leader,"OppNew2 Thermo, no MD"
+rC_ThermOppNew3Leader,"OppNew3 Thermo, no MD"
+rC_ThermOppNew4Leader,"OppNew4 Thermo, no MD"
+rC_ThermOppNew5Leader,"OppNew5 Thermo, no MD"
+rC_ThermOppOtherLeader,"OppOther Thermo, no MD"
+rC_TopPartyLeaderTherm,Top Vote-getting Party Leader Evaluation
+rC_2ndPartyLeaderTherm,2nd Vote-getting Party Leader Evaluation
+rC_3rdPartyLeaderTherm,3rd Vote-getting Party Leader Evaluation
+rC_Top2LeadersThermDiff,Difference bet 2 top vote-getting party leaders
+rC_ABSTop2LeadersThermDiff,Absolute difference bet 2 top vote-getting party leaders
+rC_ABSTop2leadersThermDiff3,"Absolute difference bet top vote-getting party leaders, trichot"
+rC_1vs3LeadersThermDiff,Difference bet 1st and 3rd top vote-getting party leaders
+rC_ABS1vs3LeadersThermDiff,Absolute difference bet 1st and 3rd top vote-getting party leaders
+rC_ABS1vs3LeadersThermDiff3,"Absolute difference bet 1st and 3rd top vote-getting party leaders, trichot"
+rE_Disc1Part,Disc1 Party
+rE_Disc2Part,Disc2 Party
+rH_Vote,Vote preference in recent election
+rE_Disc1PartyAgre,Vote Agreement with Discussant 1
+r2E_Disc1PartyAgre,"Vote Agreement with Discussant, no disc and no vote in middle"
+rE_Disc2PartyAgre,Vote Agreement with Discussant 2
+r2E_Disc2PartyAgre,"Vote Agreement with Discussant, no disc and no vote in middle"
+rL_Education4,Education in 4 categories
+rC_LRSelf,Ideology
+r2C_LRSelf,Ideology without MD
+rC_PartyIDStrength4,PID Strength in 4 categories
+r2C_PartyIDStrength5,PID Strength in 5 categories
+rD_Pap1Gov1Gov2,"Paper 1 Gov1, Gov2 combinations ignoring other parties"
+rD_Pap1Gov1Gov3,"Paper 1 Gov1, Gov3 combinations ignoring other parties"
+rD_Pap1Gov1Opp1,"Paper 1 Gov1, Opp1 combinations ignoring other parties"
+rD_Pap1Gov1Opp2,"Paper 1 Gov1, Opp2 combinations ignoring other parties"
+rD_Pap1Gov1Opp4,"Paper 1 Gov1, Opp4 combinations ignoring other parties"
+rD_Pap1Gov1OppNew1,"Paper 1 Gov1, OppNew1 combinations ignoring other parties"
+rD_Pap1Gov2Opp1,"Paper 1 Gov2, Opp1 combinations ignoring other parties"
+rD_Pap1Opp1Opp2,"Paper 1 Opp1, Opp2 combinations ignoring other parties"
+rD_Pap1Opp1Opp3,"Paper 1 Opp1, Opp3 combinations ignoring other parties"
+rD_Pap1Opp1OppNew1,"Paper 1 Opp1, OppNew1 combinations ignoring other parties"
+rD_Pap1Opp2OppNew1,"Paper 1 Opp2, OppNew1 combinations ignoring other parties"
+rD_Pap1Opp5OppNew1,"Paper 1 Opp5, OppNew1 combinations ignoring other parties"
+rD_Pap1Gov1OppOther,"Paper 1 Gov1, OppOther combinations ignoring other parties"
+rD_Pap1OppNew1OppNew2,"Paper 1 OppNew1, OppNew2 combinations ignoring other parties"
+rD_Pap1Part,Paper 1 party combinations
+rD_Pap1PartAgre,Vote Agreement with Paper 1
+rD_TV1Gov1Gov2,"TV1 Gov1, Gov2 combinations ignoring other parties"
+rD_TV1Gov1Gov3,"TV1 Gov1, Gov3 combinations ignoring other parties"
+rD_TV1Gov1Opp1,"TV1 Gov1, Opp1 combinations ignoring other parties"
+rD_TV1Gov1Opp2,"TV1 Gov1, Opp2 combinations ignoring other parties"
+rD_TV1Gov1Opp4,"TV1 Gov1, Opp4 combinations ignoring other parties"
+rD_TV1Gov1OppNew1,"TV1 Gov1, OppNew1 combinations ignoring other parties"
+rD_TV1Gov2Opp1,"TV1 Gov2, Opp1 combinations ignoring other parties"
+rD_TV1Opp1Opp2,"TV1 Opp1, Opp2 combinations ignoring other parties"
+rD_TV1Opp1Opp3,"TV1 Opp1, Opp3 combinations ignoring other parties"
+rD_TV1Opp1OppNew1,"TV1 Opp1, OppNew1 combinations ignoring other parties"
+rD_TV1Opp2OppNew1,"TV1 Opp2, OppNew1 combinations ignoring other parties"
+rD_TV1Opp5OppNew1,"TV1 Opp5, OppNew1 combinations ignoring other parties"
+rD_TV1Gov1OppOther,"TV1 Gov1, OppOther combinations ignoring other parties"
+rD_TV1OppNew1OppNew2,"TV1 OppNew1, OppNew2 combinations ignoring other parties"
+rD_TV1Part,TV1 party combinations
+rD_TV1PartAgre,Vote Agreement with TV 1
+rD_Pap1AgreeDummy,R and Paper1 favor same party
+rD_Pap1DisagreeDummy,R and Paper1 favor different parties
+rD_TV1AgreeDummy,R and TV 1 favor same party
+rD_TV1DisagreeDummy,R and TV1 favor different parties
+r2H_Vote,"Vote preference in recent election, non-voters as MD"
+rE_Disc1,Disc1 relation in 4 categories
+rE_Disc2,Disc2 relation in 4 categories
+rE_Disc1Freq,Discussed campaign with discussant 1
+rE_Disc2Freq,Discussed campaign with discussant 2
+rE_FamTalk,Family talk dichotomized
+rE_FriendTalk,Friend talk dichotomized
+rE_NeighTalk,Neighbor talk dichotomized
+rE_WorkTalk,Co-worker talk dichotomized
+rE_SpouTalk,Spouse talk dichotomized
+rE_DiscNumber,Discussant number collapsed
+rE_SpouVote2,Spouse vote with French corrections
+rE_SpouPartyAgre,Vote agreement with spouse
+rDisc12Agree,"number of agree, disagree with Disc1 and Disc2"
+r2Disc12Agree,Disc12 agreement
+rSpDisc12agree,"Spou, Disc12 agreement"
+r2E_DiscNumber,discussant number in 8 categories
+rE_FamTalkPart,Party favored by family
+rE_FriendTalkPart,Party favored by friends
+rE_NeighTalkPart,Party favored by neighbors
+rE_WorkTalkPart2,Party favored by co-workers
+rE_WorkTalkPart,Party favored by co-workers
+r3E_DiscNumber,discussant number in 6 categories
+rE_FamTalkPartSame,Party favored by family
+rE_FriendTalkPartSame,Party favored by friends
+rE_NeighTalkPartSame,Party favored by neighbors
+rE_WorkTalkPartSame,Party favored by co-workers
+rDisc1Relation1,Disc1 Family dummy
+rDisc2Relation1,Disc2 Family dummy
+rDisc1Relation2,Disc1 Friend dummy
+rDisc2Relation2,Disc2 Friend dummy
+r2MDDisc12Agree,r2Disc12Agree with MD excluded
+rE_MDSpouPartyAgre,rE.SpouPartyAgre with MD excluded
+r2E_MDDisc1PartyAgre,r2E.Disc1PartyAgre with MD excluded
+r2E_MDDisc2PartyAgre,r2E.Disc2PartyAgre with MD excluded
+rH_InterestCam,Recoded to match codes in Interest
+rH_Interest,H.Interest + rH.InterestCam where missing
+r2E_Disc1Freq,"Disc1 discussion frequency; DK, no Disc1=0"
+r2E_Disc2Freq,"Disc2 discussion frequency; DK, no Disc2=0"
+r2D_Pap1PartAgre,"Vote agreement with paper 1, mixed as disagree"
+r2D_Pap1AgreeDummy,R and Paper1 favor same party
+r2D_Pap1DisagreeDummy,R and Paper1 favor different parties
+r2D_TV1PartAgre,"Vote agreement with TV1, mixed as disagree"
+r2D_TV1AgreeDummy,R and TV1 favor same party
+r2D_TV1DisagreeDummy,R and TV1 favor different parties
+rMDDisc12Agree,"number of agree, disagree with Disc1 and Disc2, MD out"
+r3MDDisc12Agree,"agree & disagree, MD out & agree and disagree with disagree"
+rE_SpouTalk2,E.Spou Talk2 with no spouse as MD
+rD_CamInternet,D.CamInternet plus in 2 surveys with D.Internet substitutes
+rD_InterFriends,"Friend Internet messages, collapsed categories"
+rD_InterOther,"Other people's Internet messages, collapsed categories"
+rD_InterShare,"Shared own Internet thoughts, collapsed categories"
+r2E_FamTalkPart,Party supported by family
+r2E_FriendTalkPart,Party supported by friends
+r2E_NeighTalkPart,Party supported by neighbors
+r2E_WorkTalkPart,Party supported by co-workers
+rD_InterGov1Gov2,"Inter Gov1, Gov2 combinations ignoring other parties"
+rD_InterGov1Gov3,"Inter Gov1, Gov3 combinations ignoring other parties"
+rD_InterGov1Opp1,"Inter Gov1, Opp1 combinations ignoring other parties"
+rD_InterGov1Opp2,"Inter Gov1, Opp2 combinations ignoring other parties"
+rD_InterGov1Opp4,"Inter Gov1, Opp4 combinations ignoring other parties"
+rD_InterGov1OppNew1,"Inter Gov1, OppNew1 combinations ignoring other parties"
+rD_InterGov2Opp1,"Inter Gov2, Opp1 combinations ignoring other parties"
+rD_InterOpp1Opp2,"Inter Opp1, Opp2 combinations ignoring other parties"
+rD_InterOpp1Opp3,"Inter Opp1, Opp3 combinations ignoring other parties"
+rD_InterOpp1OppNew1,"Inter Opp1, OppNew1 combinations ignoring other parties"
+rD_InterOpp2OppNew1,"Inter Opp2, OppNew1 combinations ignoring other parties"
+rD_InterOpp5OppNew1,"Inter Opp5, OppNew1 combinations ignoring other parties"
+rD_InterGov1OppOther,"Inter Gov1, OppOther combinations ignoring other parties"
+rD_InterOppNew1OppNew2,"Inter OppNew1, OppNew2 combinations ignoring other parties"
+rD_InterPart,Internet party combinations
+rD_InterPartAgre,Vote Agreement with Internet party
+rD_InterPartAgreeDummy,R and Internet favor same party
+rD_InterPartDisagreeDummy,R and Internet do not favor same party

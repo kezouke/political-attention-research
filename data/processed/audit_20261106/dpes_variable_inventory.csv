@@ -1,0 +1,1766 @@
+year,variable,label
+2006,STUDY,NIWI study identification
+2006,RNR,Respondent identication number
+2006,VERSION,Date of making this file by CBS-Netherlands
+2006,V001,"Type of interview record I, first wave"
+2006,V002,"Type of interview record I, second wave"
+2006,V003,"Type of interview record I, drop off"
+2006,V004,Type of interview record II
+2006,V005,Month of interview: first wave
+2006,V006,Month of interview: second wave
+2006,WGT1,"Weight I: age, gender, marital status, urbanization, region, ethnicity  (CAPI wave 1)"
+2006,WGT1B,Weight I with a multiplication factor to represent population size
+2006,WGT2,"Weight II: age, gender, marital status, urbanization, region, ethnicity  (All wave 1)"
+2006,WGT2B,Weight II with a multiplication factor to represent population size
+2006,WGT3,"Weight III: age, gender, marital status, urbanization, region, ethnicity (CAPI wave I & II)"
+2006,WGT3B,Weight III with a multiplication factor to represent population size
+2006,WGT4,"Weight IV: age, gender, marital status, urbanization, region, ethnicity, turnout (CAPI wave I & II)"
+2006,WGT4B,Weight IV with a multiplication factor to represent population size
+2006,WGT5,"Weight V: age, gender, marital status, urbanization, region, ethnicity (All wave I & II)"
+2006,WGT5B,Weight V with a multiplication factor to represent population size
+2006,WGT6,"Weight VI: age, gender, marital status, urbanization, region, ethnicity, turnout (All wave I & II)"
+2006,WGT6B,Weight VI with a multiplication factor to represent population size
+2006,WGT7,"Weight VII: age, gender, marital status, urbanization, region, ethnicity (All wave I, II & III)"
+2006,WGT7B,Weight VII with a multiplication factor to represent population size
+2006,WGT8,"Weight VIII: age, gender, marital status, urbanization, region, ethnicity, turnout (All wave I, II & III)"
+2006,WGT8B,Weight VIII with a multiplication factor to represent population size
+2006,V010,Frequency reading newspaper
+2006,V011,Reads about national news?
+2006,V012,Talks about national news?
+2006,V013,Reads about foreign news?
+2006,V014,Interested in politics
+2006,V015,Political interest score
+2006,V016,Daily newspaper - de Telegraaf
+2006,V017,Daily newspaper - de Volkskrant
+2006,V018,Daily newspaper - Trouw
+2006,V019,Daily newspaper - NRC Handelsblad/NRC Next
+2006,V020,Daily newspaper - Algemeen Dagblad
+2006,V021,Daily newspaper - Metro
+2006,V022,Daily newspaper - Spits
+2006,V024,Daily newspaper: other (1)
+2006,V025,Daily newspaper: other (2)
+2006,V026,Daily newspaper: other (3)
+2006,V027,Frequency watching NOS TV newscast
+2006,V028,Frequency watching RTL4 TV newscast
+2006,V029,Frequency visiting internet sites
+2006,V040,Most important national problem (text)
+2006,V041,Most important national problem - first answer
+2006,V042,Most important national problem - second answer
+2006,V043,Most important national problem - third answer
+2006,V044,Most important national problem - fourth answer
+2006,V045,Most important national problem - fifth answer
+2006,V046,Most important national problem - sixth answer
+2006,V047,Most important national problem - seventh answer
+2006,V050,What caused resignation of Balkenende II (text)
+2006,V051,What caused resignation of Balkenende II - first answer
+2006,V052,What caused resignation of Balkenende II - second answer
+2006,V053,Resignation of Balkenende Cabinet - justified?
+2006,V054,Responsible for resignation of Balkende II (text)
+2006,V055,Responsible for resignation of Balkenende II - first answer
+2006,V056,Responsible for resignation of Balkenende II - second answer
+2006,V060,Respondent is (not) adherent to a party?
+2006,V061,Respondent is (not) convinced adherent to a party
+2006,V062,Respondent is (not) more attracted to a party?
+2006,V063,Respondent is adherent to (which party?)
+2006,V064,Direction of party identification
+2006,V065,Strength of party identification
+2006,V067,Party respondent is a member of
+2006,V068,member of wich party
+2006,V070,Effect government policy on economic situation
+2006,V071,Effect government policy on employment
+2006,V072,Effect government policy on respondents finances
+2006,V073,General satisfaction with government
+2006,V074,Government satisfaction score
+2006,V080,Intends to vote in 2006 parliamentary elections
+2006,V081,Vote intention 2006 parliamentary elections
+2006,V082,Vote intention if non-voter is obliged to vote
+2006,V083,Does hesitating respondent consider to vote for a party?
+2006,V084,Party considered to vote for  CDA
+2006,V085,Party considered to vote for  PvdA
+2006,V086,Party considered to vote for  VVD
+2006,V087,Party considered to vote for  GroenLinks
+2006,V088,Party considered to vote for  SP
+2006,V089,Party considered to vote for  D66
+2006,V090,Party considered to vote for  ChristenUnie
+2006,V091,Party considered to vote for  SGP
+2006,V092,Party considered to vote for  Fortuyn
+2006,V093,Party considered to vote for  Partij voor de Dieren
+2006,V094,Party considered to vote for EenNL
+2006,V095,Party considered to vote for  Partij voor de Vrijheid
+2006,V096,Party considered to vote for  Partij voor Nederland
+2006,V097,Party considered to vote for  other
+2006,V098,Party considered to vote for - blanc
+2006,V099,Party considered to vote for  DK yet
+2006,V100,Frequency of encountering poll results
+2006,V101,Perceived accuracy of poll results
+2006,V102,CDA: Expected number of seats
+2006,V103,VVD: Expected number of seats
+2006,V104,PvdA: Expected number of seats
+2006,V110,Probability of future vote for PvdA
+2006,V111,Probability of future vote for CDA
+2006,V112,Probability of future vote for VVD
+2006,V113,Probability of future vote for D66
+2006,V114,Probability of future vote for GroenLinks
+2006,V115,Probability of future vote for SGP
+2006,V116,Probability of future vote for Christen Unie
+2006,V117,Probability of future vote for SP
+2006,V118,Probability of future vote for Fortuyn
+2006,V119,Probability of future vote for PvdV
+2006,V120,Probability of future vote for EenNL
+2006,V121,Probability future vote for PvN
+2006,V130,Euthanasia - position of CDA
+2006,V131,Euthanasia - position of PvdA
+2006,V132,Euthanasia - position of VVD
+2006,V133,Euthanasia - position of SP
+2006,V134,Euthanasia - position of Christen Unie
+2006,V135,Euthanasia - position of respondent
+2006,V140,Income differences- position of CDA
+2006,V141,Income differences- position of PvdA
+2006,V142,Income differences- position of VVD
+2006,V143,Income differences- position of SP
+2006,V144,Income differences- position of Christen Unie
+2006,V145,Income differences- position of respondent
+2006,V150,Asylum seekers- position of CDA
+2006,V151,Asylum seekers- position of PvdA
+2006,V152,Asylum seekers - position of VVD
+2006,V153,Asylum seekers - position of SP
+2006,V154,Asylum seekers - position of Christen Unie
+2006,V155,Asylum seekers - position of respondent
+2006,V160,Crime - position of CDA
+2006,V161,Crime - position of PvdA
+2006,V162,Crime - position of VVD
+2006,V163,Crime - position of SP
+2006,V164,Crime - position of Christen Unie
+2006,V165,Crime - position of respondent
+2006,V170,Nuclear plants - position of CDA
+2006,V171,Nuclear plants - position of PvdA
+2006,V172,Nuclear plants - position of VVD
+2006,V173,Nuclear plants - position of SP
+2006,V174,Nuclear plants - position of Christen Unie
+2006,V175,Nuclear plants - position of respondent
+2006,V180,Foreigners - position of CDA
+2006,V181,Foreigners - position of PvdA
+2006,V182,Foreigners - position of VVD
+2006,V183,Foreigners - position of SP
+2006,V184,Foreigners - position of Christen Unie
+2006,V185,Foreigners - position of respondent
+2006,V190,European unification - position of CDA
+2006,V191,European unification - position of PvdA
+2006,V192,European unification - position of VVD
+2006,V193,European unification - position of SP
+2006,V194,European unification position of ChristenUnie
+2006,V195,European unification - position of respondent
+2006,V198,International military missions  position of respondent
+2006,V200,Issue: adoption by homosexual couples
+2006,V201,Issue: more money for foreign aid
+2006,V202,Issue: Turkey may become EU member
+2006,V203,Issue: big companies threat to democracy
+2006,V204,Issue: taxes should be cut
+2006,V205,Issue: shops should be closed on Sundays
+2006,V206,Issue: illegal immigrants should be allowed to stay
+2006,V207,Issue: mortgage deduction should be abolished
+2006,V208,Issue: genetic manipulation should be forbidden
+2006,V209,Issue: the immigration of Muslims should be stopped
+2006,V210,Issue: pensioners should pay for old age benefits
+2006,V211,Issue: gay marriage should be forbidden
+2006,V212,Issue: it was rightful to send soldiers to Afghanistan
+2006,V220,Did (not) vote in 2003 parliamentary elections
+2006,V221,Party voted for in 2003 parliamentary elections
+2006,V222,Always voted this party in parliamentary elections?
+2006,V223,Did (not) cast preferential vote
+2006,V224,Did (not) vote at referendum on EU constitution
+2006,V225,Voted for or against EU constitution
+2006,V226,Did (not) vote in most recent municipal elections
+2006,V230,Name Wouter Bos (text)
+2006,V231,Name Wouter Bos
+2006,V232,Party Wouter Bos (text)
+2006,V233,Party Wouter Bos
+2006,V234,Function Wouter Bos (text)
+2006,V235,Function Wouter Bos
+2006,V236,Name Rita Verdonk (text)
+2006,V237,Name Rita Verdonk
+2006,V238,Party Rita verdonk (text)
+2006,V239,Party Rita Verdonk
+2006,V240,Function Rita Verdonk (text)
+2006,V241,Function Rita Verdonk
+2006,V242,Name Maxime Verhagen (text)
+2006,V243,Name Maxime Verhagen
+2006,V244,Party Maxime Verhagen (text)
+2006,V245,Party Maxime Verhagen
+2006,V246,Function Maxime Verhagen (text)
+2006,V247,Function Maxime Verhagen
+2006,V248,Name Agnes Kant (text)
+2006,V249,Name Agnes Kant
+2006,V250,Party Agnes Kant (text)
+2006,V251,Party Agnes Kant
+2006,V252,Function Agnes Kant (text)
+2006,V253,Function Agnes Kant
+2006,V255,Political knowledge score 0-12
+2006,V254,Political knowledge score 0-4
+2006,V260,Preferred in new government coalition - CDA
+2006,V261,Preferred in new government coalition - PvdA
+2006,V262,Preferred in new government coalition - VVD
+2006,V263,Preferred in new government coalition - GroenLinks
+2006,V264,Preferred in new government coalition - SP
+2006,V265,Preferred in new government coalition - D66
+2006,V266,Preferred in new government coalition - ChristenUnie
+2006,V267,Preferred in new government coalition - SGP
+2006,V268,Preferred in new government coalition - Fortuyn
+2006,V269,Preferred in new government coalition - Partij voor de Dieren
+2006,V270,Preferred in new government coalition - Partij één NL
+2006,V271,Preferred in new government coalition - Partij voor de Vrijheid
+2006,V272,Preferred in new government coalition - Partij voor Nederland
+2006,V273,Preferred in new government coalition - other
+2006,V274,More parties preferred in government coalition
+2006,V275,Other parties preferred in government coalition - CDA
+2006,V276,Other parties preferred in government coalition - PvdA
+2006,V277,Other parties preferred in government coalition - VVD
+2006,V278,Other parties preferred in government coalition - GroenLinks
+2006,V279,Other parties preferred in government coalition - SP
+2006,V280,Other parties preferred in government coalition - D66
+2006,V281,Other parties preferred in government coalition - ChristenUnie
+2006,V282,Other parties preferred in government coalition - SGP
+2006,V283,Other parties preferred in government coalition - Fortuyn
+2006,V284,Other parties preferred in government coalition - Partij voor de Dieren
+2006,V285,Other parties preferred in government coalition - Partij EenNL
+2006,V286,Other parties preferred in government coalition - Partij voor de Vrijhei
+2006,V287,Other parties preferred in government coalition - Partij voor Nederland
+2006,V288,Other parties preferred in government coalition  other
+2006,V290,Does it matter which parties are in coalition?
+2006,V295,Desirability of coalition: CDA and VVD
+2006,V296,Desirability of coalition: CDA and PvdA
+2006,V297,"Desirability of coalition: PvdA, SP and GroenLinks"
+2006,V298,Desirability of coalition: PvdA and VVD
+2006,V299,Probability of coalition: CDA and VVD
+2006,V300,Probability of coalition: CDA and PvdA
+2006,V301,"Probability of coalition: PvdA, SP and GroenLinks"
+2006,V302,Probability of coalition: PvdA and VVD
+2006,V310,Sympathy score PvdA
+2006,V311,Sympathy score VVD
+2006,V312,Sympathy score D66
+2006,V313,Sympathy score CDA
+2006,V314,Sympathy score SP
+2006,V315,Sympathy score Groenlinks
+2006,V320,Emotions PvdA: enthusiasm
+2006,V321,Emotions PvdA: irritation
+2006,V322,Emotions PvdA: worry
+2006,V323,Emotions PvdA: pride
+2006,V324,Emotions CDA: enthusiasm
+2006,V325,Emotions CDA: irritation
+2006,V326,Emotions CDA: worry
+2006,V327,Emotions CDA: pride
+2006,V328,Emotions VVD: enthusiasm
+2006,V329,Emotions VVD: irritation
+2006,V330,Emotions VVD: worry
+2006,V331,Emotions VVD: pride
+2006,V332,Emotions government: enthusiasm
+2006,V333,Emotions government: irritation
+2006,V334,Emotions government: worry
+2006,V335,Emotions government: pride
+2006,V340,Crime - holding suspect of terrorist attack in prison
+2006,V341,Crime  torture should never be allowed
+2006,V342,Crime  introduction of death penalty for certain crimes
+2006,V343,Crime  strictly upholding law no matter consequences
+2006,V344,Crime  punishment of crimes
+2006,V345,Social protest and government response  occupation schools
+2006,V346,Social protest and government response  firing occupying teachers
+2006,V350,Part of family when between 10 and 16 years of age?
+2006,V351,Male caretaker when 10 to 16
+2006,V352,Female caretaker when 10 to 16
+2006,V353,Discussed politics at home when adolescent
+2006,V355,Knowns party preference father during childhood
+2006,V356,Party preference father - CDA
+2006,V357,Party preference father - PvdA
+2006,V358,Party preference father - VVD
+2006,V359,Party preference father - GroenLinks
+2006,V360,Party preference father - SP
+2006,V361,Party preference father - D66
+2006,V362,Party preference father - ChristenUnie
+2006,V363,Party preference father - SGP
+2006,V364,Party preference father - LPF
+2006,V365,Party preference father - Leefbaar Nederland
+2006,V366,Party preference father - Partij voor de Dieren
+2006,V367,Party preference father - KVP/RKSP
+2006,V368,Party preference father - ARP
+2006,V369,Party preference father - CHU
+2006,V370,Party preference father - SDAP
+2006,V371,Party preference father - CPN
+2006,V372,Party preference father - PSP
+2006,V373,Party preference father - PPR
+2006,V374,Party preference father - RPF
+2006,V375,Party preference father - GPV
+2006,V376,Party preference father - other
+2006,V377,Party preference father - blanc
+2006,V378,Party preference father - Invalid
+2006,V385,Knowns party preference mother during childhood
+2006,V386,Party preference mother - CDA
+2006,V387,Party preference mother - PvdA
+2006,V388,Party preference mother - VVD
+2006,V389,Party preference mother - GroenLinks
+2006,V390,Party preference mother - SP
+2006,V391,Party preference mother - D66
+2006,V392,Party preference mother - ChristenUnie
+2006,V393,Party preference mother - SGP
+2006,V394,Party preference mother - LPF
+2006,V395,Party preference mother - Leefbaar Nederland
+2006,V396,Party preference mother - Partij voor de Dieren
+2006,V397,Party preference mother - KVP/RKSP
+2006,V398,Party preference mother - ARP
+2006,V399,Party preference mother - CHU
+2006,V400,Party preference mother - SDAP
+2006,V401,Party preference mother - CPN
+2006,V402,Party preference mother - PSP
+2006,V403,Party preference fmpother - PPR
+2006,V404,Party preference mother - RPF
+2006,V405,Party preference mother - GPV
+2006,V406,Party preference mother - other
+2006,V407,Party preference mother - blanc
+2006,V408,Party preference mother - Invalid
+2006,V410,Type of household
+2006,V411,Number of persons in household
+2006,V412,Number of persons in household below 18
+2006,V413,Disposable income of household (after taxes)
+2006,V414,Disposable income of household (after taxes) corrected for hh size
+2006,V415,Most important source of income in household
+2006,V420,Sex of respondent
+2006,V421,Year of birth respondent
+2006,V422,Marital status respondent
+2006,V423,Place of respondent in household
+2006,V424,Electoral cohort respondent
+2006,V425,Respondent is religious
+2006,V426,Religious denomination
+2006,V427,Attendance of religious services
+2006,V428,Social class - self image
+2006,V429,Is respondent member of trade union?
+2006,V430,Highest education (completed) of respondent
+2006,V431,Highest level of education (followed) of respondent
+2006,V432,Country of origin in three categories
+2006,V433,Position in work community
+2006,V434,Work: number of hours
+2006,V435,Occupation of respondent: SBI 1993 classification
+2006,V436,Occupation of respondent: ISCO classification (two digits)
+2006,V437,Personal income (after taxes)
+2006,V440,Partner of respondent present in household
+2006,V441,Sex of partner
+2006,V442,Year of birth of partner
+2006,V443,Highest education (completed) of partner
+2006,V444,Highest level of education (followed) of partner
+2006,V445,Position of partner in household
+2006,V446,Social economic category (partner)
+2006,V450,Region
+2006,V451,Degree of urbanization
+2006,V457,Willingness to participate in second wave
+2006,V500,Party differences during campaign
+2006,V501,How closely did you follow the campaign
+2006,V502,Reading newspapers
+2006,V503,Reads campaign news in newspaper
+2006,V504,Has seen electoral debates
+2006,V510,Did (not) vote in 2006 parliamentary elections
+2006,V511,Respondent authorized someone to vote by proxy
+2006,V512,Party voted for in 2006 parliamentary elections
+2006,V513,Reason party choice (text)
+2006,V516,Reason party choice: first answer
+2006,V517,Party choice  when decided?
+2006,V518,What time did you vote?
+2006,V520,Did (not) cast preferential vote
+2006,V521,Reason for preferential vote (main categories)
+2006,V523,Reason for preferential vote (other) (text)
+2006,V524,Reason for vote on first candidate
+2006,V525,Vote if first candidate would have been lower on list
+2006,V526,Vote if first candidate would not have been on list
+2006,V527,Vote if candidate of choice would not have been on list
+2006,V530,Person authorized to vote by proxy
+2006,V531,Has been authorized by someone to vote by proxy
+2006,V532,Person respondent received proxy from
+2006,V535,Considered not to vote
+2006,V536,Considered to vote for other party?
+2006,V537,Considered to vote for - CDA
+2006,V538,Considered to vote for - PvdA
+2006,V539,Considered to vote for - VVD
+2006,V540,Considered to vote for - GroenLinks
+2006,V541,Considered to vote for - SP
+2006,V542,Considered to vote for - D66
+2006,V543,Considered to vote for - ChristenUnie
+2006,V544,Considered to vote for - SGP
+2006,V545,Considered to vote for - Lijst Fortuyn
+2006,V546,Considered to vote for - Partij voor de Dieren
+2006,V547,Considered to vote for - Partij een NL
+2006,V548,Considered to vote for - Partij voor de Vrijheid
+2006,V549,Considered to vote for - Partij voor Nederland
+2006,V550,Considered to vote for - other
+2006,V555,Were parties competing you would never vote for?
+2006,V556,Will never vote for - CDA
+2006,V557,Will never vote for - PvdA
+2006,V558,Will never vote for - VVD
+2006,V559,Will never vote for - GroenLinks
+2006,V560,Will never vote for - SP
+2006,V561,Will never vote for - D66
+2006,V562,Will never vote for - ChristenUnie
+2006,V563,Will never vote for - SGP
+2006,V564,Will never vote for - Lijst Fortuyn
+2006,V565,Will never vote for - Partij voor de Dieren
+2006,V566,Will never vote for - Partij een NL
+2006,V567,Will never vote for - Partij voor de Vrijheid
+2006,V568,Will never vote for - Partij voor Nederland
+2006,V569,Will never vote for - other
+2006,V570,Did (not) always vote in parliamentary elections
+2006,V571,Did not vote: when decided
+2006,V572,Preferred party of non-voters
+2006,V575,Trust in: voting machine
+2006,V576,Trust in: ballot paper
+2006,V577,Prefer voting machine or ballot paper
+2006,V578,Trust voting machine compared to ballot paper
+2006,V579,Trust in: voting by phone
+2006,V580,Trust in: voting by home computer
+2006,V581,Trust in: postal voting
+2006,V582,Trust in: general
+2006,V585,Frequency of encountering poll results
+2006,V586,Poll results: influence on party choice
+2006,V587,Poll results: influence on turning out to vote
+2006,V743,External efficacy score
+2006,V590,Do you know vote matchers?
+2006,V591,Did you fill in vote matcher?
+2006,V592,Advice of vote matcher - CDA
+2006,V593,Advice of vote matcher - PvdA
+2006,V594,Advice of vote matcher - VVD
+2006,V595,Advice of vote matcher - GroenLinks
+2006,V596,Advice of vote matcher - SP
+2006,V597,Advice of vote matcher - D66
+2006,V598,Advice of vote matcher - ChristenUnie
+2006,V599,Advice of vote matcher - SGP
+2006,V600,Advice of vote matcher - Lijst Fortuyn
+2006,V601,Advice of vote matcher - Partij voor de Dieren
+2006,V602,Advice of vote matcher - Partij EenNL
+2006,V603,Advice of vote matcher - Partij voor de Vrijheid
+2006,V604,Advice of vote matcher - Partij voor Nederland
+2006,V605,Advice of vote matcher - other
+2006,V610,Most important topic during elections for you personally (text)
+2006,V611,Most important topic during elections for you personally - first
+2006,V612,Most important topic during elections for you personally - second
+2006,V613,Most important topic during elections for you personally - third
+2006,V614,Second most important topic during elections for you personally (text)
+2006,V615,Second most important topic during elections for you personally - first
+2006,V616,Second most important topic during elections for you personally - second
+2006,V617,Second most important topic during elections for you personally - third
+2006,V618,Most important topic during elections for this country (text)
+2006,V619,Most important topic during elections for this country - first
+2006,V620,Most important topic during elections for this country - second
+2006,V621,Most important topic during elections for this country - third
+2006,V622,Second most important topic during elections for this country (text)
+2006,V623,Second most important topic during elections for this country - first
+2006,V624,Second most important topic during elections for this country - second
+2006,V625,Second most important topic during elections for this country - third
+2006,V626,Most important national problem: party best able to solve problem
+2006,V627,Second most important national problem: party best able to solve problem
+2006,V630,How much does it matter who is in charge?
+2006,V631,How much does it matter which party one votes for?
+2006,V632,Performance current government
+2006,V635,Is there a party leader representing opinion best?
+2006,V636,Party leader representing opinion best - Jan-Peter Balkenende
+2006,V637,Party leader representing opinion best - Wouter Bos
+2006,V638,Party leader representing opinion best - Mark Rutte
+2006,V639,Party leader representing opinion best - Femke Halsema
+2006,V640,Party leader representing opinion best - Jan Marijnissen
+2006,V641,Party leader representing opinion best - Alexander Pechtold
+2006,V642,Party leader representing opinion best - Andre Rouvoet
+2006,V643,Party leader representing opinion best - Bas van der Vlies
+2006,V644,Party leader representing opinion best - Olaf Stuger
+2006,V645,Party leader representing opinion best - Marco Pastors
+2006,V646,Party leader representing opinion best - Geert Wilders
+2006,V647,Party leader representing opinion best - Hilbrand Nawijn
+2006,V649,Party leader representing opinion best - other (text)
+2006,V650,Party leader representing opinion best - other
+2006,V655,Sympathy score: PvdA
+2006,V656,Sympathy score: VVD
+2006,V657,Sympathy score: D66
+2006,V658,Sympathy score: CDA
+2006,V659,Sympathy score: GroenLinks
+2006,V660,Sympathy score: SGP
+2006,V661,Sympathy score: ChristenUnie
+2006,V662,Sympathy score: SP
+2006,V663,Sympathy score: Fortuyn
+2006,V664,Sympathy score: Partij van de Vrijheid
+2006,V665,Sympathy score: EenNL
+2006,V666,Sympathy score: Partij voor Nederland
+2006,V667,Sympathy score: Jan-Peter Balkenende
+2006,V668,Sympathy score: Wouter Bos
+2006,V669,Sympathy score: Mark Rutte
+2006,V670,Sympathy score: Femke Halsema
+2006,V671,Sympathy score: Jan Marijnissen
+2006,V672,Sympathy score: Alexander Pechtold
+2006,V673,Sympathy score: Andre Rouvoet
+2006,V674,Sympathy score: Bas Van der Vlies
+2006,V675,Sympathy score: Olaf Stuger
+2006,V676,Sympathy score: Marco Pastors
+2006,V677,Sympathy score: Geert Wilders
+2006,V678,Sympathy score: Hilbrand Nawijn
+2006,V680,Left-right rating of PvdA (11 point scale)
+2006,V681,Left-right rating of VVD (11 point scale)
+2006,V682,Left-right rating of D66 (11 point scale)
+2006,V683,Left-right rating of CDA (11 point scale)
+2006,V684,Left-right rating of GroenLinks (11 point scale)
+2006,V685,Left-right rating of SGP (11 point scale)
+2006,V686,Left-right rating of ChristenUnie (11 point scale)
+2006,V687,Left-right rating of SP (11 point scale)
+2006,V688,Left-right rating of LPF (11 point scale)
+2006,V689,Left-right rating of Partij vd Vrijheid (11 point scale)
+2006,V690,Left-right rating of EenNL (11 point scale)
+2006,V691,Left-right self-rating (11 point scale)
+2006,V695,Satisfaction with democracy in the Netherlands
+2006,V696,Satisfaction with democracy in the European Union
+2006,V700,Faith in Mark Rutte as Prime Minister
+2006,V701,Faith in Wouter Bos as Prime Minister
+2006,V702,Faith in Jan-Peter Balkenende as Prime Minister
+2006,V703,Faith in Jan Marijnissen as Prime Minister
+2006,V704,Faith in Marco Pastors as Prime Minister
+2006,V710,Character traits of Wouter Bos: capable
+2006,V711,Character traits of Wouter Bos: honest
+2006,V712,Character traits of Wouter Bos: boring
+2006,V713,Character traits of Jan-Peter Balkenende: capable
+2006,V714,Character traits of Jan-Peter Balkenende: honest
+2006,V715,Character traits of Jan-Peter Balkenende: boring
+2006,V716,Character traits of Mark Rutte: capable
+2006,V717,Character traits of Mark Rutte: honest
+2006,V718,Character traits of Mark Rutte: boring
+2006,V719,Character traits of Jan Marijnissen: capable
+2006,V720,Character traits of Jan Marijnissen: honest
+2006,V721,Character traits of Jan Marijnissen: boring
+2006,V722,Emotions Wouter Bos: enthusiasm
+2006,V723,Emotions Wouter Bos: irritation
+2006,V724,Emotions Wouter Bos: concern
+2006,V725,Emotions Wouter Bos: pride
+2006,V726,Emotions Jan-Peter Balkenende: enthusiasm
+2006,V727,Emotions Jan-Peter Balkenende: irritation
+2006,V728,Emotions Jan-Peter Balkenende: concern
+2006,V729,Emotions Jan-Peter Balkenende: pride
+2006,V730,Emotions Mark Rutte: enthusiasm
+2006,V731,Emotions Mark Rutte: irritation
+2006,V732,Emotions Mark Rutte: concern
+2006,V733,Emotions Mark Rutte: pride
+2006,V734,Emotions Jan Marijnissen: enthusiasm
+2006,V735,Emotions Jan Marijnissen: irritation
+2006,V736,Emotions Jan Marijnissen: concern
+2006,V737,Emotions Jan Marijnissen: pride
+2006,V740,MPs do not care about opinions of people like me
+2006,V741,Parties are only interested in my vote and not in my opinion
+2006,V742,People like me have no influence on politics
+2006,V745,Consider myself qualified for politics
+2006,V746,Good understanding of political problems
+2006,V747,Politics too complicated for people like me
+2006,V748,Internal efficacy score
+2006,V750,Politicians promise more than they can deliver
+2006,V751,Ministers and junior-ministers are primarily self-interested
+2006,V752,Friends more important than abilities to become MP
+2006,V753,Political cynicism score
+2006,V755,Member: Environmental organization
+2006,V756,"Member: Third world, human rights or peace"
+2006,V757,Member: Trade union
+2006,V758,Member: Professional organization
+2006,V759,Member: Employers organization
+2006,V760,Member: Neighbourhood organization
+2006,V761,Member: Music or cultural organization
+2006,V762,Member: Sports organization
+2006,V763,Member: Church
+2006,V764,Member: Other
+2006,V766,Member: other (text)
+2006,V767,Other members of household member of trade union?
+2006,V770,Chance acting against unjust national bill
+2006,V771,"Did (not) try to get radio, tv or newspaper involved"
+2006,V772,Did (not) try to involve political party or organization
+2006,V773,Did (not) participate in a meeting organized by government
+2006,V774,Did (not) contact politician or civil servant
+2006,V775,Did (not) join a civic action group
+2006,V776,Did (not) join a demonstration
+2006,V777,"Did (not) use internet, email or SMS"
+2006,V778,Did (not) do other things to influence government
+2006,V779,Did nothing to influence government
+2006,V780,Should there be confessional parties?
+2006,V781,Should there be confessional schools?
+2006,V782,Religion good guide in politics
+2006,V783,Confessional attitude score
+2006,V785,Evaluation of Dutch EU Membership
+2006,V786,Should country be allowed to join EU: Norway
+2006,V787,Should country be allowed to join EU: Romania
+2006,V788,Percieved current speed of EU integration
+2006,V789,Preferred speed EU integration
+2006,V795,Satisfaction with the way MPs are elected
+2006,V796,Voting for party or voting for government
+2006,V797,The inhabitants of the municipality should elect the mayor
+2006,V798,The citizens should make important decisions for the country by referendum
+2006,V799,The Prime Minister should be directly elected by the voters
+2006,V800,Regional differences not enough accounted for in parliamentary elections
+2006,V801,Party leaders should be elected by party referendum
+2006,V805,Party choice if elections were held tomorrow
+2006,V807,Access to the Internet
+2006,V808,How often use internet?
+2006,V810,Accepted mail drop off questionnaire
+2006,V850,Frequency watching  The Bold and the Beautiful (RTL4)
+2006,V851,Frequency watching  As the World Turns (RTL4)
+2006,V852,Frequency watching  Een vandaag (Ned. 1)
+2006,V853,Frequency watching  Editie NL (RTL4)
+2006,V854,Frequency watching  Boulevard (RTL4)
+2006,V855,Frequency watching  Man Bijt Hond (Ned. 2)
+2006,V856,Frequency watching  Netwerk (Ned. 2)
+2006,V857,Frequency watching  Onderweg naar morgen (Ned. 3)
+2006,V858,Frequency watching  Lingo (Ned. 1)
+2006,V859,Frequency watching  Big Brother (Talpa)
+2006,V860,Frequency watching  De Wereld Draait Door (Ned. 3)
+2006,V861,Frequency watching  RTL4 Nieuws (RTL4)
+2006,V862,Frequency watching  De Wedstrijden (Talpa)
+2006,V863,Frequency watching  Hart van Nederland (SBS6)
+2006,V864,Frequency watching  Shownieuws (SBS6)
+2006,V865,Frequency watching  Het Zonnetje in Huis (RTL5)
+2006,V866,Frequency watching  Law and Order (RTL7)
+2006,V867,Frequency watching  NOS 8 uur journal (Ned. 1)
+2006,V868,"Frequency watching  Goede Tijden, Slechte Tijden (RTL4)"
+2006,V869,Frequency watching  Will & Grace (Net5)
+2006,V870,Frequency watching  Jensen! (RTL5)
+2006,V871,"Frequency watching  NOVA, Den Haag Vandaag (Ned. 2)"
+2006,V872,Frequency watching  Pauw en Witteman (Ned. 1)
+2006,V873,Frequency watching  De Staat van Verwarring (Ned. 3)
+2006,V875,Frequency visiting  portal.omroep.nl
+2006,V876,Frequency visiting  geenstijl.nl
+2006,V877,Frequency visiting  nu.nl
+2006,V878,Frequency visiting  teletekst.nl
+2006,V879,Frequency visiting  anp.nl
+2006,V880,Frequency visiting  spitsnet.nl
+2006,V881,Frequency visiting  bn.nl
+2006,V882,Frequency visiting  planet.nl
+2006,V884,Visits news source on internet - other 1 (text)
+2006,V885,Frequency visiting  other 1
+2006,V887,Visits news source on internet - other 2 (text)
+2006,V888,Frequency visiting  other 2
+2006,V890,Trust in churches
+2006,V891,Trust in army
+2006,V892,Trust in judges
+2006,V893,Trust in press
+2006,V894,Trust in police
+2006,V895,Trust in parliament
+2006,V896,Trust in civil servants
+2006,V897,Trust in big companies
+2006,V898,Trust in European Union
+2006,V899,Trust in NATO
+2006,V900,Can one trust other people?
+2006,V901,"So many people vote, my vote does not matter"
+2006,V902,Gap between electorate and elected
+2006,V905,Importance of tasks MPs  monitor the government
+2006,V906,Importance of tasks MPs  representing views and interests of voters
+2006,V907,Importance of tasks MPs  weigh interests of different groups
+2006,V908,Importance of tasks MPs  contribute to legislation
+2006,V910,Who should determine government policy?
+2006,V912,Who should determine government policy - other (text)
+2006,V913,Who determines government policy?
+2006,V915,Who determines government policy - other (text)
+2006,V920,Satisfaction with parliament
+2006,V925,European treaties in referendum
+2006,V926,European enlargement in referendum
+2006,V930,Politicians are honest
+2006,V931,Politicians are profiteers
+2006,V932,Politicians keep their promises
+2006,V933,Politicians are corrupt
+2006,V934,Politicians get a kick out of power
+2006,V935,Politicians are reliable
+2006,V936,Politicians only have fine talk
+2006,V937,Politicians are capable of solving problems in society
+2006,V940,First topic connected to PvdA (text)
+2006,V941,Agrees with issue PvdA -1
+2006,V942,Second topic connected to PvdA (text)
+2006,V943,Agrees with issue PvdA -2
+2006,V944,First topic connected to CDA (text)
+2006,V945,Agrees with issue CDA -1
+2006,V946,Second topic connected to CDA (text)
+2006,V947,Agrees with issue CDA -2
+2006,V948,First topic connected to VVD (text)
+2006,V949,Agrees with issue VVD -1
+2006,V950,Second topic connected to VVD (text)
+2006,V951,Agrees with issue VVD -2
+2006,V952,First topic connected to PvdA (detailed coding)
+2006,V953,Second topic connected to PvdA (detailed coding)
+2006,V954,First topic connected to CDA (detailed coding)
+2006,V955,Second topic connected to CDA (detailed coding)
+2006,V956,First topic connected to VVD (detailed coding)
+2006,V957,Second topic connected to VVD (detailed coding)
+2006,V958,First topic connected to PvdA (summarized coding)
+2006,V959,Second topic connected to PvdA (summarized coding)
+2006,V960,First topic connected to CDA (summarized coding)
+2006,V961,Second topic connected to CDA (summarized coding)
+2006,V962,First topic connected to VVD (summarized coding)
+2006,V963,Second topic connected to VVD (summarized coding)
+2006,V964,First topic connected to PvdA (evaluation)
+2006,V965,Second topic connected to PvdA (evaluation)
+2006,V966,First topic connected to CDA (evaluation)
+2006,V967,Second topic connected to CDA (evaluation)
+2006,V968,First topic connected to VVD (evaluation)
+2006,V969,Second topic connected to VVD (evaluation)
+2006,V975,Date of interview before the election (yyyymmdd)
+2006,V976,Date of interview after the election (yyyymmdd)
+2006,V977,Length of interview after the election (minutes)'
+2010,STUDY,DANS Study Identification
+2010,RNR,Respondent identification number
+2010,V001,"Type of interview record I, first wave"
+2010,V002,"Type of interview record I, second wave"
+2010,V003,"Type of interview record I, drop off"
+2010,V004,Type of interview record II
+2010,V005,"Month of interview, first wave"
+2010,V006,"Month of interview, second wave"
+2010,V007,Date of making this file by Statistics Netherlands (CBS) (yyyymmdd)
+2010,WGT1,"Weight I: age, gender, marital status, urbanization, region, ethnicity (CAPI wave1)"
+2010,WGT1B,Weight I with a multiplication factor to represent population size
+2010,WGT2,"Weight II: age, gender, marital status, urbanization, region, ethnicity (All wave 1)"
+2010,WGT2B,Weight II with a multiplication factor to represent population size
+2010,WGT3,"Weight III: age, gender, marital status, urbanization, region, ethnicity (CAPI wave I & II)"
+2010,WGT3B,Weight III with a multiplication factor to represent population size
+2010,WGT4,"Weight IV: age, gender, marital status, urbanization, region, ethnicity, turnout (CAPI wave I & II)"
+2010,WGT4B,Weight IV with a multiplication factor to represent population size
+2010,WGT5,"Weight V: age, gender, marital status, urbanization, region, ethnicity (All wave I & II)"
+2010,WGT5B,Weight 5 with a multiplication factor to represent population size
+2010,WGT6,"Weight VI: : age, gender, marital status, urbanization, region, ethnicity, turnout (All wave I & II)"
+2010,WGT6B,Weight VI with a multiplication factor to represent population size
+2010,WGT7,"Weight VII: age, gender, marital status, urbanization, region, ethnicity (All wave I, II & III)"
+2010,WGT7B,Weight VII with a multiplication factor to represent population size
+2010,WGT8,"Weight VIII: age, gender, marital status, urbanization, region, ethnicity, turnout (All wave I, II & III)"
+2010,WGT8B,Weight VIII with a multiplication factor to represent population size
+2010,V010,Respondent - Gender
+2010,V011,Respondent - Year of birth
+2010,V012,Respondent - Age at date interview
+2010,V017,Marital status respondent
+2010,V018,Electoral cohort respondent
+2010,V020,Frequency reading newspaper
+2010,V021,Reads about national news?
+2010,V022,Talks about national news?
+2010,V023,Reads about foreign news?
+2010,V024,Interested in politics
+2010,V025,Political interest score
+2010,V035,Frequency watching NOS TV newscast
+2010,V036,Frequency watching RTL4 TV newscast
+2010,V037,Frequency visiting internet sites
+2010,V040,Most important national problem (text)
+2010,V041,Most important national problem (first answer)
+2010,V042,Most important national problem (second answer)
+2010,V043,Most important national problem (third answer)
+2010,V044,Most important national problem (fourth answer)
+2010,V045,Most important national problem (fifth answer)
+2010,V046,Most important national problem (sixth answer)
+2010,V026,Daily newspaper - de Telegraaf
+2010,V027,Daily newspaper - de Volkskrant
+2010,V028,Daily newspaper - Trouw
+2010,V029,Daily newspaper - NRC Handelsblad
+2010,V030,Daily newspaper - NRC Next
+2010,V031,Daily newspaper - Algemeen Dagblad
+2010,V032,Daily newspaper - Metro
+2010,V033,Daily newspaper - Spits
+2010,V034,Daily newspaper - Other
+2010,V050,Resignation Balkenende Cabinet � reason (text)
+2010,V051,Resignation Balkenende Cabinet � reason (first answer)
+2010,V052,Resignation Balkenende Cabinet � reason (second answer)
+2010,V053,Resignation Balkenende Cabinet: Rightly?
+2010,V054,Guilty of resignation Balkenende Cabinet (text)
+2010,V055,Guilty of resignation Balkenende Cabinet (first answer)
+2010,V056,Guilty of resignation Balkenende Cabinet (second answer)
+2010,V060,Respondent is (not) adherent to a party?
+2010,V061,Respondent is (not) more attracted to a party?
+2010,V062,Respondent is adherent to (which party?)
+2010,V063,Respondent is (not) convinced adherent to a party
+2010,V064,Direction of party identification
+2010,V065,Strength of party identification
+2010,V066,Respondent is (not) member of a party
+2010,V067,Respondent is member of:
+2010,V068,Is voting a civic duty or a matter of choice?
+2010,V069,Extent to which voting is a civic duty
+2010,V070,Effect government policy on economic situation
+2010,V071,Effect government policy on employment situation
+2010,V072,Effect government policy on respondent''s finances
+2010,V073,General satisfaction with government
+2010,V074,Government satisfaction score
+2010,V080,Intends to vote in 2010 parliamentary elections
+2010,V081,Vote intention 2010 parliamentary elections
+2010,V082,Decided: Does consider other party
+2010,V083,Does consider party: CDA
+2010,V084,Does consider specific party: PvdA
+2010,V085,Does consider specific party: VVD
+2010,V086,Does consider specific party: GroenLinks
+2010,V087,Does consider specific party: SP
+2010,V088,Does consider specific party: D66
+2010,V089,Does consider specific party: ChristenUnie
+2010,V090,Does consider specific party: SGP
+2010,V091,Does consider specific party: PVV (Geert Wilders)
+2010,V092,Does consider specific party: PvdD
+2010,V093,Does consider specific party: TON (Rita Verdonk)
+2010,V094,Does consider specific party: Blanco
+2010,V095,Does consider specific party: Invalid
+2010,V096,Does consider specific party: Other
+2010,V097,Does consider specific party: DK
+2010,V098,Vote intention if non-voter is obliged to vote
+2010,V100,Not decided: whether to vote in 2010 parliamentary elections
+2010,V101,Not voting: Does consider specific party
+2010,V102,Not decided whether to vote in 2010 parliamentary elections does consider party: CDA
+2010,V103,Not decided whether to vote in 2010 parliamentary elections does consider party: PvdA
+2010,V104,Not decided whether to vote in 2010 parliamentary elections does consider party: VVD
+2010,V105,Not decided whether to vote in 2010 parliamentary elections does consider party: GroenLinks
+2010,V106,Not decided whether to vote in 2010 parliamentary elections does consider party: SP
+2010,V107,Not decided whether to vote in 2010 parliamentary elections does consider party: D66
+2010,V108,Not decided whether to vote in 2010 parliamentary elections does consider party: ChristenUnie
+2010,V109,Not decided whether to vote in 2010 parliamentary elections does consider party: SGP
+2010,V110,Not decided whether to vote in 2010 parliamentary elections does consider party: PVV
+2010,V111,Not decided whether to vote in 2010 parliamentary elections does consider party: PvdD
+2010,V112,Not decided whether to vote in 2010 parliamentary elections does consider party: TON (Rita Verdonk)
+2010,V113,Not decided whether to vote in 2010 parliamentary elections does consider party: Blanco
+2010,V114,Not decided whether to vote in 2010 parliamentary elections does consider party: Invalid
+2010,V115,Not decided whether to vote in 2010 parliamentary elections does consider party: Other
+2010,V116,Not decided whether to vote in 2010 parliamentary elections does consider party: DK
+2010,V120,Frequency of encountering poll results
+2010,V121,Perceived accuracy of poll results
+2010,V122,CDA: Expected number of seats
+2010,V123,VVD: Expected number of seats
+2010,V124,PvdA: Expected number of seats
+2010,V125,PVV (Geert Wilders): Expected number of seats
+2010,V126,D66: Expected number of seats
+2010,V130,Euthanasia - position of CDA
+2010,V131,Euthanasia - position of PvdA
+2010,V132,Euthanasia - position of VVD
+2010,V133,Euthanasia - position of PVV (Geert Wilders)
+2010,V134,Euthanasia - position of D66
+2010,V135,Euthanasia - position of SP
+2010,V136,Euthanasia - position of respondent
+2010,V140,Income differences - position of CDA
+2010,V141,Income differences - position of PvdA
+2010,V142,Income differences - position of VVD
+2010,V143,Income differences - position of D66
+2010,V144,Income differences - position of PVV (Geert Wilders)
+2010,V145,Income differences - position of SP
+2010,V146,Income differences - position of respondent
+2010,V150,Asylum seekers - position of CDA
+2010,V151,Asylum seekers - position of PvdA
+2010,V152,Asylum seekers - position of VVD
+2010,V153,Asylum seekers - position of D66
+2010,V154,Asylum seekers - position of PVV (Geert Wilders)
+2010,V155,Asylum seekers - position of SP
+2010,V156,Asylum seekers - position of respondent
+2010,V160,Crime - position of CDA
+2010,V161,Crime - position of PvdA
+2010,V162,Crime - position of VVD
+2010,V163,Crime - position of D66
+2010,V164,Crime - position of PVV (Geert Wilders)
+2010,V165,Crime - position of SP
+2010,V166,Crime - position of respondent
+2010,V170,Foreigners - position of CDA
+2010,V171,Foreigners - position of PvdA
+2010,V172,Foreigners - position of VVD
+2010,V173,Foreigners - position of D66
+2010,V174,Foreigners - position of PVV (Geert Wilders)
+2010,V175,Foreigners - position of SP
+2010,V176,Foreigners - position of respondent
+2010,V200,Issue: Adoption by homosexual couples
+2010,V201,Issue: More money for foreign aid
+2010,V202,Issue: Turkey may become EU member
+2010,V203,Issue: Big companies threat to democracy
+2010,V204,Issue: Taxes should be cut
+2010,V205,Issue: Shops should be closed on Sundays
+2010,V206,Issue: Illegal immigrants should be allowed to stay
+2010,V207,Issue: Mortgage deduction should be abolished
+2010,V208,Issue: Genetic manipulation should be forbidden
+2010,V209,Issue: The immigration of Muslims should be stopped
+2010,V210,Issue: Pensioners should pay for AOW
+2010,V211,Issue: Gay marriage should be forbidden
+2010,V212,Issue: It was rightful to send soldiers to Afghanistan
+2010,V213,Issue: Retirement age should be at 67
+2010,V214,Issue: Government should support banks running a risk of bankruptcy
+2010,V220,Voted in most recent municipal elections
+2010,V221,Municipal elections 2010: Party voted for
+2010,V240,Voted in 2006 parliamentary elections
+2010,V241,Party voted for in 2006 parliamentary elections
+2010,V242,Always voted this party in parliamentary elections?
+2010,V243,Did (not) cast preferential vote in 2006
+2010,V244,Did (not) always vote in parliamentary elections
+2010,V250,Photo 1 Gerdi Verbeet (PvdA) � name (text)
+2010,V251,Photo 1 Gerdi Verbeet (PvdA) � political party (text)
+2010,V252,Photo 1 Gerdi Verbeet (PvdA) � political function (text)
+2010,V253,Photo 2 Alexander Pechtold (D66) � name (text)
+2010,V254,Photo 2 Alexander Pechtold (D66) � political party (text)
+2010,V255,Photo 2 Alexander Pechtold (D66) � political function (text)
+2010,V256,Photo 3 Camiel Eurlings (CDA) � name (text)
+2010,V257,Photo 3 Camiel Eurlings (CDA) � political party (text)
+2010,V258,Photo 3 Camiel Eurlings (CDA) � political function (text)
+2010,V259,Photo 4 Tineke Huizinga (CU) � name (text)
+2010,V260,Photo 4 Tineke Huizinga (CU) � political party (text)
+2010,V261,Photo 4 Tineke Huizinga (CU) � political function (text)
+2010,V262,Photo 1 Gerdi Verbeet (PvdA) � name
+2010,V263,Photo 1 Gerdi Verbeet (PvdA) � political party
+2010,V264,Photo 1 Gerdi Verbeet (PvdA) � political function
+2010,V265,Photo 2 Alexander Pechtold (D66) � name
+2010,V266,Photo 2 Alexander Pechtold (D66) � political party
+2010,V267,Photo 2 Alexander Pechtold (D66) � political function
+2010,V268,Photo 3 Camiel Eurlings (CDA) � name
+2010,V269,Photo 3 Camiel Eurlings (CDA) � political party
+2010,V270,Photo 3 Camiel Eurlings (CDA) � political function
+2010,V271,Photo 4 Tineke Huizinga (CU) � name
+2010,V272,Photo 4 Tineke Huizinga (CU) � political party
+2010,V273,Photo 4 Tineke Huizinga (CU) � political function
+2010,V274,Political Knowledge score 0-12
+2010,V275,Political Knowledge score 0-4
+2010,V276,Does know which parties were part of former government coalition
+2010,V277,Knowledge of CDA as a coalition partner
+2010,V278,Knowledge of PvdA as a coalition partner
+2010,V279,Knowledge of VVD as a coalition partner
+2010,V280,Knowledge of GroenLinks as a coalition partner
+2010,V281,Knowledge of SP as a coalition partner
+2010,V282,Knowledge of D66 as a coalition partner
+2010,V283,Knowledge of ChristenUnie as a coalition partner
+2010,V284,Knowledge of SGP as a coalition partner
+2010,V285,Knowledge of PVV (Geert Wilders) as a coalition partner
+2010,V286,Knowledge of PvdD as a coalition partner
+2010,V287,Knowledge of LPF as a coalition partner
+2010,V288,Knowledge of Partij ��n NL (Marco Pastors) as a coalition partner
+2010,V289,Knowledge of Partij voor Nederland (Hilbrand Nawijn) as a coalition partner
+2010,V290,Knowledge of local party as a coalition partner
+2010,V291,Knowledge of other party as a coalition partner
+2010,V292,Political Knowledge score 0-3
+2010,V300,Preferred in new government coalition - CDA
+2010,V301,Preferred in new government coalition - PvdA
+2010,V302,Preferred in new government coalition - VVD
+2010,V303,Preferred in new government coalition - GroenLinks
+2010,V304,Preferred in new government coalition - SP
+2010,V305,Preferred in new government coalition - D66
+2010,V306,Preferred in new government coalition - ChristenUnie
+2010,V307,Preferred in new government coalition - SGP
+2010,V308,Preferred in new government coalition - PVV (Geert Wilders)
+2010,V309,Preferred in new government coalition - Partij voor de Dieren
+2010,V310,Preferred in new government coalition - TON (Rita Verdonk)
+2010,V311,Preferred in new government coalition - Local party
+2010,V312,Preferred in new government coalition - other
+2010,V313,More parties preferred in government coalition
+2010,V314,Preferred other party in new government coalition
+2010,V330,Does it matter which parties are in coalition?
+2010,V331,"Likelihood of coalition: PvdA, SP, GroenLinks"
+2010,V332,"Likelihood of coalition: PvdA, GroenLinks, D66, VVD"
+2010,V333,"Likelihood of coalition: CDA, VVD, D66"
+2010,V334,"Likelihood of coalition: CDA, VVD, PVV (Geert Wilders)"
+2010,V335,"Likelihood of coalition: PvdA, CDA, D66"
+2010,V340,Sympathy score: CDA
+2010,V341,Sympathy score: PvdA
+2010,V342,Sympathy score: VVD
+2010,V343,Sympathy score: D66
+2010,V344,Sympathy score: GroenLinks
+2010,V345,Sympathy score: SP
+2010,V346,Sympathy score: PVV (Geert Wilders)
+2010,V347,Sympathy score: ChristenUnie
+2010,V348,Sympathy score: SGP
+2010,V349,Sympathy score: PvdD
+2010,V350,Sympathy score: TON (Rita Verdonk)
+2010,V351,Sympathy score: Jan-Peter Balkenende
+2010,V352,Sympathy score: Job Cohen
+2010,V353,Sympathy score: Mark Rutte
+2010,V354,Sympathy score: Alexander Pechtold
+2010,V355,Sympathy score: Femke Halsema
+2010,V356,Sympathy score: Emile Roemer
+2010,V357,Sympathy score: Geert Wilders
+2010,V358,Sympathy score: Andr� Rouvoet
+2010,V359,Sympathy score: Kees van der Staaij
+2010,V360,Sympathy score: Marianne Thieme
+2010,V361,Sympathy score: Rita Verdonk
+2010,V370,Representation: Voter representation versus party line
+2010,V371,Representation: Retrospective versus prospective
+2010,V372,Representation: Following voters versus following MPs
+2010,V380,Crime � holding suspect of terrorist attack in prison
+2010,V381,Crime � torture should never be allowed
+2010,V382,Crime � introduction of death penalty for certain crimes
+2010,V383,Crime � strictly upholding law no matter consequences
+2010,V384,Crime � punishment of crimes
+2010,V385,Social protest and government response � occupation schools
+2010,V386,Social protest and government response � firing occupying teachers
+2010,V387,Part of family when between 10 and 16 years of age?
+2010,V388,Male caretaker when 10 to 16
+2010,V389,Female caretaker when 10 to 16
+2010,V390,Discussed politics at home when adolescent
+2010,V391,Party preference father known
+2010,V392,Party preference father (first answer)
+2010,V393,Party preference father (second answer)
+2010,V395,Party preference mother known
+2010,V396,Party preference mother (first answer)
+2010,V397,Party preference mother (second answer)
+2010,V400,Respondent is religious
+2010,V401,Religious denomination
+2010,V402,Attendance of religious services
+2010,V403,Social class � self image
+2010,V404,Member: Trade union
+2010,V410,Highest education (completed) of respondent
+2010,V411,Highest education (attended) of respondent
+2010,V412,Highest education (completed) of partner
+2010,V413,Highest education (attended) of partner
+2010,V414,Works > 11 Hours per week
+2010,V415,Position in work community
+2010,V418,Occupation of respondent: ISCO classification (two digits)
+2010,V419,Occupation of respondent: SBI 1993 classification
+2010,V420,Highest education (completed) of responden (ISCED-code)
+2010,V421,Highest education (attended) of responden (ISCED-code)
+2010,V423,Highest education (completed) of partner (ISCED-code)
+2010,V424,Highest education (attended) of partner (ISCED-code)
+2010,V429,Region
+2010,V434,Degree of urbanization
+2010,V435,Country of origin (three categories)
+2010,V438,Type of household
+2010,V440,number of persons in household
+2010,V443,Age
+2010,V445,Place of respondent in household
+2010,V446,Social economic category respondent
+2010,V448,number of persons in household
+2010,V451,Spendable household income
+2010,V452,Year of birth partner
+2010,V500,Party differences during campaign
+2010,V501,How closely did you follow the campaign?
+2010,V503,Reading newspapers
+2010,V504,Read campaign news in newspaper
+2010,V505,Has seen electoral debates
+2010,V510,Did vote in 2010 parliamentary elections
+2010,V512,Party voted for in 2010 parliamentary elections
+2010,V513,Reason party choice (text)
+2010,V514,Reason party choice (first answer)
+2010,V515,Reason party choice (second answer)
+2010,V516,Reason party choice (third answer)
+2010,V517,Party choice � when decided?
+2010,V518,Party choice � when decided?
+2010,V520,Did (not) cast preferential vote
+2010,V521,Reason for preferential vote (main categories)
+2010,V523,Reason for preferential vote (other) (text)
+2010,V524,Reason for vote on first candidate
+2010,V525,Vote if first candidate would have been lower on list
+2010,V526,Vote if first candidate would not have been on list
+2010,V527,Vote if candidate of choice would not have been on list
+2010,V530,Respondent authorized someone to vote by proxy
+2010,V531,Person authorized to vote by proxy
+2010,V532,Has been authorized by someone to vote by proxy
+2010,V533,Respondent received proxy from
+2010,V535,Considered not to vote
+2010,V536,Considered to vote for other party?
+2010,V573,Preferred party of non-voters
+2010,V537,Considered to vote for: CDA
+2010,V538,Considered to vote for: PvdA
+2010,V539,Considered to vote for: VVD
+2010,V540,Considered to vote for: GroenLinks
+2010,V541,Considered to vote for: SP
+2010,V542,Considered to vote for: D66
+2010,V543,Considered to vote for: ChristenUnie
+2010,V544,Considered to vote for: SGP
+2010,V545,Considered to vote for: PVV (Geert Wilders)
+2010,V546,Considered to vote for: PvdD
+2010,V547,Considered to vote for: TON (Rita Verdonk)
+2010,V549,Considered to vote for: other party
+2010,V550,Were parties competing you would never vote for?
+2010,V552,Would never vote for: CDA
+2010,V553,Would never vote for: PvdA
+2010,V554,Would never vote for: VVD
+2010,V555,Would never vote for: GroenLinks
+2010,V556,Would never vote for: SP
+2010,V557,Would never vote for: D66
+2010,V558,Would never vote for: ChristenUnie
+2010,V559,Would never vote for: SGP
+2010,V560,Would never vote for: PVV (Geert Wilders)
+2010,V561,Would never vote for: PvdD
+2010,V562,Would never vote for: TON (Rita Verdonk)
+2010,V564,Would never vote for: other party
+2010,V570,Why did respondent not vote (text)
+2010,V571,Why did respondent not vote
+2010,V572,Did not vote: When decided
+2010,V580,Trust: Elections in general
+2010,V581,Trust: Voting machine
+2010,V582,Trust: In ballot paper
+2010,V583,Prefer voting machine or ballot paper
+2010,V584,Trust voting machine compared to ballot paper
+2010,V585,Proxy voting should be possible
+2010,V586,Does agree with ID check when voting
+2010,V590,Frequency of encountering poll results
+2010,V591,Poll results: Influence on party choice
+2010,V592,Poll results: Influence on turning out to vote
+2010,V600,Do you know vote matchers?
+2010,V601,Did you fill in vote matcher?
+2010,V602,Advice of vote matcher - CDA
+2010,V603,Advice of vote matcher - PvdA
+2010,V604,Advice of vote matcher - VVD
+2010,V605,Advice of vote matcher - GroenLinks
+2010,V606,Advice of vote matcher - SP
+2010,V607,Advice of vote matcher - D66
+2010,V608,Advice of vote matcher - ChristenUnie
+2010,V609,Advice of vote matcher - SGP
+2010,V610,Advice of vote matcher - PVV (Geert Wilders)
+2010,V611,Advice of vote matcher - Partij voor de Dieren
+2010,V612,Advice of vote matcher - TON (Rita Verdonk)
+2010,V613,Advice of vote matcher - Local party
+2010,V614,Advice of vote matcher - Other party
+2010,V615,Influence vote matcher: Vote or abstain
+2010,V616,Influence vote matcher: Party choice
+2010,V617,Most important campaign issue (text)
+2010,V618,Most important campaign issue (first)
+2010,V619,Most important campaign issue (second)
+2010,V621,Second most important campaign issue (text)
+2010,V622,Second most important campaign issue (first)
+2010,V623,Second most important campaign issue (second)
+2010,V625,Most important national problem (text)
+2010,V626,Most important national problem (first)
+2010,V627,Most important national problem (second)
+2010,V629,Second most important national problem (text)
+2010,V630,Second most important national problem (first)
+2010,V631,Second most important national problem (second)
+2010,V633,Most important national problem: Party best able to solve problem
+2010,V634,Second most important national problem: Party best able to solve problem
+2010,V635,How much does it matter who is in charge?
+2010,V636,How much does it matter which party one votes for?
+2010,V637,Performance current government
+2010,V638,Is there a party leader representing opinion best?
+2010,V639,Considered to vote for other party?
+2010,V640,Party leader representing opinion best - Jan-Peter Balkenende
+2010,V641,Party leader representing opinion best - Job Cohen
+2010,V642,Party leader representing opinion best - Mark Rutte
+2010,V643,Party leader representing opinion best - Alexander Pechtold
+2010,V644,Party leader representing opinion best - Femke Halsema
+2010,V645,Party leader representing opinion best - Emile Roemer
+2010,V646,Party leader representing opinion best - Geert Wilders
+2010,V647,Party leader representing opinion best - Andr� Rouvoet
+2010,V648,Party leader representing opinion best - Kees van der Staaij
+2010,V649,Party leader representing opinion best - Marianne Thieme
+2010,V650,Party leader representing opinion best - Rita Verdonk
+2010,V651,Party leader representing opinion best - other
+2010,V652,Party leader representing opinion best - other (text)
+2010,V653,Other party leader representing opinion best (text)
+2010,V654,Other party leader representing opinion best
+2010,V660,Probability of future vote for CDA
+2010,V661,Probability of future vote for PvdA
+2010,V662,Probability of future vote for VVD
+2010,V663,Probability of future vote for D66
+2010,V664,Probability of future vote for GroenLinks
+2010,V665,Probability of future vote for SP
+2010,V666,Probability of future vote for PVV (Geert Wilders)
+2010,V667,Probability of future vote for ChristenUnie
+2010,V668,Probability of future vote for SGP
+2010,V669,Probability of future vote for PvdD
+2010,V670,Probability of future vote for TON (Rita Verdonk)
+2010,V680,Nuclear plants - position of CDA
+2010,V681,Nuclear plants - position of PvdA
+2010,V682,Nuclear plants - position of VVD
+2010,V683,Nuclear plants - position of D66
+2010,V684,Nuclear plants - position of PVV (Geert Wilders)
+2010,V685,Nuclear plants - position of SP
+2010,V686,Nuclear plants - position of respondent
+2010,V690,European unification - position of CDA
+2010,V691,European unification - position of PvdA
+2010,V692,European unification - position of VVD
+2010,V693,European unification - position of D66
+2010,V694,European unification - position of PVV (Geert Wilders)
+2010,V695,European unification - position of SP
+2010,V696,European unification - position of respondent
+2010,V697,International military missions � position of respondent
+2010,V700,Left-right rating of CDA (10 point scale)
+2010,V701,Left-right rating of PvdA (10 point scale)
+2010,V702,Left-right rating of VVD (10 point scale)
+2010,V703,Left-right rating of D66 (10 point scale)
+2010,V704,Left-right rating of GroenLinks (10 point scale)
+2010,V705,Left-right rating of SP (10 point scale)
+2010,V706,Left-right rating of PVV (Geert Wilders) (10 point scale)
+2010,V707,Left-right rating of ChristenUnie (10 point scale)
+2010,V708,Left-right rating of SGP (10 point scale)
+2010,V709,Left-right rating of PvdD (10 point scale)
+2010,V710,Left-right rating of TON (Rita Verdonk) (10 point scale)
+2010,V711,Left-right self-rating (10 point scale)
+2010,V720,Satisfaction with democracy in the Netherlands
+2010,V721,Satisfaction with democracy in the European Union
+2010,V722,Opinions of MPs reflect opinions of electorate
+2010,V730,Faith in Mark Rutte as Prime Minister
+2010,V731,Faith in Job Cohen as Prime Minister
+2010,V732,Faith in Jan-Peter Balkenende as Prime Minister
+2010,V733,Faith in Geert Wilders as Prime Minister
+2010,V734,Faith in Alexander Pechtold as Prime Minister
+2010,V740,MPs do not care about opinions of people like me
+2010,V741,Parties are only interested in my vote and not in my opinion
+2010,V742,People like me have no influence on politics
+2010,V743,External efficacy score
+2010,V744,Consider myself qualified for politics
+2010,V745,Good understanding of political problems
+2010,V746,Politics too complicated for people like me
+2010,V747,Internal efficacy score
+2010,V748,Politicians promise more than they can deliver
+2010,V749,Ministers and junior-ministers are primarily self-interested
+2010,V750,Friends more important than abilities to become MP
+2010,V751,MPs quickly lose contact with voters
+2010,V752,Political cynicism score
+2010,V753,Politicians are honest
+2010,V754,Politicians are profiteers
+2010,V755,Politicians keep their promises
+2010,V756,Politicians are corrupt
+2010,V757,Politicians are reliable
+2010,V758,Politicians only have fine talk
+2010,V759,Politicians do not understand what is going on in society
+2010,V760,Politicians are capable of solving problems in society
+2010,V761,Most politicians are competent people
+2010,V762,Only few people I can really talk to
+2010,V763,There is always someone who can help me
+2010,V764,I often feel forsaken
+2010,V765,There is nobody who is interested in me
+2010,V770,Member: Environmental organization
+2010,V771,"Member: Third world, human rights or peace organization"
+2010,V772,Member: Professional organization
+2010,V773,Member: Employers organisation
+2010,V774,Member: Neighborhood organization
+2010,V775,Member: Music or cultural organization
+2010,V776,Member: Sports organization
+2010,V777,Member: Church
+2010,V778,Member: Other
+2010,V779,Member: Which other (text)
+2010,V780,Other members of household member of trade union?
+2010,V781,Chance acting against unjust national bill
+2010,V782,"Did (not) try to get radio, TV or newspaper involved"
+2010,V783,Did (not) try to involve political party or organization
+2010,V784,Did (not) participate in a meeting organized by government
+2010,V785,Did (not) contact politician or civil servant
+2010,V786,Did (not) join a civic action group
+2010,V787,Did (not) join a demonstration
+2010,V788,"Did (not) use internet, email or SMS"
+2010,V789,Did (not) do other things to influence government
+2010,V790,Did none of the above
+2010,V800,Trust: Churches
+2010,V801,Trust: Army
+2010,V802,Trust: Judges
+2010,V803,Trust: Press
+2010,V804,Trust: Police
+2010,V805,Trust: Government
+2010,V806,Trust: National Parliament
+2010,V807,Trust: Civil servants
+2010,V808,Trust: Big companies
+2010,V809,Trust: European Union
+2010,V810,Trust: NATO
+2010,V811,Trust: Political parties
+2010,V812,Trust: Financial institutions
+2010,V813,Trust: Most people can be trusted or you can''t be too careful
+2010,V820,Evaluation economic situation in the Netherlands: past twelve months
+2010,V821,Evaluation economic situation in the Netherlands: coming twelve months
+2010,V822,Is it a good time to purchase durables?
+2010,V823,Evaluation financial situation own household: past twelve months
+2010,V824,Evaluation financial situation own household: coming twelve months
+2010,V830,Should there be confessional parties?
+2010,V831,Should there be confessional schools?
+2010,V832,Religious schools: Separate Roman Catholic and Protestant Schools or Christian Unity
+2010,V833,Religious schools: Allow Islamic schools
+2010,V834,Religion good guide in politics
+2010,V835,Evaluation of Dutch EU Membership
+2010,V840,EU Membership Turkey
+2010,V841,Perceived current speed of EU integration
+2010,V842,Preferred speed EU integration
+2010,V850,Satisfaction with the way MPs are elected
+2010,V851,The inhabitants of the municipality should elect the mayor
+2010,V852,The citizens should make important decisions for the country by referendum
+2010,V853,The Prime Minister should be directly elected by the voters
+2010,V854,Regional differences not enough accounted for in parliamentary elections
+2010,V855,The Netherlands should be a republic
+2010,V856,Democracy is the best form of government
+2010,V860,Frequency watching � As the World Turns (RTL4)
+2010,V861,Frequency watching � De Pfaffs (RTL7)
+2010,V862,Frequency watching � De Wereld Draait Door (Ned3)
+2010,V863,Frequency watching � Editie NL (RTL4)
+2010,V864,Frequency watching � Een Vandaag (Ned1)
+2010,V865,"Frequency watching � Goede Tijden, Slechte Tijden (RTL4)"
+2010,V866,Frequency watching � Half 8 nieuws (RTL4)
+2010,V867,Frequency watching � Hart van Nederland (SBS6)
+2010,V868,Frequency watching � Law and Order (Net5)
+2010,V869,Frequency watching � Lingo (Ned1)
+2010,V890,Frequency watching � Man Bijt Hond (Ned2)
+2010,V891,Frequency watching � Netwerk (Ned2)
+2010,V892,Frequency watching � NOS 8 uur journaal (Ned1)
+2010,V893,Frequency watching � NOS 10 uur journaal (Ned3)
+2010,V894,Frequency watching � NOVA/Den Haag Vandaag (Ned2)
+2010,V895,Frequency watching � Onderweg naar Morgen (Ned3)
+2010,V896,Frequency watching � Pauw en Witteman (Ned1)
+2010,V897,Frequency watching � RTL Boulevard (RTL4)
+2010,V898,Frequency watching � RTL nieuws late editie (RTL4)
+2010,V899,Frequency watching � Shownieuws (SBS6)
+2010,V900,Frequency watching � Sportjournaal (Ned3)
+2010,V901,Frequency watching � Wie is de chef? (RTL5)
+2010,V910,Frequency visiting - Nos.nl
+2010,V911,Frequency visiting - Geenstijl.nl
+2010,V912,Frequency visiting - Nu.nl
+2010,V913,Frequency visiting - Telegraaf.nl
+2010,V914,Frequency visiting - Elsevier.nl
+2010,V915,Frequency visiting - NRC.nl
+2010,V916,Frequency visiting - Volkskrant.nl
+2010,V917,Frequency visiting - Google news
+2010,V918,Frequency visiting - Fok.nl
+2010,V919,Frequency visiting - AD.nl
+2010,V920,Other website visited (I) (text)
+2010,V921,Frequency visiting - Other (I)
+2010,V922,Other website visited (II) (text)
+2010,V923,Frequency visiting - Other (II)
+2010,V930,Future European treaties should be discussed in a popular referendum
+2010,V931,Future European enlargements should be discussed in a popular referendum
+2010,V940,Solely backroom politics is practitioned in the Hague
+2010,V941,The government has the most honorable intentions
+2010,V942,Political parties know what makes voters tick
+2010,V943,Dutch politics is corrupt
+2010,V944,Dutch democracy functions well
+2010,V945,Dutch politics does stand up for everyone's interests
+2010,V950,I feel attached to the Netherlands and the Dutch
+2010,V951,I consider myself more as a European or cosmopolitan instead of a Dutchman
+2010,V952,I am proud to be Dutch
+2010,V953,I feel more attached to region I live in than to the Netherlands
+2010,V954,Every Dutch citizen should know the Dutch anthem
+2010,V955,Dutch customs and traditions should be preserved
+2010,V956,It would be a pity if the Dutch language would disappear
+2010,V957,You can only be a real Dutchman if you are born in the Netherlands
+2010,V958,"If possible, individuals receiving a Dutch passport should disclaim other nationalities held"
+2010,V959,A minister should not be allowed to hold multiple nationalities
+2010,V960,Blue-collar classes still struggle for an equal position in society
+2010,V961,Class differences should be reduced in the Netherlands
+2010,V962,The government should not interfere in the economy
+2010,V965,Everyone should be free to say what they want in public
+2010,V966,Everyone should be free to write what they want in public
+2010,V967,Everyone should be free to protest in public
+2010,V968,Everyone should be free to criticize the Royal family in public
+2010,V969,Everyone should be free to occupy buildings to enforce justified claims
+2010,V970,The Dutch culture is threatened
+2010,V971,I am afraid Dutch economic prospects will deteriorate
+2010,V972,I am worried that my neighborhood will deteriorate
+2010,V973,I am afraid of increasing vandalism and violence in the Netherlands
+2010,V974,I am afraid my own financial prospects will deteriorate
+2010,V980,Issue associated with PvdA - 1 (text)
+2010,V981,Agrees with issue PvdA - 1
+2010,V982,Issue associated with PvdA - 2 (text)
+2010,V983,Agrees with issue PvdA - 2
+2010,V984,Issue associated with CDA - 1 (text)
+2010,V985,Agrees with issue CDA - 1
+2010,V986,Issue associated with CDA � 2 (text)
+2010,V987,Agrees with issue CDA - 2
+2010,V988,Issue associated with VVD - 1 (text)
+2010,V989,Agrees with issue VVD - 1
+2010,V990,Issue associated with VVD � 2 (text)
+2010,V992,Issue associated with PVV - 1 (text)
+2010,V993,Agrees with issue PVV - 1
+2010,V994,Issue associated with PVV - 2 (text)
+2010,V995,Agrees with issue PVV - 2
+2010,V996,The Netherlands should have nuclear weapons
+2010,V997,Did (not) see more than one person in the voting booth
+2012,RNR,Respondent identification number
+2012,WGT1,Weight capi without voting behaviour
+2012,WGT1B,Multiplication capi without voting behaviour
+2012,WGT1C,Weight capi including voting behaviour
+2012,WGT1D,Multiplication capi including voting behaviour
+2012,WGT2,Weight papi without voting behaviour
+2012,WGT2B,Multiplication papi without voting behaviour
+2012,WGT2C,Weight papi including voting behaviour
+2012,WGT2D,Multiplication papi including voting behaviour
+2012,V001,Type of interview record
+2012,V002,Interview start date (DDMMYYYY)
+2012,V003,Interview start time (HHMMSS)
+2012,V004,Interview end date (DDMMYYYY)
+2012,V005,Interview end time (HHMMSS)
+2012,V010,Frequency reading newspaper
+2012,V011,Reads about national news?
+2012,V012,Talks about national news?
+2012,V013,Reads about foreign news?
+2012,V014,Interested in politics
+2012,V015,How closely did you follow the campaign?
+2012,V016,Read campaign news in newspaper
+2012,V017,Has seen electoral debates
+2012,V020,Do you know vote matchers?
+2012,V021,Did you fill in vote matcher?
+2012,V022,1st advice of vote matcher
+2012,V023,2nd advice of vote matcher
+2012,V024,3rd advice of vote matcher
+2012,V025,4th advice of vote matcher
+2012,V026,5th advice of vote matcher
+2012,V035,Advice of vote matcher -   CDA
+2012,V036,Advice of vote matcher - PvdA
+2012,V037,Advice of vote matcher - VVD
+2012,V038,Advice of vote matcher - GroenLinks
+2012,V039,Advice of vote matcher - SP
+2012,V040,Advice of vote matcher - D66
+2012,V041,Advice of vote matcher - ChristenUnie
+2012,V042,Advice of vote matcher - SGP
+2012,V043,Advice of vote matcher - Partij voor de Vrijheid
+2012,V044,Advice of vote matcher - Partij voor de Dieren
+2012,V045,Advice of vote matcher - Democratisch Politiek Keerpunt
+2012,V046,Advice of vote matcher - 50Plus
+2012,V047,Advice of vote matcher - Other party
+2012,V048,Advice of vote matcher - Refusal
+2012,V049,Advice of vote matcher - Don't know
+2012,V050,How much does it matter who is in charge?
+2012,V051,How much does it matter which party one votes for?
+2012,V060,Most important national problem (text)
+2012,V061,Most important national problem 1st (text)
+2012,V062,Most important national problem 2nd (text)
+2012,V063,Most important national problem 3rd (text)
+2012,V064,Most important national problem 4th (text)
+2012,V065,Most important national problem 5th (text)
+2012,V066,Most important national problem 6th (text)
+2012,V067,Most important national problem 7th (text)
+2012,V068,Most important national problem 8th (text)
+2012,V069,Most important national problem 9th (text)
+2012,V071,Most important national problem 1st (code)
+2012,V072,Most important national problem 2nd (code)
+2012,V073,Most important national problem 3rd (code)
+2012,V074,Most important national problem 4th (code)
+2012,V075,Most important national problem 5th (code)
+2012,V076,Most important national problem 6th (code)
+2012,V077,Most important national problem 7th (code)
+2012,V078,Most important national problem 8th (code)
+2012,V079,Most important national problem 9th (code)
+2012,V080,Resignation Rutte Cabinet � reason (text)
+2012,V081,Resignation Rutte Cabinet � reason (first answer)
+2012,V082,Resignation Rutte Cabinet � reason (second answer)
+2012,V083,Resignation Rutte Cabinet: Rightly?
+2012,V084,Guilty of resignation Rutte Cabinet (text)
+2012,V085,Guilty of resignation Rutte Cabinet (first answer)
+2012,V086,Guilty of resignation Rutte Cabinet (second answer)
+2012,V090,Effect government policy on economic situation
+2012,V091,Effect government policy on employment situation
+2012,V092,Effect government policy on respondents finances
+2012,V093,General satisfaction with government
+2012,V100,Income differences - position of CDA
+2012,V101,Income differences - position of PvdA
+2012,V102,Income differences - position of VVD
+2012,V103,Income differences - position of D66
+2012,V104,Income differences - position of PVV
+2012,V105,Income differences - position of SP
+2012,V106,Income differences - position of respondent
+2012,V107,European unification - position of CDA
+2012,V108,European unification - position of PvdA
+2012,V109,European unification - position of VVD
+2012,V110,European unification - position of D66
+2012,V111,European unification - position of PVV
+2012,V112,European unification - position of SP
+2012,V113,European unification - position of respondent
+2012,V114,Crime - position of respondent
+2012,V115,Foreigners - position of respondent
+2012,V116,Nuclear plants - position of respondent
+2012,V120,Left-right rating of CDA (10 point scale)
+2012,V121,Left-right rating of PvdA (10 point scale)
+2012,V122,Left-right rating of VVD (10 point scale)
+2012,V123,Left-right rating of D66 (10 point scale)
+2012,V124,Left-right rating of GroenLinks (10 point scale)
+2012,V125,Left-right rating of SP (10 point scale)
+2012,V126,Left-right rating of PVV (Geert Wilders) (10 point scale)
+2012,V127,Left-right rating of ChristenUnie (10 point scale)
+2012,V128,Left-right rating of SGP (10 point scale)
+2012,V129,Left-right rating of PvdD (10 point scale)
+2012,V130,Left-right self-rating (10 point scale)
+2012,V135,Issue: Less money for foreign aid
+2012,V136,Issue: Big companies threat to democracy
+2012,V137,Issue: Taxes should be cut
+2012,V138,Issue: Mortgage deduction should be abolished
+2012,V139,Issue: Government should prevent construction of new Mosques
+2012,V140,Issue: Retirement age should be at 67
+2012,V141,Issue: Government should support banks running a risk of bankruptcy
+2012,V142,Issue: The Netherlands should lend money to European countries in trouble
+2012,V150,Voted in 2010 parliamentary elections
+2012,V151,Party voted for in 2010 parliamentary elections
+2012,V155,Does know which parties were part of former government coalition
+2012,V156,Knowledge of coalition partner -1st party mentioned-
+2012,V157,Knowledge of coalition partner -2nd party mentioned-
+2012,V158,Knowledge of coalition partner -3rd party mentioned-
+2012,V159,Knowledge of coalition partner -4th party mentioned-
+2012,V160,Knowledge of coalition partner -5th party mentioned-
+2012,V161,Knowledge of coalition partner -6th party mentioned-
+2012,V162,Knowledge of coalition partner -7th party mentioned-
+2012,V163,Knowledge of coalition partner -8th party mentioned-
+2012,V164,Knowledge of coalition partner -9th party mentioned-
+2012,V168,Knowledge of coalition partner: CDA
+2012,V169,Knowledge of coalition partner: PvdA
+2012,V170,Knowledge of coalition partner: VVD
+2012,V171,Knowledge of coalition partner: GroenLinks
+2012,V172,Knowledge of coalition partner: SP
+2012,V173,Knowledge of coalition partner: D66
+2012,V174,Knowledge of coalition partner: ChristenUnie
+2012,V175,Knowledge of coalition partner: SGP
+2012,V176,Knowledge of coalition partner: PVV
+2012,V177,Knowledge of coalition partner: PvdD
+2012,V178,Knowledge of coalition partner: TON
+2012,V179,Knowledge of coalition partner: Other party
+2012,V180,Knowledge of coalition partner: Refusal
+2012,V181,Knowledge of coalition partner: Don't know
+2012,V182,Which of these persons was the Finance Minister before the 2012 election
+2012,V183,What was the unemployment rate in the Netherlands in August 2012
+2012,V184,Which party came in second in seats in the 2012 parliamentary election
+2012,V185,Who is the current Secretary-General of the United Nations
+2012,V190,Sympathy score: CDA
+2012,V191,Sympathy score: PvdA
+2012,V192,Sympathy score: VVD
+2012,V193,Sympathy score: D66
+2012,V194,Sympathy score: GroenLinks
+2012,V195,Sympathy score: SP
+2012,V196,Sympathy score: PVV (Geert Wilders)
+2012,V197,Sympathy score: ChristenUnie
+2012,V198,Sympathy score: SGP
+2012,V199,Sympathy score: PvdD
+2012,V200,Sympathy score: Sybrand van Haersma Buma
+2012,V201,Sympathy score: Diederik Samsom
+2012,V202,Sympathy score: Mark Rutte
+2012,V203,Sympathy score: Alexander Pechtold
+2012,V204,Sympathy score: Jolande Sap
+2012,V205,Sympathy score: Emile Roemer
+2012,V206,Sympathy score: Geert Wilders
+2012,V207,Sympathy score: Arie Slob
+2012,V208,Sympathy score: Kees van der Staaij
+2012,V209,Sympathy score: Marianne Thieme
+2012,V210,Did (not) vote in 20122 parliamentary elections
+2012,V211,Respondent authorized someone to vote by proxy
+2012,V212,Party voted for in 2012 parliamentary elections
+2012,V213,Reason party choice (text)
+2012,V214,Reason party choice (first answer)
+2012,V215,Reason party choice (second answer)
+2012,V216,Reason party choice (third answer)
+2012,V217,Party choice � when decided?
+2012,V218,What time did you vote?
+2012,V219,Did (not) cast preferential vote
+2012,V220,Reason for preferential vote (main categories)
+2012,V221,Reason for preferential vote (other) (text)
+2012,V222,Reason for vote on first candidate
+2012,V223,Has been authorized by someone to vote by proxy
+2012,V230,Trust: Most people can be trusted or you can't be too careful
+2012,V231,Trust: Elections in general
+2012,V232,Satisfaction with democracy in the Netherlands
+2012,V233,Satisfaction with democracy in the European Union
+2012,V234,Satisfaction with constitutional state in the Netherlands
+2012,V235,Satisfaction with decision-making in Dutch politics
+2012,V236,Opinions of MPs reflect opinions of electorate
+2012,V237,Closer to respondent members of municipal council or MPs
+2012,V240,MPs do not care about opinions of people like me
+2012,V241,Parties are only interested in my vote and not in my opinion
+2012,V242,People like me have no influence on politics
+2012,V243,External efficacy
+2012,V244,Consider myself qualified for politics
+2012,V250,Politicians are honest
+2012,V251,Politicians are profiteers
+2012,V252,Politicians keep their promises
+2012,V253,Politicians are corrupt
+2012,V254,Politicians are reliable
+2012,V255,Politicians only have fine talk
+2012,V256,Political cynicism
+2012,V260,Member: Environmental organization
+2012,V261,"Member: Third world, human rights or peace organization"
+2012,V262,Member: Trade union
+2012,V263,Member: Professional organization
+2012,V264,Member: Employers' organisation
+2012,V265,Member: Church
+2012,V266,Member: Other
+2012,V267,Member: Which other (text)
+2012,V268,Other members of household member of trade union?
+2012,V269,Chance acting against unjust national bill
+2012,V270,Political action - 1st answer-
+2012,V271,Political action - 2nd answer-
+2012,V272,Political action - 3rd answer-
+2012,V273,Political action - 4th answer-
+2012,V274,Political action - 5th answer-
+2012,V275,Political action - 6th answer-
+2012,V276,Political action - 7th answer-
+2012,V280,"Did (not) try to get radio, TV or newspaper involved"
+2012,V281,Did (not) try to involve political party or organization
+2012,V282,Did (not) participate in a meeting organized by government
+2012,V283,Did (not) contact politician or civil servant
+2012,V284,Did (not) join a civic action group
+2012,V285,Did (not) join a demonstration
+2012,V286,"Did (not) use internet, email or SMS"
+2012,V287,Did (not) do other things to influence government
+2012,V288,Did none of the above
+2012,V300,Government spending: Healthcare
+2012,V301,Government spending: Education
+2012,V302,Government spending: Unemployment benefits
+2012,V303,Government spending: Military
+2012,V304,Government spending: Pensions
+2012,V305,Government spending: Business
+2012,V306,Government spending: Social welfare expenditures
+2012,V310,Likelihood of improved standard of living next 10 years
+2012,V311,"Evaluation economic situation in the Netherlands, past twelve months"
+2012,V312,"Evaluation economic situation in the Netherlands, past twelve months: Slightly better or clearly better"
+2012,V313,"Evaluation economic situation in the Netherlands, past twelve months: Slightly worse or clearly worse"
+2012,V314,Likelihood of substantial decline in household income next 12 months
+2012,V320,Evaluation of Dutch EU Membership
+2012,V321,EU Membership Turkey
+2012,V322,Satisfaction with the way MPs are elected
+2012,V323,The inhabitants of the municipality should elect the mayor
+2012,V324,The citizens should make important decisions for the country by referendum
+2012,V325,The Prime Minister should be directly elected by the voters
+2012,V330,Respondent is religious
+2012,V331,Religious denomination
+2012,V332,Attendance of religious services
+2012,V333,Social class � self image
+2012,V340,Age respondent at election date (12 sept 2012)
+2012,V341,Gender
+2012,V342,Marital state
+2012,V343,Country of origin (three categories)
+2012,V344,Highest education (completed) of respondent
+2012,V345,Highest education (attended) of respondent
+2012,V346,Highest education (completed) of respondent (ISCED-code)
+2012,V347,Highest education (attended) of respondent (ISCED-code)
+2012,V348,works > 11 Hours per week
+2012,V349,Position in work community
+2012,V350,Social economic category respondent
+2012,V351,Occupation of respondent: SBI 1993 classification
+2012,V352,Respondent has partner  in same household
+2012,V353,Gender partner
+2012,V354,Year of birth partner
+2012,V355,Highest education (completed) of partner
+2012,V356,Highest education (attended) of partner
+2012,V357,Number of persons in household
+2012,V358,Type of household
+2012,V359,spendable household income (in 10%-groups)
+2012,V360,Region
+2012,V361,Degree of urbanization
+2012,V370,Frequency reading newspaper (PAPI)
+2012,V371,Daily newspaper - de Telegraaf
+2012,V372,Daily newspaper - de Volkskrant
+2012,V373,Daily newspaper - Trouw
+2012,V374,Daily newspaper - NRC Handelsblad
+2012,V375,Daily newspaper - NRC Next
+2012,V376,Daily newspaper - Algemeen Dagblad
+2012,V377,Daily newspaper - Metro
+2012,V378,Daily newspaper - Spits
+2012,V379,Daily newspaper - Other
+2012,V380,Daily newspaper - Which other (text)
+2012,V381,Frequency watching NOS TV newscast
+2012,V382,Frequency watching RTL4 TV newscast
+2012,V383,Frequency visiting - Nos.nl
+2012,V384,Frequency visiting - Geenstijl.nl
+2012,V385,Frequency visiting - Nu.nl
+2012,V386,Frequency visiting - Telegraaf.nl
+2012,V387,Frequency visiting - Elsevier.nl
+2012,V388,Frequency visiting - NRC.nl
+2012,V389,Frequency visiting - Volkskrant.nl
+2012,V390,Frequency visiting - Google news
+2012,V391,Frequency visiting - Fok.nl
+2012,V392,Frequency visiting - AD.nl
+2012,V393,Frequency visiting - Other (I)
+2012,V394,Other website visited (I) (text)
+2012,V395,Frequency visiting - Other (II)
+2012,V396,Other website visited (II) (text)
+2012,V400,Party differences during campaign
+2012,V401,Frequency of encountering poll results
+2012,V402,Poll results: Influence on party choice
+2012,V403,Poll results: Influence on turning out to vote
+2012,V404,Influence vote matcher: Party choice
+2012,V410,Mobilization by institutional contact ?
+2012,V411,Institutional contact - In person
+2012,V412,Institutional contact - Mail
+2012,V413,Institutional contact - Phone
+2012,V414,Institutional contact - SMS
+2012,V415,Institutional contact - E-mail
+2012,V416,Institutional contact - Social network or web
+2012,V417,Institutional contact - Which party: CDA
+2012,V418,Institutional contact - Which party: PvdA
+2012,V419,Institutional contact - Which party: VVD
+2012,V420,Institutional contact - Which party: GroenLinks
+2012,V421,Institutional contact - Which party: SP
+2012,V422,Institutional contact - Which party: D66
+2012,V423,Institutional contact - Which party: ChristenUnie
+2012,V424,Institutional contact - Which party: SGP
+2012,V425,Institutional contact - Which party:  PVV
+2012,V426,Institutional contact - Which party: Partij voor de Dieren
+2012,V427,Institutional contact - Which party: Democratisch Politiek Keerpunt
+2012,V428,Institutional contact - Which party: 50Plus
+2012,V429,Institutional contact - Which party: Other party
+2012,V430,Mobilization by personal contact?
+2012,V431,Personal contact - In person
+2012,V432,Personal contact - Mail
+2012,V433,Personal contact - Phone
+2012,V434,Personal contact - SMS
+2012,V435,Personal contact - E-mail
+2012,V436,Personal contact - Social network or web
+2012,V437,Mobilization: Sign up for automatic info or alerts by mobile phone
+2012,V438,Did (not) see more than one person in the voting booth
+2012,V440,Trust: Churches
+2012,V441,Trust: Army
+2012,V442,Trust: Judges
+2012,V443,Trust: Press
+2012,V444,Trust: Police
+2012,V445,Trust: Government
+2012,V446,Trust: National Parliament
+2012,V447,Trust: Civil servants
+2012,V448,Trust: Big companies
+2012,V449,Trust: European Union
+2012,V450,Trust: NATO
+2012,V451,Trust: Political parties
+2012,V452,Trust: Financial institutions
+2012,V455,Political parties know what voters think
+2012,V456,Dutch politics is corrupt
+2012,V457,Dutch politics does stand up for everyone's interests
+2012,V458,Future European treaties should be discussed in a popular referendum
+2012,V459,Future European enlargements should be discussed in a popular referendum
+2012,V460,I feel attached to the Netherlands and the Dutch
+2012,V461,I consider myself more as a European or cosmopolitan instead of a Dutchman
+2012,V462,I am proud to be Dutch
+2012,V463,I feel more attached to region I live in than to the Netherlands
+2012,V464,Every Dutch citizen should know the Dutch anthem
+2012,V465,Dutch customs and traditions should be preserved
+2012,V466,It would be a pity if the Dutch language would disappear
+2012,V467,You can only be a real Dutchman if you are born in the Netherlands
+2012,V468,"If possible, individuals receiving a Dutch passport should disclaim other nationalities held"
+2012,V469,Dutch emigrants should be able to retain their Dutch passport
+2012,V470,The Dutch government should not interfere in the economy
+2012,V471,The ECB should interfere in the economy
+2012,V472,The EU should interfere in the economy
+2012,V475,Everyone should be free to say what they want in public
+2012,V476,Everyone should be free to write what they want in public
+2012,V477,Everyone should be free to protest in public
+2012,V478,Everyone should be free to criticize the Royal family in public
+2012,V479,Everyone should be free to occupy buildings to enforce justified claims
+2012,V480,Probability of future vote for CDA
+2012,V481,Probability of future vote for PvdA
+2012,V482,Probability of future vote for VVD
+2012,V483,Probability of future vote for D66
+2012,V484,Probability of future vote for GroenLinks
+2012,V485,Probability of future vote for SP
+2012,V486,Probability of future vote for PVV
+2012,V487,Probability of future vote for ChristenUnie
+2012,V488,Probability of future vote for SGP
+2012,V489,Probability of future vote for PvdD
+2012,V490,Respondent is (not) adherent to a party?
+2012,V491,Respondent is (not) more attracted to a party?
+2012,V492,Respondent is (not) convinced adherent to a party
+2012,V493,Adherent attracted to:CDA
+2012,V494,Adherent attracted to: PVDA
+2012,V495,Adherent attracted to: VVD
+2012,V496,Adherent attracted to: GroenLinks
+2012,V497,Adherent attracted to: SP
+2012,V498,Adherent attracted to: D66
+2012,V499,Adherent attracted to: ChristenUnie
+2012,V500,Adherent attracted to: SGP
+2012,V501,Adherent attracted to: PVV
+2012,V502,Adherent attracted to: PvdD
+2012,V503,Adherent attracted to: Democratisch Politiek Keerpunt
+2012,V504,Adherent attracted to: 50Plus
+2012,V505,Adherent attracted to: Other party
+2012,V510,Euthanasia - position of CDA
+2012,V511,Euthanasia - position of PvdA
+2012,V512,Euthanasia - position of VVD
+2012,V513,Euthanasia - position of D66
+2012,V514,Euthanasia - position of PVV
+2012,V515,Euthanasia - position of SP
+2012,V516,Euthanasia - position of respondent
+2012,V517,Foreigners - position of CDA
+2012,V518,Foreigners - position of PvdA
+2012,V519,Foreigners - position of VVD
+2012,V520,Foreigners - position of D66
+2012,V521,Foreigners - position of PVV
+2012,V522,Foreigners - position of SP
+2012,V525,Asylum seekers - position of respondent
+2012,V526,International military missions � position of respondent
+2012,V527,Government should reduce income differences
+2012,V530,Issue: More money for foreign aid
+2012,V531,Issue: Adoption by homosexual couples
+2012,V532,Issue: Illegal immigrants should be allowed to stay
+2012,V533,Issue: Pensioners should pay for AOW
+2012,V534,Issue: Gay marriage should be forbidden
+2012,V535,Issue: Retirement age should be at 67
+2012,V536,Religion good guide in politics
+2012,V537,Should there be confessional schools?
+2012,V538,Confessional Index
+2012,V539,Religious schools: Separate Roman Catholic and Protestant Schools or Christian Unity
+2012,V540,Religious schools: Allow Islamic schools
+2012,V550,Crime � punishment of crimes
+2012,V551,Crime � holding suspect of terrorist attack in prison
+2012,V552,Crime � torture should never be allowed
+2012,V553,Crime � introduction of death penalty for certain crimes
+2012,V554,Crime � strictly upholding law no matter consequences
+2012,V560,The Dutch culture is threatened
+2012,V561,I am afraid Dutch economic prospects will deteriorate
+2012,V562,I am worried that my neighborhood will deteriorate
+2012,V563,I am afraid of increasing vandalism and violence in the Netherlands
+2012,V564,I am afraid my own financial prospects will deteriorate
+2012,V570,Only few people I can really talk to
+2012,V571,There is always someone who can help me
+2012,V572,I often feel forsaken
+2012,V573,There is nobody who is interested in me

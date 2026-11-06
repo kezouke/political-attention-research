@@ -1,0 +1,124 @@
+{
+  "source": "https://osf.io/d6jvw/",
+  "n": 99401,
+  "columns": 539,
+  "observed_studies": 57,
+  "observed_countries": 27,
+  "geographic_europe_2004_2019_studies": 17,
+  "selected_labels": {
+    "A_EconSit": {
+      "-999": "-999 Question not asked in country",
+      "1": "1 Very Bad OR Much worse",
+      "2": "2 Bad OR Somewhat worse",
+      "3": "3 Average OR Stayed the same",
+      "4": "4 Good OR Somewhat better",
+      "5": "5 Very Good OR Much better",
+      "998": "998 Missing",
+      "999": "999 Don't Know"
+    },
+    "A_RespSit": {
+      "-999": "-999 Question not asked in country",
+      "1": "1 Very bad OR Much worse",
+      "2": "2 Bad OR Somewhat worse",
+      "3": "3 Average OR Stayed the same",
+      "4": "4 Good OR Somewhat better",
+      "5": "5 Very good OR Much better",
+      "998": "998 Missing",
+      "999": "999 Don't Know"
+    },
+    "A_GovPerf": {
+      "-999": "-999 Question not asked in country",
+      "1": "1 Very dissatisfied",
+      "2": "2 Dissatisfied",
+      "3": "3 Neither satisfied nor dissatisfied",
+      "4": "4 Satisfied",
+      "5": "5 Very satisfied",
+      "998": "998 Missing",
+      "999": "999 Don't Know"
+    },
+    "B_DontCare": {
+      "-999": "-999 Question not asked in country",
+      "1": "1 Strongly agree",
+      "2": "2 Agree",
+      "3": "3 Neither agree nor disagree",
+      "4": "4 Disagree",
+      "5": "5 Strongly disagree",
+      "998": "998 Missing",
+      "999": "999 Don't know"
+    },
+    "B_PolsDefendRich": {
+      "-999": "-999 Question not asked in country",
+      "1": "1 Strongly agree",
+      "2": "2 Agree",
+      "3": "3 Neither agree nor disagree",
+      "4": "4 Disagree",
+      "5": "5 Strongly disagree",
+      "998": "998 Missing",
+      "999": "999 Don't know"
+    },
+    "B_OfficialsListen": {
+      "-999": "-999 Question not asked in country",
+      "1": "1 Strongly disagree",
+      "2": "2 Disagree",
+      "3": "3 Neither agree nor disagree",
+      "4": "4 Agree",
+      "5": "5 Strongly agree",
+      "998": "998 Missing",
+      "999": "999 Don't know"
+    },
+    "B_TrustGov": {
+      "-999": "-999 Question not asked in country",
+      "1": "1 Hardly ever or never",
+      "2": "2 Some of the time",
+      "3": "3 Most of the time",
+      "4": "4 Just about always",
+      "998": "998 Missing",
+      "999": "999 Don't Know"
+    },
+    "B_DemSat": {
+      "-999": "-999 Question not asked in country",
+      "0": "0 Not at all satisfied / not a democracy",
+      "1": "1 Not very satisfied",
+      "2": "2 Somewhat satisfied",
+      "3": "3 Very satisfied",
+      "998": "998 Missing",
+      "999": "999 Don’t know"
+    },
+    "H_VoteWhichRecent": {
+      "-999": "-999 Question not asked in country",
+      "1": "1 Gov1",
+      "2": "2 Gov 2",
+      "3": "3 Gov 3",
+      "4": "4 Gov 4",
+      "5": "5 Gov 5",
+      "6": "6 Gov6",
+      "10": "10 Opp1",
+      "11": "11 Opp2",
+      "12": "12 Opp3",
+      "13": "13 Opp4",
+      "14": "14 Opp5",
+      "15": "15 Opp6",
+      "16": "16 Opp7",
+      "20": "20 OppNew1",
+      "21": "21 OppNew2",
+      "22": "22 OppNew3",
+      "23": "23 OppNew4",
+      "24": "24 OppNew5",
+      "30": "30 OppOther",
+      "40": "40 Other",
+      "993": "993 Did not vote, Don't know",
+      "995": "995 Not applicable",
+      "998": "998 Missing (also includes null or blank vote)"
+    }
+  },
+  "limitations": [
+    "This is a published author replication, not the full current CNEP archive or national extensions.",
+    "A_EconSit and A_RespSit pool current condition and retrospective change. National questionnaires needed before treating them as comparable.",
+    "H_Turnout code 0 combines no and do-not-know; it is not verified abstention.",
+    "H_VoteWhichRecent has country-specific government/opposition slots. Party names and incumbent timing require source mapping.",
+    "No issue-priority variable found. Joint test of all three explanations is structurally unavailable here.",
+    "Existing author filter__ and r-prefixed derived measures are not automatically applied.",
+    "OSF node is public but node_license is null. No blanket raw-data redistribution licence inferred.",
+    "Country-year shorthand IR16 means Iran; UK19 means Ukraine, not Ireland or Britain."
+  ]
+}

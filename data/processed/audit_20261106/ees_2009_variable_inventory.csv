@@ -1,0 +1,277 @@
+variable,label
+t001,t001 Study ID
+t002,t002 File Version
+t100,t100 Respondent ID
+t101,t101 Country code
+t102,t102 Country
+t103,"t103 Political system (as T102, except for Belgium)"
+t104,t104 Region (country code)
+t105,t105 Size of Locality (country code)
+t106,t106 Belgium: 3 regions
+t107,t107 Interview language
+t200,t200 Interview mode
+t201,t201 Interviewer ID
+t201a,t201a Interviewer gender
+t201b,t201b Interviewer year of birth
+t201c,t201c Interviewer nationality
+t201d,t201d Interviewer native language
+t201e,t201e Interviewer years of experience
+t203,t203 number of calls before start of succesful interview
+t204,t204 R in callback group for Q26b (Ireland only)
+t300,t300 Interview date: year
+t301,t301 Interview date: month
+t302,t302 Interview date: day
+t303,t303 Interview start: hour
+t304,t304 Interview start: minute
+t305,t305 Interview end: hour
+t306,t306 Interview end: minute
+t307,t307 Interview length (minutes)
+t400,t400 Household size (over 15 year old)
+t401,t401 Fixed line in household?
+t402,t402 Own mobile phone?
+q1,q1 most important problem in [country] today
+q2,q2 second most important problem in [country] today
+q3,q3 third most important problem in [country] today
+q4,q4 political party best to deal with [1st] MIP
+q5,q5 Admin. level dealing with MIP?
+q6,q6 Admin. level that should deal with MIP?
+q7,q7 days a week follow news
+q8_a,q8_a days a week watch news programme A
+q8_b,q8_b days a week watch news programme B
+q8_c,q8_c days a week watch news programme C
+q8_d,q8_d days a week watch news programme D
+q9,q9 Watch news on other channel more often?
+q10_1,q10_1 which other news channel 1st
+q10_O1,q10_O1 which other news channel 1st [open answer]
+q10_2,q10_2 which other news channel 2nd
+q10_O2,q10_O2 which other news channel 2nd [open answer]
+q10_3,q10_3 which other news channel 3rd
+q10_O3,q10_O3 which other news channel 3rd [open answer]
+q10_4,q10_4 which other news channel 4th
+q10_O4,q10_O4 which other news channel 4th [open answer]
+q10_5,q10_5 which other news channel 5th
+q10_O5,q10_O5 which other news channel 5th [open answer]
+q11a,q11a days a week watch other channel 1st
+q11b,q11b days a week watch other channel 2nd
+q11c,q11c days a week watch other channel 3rd
+q11d,q11d days a week watch other channel 4th
+q11e,q11e days a week watch other channel 5th
+q12_a,q12_a days a week read newspaper A
+q12_b,q12_b days a week read newspaper B
+q12_c,q12_c days a week read newspaper C
+q13,q13 Read other paper more frequently?
+q14_1,q14_1 which other newspaper 1st
+q14_O1,q14_O1 which other newspaper 1st [open answer]
+q14_2,q14_2 which other newspaper 2nd
+q14_O2,q14_O2 which other newspaper 2nd [open answer]
+q14_3,q14_3 which other newspaper 3rd
+q14_O3,q14_O3 which other newspaper 3rd [open answer]
+q14_4,q14_4 which other newspaper 4th
+q14_O4,q14_O4 which other newspaper 4th [open answer]
+q14_5,q14_5 which other newspaper 5th
+q14_O5,q14_O5 which other newspaper 5th [open answer]
+q15a,q15a days a week read other paper 1st
+q15b,q15b days a week read other paper 2nd
+q15c,q15c days a week read other paper 3rd
+q15d,q15d days a week read other paper 4th
+q15e,q15e days a week read other paper 5th
+q16,q16 how often watch program about election on TV?
+q17,q17 how often read about election in newspaper?
+q18,q18 how often talk to friends/family about election?
+q19,q19 how often attend public meeting/rally about election?
+q20,q20 how often look into website concerned with election?
+q21,q21 contacted in campaign
+q21_a,q21_a contacted in campaign by party/candidate: email
+q21_b,q21_b contacted in campaign by party/candidate: internet networking
+q21_c,q21_c contacted in campaign by party/candidate: phone
+q21_d,q21_d contacted in campaign by party/candidate: direct mail
+q21_e,q21_e contacted in campaign by party/candidate: flyer through post
+q21_f,q21_f contacted in campaign by party/candidate: face to face [at doorstep]
+q21_g,q21_g contacted in campaign by party/candidate: face to face [in street]
+q21_h,q21_h contacted in campaign by party/candidate: other personal contact
+q21_i,q21_i contacted in campaign by party/candidate: never been contacted - France only
+q22,q22 visited [which] 'how to vote' website?
+q22b_O1,q22b_O1 name 'how to vote' website: other 1
+q22b_O2,q22b_O2 name 'how to vote' website: other 2
+q22b_O3,q22b_O3 name 'how to vote' website: other 3
+q22b_O4,q22b_O4 name 'how to vote' website: other 4
+q22b_O5,q22b_O5 name 'how to vote' website: other 5
+q22b_O6,q22b_O6 name 'how to vote' website: other 6
+q23,q23 Interest in EP election campaign
+q24,q24 Did or did not vote in EP elections
+q25,q25 Which party voted for in EP elections
+q26,"q26 Which party, if R had voted in EP elections"
+q26b,q26b Which party voted for in local elections [BE & IE only]
+q27,q27 Actual vote in last general election
+q28,q28 Vote intention in general elections
+q29,q29 Responsibility of government for economic conditions
+q30,q30 Responsibility of EU for economic conditions
+q31,q31 Responsibility of government for standards of health care
+q32,q32 Responsibility of EU for standards of health care
+q33,q33 Responsibility of government for levels of immigration
+q34,q34 Responsibility of EU for levels of immigration
+q35,q35 Responsibility of government for setting interest rates
+q36,q36 Responsibility of EU for setting interest rates
+q37,q37 Responsibility of government for dealing with climate change
+q38,q38 Responsibility of EU for dealing with climate change
+t501,t501 Rotation indicator Q39: which party probed first
+q39_p1,q39_p1 Propensity to vote for Party 1
+q39_p2,q39_p2 Propensity to vote for Party 2
+q39_p3,q39_p3 Propensity to vote for Party 3
+q39_p4,q39_p4 Propensity to vote for Party 4
+q39_p5,q39_p5 Propensity to vote for Party 5
+q39_p6,q39_p6 Propensity to vote for Party 6
+q39_p7,q39_p7 Propensity to vote for Party 7
+q39_p8,q39_p8 Propensity to vote for Party 8
+q39_p9,q39_p9 Propensity to vote for Party 9
+q39_p10,q39_p10 Propensity to vote for Party 10
+q39_p11,q39_p11 Propensity to vote for Party 11
+q39_p12,q39_p12 Propensity to vote for Party 12
+q39_p13,q39_p13 Propensity to vote for Party 13
+q39_p14,q39_p14 Propensity to vote for Party 14
+q39_p15,q39_p15 Propensity to vote for Party 15
+q40,q40 agree/disagree: EU Parliament considers concerns of EU citizens
+q41,q41 agree/disgree: You trust the institutions of the European Union
+q42,q42 agree/disgaree: very important which candidates win seats in EP elections
+q43,q43 agree/disgaree: very important which party wins most seats EP elections
+q44,q44 agree/disagree: [country] Parliament considers concerns of [country] citizens
+q45,q45 q45|agree/disgaree: very important which party wins most seats NP elections
+q46,q46 q46| Left-right self-placement
+t502,t502 Rotation indicator Q47: which party probed first
+q47_p1,q47_p1 left-right-placement: party 1
+q47_p2,q47_p2 left-right-placement: party 2
+q47_p3,q47_p3 left-right-placement: party 3
+q47_p4,q47_p4 left-right-placement: party 4
+q47_p5,q47_p5 left-right-placement: party 5
+q47_p6,q47_p6 left-right-placement: party 6
+q47_p7,q47_p7 left-right-placement: party 7
+q47_p8,q47_p8 left-right-placement: party 8
+q47_p9,q47_p9 left-right-placement: party 9
+q47_p10,q47_p10 left-right-placement: party 10
+q47_p11,q47_p11 left-right-placement: party 11
+q47_p12,q47_p12 left-right-placement: party 12
+q47_p13,q47_p13 left-right-placement: party 13
+q47_p14,q47_p14 left-right-placement: party 14
+q47_p15,q47_p15 left-right-placement: party 15
+q48,q48 retrospective sociotropic economic evaluation
+q49,q49 prospective sociotropic economic evaluation
+q50,q50 Retrospective perception of changes in standards of health care
+q51,q51 Retrospective perception of changes in levels of immigration
+q52,q52 Evaluation of changes in levels of immigration
+q53,q53 Retrospective perception of changes in interest rates
+q54,q54 Evaluation of changes in interest rates
+q55,q55 Retrospective perception of changes in climate change
+t503,t503 Rotation indicator Q56-Q67: which question posed first
+q56,q56 agree/disagree: Immigrants required to adapt to customs of [country]
+q57,q57 agree/disagree: Private enterprise best to solve [country's] economic problems
+q58,q58 agree/disagree: Same-sex marriages should be prohibited by law
+q59,q59 agree/disagree: public services and industries should be in state ownership
+q60,q60 agree/disagree: Women should be free to decide on matters of abortion
+q61,q61 agree/disagree: Politics should abstain from intervening in the economy
+q62,q62 agree/disagree: People who break law should get much harsher sentences than now
+q63,q63 agree/disagree: Income and wealth should be redistributed towards ordinary people
+q64,q64 agree/disagree: Schools must teach children to obey authority
+q65,q65 agree/disagree: EU treaty changes should be decided by referendum
+q66,q66 agree/disagree: A woman should cut down on paid work for her family
+q67,q67 agree/disagree: Immigration to [country] should be decreased significantly
+q68,q68 Impact of government policies on economic conditions
+q69,q69 Impact of government policies on standards of health care
+q70,q70 Impact of government policies on levels of immigration
+q71,q71 Impact of government policies on interest rates
+q72,q72 Impact of government policies on climate change
+q73,q73 Impact of EU policies on economic conditions
+q74,q74 Impact of EU policies on standards of health care
+q75,q75 Impact of EU policies on levels of immigration
+q76,q76 Impact of EU policies on interest rates
+q77,q77 Impact of EU policies on climate change
+q78,q78 interest in politics
+q79,q79 EU membership good or bad
+q80,q80 respondent's attitude to European unification
+t504,t504 Rotation indicator Q81: which party probed first
+q81_p1,q81_p1 european unification: perception of party 1
+q81_p2,q81_p2 european unification: perception of party 2
+q81_p3,q81_p3 european unification: perception of party 3
+q81_p4,q81_p4 european unification: perception of party 4
+q81_p5,q81_p5 european unification: perception of party 5
+q81_p6,q81_p6 european unification: perception of party 6
+q81_p7,q81_p7 european unification: perception of party 7
+q81_p8,q81_p8 european unification: perception of party 8
+q81_p9,q81_p9 european unification: perception of party 9
+q81_p10,q81_p10 european unification: perception of party 10
+q81_p11,q81_p11 european unification: perception of party 11
+q81_p12,q81_p12 european unification: perception of party 12
+q81_p13,q81_p13 european unification: perception of party 13
+q81_p14,q81_p14 european unification: perception of party 14
+q81_p15,q81_p15 european unification: perception of party 15
+q82_1,"q82_1 see self as [country] citizen, or [country region/ethnic] citizen?"
+q82,"q82 not only [country] citizen, but also european citizen?"
+q83,q83 EU enlargment good or bad
+q84,q84 satisfaction with democracy in [country]
+q85,q85 satisfaction with democracy in EU
+q86,q86 approval of [country] government's record
+q87,q87 close to a party [pid]
+q88,q88 close or sympathizer
+q89,q89 not close to a party - but closer to a party?
+q90,q90 not close but closer to party: which?
+q91,q91 confidence: EU decisions in the interest of [country]
+t505,t505 Rotation indicator Q92-Q98: which question posed first
+q92,q92 Switzerland is a member of the EU - T/F
+q93,q93 EU has 25 member states  - T/F
+q94,q94 Every EU country elects same number of MEPs  - T/F
+q95,"q95 Every six months, a different country presides the Council  - T/F"
+q96,q96 Country specific knowledge question 1  - T/F
+q97,q97 Country specific knowledge question 2  - T/F
+q98,q98 Country specific knowledge question 3  - T/F
+q99,q99 trade union: R or anyone in household member
+q100,q100 age when stopped full-time education
+q101,q101 education: highest level completed
+q101_O1,q101_O1 education: highest level completed: other
+q101b,"q101b education, vocational: highest level completed (DK & DE only)"
+Q101B_O1,"Q101B_O1 education, vocational: highest level completed: other (DK & DE only)"
+q102,q102 gender
+q103,q103 year of birth
+q104,q104 both parents born in [country]?
+q105,q105 which country mother born
+q105_O1,q105_O1 which country mother born: other
+q106,q106 which country father born
+q106_O1,q106_O1 which country father born: other
+q107,q107 in which country R born
+q107_O1,q107_O1 in which country R born: other
+q108,q108 consider self [nationality] or belong to other group - or both
+q108_O1,q108_O1 consider self belong only to other group: which
+q108_O2,q108_O2 consider self belong also to other group: which
+q109,q109 marital status
+q110,q110 work situation
+q111,q111 sector of employment
+q113,q113 occupation
+q114,q114 social class (subjective)
+q115,q115 rural-urban area
+q116,q116 years residency in current community
+q117,q117 religion
+q117_O1,q117_O1 religion: other
+q118,q118 attendance at religious services
+q119,q119 subjective religiosity
+q120,q120 subjective standard of living
+v100,v100 sample weight per country (calibrated)
+v111,selection probability per country: EU-27
+v112,selection probability per country: EU-25
+v113,selection probability per country: EU-15
+v114,selection probability per country: EU-12
+v115,selection probability per country: EU-10
+v116,selection probability per country: EU-9
+v117,selection probability per country: EU-6
+v121,inverse selection probability per country: EU-27
+v122,inverse selection probability per country: EU-25
+v123,inverse selection probability per country: EU-15
+v124,inverse selection probability per country: EU-12
+v125,inverse selection probability per country: EU-10
+v126,inverse selection probability per country: EU-9
+v127,inverse selection probability per country: EU-6
+v131,political weight
+v132,political weight actual EP voters only
+v200,v200 education: ISCED level (cross-country comparable)
+v301,Strength of closeness to Party
+v302,Direction of closeness to Party
+MAXPTV,
+minPTV,
+meanPTV,

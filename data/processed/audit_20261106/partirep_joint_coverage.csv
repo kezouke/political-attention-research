@@ -1,0 +1,4 @@
+year,scenario,pre_wave_n,post_wave_n,pre_priority_gov_trust_outcome_n,same_plus_post_economy_n,all_three_with_economy_measured_before_vote
+2014,named_vote,2019,1532,1333,1315,False
+2014,named_vote_or_explicit_nonvote_in_either_item,2019,1532,1395,1375,False
+2014,named_vote_or_turnout_item_nonvote,2019,1532,1394,1374,False

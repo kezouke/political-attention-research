@@ -1,0 +1,32 @@
+year,variable,concept,timing,n,valid_n,source_label
+2006,V041,first_national_problem,pre_election,2806,2512,Most important national problem - first answer
+2006,V070,government_policy_effect_on_economy,pre_election,2806,2711,Effect government policy on economic situation
+2006,V073,government_satisfaction,pre_election,2806,2766,General satisfaction with government
+2006,V081,named_party_intention,pre_election,2806,1569,Vote intention 2006 parliamentary elections
+2006,V512,named_party_vote,post_election,2806,2310,Party voted for in 2006 parliamentary elections
+2006,V740,mps_do_not_care,post_election,2806,2450,MPs do not care about opinions of people like me
+2006,V741,parties_only_want_vote,post_election,2806,2457,Parties are only interested in my vote and not in my opinion
+2006,V751,ministers_self_interested,post_election,2806,2434,Ministers and junior-ministers are primarily self-interested
+2006,V895,trust_parliament,post_election_dropoff,2806,1840,Trust in parliament
+2006,V930,politicians_honest,post_election_dropoff,2806,1839,Politicians are honest
+2006,V931,politicians_profiteers,post_election_dropoff,2806,1838,Politicians are profiteers
+2010,V041,first_national_problem,pre_election,2621,2407,Most important national problem (first answer)
+2010,V070,government_policy_effect_on_economy,pre_election,2621,2486,Effect government policy on economic situation
+2010,V073,government_satisfaction,pre_election,2621,2583,General satisfaction with government
+2010,V081,named_party_intention,pre_election,2621,1382,Vote intention 2010 parliamentary elections
+2010,V512,named_party_vote,post_election,2621,2025,Party voted for in 2010 parliamentary elections
+2010,V741,parties_only_want_vote,post_election,2621,2210,Parties are only interested in my vote and not in my opinion
+2010,V753,politicians_honest,post_election,2621,2146,Politicians are honest
+2010,V754,politicians_profiteers,post_election,2621,2136,Politicians are profiteers
+2010,V806,trust_parliament,post_election,2621,2123,Trust: National Parliament
+2010,V811,trust_parties,post_election,2621,2116,Trust: Political parties
+2010,V820,national_economy_past_12_months,post_election,2621,2129,Evaluation economic situation in the Netherlands: past twelve months
+2010,V823,household_economy_past_12_months,post_election,2621,2144,Evaluation financial situation own household: past twelve months
+2012,V071,first_national_problem,post_election,1677,1647,Most important national problem 1st (code)
+2012,V090,government_policy_effect_on_economy,post_election,1677,1623,Effect government policy on economic situation
+2012,V093,government_satisfaction,post_election,1677,1663,General satisfaction with government
+2012,V212,named_party_vote,post_election,1677,1416,Party voted for in 2012 parliamentary elections
+2012,V241,parties_only_want_vote,post_election,1677,1666,Parties are only interested in my vote and not in my opinion
+2012,V311,national_economy_past_12_months,post_election,1677,1659,"Evaluation economic situation in the Netherlands, past twelve months"
+2012,V446,trust_parliament,post_election_dropoff,1677,1448,Trust: National Parliament
+2012,V451,trust_parties,post_election_dropoff,1677,1439,Trust: Political parties

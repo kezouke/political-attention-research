@@ -1,0 +1,352 @@
+country,country_code,variable,concept,n,valid_n
+Austria,1040,q1,first_national_problem,1000,956
+Austria,1040,q4,party_best_on_first_problem,1000,810
+Austria,1040,q25,ep_named_party_vote,1000,603
+Austria,1040,q27,recalled_last_national_named_party_vote,1000,764
+Austria,1040,q28,hypothetical_national_named_party_intention,1000,665
+Austria,1040,q29,national_government_economic_responsibility,1000,964
+Austria,1040,q30,eu_economic_responsibility,1000,957
+Austria,1040,q41,trust_eu_institutions,1000,983
+Austria,1040,q44,national_parliament_responsiveness,1000,971
+Austria,1040,q48,national_economy_retrospective,1000,984
+Austria,1040,q68,national_government_policy_economic_effect,1000,894
+Austria,1040,q84,satisfaction_national_democracy,1000,990
+Austria,1040,q86,national_government_approval,1000,932
+Belgium,1056,q1,first_national_problem,1002,770
+Belgium,1056,q4,party_best_on_first_problem,1002,632
+Belgium,1056,q25,ep_named_party_vote,1002,692
+Belgium,1056,q27,recalled_last_national_named_party_vote,1002,656
+Belgium,1056,q28,hypothetical_national_named_party_intention,1002,682
+Belgium,1056,q29,national_government_economic_responsibility,1002,952
+Belgium,1056,q30,eu_economic_responsibility,1002,936
+Belgium,1056,q41,trust_eu_institutions,1002,950
+Belgium,1056,q44,national_parliament_responsiveness,1002,920
+Belgium,1056,q48,national_economy_retrospective,1002,984
+Belgium,1056,q68,national_government_policy_economic_effect,1002,895
+Belgium,1056,q84,satisfaction_national_democracy,1002,971
+Belgium,1056,q86,national_government_approval,1002,842
+Bulgaria,1100,q1,first_national_problem,1000,904
+Bulgaria,1100,q4,party_best_on_first_problem,1000,696
+Bulgaria,1100,q25,ep_named_party_vote,1000,444
+Bulgaria,1100,q27,recalled_last_national_named_party_vote,1000,553
+Bulgaria,1100,q28,hypothetical_national_named_party_intention,1000,618
+Bulgaria,1100,q29,national_government_economic_responsibility,1000,936
+Bulgaria,1100,q30,eu_economic_responsibility,1000,845
+Bulgaria,1100,q41,trust_eu_institutions,1000,936
+Bulgaria,1100,q44,national_parliament_responsiveness,1000,960
+Bulgaria,1100,q48,national_economy_retrospective,1000,961
+Bulgaria,1100,q68,national_government_policy_economic_effect,1000,844
+Bulgaria,1100,q84,satisfaction_national_democracy,1000,964
+Bulgaria,1100,q86,national_government_approval,1000,900
+Cyprus,1196,q1,first_national_problem,1000,987
+Cyprus,1196,q4,party_best_on_first_problem,1000,0
+Cyprus,1196,q25,ep_named_party_vote,1000,683
+Cyprus,1196,q27,recalled_last_national_named_party_vote,1000,758
+Cyprus,1196,q28,hypothetical_national_named_party_intention,1000,704
+Cyprus,1196,q29,national_government_economic_responsibility,1000,963
+Cyprus,1196,q30,eu_economic_responsibility,1000,935
+Cyprus,1196,q41,trust_eu_institutions,1000,971
+Cyprus,1196,q44,national_parliament_responsiveness,1000,954
+Cyprus,1196,q48,national_economy_retrospective,1000,988
+Cyprus,1196,q68,national_government_policy_economic_effect,1000,903
+Cyprus,1196,q84,satisfaction_national_democracy,1000,992
+Cyprus,1196,q86,national_government_approval,1000,922
+Czech Republic,1203,q1,first_national_problem,1020,939
+Czech Republic,1203,q4,party_best_on_first_problem,1020,713
+Czech Republic,1203,q25,ep_named_party_vote,1020,422
+Czech Republic,1203,q27,recalled_last_national_named_party_vote,1020,661
+Czech Republic,1203,q28,hypothetical_national_named_party_intention,1020,633
+Czech Republic,1203,q29,national_government_economic_responsibility,1020,982
+Czech Republic,1203,q30,eu_economic_responsibility,1020,949
+Czech Republic,1203,q41,trust_eu_institutions,1020,980
+Czech Republic,1203,q44,national_parliament_responsiveness,1020,983
+Czech Republic,1203,q48,national_economy_retrospective,1020,1001
+Czech Republic,1203,q68,national_government_policy_economic_effect,1020,928
+Czech Republic,1203,q84,satisfaction_national_democracy,1020,987
+Czech Republic,1203,q86,national_government_approval,1020,850
+Denmark,1208,q1,first_national_problem,1000,940
+Denmark,1208,q4,party_best_on_first_problem,1000,838
+Denmark,1208,q25,ep_named_party_vote,1000,850
+Denmark,1208,q27,recalled_last_national_named_party_vote,1000,901
+Denmark,1208,q28,hypothetical_national_named_party_intention,1000,872
+Denmark,1208,q29,national_government_economic_responsibility,1000,988
+Denmark,1208,q30,eu_economic_responsibility,1000,961
+Denmark,1208,q41,trust_eu_institutions,1000,979
+Denmark,1208,q44,national_parliament_responsiveness,1000,992
+Denmark,1208,q48,national_economy_retrospective,1000,991
+Denmark,1208,q68,national_government_policy_economic_effect,1000,927
+Denmark,1208,q84,satisfaction_national_democracy,1000,999
+Denmark,1208,q86,national_government_approval,1000,963
+Estonia,1233,q1,first_national_problem,1007,976
+Estonia,1233,q4,party_best_on_first_problem,1007,763
+Estonia,1233,q25,ep_named_party_vote,1007,469
+Estonia,1233,q27,recalled_last_national_named_party_vote,1007,636
+Estonia,1233,q28,hypothetical_national_named_party_intention,1007,633
+Estonia,1233,q29,national_government_economic_responsibility,1007,978
+Estonia,1233,q30,eu_economic_responsibility,1007,891
+Estonia,1233,q41,trust_eu_institutions,1007,926
+Estonia,1233,q44,national_parliament_responsiveness,1007,970
+Estonia,1233,q48,national_economy_retrospective,1007,1003
+Estonia,1233,q68,national_government_policy_economic_effect,1007,915
+Estonia,1233,q84,satisfaction_national_democracy,1007,955
+Estonia,1233,q86,national_government_approval,1007,939
+Finland,1246,q1,first_national_problem,1000,945
+Finland,1246,q4,party_best_on_first_problem,1000,667
+Finland,1246,q25,ep_named_party_vote,1000,589
+Finland,1246,q27,recalled_last_national_named_party_vote,1000,754
+Finland,1246,q28,hypothetical_national_named_party_intention,1000,715
+Finland,1246,q29,national_government_economic_responsibility,1000,994
+Finland,1246,q30,eu_economic_responsibility,1000,968
+Finland,1246,q41,trust_eu_institutions,1000,964
+Finland,1246,q44,national_parliament_responsiveness,1000,990
+Finland,1246,q48,national_economy_retrospective,1000,998
+Finland,1246,q68,national_government_policy_economic_effect,1000,930
+Finland,1246,q84,satisfaction_national_democracy,1000,996
+Finland,1246,q86,national_government_approval,1000,921
+France,1250,q1,first_national_problem,1000,975
+France,1250,q4,party_best_on_first_problem,1000,815
+France,1250,q25,ep_named_party_vote,1000,458
+France,1250,q27,recalled_last_national_named_party_vote,1000,590
+France,1250,q28,hypothetical_national_named_party_intention,1000,514
+France,1250,q29,national_government_economic_responsibility,1000,968
+France,1250,q30,eu_economic_responsibility,1000,929
+France,1250,q41,trust_eu_institutions,1000,976
+France,1250,q44,national_parliament_responsiveness,1000,975
+France,1250,q48,national_economy_retrospective,1000,996
+France,1250,q68,national_government_policy_economic_effect,1000,920
+France,1250,q84,satisfaction_national_democracy,1000,991
+France,1250,q86,national_government_approval,1000,895
+Germany,1276,q1,first_national_problem,1004,973
+Germany,1276,q4,party_best_on_first_problem,1004,856
+Germany,1276,q25,ep_named_party_vote,1004,576
+Germany,1276,q27,recalled_last_national_named_party_vote,1004,710
+Germany,1276,q28,hypothetical_national_named_party_intention,1004,692
+Germany,1276,q29,national_government_economic_responsibility,1004,973
+Germany,1276,q30,eu_economic_responsibility,1004,968
+Germany,1276,q41,trust_eu_institutions,1004,993
+Germany,1276,q44,national_parliament_responsiveness,1004,988
+Germany,1276,q48,national_economy_retrospective,1004,1002
+Germany,1276,q68,national_government_policy_economic_effect,1004,929
+Germany,1276,q84,satisfaction_national_democracy,1004,996
+Germany,1276,q86,national_government_approval,1004,962
+Greece,1300,q1,first_national_problem,1000,992
+Greece,1300,q4,party_best_on_first_problem,1000,936
+Greece,1300,q25,ep_named_party_vote,1000,618
+Greece,1300,q27,recalled_last_national_named_party_vote,1000,796
+Greece,1300,q28,hypothetical_national_named_party_intention,1000,690
+Greece,1300,q29,national_government_economic_responsibility,1000,990
+Greece,1300,q30,eu_economic_responsibility,1000,972
+Greece,1300,q41,trust_eu_institutions,1000,980
+Greece,1300,q44,national_parliament_responsiveness,1000,985
+Greece,1300,q48,national_economy_retrospective,1000,993
+Greece,1300,q68,national_government_policy_economic_effect,1000,974
+Greece,1300,q84,satisfaction_national_democracy,1000,994
+Greece,1300,q86,national_government_approval,1000,976
+Hungary,1348,q1,first_national_problem,1005,975
+Hungary,1348,q4,party_best_on_first_problem,1005,819
+Hungary,1348,q25,ep_named_party_vote,1005,457
+Hungary,1348,q27,recalled_last_national_named_party_vote,1005,693
+Hungary,1348,q28,hypothetical_national_named_party_intention,1005,658
+Hungary,1348,q29,national_government_economic_responsibility,1005,987
+Hungary,1348,q30,eu_economic_responsibility,1005,930
+Hungary,1348,q41,trust_eu_institutions,1005,951
+Hungary,1348,q44,national_parliament_responsiveness,1005,980
+Hungary,1348,q48,national_economy_retrospective,1005,996
+Hungary,1348,q68,national_government_policy_economic_effect,1005,932
+Hungary,1348,q84,satisfaction_national_democracy,1005,976
+Hungary,1348,q86,national_government_approval,1005,941
+Ireland,1372,q1,first_national_problem,1001,981
+Ireland,1372,q4,party_best_on_first_problem,1001,826
+Ireland,1372,q25,ep_named_party_vote,1001,724
+Ireland,1372,q27,recalled_last_national_named_party_vote,1001,739
+Ireland,1372,q28,hypothetical_national_named_party_intention,1001,763
+Ireland,1372,q29,national_government_economic_responsibility,1001,987
+Ireland,1372,q30,eu_economic_responsibility,1001,965
+Ireland,1372,q41,trust_eu_institutions,1001,971
+Ireland,1372,q44,national_parliament_responsiveness,1001,991
+Ireland,1372,q48,national_economy_retrospective,1001,999
+Ireland,1372,q68,national_government_policy_economic_effect,1001,963
+Ireland,1372,q84,satisfaction_national_democracy,1001,984
+Ireland,1372,q86,national_government_approval,1001,958
+Italy,1380,q1,first_national_problem,1000,931
+Italy,1380,q4,party_best_on_first_problem,1000,770
+Italy,1380,q25,ep_named_party_vote,1000,564
+Italy,1380,q27,recalled_last_national_named_party_vote,1000,539
+Italy,1380,q28,hypothetical_national_named_party_intention,1000,567
+Italy,1380,q29,national_government_economic_responsibility,1000,942
+Italy,1380,q30,eu_economic_responsibility,1000,891
+Italy,1380,q41,trust_eu_institutions,1000,958
+Italy,1380,q44,national_parliament_responsiveness,1000,957
+Italy,1380,q48,national_economy_retrospective,1000,988
+Italy,1380,q68,national_government_policy_economic_effect,1000,875
+Italy,1380,q84,satisfaction_national_democracy,1000,977
+Italy,1380,q86,national_government_approval,1000,845
+Latvia,1428,q1,first_national_problem,1001,995
+Latvia,1428,q4,party_best_on_first_problem,1001,773
+Latvia,1428,q25,ep_named_party_vote,1001,626
+Latvia,1428,q27,recalled_last_national_named_party_vote,1001,560
+Latvia,1428,q28,hypothetical_national_named_party_intention,1001,567
+Latvia,1428,q29,national_government_economic_responsibility,1001,993
+Latvia,1428,q30,eu_economic_responsibility,1001,920
+Latvia,1428,q41,trust_eu_institutions,1001,919
+Latvia,1428,q44,national_parliament_responsiveness,1001,973
+Latvia,1428,q48,national_economy_retrospective,1001,997
+Latvia,1428,q68,national_government_policy_economic_effect,1001,961
+Latvia,1428,q84,satisfaction_national_democracy,1001,956
+Latvia,1428,q86,national_government_approval,1001,942
+Lithuania,1440,q1,first_national_problem,1000,958
+Lithuania,1440,q4,party_best_on_first_problem,1000,673
+Lithuania,1440,q25,ep_named_party_vote,1000,349
+Lithuania,1440,q27,recalled_last_national_named_party_vote,1000,564
+Lithuania,1440,q28,hypothetical_national_named_party_intention,1000,448
+Lithuania,1440,q29,national_government_economic_responsibility,1000,954
+Lithuania,1440,q30,eu_economic_responsibility,1000,895
+Lithuania,1440,q41,trust_eu_institutions,1000,930
+Lithuania,1440,q44,national_parliament_responsiveness,1000,967
+Lithuania,1440,q48,national_economy_retrospective,1000,995
+Lithuania,1440,q68,national_government_policy_economic_effect,1000,914
+Lithuania,1440,q84,satisfaction_national_democracy,1000,955
+Lithuania,1440,q86,national_government_approval,1000,909
+Luxembourg,1442,q1,first_national_problem,1001,951
+Luxembourg,1442,q4,party_best_on_first_problem,1001,814
+Luxembourg,1442,q25,ep_named_party_vote,1001,625
+Luxembourg,1442,q27,recalled_last_national_named_party_vote,1001,578
+Luxembourg,1442,q28,hypothetical_national_named_party_intention,1001,641
+Luxembourg,1442,q29,national_government_economic_responsibility,1001,974
+Luxembourg,1442,q30,eu_economic_responsibility,1001,937
+Luxembourg,1442,q41,trust_eu_institutions,1001,988
+Luxembourg,1442,q44,national_parliament_responsiveness,1001,973
+Luxembourg,1442,q48,national_economy_retrospective,1001,995
+Luxembourg,1442,q68,national_government_policy_economic_effect,1001,947
+Luxembourg,1442,q84,satisfaction_national_democracy,1001,990
+Luxembourg,1442,q86,national_government_approval,1001,938
+Malta,1470,q1,first_national_problem,1000,918
+Malta,1470,q4,party_best_on_first_problem,1000,687
+Malta,1470,q25,ep_named_party_vote,1000,557
+Malta,1470,q27,recalled_last_national_named_party_vote,1000,601
+Malta,1470,q28,hypothetical_national_named_party_intention,1000,543
+Malta,1470,q29,national_government_economic_responsibility,1000,922
+Malta,1470,q30,eu_economic_responsibility,1000,872
+Malta,1470,q41,trust_eu_institutions,1000,878
+Malta,1470,q44,national_parliament_responsiveness,1000,907
+Malta,1470,q48,national_economy_retrospective,1000,969
+Malta,1470,q68,national_government_policy_economic_effect,1000,789
+Malta,1470,q84,satisfaction_national_democracy,1000,929
+Malta,1470,q86,national_government_approval,1000,807
+The Netherlands,1528,q1,first_national_problem,1005,942
+The Netherlands,1528,q4,party_best_on_first_problem,1005,787
+The Netherlands,1528,q25,ep_named_party_vote,1005,645
+The Netherlands,1528,q27,recalled_last_national_named_party_vote,1005,865
+The Netherlands,1528,q28,hypothetical_national_named_party_intention,1005,810
+The Netherlands,1528,q29,national_government_economic_responsibility,1005,998
+The Netherlands,1528,q30,eu_economic_responsibility,1005,981
+The Netherlands,1528,q41,trust_eu_institutions,1005,982
+The Netherlands,1528,q44,national_parliament_responsiveness,1005,993
+The Netherlands,1528,q48,national_economy_retrospective,1005,995
+The Netherlands,1528,q68,national_government_policy_economic_effect,1005,952
+The Netherlands,1528,q84,satisfaction_national_democracy,1005,1002
+The Netherlands,1528,q86,national_government_approval,1005,925
+Poland,1616,q1,first_national_problem,1002,906
+Poland,1616,q4,party_best_on_first_problem,1002,727
+Poland,1616,q25,ep_named_party_vote,1002,417
+Poland,1616,q27,recalled_last_national_named_party_vote,1002,616
+Poland,1616,q28,hypothetical_national_named_party_intention,1002,592
+Poland,1616,q29,national_government_economic_responsibility,1002,981
+Poland,1616,q30,eu_economic_responsibility,1002,928
+Poland,1616,q41,trust_eu_institutions,1002,956
+Poland,1616,q44,national_parliament_responsiveness,1002,956
+Poland,1616,q48,national_economy_retrospective,1002,988
+Poland,1616,q68,national_government_policy_economic_effect,1002,887
+Poland,1616,q84,satisfaction_national_democracy,1002,959
+Poland,1616,q86,national_government_approval,1002,863
+Portugal,1620,q1,first_national_problem,1000,989
+Portugal,1620,q4,party_best_on_first_problem,1000,835
+Portugal,1620,q25,ep_named_party_vote,1000,450
+Portugal,1620,q27,recalled_last_national_named_party_vote,1000,626
+Portugal,1620,q28,hypothetical_national_named_party_intention,1000,628
+Portugal,1620,q29,national_government_economic_responsibility,1000,968
+Portugal,1620,q30,eu_economic_responsibility,1000,923
+Portugal,1620,q41,trust_eu_institutions,1000,946
+Portugal,1620,q44,national_parliament_responsiveness,1000,927
+Portugal,1620,q48,national_economy_retrospective,1000,993
+Portugal,1620,q68,national_government_policy_economic_effect,1000,874
+Portugal,1620,q84,satisfaction_national_democracy,1000,985
+Portugal,1620,q86,national_government_approval,1000,836
+Romania,1642,q1,first_national_problem,1003,945
+Romania,1642,q4,party_best_on_first_problem,1003,786
+Romania,1642,q25,ep_named_party_vote,1003,442
+Romania,1642,q27,recalled_last_national_named_party_vote,1003,633
+Romania,1642,q28,hypothetical_national_named_party_intention,1003,628
+Romania,1642,q29,national_government_economic_responsibility,1003,936
+Romania,1642,q30,eu_economic_responsibility,1003,866
+Romania,1642,q41,trust_eu_institutions,1003,924
+Romania,1642,q44,national_parliament_responsiveness,1003,938
+Romania,1642,q48,national_economy_retrospective,1003,987
+Romania,1642,q68,national_government_policy_economic_effect,1003,866
+Romania,1642,q84,satisfaction_national_democracy,1003,956
+Romania,1642,q86,national_government_approval,1003,851
+Slovakia,1703,q1,first_national_problem,1016,951
+Slovakia,1703,q4,party_best_on_first_problem,1016,773
+Slovakia,1703,q25,ep_named_party_vote,1016,403
+Slovakia,1703,q27,recalled_last_national_named_party_vote,1016,705
+Slovakia,1703,q28,hypothetical_national_named_party_intention,1016,696
+Slovakia,1703,q29,national_government_economic_responsibility,1016,983
+Slovakia,1703,q30,eu_economic_responsibility,1016,949
+Slovakia,1703,q41,trust_eu_institutions,1016,967
+Slovakia,1703,q44,national_parliament_responsiveness,1016,975
+Slovakia,1703,q48,national_economy_retrospective,1016,1009
+Slovakia,1703,q68,national_government_policy_economic_effect,1016,902
+Slovakia,1703,q84,satisfaction_national_democracy,1016,991
+Slovakia,1703,q86,national_government_approval,1016,854
+Slovenia,1705,q1,first_national_problem,1000,968
+Slovenia,1705,q4,party_best_on_first_problem,1000,768
+Slovenia,1705,q25,ep_named_party_vote,1000,553
+Slovenia,1705,q27,recalled_last_national_named_party_vote,1000,760
+Slovenia,1705,q28,hypothetical_national_named_party_intention,1000,716
+Slovenia,1705,q29,national_government_economic_responsibility,1000,985
+Slovenia,1705,q30,eu_economic_responsibility,1000,951
+Slovenia,1705,q41,trust_eu_institutions,1000,979
+Slovenia,1705,q44,national_parliament_responsiveness,1000,976
+Slovenia,1705,q48,national_economy_retrospective,1000,990
+Slovenia,1705,q68,national_government_policy_economic_effect,1000,926
+Slovenia,1705,q84,satisfaction_national_democracy,1000,983
+Slovenia,1705,q86,national_government_approval,1000,955
+Spain,1724,q1,first_national_problem,1000,997
+Spain,1724,q4,party_best_on_first_problem,1000,748
+Spain,1724,q25,ep_named_party_vote,1000,488
+Spain,1724,q27,recalled_last_national_named_party_vote,1000,728
+Spain,1724,q28,hypothetical_national_named_party_intention,1000,681
+Spain,1724,q29,national_government_economic_responsibility,1000,991
+Spain,1724,q30,eu_economic_responsibility,1000,954
+Spain,1724,q41,trust_eu_institutions,1000,976
+Spain,1724,q44,national_parliament_responsiveness,1000,966
+Spain,1724,q48,national_economy_retrospective,1000,998
+Spain,1724,q68,national_government_policy_economic_effect,1000,933
+Spain,1724,q84,satisfaction_national_democracy,1000,995
+Spain,1724,q86,national_government_approval,1000,955
+Sweden,1752,q1,first_national_problem,1002,935
+Sweden,1752,q4,party_best_on_first_problem,1002,812
+Sweden,1752,q25,ep_named_party_vote,1002,765
+Sweden,1752,q27,recalled_last_national_named_party_vote,1002,868
+Sweden,1752,q28,hypothetical_national_named_party_intention,1002,791
+Sweden,1752,q29,national_government_economic_responsibility,1002,988
+Sweden,1752,q30,eu_economic_responsibility,1002,951
+Sweden,1752,q41,trust_eu_institutions,1002,981
+Sweden,1752,q44,national_parliament_responsiveness,1002,983
+Sweden,1752,q48,national_economy_retrospective,1002,992
+Sweden,1752,q68,national_government_policy_economic_effect,1002,911
+Sweden,1752,q84,satisfaction_national_democracy,1002,991
+Sweden,1752,q86,national_government_approval,1002,951
+United Kingdom,1826,q1,first_national_problem,1000,964
+United Kingdom,1826,q4,party_best_on_first_problem,1000,798
+United Kingdom,1826,q25,ep_named_party_vote,1000,444
+United Kingdom,1826,q27,recalled_last_national_named_party_vote,1000,733
+United Kingdom,1826,q28,hypothetical_national_named_party_intention,1000,691
+United Kingdom,1826,q29,national_government_economic_responsibility,1000,987
+United Kingdom,1826,q30,eu_economic_responsibility,1000,955
+United Kingdom,1826,q41,trust_eu_institutions,1000,968
+United Kingdom,1826,q44,national_parliament_responsiveness,1000,992
+United Kingdom,1826,q48,national_economy_retrospective,1000,997
+United Kingdom,1826,q68,national_government_policy_economic_effect,1000,951
+United Kingdom,1826,q84,satisfaction_national_democracy,1000,993
+United Kingdom,1826,q86,national_government_approval,1000,953

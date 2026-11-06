@@ -1,0 +1,1357 @@
+dataset,variable,label
+pes_2005,Freg,Freguesia
+pes_2005,Reg,Região
+pes_2005,Dim,Dimensão
+pes_2005,Sexo,Sexo
+pes_2005,p1,Qual foi o problema mais importante com que Portugal se deparou nos últimos 3 anos?
+pes_2005,p2,"Pensando no problema que apontou, como avaliaria o trabalho feito pelo governo de Durão Barroso entre Março de 2002 e Junho de 2004?"
+pes_2005,p3,E como avaliaria o trabalho feito pelo governo de Pedro Santana Lopes entre Julho de 2004 e Fevereiro de 2005?
+pes_2005,p4,"Pensando no desempenho geral do governo de Durão Barroso, como avaliaria o trabalho desse governo?"
+pes_2005,p5,"Pensando no desempenho geral do governo de Pedro Santana Lopes, como avaliaria o trabalho desse governo?"
+pes_2005,p6.1,Em que medida concorda com as seguintes frases?
+pes_2005,p6.2,Em que medida concorda com as seguintes frases?
+pes_2005,p6.3,Em que medida concorda com as seguintes frases?
+pes_2005,p6.4,Em que medida concorda com as seguintes frases?
+pes_2005,p6.5,Em que medida concorda com as seguintes frases?
+pes_2005,p6.6,Em que medida concorda com as seguintes frases?
+pes_2005,p6.7,Em que medida concorda com as seguintes frases?
+pes_2005,p6.8,Em que medida concorda com as seguintes frases?
+pes_2005,p6.9,Em que medida concorda com as seguintes frases?
+pes_2005,p6.10,Em que medida concorda com as seguintes frases?
+pes_2005,p6.11,Em que medida concorda com as seguintes frases?
+pes_2005,p6.12,Em que medida concorda com as seguintes frases?
+pes_2005,p6.13,Em que medida concorda com as seguintes frases?
+pes_2005,p6.14,Em que medida concorda com as seguintes frases?
+pes_2005,p6.15,Em que medida concorda com as seguintes frases?
+pes_2005,p6.16,Em que medida concorda com as seguintes frases?
+pes_2005,p6.17,Em que medida concorda com as seguintes frases?
+pes_2005,p6.18,Em que medida concorda com as seguintes frases?
+pes_2005,p6.19,Em que medida concorda com as seguintes frases?
+pes_2005,p7,"Na sua opinião, o equilíbrio das contas públicas deve ter maior ou menor prioridade do que o crescimento económico?"
+pes_2005,p8,"Na sua opinião, deve ou não reduzir-se o papel do estado na sociedade e na economia?"
+pes_2005,p9.1,Qual dos seguintes objectivos consideraria o mais importante para Portugal alcançar nos próximos 10 anos?
+pes_2005,p9.2,E qual seria o segundo mais importante?
+pes_2005,p10.1,A democracia pode ter problemas mas é melhor do que qualquer outro regime político
+pes_2005,p10.2,"Em geral, os homens dão melhores líderes políticos do que as mulheres"
+pes_2005,p10.3,"Para mim, é muito importante a formação de um governo com maioria absoluta de um só partido"
+pes_2005,p11.1,Atributos da democracia: Liberdade de criticar o governo
+pes_2005,p11.2,Atributos da democracia: Empregos para todos
+pes_2005,p11.3,Atributos da democracia: Eleições livres e justas
+pes_2005,p11.4,Atributos da democracia: Menos disparidades entre ricos e pobres em termos de rendimento
+pes_2005,p12.1,As pessoas como eu não têm nenhuma influência naquilo que o governo faz
+pes_2005,p12.2,"Geralmente, a política parece ser tão complicada que as pessoas como eu não conseguem perceber o que se está a passar"
+pes_2005,p12.3,Os políticos não se importam muito com aquilo que pensam pessoas como eu
+pes_2005,p13.1,Sem partidos políticos não pode haver democracia
+pes_2005,p13.2,"Todos os grupos devem ter o direito de participar nas eleições, por muito que as suas opiniões nos desagradem, desde que respeitem a lei"
+pes_2005,p13.3,Os partidos políticos apenas servem para dividir as pessoas
+pes_2005,p14,"De um modo geral, está muito, razoavelmente, não muito ou nada satisfeito com o modo como funciona a democracia em Portugal?"
+pes_2005,p15,"Utilizando uma escala, em que 1 significa que faz uma grande diferença quem está no poder e 5 significa que não faz qualquer diferença, onde se posiciona?"
+pes_2005,p16,Utilizando uma escala de 1 a 5 onde se posicionaria a si próprio?
+pes_2005,p17,"Teve muito, algum, pouco ou nenhum interesse em seguir a campanha eleitoral para estas últimas eleições?"
+pes_2005,p18,"De um modo geral, qual é o seu interesse pela política?"
+pes_2005,p19,"Durante a campanha eleitoral, qual a frequência com que acompanhou as notícias sobre política nos jornais ou revistas?"
+pes_2005,p19A,"Durante a campanha eleitoral, qual o jornal ou revista que leu com mais frequência?"
+pes_2005,p19B,Considera que esse jornal ou revista favorecia um partido político específico?
+pes_2005,p19C,Que partido político?
+pes_2005,p20,"Durante a campanha eleitoral, qual a frequência com que acompanhou as notícias sobre política na rádio?"
+pes_2005,p20A,Qual a estação de rádio em que seguiu mais frequentemente as notícias?
+pes_2005,p20B,Considera que essa estação de rádio favorecia algum partido político específico?
+pes_2005,p20C,Que partido político?
+pes_2005,p21,"Durante a campanha eleitoral, qual a frequência com que acompanhou as notícias sobre política na televisão?"
+pes_2005,p21A,"Na televisão, qual foi o noticiário que viu com mais frequência?"
+pes_2005,p21B,Considera que esse noticiário favorecia um partido político específico?
+pes_2005,p21C,Que partido político?
+pes_2005,p22,"Ao todo, dos debates televisivos que houve entre líderes partidários, quantos viu ou ouviu?"
+pes_2005,p23,"Na sua opinião, qual dos líderes partidários teve melhor desempenho nesse(s) debate(s)?"
+pes_2005,p24,"Em relação às últimas eleições, qual das seguintes situações é adequada ao seu caso?"
+pes_2005,p25,Importa-se de me dizer em que partido/coligação votou?
+pes_2005,p26,"Nestas eleições, quando é que decidiu em que partido ia votar?"
+pes_2005,p27,"A partir da seguinte lista, gostaria que me dissesse o principal motivo porque não votou nas últimas eleições"
+pes_2005,p28,"Qual a frequência com que costuma discutir política e as notícias da actualidade com familiares, amigos ou colegas de trabalho?"
+pes_2005,p29,"Pensando no governo de Durão Barroso, como avalia em geral o trabalho desse governo na área da Economia e Finanças Públicas?"
+pes_2005,p30,E como avalia o trabalho do governo de Durão Barroso na área das Políticas Sociais?
+pes_2005,p31,E como avalia o trabalho do governo de Durão Barroso na área da Defesa e dos Negócios Estrangeiros?
+pes_2005,p32,E como avalia o trabalho do governo de Durão Barroso na área da Justiça e da Administração Interna?
+pes_2005,p33,Como avalia o trabalho do Primeiro Ministro Durão Barroso em termos da coordenação política do governo?
+pes_2005,p34,"Pensando no governo de Santana Lopes, como avalia em geral o trabalho desse governo na área da Economia e Finanças Públicas?"
+pes_2005,p35,E como avalia o trabalho do governo de Santana Lopes na área das Políticas Sociais?
+pes_2005,p36,E como avalia o trabalho do governo de Santana Lopes na área da Defesa e dos Negócios Estrangeiros?
+pes_2005,p37,E como avalia o trabalho do governo de Santana Lopes na área da Justiça e da Administração Interna?
+pes_2005,p38,Como avalia o trabalho do Primeiro Ministro Santana Lopes em termos da coordenação política do governo?
+pes_2005,p39.1,Sindicatos
+pes_2005,p39.2,Associações profissionais
+pes_2005,p39.3,Organizações religiosas ou ligadas à Igreja
+pes_2005,p39.4,Partidos ou grupos políticos
+pes_2005,p39.5,"Grupos educacionais, artísticos ou culturais"
+pes_2005,p39.6,Grupos ambientalistas
+pes_2005,p39.7,"Grupos sociais de jovens, mulheres ou idosos"
+pes_2005,p39.8,Clubes desportivos
+pes_2005,p39.9,Organizações feministas
+pes_2005,p39.10,Associações locais
+pes_2005,p39.11,Organizações de pais
+pes_2005,p39.12,Associações étnicas
+pes_2005,p39.13,Organizações de agricultores
+pes_2005,p39.14,Associações de veteranos de guerra
+pes_2005,p39.15,Confrarias
+pes_2005,p39.16,Associações empresariais
+pes_2005,p39.17,Outra
+pes_2005,p39A,"Das organizações a que pertence, qual é a mais importante para si?"
+pes_2005,p39B,"No caso da organização a que pertence/que considera mais importante para si, com que frequência participa em reuniões e noutras actividades nessa organização?"
+pes_2005,p39C,Recebeu dessa organização alguma informação sobre a recente campanha eleitoral?
+pes_2005,p39D1,Media (Rádio/TV/Jornais)
+pes_2005,p39D2,Correio
+pes_2005,p39D3,Telefone
+pes_2005,p39D4,Correio Electrónico
+pes_2005,p39D5,Contacto pessoal
+pes_2005,p39D6,Não sabe
+pes_2005,p39D7,Não responde
+pes_2005,p39E,Essa organização apoiou algum partido político nas últimas eleições?
+pes_2005,p39F,Qual o partido que a organização apoiou?
+pes_2005,p40,Há alguma pessoa do seu agregado que pertença a um sindicato?
+pes_2005,p41,"Durante a última campanha eleitoral, foi contactado por algum candidato ou membro de um partido político, para convence-lo a votar nesse partido?"
+pes_2005,p42,"Nas últimas eleições, falou com outras pessoas de forma a convencê-las a votar num partido em particular?"
+pes_2005,p42A,Com que frequência?
+pes_2005,p43.1,"Participou em algumas reuniões ou comícios? ""Não."""
+pes_2005,p43.2,"Sim, do Bloco de Esquerda"
+pes_2005,p43.3,"Sim, da CDU (PCP/PEV)"
+pes_2005,p43.4,"Sim, do CDS-PP"
+pes_2005,p43.5,"Sim, do PPD-PSD"
+pes_2005,p43.6,"Sim, do PS"
+pes_2005,p43.7,"Sim, de outro partido"
+pes_2005,p43.8,Não sabe
+pes_2005,p43.9,Não responde
+pes_2005,p44,Trabalhou para algum partido durante a campanha eleitoral?
+pes_2005,p45,Contribuiu financeiramente para algum partido durante a campanha?
+pes_2005,p46,"Em relação às Legislativas de 2002, qual das seguintes situações é adequada ao seu caso?"
+pes_2005,p47,Importa-se de me dizer em que partido/coligação votou nessas eleições legislativas de 2002?
+pes_2005,p48,Como avalia o desempenho do partido em que votou ao longo destes últimos 3 anos?
+pes_2005,p49,Votou nas eleições Europeias de 2004?
+pes_2005,p50,Importa-se de me dizer em que partido/coligação votou nas eleições europeias de 2004?
+pes_2005,p51,Em que medida acha que as opiniões dos deputados reflectem as opiniões dos votantes?
+pes_2005,p52,Diria que algum dos partidos políticos em Portugal representa as suas opiniões razoavelmente bem?
+pes_2005,p52A,Qual é o partido que melhor representa as suas opiniões?
+pes_2005,p53,Diria que algum dos líderes políticos que concorreram nas últimas eleições representa as suas opiniões razoavelmente bem?
+pes_2005,p53A,Importa-se de dizer qual é esse líder político?
+pes_2005,p54,Considera-se próximo de um partido político em particular?
+pes_2005,p54A1,1º Partido mencionado
+pes_2005,p54A2,2º Partido mencionado
+pes_2005,p54A3,3º Partido mencionado
+pes_2005,p54AA1,1º Partido mencionado
+pes_2005,p54AA2,2º Partido mencionado
+pes_2005,p54B,"E entre esses, qual o partido de que se considera mais próximo?"
+pes_2005,p54C,"Mas, considera-se um pouco mais próximo de um dos partidos políticos do que dos outros?"
+pes_2005,p54D,Importa-se de me dizer qual é esse partido?
+pes_2005,p54E,Sente-se muito ou razoavelmente próximo desse partido ou é meramente simpatizante?
+pes_2005,p55.1,Bloco de Esquerda
+pes_2005,p55.2,CDS-PP
+pes_2005,p55.3,CDU (PCP/PEV)
+pes_2005,p55.4,PPD-PSD
+pes_2005,p55.5,PS
+pes_2005,p56.1,Francisco Louçã
+pes_2005,p56.2,Jerónimo de Sousa
+pes_2005,p56.3,José Sócrates
+pes_2005,p56.4,Paulo Portas
+pes_2005,p56.5,Pedro Santana Lopes
+pes_2005,p57.1,Pedro Santana Lopes é honesto
+pes_2005,p57.2,Pedro Santana Lopes é um líder que defende políticas responsáveis
+pes_2005,p57.3,Pedro Santana Lopes é um líder forte
+pes_2005,p57.4,Pedro Santana Lopes é um líder que toma decisões
+pes_2005,p57.5,Pedro Santana Lopes é um líder que sabe como fortalecer a economia
+pes_2005,p57.6,Pedro Santana Lopes é um líder que sabe como combater o desemprego
+pes_2005,p57.7,Pedro Santana Lopes é um líder carismático
+pes_2005,p57.8,Pedro Santana Lopes é um líder que fala bem
+pes_2005,p58.1,José Sócrates é honesto
+pes_2005,p58.2,José Sócrates é um líder que defende políticas responsáveis
+pes_2005,p58.3,José Sócrates é um líder forte
+pes_2005,p58.4,José Sócrates é um líder que toma decisões
+pes_2005,p58.5,José Sócrates é um líder que sabe como fortalecer a economia
+pes_2005,p58.6,José Sócrates é um líder que sabe como combater o desemprego
+pes_2005,p58.7,José Sócrates é um líder carismático
+pes_2005,p58.8,José Sócrates é um líder que fala bem
+pes_2005,p59.1,Posição esquerda-direita. Bloco de Esquerda
+pes_2005,p59.2,Posição esquerda-direita. CDS-PP
+pes_2005,p59.3,Posição esquerda-direita. CDU (PCP/PEV)
+pes_2005,p59.4,Posição esquerda-direita. PPD-PSD
+pes_2005,p59.5,Posição esquerda-direita. PS
+pes_2005,p60,O que pensa do estado da economia em Portugal?
+pes_2005,p61,"Na sua opinião, no último ano, o estado da economia em Portugal:"
+pes_2005,p62,O que pensa do seu nível de vida e do seu agregado familiar?
+pes_2005,p63,"Na sua opinião, no último ano, o seu nível de vida e o do seu agregado familiar:"
+pes_2005,p64,"Contactou um político ou funcionário do governo, quer pessoalmente ou por escrito, ou de outra forma?"
+pes_2005,p65,"Participou num protesto, numa marcha ou manifestação?"
+pes_2005,p66,Juntou-se a um grupo de pessoas que partilhavam uma mesma preocupação que o senhor?
+pes_2005,p67,"Na sua opinião, até que ponto pensa que a liberdade individual e os direitos humanos são respeitados hoje em dia em Portugal?"
+pes_2005,p68,"Na sua opinião, até que ponto pensa que certas práticas de corrupção se encontram difundidas entre os políticos portugueses?"
+pes_2005,p69,"Onde é que se posicionaria numa escala de 0 a 10, onde 0 significa esquerda e 10 direita?"
+pes_2005,p70,Lembra-se qual foi o partido mais votado nas eleições legislativas de 2002?
+pes_2005,p71,E lembra-se quem foi o Primeiro-Ministro antes de Durão Barroso?
+pes_2005,p72,E lembra-se quantos países entraram no último alargamento da União Europeia?
+pes_2005,p73,"Pensando na pessoa com quem fala mais frequentemente de assuntos que são importantes para si, qual é a relação dessa pessoa consigo?"
+pes_2005,p73A,Com que frequência falou com essa pessoa sobre as últimas eleições?
+pes_2005,p73B,Em que partido pensa que essa pessoa votou nas últimas eleições?
+pes_2005,p74,"Pensando noutra pessoa com quem fala frequentemente sobre assuntos que são importantes para si, qual a relação dessa pessoa consigo?"
+pes_2005,p74A,Com que frequência falou com essa pessoa sobre as últimas eleições?
+pes_2005,p74B,Em que partido pensa que essa pessoa votou nas últimas eleições?
+pes_2005,p75,"Durante a última campanha eleitoral, com que frequência leu, ouviu ou viu resultados de sondagens nos jornais, rádio ou TV?"
+pes_2005,d1,Actualmente está inscrito no recenseamento eleitoral?
+pes_2005,d1.1,"Se sim, qual é o distrito em que está inscrito?"
+pes_2005,d2,Idade
+pes_2005,d2Agr,Escalões etários
+pes_2005,d3,"Considerando algumas pessoas que a sociedade portuguesa está dividida em classes sociais, em que classe é que o senhor se incluiria?"
+pes_2005,d4,Qual foi o grau de escolaridade mais elevado que atingiu?
+pes_2005,d5,Qual é o seu estado civil actual?
+pes_2005,d6,Qual é a sua situação profissional actual?
+pes_2005,d7,Qual é a sua ocupação/actividade profissional principal?
+pes_2005,d8,"Pensando apenas na sua actividade principal, qual o sector em que trabalha?"
+pes_2005,d9,Qual é a situação profissional actual do seu cônjuge?
+pes_2005,d10,Qual é a ocupação/actividade profissional do seu cônjuge/companheiro?
+pes_2005,d11,"Pensando apenas na actividade principal do seu cônjuge, qual o sector em que trabalha o seu cônjuge?"
+pes_2005,d12,"Qual dos seguintes escalões corresponde ao rendimento do seu agregado familiar (médio, mensal, líquido)?"
+pes_2005,d13,"Contando consigo, quantas pessoas vivem em sua casa?"
+pes_2005,d14,Quantos menores vivem em sua casa?
+pes_2005,d15,"Considera-se uma pessoa muito, razoavelmente, pouco ou nada religiosa?"
+pes_2005,d16,Qual é a sua religião actualmente?
+pes_2005,d17,Com que frequência vai à igreja/local de culto?
+pes_2005,d18,"Durante os serviços religiosos ou sermões, o líder religioso do seu local de culto tendeu a favorecer um partido político específico?"
+pes_2005,d18A,(Se sim) Qual o partido político?
+pes_2005,e1,Raça do inquirido
+pes_2005,e2,Local de residência
+pes_2005,e3,Tipo de habitação
+pes_2005,e4,Tipo de zona habitacional
+pes_2005,e5,Considera que o inquirido está bem informado sobre política?
+pes_2005,Aceit,Aceitação
+pes_2005,Pront,Prontidão
+pes_2005,Inq,Inquérito
+pes_2005,pondvoto,Ponderador comportamento de voto
+pes_2005,ponsd,"Ponderador socio-demográfico:sexo, idade(18-34, 35-54, 55+) e instrução (básico ou menos, secundário, superior)"
+pes_2009,QUEST,Número de questionário
+pes_2009,ENTREVISTADOR,Entrevistador
+pes_2009,SERIE,Série
+pes_2009,LAR,Lar
+pes_2009,VERSAO,Versão do questionário
+pes_2009,TELEFONE,Telefone
+pes_2009,MORADA,Morada
+pes_2009,DATA,Data da entrevista
+pes_2009,H_INIC,Hora de início
+pes_2009,H_FIM,Hora de fim
+pes_2009,SUPERV,Supervisão
+pes_2009,AMOSTRA,Amostra
+pes_2009,LOCALIDADE,Localidade
+pes_2009,REGIAO,Região
+pes_2009,HABITAT,Habitat
+pes_2009,SEXO,Sexo
+pes_2009,P1_STRING,"Qual foi o assunto mais importante, para si pessoalmente, nestas eleições legislativas? (String)"
+pes_2009,P1,"Qual foi o assunto mais importante, para si pessoalmente, nestas eleições legislativas?"
+pes_2009,P2_STRING,"E qual foi o segundo assunto mais importante, para si pessoalmente, nestas eleições legislativas? (String)"
+pes_2009,P2,"E qual foi o segundo assunto mais importante, para si pessoalmente, nestas eleições legislativas?"
+pes_2009,P3_STRING,"Na sua opinião, qual é o problema político mais importante com o qual Portugal se depara actualmente? (String)"
+pes_2009,P3,"Na sua opinião, qual é o problema político mais importante com o qual Portugal se depara actualmente?"
+pes_2009,P4_STRING,"E qual é, na sua opinião, o segundo problema político mais importante, com o qual Portugal se depara actualmente? (String)"
+pes_2009,P4,"E qual é, na sua opinião, o segundo problema político mais importante, com o qual Portugal se depara actualmente?"
+pes_2009,P5,"Tendo em conta o problema referido na P3, que partido lhe parece estar em melhores condições para lidar com esse problema?"
+pes_2009,P6,"E tendo em conta o problema referido na P4, que partido lhe parece estar em melhores condições para lidar com esse problema?"
+pes_2009,P7,"Pensando no DESEMPENHO GERAL do governo de José Sócrates, como avaliaria o trabalho desse governo? Diria que o governo fez um trabalho… ?"
+pes_2009,P8_1,A - Devemos proteger o ambiente e tentar tornar mais belas as nossas cidades e as nossas zonas rurais VS B - Devemos apoiar o crescimento económico sem impor restrições ambientais às empresas
+pes_2009,P8_2,"A - Devemos melhorar os serviços públicos e a assistência social mesmo que isso implique um aumento dos impostos vs B - Devemos baixar os impostos, mesmo que para isso tenhamos de diminuir os serviços públicos e a assistência social"
+pes_2009,P8_3,A - Devia haver mais igualdade na distribuição dos rendimentos VS B - Devia haver mais incentivos à iniciativa individual
+pes_2009,P8_4,A - Devemos manter a lei e a ordem VS B - Devemos defender as liberdades cívicas
+pes_2009,P8_5,A - Devíamos privatizar as empresas públicas VS B - Devemos manter as empresas públicas
+pes_2009,P8_6,A - O aborto devia ser sempre ilegal VS B - O aborto deve permanecer legal
+pes_2009,P8_7,"A - O governo deve ser o principal responsável pelo bem-estar da população VS B - Na vida, as pessoas devem cuidar de si e ser responsáveis pelo seu próprio êxito"
+pes_2009,P8_8,A - É melhor para a sociedade os diferentes grupos raciais e étnicos manterem os seus próprios costumes e tradições VS B - É melhor que esses grupos se adaptem e integrem na sociedade em geral
+pes_2009,P8_9,A - O estado devia ser responsável pelas pensões/reformas de todos VS B - Cada pessoa devia ser responsável por garantir a sua pensão/reforma
+pes_2009,P8_10,A - O sistema de saúde nacional devia ser controlado pela iniciativa privada VS B -O sistema de saúde nacional devia ser controlado pelo estado
+pes_2009,P8_11,A - O sistema de ensino devia ser controlado pela iniciativa privada VS B - O sistema de ensino devia ser controlado pelo estado
+pes_2009,P8_12,A - Deve reduzir-se significativamente o papel do estado na sociedade e na economia VS  B - Não deve reduzir-se o papel do estado na sociedade e na economia
+pes_2009,P10_1,"Fala-se muito nos objectivos que Portugal deverá alcançar nos próximos 10 anos. Se tivesse que escolher, qual dos seguintes objectivos consideraria o mais importante?"
+pes_2009,P10_2,Fala-se muito nos objectivos que Portugal deverá alcançar nos próximos 10 anos. E qual seria o segundo mais importante?
+pes_2009,P11_1,"Grau de concordância: ""A democracia pode ter problemas, mas é melhor do que qualquer outro regime político."""
+pes_2009,P11_2,"Grau de concordância: ""Para mim, era muito importante que o país fosse governado por um partido com maioria absoluta."""
+pes_2009,P11_3,"Grau de concordância: ""As pessoas como eu não têm nenhuma influência naquilo que o governo faz."""
+pes_2009,P11_4,"Grau de concordância: ""Geralmente, a política parece tão complicada que as pessoas como eu não conseguem perceber o que se está a passar."""
+pes_2009,P11_5,"Grau de concordância: ""Os políticos não se importam muito com aquilo que pensam pessoas como eu. """
+pes_2009,P12_1,"Grau de importância das afirmações para se poder dizer que uma sociedade é democrática: ""Liberdade de criticar o governo."""
+pes_2009,P12_2,"Grau de importância das afirmações para se poder dizer que uma sociedade é democrática: ""Haver empregos para todos."""
+pes_2009,P12_3,"Grau de importância das afirmações para se poder dizer que uma sociedade é democrática: ""Haver eleições livres e justas."""
+pes_2009,P12_4,"Grau de importância das afirmações para se poder dizer que uma sociedade é democrática: ""Haver menos diferenças entre ricos e pobres em termos de rendimentos."""
+pes_2009,P14_1,"Grau de concordância: ""Sem partidos políticos não pode haver democracia."""
+pes_2009,P14_2,"Grau de concordância: ""Todos os grupos devem ter o direito de participar nas eleições, por muito que as suas opiniões nos desagradem, desde que respeitem a lei."""
+pes_2009,P14_3,"Grau de concordância: ""Os partidos políticos apenas servem para dividir as pessoas."""
+pes_2009,P15,"Tendo em conta o modo como funciona a democracia em Portugal, no geral diria que está...?"
+pes_2009,P16,"Há quem diga que quem está no poder faz uma grande diferença. Outras pessoas dizem que não faz qualquer diferença. Utilizando a escala neste cartão, em que UM significa que faz uma grande diferença quem está no poder e CINCO significa que não faz qualquer"
+pes_2009,P17,"Há quem diga que em quem as pessoas votam não faz qualquer diferença no curso dos acontecimentos. Mas há também quem diga que em quem as pessoas votam pode fazer uma grande diferença no curso dos acontecimentos. Utilizando a escala nesta lista, onde é que"
+pes_2009,P18,"Durante a campanha eleitoral, diria que existiram, grandes diferenças entre os partidos, pequenas diferenças, ou que não existiram diferenças nenhumas?"
+pes_2009,P19,"E diria que seguiu a campanha para as legislativas com muita atenção, alguma atenção, pouca atenção ou nenhuma atenção?"
+pes_2009,P20,"De um modo geral, considera-se uma pessoa muito interessada, razoavelmente, pouco ou nada interessada pela política?"
+pes_2009,P21,"Durante a campanha eleitoral, qual a frequência com que acompanhou as notícias sobre política na televisão?"
+pes_2009,P21A,"Na televisão, qual foi o canal em que viu noticiários com mais frequência?"
+pes_2009,P21B,Considera que esse canal favorecia um partido político específico?
+pes_2009,P21C,Que partido político?
+pes_2009,P22,"Durante a campanha eleitoral, qual a frequência com que acompanhou as notícias sobre política nos jornais ou revistas, em papel ou na internet?"
+pes_2009,P22A,"Durante a campanha, qual o jornal ou revista que leu com mais frequência, em papel ou na internet?"
+pes_2009,P22B,Considera que esse jornal ou revista favorecia um partido político específico?
+pes_2009,P22C,Que partido político?
+pes_2009,P23,"Durante a campanha eleitoral, qual a frequência com que acompanhou as notícias sobre política na rádio?"
+pes_2009,P23A,Qual a estação de rádio em que seguiu mais frequentemente as notícias?
+pes_2009,P23B,Considera que essa estação de rádio favorecia algum partido político específico?
+pes_2009,P23C,Que partido político?
+pes_2009,P24,"Finalmente, durante a campanha eleitoral com que frequência leu blogues ou sites sobre temas políticos (sem contar com sites de jornais ou televisões)?"
+pes_2009,P24A,Considera que esses blogues ou sites favoreciam um partido político específico?
+pes_2009,P24B,Que partido político?
+pes_2009,P27,"Em relação a essas eleições, qual das seguintes situações é adequada ao seu caso?"
+pes_2009,P28,Importa-se de me dizer em que partido/coligação votou?
+pes_2009,P29,"Nestas eleições, quando é que decidiu em que partido ia votar?"
+pes_2009,P29A,Destas frases qual a que melhor se aplica ao seu caso?
+pes_2009,P30,Considerou votar noutro(s) partido(s)?
+pes_2009,P31_1,Importa-se de me dizer qual ou quais eram esses partidos?
+pes_2009,P31_2,Importa-se de me dizer qual ou quais eram esses partidos?
+pes_2009,P31_3,Importa-se de me dizer qual ou quais eram esses partidos?
+pes_2009,P32,"Importa-se de me dizer se existe algum partido, ou partidos, no qual jamais votaria?"
+pes_2009,P33_1,E qual era ou eram esses partidos?
+pes_2009,P33_2,E qual era ou eram esses partidos?
+pes_2009,P33_3,E qual era ou eram esses partidos?
+pes_2009,P34,"Se tivesse votado, em que partido teria sido?"
+pes_2009,P35,"Qual a frequência com que costuma discutir política notícias da actualidade, com familiares, amigos ou colegas de trabalho?"
+pes_2009,P36,"Pensando no governo de José Sócrates, como avalia em geral o trabalho desse governo na área da economia e finanças públicas?"
+pes_2009,P37,"Pensando no governo de José Sócrates, como avalia em geral o trabalho desse governo na área da educação?"
+pes_2009,P38,"Pensando no governo de José Sócrates, como avalia em geral o trabalho desse governo na área da saúde?"
+pes_2009,P39,"Pensando no governo de José Sócrates, como avalia em geral o trabalho desse governo na área do emprego e segurança social?"
+pes_2009,P40,"Pensando no governo de José Sócrates, como avalia em geral o trabalho desse governo na área da justiça e segurança?"
+pes_2009,P41,E que partido lhe parece estar em melhores condições para lidar com os problemas da economia e finanças públicas?
+pes_2009,P42,E que partido lhe parece estar em melhores condições para lidar com os problemas da educação?
+pes_2009,P43,E que partido lhe parece estar em melhores condições para lidar com os problemas da saúde?
+pes_2009,P44,E que partido lhe parece estar em melhores condições para lidar com os problemas do emprego e segurança social?
+pes_2009,P45,E que partido lhe parece estar em melhores condições para lidar com os problemas da justiça e segurança?
+pes_2009,P46_1,"Pode dizer-me se pertence, é sócio ou membro de sindicatos?"
+pes_2009,P46_2,"Pode dizer-me se pertence, é sócio ou membro de associações profissionais?"
+pes_2009,P46_3,"Pode dizer-me se pertence, é sócio ou membro de organizações religiosas ou ligadas à igreja?"
+pes_2009,P46_4,"Pode dizer-me se pertence, é sócio ou membro de partidos ou grupos políticos?"
+pes_2009,P46_5,"Pode dizer-me se pertence, é sócio ou membro de grupos educacionais, artísticos ou culturais?"
+pes_2009,P46_6,"Pode dizer-me se pertence, é sócio ou membro de grupos ambientalistas?"
+pes_2009,P46_7,"Pode dizer-me se pertence, é sócio ou membro de grupos sociais de jovens, mulheres ou idosos?"
+pes_2009,P46_8,"Pode dizer-me se pertence, é sócio ou membro de clubes desportivos?"
+pes_2009,P46_9,"Pode dizer-me se pertence, é sócio ou membro de organizações feministas?"
+pes_2009,P46_10,"Pode dizer-me se pertence, é sócio ou membro de associações locais?"
+pes_2009,P46_11,"Pode dizer-me se pertence, é sócio ou membro de organizações de pais?"
+pes_2009,P46_12,"Pode dizer-me se pertence, é sócio ou membro de associações locais?"
+pes_2009,P46_13,"Pode dizer-me se pertence, é sócio ou membro de organizações de agricultores?"
+pes_2009,P46_14,"Pode dizer-me se pertence, é sócio ou membro de associações de veteranos de guerra?"
+pes_2009,P46_15,"Pode dizer-me se pertence, é sócio ou membro de confrarias?"
+pes_2009,P46_16,"Pode dizer-me se pertence, é sócio ou membro de associações empresariais?"
+pes_2009,P46_17,"Pode dizer-me se pertence, é sócio ou membro de outras organizações?"
+pes_2009,P46A,"Das organizações a que pertence, qual é a mais importante para si?"
+pes_2009,P46B,"No caso dessa organização a que pertence e que considera mais importante para si, com que frequência participa em reuniões e noutras actividades nessa organização?"
+pes_2009,P46C,Recebeu dessa organização alguma informação sobre a recente campanha eleitoral para as legislativas?
+pes_2009,P46D,Essa organização apoiou algum partido político nas últimas eleições legislativas?
+pes_2009,P46E_1,Qual ou quais os partidos que a organização apoiou?
+pes_2009,P46E_2,Qual ou quais os partidos que a organização apoiou?
+pes_2009,P46E_3,Qual ou quais os partidos que a organização apoiou?
+pes_2009,P47,Há alguma pessoa do seu agregado familiar que seja sindicalizado?
+pes_2009,P48,"Durante a última campanha para as legislativas, foi contactado (pessoalmente, por telefone, por carta ou de outra forma) por algum candidato ou membro de um partido político, para convencê-lo/a a votar nesse partido?"
+pes_2009,P48B_1,Das seguintes formas de contacto diga qual ou quais foram usadas consigo…?
+pes_2009,P48B_2,Das seguintes formas de contacto diga qual ou quais foram usadas consigo…?
+pes_2009,P48B_3,Das seguintes formas de contacto diga qual ou quais foram usadas consigo…?
+pes_2009,P49_1,Qual ou quais foram os partidos que o contactaram?
+pes_2009,P49_2,Qual ou quais foram os partidos que o contactaram?
+pes_2009,P49_3,Qual ou quais foram os partidos que o contactaram?
+pes_2009,P49_4,Qual ou quais foram os partidos que o contactaram?
+pes_2009,P49_5,Qual ou quais foram os partidos que o contactaram?
+pes_2009,P53,"Em relação a essas eleições, qual das seguintes situações é adequada ao seu caso?"
+pes_2009,P53A,Importa-se de me dizer em que partido ou coligação votou nas eleições europeias de 2009?
+pes_2009,P54,"Tendo em conta o funcionamento das eleições em Portugal, até que ponto acha que as opiniões dos deputados representam as opiniões dos votantes?"
+pes_2009,P55,Diria que algum dos partidos políticos em Portugal representa as suas opiniões razoavelmente bem?
+pes_2009,P55A,Qual é o partido que melhor representa as suas opiniões?
+pes_2009,P56,"Independentemente do que pensa sobre os partidos, diria que algum dos líderes partidários que concorreram nestas últimas eleições legislativas representa as suas opiniões razoavelmente bem?"
+pes_2009,P56A,Importa-se de dizer qual é esse líder partidário?
+pes_2009,P57,Considera-se próximo/a de um partido político em particular?
+pes_2009,P57A,Importa-se de me dizer qual é esse partido?
+pes_2009,P57B,"Mas, considera-se um pouco mais próximo/a de um dos partidos políticos do que dos outros?"
+pes_2009,P57C,Importa-se de me dizer qual é esse partido?
+pes_2009,P57D,"Sente-se muito próximo/a desse partido, razoavelmente próximo/a, ou diria que é meramente simpatizante desse partido?"
+pes_2009,P61_1,Gostaria de saber o que pensa sobre o Bloco de Esquerda
+pes_2009,P61_2,Gostaria de saber o que pensa sobre o CDS-PP
+pes_2009,P61_3,Gostaria de saber o que pensa sobre a CDU (PCP-PEV)
+pes_2009,P61_4,Gostaria de saber o que pensa sobre o PPD-PSD
+pes_2009,P61_5,Gostaria de saber o que pensa sobre o PS
+pes_2009,P62_1,Gostaria de saber o que pensa sobre o líder político Francisco Louçã
+pes_2009,P62_2,Gostaria de saber o que pensa sobre o líder político Jerónimo de Sousa
+pes_2009,P62_3,Gostaria de saber o que pensa sobre o líder político José Sócrates
+pes_2009,P62_4,Gostaria de saber o que pensa sobre o líder político Paulo Portas
+pes_2009,P62_5,Gostaria de saber o que pensa sobre o líder político Manuela Ferreira Leite
+pes_2009,P62_6,Gostaria de saber o que pensa sobre o líder político Cavaco Silva
+pes_2009,P63_1,Em que medida concorda que José Sócrates é honesto
+pes_2009,P63_2,Em que medida concorda que José Sócrates é um líder que defende políticas responsáveis
+pes_2009,P63_3,Em que medida concorda que José Sócrates é um líder forte
+pes_2009,P63_4,Em que medida concorda que José Sócrates é um líder que toma decisões
+pes_2009,P63_5,Em que medida concorda que José Sócrates é um líder que sabe como fortalecer a economia do país
+pes_2009,P63_6,Em que medida concorda que José Sócrates é um líder carismático
+pes_2009,P63_7,Em que medida concorda que José Sócrates é um líder que fala bem
+pes_2009,P64_1,Em que medida concorda que Manuela Ferreira Leite é honesta
+pes_2009,P64_2,Em que medida concorda que Manuela Ferreira Leite é uma líder que defende políticas responsáveis
+pes_2009,P64_3,Em que medida concorda que Manuela Ferreira Leite é uma líder forte
+pes_2009,P64_4,Em que medida concorda que Manuela Ferreira Leite é uma líder que toma decisões
+pes_2009,P64_5,Em que medida concorda que Manuela Ferreira Leite é uma líder que sabe como fortalecer a economia do país
+pes_2009,P64_6,Em que medida concorda que Manuela Ferreira Leite é uma líder carismática
+pes_2009,P64_7,Em que medida concorda que Manuela Ferreira Leite é uma líder que fala bem
+pes_2009,P65,Qual dessas palavras melhor descreve os seus sentimentos quando pensa em José Sócrates?
+pes_2009,P66,Qual dessas palavras melhor descreve os seus sentimentos quando pensa em Manuela Ferreira Leite?
+pes_2009,P67_1,"Onde é que posicionaria o Bloco de Esquerda numa escala de 0 a 10, onde 0 significa esquerda e 10 significa direita?"
+pes_2009,P67_2,"Onde é que posicionaria o CDS-PP numa escala de 0 a 10, onde 0 significa esquerda e 10 significa direita?"
+pes_2009,P67_3,"Onde é que posicionaria o CDU (PCP-PEV) numa escala de 0 a 10, onde 0 significa esquerda e 10 significa direita?"
+pes_2009,P67_4,"Onde é que posicionaria o PPD-PSD numa escala de 0 a 10, onde 0 significa esquerda e 10 significa direita?"
+pes_2009,P67_5,"Onde é que posicionaria o PS numa escala de 0 a 10, onde 0 significa esquerda e 10 significa direita?"
+pes_2009,P68,O que pensa do estado da economia em Portugal?
+pes_2009,P69,"Na sua opinião, no último ano, o estado da economia em Portugal…"
+pes_2009,P70,Até que ponto acha que a situação da economia portuguesa tem sido afectada pela situação económica internacional?
+pes_2009,P71,O que pensa do seu nível de vida? Diria que o seu nível de vida é…?
+pes_2009,P72,"Na sua opinião, no último ano, o seu nível de vida…?"
+pes_2009,P76,"Em política, as pessoas por vezes falam de esquerda e direita. Onde é que se posicionaria numa escala de 0 a 10, onde 0 significa esquerda e 10 significa direita?"
+pes_2009,P77,Lembra-se qual foi o partido mais votado nas eleições legislativas de 2005?
+pes_2009,P78,E lembra-se quem foi o Primeiro-Ministro antes de José Sócrates?
+pes_2009,P79,Quantos países fazem parte da União Europeia?
+pes_2009,P80,"Agora, gostaria que pensasse na pessoa com quem fala mais frequentemente sobre assuntos que são importantes para si, mesmo sem ser de política. Qual é a relação dessa pessoa consigo?"
+pes_2009,P80A,Com que frequência falou com essa pessoa sobre as últimas eleições legislativas?
+pes_2009,P80B,Em que partido pensa que essa pessoa votou nas últimas eleições legislativas?
+pes_2009,P81,Agora gostaria que pensasse noutra pessoa com a qual tenha falado frequentemente sobre assuntos que são importantes para si. Qual é a relação dessa pessoa consigo?
+pes_2009,P81A,Com que frequência falou com essa pessoa sobre as últimas eleições legislativas?
+pes_2009,P81B,Em que partido pensa que essa pessoa votou nas últimas eleições legislativas?
+pes_2009,P82,"Durante a última campanha eleitoral com que frequência leu, ouviu ou viu alguns resultados de sondagens? Diria que o fez frequentemente, ocasionalmente, raramente ou nunca?"
+pes_2009,P83,"Durante a última campanha eleitoral, respondeu ao inquérito da Bússola Eleitoral?"
+pes_2009,D1,"Actualmente está inscrito no recenseamento eleitoral? Se sim, qual é o distrito em que está inscrito/a?"
+pes_2009,D2,Idade
+pes_2009,D3,"Algumas pessoas sentem que a sociedade portuguesa está dividida em classes sociais, em que classe é que o(a) senhor(a) se incluiria?"
+pes_2009,D4,Qual foi o grau de escolaridade mais elevado que atingiu?
+pes_2009,D5,Qual é o seu estado civil actual?
+pes_2009,D6,Vamos agora falar da sua situação face ao trabalho. Qual é a sua situação profissional actual?
+pes_2009,D7_STRING,"Da maneira mais detalhada possível, diga-me por favor, qual é a ocupação/actividade profissional principal da pessoa que mais contribui para o agregado familiar? (String)"
+pes_2009,D7,Ocupação/actividade profissional principal da pessoa que mais contribui para o agregado familiar
+pes_2009,D8,"Pensando apenas na actividade principal da pessoa que mais contribui para o agregado familiar, qual o sector em que trabalha?"
+pes_2009,D9,Qual é a situação profissional actual do seu cônjuge?
+pes_2009,D10_STRING,"Da maneira mais detalhada possível, diga-me por favor, qual é a ocupação/actividade profissional principal do seu cônjuge? (String)"
+pes_2009,D10,Ocupação/actividade profissional principal do cômjuge
+pes_2009,D11,"Pensando apenas na última actividade principal que  o seu cônjuge desempenhou anteriormente, qual o sector em que trabalhava?"
+pes_2009,D12,"Qual dos seguintes escalões corresponde ao rendimento do seu agregado familiar (médio, mensal, líquido)?"
+pes_2009,D13,"Contando consigo, quantas pessoas vivem em sua casa (excluindo empregadas(os) domésticas(os) pagos e inquilinos)?"
+pes_2009,D14,Quantos menores vivem em sua casa?
+pes_2009,D15,"Onde nasceu: em Portugal, numa ex-colónia portuguesa, Brasil ou noutro país?"
+pes_2009,D16,Que idade tinha quando veio para Portugal?
+pes_2009,D17,"Considera-se uma pessoa muito, razoavelmente, pouco ou nada religiosa?"
+pes_2009,D18,Qual é a sua religião actualmente?
+pes_2009,D19,"Diga-me, por favor, com que frequência vai à igreja/local de culto?"
+pes_2009,E1,Raça do inquirido
+pes_2009,E2,Local de residência
+pes_2009,E3,Distrito de residência
+pes_2009,E4,Tipo de habitação
+pes_2009,E5,Tipo de zona habitacional
+pes_2009,E6,Considera que o inquirido está bem informado sobre política?
+pes_2009,ACEIT,Aceitação
+pes_2009,PRONT,Prontidão na maioria das respostas
+pes_2011,INTNR,Interview number
+pes_2011,DATA_DIA,Data da entrevista - Dia
+pes_2011,DATA_MES,Data da entrevista - Mes
+pes_2011,DATA_ANO,Data da entrevista - Ano
+pes_2011,HORA_INI_HH,Hora de inicio da entrevista - HH
+pes_2011,HORA_INI_MM,Hora de inicio da entrevista - MM
+pes_2011,Duracao,Duração Min.
+pes_2011,HABITAT,HABITAT (QUOTAS)
+pes_2011,NUTE,REGIÕES (NUTS) - QUOTAS
+pes_2011,SEXO,D0. SEXO
+pes_2011,ANOS,D2. IDADE (ANOS)
+pes_2011,IDADE,IDADE
+pes_2011,P1,P1. Assunto mais importante
+pes_2011,P2,P2. Avaliação economia Portugal
+pes_2011,P3,P3. Evolução economia Portugal
+pes_2011,P4,P4. Avaliação economia Portugal 2005-2011
+pes_2011,P5,P5. Consequência actuação Governo 2005-2011
+pes_2011,P6,P6. PSD-CDS melhor 2005-2011
+pes_2011,P7_1,P7a. Responsabilidade economia do governo português
+pes_2011,P7_2,P7b. Responsabilidade economia da União Europeia
+pes_2011,P7_3,P7c. Responsabilidade economia do Banco de Portugal
+pes_2011,P7_4,P7d. Responsabilidade economia da situação económica internacional
+pes_2011,P7_5,P7e. Responsabilidade economia dos bancos
+pes_2011,P7_6,P7f. Responsabilidade economia do Euro
+pes_2011,P7_7,P7g. Responsabilidade economia dos partidos da oposição
+pes_2011,P7_8,P7h. Responsabilidade economia das agências rating
+pes_2011,P8_1,P8a. Responsabilidade ajuda do governo português
+pes_2011,P8_2,P8b. Responsabilidade ajuda da União Europeia
+pes_2011,P8_3,P8c. Responsabilidade ajuda do Banco de Portugal
+pes_2011,P8_4,P8d. Responsabilidade ajuda da situação económica internacional
+pes_2011,P8_5,P8e. Responsabilidade ajuda dos bancos
+pes_2011,P8_6,P8f. Responsabilidade ajuda do Euro
+pes_2011,P8_7,P8g. Responsabilidade ajuda dos partidos da oposição
+pes_2011,P8_8,P8h. Responsabilidade ajuda das rating
+pes_2011,P9_1,P9.1. Aconteceu perder emprego
+pes_2011,P9_2,P9.2. Aconteceu ter salário congelado
+pes_2011,P9_3,P9.3. Aconteceu ter cortes salário
+pes_2011,P9_4,P9.4. Aconteceu ter diminuição horário trabalho
+pes_2011,P10_1,P10.a. Preocupado pagar as contas de casa
+pes_2011,P10_2,P10.b. Preocupado diminuir o nível de vida
+pes_2011,P10_3,P10.c. Preocupado perder emprego
+pes_2011,P10_4,P10.d. Preocupado pagar renda casa
+pes_2011,P11_1,P11.a. O governo fez mal em aceitar a ajuda financeira da União Europeia e do FMI
+pes_2011,P11_2,P11.b. O parlamento fez bem em rejeitar o plano de austeridade
+pes_2011,P11_3,P11.c. O novo governo deve ser capaz de obter melhores condições no empréstimo
+pes_2011,P11_4,"P11.d. O PS, o PSD e o CDS fizeram bem em assinar o acordo com a troika"
+pes_2011,P11_5,P11.e. Portugal devia ter pedido ajuda externa mais cedo
+pes_2011,P11_6,P11.f. Aqueles que compraram títulos da dívida portuguesa deviam perder parte do valor desses títulos
+pes_2011,P11_7,P11.g. Todos temos culpa pelos problemas económicos em Portugal
+pes_2011,P11_8,P11.h. O novo governo vai conseguir relançar a economia durante o seu mandato
+pes_2011,P11_9,"P11.i. Mais tarde ou mais cedo, vamos ter de abandonar o Euro"
+pes_2011,P12_1,P12.1. Proteger o ambiente \ Apoiar o crescimento económico
+pes_2011,P12_2,P12.2. Mais igualdade na distribuição \ Mais incentivos individual
+pes_2011,P12_3,P12.3. Manter lei e ordem \ Defender liberdades cívicas
+pes_2011,P12_4,P12.4. Privatizar empresas públicas \ Manter empresas públicas
+pes_2011,P12_5,P12.5. O aborto devia ser ilegal \ Devia manter legal
+pes_2011,P12_6,P12.6. Estado devia ser pesponsável pensões \ Cada um devia ser responsável
+pes_2011,P12_7,P12.7. Sistema saúde controlado iniciativa privada \ Controlado pelo Estado
+pes_2011,P12_8,P12.8. Sistema ensino controlado iniciativa privada \ Controlado pelo Estado
+pes_2011,P13_1,P13a. Estado gastar na saúde
+pes_2011,P13_2,P13a. Estado gastar na educação
+pes_2011,P13_3,P13a. Estado gastar nos desempregados
+pes_2011,P13_4,P13a. Estado gastar na defsea
+pes_2011,P13_5,P13a. Estado gastar nas pensões de reforma
+pes_2011,P13_6,P13a. Estado gastar no apoio às empresas
+pes_2011,P13_7,P13a. Estado gastar na segurança
+pes_2011,P13_8,P13a. Estado gastar nos benefícios sociais
+pes_2011,P14,P14. Probabilidade futura melhorar nível vida
+pes_2011,P15,P15. O estado devia tomar medidas para reduzir diferenças nos níveis de rendimento
+pes_2011,P16,P16. Satisfação democracia Portugal
+pes_2011,P17,P17. Diferença quem está poder
+pes_2011,P18,P18. Diferença em quem as pessoas votam
+pes_2011,P19,P19. Diferenças entre partidos legislativas
+pes_2011,P20,P20. Interesse pela política
+pes_2011,P21,P21. Campanha eleitoral acompanhamento notícias televisão
+pes_2011,P22,P22. Campanha eleitoral acompanhamento notícias jornais
+pes_2011,P23,P23. Campanha eleitoral acompanhamento notícias rádio
+pes_2011,P24,P24. Campanha eleitoral acompanhamento notícias sites
+pes_2011,P25,P25. Comportamento eleições legislativas 2011
+pes_2011,P26,P26. Partido em que votou legislativas 2011
+pes_2011,P27,P27. Momento decisão voto legislativas 2011
+pes_2011,P28,P28. Forma de voto legislativas 2011
+pes_2011,P29,P29. Considerou voto noutro partido legislativas 2011
+pes_2011,P30_1,P30. Outros partidos consideração voto: Bloco de Esquerda
+pes_2011,P30_2,P30. Outros partidos consideração voto: CDS-PP
+pes_2011,P30_3,P30. Outros partidos consideração voto: CDU (PCP\PEV)
+pes_2011,P30_4,P30. Outros partidos consideração voto: PPD-PSD
+pes_2011,P30_5,P30. Outros partidos consideração voto: PS
+pes_2011,P30_6,P30. Outros partidos consideração voto: PCTP\MRPP
+pes_2011,P30_7,P30. Outros partidos consideração voto: PAN
+pes_2011,P30_8,P30. Outros partidos consideração voto: PCP
+pes_2011,P30_9,P30. Outros partidos consideração voto: PNR
+pes_2011,P30_10,P30. Outros partidos consideração voto: PPM
+pes_2011,P30_11,P30. Outros partidos consideração voto: POUS
+pes_2011,P30_12,P30. Outros partidos consideração voto: PRD
+pes_2011,P30_90,P30. Outros partidos consideração voto: Outro
+pes_2011,P30_98,P30. Outros partidos consideração voto: Não sabe
+pes_2011,P30_99,P30. Outros partidos consideração voto: Não responde
+pes_2011,P31,P31. Partidos jamais votaria legislativas 2011
+pes_2011,P32_1,P32. Que partidos jamais votaria: Bloco de Esquerda
+pes_2011,P32_2,P32. Que partidos jamais votaria: CDS-PP
+pes_2011,P32_3,P32. Que partidos jamais votaria: CDU (PCP\PEV)
+pes_2011,P32_4,P32. Que partidos jamais votaria: PPD-PSD
+pes_2011,P32_5,P32. Que partidos jamais votaria: PS
+pes_2011,P32_6,P32. Que partidos jamais votaria: PCTP\MRPP
+pes_2011,P32_7,P32. Que partidos jamais votaria: PAN
+pes_2011,P32_8,P32. Que partidos jamais votaria: PCP
+pes_2011,P32_9,P32. Que partidos jamais votaria: PNR
+pes_2011,P32_10,P32. Que partidos jamais votaria: PPM
+pes_2011,P32_11,P32. Que partidos jamais votaria: POUS
+pes_2011,P32_12,P32. Que partidos jamais votaria: PRD
+pes_2011,P32_90,P32. Que partidos jamais votaria: Outro
+pes_2011,P32_98,P32. Que partidos jamais votaria: Não sabe
+pes_2011,P32_99,P32. Que partidos jamais votaria: Não responde
+pes_2011,P33,P33. Partido que teria votado legislativas 2011
+pes_2011,P34,P34. Eleições legislativas 2011 sobre...
+pes_2011,P35,P35. Frequência discussão política
+pes_2011,P36_1,P36a. Economia e finanças Governo José Sócrates
+pes_2011,P36_2,P36b. Educação Governo José Sócrates
+pes_2011,P36_3,P36c. Saúde Governo José Sócrates
+pes_2011,P36_4,P36d. Emprego e Segurança Social Governo José Sócrates
+pes_2011,P36_5,P36e. Justiça e Segurança Governo José Sócrates
+pes_2011,P37,P37. Avaliação Governo José Sócrates
+pes_2011,P38,P38. É membro sindicato
+pes_2011,P39,P39. Faz parte de associação
+pes_2011,P40,P40. Alguém do agregado familiar é sindicalizado
+pes_2011,P41,P41. Contacto partido eleições legislativas
+pes_2011,P42_1,P42a. Contactaram em pessoa
+pes_2011,P42_2,P42b. Contactaram correio
+pes_2011,P42_3,P42c. Contactaram telefone
+pes_2011,P42_4,P42d. Contactaram SMS
+pes_2011,P42_5,P42e. Contactaram e-mail
+pes_2011,P42_6,P42f. Contactaram redes sociais
+pes_2011,P43_1,P43. Partidos contactaram: Bloco de Esquerda
+pes_2011,P43_2,P43. Partidos contactaram: CDS-PP
+pes_2011,P43_3,P43. Partidos contactaram: CDU (PCP\PEV)
+pes_2011,P43_4,P43. Partidos contactaram: PPD-PSD
+pes_2011,P43_5,P43. Partidos contactaram: PS
+pes_2011,P43_90,P43. Partidos contactaram: Outro
+pes_2011,P43_98,P43. Partidos contactaram: Não sabe
+pes_2011,P43_99,P43. Partidos contactaram: Não responde
+pes_2011,P44,P44. Usou Internet\telemóvel receber informação partido
+pes_2011,P45,P45. Comportamento eleições legislativas 2009
+pes_2011,P46,P46. Partido em que votou legislativas 2009
+pes_2011,P47,P47. Próximo de algum partido
+pes_2011,P48,P48. Partido considera próximo
+pes_2011,P49,P49. Considera-se um pouco próximo
+pes_2011,P50,P50. Partido considera um pouco próximo
+pes_2011,P51,P51. Tipo de proximidade
+pes_2011,P52_1,P52.1. Simpatia Bloco de Esquerda
+pes_2011,P52_2,P52.2. Simpatia CDS-PP
+pes_2011,P52_3,P52.3. Simpatia CDU (PCP-PEV)
+pes_2011,P52_4,P52.4. Simpatia PPD-PSD
+pes_2011,P52_5,P52.5. Simpatia PS
+pes_2011,P53_1,P53.1. Simpatia Francisco Louçã
+pes_2011,P53_2,P53.2. Simpatia Jerónimo de Sousa
+pes_2011,P53_3,P53.3. Simpatia José Sócrates
+pes_2011,P53_4,P53.4. Simpatia Paulo Portas
+pes_2011,P53_5,P53.5. Simpatia Pedro Passos Coelho
+pes_2011,P54_1,P54.1. Posicionamento Bloco de Esquerda
+pes_2011,P54_2,P54.2. Posicionamento CDS-PP
+pes_2011,P54_3,P54.3. Posicionamento CDU (PCP-PEV)
+pes_2011,P54_4,P54.4. Posicionamento PPD-PSD
+pes_2011,P54_5,P54.5. Posicionamento PS
+pes_2011,P55,P55. Avaliação nível vida
+pes_2011,P56,P56. Evolução nível vida
+pes_2011,P57,P57. Probabilidade rendimento reduzir
+pes_2011,P58,P58. Proprietário residência
+pes_2011,P59,P59. Donos de negócio
+pes_2011,P60,P60. Proprietários acções empresas
+pes_2011,P61,P61. Têm poupanças
+pes_2011,P62,P62. Ministro das Finanças antes eleições
+pes_2011,P63,P63. Taxa de desemprego Portugal 2010
+pes_2011,P64,P64. Partido segundo lugar eleições 2011
+pes_2011,P65,P65. Secretário-geral das Nações Unidas
+pes_2011,D1,D1. Distrito Recenseamento Eleitoral
+pes_2011,D3,D3. Classe Social
+pes_2011,D4,D4. Grau de escolaridade
+pes_2011,D5,D5. Estado civil
+pes_2011,D6,D6. Situação Profissional Actual
+pes_2011,D7A,D7a. Actividade profissional pessoa que mais contribui
+pes_2011,D7B,D7b. Última actividade profissional
+pes_2011,D7C,D7c. Actividade profissional actual
+pes_2011,D7D,Q23a. Facilidade encontrar novo emprego 12 meses
+pes_2011,D8A,D8a. Sector actividade principal pessoa que mais contribui
+pes_2011,D8B,D8b. Sector ultima actividade principal
+pes_2011,D8C,D8c. Sector actividade principal actual
+pes_2011,D9,D9. Situação profissional conjuge
+pes_2011,D10A,D10a. Última actividade profissional conjuge
+pes_2011,D10B,D10b. Actividade profissional actual conjuge
+pes_2011,D10D,Q23b. Facilidade conjuge encontrar novo emprego 12 meses
+pes_2011,D11A,D11a. Sector ultima actividade principal
+pes_2011,D11B,D11b. Sector actividade principal actual
+pes_2011,D12,D12. Rendimento médio mensal líquido
+pes_2011,D13,D13. Nº pessoas agregado familiar
+pes_2011,D14,D14. Menores vivem casa
+pes_2011,D15,D15. Local nascimento
+pes_2011,D16,D16. Idade veio Portugal
+pes_2011,D17,D17. Tipo de religiosidade
+pes_2011,D18,D18. Religião
+pes_2011,D19,D19. Frequência pratica religião
+pes_2011,E1,E1. Raça do inquirido
+pes_2011,E2,E2. Local de Residência
+pes_2011,E3,E3. Distrito de Residência
+pes_2011,E4,E4. Tipo de Habitação
+pes_2011,E5,E5. Tipo de Zona Habitacional
+pes_2011,E6,E6. Inquirido informado sobre política
+pes_2011,E7,E7. Aceitação do inquirido
+pes_2011,E8,E8. Prontidão do inquirido
+icenes_2007,User_id,Id number of the respondent.
+icenes_2007,C1005,CSES id number of respondents � same variable name as in the CSES data set
+icenes_2007,dataset,Dataset.
+icenes_2007,gender,Gender of the respondent.
+icenes_2007,yob,Respondent�s year of birth.
+icenes_2007,age,Respondent�s age
+icenes_2007,elecdist,Respondents� electoral district.
+icenes_2007,geoarea,Residence � geographical area
+icenes_2007,urban,Urban or rural residency
+icenes_2007,intervyear,"Year, when interview was taken"
+icenes_2007,elecday,Election day
+icenes_2007,elecmonth,Election month
+icenes_2007,elecyear,Election year
+icenes_2007,polintr,"Do you consider your interest in politics very great, great, some, little, or are you not interested in politics at all?"
+icenes_2007,pltrust,"Do you think that politicians are in general trustworthy, that many of them are trustworthy, some are trustworthy, few, or perhaps none?"
+icenes_2007,mimpissue,What has been the most important issue to you personally in this election?
+icenes_2007,issue12007,What has been the most important issue to you personally in this election? � Coded categories.
+icenes_2007,simpissue,What do you think is the second most important political problem facing Iceland today?
+icenes_2007,issue22007,What has been the second most important issue to you personally in this election? � Coded categories.
+icenes_2007,mimptask,What do you think is the most important political problem facing Iceland today?
+icenes_2007,task12007,What do you think is the most important political problem facing Iceland today? � Coded and categorized
+icenes_2007,simptask,What do you think is the second most important political problem facing Iceland today?
+icenes_2007,task22007,What do you think is the second most important political problem facing Iceland today? � Coded and categorized
+icenes_2007,mimptaskprt,Thinking of the most important political problem facing Iceland which party do you think is best in dealing with it?
+icenes_2007,simptaskprt,And the second most important political problem facing Iceland which party do you think is best in dealing with it?
+icenes_2007,peoplimp,Does it make a difference who is in power?
+icenes_2007,voteimp,Does it matter who people vote for
+icenes_2007,govprfm,"How good or bad a job in general do you think the government has done in the last four years? Do you think it has done a very good, a good, a bad or a very bad job? Reply categories were read to the respondent (has it done a very good job? A good job? A b"
+icenes_2007,EUmship,"Do you think that it is desirable or undesirable, that Iceland applies for membership in the European Union? (Probe; very or rather)"
+icenes_2007,envirimp,Do you agree or disagree that in the next years action on environmental issues should be prioritized over attempts to increase economic growth � or do you think this makes no difference?
+icenes_2007,gincdif,Do you agree or disagree that the government should use its power to increase the equality of the income distribution in society? Or do you think this makes no difference?
+icenes_2007,genconsind,"Do you think that the government should put strong emphasis, some emphasis or little emphasis on the development of power intensive industry?"
+icenes_2007,icenatoint,If we now turn to the question whether Iceland should continue its membership of NATO � is that an issue on which you have an opinion?
+icenes_2007,icenato,"Some people believe Iceland should stay in NATO, while others believe it should discontinue its membership. What is your opinion?"
+icenes_2007,qtastmch,"Do you agree or disagree, that the present quota system in fisheries should be fundamentally changed � or do you think this makes no difference?"
+icenes_2007,ceqvote,"Do you agree or disagree, that preferably all votes in the country should have equal weight when parliamentary seats are allotted � or do you think this makes no difference?"
+icenes_2007,acrproimp,Do you agree or disagree that restrictions on agricultural imports should be considerably relaxed - or do you think this makes no difference?
+icenes_2007,taxreduc,"Do you agree or disagree, that taxes should be reduced, even though it meant that public services had to be reduced, e.g. in health care, education, or social security � or do you think this makes no difference?"
+icenes_2007,capicntry,Do you agree or disagree that progress in the capital area may be decreased in order to increase prosperity in the rural regions � or does this not make any difference?
+icenes_2007,privhealth,Do you agree or disagree to increased privatization in the health care system?
+icenes_2007,presmedlaw,Do you agree or disagree with the Icelandic president�s decision not to the countersign the media law in 2004?
+icenes_2007,imueclt,Do you agree or disagree that immigrants are a serious threat to our national characteristics?
+icenes_2007,gayadopt,Do you agree or disagree that homosexuals should have the same right as others to adopt children?
+icenes_2007,goviraksupp,Do you agree or disagree with the Icelandic government�s decision to support the Iraq invasion in 2003?
+icenes_2007,icegovppl,Iceland is most of the time governed according to the will of the people.
+icenes_2007,incprepollu,I would willing to give part of my income if I would be sure that the money would be used to prevent environmental pollution.
+icenes_2007,htaxprepollu,would agree to tax increases if the money would be used to prevent environmental pollution.
+icenes_2007,unemplpollu,If we want to take measures against unemployment in this country we will have to accept (compromise on) environmental problems.
+icenes_2007,envirpollnimp,Environmental protection and fighting against pollution is not as urgent as often believed.
+icenes_2007,sustevolu,Have you heard about sustainable development?
+icenes_2007,clearsustevolu,Do you consider yourself to have a clear idea what sustainable development is about?
+icenes_2007,prtreflopin,Would you say that any of the parties in Iceland represent your views reasonably well?
+icenes_2007,prtflopinbest,Which party represents your views best?
+icenes_2007,lrefop,"Regardless of how you feel about the parties, would you say that any of the individual party leaders at the last election represents your views reasonably well?"
+icenes_2007,lrefopbest,Which party leader represents your views best?
+icenes_2007,prtfeel_S,"Social Democratic Alliance - I�d like to know what you think about each of our political parties. After I read the name of a political party, please rate it on a scale from 0 to 10, where 0 means you strongly dislike that party and 10 means that you stron"
+icenes_2007,prtfeel_B,"Progressive Party - I�d like to know what you think about each of our political parties. After I read the name of a political party, please rate it on a scale from 0 to 10, where 0 means you strongly dislike that party and 10 means that you strongly like"
+icenes_2007,prtfeel_D,"Independence Party - I�d like to know what you think about each of our political parties. After I read the name of a political party, please rate it on a scale from 0 to 10, where 0 means you strongly dislike that party and 10 means that you strongly like"
+icenes_2007,prtfeel_V,"Left Green Movement - I�d like to know what you think about each of our political parties. After I read the name of a political party, please rate it on a scale from 0 to 10, where 0 means you strongly dislike that party and 10 means that you strongly lik"
+icenes_2007,prtfeel_F,"Liberal Party - I�d like to know what you think about each of our political parties. After I read the name of a political party, please rate it on a scale from 0 to 10, where 0 means you strongly dislike that party and 10 means that you strongly like that"
+icenes_2007,prtfeel_I,"Icelandic Movement - I�d like to know what you think about each of our political parties. After I read the name of a political party, please rate it on a scale from 0 to 10, where 0 means you strongly dislike that party and 10 means that you strongly like"
+icenes_2007,ldrfeel_ISG,"Ingibjorg Solrun Gisladottir (leader of Social Democratic Alliance) - And now, using the same scale, I�d like to ask you how much you like or dislike some political leaders. - 0=strongly dislike, 10=strongly like"
+icenes_2007,ldrfeel_JNS,"Jon Sigurdsson (leader of Progressive Party) - And now, using the same scale, I�d like to ask you how much you like or dislike some political leaders. - 0=strongly dislike, 10=strongly like"
+icenes_2007,ldrfeel_GHH,"Geir H. Haarde (leader of Independence Party) - And now, using the same scale, I�d like to ask you how much you like or dislike some political leaders. - 0=strongly dislike, 10=strongly like"
+icenes_2007,ldrfeel_SJS,"Steingrimur J. Sigfusson (leader of Left Green Movement) - And now, using the same scale, I�d like to ask you how much you like or dislike some political leaders. - 0=strongly dislike, 10=strongly like"
+icenes_2007,ldrfeel_GAK,"Gudjon Arnar Kristjansson (leader of Liberal Party) - And now, using the same scale, I�d like to ask you how much you like or dislike some political leaders. - 0=strongly dislike, 10=strongly like"
+icenes_2007,ldrfeel_OR,"Omar Ragnarsson (leader of Icelandic Movement) - And now, using the same scale, I�d like to ask you how much you like or dislike some political leaders. - 0=strongly dislike, 10=strongly like"
+icenes_2007,lrscale_S,Left-right placement of the Social Democratic Alliance
+icenes_2007,lrscale_B,Left-right placement of the Progressive Party
+icenes_2007,lrscale_D,Left-right placement of the Independence Party
+icenes_2007,lrscale_V,Left-right placement of the Left Green Movement
+icenes_2007,lrscale_F,Left-right placement of the Liberal Party
+icenes_2007,lrscale_I,Left-right placement of the Icelandic Movement
+icenes_2007,lrscale,Left-right self-placement of the respondent
+icenes_2007,lrscale_ISG,Left-right self-placement of  Ingibjorg Solrun Gisladottir
+icenes_2007,lrscale_JNS,Left-right self-placement of Jon Sigurdsson
+icenes_2007,lrscale_GHH,Left-right self-placement of  Geir H. Haarde
+icenes_2007,lrscale_SJS,Left-right self-placement of Steingrimur J. Sigfusson
+icenes_2007,lrscale_GAK,Left-right self-placement of Gudjon Arnar Kristjansson
+icenes_2007,lrscale_OR,Left-right self-placement of Omar Ragnarsson
+icenes_2007,envrscale_S,"Social Democratic Alliance - Environmentalist / 0=not at all environmentalist, 10=very environmentalist"
+icenes_2007,envrscale_B,"Progressive Party - environmentalist / 0=not at all environmentalist, 10=very environmentalist"
+icenes_2007,envrscale_D,"Independence Party - environmentalist / 0=not at all environmentalist, 10=very environmentalist"
+icenes_2007,envrscale_V,"Left Green Movement - environmentalist / 0=not at all environmentalist, 10=very environmentalist"
+icenes_2007,envrscale_F,"Liberal Party - environmentalist / 0=not at all  environmentalist, 10=very environmentalist"
+icenes_2007,envrscale_I,"Icelandic Movement - Environmentalist / 0=not at all environmentalist, 10=very environmentalist"
+icenes_2007,envrscale,"Environmentalist - Where would you place yourself on such a scale? / 0=not at all environmentalist, 10=very environmentalist"
+icenes_2007,prtdiff,"During the election campaign, would you say that there were major differences between the parties, minor differences, or no differences at all?"
+icenes_2007,campatt,"How closely did you follow the election campaign? Very closely, fairly closely, not very closely, or not closely at all?"
+icenes_2007,democr,"On the whole, are you very satisfied, fairly satisfied, not very satisfied, or not at all satisfied with the way democracy works in Iceland?"
+icenes_2007,pidclose1,Do you usually think of yourself as close to any particular political party? - CSES question
+icenes_2007,pidclose2,Strength of party identification - close to / CSES question
+icenes_2007,pidclose3,Direction of party identification - close to / CSES question
+icenes_2007,pidsymp1,Do you feel yourself a little closer to one of the political parties than the others? - CSES question
+icenes_2007,pidsymp2,Strength of party sympathy - closer to / CSES question
+icenes_2007,pidsymp3,Direction of party sympathy - close to / CSES question
+icenes_2007,mmbprt,Are you a member of a political party?
+icenes_2007,mmbprt_1resp,Are you a member of a political party? If yes; What party? - 1. answer
+icenes_2007,mmbprt_2resp,Are you a member of a political party? If yes; What party? - 2. answer
+icenes_2007,mmbprt_3resp,Are you a member of a political party? If yes; What party? - 3. answer
+icenes_2007,mmbprt_4resp,Are you a member of a political party? If yes; What party? - 4. answer
+icenes_2007,mmbprt_5resp,Are you a member of a political party? If yes; What party? - 5. answer
+icenes_2007,mmbprt_6resp,Are you a member of a political party? If yes; What party? - 6. answer
+icenes_2007,mmbprt_7resp,Are you a member of a political party? If yes; What party? - 7. answer
+icenes_2007,mmbprt_8resp,Are you a member of a political party? If yes; What party? - 8. answer
+icenes_2007,mmbprt_S,Member of Social Democratic Alliance - (What political party/ies are you a member of?)
+icenes_2007,mmbprt_B,Member of Progressive Party (What political party/ies are you a member of?)
+icenes_2007,mmbprt_D,Member of Independence Party (What political party/ies are you a member of?)
+icenes_2007,mmbprt_V,Member of Left Green Movement (What political party/ies are you a member of?)
+icenes_2007,mmbprt_F,Member of Liberal Party (What political party/ies are you a member of?)
+icenes_2007,mmbprt_I,Member of Icelandic Movement (What political party/ies are you a member of?)
+icenes_2007,mmbprt_1,Member of another party/ies (What political party/ies are you a member of?)
+icenes_2007,mmbprt_2,"Yes, is a member of a party but refuses to say which one (What political party/ies are you a member of?)"
+icenes_2007,mmbprt_4,Refuses to answer (What political party/ies are you a member of?)
+icenes_2007,mmbprt_5,Don�t know (What political party/ies are you a member of?)
+icenes_2007,primevote,Did the respondent vote in a primary?
+icenes_2007,primevote_1resp,Did you take part in a primary of any party before the last election? If yes: What primary?- 1.answer
+icenes_2007,primevote_2resp,Did you take part in a primary of any party before the last election? If yes: What primary?- 2.answer
+icenes_2007,primevote_3resp,Did you take part in a primary of any party before the last election? If yes: What primary?- 3.answer
+icenes_2007,primevote_4resp,Did you take part in a primary of any party before the last election? If yes: What primary?- 4.answer
+icenes_2007,primevote_S,Social Democratic Alliance (Primaries of what party or parties did you take part in?
+icenes_2007,primevote_B,Progressive Party (Primaries of what party or parties did you take part in?
+icenes_2007,primevote_D,Independence Party (Primaries of what party or parties did you take part in?
+icenes_2007,primevote_V,Left Green Movement (Primaries of what party or parties did you take part in?
+icenes_2007,primevote_F,Liberal Party (Primaries of what party or parties did you take part in?
+icenes_2007,primevote_2,Refused to say which party (Primaries of what party or parties did you take part in?
+icenes_2007,vote07,Did you vote in the Althingi election on May 12th?
+icenes_2007,prtvote07,What party or list did you vote for?
+icenes_2007,ifprtvote07,"If you would have voted, which party would you have voted for?"
+icenes_2007,whnvote07,What is the main reason that you did not vote?
+icenes_2007,whnvote07_cat,What is the main reason that you did not vote? � coded and categorized
+icenes_2007,elecdayvote,Did you cast your vote on Election Day or before Election Day (absentee ballot)?
+icenes_2007,candordch,Did you change the ranking order or cross out a candidate on the party list you voted for?
+icenes_2007,diffvote,Did you consider voting for any other party?
+icenes_2007,diffvote_1resp,"Did you consider voting for any other party? If yes, which party/parties?- 1.answer"
+icenes_2007,diffvote_2resp,"Did you consider voting for any other party? If yes, which party/parties?- 2.answer"
+icenes_2007,diffvote_3resp,"Did you consider voting for any other party? If yes, which party/parties?- 3.answer"
+icenes_2007,diffvote_4resp,"Did you consider voting for any other party? If yes, which party/parties?- 4.answer"
+icenes_2007,diffvote_5resp,"Did you consider voting for any other party? If yes, which party/parties?- 5.answer"
+icenes_2007,diffvote_6resp,"Did you consider voting for any other party? If yes, which party/parties?- 6.answer"
+icenes_2007,diffvote_S,Considered to vote for Social Democratic Alliance
+icenes_2007,diffvote_B,Considered to vote for Progressive Party
+icenes_2007,diffvote_D,Considered to vote for Independence Party
+icenes_2007,diffvote_V,Considered to vote for Left Green Movement
+icenes_2007,diffvote_F,Considered to vote for Liberal Party
+icenes_2007,diffvote_I,Considered to vote for Icelandic Movement
+icenes_2007,diffvote_1,Considered to vote for another party
+icenes_2007,diffvote_2,Considered to vote for all other parties
+icenes_2007,diffvote_3,Considered not to vote
+icenes_2007,diffvote_4,Considered to cast a blank / invalid ballot
+icenes_2007,diffvote_5,"Considered to vote for another party, refused to say for which one"
+icenes_2007,diffvote_7,Considered to vote for another party � Refused to answer (volunteered)
+icenes_2007,diffvote_8,Considered to vote for � Don�t know (volunteered)
+icenes_2007,diffvote_9,"Considered voting for another party, which one?"
+icenes_2007,prtnvote,And were there any party or parties that you would never vote for?
+icenes_2007,prtnvote_1resp,"And were there any party or parties that you would never vote for? If yes, what party/parties?  - 1.answer"
+icenes_2007,prtnvote_2resp,"And were there any party or parties that you would never vote for? If yes, what party/parties?  - 2.answer"
+icenes_2007,prtnvote_3resp,"And were there any party or parties that you would never vote for? If yes, what party/parties?  - 3.answer"
+icenes_2007,prtnvote_4resp,"And were there any party or parties that you would never vote for? If yes, what party/parties?  - 4.answer"
+icenes_2007,prtnvote_5resp,"And were there any party or parties that you would never vote for? If yes, what party/parties?  - 5.answer"
+icenes_2007,prtnvote_S,Would never vote for Social Democratic Alliance
+icenes_2007,prtnvote_B,Would never vote for Progressive Party
+icenes_2007,prtnvote_D,Would never vote for Independence Party
+icenes_2007,prtnvote_V,Would never vote for Left Green Movement
+icenes_2007,prtnvote_F,Would never vote for Liberal Party
+icenes_2007,prtnvote_I,Would never vote for Icelandic Movement
+icenes_2007,prtnvote_1,Would never vote for � Names another party
+icenes_2007,prtnvote_3,Would never vote for � Refused to answer (volunteered)
+icenes_2007,prtnvote_4,Would never vote for � Don�t know
+icenes_2007,prtnvote_5,"Would never vote for � Another party, which? Open-ended question"
+icenes_2007,hldecvote,How long before the election did you make a final decision?
+icenes_2007,fvote03,"Did you vote in the 2003 Althingi election, two years ago?"
+icenes_2007,prtfvote03,"What party or list did you vote for? (Did you vote in the 2003 Althingi election, two years ago?"
+icenes_2007,bprttax,What party do you think has the best policy on taxes
+icenes_2007,bprtimm,What party do you think has the best policy on immigration
+icenes_2007,bprteurope,What party do you think has the best policy on European issues
+icenes_2007,bprtfamily,What party do you think has the best policy on family issues
+icenes_2007,bprtisencit,What party do you think has the best policy on senior citizen�s issues
+icenes_2007,bprthealth,What party do you think has the best policy on health care
+icenes_2007,bprtenvir,What party do you think has the best policy on environmental issues
+icenes_2007,bprtregpol,What party do you think has the best policy on regional issues
+icenes_2007,bprtedu,What party do you think has the best policy on education
+icenes_2007,whccoalit_flo,What parties would you like to see form a majority coalition government after the elections? � Coded and categorized
+icenes_2007,envirinfl_jrnal,In the last 12 months have you tried to influence political decisions about environmental issues by: Writing an article in a newspaper or a magazine
+icenes_2007,envirinfl_plct,In the last 12 months have you tried to influence political decisions about environmental issues by: Contacting a politician or an official
+icenes_2007,envirinfl_protest,In the last 12 months have you tried to influence political decisions about environmental issues by: Taking part in demonstration or a protest
+icenes_2007,envirinfl_sign,In the last 12 months have you tried to influence political decisions about environmental issues by: Signing a petition
+icenes_2007,envirinfl_org,In the last 12 months have you tried to influence political decisions about environmental issues by: Being active in an environmental organization
+icenes_2007,gndequ,"If we turn to attempts to assure women equal position to men, do you think this development has gone too far, about right or not far enough"
+icenes_2007,envirintr,"Do you consider yourself to be very much interested in environmental issues, much interested, somewhat interested, little interested or are you not interested in environmental issues at all?"
+icenes_2007,tvpol,"In the election campaign there were various TV-shows about politics, for example promotional programs about the political parties, and various political talk shows. Did you watch almost all of these programs, many of them, some, few or none?"
+icenes_2007,tvpolpreelt,The evening before the elections the leaders of the political parties appeared together in a talk show on  national TV. Did you see that program?
+icenes_2007,polknowld1,Do you know to which political party Jonina Bjartmartz is a member of?
+icenes_2007,polknowld2,Can you tell me who the deputy chairman of the Independence Party is?
+icenes_2007,polknowld3,And can you tell me how many the electoral districts in Iceland are?
+icenes_2007,pjob,Are you currently economically active?
+icenes_2007,fullpjob,Are you in a full-time job or a part-time job?
+icenes_2007,njob,"Do you work at home, are you in school, unemployed, temporarily not working because of health problems, on a vacation or retired?"
+icenes_2007,mainjobflo,What is / was your main occupation? - categorized
+icenes_2007,uniwindw,Are / were you an employee or do you operate your own business? If own business: Do you have employees?
+icenes_2007,emplstatus,Respondents employment status
+icenes_2007,govpriv,"Do / did you work in the public sector (public institution, public company/district level), the private sector or in another sector?"
+icenes_2007,industry,In what field is your work?
+icenes_2007,industry2,Respondents field of industry � three categories
+icenes_2007,education,Education of the respondent
+icenes_2007,unmmb,Are you a member of a union?
+icenes_2007,maritals,What is your marital status?
+icenes_2007,spsemplflo,What is/was the main occupation of your spouse? - catagorized
+icenes_2007,incomecate,Household income quintile (monthly income) appropriate to the respondent
+icenes_2007,hhmmbflo,What is the number of people in your household including you? - categorized
+icenes_2007,childsflo,"How many children, 17 or younger are in your household? - categorized"
+icenes_2007,rlgatnd,How often do you attend church or a religious service?
+icenes_2007,rlgdgr,"Do you consider yourself to be very religious, somewhat religious, not very religious or not religious at all?"
+icenes_2007,distseat,Number of parliamentary seats per electoral district
+icenes_2007,candidates,Number of candidates per electoral district
+icenes_2007,partylist,Number or parties/party lists running for the election in each electoral district
+icenes_2007,sdavote,Social Democratic Alliance � percentage of the vote in each electoral district
+icenes_2007,ppvote,Progressive Party - percentage of the vote in each electoral district
+icenes_2007,ipvote,Independence Party - percentage of the vote in each electoral district
+icenes_2007,lgvote,Left Green Movement - percentage of the vote in each electoral district
+icenes_2007,lpvote,Liberal Party- percentage of the vote in each electoral district
+icenes_2007,imvote,Icelandic  Movement - percentage of the vote in each electoral district
+icenes_2007,turnout,Turnout in each electoral district
+icenes_2009,User_Id,Id number of the respondent.
+icenes_2009,dataset,Dataset.
+icenes_2009,gender,Gender of the respondent.
+icenes_2009,yob,Respondent�s year of birth.
+icenes_2009,age,Respondent�s age
+icenes_2009,elecdist,Respondents�electoral district.
+icenes_2009,geoarea,Residence � geographical area
+icenes_2009,urban,Urban or rural residency
+icenes_2009,intervnrday,Number of days between the election and the interview
+icenes_2009,elecday,Election day
+icenes_2009,elecmonth,Election month
+icenes_2009,elecyear,Election year
+icenes_2009,polintr,"Do you consider your interest in politics very great, great, some, little, or are you not interested in politics at all?"
+icenes_2009,pltrust,"Do you think that politicians are in general trustworthy, that many of them are trustworthy, some are trustworthy, few, or perhaps none?"
+icenes_2009,mimpissue,What has been the most important issue to you personally in this election?
+icenes_2009,issue12009,What has been the most important issue to you personally in this election? � Coded categories.
+icenes_2009,simpissue,What do you think is the second most important political problem facing Iceland today?
+icenes_2009,issue22009,What has been the second most important issue to you personally in this election? � Coded categories.
+icenes_2009,mimptask,What do you think is the most important political problem facing Iceland today?
+icenes_2009,task12009,What do you think is the most important political problem facing Iceland today? � Coded and categorized
+icenes_2009,simptask,What do you think is the second most important political problem facing Iceland today?
+icenes_2009,task22009,What do you think is the second most important political problem facing Iceland today? � Coded and categorized
+icenes_2009,mipmtaskprt,Thinking of the most important political problem facing Iceland which party do you think is best in dealing with it?
+icenes_2009,simptaskprt,And the second most important political problem facing Iceland which party do you think is best in dealing with it?
+icenes_2009,pidsupport1,Party identification - Does the respondent identify with a party - yes/no - supporter of
+icenes_2009,pidsupport3,Party identification - direction - supporter of
+icenes_2009,prtcls,Do you nevertheless feel somewhat closer to any party or organization than to others?
+icenes_2009,prtclsorig,Do you nevertheless feel yourself a little closer to one of the political parties than the others?
+icenes_2009,peoplimp,Does it make a difference who is in power?
+icenes_2009,voteimp,Does it matter who people vote for
+icenes_2009,govprfmGHH,"How good or bad a job in general do you think the government of the Independence Party and the Social Democratic Alliance, that was in power from 2007 until February 2009, has done while it was in power?"
+icenes_2009,govprfmJH,"How good or bad a job in general do you think the minority government of the Social Democratic Alliance and the Left Green Movement that was in power from February 2009 up to the elections (April 25th, 2009), has done while it was in power?"
+icenes_2009,EUmship,"Do you think that it is desirable or undesirable, that Iceland applies for membership in the European Union? (Probe; very or rather)"
+icenes_2009,envirimp,Do you agree or disagree that in the next years action on environmental issues should be prioritized over attempts to increase economic growth � or do you think this makes no difference?
+icenes_2009,gincdif,Do you agree or disagree that the government should use its power to increase the equality of the income distribution in society? Or do you think this makes no difference?
+icenes_2009,genconsind,"Do you think that the government should put strong emphasis, some emphasis or little emphasis on the development of power intensive industry?"
+icenes_2009,icenatoint,If we now turn to the question whether Iceland should continue its membership of NATO � is that an issue on which you have an opinion?
+icenes_2009,icenato,"Some people believe Iceland should stay in NATO, while others believe it should discontinue its membership. What is your opinion?"
+icenes_2009,qtastmch,"Do you agree or disagree, that the present quota system in fisheries should be fundamentally changed � or do you think this makes no difference?"
+icenes_2009,ceqvote,"Do you agree or disagree, that preferably all votes in the country should have equal weight when parliamentary seats are allotted � or do you think this makes no difference?"
+icenes_2009,acrproimp,Do you agree or disagree that restrictions on agricultural imports should be considerably relaxed - or do you think this makes no difference?
+icenes_2009,taxreduc,"Do you agree or disagree, that taxes should be reduced, even though it meant that public services had to be reduced, e.g. in health care, education, or social security � or do you think this makes no difference?"
+icenes_2009,capicntry,Do you agree or disagree that progress in the capital area may be decreased in order to increase prosperity in the rural regions � or does this not make any difference?
+icenes_2009,privhealth,Do you agree or disagree to increased privatization in the health care system?
+icenes_2009,imueclt,Do you agree or disagree that immigrants are a serious threat to our national characteristics?
+icenes_2009,prtreflopin,Would you say that any of the parties in Iceland represent your views reasonably well?
+icenes_2009,prtflopinbest,Which party represents your views best?
+icenes_2009,lrefop,"Regardless of how you feel about the parties, would you say that any of the individual party leaders at the last election represents your views reasonably well?"
+icenes_2009,lrefopbest,Which party leader represents your views best?
+icenes_2009,prtfeel_S,"Social Democratic Alliance - I�d like to know what you think about each of our political parties. After I read the name of a political party, please rate it on a scale from 0 to 10, where 0 means you strongly dislike that party and 10 means that you stron"
+icenes_2009,prtfeel_B,"Progressive Party - I�d like to know what you think about each of our political parties. After I read the name of a political party, please rate it on a scale from 0 to 10, where 0 means you strongly dislike that party and 10 means that you strongly like"
+icenes_2009,prtfeel_D,"Independence Party - I�d like to know what you think about each of our political parties. After I read the name of a political party, please rate it on a scale from 0 to 10, where 0 means you strongly dislike that party and 10 means that you strongly like"
+icenes_2009,prtfeel_V,"Left Green Movement - I�d like to know what you think about each of our political parties. After I read the name of a political party, please rate it on a scale from 0 to 10, where 0 means you strongly dislike that party and 10 means that you strongly lik"
+icenes_2009,prtfeel_F,"Liberal Party - I�d like to know what you think about each of our political parties. After I read the name of a political party, please rate it on a scale from 0 to 10, where 0 means you strongly dislike that party and 10 means that you strongly like that"
+icenes_2009,prtfeel_O,"Civic Movement - I�d like to know what you think about each of our political parties. After I read the name of a political party, please rate it on a scale from 0 to 10, where 0 means you strongly dislike that party and 10 means that you strongly like tha"
+icenes_2009,ldrfeel_JS,"Johanna Sigurdardottir (leader of Social Democratic Alliance) - And now, using the same scale, I�d like to ask you how much you like or dislike some political leaders. - 0=strongly dislike, 10=strongly like"
+icenes_2009,ldrfeel_SDG,"Sigmundur David Gunnlaugsson (leader of Progressive Party) - And now, using the same scale, I�d like to ask you how much you like or dislike some political leaders. - 0=strongly dislike, 10=strongly like"
+icenes_2009,ldrfeel_BB,"Bjarni Benediktsson (leader of Independence Party) - And now, using the same scale, I�d like to ask you how much you like or dislike some political leaders. - 0=strongly dislike, 10=strongly like"
+icenes_2009,ldrfeel_SJS,"Steingrimur J. Sigfusson (leader of Left Green Movement) - And now, using the same scale, I�d like to ask you how much you like or dislike some political leaders. - 0=strongly dislike, 10=strongly like"
+icenes_2009,ldrfeel_GAK,"Gudjon Arnar Kristjansson (leader of Liberal Party) - And now, using the same scale, I�d like to ask you how much you like or dislike some political leaders. - 0=strongly dislike, 10=strongly like"
+icenes_2009,ldrfeel_THS,"Thor Saari (leader of Civic Movement) - And now, using the same scale, I�d like to ask you how much you like or dislike some political leaders. - 0=strongly dislike, 10=strongly like"
+icenes_2009,lrscale_S,Left-right placement of the Social Democratic Alliance
+icenes_2009,lrscale_B,Left-right placement of the Progressive Party
+icenes_2009,lrscale_D,Left-right placement of the Independence Party
+icenes_2009,lrscale_V,Left-right placement of the Left Green Movement
+icenes_2009,lrscale_F,Left-right placement of the Liberal Party
+icenes_2009,lrscale_O,Left-right placement of the Civic Movement
+icenes_2009,lrscale,Left-right self-placement of the respondent
+icenes_2009,prtdiff,"During the election campaign, would you say that there were major differences between the parties, minor differences, or no differences at all?"
+icenes_2009,campatt,"How closely did you follow the election campaign? Very closely, fairly closely, not very closely, or not closely at all?"
+icenes_2009,democr,"On the whole, are you very satisfied, fairly satisfied, not very satisfied, or not at all satisfied with the way democracy works in Iceland?"
+icenes_2009,pidclose1,Do you usually think of yourself as close to any particular political party? - CSES question
+icenes_2009,pidclose2,Strength of party identification - close to / CSES question
+icenes_2009,pidclose3,Direction of party identification - close to / CSES question
+icenes_2009,pidsymp1,Do you feel yourself a little closer to one of the political parties than the others? - CSES question
+icenes_2009,pidsymp2,Strength of party sympathy - closer to / CSES question
+icenes_2009,pidsymp3,Direction of party sympathy - close to / CSES question
+icenes_2009,mmbprt,Are you a member of a political party?
+icenes_2009,mmbprt_S,Member of Social Democratic Alliance - (What political party/ies are you a member of?)
+icenes_2009,mmbprt_B,Member of Progressive Party (What political party/ies are you a member of?)
+icenes_2009,mmbprt_D,Member of Independence Party (What political party/ies are you a member of?)
+icenes_2009,mmbprt_V,Member of Left Green Movement (What political party/ies are you a member of?)
+icenes_2009,mmbprt_F,Member of Liberal Party (What political party/ies are you a member of?)
+icenes_2009,mmbprt_O,Member of Civic Movement (What political party/ies are you a member of?)
+icenes_2009,mmbprt_P,Member of Democratic Movement (What political party/ies are you a member of?)
+icenes_2009,mmbprt_1,Member of another party/ies (What political party/ies are you a member of?)
+icenes_2009,mmbprt_2,"Yes, is a member of a party but refuses to say which one (What political party/ies are you a member of?)"
+icenes_2009,primevote,Did the respondent vote in a primary?
+icenes_2009,primevote_S,Social Democratic Alliance (Primaries of what party or parties did you take part in?
+icenes_2009,primevote_B,Progressive Party (Primaries of what party or parties did you take part in?
+icenes_2009,primevote_D,Independence Party (Primaries of what party or parties did you take part in?
+icenes_2009,primevote_V,Left Green Movement (Primaries of what party or parties did you take part in?
+icenes_2009,primevote_F,Liberal Party (Primaries of what party or parties did you take part in?
+icenes_2009,primevote_O,Civic Movement (Primaries of what party or parties did you take part in?
+icenes_2009,primevote_P,Democratic Movement (Primaries of what party or parties did you take part in?
+icenes_2009,primevote_1,Voted in a primary of another party (Primaries of what party or parties did you take part in?
+icenes_2009,primevote_2,Refused to say which party (Primaries of what party or parties did you take part in?
+icenes_2009,vote09,Did you vote in the Althingi election on April 25th?
+icenes_2009,prtvote09,What party or list did you vote for?
+icenes_2009,ifprtvote09,"If you would have voted, which party would you have voted for?"
+icenes_2009,whnvote09,What is the main reason that you did not vote?
+icenes_2009,whnvote09_cat,What is the main reason that you did not vote? � coded and categorized
+icenes_2009,whbvote09,What is the main reason that you cast a blank ballot?
+icenes_2009,whbvote09_cat,What is the main reason that you cast a blank ballot? � coded and categorized
+icenes_2009,candordch,Did you change the ranking order or cross out a candidate on the party list you voted for?
+icenes_2009,diffvote,Did you consider voting for any other party?
+icenes_2009,diffvote_S,Considered to vote for Social Democratic Alliance
+icenes_2009,diffvote_B,Considered to vote for Progressive Party
+icenes_2009,diffvote_D,Considered to vote for Independence Party
+icenes_2009,diffvote_V,Considered to vote for Left Green Movement
+icenes_2009,diffvote_F,Considered to vote for Liberal Party
+icenes_2009,diffvote_O,Considered to vote for Civic Movement
+icenes_2009,diffvote_P,Considered to vote for Democratic Movement
+icenes_2009,diffvote_1,Considered to vote for another party
+icenes_2009,diffvote_2,Considered to vote for all other parties
+icenes_2009,diffvote_3,Considered not to vote
+icenes_2009,diffvote_4,Considered to cast a blank / invalid ballot
+icenes_2009,diffvote_5,"Considered to vote for another party, refused to say for which one"
+icenes_2009,diffvote_7,Considered to vote for another party � Refused to answer (volunteered)
+icenes_2009,diffvote_8,Considered to vote for � Don�t know (volunteered)
+icenes_2009,prtnvote,And were there any party or parties that you would never vote for?
+icenes_2009,prtnvote_S,Would never vote for Social Democratic Alliance
+icenes_2009,prtnvote_B,Would never vote for Progressive Party
+icenes_2009,prtnvote_D,Would never vote for Independence Party
+icenes_2009,prtnvote_V,Would never vote for Left Green Movement
+icenes_2009,prtnvote_F,Would never vote for Liberal Party
+icenes_2009,prtnvote_O,Would never vote for Civic Movement
+icenes_2009,prtnvote_P,Would never vote for Democratic Movement
+icenes_2009,prtnvote_1,Would never vote for � Names another party
+icenes_2009,prtnvote_3,Would never vote for � Refused to answer (volunteered)
+icenes_2009,prtnvote_4,Would never vote for � Don�t know
+icenes_2009,hldecvote,How long before the election did you make a final decision?
+icenes_2009,fvote07,"Did you vote in the 2007 Althingi election, two years ago?"
+icenes_2009,prtfvote07,"What party or list did you vote for? (Did you vote in the 2007 Althingi election, two years ago?"
+icenes_2009,elrepwish,How well or badly do you consider that the opinions of elected members of parliament reflect in practice the wishes of the people?
+icenes_2009,enviroint,"Do you consider yourself to be very much interested in environmental issues, much interested, somewhat interested, little interested or are you not interested in environmental issues at all?"
+icenes_2009,democimp,"How much do you agree or disagree with the following statement: �Democracy is not without flaws, but it is still the best form of governance available."
+icenes_2009,bprteco,What party do you think has the best policy on economic issues
+icenes_2009,bprttax,What party do you think has the best policy on taxes
+icenes_2009,bprtimm,What party do you think has the best policy on immigration
+icenes_2009,bprteurope,What party do you think has the best policy on European issues
+icenes_2009,bprtfamily,What party do you think has the best policy on family issues
+icenes_2009,bprtisencit,What party do you think has the best policy on senior citizen�s issues
+icenes_2009,bprthealth,What party do you think has the best policy on health care
+icenes_2009,bprtenvir,What party do you think has the best policy on environmental issues
+icenes_2009,bprtregpol,What party do you think has the best policy on regional issues
+icenes_2009,bprtedu,What party do you think has the best policy on education
+icenes_2009,bprtecorecon,What party do you think has the best policy on economic recovery
+icenes_2009,whccoalit_flo,What parties would you like to see form a majority coalition government after the elections? � Coded and categorized
+icenes_2009,wrkpplsopin,"Over the past five years or so, have you worked together with people who shared the same concern?"
+icenes_2009,prot5yrs,"Over the past five years or so, have you taken part in a protest or a march?"
+icenes_2009,protbnkcls,But have you done so after the bank-collapse last October?
+icenes_2009,bnkclsfault_S,"Social Democratic Party - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2009,bnkclsfault_B,"Progressive Party - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2009,bnkclsfault_D,"The Independence Party - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2009,bnkclsfault_V,"Left Green Movement - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2009,bnkclsfault_F,"Liberal Party - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2009,bnkclsfault_G_GHH,"The government of Geirs H. Haarde (prime minister and chairman of the Independence Party; in coalition of with the Social Democratic Alliance) - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2009,bnkclsfault_bnk,"The commercial banks - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2009,bnkclsfault_CB,"The Central Bank - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2009,bnkclsfault_FME,"The Financial Supervisory Authority - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2009,pltscrp,"How widespread do you think corruption is among Icelandic politicians? Very widespread, quite widespread, not very widespread or it hardly happens at all?"
+icenes_2009,gndequ,"If we turn to attempts to assure women equal position to men, do you think this development has gone too far, about right or not far enough"
+icenes_2009,protbnkclsad,Did you support or oppose to the protests that took place after the bank collapse? (Probe; very or tended to)
+icenes_2009,natvote,Do you support or oppose the idea that a part of the electorate can demand a referendum on single issues?
+icenes_2009,parlconstad,Do you support or oppose that a constituent assembly should be elected to work on changes of the constitution? (Probe; very much or tend to)
+icenes_2009,tvpol,"In the election campaign there were various TV-shows about politics, for example promotional programs about the political parties, and various political talk shows. Did you watch almost all of these programs, many of them, some, few or none?"
+icenes_2009,tvpolpreelt,The evening before the elections the leaders of the political parties appeared together in a talk show on  national TV. Did you see that program?
+icenes_2009,polknowld1,Do you know what party Kolbrun Halldorsdottir is a member of?
+icenes_2009,polknowld2,Can you tell me who the deputy chairman of the Independence Party is?
+icenes_2009,polknowld3,And can you tell me how many the electoral districts in Iceland are?
+icenes_2009,pjob,Are you currently economically active?
+icenes_2009,fullpjob,Are you in a full-time job or a part-time job?
+icenes_2009,njob,"Do you work at home, are you in school, unemployed, temporarily not working because of health problems, on a vacation or retired?"
+icenes_2009,mainjobflo,What is / was your main occupation? - categorized
+icenes_2009,uniwindw,Are / were you an employee or do you operate your own business? If own business: Do you have employees?
+icenes_2009,emplstatus,Respondents employment status
+icenes_2009,govpriv,"Do / did you work in the public sector (public institution, public company/district level), the private sector or in another sector?"
+icenes_2009,industry,In what field is your work?
+icenes_2009,industry2,Respondents field of industry � three categories
+icenes_2009,education,Education of the respondent
+icenes_2009,unmmb,Are you a member of a union?
+icenes_2009,maritals,What is your marital status?
+icenes_2009,spsemplflo,What is/was the main occupation of your spouse? - catagorized
+icenes_2009,incomecate,Household income quintile appropriate to the respondent
+icenes_2009,hhmmbflo,What is the number of people in your household including you? - categorized
+icenes_2009,childsflo,"How many children, 17 or younger are in your household? - categorized"
+icenes_2009,rlgatnd,How often do you attend church or a religious service?
+icenes_2009,rlgdgr,"Do you consider yourself to be very religious, somewhat religious, not very religious or not religious at all?"
+icenes_2009,distseat,Number of parliamentary seats per electoral district
+icenes_2009,candidates,Number of candidates per electoral district
+icenes_2009,partylist,Number or parties/party lists running for the election in each electoral district
+icenes_2009,sdavote,Social Democratic Alliance � percentage of the vote in each electoral district
+icenes_2009,ppvote,Progressive Party - percentage of the vote in each electoral district
+icenes_2009,ipvote,Independence Party - percentage of the vote in each electoral district
+icenes_2009,lgvote,Left Green Movement - percentage of the vote in each electoral district
+icenes_2009,lpvote,Liberal Party- percentage of the vote in each electoral district
+icenes_2009,cmvote,Civic Movement - percentage of the vote in each electoral district
+icenes_2009,dmvote,Democratic Movement - percentage of the vote in each electoral district
+icenes_2009,turnout,Turnout in each electoral district
+icenes_2013,User_Id,Id number of the respondent
+icenes_2013,dataset,Dataset
+icenes_2013,gender,Gender of the respondent.
+icenes_2013,yob,Respondent�s year of birth
+icenes_2013,age,Respondent�s age
+icenes_2013,elecdist,Respondents�electoral district
+icenes_2013,geoarea,Residence � geographical area
+icenes_2013,urban,Urban or rural residency
+icenes_2013,intervnrday,Number of days between the election and the interview
+icenes_2013,polintr,"Do you consider your interest in politics very great, great, some, little, or are you not interested in politics at all?"
+icenes_2013,pltrust,"Do you think that politicians are in general trustworthy, that many of them are trustworthy, some are trustworthy, few, or perhaps none?"
+icenes_2013,issue12013,What has been the most important issue to you personally in this election? � Coded categories.
+icenes_2013,issue22013,What has been the second most important issue to you personally in this election? � Coded categories.
+icenes_2013,task12013,What do you think is the most important political problem facing Iceland today? � Coded and categorized
+icenes_2013,mipmtaskprt,Thinking of the most important political problem facing Iceland which party do you think is best in dealing with it?
+icenes_2013,mimptaskprtsec,And which party do you consider to be the second-best to deal with the most important political problem?
+icenes_2013,pidsupport1,Party identification - Do you in general consider yourself as a supporter of any political party or organization?
+icenes_2013,pidsupport3,Party identification - What party does R consider him/herself a support of
+icenes_2013,prtcls,Do you nevertheless feel somewhat closer to any party or organization than to others?
+icenes_2013,prtclsorig,Do you nevertheless feel somewhat closer to any party or organization than to others? - Original variable
+icenes_2013,peoplimp,Does it make a difference who is in power?
+icenes_2013,voteimp,Does it matter who people vote for
+icenes_2013,govprfmJS,"How good or bad a job in general do you think the government of the Social Democratic Alliance and the Left-Green Movement, that was in power from 2009 until 2013, has done while it was in power?"
+icenes_2013,partprfm_S,How good or a bad job do you consider that each party did during that term? - Social Democratic Alliance
+icenes_2013,partprfm_B,How good or a bad job do you consider that each party did during that term? - Progressive Party
+icenes_2013,partprfm_D,How good or a bad job do you consider that each party did during that term? - Independence Party
+icenes_2013,partprfm_V,How good or a bad job do you consider that each party did during that term? - Left-Green Movement
+icenes_2013,partprfm_O,How good or a bad job do you consider that each party did during that term? - Civic Movement / Movement
+icenes_2013,icepartprfm_S,How good or a bad job did the parties represented in Althingi in the last electoral term do regarding the ICESAVE issue? - Social Democratic Alliance
+icenes_2013,icepartprfm_B,How good or a bad job did the parties represented in Althingi in the last electoral term do regarding the ICESAVE issue?- Progressive Party
+icenes_2013,icepartprfm_D,How good or a bad job did the parties represented in Althingi in the last electoral term do regarding the ICESAVE issue? - Independence Party
+icenes_2013,icepartprfm_V,How good or a bad job did the parties represented in Althingi in the last electoral term do regarding the ICESAVE issue? - Left-Green Movement
+icenes_2013,icepartprfm_O,How good or a bad job did the parties represented in Althingi in the last electoral term do regarding the ICESAVE issue? - Civic Movement / Movement
+icenes_2013,EUnego,"Do you think that it is desirable or undesirable, that Iceland continues its negotiations on European Union membership?"
+icenes_2013,EUmship,"Do you think that it is desirable or undesirable, that Iceland applies for membership in the European Union?"
+icenes_2013,envirimp,...that in the next years action on environmental issues should be prioritized over attempts to increase economic growth
+icenes_2013,gincdif,...that the government should use its power to increase the equality of the income distribution in society
+icenes_2013,ceqvote,...that preferably all votes in the country should have equal weight when parliamentary seats are allotted
+icenes_2013,taxreduc,"...that taxes should be reduced, even though it meant that public services had to be reduced, e.g. in health care, education, or social security"
+icenes_2013,capicntry,...that progress in the capital area may be decreased in order to increase prosperity in the rural regions
+icenes_2013,privhealth,Do you agree or disagree to increased privatization in the health care system?
+icenes_2013,imueclt,Do you agree or disagree that immigrants are a serious threat to our national characteristics?
+icenes_2013,genconsind,"Do you think that the government should put strong emphasis, some emphasis or little emphasis on the development of power intensive industry?"
+icenes_2013,icenatoint,If we now turn to the question whether Iceland should continue its membership of NATO � is that an issue on which you have an opinion?
+icenes_2013,icenato,"Some people believe Iceland should stay in NATO, while others believe it should discontinue its membership. What is your opinion?"
+icenes_2013,acrproimp,Do you agree or disagree that restrictions on agricultural imports should be considerably relaxed - or do you think this makes no difference?
+icenes_2013,referendcha,"Do you consider it not at all important, not very important, rather important or very important to change the Constitution?"
+icenes_2013,democr,"On the whole, are you very satisfied, fairly satisfied, not very satisfied, or not at all satisfied with the way democracy works in Iceland?"
+icenes_2013,pltscrp,"How widespread do you think corruption is among Icelandic politicians? Very widespread, quite widespread, not very widespread or it hardly happens at all?"
+icenes_2013,gndequ,"If we turn to attempts to assure women equal position to men, do you think this development has gone too far, about right or not far enough"
+icenes_2013,natvote,Do you support or oppose the idea that a part of the electorate can demand a referendum on single issues?
+icenes_2013,repdemocr,"In general, it is better for democracy in the country that people vote for parties and not for individuals in elections to Althingi"
+icenes_2013,persvote,Political parties should stick firmly to their principles instead of making compromises with other political parties
+icenes_2013,prtimp,Political parties are necessary for the political system to work
+icenes_2013,prtfeel_S,Social Democratic Alliance - Respondents party sympathy - like/dislike
+icenes_2013,prtfeel_B,Progressive Party - Respondents party sympathy - like/dislike
+icenes_2013,prtfeel_D,Independence Party - Respondents party sympathy - like/dislike
+icenes_2013,prtfeel_V,Left-Green Movement - Respondents party sympathy - like/dislike
+icenes_2013,prtfeel_A,Bright Future - Respondents party sympathy - like/dislike
+icenes_2013,prtfeel_Th,Pirate Party - Respondents party sympathy - like/dislike
+icenes_2013,ldrfeel_APA,�rni P�ll �rnason (leader of Social Democratic Alliance) - Respondents party leader sympathy - like/dislike
+icenes_2013,ldrfeel_SDG,Sigmundur Dav�� Gunnlaugsson (leader of Progressive Party) - Respondents party leader sympathy - like/dislike
+icenes_2013,ldrfeel_BB,Bjarni Benediktsson (leader of Independence Party) - Respondents party leader sympathy - like/dislike
+icenes_2013,ldrfeel_KJ,Katr�n Jakobsd�ttir (leader of Left-Green Movement) - Respondents party leader sympathy - like/dislike
+icenes_2013,ldrfeel_GS,Gu�mundur Steingr�msson (leader of Bright Future) - Respondents party leader sympathy - like/dislike
+icenes_2013,ldrfeel_BJ,Birgitta J�nsd�ttir (leader of Pirate Party) - Respondents party leader sympathy - like/dislike
+icenes_2013,ldrfeel_JS,J�hanna Sigur�ard�ttir (former leader of Social Democratic Alliance) - Respondents party leader sympathy - like/dislike
+icenes_2013,ldrfeel_SJS,Steingr�mur J. Sigf�sson (former leader of Left-Green Movement) - Respondents party leader sympathy - like/dislike
+icenes_2013,lrscale_S,Left-right placement of the Social Democratic Alliance
+icenes_2013,lrscale_B,Left-right placement of the Progressive Party
+icenes_2013,lrscale_D,Left-right placement of the Independence Party
+icenes_2013,lrscale_V,Left-right placement of the Left Green Movement
+icenes_2013,lrscale_A,Left-right placement of the Bright Future
+icenes_2013,lrscale_Th,Left-right placement of the Pirate Party
+icenes_2013,lrscale,Left-right self-placement of the respondent
+icenes_2013,pidsymp1,Closer to... - Do you feel yourself a little closer to one of the political parties than the others?
+icenes_2013,pidsymp2,Closer to... - How much closer...
+icenes_2013,pidsymp3,Closer to...  - what party is R closer to
+icenes_2013,pidclose1,Party identification - Do you usually think of yourself as close to any particular party?
+icenes_2013,pidclose2,Party identification - Strength of party identification
+icenes_2013,pidclose3,Party identification - What party does R identify with
+icenes_2013,referendum,Did you vote in the referendum about the Constitution on October 20th last year?
+icenes_2013,mmbprt,Are you a member of a political party?
+icenes_2013,mmbprt_S,Member of Social Democratic Alliance - (What political party/ies are you a member of?)
+icenes_2013,mmbprt_B,Member of Progressive Party (What political party/ies are you a member of?)
+icenes_2013,mmbprt_D,Member of Independence Party (What political party/ies are you a member of?)
+icenes_2013,mmbprt_V,Member of Left Green Movement (What political party/ies are you a member of?)
+icenes_2013,mmbprt_A,Member of Bright Future (What political party/ies are you a member of?)
+icenes_2013,mmbprt_Th,Member of  Pirate Party (What political party/ies are you a member of?)
+icenes_2013,mmbprt_other,"Member of another party/ies (mmbprt_L, mmbprt_G, mmbprt_I og mmbprt_1 taken together)"
+icenes_2013,mmbprtfre,Number of parties R is a member of
+icenes_2013,mmbprtpart,In which of those political parties do you participate most?
+icenes_2013,mmbprtpay,Do you pay membership fees?
+icenes_2013,mmbprtmeet,Do you go to at least two meeting per year held by [PARTY]?
+icenes_2013,mmbprtwork,Do you hold some party office for [PARTY]?
+icenes_2013,primevote,Did the respondent vote in a primary?
+icenes_2013,primevote_S,Social Democratic Alliance (Primaries of what party or parties did you take part in?)
+icenes_2013,primevote_B,Progressive Party (Primaries of what party or parties did you take part in?)
+icenes_2013,primevote_D,Independence Party (Primaries of what party or parties did you take part in?)
+icenes_2013,primevote_V,Left Green Movement (Primaries of what party or parties did you take part in?)
+icenes_2013,primevote_A,Bright Future (Primaries of what party or parties did you take part in?)
+icenes_2013,primevote_Th,Pirate Party (Primaries of what party or parties did you take part in?)
+icenes_2013,primevote_other,"Voted in a primary of other parties(primevote_L, primevote_G og primevote_1 together)"
+icenes_2013,vote13,Did you vote in the Althingi election on April 27th?
+icenes_2013,prtvote13,What party or list did you vote for?
+icenes_2013,ifprtvote13,"If you would have voted, which party would you have voted for?"
+icenes_2013,whnvote13_cat,What is the main reason that you did not vote?
+icenes_2013,whbvote13_cat,What is the main reason that you cast a blank ballot?
+icenes_2013,candordch,Did you change the ranking order or cross out a candidate on the party list you voted for?
+icenes_2013,diffvote,Did you consider voting for any other party?
+icenes_2013,diffvote_S,Considered to vote for Social Democratic Alliance
+icenes_2013,diffvote_B,Considered to vote for Progressive Party
+icenes_2013,diffvote_D,Considered to vote for Independence Party
+icenes_2013,diffvote_V,Considered to vote for Left Green Movement
+icenes_2013,diffvote_A,Considered to vote for Bright Future
+icenes_2013,diffvote_Th,Considered to vote for Pirate Party
+icenes_2013,diffvote_L,Considered to vote for Democratic Watch
+icenes_2013,diffvote_R,Considered to vote for The Peoples Fron of Iceland
+icenes_2013,diffvote_G,Considered to vote for Right-Greens
+icenes_2013,diffvote_H,Considered to vote for Humanist Party
+icenes_2013,diffvote_M,Considered to vote for Rural Party
+icenes_2013,diffvote_J,Considered to vote for Rainbow
+icenes_2013,diffvote_I,Considered to vote for Household Party
+icenes_2013,diffvote_K,Considered to vote for candidacy of Sturla J�nsson
+icenes_2013,diffvote_2,Considered to vote for all other parties
+icenes_2013,diffvote_3,Considered not to vote
+icenes_2013,diffvote_4,Considered to cast a blank / invalid ballot
+icenes_2013,diffvote_5,"Considered to vote for another party, refused to say for which one"
+icenes_2013,prtnvote,And were there any party or parties that you would never vote for?
+icenes_2013,prtnvote_S,Would never vote for Social Democratic Alliance
+icenes_2013,prtnvote_B,Would never vote for Progressive Party
+icenes_2013,prtnvote_D,Would never vote for Independence Party
+icenes_2013,prtnvote_V,Would never vote for Left Green Movement
+icenes_2013,prtnvote_A,Would never vote for Bright Future
+icenes_2013,prtnvote_Th,Would never vote for Pirate Party
+icenes_2013,prtnvote_L,Would never vote for Democratic Watch
+icenes_2013,prtnvote_R,Would never vote for Peoples Front of Iceland
+icenes_2013,prtnvote_G,Would never vote for Right-Greens
+icenes_2013,prtnvote_H,Would never vote for Humanist Party
+icenes_2013,prtnvote_M,Would never vote for Rural Party
+icenes_2013,prtnvote_J,Would never vote for Rainbow
+icenes_2013,prtnvote_I,Would never vote for Household Party
+icenes_2013,prtnvote_K,Would never vote for the candidacy of Sturla J�nsson
+icenes_2013,prtnvote_2,"Yes, all of them (...No, there is no party that I would never vote for)"
+icenes_2013,hldecvote,How long before the election did you make a final decision?
+icenes_2013,prtcompet,"In you opinion, what party was the main competitor of [PARTY RESPONDENT VOTED]?"
+icenes_2013,fvote09,"Did you vote in the 2009 Althingi election, two years ago?"
+icenes_2013,prtfvote09,"What party or list did you vote for? (Did you vote in the 2009 Althingi election, two years ago?)"
+icenes_2013,bprteco,What party do you think has the best policy on economic issues
+icenes_2013,bprttax,What party do you think has the best policy on taxes
+icenes_2013,bprtimm,What party do you think has the best policy on immigration
+icenes_2013,bprteurope,What party do you think has the best policy on European issues
+icenes_2013,bprtfamily,What party do you think has the best policy on family issues
+icenes_2013,bprtisencit,What party do you think has the best policy on senior citizen�s issues
+icenes_2013,bprthealth,What party do you think has the best policy on health care
+icenes_2013,bprtenvir,What party do you think has the best policy on environmental issues
+icenes_2013,bprtregpol,What party do you think has the best policy on regional issues
+icenes_2013,bprtedu,What party do you think has the best policy on education
+icenes_2013,bprtequal,What party do you think has the best policy on equality
+icenes_2013,bprtconst,What party do you think has the best policy about the new Constitution
+icenes_2013,bprtdebt,What party do you think has the best policy about households debts
+icenes_2013,bnkclsfault_S,"Social Democratic Party - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2013,bnkclsfault_B,"Progressive Party - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2013,bnkclsfault_D,"The Independence Party - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2013,bnkclsfault_V,"Left Green Movement - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2013,bnkclsfault_G_GHH,"The government of Geirs H. Haarde (2007-2009) - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2013,bnkclsfault_bnk,"The commercial banks - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2013,bnkclsfault_CB,"The Central Bank - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2013,bnkclsfault_FME,"The Financial Supervisory Authority - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2013,bnkclsfault_PI,"The President of Iceland - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2013,bnkclsfault_PC,"The consumerism of the Icelandic public  - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2013,bnkclsfault_FI,"Foreign investors and banks - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2013,bnkclsfault_IM,"Circumstances in international financial markets - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2013,govprfmcris,How good or a bad job do you think the government of the Social Democratic Alliance and the Left Green Movement did do regarding the economic recovery of Iceland during the last electoral term?
+icenes_2013,opposprfmcris,"If the opposition parties had been in government, do you think that their achievements in economic matters would have been better, the same or worse than the incumbent government�s?"
+icenes_2013,imfgov,The Icelandic state did the right thing when cooperating with the International Monetary Fund after the collapse of the banks in 2008
+icenes_2013,govmorgag,The state should support more than it does now those who have difficulties with their mortgages because of the economic collapse
+icenes_2013,forcurr,Adopting a foreign currency is necessary for Iceland�s economic future
+icenes_2013,ecorecov,"In general, Iceland has made a good progress recovering from the economic collapse"
+icenes_2013,priceindex,Indexing on loans should be dropped immediatly
+icenes_2013,corrcris,Corruption in Iceland has decreased after the collapse
+icenes_2013,anger,Anger - (...how much to you experience _______ in relation to how things are going in Iceland?
+icenes_2013,fear,Fear - (...how much to you experience _______ in relation to how things are going in Iceland?
+icenes_2013,pride,Pride - (...how much to you experience _______ in relation to how things are going in Iceland?
+icenes_2013,optimistic,Optimism - (...how much to you experience _______ in relation to how things are going in Iceland?
+icenes_2013,worries,Worries - (...how much to you experience _______ in relation to how things are going in Iceland?
+icenes_2013,tvpol,"In the election campaign there were various TV-shows about politics, for example ... Did you watch almost all of these programs, many of them, some, few or none?"
+icenes_2013,tvpolpreelt,The evening before the elections the leaders of the political parties appeared together in a talk show on  national TV. Did you see that program?
+icenes_2013,polknowld1,Which of these persons was the Finance Minister before the recent election?
+icenes_2013,polknowld2,What was the current unemployment rate in Iceland as of the end or March 2013. Was it...
+icenes_2013,polknowld3,"Which party came in second in votes in the election to Althingi, the Progressive Party, the Social Democratic Alliance, the Independent Party or the Left Green Movement?"
+icenes_2013,polknowld4,"Who is the current Secretary-General of the United Nations - Kofi Annan, Kurt Waldheim, Ban Ki-moon, or Boutros Boutros-Ghali?"
+icenes_2013,ecohealth,"Thinking about public expenditure on health, should there be much more than now, somewhat more than now, the same as now, somewhat less than now, or much less than now?"
+icenes_2013,ecoeducat,"Thinking about public expenditure on education, should there be much more than now, somewhat more than now, the same as now, somewhat less than now, or much less than now?"
+icenes_2013,ecounempl,"Thinking about public expenditure on unemployment benefits, should there be much more than now, somewhat more than now, the same as now, somewhat less than now, or much less than now?"
+icenes_2013,ecodefense,"Thinking about public expenditure on defense, should there be much more than now, somewhat more than now, the same as now, somewhat less than now, or much less than now?"
+icenes_2013,ecoretire,"Thinking about public expenditure on old-age pensions, should there be much more than now, somewhat more than now, the same as now, somewhat less than now, or much less than now?"
+icenes_2013,ecobusiness,"Thinking about public expenditure on business and industry, should there be much more than now, somewhat more than now, the same as now, somewhat less than now, or much less than now?"
+icenes_2013,ecopolice,"Thinking about public expenditure on police and law enforcement, should there be much more than now, somewhat more than now, the same as now, somewhat less than now, or much less than now?"
+icenes_2013,ecowelfare,"Thinking about public expenditure on welfare benefits, should there be much more than now, somewhat more than now, the same as now, somewhat less than now, or much less than now?"
+icenes_2013,improveliv,"Over the next ten years or so, how likely or unlikely is it that you will improve your standard of living? Very likely, somewhat likely, somewhat unlikely, or very unlikely?"
+icenes_2013,ecobettwors,"Would you say that over the past twelve months, the state of the economy in Iceland has gotten better, stayed about the same, or gotten worse?"
+icenes_2013,ecobettwors_1,Economy - How much better or worse
+icenes_2013,govequal,Please say to what extent you agree or disagree with the following statement: The government should take measures to reduce differences in income levels
+icenes_2013,campaign,"During the campaign, did a party or candidate contact you in person or by any other means?"
+icenes_2013,campaignftof,"Did they contact you in person, face-to-face? (Next I will ask you about how you were contacted)"
+icenes_2013,campaignsnmail,Did they contact you by mail? (Next I will ask you about how you were contacted)
+icenes_2013,campaignphone,Did they contact you by phone? (Next I will ask you about how you were contacted)
+icenes_2013,campaigntxt,Did they contact you by text message or SMS? (Next I will ask you about how you were contacted)
+icenes_2013,campaignemail,Did they contact you by email? (Next I will ask you about how you were contacted)
+icenes_2013,campaignsocmed,Did they contact you through a social network site or other Web-based method? (Next I will ask you about how you were contacted)
+icenes_2013,contact_S,Social Democratic Alliance (Which party or parties contacted you by any of these means?)
+icenes_2013,contact_B,Progressive Party (Which party or parties contacted you by any of these means?)
+icenes_2013,contact_D,Independence Party (Which party or parties contacted you by any of these means?)
+icenes_2013,contact_V,Left-Green Movement (Which party or parties contacted you by any of these means?)
+icenes_2013,contact_A,Bright Future (Which party or parties contacted you by any of these means?)
+icenes_2013,contact_Th,Pirate Party (Which party or parties contacted you by any of these means?)
+icenes_2013,contact_T,Dawn (Which party or parties contacted you by any of these means?)
+icenes_2013,contact_L,Democratic Watch (Which party or parties contacted you by any of these means?)
+icenes_2013,contact_R,Peoples Front of Iceland (Which party or parties contacted you by any of these means?)
+icenes_2013,contact_G,Right-Greens (Which party or parties contacted you by any of these means?)
+icenes_2013,contact_H,Humanist Party (Which party or parties contacted you by any of these means?)
+icenes_2013,contact_M,Rural Party (Which party or parties contacted you by any of these means?)
+icenes_2013,contact_J,Rainbow (Which party or parties contacted you by any of these means?)
+icenes_2013,contact_I,Households Party (Which party or parties contacted you by any of these means?)
+icenes_2013,contact_K,The candidacy of Sturla J�nsson (Which party or parties contacted you by any of these means?)
+icenes_2013,convince,"During the campaign, did a friend, family member, neighbour, work colleague or other acquaintance try to persuade you to vote for a particular party or candidate?"
+icenes_2013,convinceftof,"Did they try to persuade you in person, face-to-face?"
+icenes_2013,convincesnmail,Did they try to persuade you by mail?
+icenes_2013,convincephone,Did they try to persuade you by phone?
+icenes_2013,convincetxt,Did they try to persuade you by text message or SMS?
+icenes_2013,convinceemail,Did they try to persuade you by email?
+icenes_2013,convincesocmed,Did they try to persuade you through a social network site or ither Web-based method?
+icenes_2013,socmeduse,"Prior to or during the campaign, did you use the Internet or your mobile phone to sign up for information or alerts from a party or candidate?"
+icenes_2013,happy,"Taking all things together, how happy would you say you are?"
+icenes_2013,internet,"How frequently do you use the internet? Every day, three to six times per week, one or two times per week or less often?"
+icenes_2013,finworry,How much or little do you worry about making ends meet at the beginning of each month?
+icenes_2013,pjob,Are you currently economically active?
+icenes_2013,ljob,"If you lost your job, how easy or difficult would it be to find another job in the next twelve months? Very easy, somewhat easy, somewhat difficult, or very difficult?"
+icenes_2013,njob,"Do you work at home, are you in school, unemployed, temporarily not working because of health problems, on a vacation or retired?"
+icenes_2013,mainjobflo,What is / was your main occupation?
+icenes_2013,uniwindw,Are / were you an employee or do you operate your own business?
+icenes_2013,emplstatus,Respondents employment status
+icenes_2013,govpriv,"Do / did you work in the public sector (public institution, public company/district level), the private sector or in another sector?"
+icenes_2013,industry,In what field is your work?
+icenes_2013,industry2,Respondents field of industry � three categories
+icenes_2013,education,Education of the respondent
+icenes_2013,unmmb,Member of a union
+icenes_2013,empmbr,Member of an employeers association
+icenes_2013,farmmbr,Member of a farmer association
+icenes_2013,profmbr,Member of a professional association
+icenes_2013,othunmmb,Are someone else in your household a member of a union?
+icenes_2013,maritals,What is your marital status?
+icenes_2013,incomecate,Household income quintile appropriate to the respondent
+icenes_2013,hhmmbflo,What is the number of people in your household including you? - categories
+icenes_2013,childsflo,"How many children, 17 or younger are in your household? - categories"
+icenes_2013,income12m,How likely or unlikely do you think it is that your households income could be severely reduced in the next twelve months?
+icenes_2013,realestate,"Do you or a member of your household own own a residence - for example, a home or an apartment?"
+icenes_2013,morgage,"Do you know approximately how much is left of your mortgage, if any?"
+icenes_2013,ownbusi,"Do you or a member of your household own a business, a piece of property, a farm, or livestock?"
+icenes_2013,ownbond,Do you or a member of your household own stocks or bonds?
+icenes_2013,ownsafing,Do you or a member of your household have any savings?
+icenes_2013,church,"Some people consider themselves belonging to a church or a particular religional association. If you belong to a church or a religional association, which one is that?"
+icenes_2013,rlgatnd,How often do you attend church or a religious service?
+icenes_2013,rlgdgr,"Do you consider yourself to be very religious, somewhat religious, not very religious or not religious at all?"
+icenes_2013,elecday,Election day
+icenes_2013,elecmonth,Election month
+icenes_2013,elecyear,Election year
+icenes_2013,distseat,Number of parliamentary seats per electoral district
+icenes_2013,partylist,Number or parties/party lists running for the election in each electoral district
+icenes_2013,sdavote,Social Democratic Alliance � percentage of the vote in each electoral district
+icenes_2013,ppvote,Progressive Party - percentage of the vote in each electoral district
+icenes_2013,ipvote,Independence Party - percentage of the vote in each electoral district
+icenes_2013,lgvote,Left Green Movement - percentage of the vote in each electoral district
+icenes_2013,bfvote,Bright Future- percentage of the vote in each electoral district
+icenes_2013,pirvote,Pirate Party - percentage of the vote in each electoral district
+icenes_2013,turnout,Turnout in each electoral district

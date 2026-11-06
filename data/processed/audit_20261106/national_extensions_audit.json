@@ -1,0 +1,4367 @@
+{
+  "pes_2005": {
+    "n": 2801,
+    "n_columns": 225,
+    "id_unique_checked": false,
+    "id_variable": null,
+    "id_is_unique": null,
+    "id_distinct_values": null,
+    "weight_variables_found": [
+      "pondvoto",
+      "ponsd"
+    ],
+    "joint_all_three_before_vote": 0,
+    "selected_variables": {
+      "p1": {
+        "concept": "national_problem_past_three_years",
+        "valid_codes": [
+          36.0,
+          9.0,
+          73.0,
+          8.0,
+          12.0,
+          59.0,
+          6.0,
+          33.0,
+          74.0,
+          30.0,
+          54.0,
+          57.0,
+          18.0,
+          87.0,
+          31.0,
+          42.0,
+          62.0,
+          69.0,
+          98.0,
+          88.0,
+          5.0,
+          34.0,
+          56.0,
+          71.0,
+          17.0,
+          64.0,
+          61.0,
+          85.0,
+          75.0,
+          89.0,
+          40.0,
+          94.0,
+          38.0,
+          35.0,
+          52.0,
+          90.0,
+          39.0,
+          65.0,
+          11.0,
+          81.0,
+          97.0,
+          55.0,
+          80.0,
+          67.0,
+          15.0,
+          10.0,
+          50.0,
+          19.0,
+          86.0,
+          76.0,
+          58.0,
+          41.0,
+          16.0,
+          91.0,
+          43.0,
+          78.0,
+          77.0,
+          53.0,
+          79.0,
+          92.0,
+          49.0,
+          68.0,
+          14.0,
+          66.0,
+          32.0,
+          37.0,
+          51.0,
+          95.0,
+          93.0,
+          96.0,
+          63.0,
+          72.0,
+          70.0,
+          60.0,
+          13.0
+        ],
+        "categories": {
+          "36.0": {
+            "label": "O Euro",
+            "n": 27
+          },
+          "9.0": {
+            "label": "Má situação da economia em geral",
+            "n": 518
+          },
+          "73.0": {
+            "label": "Iraque",
+            "n": 7
+          },
+          "8.0": {
+            "label": "Críticas à política e ao governo em geral",
+            "n": 161
+          },
+          "12.0": {
+            "label": "Eleições: estratégia de campanha",
+            "n": 0
+          },
+          "59.0": {
+            "label": "Ciências: médicas e farmacêuticas, genética, clonagem, trans",
+            "n": 0
+          },
+          "6.0": {
+            "label": "Aborto",
+            "n": 6
+          },
+          "33.0": {
+            "label": "Competitividade",
+            "n": 2
+          },
+          "74.0": {
+            "label": "Processo de paz no Médio Oriente",
+            "n": 0
+          },
+          "30.0": {
+            "label": "Bolsa, Mercado de capitais",
+            "n": 0
+          },
+          "54.0": {
+            "label": "Política cultural do estado, língua portuguesa, subsídios à",
+            "n": 0
+          },
+          "57.0": {
+            "label": "Educação",
+            "n": 52
+          },
+          "18.0": {
+            "label": "Eleições: debates entre partidos e políticos",
+            "n": 3
+          },
+          "87.0": {
+            "label": "Administração pública, burocracia",
+            "n": 3
+          },
+          "31.0": {
+            "label": "Orçamento nacional ou local",
+            "n": 15
+          },
+          "42.0": {
+            "label": "Ordenados/rendimentos, pobreza",
+            "n": 134
+          },
+          "62.0": {
+            "label": "Integração europeia, alargamento",
+            "n": 0
+          },
+          "69.0": {
+            "label": "Habitação, mercado imibiliário, rendas, empréstimos",
+            "n": 3
+          },
+          "98.0": {
+            "label": "Outro tópico",
+            "n": 45
+          },
+          "88.0": {
+            "label": "Valores e normas sociais",
+            "n": 20
+          },
+          "5.0": {
+            "label": "Sida",
+            "n": 1
+          },
+          "34.0": {
+            "label": "Consumidores",
+            "n": 0
+          },
+          "999.0": {
+            "label": "Nr",
+            "n": 51
+          },
+          "56.0": {
+            "label": "Droga, consumo e tráfico, combate a consumo ou tráfico",
+            "n": 23
+          },
+          "71.0": {
+            "label": "Infraestruturas, tráfego, transportes",
+            "n": 2
+          },
+          "17.0": {
+            "label": "Eleições: posições dos partidos sobre temas",
+            "n": 0
+          },
+          "64.0": {
+            "label": "Política da União Europeia em geral",
+            "n": 5
+          },
+          "61.0": {
+            "label": "Energia",
+            "n": 5
+          },
+          "85.0": {
+            "label": "Guerra/Paz",
+            "n": 14
+          },
+          "75.0": {
+            "label": "Políticas de migração/imigração: asilo. Legalização, residên",
+            "n": 6
+          },
+          "89.0": {
+            "label": "Outro tópico político",
+            "n": 105
+          },
+          "40.0": {
+            "label": "Comércio Internaciona, balança de pagamentos, défice comerci",
+            "n": 0
+          },
+          "94.0": {
+            "label": "Desastres naturais",
+            "n": 9
+          },
+          "38.0": {
+            "label": "Pensões, reformas",
+            "n": 14
+          },
+          "35.0": {
+            "label": "Dívida pública",
+            "n": 49
+          },
+          "52.0": {
+            "label": "Sistema judicial, tribunais",
+            "n": 10
+          },
+          "90.0": {
+            "label": "Acidentes",
+            "n": 3
+          },
+          "39.0": {
+            "label": "Impostos e política fiscal",
+            "n": 17
+          },
+          "65.0": {
+            "label": "Política externa, relações entre estados, organizações inter",
+            "n": 6
+          },
+          "11.0": {
+            "label": "Eleições: os candidatos, os políticos, os partidos, a sua im",
+            "n": 14
+          },
+          "81.0": {
+            "label": "Outros conflitos e problemas sociais",
+            "n": 4
+          },
+          "97.0": {
+            "label": "Clima",
+            "n": 32
+          },
+          "55.0": {
+            "label": "Defesa e segurança externa",
+            "n": 1
+          },
+          "80.0": {
+            "label": "Direitos humanos",
+            "n": 0
+          },
+          "67.0": {
+            "label": "Alimentos geneticamente modificados",
+            "n": 0
+          },
+          "15.0": {
+            "label": "Eleições: resultados eleitorais",
+            "n": 0
+          },
+          "10.0": {
+            "label": "Eleições: as eleições em si mesmas e o procedimento de votaç",
+            "n": 2
+          },
+          "50.0": {
+            "label": "Agricultura e pescas",
+            "n": 11
+          },
+          "19.0": {
+            "label": "Outros tópicos relacionados com eleições",
+            "n": 5
+          },
+          "86.0": {
+            "label": "Democracia",
+            "n": 1
+          },
+          "76.0": {
+            "label": "Políticas de integração/minorias: direitos sociais, político",
+            "n": 4
+          },
+          "58.0": {
+            "label": "Ciências: física, geologia, astronomia, etc",
+            "n": 1
+          },
+          "41.0": {
+            "label": "Desemprego",
+            "n": 976
+          },
+          "16.0": {
+            "label": "Eleições: abstenção",
+            "n": 0
+          },
+          "91.0": {
+            "label": "Crimes concretos",
+            "n": 10
+          },
+          "43.0": {
+            "label": "Políticas sociais, segurança social, abono de família",
+            "n": 9
+          },
+          "78.0": {
+            "label": "Terrorismo",
+            "n": 2
+          },
+          "77.0": {
+            "label": "Regiões, políticas regionais",
+            "n": 0
+          },
+          "53.0": {
+            "label": "Criminalidade, lei e ordem, combate ao crime, insegurança",
+            "n": 44
+          },
+          "79.0": {
+            "label": "Conflitos violentos, manifestações, agitação social",
+            "n": 0
+          },
+          "92.0": {
+            "label": "Cultura (artes, filmes, música, teatro, media)",
+            "n": 0
+          },
+          "49.0": {
+            "label": "Outros tópicos ligados à economia ou política económica",
+            "n": 22
+          },
+          "68.0": {
+            "label": "Saúde e cuidados de saúde, sistema nacional de saúde, sua re",
+            "n": 119
+          },
+          "14.0": {
+            "label": "Eleições: sondagens",
+            "n": 0
+          },
+          "66.0": {
+            "label": "Segurança alimentar, BSE, etc",
+            "n": 0
+          },
+          "32.0": {
+            "label": "Empresas, negócios, falências, indústria",
+            "n": 5
+          },
+          "37.0": {
+            "label": "Inflação",
+            "n": 31
+          },
+          "51.0": {
+            "label": "Corrupção política",
+            "n": 12
+          },
+          "95.0": {
+            "label": "Religião",
+            "n": 1
+          },
+          "93.0": {
+            "label": "Interesse humano: pessoas conhecidas, celebridades, eventos",
+            "n": 8
+          },
+          "96.0": {
+            "label": "Desporto",
+            "n": 0
+          },
+          "63.0": {
+            "label": "Instituições europeias, constituição europeia, comissão euro",
+            "n": 1
+          },
+          "99.0": {
+            "label": "Ns",
+            "n": 154
+          },
+          "72.0": {
+            "label": "Conflitos inter e intra-partidários, lutas entre facções ou",
+            "n": 2
+          },
+          "70.0": {
+            "label": "Meios de comunicação social, informação, política audio-visu",
+            "n": 4
+          },
+          "60.0": {
+            "label": "Ambiente, poluição, aquecimento global, etc",
+            "n": 10
+          },
+          "13.0": {
+            "label": "Eleições: propaganda política",
+            "n": 0
+          }
+        }
+      },
+      "p60": {
+        "concept": "current_national_economy",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "categories": {
+          "4.0": {
+            "label": "Mau",
+            "n": 1340
+          },
+          "7.0": {
+            "label": "Nr",
+            "n": 32
+          },
+          "5.0": {
+            "label": "Muito mau",
+            "n": 847
+          },
+          "6.0": {
+            "label": "Ns",
+            "n": 42
+          },
+          "2.0": {
+            "label": "Bom",
+            "n": 42
+          },
+          "3.0": {
+            "label": "Nem bom nem mau",
+            "n": 495
+          },
+          "1.0": {
+            "label": "Muito bom",
+            "n": 3
+          }
+        }
+      },
+      "p61": {
+        "concept": "retrospective_national_economy",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "categories": {
+          "7.0": {
+            "label": "Nr",
+            "n": 28
+          },
+          "2.0": {
+            "label": "Melhorou pouco",
+            "n": 218
+          },
+          "5.0": {
+            "label": "Piorou muito",
+            "n": 759
+          },
+          "6.0": {
+            "label": "Ns",
+            "n": 54
+          },
+          "3.0": {
+            "label": "Ficou na mesma",
+            "n": 792
+          },
+          "1.0": {
+            "label": "Melhorou muito",
+            "n": 6
+          },
+          "4.0": {
+            "label": "Piorou um pouco",
+            "n": 944
+          }
+        }
+      },
+      "p12.3": {
+        "concept": "politicians_do_not_care",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "categories": {
+          "2.0": {
+            "label": "Concorda",
+            "n": 1483
+          },
+          "3.0": {
+            "label": "Não concorda nem discorda",
+            "n": 340
+          },
+          "5.0": {
+            "label": "Discorda totalmente",
+            "n": 31
+          },
+          "7.0": {
+            "label": "Nr",
+            "n": 46
+          },
+          "6.0": {
+            "label": "Ns",
+            "n": 67
+          },
+          "4.0": {
+            "label": "Discorda",
+            "n": 400
+          },
+          "1.0": {
+            "label": "Concorda totalmente",
+            "n": 434
+          }
+        }
+      },
+      "p68": {
+        "concept": "extent_political_corruption",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "categories": {
+          "1.0": {
+            "label": "Muito difundidas",
+            "n": 985
+          },
+          "5.0": {
+            "label": "Ns",
+            "n": 239
+          },
+          "4.0": {
+            "label": "Nada difundidas",
+            "n": 81
+          },
+          "2.0": {
+            "label": "Razoavelmente difundidas",
+            "n": 1013
+          },
+          "6.0": {
+            "label": "Nr",
+            "n": 58
+          },
+          "3.0": {
+            "label": "Pouco difundidas",
+            "n": 425
+          }
+        }
+      },
+      "p4": {
+        "concept": "government_performance_barroso",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "categories": {
+          "2.0": {
+            "label": "Bom",
+            "n": 867
+          },
+          "6.0": {
+            "label": "Nr",
+            "n": 62
+          },
+          "1.0": {
+            "label": "Muito bom",
+            "n": 31
+          },
+          "4.0": {
+            "label": "Muito mau",
+            "n": 329
+          },
+          "3.0": {
+            "label": "Mau",
+            "n": 1366
+          },
+          "5.0": {
+            "label": "Ns",
+            "n": 146
+          }
+        }
+      },
+      "p5": {
+        "concept": "government_performance_santana",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "categories": {
+          "1.0": {
+            "label": "Muito bom",
+            "n": 14
+          },
+          "3.0": {
+            "label": "Mau",
+            "n": 1249
+          },
+          "4.0": {
+            "label": "Muito mau",
+            "n": 847
+          },
+          "6.0": {
+            "label": "Nr",
+            "n": 80
+          },
+          "5.0": {
+            "label": "Ns",
+            "n": 236
+          },
+          "2.0": {
+            "label": "Bom",
+            "n": 375
+          }
+        }
+      },
+      "p25": {
+        "concept": "named_party_vote",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "categories": {
+          "2.0": {
+            "label": "CDS-PP",
+            "n": 129
+          },
+          "97.0": {
+            "label": "Não recenseado",
+            "n": 66
+          },
+          "6.0": {
+            "label": "Outro",
+            "n": 26
+          },
+          "7.0": {
+            "label": "Votou em branco ou votou nulo",
+            "n": 60
+          },
+          "99.0": {
+            "label": "Nr à p24",
+            "n": 20
+          },
+          "5.0": {
+            "label": "PS",
+            "n": 882
+          },
+          "10.0": {
+            "label": "Ns",
+            "n": 5
+          },
+          "98.0": {
+            "label": "Ns à p24",
+            "n": 2
+          },
+          "11.0": {
+            "label": "Nr",
+            "n": 335
+          },
+          "3.0": {
+            "label": "CDU (PCP/PEV)",
+            "n": 153
+          },
+          "1.0": {
+            "label": "Bloco de Esquerda",
+            "n": 155
+          },
+          "4.0": {
+            "label": "PPD-PSD",
+            "n": 462
+          },
+          "8.0": {
+            "label": "Abstenção",
+            "n": 506
+          },
+          "96.0": {
+            "label": "Abstenção",
+            "n": 0
+          }
+        }
+      },
+      "p24": {
+        "concept": "turnout",
+        "valid_codes": [
+          1,
+          2
+        ],
+        "categories": {
+          "2.0": {
+            "label": "Não votou",
+            "n": 506
+          },
+          "5.0": {
+            "label": "Nr",
+            "n": 20
+          },
+          "1.0": {
+            "label": "Votou",
+            "n": 2207
+          },
+          "3.0": {
+            "label": "Não votou porque não estava recenseado",
+            "n": 66
+          },
+          "4.0": {
+            "label": "Ns",
+            "n": 2
+          }
+        }
+      }
+    }
+  },
+  "pes_2009": {
+    "n": 1317,
+    "n_columns": 222,
+    "id_unique_checked": true,
+    "id_variable": "QUEST",
+    "id_is_unique": false,
+    "id_distinct_values": 1315,
+    "weight_variables_found": [],
+    "joint_all_three_before_vote": 0,
+    "selected_variables": {
+      "P1": {
+        "concept": "personal_election_priority",
+        "valid_codes": [
+          1.0,
+          24.0,
+          16.0,
+          54.0,
+          50.0,
+          36.0,
+          32.0,
+          12.0,
+          28.0,
+          6.0,
+          38.0,
+          5.0,
+          21.0,
+          11.0,
+          53.0,
+          90.0,
+          22.0,
+          45.0,
+          33.0,
+          27.0,
+          42.0,
+          19.0,
+          7.0,
+          49.0,
+          8.0,
+          30.0,
+          26.0,
+          51.0,
+          43.0,
+          4.0,
+          25.0,
+          14.0,
+          37.0,
+          52.0,
+          2.0,
+          47.0,
+          18.0,
+          23.0,
+          10.0,
+          41.0,
+          34.0,
+          39.0,
+          15.0,
+          17.0,
+          20.0,
+          55.0,
+          9.0,
+          44.0,
+          13.0,
+          31.0,
+          3.0,
+          29.0,
+          48.0,
+          46.0,
+          40.0,
+          35.0
+        ],
+        "categories": {
+          "1.0": {
+            "label": "Desemprego",
+            "n": 303
+          },
+          "24.0": {
+            "label": "Falta de entendimento entre partidos",
+            "n": 10
+          },
+          "16.0": {
+            "label": "Salários",
+            "n": 11
+          },
+          "54.0": {
+            "label": "Liberdade de expressão",
+            "n": 0
+          },
+          "50.0": {
+            "label": "Apoios à habitação",
+            "n": 2
+          },
+          "36.0": {
+            "label": "A atribuição de subsídios a quem não precisa",
+            "n": 0
+          },
+          "32.0": {
+            "label": "Casamento entre pessoas do mesmo sexo",
+            "n": 10
+          },
+          "12.0": {
+            "label": "Desenvolvimento do país",
+            "n": 0
+          },
+          "28.0": {
+            "label": "Apoio às pequenas e médias empresas",
+            "n": 11
+          },
+          "6.0": {
+            "label": "Obras públicas",
+            "n": 10
+          },
+          "38.0": {
+            "label": "A subida dos preços/Diminuição do poder de compra",
+            "n": 0
+          },
+          "5.0": {
+            "label": "Segurança/ Criminalidade",
+            "n": 10
+          },
+          "21.0": {
+            "label": "Situação dos professores",
+            "n": 8
+          },
+          "11.0": {
+            "label": "Redução dos impostos",
+            "n": 3
+          },
+          "53.0": {
+            "label": "O aborto",
+            "n": 2
+          },
+          "90.0": {
+            "label": "Outros",
+            "n": 32
+          },
+          "22.0": {
+            "label": "Mudança de governo",
+            "n": 14
+          },
+          "45.0": {
+            "label": "Aumento do fundo de desemprego",
+            "n": 3
+          },
+          "33.0": {
+            "label": "Meio ambiente",
+            "n": 6
+          },
+          "27.0": {
+            "label": "Pobreza",
+            "n": 6
+          },
+          "42.0": {
+            "label": "A oposição ser fraca",
+            "n": 1
+          },
+          "19.0": {
+            "label": "Não cumprimento das promessas políticas",
+            "n": 19
+          },
+          "99.0": {
+            "label": "Não responde",
+            "n": 39
+          },
+          "7.0": {
+            "label": "Governação do país",
+            "n": 0
+          },
+          "49.0": {
+            "label": "Melhoria do nível de vida",
+            "n": 2
+          },
+          "8.0": {
+            "label": "As reformas",
+            "n": 28
+          },
+          "30.0": {
+            "label": "Estabilidade política",
+            "n": 5
+          },
+          "26.0": {
+            "label": "Controlo do défice",
+            "n": 8
+          },
+          "51.0": {
+            "label": "Investimentos públicos",
+            "n": 3
+          },
+          "43.0": {
+            "label": "Orçamento de estado",
+            "n": 4
+          },
+          "4.0": {
+            "label": "Saúde",
+            "n": 58
+          },
+          "25.0": {
+            "label": "Agricultura",
+            "n": 3
+          },
+          "14.0": {
+            "label": "Justiça",
+            "n": 8
+          },
+          "37.0": {
+            "label": "Atribuição de casas aos mais necessitados",
+            "n": 0
+          },
+          "98.0": {
+            "label": "Não sabe",
+            "n": 248
+          },
+          "52.0": {
+            "label": "Políticas face ao trabalho",
+            "n": 4
+          },
+          "2.0": {
+            "label": "Situação económica/financeira",
+            "n": 138
+          },
+          "47.0": {
+            "label": "Formação do governo",
+            "n": 10
+          },
+          "18.0": {
+            "label": "Apoios a crianças, idosos e outros grupos",
+            "n": 17
+          },
+          "23.0": {
+            "label": "Segurança Social",
+            "n": 4
+          },
+          "10.0": {
+            "label": "A maioria absoluta",
+            "n": 18
+          },
+          "41.0": {
+            "label": "Desigualdade social",
+            "n": 3
+          },
+          "34.0": {
+            "label": "Fundos comunitários",
+            "n": 0
+          },
+          "39.0": {
+            "label": "Tratar melhor os deficientes",
+            "n": 0
+          },
+          "15.0": {
+            "label": "Crise",
+            "n": 0
+          },
+          "17.0": {
+            "label": "Manutenção do PS no governo",
+            "n": 22
+          },
+          "20.0": {
+            "label": "Ordenado mínimo nacional",
+            "n": 6
+          },
+          "55.0": {
+            "label": "Políticas de emigração",
+            "n": 1
+          },
+          "9.0": {
+            "label": "Corrupção",
+            "n": 24
+          },
+          "44.0": {
+            "label": "Urbanísmo",
+            "n": 0
+          },
+          "13.0": {
+            "label": "A abstenção/Apelo ao voto",
+            "n": 2
+          },
+          "31.0": {
+            "label": "Divida externa",
+            "n": 5
+          },
+          "97.0": {
+            "label": "Nenhum",
+            "n": 140
+          },
+          "3.0": {
+            "label": "Educação",
+            "n": 45
+          },
+          "29.0": {
+            "label": "Escutas telefónicas",
+            "n": 3
+          },
+          "48.0": {
+            "label": "O futuro do país",
+            "n": 6
+          },
+          "46.0": {
+            "label": "Programa político dos partidos",
+            "n": 2
+          },
+          "40.0": {
+            "label": "Custo de vida",
+            "n": 0
+          },
+          "35.0": {
+            "label": "Maus investimentos",
+            "n": 0
+          }
+        }
+      },
+      "P3": {
+        "concept": "current_national_problem",
+        "valid_codes": [
+          44.0,
+          8.0,
+          13.0,
+          51.0,
+          17.0,
+          11.0,
+          36.0,
+          9.0,
+          45.0,
+          22.0,
+          38.0,
+          5.0,
+          28.0,
+          35.0,
+          46.0,
+          20.0,
+          19.0,
+          27.0,
+          50.0,
+          1.0,
+          90.0,
+          24.0,
+          4.0,
+          41.0,
+          7.0,
+          52.0,
+          23.0,
+          10.0,
+          37.0,
+          40.0,
+          39.0,
+          14.0,
+          54.0,
+          15.0,
+          21.0,
+          12.0,
+          25.0,
+          48.0,
+          3.0,
+          6.0,
+          34.0,
+          53.0,
+          30.0,
+          16.0,
+          33.0,
+          29.0,
+          49.0,
+          47.0,
+          32.0,
+          43.0,
+          18.0,
+          42.0,
+          26.0,
+          31.0
+        ],
+        "categories": {
+          "44.0": {
+            "label": "Dependência de outros países",
+            "n": 4
+          },
+          "8.0": {
+            "label": "Justiça",
+            "n": 18
+          },
+          "13.0": {
+            "label": "Falta de entendimento entre partidos",
+            "n": 26
+          },
+          "51.0": {
+            "label": "Instabilidade política",
+            "n": 5
+          },
+          "17.0": {
+            "label": "Má gestão política / fiscalização política",
+            "n": 0
+          },
+          "11.0": {
+            "label": "Obras públicas",
+            "n": 8
+          },
+          "36.0": {
+            "label": "Avaliação dos professores",
+            "n": 4
+          },
+          "9.0": {
+            "label": "Educação",
+            "n": 23
+          },
+          "45.0": {
+            "label": "Tratar melhor os defecientes",
+            "n": 0
+          },
+          "22.0": {
+            "label": "Agricultura / Problemas da agricultura",
+            "n": 2
+          },
+          "38.0": {
+            "label": "Evasão fiscal",
+            "n": 0
+          },
+          "5.0": {
+            "label": "Saúde",
+            "n": 65
+          },
+          "99.0": {
+            "label": "Não responde",
+            "n": 11
+          },
+          "28.0": {
+            "label": "A maioria absoluta",
+            "n": 4
+          },
+          "35.0": {
+            "label": "Casamento entre pessoas do mesmo sexo",
+            "n": 8
+          },
+          "46.0": {
+            "label": "Custo de vida",
+            "n": 1
+          },
+          "20.0": {
+            "label": "Política de emigração",
+            "n": 3
+          },
+          "19.0": {
+            "label": "Salários em atraso",
+            "n": 1
+          },
+          "27.0": {
+            "label": "Obras públicas",
+            "n": 3
+          },
+          "50.0": {
+            "label": "Burocracia",
+            "n": 3
+          },
+          "1.0": {
+            "label": "Desemprego",
+            "n": 456
+          },
+          "90.0": {
+            "label": "Outros",
+            "n": 42
+          },
+          "24.0": {
+            "label": "Segurança Social",
+            "n": 0
+          },
+          "4.0": {
+            "label": "Corrupção",
+            "n": 86
+          },
+          "41.0": {
+            "label": "Portugal exportar pouco",
+            "n": 0
+          },
+          "7.0": {
+            "label": "Pobreza",
+            "n": 17
+          },
+          "52.0": {
+            "label": "Má governação",
+            "n": 5
+          },
+          "23.0": {
+            "label": "Reformas baixas",
+            "n": 18
+          },
+          "10.0": {
+            "label": "Rivalidade entre PM e presidente da república",
+            "n": 0
+          },
+          "37.0": {
+            "label": "Falta de liderança política",
+            "n": 2
+          },
+          "40.0": {
+            "label": "Habitação",
+            "n": 2
+          },
+          "39.0": {
+            "label": "Falta de transportes",
+            "n": 1
+          },
+          "14.0": {
+            "label": "Salários baixos",
+            "n": 11
+          },
+          "54.0": {
+            "label": "Aumento do rendimento mínimo",
+            "n": 0
+          },
+          "15.0": {
+            "label": "Apoios a crianças, idosos e outros grupos",
+            "n": 6
+          },
+          "21.0": {
+            "label": "Aumento dos preços",
+            "n": 1
+          },
+          "12.0": {
+            "label": "Criminalidade / Falta de segurança",
+            "n": 21
+          },
+          "25.0": {
+            "label": "Distribuição de subsídios / Aumento do rendimento mínimo",
+            "n": 0
+          },
+          "48.0": {
+            "label": "Não cumprimento das promessas políticas",
+            "n": 3
+          },
+          "3.0": {
+            "label": "Situação económica/ financeira",
+            "n": 238
+          },
+          "6.0": {
+            "label": "Divida externa",
+            "n": 21
+          },
+          "98.0": {
+            "label": "Não sabe",
+            "n": 79
+          },
+          "34.0": {
+            "label": "Dívida pública / Dívida do estado às empresas",
+            "n": 0
+          },
+          "53.0": {
+            "label": "Problemas sociais",
+            "n": 0
+          },
+          "30.0": {
+            "label": "A atribuição de subsídios",
+            "n": 2
+          },
+          "16.0": {
+            "label": "Aumento das despesas aos bancos / endividamento aos bancos",
+            "n": 0
+          },
+          "33.0": {
+            "label": "Impostos",
+            "n": 3
+          },
+          "29.0": {
+            "label": "Governação / Política do país / instabilidade política",
+            "n": 0
+          },
+          "49.0": {
+            "label": "Falta de dinheiro",
+            "n": 6
+          },
+          "47.0": {
+            "label": "Maus investimentos",
+            "n": 6
+          },
+          "32.0": {
+            "label": "Orçamento de Estado",
+            "n": 0
+          },
+          "97.0": {
+            "label": "Nenhum",
+            "n": 15
+          },
+          "43.0": {
+            "label": "Meio ambiente",
+            "n": 1
+          },
+          "18.0": {
+            "label": "Falta de credibilidade da classe política",
+            "n": 65
+          },
+          "42.0": {
+            "label": "Défice",
+            "n": 11
+          },
+          "26.0": {
+            "label": "Apoio às pequenas e médias empresas",
+            "n": 0
+          },
+          "31.0": {
+            "label": "Desigualdade social",
+            "n": 10
+          }
+        }
+      },
+      "P68": {
+        "concept": "current_national_economy",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "categories": {
+          "2.0": {
+            "label": "Mau",
+            "n": 590
+          },
+          "4.0": {
+            "label": "Bom",
+            "n": 59
+          },
+          "99.0": {
+            "label": "Não responde",
+            "n": 3
+          },
+          "1.0": {
+            "label": "Muito mau",
+            "n": 321
+          },
+          "98.0": {
+            "label": "Não sabe",
+            "n": 17
+          },
+          "3.0": {
+            "label": "Nem bom nem mau",
+            "n": 320
+          },
+          "5.0": {
+            "label": "Muito Bom",
+            "n": 7
+          }
+        }
+      },
+      "P69": {
+        "concept": "retrospective_national_economy",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "categories": {
+          "1.0": {
+            "label": "Piorou muito",
+            "n": 391
+          },
+          "99.0": {
+            "label": "Não responde",
+            "n": 3
+          },
+          "2.0": {
+            "label": "Piorou um pouco",
+            "n": 408
+          },
+          "4.0": {
+            "label": "Melhorou pouco",
+            "n": 155
+          },
+          "98.0": {
+            "label": "Não sabe",
+            "n": 18
+          },
+          "3.0": {
+            "label": "Ficou na mesma",
+            "n": 332
+          },
+          "5.0": {
+            "label": "Melhorou muito",
+            "n": 10
+          }
+        }
+      },
+      "P11_5": {
+        "concept": "politicians_do_not_care",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "categories": {
+          "5.0": {
+            "label": "Concorda totalmente",
+            "n": 318
+          },
+          "1.0": {
+            "label": "Discorda totalmente",
+            "n": 14
+          },
+          "4.0": {
+            "label": "Concorda",
+            "n": 733
+          },
+          "2.0": {
+            "label": "Discorda",
+            "n": 125
+          },
+          "98.0": {
+            "label": "Não sabe",
+            "n": 18
+          },
+          "3.0": {
+            "label": "Não concorda nem discorda",
+            "n": 109
+          },
+          "99.0": {
+            "label": "Não responde",
+            "n": 0
+          }
+        }
+      },
+      "P36": {
+        "concept": "government_economic_performance",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "categories": {
+          "98.0": {
+            "label": "Não sabe",
+            "n": 119
+          },
+          "1.0": {
+            "label": "Muito mau",
+            "n": 139
+          },
+          "2.0": {
+            "label": "Mau",
+            "n": 543
+          },
+          "3.0": {
+            "label": "Bom",
+            "n": 482
+          },
+          "99.0": {
+            "label": "Não responde",
+            "n": 17
+          },
+          "4.0": {
+            "label": "Muito bom",
+            "n": 17
+          }
+        }
+      },
+      "P28": {
+        "concept": "named_party_vote",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "categories": {
+          "13.0": {
+            "label": "Partido da Terra",
+            "n": 1
+          },
+          "14.0": {
+            "label": "Partido Humanista",
+            "n": 0
+          },
+          "8.0": {
+            "label": "Frente Ecologia e Humanismo",
+            "n": 0
+          },
+          "99.0": {
+            "label": "Não responde",
+            "n": 186
+          },
+          "16.0": {
+            "label": "Partido Operário de Unidade Socialista",
+            "n": 0
+          },
+          "11.0": {
+            "label": "Nova Democracia",
+            "n": 0
+          },
+          "17.0": {
+            "label": "Partido Popular Monárquico",
+            "n": 1
+          },
+          "10.0": {
+            "label": "Movimento Mérito e Sociedade",
+            "n": 3
+          },
+          "3.0": {
+            "label": "CDU (PCP/PEV)",
+            "n": 67
+          },
+          "18.0": {
+            "label": "Portugal Pro Vida",
+            "n": 0
+          },
+          "20.0": {
+            "label": "Partido Os Verdes",
+            "n": 0
+          },
+          "2.0": {
+            "label": "CDS-PP",
+            "n": 55
+          },
+          "97.0": {
+            "label": "Votou em branco ou votou nulo",
+            "n": 52
+          },
+          "9.0": {
+            "label": "Movimento Esperança Portugal",
+            "n": 1
+          },
+          "4.0": {
+            "label": "PPD-PSD",
+            "n": 215
+          },
+          "12.0": {
+            "label": "Partido Comunista dos Trabalhadores Portugueses",
+            "n": 2
+          },
+          "15.0": {
+            "label": "Partido Nacional Renovador",
+            "n": 0
+          },
+          "98.0": {
+            "label": "Não sabe",
+            "n": 6
+          },
+          "19.0": {
+            "label": "Partido Trabalhista",
+            "n": 0
+          },
+          "5.0": {
+            "label": "PS",
+            "n": 353
+          },
+          "1.0": {
+            "label": "Bloco de Esquerda",
+            "n": 60
+          }
+        }
+      },
+      "P27": {
+        "concept": "turnout",
+        "valid_codes": [
+          1,
+          2
+        ],
+        "categories": {
+          "3.0": {
+            "label": "Não votou porque não estava recenseado",
+            "n": 62
+          },
+          "99.0": {
+            "label": "Não responde",
+            "n": 3
+          },
+          "98.0": {
+            "label": "Não sabe",
+            "n": 0
+          },
+          "1.0": {
+            "label": "Votou",
+            "n": 1002
+          },
+          "2.0": {
+            "label": "Não votou porque não quis ou não pôde",
+            "n": 250
+          }
+        }
+      }
+    }
+  },
+  "pes_2011": {
+    "n": 1000,
+    "n_columns": 209,
+    "id_unique_checked": true,
+    "id_variable": "INTNR",
+    "id_is_unique": true,
+    "id_distinct_values": 1000,
+    "weight_variables_found": [],
+    "joint_all_three_before_vote": 0,
+    "selected_variables": {
+      "P1": {
+        "concept": "personal_election_priority",
+        "valid_codes": [
+          7.0,
+          13.0,
+          14.0,
+          15.0,
+          5.0,
+          10.0,
+          90.0,
+          9.0,
+          1.0,
+          19.0,
+          17.0,
+          11.0,
+          6.0,
+          20.0,
+          18.0,
+          4.0,
+          8.0,
+          12.0,
+          3.0,
+          16.0,
+          2.0
+        ],
+        "categories": {
+          "7.0": {
+            "label": "Troika",
+            "n": 26
+          },
+          "13.0": {
+            "label": "PEC IV",
+            "n": 3
+          },
+          "14.0": {
+            "label": "Critica entre Politicos",
+            "n": 6
+          },
+          "15.0": {
+            "label": "Ajuda Externa",
+            "n": 3
+          },
+          "97.0": {
+            "label": "Nenhum",
+            "n": 386
+          },
+          "5.0": {
+            "label": "Desemprego",
+            "n": 20
+          },
+          "10.0": {
+            "label": "Falsas Promessas",
+            "n": 14
+          },
+          "90.0": {
+            "label": "Outro",
+            "n": 11
+          },
+          "9.0": {
+            "label": "Divida Publica",
+            "n": 28
+          },
+          "1.0": {
+            "label": "Crise (Sem Especificar)",
+            "n": 86
+          },
+          "19.0": {
+            "label": "Incorrecta Utilização de Dinheiro Público",
+            "n": 4
+          },
+          "17.0": {
+            "label": "Saude",
+            "n": 3
+          },
+          "11.0": {
+            "label": "Sede \\ Ansiedade de Poder",
+            "n": 2
+          },
+          "6.0": {
+            "label": "Situação económica \\ Economia",
+            "n": 46
+          },
+          "20.0": {
+            "label": "Educação",
+            "n": 2
+          },
+          "18.0": {
+            "label": "Aumento do Custo de Vida",
+            "n": 3
+          },
+          "4.0": {
+            "label": "Mudança de Governo",
+            "n": 81
+          },
+          "99.0": {
+            "label": "Não responde",
+            "n": 14
+          },
+          "8.0": {
+            "label": "Aumento dos Impostos",
+            "n": 11
+          },
+          "12.0": {
+            "label": "Estado da Nação",
+            "n": 1
+          },
+          "3.0": {
+            "label": "Crise económica \\ Financeira",
+            "n": 74
+          },
+          "16.0": {
+            "label": "Cortes na Despesa",
+            "n": 3
+          },
+          "2.0": {
+            "label": "FMI",
+            "n": 12
+          },
+          "98.0": {
+            "label": "Não sabe",
+            "n": 161
+          }
+        }
+      },
+      "P2": {
+        "concept": "current_national_economy",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "categories": {
+          "98.0": {
+            "label": "Não sabe",
+            "n": 5
+          },
+          "99.0": {
+            "label": "Não responde",
+            "n": 2
+          },
+          "1.0": {
+            "label": "Muito mau",
+            "n": 562
+          },
+          "5.0": {
+            "label": "Muito bom",
+            "n": 1
+          },
+          "2.0": {
+            "label": "Mau",
+            "n": 396
+          },
+          "3.0": {
+            "label": "Nem bom nem mau",
+            "n": 29
+          },
+          "4.0": {
+            "label": "Bom",
+            "n": 5
+          }
+        }
+      },
+      "P3": {
+        "concept": "retrospective_national_economy",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "categories": {
+          "1.0": {
+            "label": "Piorou muito",
+            "n": 592
+          },
+          "4.0": {
+            "label": "Melhorou um pouco",
+            "n": 4
+          },
+          "2.0": {
+            "label": "Piorou um pouco",
+            "n": 347
+          },
+          "98.0": {
+            "label": "Não sabe",
+            "n": 6
+          },
+          "5.0": {
+            "label": "Melhorou muito",
+            "n": 0
+          },
+          "3.0": {
+            "label": "Ficou na mesma",
+            "n": 50
+          },
+          "99.0": {
+            "label": "Não responde",
+            "n": 1
+          }
+        }
+      },
+      "P7_1": {
+        "concept": "government_responsibility_for_economy",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "categories": {
+          "99.0": {
+            "label": "Não Responde",
+            "n": 2
+          },
+          "2.0": {
+            "label": "Um pouco responsáveis",
+            "n": 63
+          },
+          "98.0": {
+            "label": "Não sabe",
+            "n": 25
+          },
+          "5.0": {
+            "label": "Extremamente responsáveis",
+            "n": 232
+          },
+          "4.0": {
+            "label": "Muito responsáveis",
+            "n": 420
+          },
+          "1.0": {
+            "label": "Nada responsáveis",
+            "n": 15
+          },
+          "3.0": {
+            "label": "Algo responsáveis",
+            "n": 243
+          }
+        }
+      },
+      "P16": {
+        "concept": "democracy_satisfaction_NOT_elite_trust",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "categories": {
+          "98.0": {
+            "label": "Não sabe",
+            "n": 24
+          },
+          "1.0": {
+            "label": "Nada satisfeito",
+            "n": 276
+          },
+          "3.0": {
+            "label": "Razoavelmente satisfeito",
+            "n": 240
+          },
+          "4.0": {
+            "label": "Muito satisfeito",
+            "n": 18
+          },
+          "99.0": {
+            "label": "Não responde",
+            "n": 2
+          },
+          "2.0": {
+            "label": "Não muito satisfeito",
+            "n": 440
+          }
+        }
+      },
+      "P26": {
+        "concept": "named_party_vote",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "categories": {
+          "6.0": {
+            "label": "PCTP\\MRPP",
+            "n": 2
+          },
+          "4.0": {
+            "label": "PPD-PSD",
+            "n": 273
+          },
+          "99.0": {
+            "label": "Não responde",
+            "n": 166
+          },
+          "10.0": {
+            "label": "PPM",
+            "n": 0
+          },
+          "90.0": {
+            "label": "Outro",
+            "n": 0
+          },
+          "5.0": {
+            "label": "PS",
+            "n": 137
+          },
+          "98.0": {
+            "label": "Não sabe",
+            "n": 7
+          },
+          "1.0": {
+            "label": "Bloco de Esquerda",
+            "n": 19
+          },
+          "97.0": {
+            "label": "Votou em branco ou votou nulo",
+            "n": 48
+          },
+          "3.0": {
+            "label": "CDU (PCP\\PEV)",
+            "n": 48
+          },
+          "2.0": {
+            "label": "CDS-PP",
+            "n": 21
+          },
+          "7.0": {
+            "label": "PAN",
+            "n": 0
+          },
+          "9.0": {
+            "label": "PNR",
+            "n": 1
+          },
+          "12.0": {
+            "label": "PRD",
+            "n": 0
+          },
+          "8.0": {
+            "label": "PCP",
+            "n": 0
+          },
+          "11.0": {
+            "label": "POUS",
+            "n": 0
+          }
+        }
+      },
+      "P25": {
+        "concept": "turnout",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "categories": {
+          "99.0": {
+            "label": "Não responde",
+            "n": 9
+          },
+          "1.0": {
+            "label": "Não votou nas eleições legislativas de Junho de 2011 porque não pôde",
+            "n": 163
+          },
+          "3.0": {
+            "label": "Normalmente vota mas desta vez não o fez",
+            "n": 45
+          },
+          "98.0": {
+            "label": "Não sabe",
+            "n": 1
+          },
+          "4.0": {
+            "label": "Votou nas eleições legislativa de Junho 2011",
+            "n": 722
+          },
+          "2.0": {
+            "label": "Pensou em votar desta vez mas não o fez",
+            "n": 60
+          }
+        }
+      },
+      "P9_1": {
+        "concept": "household_job_loss_since_2009",
+        "valid_codes": [
+          1,
+          2
+        ],
+        "categories": {
+          "98.0": {
+            "label": "Não Sabe",
+            "n": 17
+          },
+          "1.0": {
+            "label": "Sim",
+            "n": 240
+          },
+          "2.0": {
+            "label": "Não",
+            "n": 738
+          },
+          "99.0": {
+            "label": "Não Responde",
+            "n": 5
+          }
+        }
+      },
+      "P9_2": {
+        "concept": "household_wage_freeze_since_2009",
+        "valid_codes": [
+          1,
+          2
+        ],
+        "categories": {
+          "1.0": {
+            "label": "Sim",
+            "n": 147
+          },
+          "98.0": {
+            "label": "Não Sabe",
+            "n": 11
+          },
+          "99.0": {
+            "label": "Não Responde",
+            "n": 7
+          },
+          "2.0": {
+            "label": "Não",
+            "n": 835
+          }
+        }
+      },
+      "P9_3": {
+        "concept": "household_wage_cut_since_2009",
+        "valid_codes": [
+          1,
+          2
+        ],
+        "categories": {
+          "99.0": {
+            "label": "Não Responde",
+            "n": 7
+          },
+          "2.0": {
+            "label": "Não",
+            "n": 778
+          },
+          "1.0": {
+            "label": "Sim",
+            "n": 207
+          },
+          "98.0": {
+            "label": "Não Sabe",
+            "n": 8
+          }
+        }
+      },
+      "P9_4": {
+        "concept": "household_hours_cut_since_2009",
+        "valid_codes": [
+          1,
+          2
+        ],
+        "categories": {
+          "99.0": {
+            "label": "Não Responde",
+            "n": 9
+          },
+          "1.0": {
+            "label": "Sim",
+            "n": 88
+          },
+          "98.0": {
+            "label": "Não Sabe",
+            "n": 15
+          },
+          "2.0": {
+            "label": "Não",
+            "n": 888
+          }
+        }
+      }
+    }
+  },
+  "icenes_2007": {
+    "n": 1595,
+    "n_columns": 223,
+    "id_unique_checked": true,
+    "id_variable": "User_id",
+    "id_is_unique": true,
+    "id_distinct_values": 1595,
+    "weight_variables_found": [],
+    "joint_all_three_before_vote": 0,
+    "selected_variables": {
+      "pltrust": {
+        "concept": "trust_politicians",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "categories": {
+          "4.0": {
+            "label": "Few",
+            "n": 290
+          },
+          "7.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 4
+          },
+          "1.0": {
+            "label": "In general",
+            "n": 151
+          },
+          "8.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 17
+          },
+          "5.0": {
+            "label": "None",
+            "n": 59
+          },
+          "9.0": {
+            "label": "Missing",
+            "n": 0
+          },
+          "2.0": {
+            "label": "Many",
+            "n": 365
+          },
+          "3.0": {
+            "label": "Some",
+            "n": 709
+          }
+        }
+      },
+      "issue12007": {
+        "concept": "personal_election_priority",
+        "valid_codes": [
+          1.0,
+          24.0,
+          9.0,
+          37.0,
+          26.0,
+          35.0,
+          32.0,
+          90.0,
+          45.0,
+          15.0,
+          25.0,
+          30.0,
+          41.0,
+          36.0,
+          47.0,
+          10.0,
+          6.0,
+          44.0,
+          38.0,
+          31.0,
+          20.0,
+          5.0,
+          14.0,
+          12.0,
+          13.0,
+          46.0,
+          43.0,
+          42.0
+        ],
+        "categories": {
+          "1.0": {
+            "label": "Foreign affairs / international relations",
+            "n": 6
+          },
+          "24.0": {
+            "label": "Education",
+            "n": 58
+          },
+          "97.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 16
+          },
+          "9.0": {
+            "label": "Taxes",
+            "n": 26
+          },
+          "91.0": {
+            "label": "No issue",
+            "n": 71
+          },
+          "37.0": {
+            "label": "Immigration issues",
+            "n": 9
+          },
+          "26.0": {
+            "label": "Family matters",
+            "n": 92
+          },
+          "35.0": {
+            "label": "Environmental issues",
+            "n": 130
+          },
+          "32.0": {
+            "label": "Transportation/ Regional policy",
+            "n": 58
+          },
+          "98.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 225
+          },
+          "90.0": {
+            "label": "Other issues",
+            "n": 32
+          },
+          "45.0": {
+            "label": "Cultural issues",
+            "n": 2
+          },
+          "15.0": {
+            "label": "The fishery quota system",
+            "n": 25
+          },
+          "25.0": {
+            "label": "Health matters",
+            "n": 103
+          },
+          "30.0": {
+            "label": "Employment",
+            "n": 61
+          },
+          "41.0": {
+            "label": "European Union",
+            "n": 2
+          },
+          "36.0": {
+            "label": "The elderly / people with disability",
+            "n": 199
+          },
+          "47.0": {
+            "label": "Democracy",
+            "n": 8
+          },
+          "10.0": {
+            "label": "Wages / living standards/taxes",
+            "n": 18
+          },
+          "6.0": {
+            "label": "Economic stability",
+            "n": 21
+          },
+          "44.0": {
+            "label": "Aluminium plant / energy issues",
+            "n": 39
+          },
+          "38.0": {
+            "label": "Housing",
+            "n": 6
+          },
+          "31.0": {
+            "label": "Regional issues",
+            "n": 27
+          },
+          "20.0": {
+            "label": "Social welfare",
+            "n": 180
+          },
+          "5.0": {
+            "label": "The Economy",
+            "n": 101
+          },
+          "14.0": {
+            "label": "Fisheries",
+            "n": 28
+          },
+          "12.0": {
+            "label": "Prices / inflation / interest rates",
+            "n": 4
+          },
+          "13.0": {
+            "label": "Agriculture",
+            "n": 16
+          },
+          "99.0": {
+            "label": "Missing",
+            "n": 0
+          },
+          "46.0": {
+            "label": "Equality",
+            "n": 27
+          },
+          "43.0": {
+            "label": "Industry / production",
+            "n": 1
+          },
+          "42.0": {
+            "label": "Government spending",
+            "n": 4
+          }
+        }
+      },
+      "task12007": {
+        "concept": "current_national_problem",
+        "valid_codes": [
+          37.0,
+          36.0,
+          32.0,
+          13.0,
+          10.0,
+          9.0,
+          25.0,
+          20.0,
+          14.0,
+          34.0,
+          5.0,
+          6.0,
+          39.0,
+          38.0,
+          3.0,
+          35.0,
+          2.0,
+          17.0,
+          7.0,
+          40.0,
+          24.0,
+          15.0,
+          1.0,
+          21.0,
+          22.0,
+          12.0,
+          8.0,
+          26.0,
+          33.0,
+          18.0,
+          30.0,
+          31.0,
+          90.0
+        ],
+        "categories": {
+          "37.0": {
+            "label": "Immigration issues",
+            "n": 26
+          },
+          "36.0": {
+            "label": "The elderly / people with disability",
+            "n": 60
+          },
+          "32.0": {
+            "label": "Transportation/ Regional policy",
+            "n": 36
+          },
+          "98.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 501
+          },
+          "13.0": {
+            "label": "Agriculture",
+            "n": 2
+          },
+          "10.0": {
+            "label": "Wages / living standards/taxes",
+            "n": 20
+          },
+          "97.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 38
+          },
+          "9.0": {
+            "label": "Taxes",
+            "n": 8
+          },
+          "25.0": {
+            "label": "Health matters",
+            "n": 40
+          },
+          "20.0": {
+            "label": "Social welfare",
+            "n": 43
+          },
+          "14.0": {
+            "label": "Fisheries",
+            "n": 30
+          },
+          "34.0": {
+            "label": "European issues / European Union / EEA / EFTA / the euro",
+            "n": 77
+          },
+          "5.0": {
+            "label": "The Economy",
+            "n": 75
+          },
+          "6.0": {
+            "label": "Economic stability",
+            "n": 44
+          },
+          "39.0": {
+            "label": "Big industry / energy (no stand implied)",
+            "n": 111
+          },
+          "38.0": {
+            "label": "Housing",
+            "n": 2
+          },
+          "99.0": {
+            "label": "Missing",
+            "n": 0
+          },
+          "3.0": {
+            "label": "Not joining the European Union / not adopting the euro",
+            "n": 7
+          },
+          "35.0": {
+            "label": "Environmental issues",
+            "n": 92
+          },
+          "2.0": {
+            "label": "Joining the European Union / adopting the euro",
+            "n": 24
+          },
+          "17.0": {
+            "label": "Continuation of developing big industry",
+            "n": 4
+          },
+          "7.0": {
+            "label": "Privatization",
+            "n": 2
+          },
+          "40.0": {
+            "label": "Nationalistic issues / guard the independency of the country.",
+            "n": 14
+          },
+          "24.0": {
+            "label": "Education",
+            "n": 13
+          },
+          "15.0": {
+            "label": "The fishery quota system",
+            "n": 50
+          },
+          "1.0": {
+            "label": "Foreign affairs / international relations",
+            "n": 41
+          },
+          "21.0": {
+            "label": "Gender equality, between men and women",
+            "n": 10
+          },
+          "22.0": {
+            "label": "Equality, living standards",
+            "n": 53
+          },
+          "12.0": {
+            "label": "Prices / inflation / interest rates",
+            "n": 24
+          },
+          "8.0": {
+            "label": "Reducing government expenditure",
+            "n": 5
+          },
+          "26.0": {
+            "label": "Family matters",
+            "n": 10
+          },
+          "33.0": {
+            "label": "Democracy / democratic reform / honesty / political trust",
+            "n": 5
+          },
+          "18.0": {
+            "label": "Discontinuation / reducing big industry",
+            "n": 19
+          },
+          "30.0": {
+            "label": "Employment",
+            "n": 40
+          },
+          "31.0": {
+            "label": "Regional issues",
+            "n": 26
+          },
+          "90.0": {
+            "label": "Other issues",
+            "n": 43
+          }
+        }
+      },
+      "prtvote07": {
+        "concept": "named_party_vote",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "categories": {
+          "97.0": {
+            "label": "Refuses to answer",
+            "n": 85
+          },
+          "90.0": {
+            "label": "Voted, doesn�t want to say for what party",
+            "n": 85
+          },
+          "3.0": {
+            "label": "Independence Party",
+            "n": 489
+          },
+          "98.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 9
+          },
+          "96.0": {
+            "label": "Not applicable",
+            "n": 128
+          },
+          "5.0": {
+            "label": "Liberal Party",
+            "n": 59
+          },
+          "2.0": {
+            "label": "Progressive Party",
+            "n": 129
+          },
+          "4.0": {
+            "label": "Left Green Movement",
+            "n": 201
+          },
+          "92.0": {
+            "label": "Cast a blank or invalid ballot",
+            "n": 28
+          },
+          "1.0": {
+            "label": "Social Democratic Alliance",
+            "n": 349
+          },
+          "6.0": {
+            "label": "Icelandic Movement",
+            "n": 33
+          }
+        }
+      },
+      "vote07": {
+        "concept": "turnout",
+        "valid_codes": [
+          1,
+          2
+        ],
+        "categories": {
+          "1.0": {
+            "label": "Yes",
+            "n": 1373
+          },
+          "7.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 85
+          },
+          "2.0": {
+            "label": "No",
+            "n": 128
+          },
+          "8.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 9
+          },
+          "9.0": {
+            "label": "Missing",
+            "n": 0
+          }
+        }
+      },
+      "govprfm": {
+        "concept": "government_performance",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "categories": {
+          "2.0": {
+            "label": "Good job",
+            "n": 867
+          },
+          "9.0": {
+            "label": "Missing",
+            "n": 0
+          },
+          "4.0": {
+            "label": "Very bad job",
+            "n": 108
+          },
+          "3.0": {
+            "label": "Bad job",
+            "n": 423
+          },
+          "8.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 41
+          },
+          "1.0": {
+            "label": "Very good job",
+            "n": 140
+          },
+          "7.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 16
+          }
+        }
+      }
+    }
+  },
+  "icenes_2009": {
+    "n": 1385,
+    "n_columns": 200,
+    "id_unique_checked": true,
+    "id_variable": "User_Id",
+    "id_is_unique": true,
+    "id_distinct_values": 1385,
+    "weight_variables_found": [],
+    "joint_all_three_before_vote": 0,
+    "selected_variables": {
+      "pltrust": {
+        "concept": "trust_politicians",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "categories": {
+          "5.0": {
+            "label": "None",
+            "n": 101
+          },
+          "4.0": {
+            "label": "Few",
+            "n": 463
+          },
+          "1.0": {
+            "label": "In general",
+            "n": 37
+          },
+          "9.0": {
+            "label": "Missing",
+            "n": 4
+          },
+          "8.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 11
+          },
+          "7.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 3
+          },
+          "3.0": {
+            "label": "Some",
+            "n": 610
+          },
+          "2.0": {
+            "label": "Many",
+            "n": 156
+          }
+        }
+      },
+      "issue12009": {
+        "concept": "personal_election_priority",
+        "valid_codes": [
+          9.0,
+          11.0,
+          27.0,
+          32.0,
+          28.0,
+          24.0,
+          8.0,
+          34.0,
+          15.0,
+          3.0,
+          6.0,
+          2.0,
+          33.0,
+          35.0,
+          12.0,
+          39.0,
+          5.0,
+          19.0,
+          13.0,
+          38.0,
+          90.0,
+          16.0,
+          20.0,
+          22.0,
+          18.0,
+          26.0,
+          31.0,
+          36.0,
+          25.0,
+          4.0,
+          10.0,
+          29.0,
+          30.0,
+          23.0,
+          1.0,
+          14.0,
+          40.0,
+          17.0
+        ],
+        "categories": {
+          "9.0": {
+            "label": "Taxes",
+            "n": 1
+          },
+          "11.0": {
+            "label": "Change of government / �throwing the rascals out / voting in parties that have been in opposition",
+            "n": 20
+          },
+          "27.0": {
+            "label": "Improving the image of Iceland (internationally)",
+            "n": 0
+          },
+          "32.0": {
+            "label": "Transportation/ Regional policy",
+            "n": 2
+          },
+          "28.0": {
+            "label": "Welfare of companies",
+            "n": 0
+          },
+          "24.0": {
+            "label": "Education",
+            "n": 22
+          },
+          "96.0": {
+            "label": "Not applicable",
+            "n": 22
+          },
+          "8.0": {
+            "label": "Reducing government expenditure",
+            "n": 1
+          },
+          "34.0": {
+            "label": "European issues / European Union / EEA / EFTA / the euro",
+            "n": 96
+          },
+          "15.0": {
+            "label": "The fishery quota system",
+            "n": 10
+          },
+          "3.0": {
+            "label": "Not joining the European Union / not adopting the euro",
+            "n": 23
+          },
+          "6.0": {
+            "label": "Economic stability",
+            "n": 5
+          },
+          "2.0": {
+            "label": "Joining the European Union / adopting the euro",
+            "n": 24
+          },
+          "33.0": {
+            "label": "Democracy / democratic reform / honesty / political trust",
+            "n": 35
+          },
+          "35.0": {
+            "label": "Environmental issues",
+            "n": 7
+          },
+          "12.0": {
+            "label": "Prices / inflation / interest rates",
+            "n": 14
+          },
+          "39.0": {
+            "label": "Big industry / energy (no stand implied)",
+            "n": 1
+          },
+          "5.0": {
+            "label": "The Economy",
+            "n": 212
+          },
+          "19.0": {
+            "label": "Restoration / saving the country / nation",
+            "n": 0
+          },
+          "13.0": {
+            "label": "Agriculture",
+            "n": 5
+          },
+          "38.0": {
+            "label": "Housing",
+            "n": 6
+          },
+          "90.0": {
+            "label": "Other issues",
+            "n": 29
+          },
+          "16.0": {
+            "label": "Holding those accountable who were responsible for the bank crisis",
+            "n": 13
+          },
+          "99.0": {
+            "label": "Missing",
+            "n": 6
+          },
+          "20.0": {
+            "label": "Social welfare",
+            "n": 43
+          },
+          "22.0": {
+            "label": "Equality, living standards",
+            "n": 4
+          },
+          "18.0": {
+            "label": "Discontinuation / reducing big industry",
+            "n": 1
+          },
+          "26.0": {
+            "label": "Family matters",
+            "n": 33
+          },
+          "31.0": {
+            "label": "Regional issues",
+            "n": 2
+          },
+          "36.0": {
+            "label": "The elderly / people with disability",
+            "n": 12
+          },
+          "25.0": {
+            "label": "Health matters",
+            "n": 12
+          },
+          "4.0": {
+            "label": "The Economic crisis / bank crisis / currency crisis",
+            "n": 211
+          },
+          "10.0": {
+            "label": "Wages / living standards/taxes",
+            "n": 12
+          },
+          "29.0": {
+            "label": "Welfare of the households / the people (the Economic crisis)",
+            "n": 187
+          },
+          "30.0": {
+            "label": "Employment",
+            "n": 95
+          },
+          "23.0": {
+            "label": "Icesave",
+            "n": 23
+          },
+          "98.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 142
+          },
+          "1.0": {
+            "label": "Foreign affairs / international relations",
+            "n": 1
+          },
+          "14.0": {
+            "label": "Fisheries",
+            "n": 23
+          },
+          "40.0": {
+            "label": "Nationalistic issues / guard the independency of the country.",
+            "n": 4
+          },
+          "97.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 25
+          },
+          "17.0": {
+            "label": "Continuation of developing big industry",
+            "n": 1
+          }
+        }
+      },
+      "task12009": {
+        "concept": "current_national_problem",
+        "valid_codes": [
+          8.0,
+          19.0,
+          23.0,
+          28.0,
+          33.0,
+          29.0,
+          36.0,
+          6.0,
+          12.0,
+          13.0,
+          20.0,
+          34.0,
+          11.0,
+          39.0,
+          3.0,
+          10.0,
+          32.0,
+          38.0,
+          18.0,
+          40.0,
+          17.0,
+          22.0,
+          16.0,
+          1.0,
+          35.0,
+          25.0,
+          27.0,
+          30.0,
+          90.0,
+          31.0,
+          14.0,
+          24.0,
+          5.0,
+          4.0,
+          26.0,
+          15.0,
+          9.0,
+          2.0
+        ],
+        "categories": {
+          "8.0": {
+            "label": "Reducing government expenditure",
+            "n": 1
+          },
+          "19.0": {
+            "label": "Restoration / saving the country / nation",
+            "n": 86
+          },
+          "23.0": {
+            "label": "Icesave",
+            "n": 127
+          },
+          "28.0": {
+            "label": "Welfare of companies",
+            "n": 7
+          },
+          "33.0": {
+            "label": "Democracy / democratic reform / honesty / political trust",
+            "n": 31
+          },
+          "29.0": {
+            "label": "Welfare of the households / the people (the Economic crisis)",
+            "n": 71
+          },
+          "36.0": {
+            "label": "The elderly / people with disability",
+            "n": 1
+          },
+          "6.0": {
+            "label": "Economic stability",
+            "n": 4
+          },
+          "12.0": {
+            "label": "Prices / inflation / interest rates",
+            "n": 8
+          },
+          "13.0": {
+            "label": "Agriculture",
+            "n": 1
+          },
+          "20.0": {
+            "label": "Social welfare",
+            "n": 3
+          },
+          "34.0": {
+            "label": "European issues / European Union / EEA / EFTA / the euro",
+            "n": 103
+          },
+          "11.0": {
+            "label": "Change of government / �throwing the rascals out / voting in parties that have been in opposition",
+            "n": 0
+          },
+          "39.0": {
+            "label": "Big industry / energy (no stand implied)",
+            "n": 1
+          },
+          "3.0": {
+            "label": "Not joining the European Union / not adopting the euro",
+            "n": 17
+          },
+          "10.0": {
+            "label": "Wages / living standards/taxes",
+            "n": 3
+          },
+          "32.0": {
+            "label": "Transportation/ Regional policy",
+            "n": 0
+          },
+          "38.0": {
+            "label": "Housing",
+            "n": 0
+          },
+          "18.0": {
+            "label": "Discontinuation / reducing big industry",
+            "n": 0
+          },
+          "40.0": {
+            "label": "Nationalistic issues / guard the independency of the country.",
+            "n": 16
+          },
+          "96.0": {
+            "label": "Not applicable",
+            "n": 8
+          },
+          "99.0": {
+            "label": "Missing",
+            "n": 7
+          },
+          "17.0": {
+            "label": "Continuation of developing big industry",
+            "n": 0
+          },
+          "22.0": {
+            "label": "Equality, living standards",
+            "n": 7
+          },
+          "16.0": {
+            "label": "Holding those accountable who were responsible for the bank crisis",
+            "n": 23
+          },
+          "1.0": {
+            "label": "Foreign affairs / international relations",
+            "n": 6
+          },
+          "35.0": {
+            "label": "Environmental issues",
+            "n": 1
+          },
+          "25.0": {
+            "label": "Health matters",
+            "n": 2
+          },
+          "27.0": {
+            "label": "Improving the image of Iceland (internationally)",
+            "n": 16
+          },
+          "30.0": {
+            "label": "Employment",
+            "n": 85
+          },
+          "90.0": {
+            "label": "Other issues",
+            "n": 35
+          },
+          "31.0": {
+            "label": "Regional issues",
+            "n": 0
+          },
+          "97.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 28
+          },
+          "14.0": {
+            "label": "Fisheries",
+            "n": 2
+          },
+          "24.0": {
+            "label": "Education",
+            "n": 2
+          },
+          "5.0": {
+            "label": "The Economy",
+            "n": 76
+          },
+          "4.0": {
+            "label": "The Economic crisis / bank crisis / currency crisis",
+            "n": 411
+          },
+          "26.0": {
+            "label": "Family matters",
+            "n": 3
+          },
+          "98.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 143
+          },
+          "15.0": {
+            "label": "The fishery quota system",
+            "n": 3
+          },
+          "9.0": {
+            "label": "Taxes",
+            "n": 0
+          },
+          "2.0": {
+            "label": "Joining the European Union / adopting the euro",
+            "n": 47
+          }
+        }
+      },
+      "prtvote09": {
+        "concept": "named_party_vote",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "categories": {
+          "6.0": {
+            "label": "Civic Movement",
+            "n": 77
+          },
+          "92.0": {
+            "label": "Cast a blank or invalid ballot",
+            "n": 55
+          },
+          "4.0": {
+            "label": "Left Green Movement",
+            "n": 237
+          },
+          "7.0": {
+            "label": "Democratic Movement",
+            "n": 3
+          },
+          "96.0": {
+            "label": "Not applicable",
+            "n": 119
+          },
+          "5.0": {
+            "label": "Liberal Party",
+            "n": 18
+          },
+          "8.0": {
+            "label": "Another party or party list, which?",
+            "n": 4
+          },
+          "3.0": {
+            "label": "Independence Party",
+            "n": 242
+          },
+          "90.0": {
+            "label": "Voted, doesn�t want to say for what party",
+            "n": 117
+          },
+          "98.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 6
+          },
+          "2.0": {
+            "label": "Progressive Party",
+            "n": 172
+          },
+          "1.0": {
+            "label": "Social Democratic Alliance",
+            "n": 335
+          }
+        }
+      },
+      "vote09": {
+        "concept": "turnout",
+        "valid_codes": [
+          1,
+          2
+        ],
+        "categories": {
+          "2.0": {
+            "label": "No",
+            "n": 75
+          },
+          "9.0": {
+            "label": "Missing",
+            "n": 28
+          },
+          "8.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 3
+          },
+          "1.0": {
+            "label": "Yes",
+            "n": 1266
+          },
+          "7.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 13
+          }
+        }
+      },
+      "govprfmGHH": {
+        "concept": "government_performance",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "categories": {
+          "3.0": {
+            "label": "Bad job",
+            "n": 612
+          },
+          "2.0": {
+            "label": "Good job",
+            "n": 185
+          },
+          "8.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 32
+          },
+          "9.0": {
+            "label": "Missing",
+            "n": 12
+          },
+          "1.0": {
+            "label": "Very good job",
+            "n": 10
+          },
+          "7.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 16
+          },
+          "4.0": {
+            "label": "Very bad job",
+            "n": 518
+          }
+        }
+      },
+      "govprfmJH": {
+        "concept": "government_performance_interim_2009",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "categories": {
+          "8.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 77
+          },
+          "2.0": {
+            "label": "Good job",
+            "n": 520
+          },
+          "9.0": {
+            "label": "Missing",
+            "n": 12
+          },
+          "4.0": {
+            "label": "Very bad job",
+            "n": 223
+          },
+          "7.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 16
+          },
+          "1.0": {
+            "label": "Very good job",
+            "n": 59
+          },
+          "3.0": {
+            "label": "Bad job",
+            "n": 478
+          }
+        }
+      },
+      "bnkclsfault_G_GHH": {
+        "concept": "crisis_responsibility_G_GHH",
+        "valid_codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "categories": {
+          "4.0": {
+            "label": "4",
+            "n": 23
+          },
+          "7.0": {
+            "label": "7",
+            "n": 161
+          },
+          "8.0": {
+            "label": "8",
+            "n": 258
+          },
+          "97.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 58
+          },
+          "6.0": {
+            "label": "6",
+            "n": 73
+          },
+          "3.0": {
+            "label": "3",
+            "n": 15
+          },
+          "10.0": {
+            "label": "10 � Bears a lot of responsibility",
+            "n": 410
+          },
+          "98.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 60
+          },
+          "99.0": {
+            "label": "Missing",
+            "n": 37
+          },
+          "9.0": {
+            "label": "9",
+            "n": 190
+          },
+          "2.0": {
+            "label": "2",
+            "n": 13
+          },
+          "1.0": {
+            "label": "1",
+            "n": 3
+          },
+          "0.0": {
+            "label": "0 � Bears no responsibility",
+            "n": 19
+          },
+          "5.0": {
+            "label": "5",
+            "n": 65
+          }
+        }
+      },
+      "bnkclsfault_bnk": {
+        "concept": "crisis_responsibility_bnk",
+        "valid_codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "categories": {
+          "2.0": {
+            "label": "2",
+            "n": 3
+          },
+          "99.0": {
+            "label": "Missing",
+            "n": 37
+          },
+          "10.0": {
+            "label": "10 � Bears a lot of responsibility",
+            "n": 710
+          },
+          "8.0": {
+            "label": "8",
+            "n": 169
+          },
+          "0.0": {
+            "label": "0 � Bears no responsibility",
+            "n": 11
+          },
+          "3.0": {
+            "label": "3",
+            "n": 4
+          },
+          "5.0": {
+            "label": "5",
+            "n": 13
+          },
+          "98.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 57
+          },
+          "9.0": {
+            "label": "9",
+            "n": 240
+          },
+          "1.0": {
+            "label": "1",
+            "n": 5
+          },
+          "7.0": {
+            "label": "7",
+            "n": 49
+          },
+          "97.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 56
+          },
+          "4.0": {
+            "label": "4",
+            "n": 7
+          },
+          "6.0": {
+            "label": "6",
+            "n": 24
+          }
+        }
+      },
+      "bnkclsfault_CB": {
+        "concept": "crisis_responsibility_CB",
+        "valid_codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "categories": {
+          "6.0": {
+            "label": "6",
+            "n": 63
+          },
+          "0.0": {
+            "label": "0 � Bears no responsibility",
+            "n": 15
+          },
+          "99.0": {
+            "label": "Missing",
+            "n": 37
+          },
+          "1.0": {
+            "label": "1",
+            "n": 3
+          },
+          "10.0": {
+            "label": "10 � Bears a lot of responsibility",
+            "n": 499
+          },
+          "4.0": {
+            "label": "4",
+            "n": 18
+          },
+          "9.0": {
+            "label": "9",
+            "n": 207
+          },
+          "97.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 54
+          },
+          "3.0": {
+            "label": "3",
+            "n": 12
+          },
+          "8.0": {
+            "label": "8",
+            "n": 248
+          },
+          "7.0": {
+            "label": "7",
+            "n": 108
+          },
+          "2.0": {
+            "label": "2",
+            "n": 5
+          },
+          "98.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 60
+          },
+          "5.0": {
+            "label": "5",
+            "n": 56
+          }
+        }
+      },
+      "bnkclsfault_FME": {
+        "concept": "crisis_responsibility_FME",
+        "valid_codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "categories": {
+          "9.0": {
+            "label": "9",
+            "n": 213
+          },
+          "97.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 55
+          },
+          "0.0": {
+            "label": "0 � Bears no responsibility",
+            "n": 11
+          },
+          "1.0": {
+            "label": "1",
+            "n": 3
+          },
+          "5.0": {
+            "label": "5",
+            "n": 41
+          },
+          "3.0": {
+            "label": "3",
+            "n": 4
+          },
+          "8.0": {
+            "label": "8",
+            "n": 207
+          },
+          "7.0": {
+            "label": "7",
+            "n": 91
+          },
+          "10.0": {
+            "label": "10 � Bears a lot of responsibility",
+            "n": 602
+          },
+          "4.0": {
+            "label": "4",
+            "n": 9
+          },
+          "99.0": {
+            "label": "Missing",
+            "n": 37
+          },
+          "6.0": {
+            "label": "6",
+            "n": 44
+          },
+          "98.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 66
+          },
+          "2.0": {
+            "label": "2",
+            "n": 2
+          }
+        }
+      }
+    }
+  },
+  "icenes_2013": {
+    "n": 1479,
+    "n_columns": 277,
+    "id_unique_checked": true,
+    "id_variable": "User_Id",
+    "id_is_unique": true,
+    "id_distinct_values": 1479,
+    "weight_variables_found": [],
+    "joint_all_three_before_vote": 0,
+    "selected_variables": {
+      "pltrust": {
+        "concept": "trust_politicians",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "categories": {
+          "9.0": {
+            "label": "Missing",
+            "n": 0
+          },
+          "4.0": {
+            "label": "Few",
+            "n": 357
+          },
+          "7.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 0
+          },
+          "3.0": {
+            "label": "Some",
+            "n": 727
+          },
+          "1.0": {
+            "label": "In general",
+            "n": 71
+          },
+          "5.0": {
+            "label": "None",
+            "n": 77
+          },
+          "8.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 22
+          },
+          "2.0": {
+            "label": "Many",
+            "n": 225
+          }
+        }
+      },
+      "issue12013": {
+        "concept": "personal_election_priority",
+        "valid_codes": [
+          2.0,
+          6.0,
+          3.0,
+          5.0,
+          4.0,
+          90.0,
+          7.0,
+          8.0,
+          9.0,
+          1.0
+        ],
+        "categories": {
+          "99.0": {
+            "label": "Missing",
+            "n": 4
+          },
+          "2.0": {
+            "label": "Welfare system / health / education",
+            "n": 185
+          },
+          "6.0": {
+            "label": "Labour market",
+            "n": 132
+          },
+          "3.0": {
+            "label": "European Union / the euro",
+            "n": 121
+          },
+          "97.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 23
+          },
+          "5.0": {
+            "label": "Democracy / issues of democracy",
+            "n": 20
+          },
+          "4.0": {
+            "label": "Environment / energy issues",
+            "n": 64
+          },
+          "90.0": {
+            "label": "Other issues",
+            "n": 64
+          },
+          "98.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 99
+          },
+          "7.0": {
+            "label": "The issues abot natural resources",
+            "n": 28
+          },
+          "89.0": {
+            "label": "None / names none",
+            "n": 39
+          },
+          "8.0": {
+            "label": "The issue about the Constitution",
+            "n": 18
+          },
+          "9.0": {
+            "label": "Taxes",
+            "n": 80
+          },
+          "1.0": {
+            "label": "The economy",
+            "n": 602
+          }
+        }
+      },
+      "task12013": {
+        "concept": "current_national_problem",
+        "valid_codes": [
+          2.0,
+          5.0,
+          9.0,
+          6.0,
+          1.0,
+          90.0,
+          3.0,
+          4.0,
+          7.0,
+          8.0
+        ],
+        "categories": {
+          "2.0": {
+            "label": "Welfare system / health / education",
+            "n": 137
+          },
+          "5.0": {
+            "label": "Democracy / issues of democracy",
+            "n": 28
+          },
+          "98.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 94
+          },
+          "9.0": {
+            "label": "Taxes",
+            "n": 25
+          },
+          "6.0": {
+            "label": "Labour market",
+            "n": 138
+          },
+          "1.0": {
+            "label": "The economy",
+            "n": 733
+          },
+          "90.0": {
+            "label": "Other issues",
+            "n": 75
+          },
+          "3.0": {
+            "label": "European Union / the euro",
+            "n": 136
+          },
+          "97.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 10
+          },
+          "4.0": {
+            "label": "Environment / energy issues",
+            "n": 39
+          },
+          "89.0": {
+            "label": "None / names none",
+            "n": 26
+          },
+          "99.0": {
+            "label": "Missing",
+            "n": 1
+          },
+          "7.0": {
+            "label": "The issues abot natural resources",
+            "n": 22
+          },
+          "8.0": {
+            "label": "The issue about the Constitution",
+            "n": 15
+          }
+        }
+      },
+      "prtvote13": {
+        "concept": "named_party_vote",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          12,
+          13,
+          14
+        ],
+        "categories": {
+          "5.0": {
+            "label": "Bright Future",
+            "n": 99
+          },
+          "12.0": {
+            "label": "Rural Party",
+            "n": 4
+          },
+          "98.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 0
+          },
+          "7.0": {
+            "label": "Dawn",
+            "n": 27
+          },
+          "92.0": {
+            "label": "Cast a blank ballot",
+            "n": 45
+          },
+          "2.0": {
+            "label": "Progressive Party",
+            "n": 279
+          },
+          "96.0": {
+            "label": "Not applicable",
+            "n": 206
+          },
+          "14.0": {
+            "label": "Households Party",
+            "n": 22
+          },
+          "8.0": {
+            "label": "Democratic Watch",
+            "n": 23
+          },
+          "3.0": {
+            "label": "Independence Party",
+            "n": 305
+          },
+          "10.0": {
+            "label": "Right-Green Peoples Party",
+            "n": 15
+          },
+          "1.0": {
+            "label": "Social Democratic Alliance",
+            "n": 180
+          },
+          "4.0": {
+            "label": "Left Green Movement",
+            "n": 156
+          },
+          "97.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 26
+          },
+          "13.0": {
+            "label": "Rainbow",
+            "n": 5
+          },
+          "6.0": {
+            "label": "Pirate Party",
+            "n": 68
+          },
+          "99.0": {
+            "label": "Missing",
+            "n": 19
+          }
+        }
+      },
+      "vote13": {
+        "concept": "turnout",
+        "valid_codes": [
+          1,
+          2
+        ],
+        "categories": {
+          "2.0": {
+            "label": "No",
+            "n": 110
+          },
+          "1.0": {
+            "label": "Yes",
+            "n": 1254
+          },
+          "9.0": {
+            "label": "Missing",
+            "n": 19
+          },
+          "7.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 88
+          },
+          "8.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 8
+          }
+        }
+      },
+      "govprfmJS": {
+        "concept": "government_performance",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "categories": {
+          "9.0": {
+            "label": "Missing",
+            "n": 4
+          },
+          "8.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 47
+          },
+          "1.0": {
+            "label": "Very good",
+            "n": 98
+          },
+          "7.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 21
+          },
+          "4.0": {
+            "label": "Very bad",
+            "n": 210
+          },
+          "3.0": {
+            "label": "Somewhat bad",
+            "n": 443
+          },
+          "2.0": {
+            "label": "Somewhat good",
+            "n": 656
+          }
+        }
+      },
+      "bnkclsfault_G_GHH": {
+        "concept": "crisis_responsibility_G_GHH",
+        "valid_codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "categories": {
+          "9.0": {
+            "label": "9",
+            "n": 172
+          },
+          "10.0": {
+            "label": "10 � Bears a lot of responsibility",
+            "n": 245
+          },
+          "98.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 76
+          },
+          "3.0": {
+            "label": "3",
+            "n": 31
+          },
+          "4.0": {
+            "label": "4",
+            "n": 65
+          },
+          "2.0": {
+            "label": "2",
+            "n": 15
+          },
+          "97.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 51
+          },
+          "7.0": {
+            "label": "7",
+            "n": 225
+          },
+          "0.0": {
+            "label": "0 � Bears no responsibility",
+            "n": 34
+          },
+          "99.0": {
+            "label": "Missing",
+            "n": 22
+          },
+          "8.0": {
+            "label": "8",
+            "n": 269
+          },
+          "1.0": {
+            "label": "1",
+            "n": 10
+          },
+          "6.0": {
+            "label": "6",
+            "n": 130
+          },
+          "5.0": {
+            "label": "5",
+            "n": 131
+          },
+          "96.0": {
+            "label": "Does not know the party / institution / actor",
+            "n": 3
+          }
+        }
+      },
+      "bnkclsfault_bnk": {
+        "concept": "crisis_responsibility_bnk",
+        "valid_codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "categories": {
+          "96.0": {
+            "label": "Does not know the party / institution / actor",
+            "n": 6
+          },
+          "97.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 47
+          },
+          "5.0": {
+            "label": "5",
+            "n": 36
+          },
+          "98.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 66
+          },
+          "1.0": {
+            "label": "1",
+            "n": 1
+          },
+          "6.0": {
+            "label": "6",
+            "n": 41
+          },
+          "10.0": {
+            "label": "10 � Bears a lot of responsibility",
+            "n": 611
+          },
+          "3.0": {
+            "label": "3",
+            "n": 7
+          },
+          "9.0": {
+            "label": "9",
+            "n": 295
+          },
+          "99.0": {
+            "label": "Missing",
+            "n": 22
+          },
+          "4.0": {
+            "label": "4",
+            "n": 11
+          },
+          "0.0": {
+            "label": "0 � Bears no responsibility",
+            "n": 9
+          },
+          "2.0": {
+            "label": "2",
+            "n": 5
+          },
+          "7.0": {
+            "label": "7",
+            "n": 76
+          },
+          "8.0": {
+            "label": "8",
+            "n": 246
+          }
+        }
+      },
+      "bnkclsfault_CB": {
+        "concept": "crisis_responsibility_CB",
+        "valid_codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "categories": {
+          "98.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 72
+          },
+          "9.0": {
+            "label": "9",
+            "n": 206
+          },
+          "3.0": {
+            "label": "3",
+            "n": 19
+          },
+          "8.0": {
+            "label": "8",
+            "n": 340
+          },
+          "7.0": {
+            "label": "7",
+            "n": 171
+          },
+          "99.0": {
+            "label": "Missing",
+            "n": 22
+          },
+          "0.0": {
+            "label": "0 � Bears no responsibility",
+            "n": 14
+          },
+          "1.0": {
+            "label": "1",
+            "n": 2
+          },
+          "2.0": {
+            "label": "2",
+            "n": 8
+          },
+          "4.0": {
+            "label": "4",
+            "n": 23
+          },
+          "10.0": {
+            "label": "10 � Bears a lot of responsibility",
+            "n": 356
+          },
+          "5.0": {
+            "label": "5",
+            "n": 103
+          },
+          "97.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 46
+          },
+          "6.0": {
+            "label": "6",
+            "n": 94
+          },
+          "96.0": {
+            "label": "Does not know the party / institution / actor",
+            "n": 3
+          }
+        }
+      },
+      "bnkclsfault_FME": {
+        "concept": "crisis_responsibility_FME",
+        "valid_codes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "categories": {
+          "6.0": {
+            "label": "6",
+            "n": 59
+          },
+          "2.0": {
+            "label": "2",
+            "n": 5
+          },
+          "8.0": {
+            "label": "8",
+            "n": 303
+          },
+          "4.0": {
+            "label": "4",
+            "n": 17
+          },
+          "10.0": {
+            "label": "10 � Bears a lot of responsibility",
+            "n": 489
+          },
+          "3.0": {
+            "label": "3",
+            "n": 10
+          },
+          "7.0": {
+            "label": "7",
+            "n": 155
+          },
+          "97.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 46
+          },
+          "0.0": {
+            "label": "0 � Bears no responsibility",
+            "n": 16
+          },
+          "5.0": {
+            "label": "5",
+            "n": 67
+          },
+          "96.0": {
+            "label": "Does not know the party / institution / actor",
+            "n": 2
+          },
+          "1.0": {
+            "label": "1",
+            "n": 3
+          },
+          "98.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 62
+          },
+          "99.0": {
+            "label": "Missing",
+            "n": 22
+          },
+          "9.0": {
+            "label": "9",
+            "n": 223
+          }
+        }
+      },
+      "ecobettwors": {
+        "concept": "retrospective_national_economy",
+        "valid_codes": [
+          1,
+          3,
+          5
+        ],
+        "categories": {
+          "9.0": {
+            "label": "Missing",
+            "n": 30
+          },
+          "1.0": {
+            "label": "Gotten better",
+            "n": 560
+          },
+          "3.0": {
+            "label": "Stayed about the same",
+            "n": 639
+          },
+          "8.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 38
+          },
+          "5.0": {
+            "label": "Gotten worse",
+            "n": 179
+          },
+          "7.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 33
+          }
+        }
+      },
+      "govprfmcris": {
+        "concept": "government_crisis_recovery_performance",
+        "valid_codes": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "categories": {
+          "8.0": {
+            "label": "Don�t know (volunteered)",
+            "n": 13
+          },
+          "7.0": {
+            "label": "Refuses to answer (volunteered)",
+            "n": 29
+          },
+          "3.0": {
+            "label": "Neither good nor bad",
+            "n": 302
+          },
+          "2.0": {
+            "label": "Rather good",
+            "n": 553
+          },
+          "5.0": {
+            "label": "Very bad",
+            "n": 117
+          },
+          "9.0": {
+            "label": "Missing",
+            "n": 22
+          },
+          "1.0": {
+            "label": "Very good",
+            "n": 191
+          },
+          "4.0": {
+            "label": "Rather bad",
+            "n": 252
+          }
+        }
+      }
+    }
+  },
+  "limitations": [
+    "All six surveys measure audited attitudes after their national election.",
+    "Portugal 2005 asks about the national problem over three years; 2009/2011 personal election priority is a different question.",
+    "Portugal 2005 and 2009 reverse the codes for economic evaluations and politicians not caring.",
+    "Portugal 2011 has economic hardship but no direct politician trust or do-not-care item found in the audited questionnaire.",
+    "Iceland 2007 and 2009 have government performance but no neutral retrospective economy item found.",
+    "Iceland 2009 asks separately about two successive governments; never label both as one incumbent.",
+    "Iceland 2013 collapses problem categories relative to 2007/2009; recoding requires a documented crosswalk.",
+    "Iceland files have no survey weights found; the 2007 producer report explicitly says no weights are included.",
+    "No respondent linkage across election years is established. Local IDs do not establish a panel.",
+    "Portugal 2009 QUEST is not unique: 1315 distinct values for 1317 rows. Do not deduplicate or link rows using it alone.",
+    "Named party codes are survey answers, not yet verified official party mappings or populism labels.",
+    "Iceland microdata have custom research terms, not the CC BY licence applying to documentation. No raw redistribution; retention and archive obligations recorded separately."
+  ]
+}

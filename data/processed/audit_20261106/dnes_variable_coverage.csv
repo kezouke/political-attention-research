@@ -1,0 +1,28 @@
+year,variable,concept,n_rows,valid_n,post_election,source_label
+2007,V81,first_political_problem_detailed_coding_pending,4018,3403,True,VIGT. PROBLEM REKODET
+2007,V174,household_economy_past_three_years,4018,3998,True,FAMILIE ØKO. SITUATION
+2007,V175,national_economy_past_three_years,4018,3901,True,DANMARKS ØKO. SITUATION
+2007,V182,government_economic_performance,4018,3979,True,ØKONOMI FOGH REG. HÅNDT.
+2007,V191,government_general_performance,4018,3977,True,FOGH REGERINGENS ARB.
+2007,V275,trust_politicians,4018,3969,True,TILLID DANSKE POLITIKERE
+2007,V266,politicians_ignore_voters,4018,3963,True,POLIITIKER F.LIDT HENSYN
+2007,V270,politicians_focus_reelection,4018,3965,True,POLITIKER OPT. AF GENV.
+2007,V28,named_party_vote,4018,3862,True,STEMTE V. VALG 13.NOV 07
+2011,V17,first_political_problem_detailed_coding_pending,2078,1885,True,VIGTIGSTE PROBLEM - KODE
+2011,V18,first_political_problem_broad,2078,1807,True,VIGTIGSTE PROBLEM - KATEGORISERING
+2011,V145,household_economy_past_three_years,2078,1983,True,FAMILIENS ØKONOMISKE SITUATION I DAG
+2011,V146,national_economy_past_three_years,2078,1958,True,DANMARKS ØKONOMISKE SITUATION I DAG
+2011,V218,trust_politicians,2078,1917,True,TILLID TIL DANSKE POLTIKERE I ALMINDELIGHED
+2011,V211,politicians_ignore_voters,2078,1912,True,POLITIKERE TAGER GENNEMGÅENDE FOR LIDT HENSYN TIL VÆLGERNE
+2011,V216,politicians_focus_reelection,2078,1930,True,POLITIKERE MERE OPTAGET AF AT BLIVE GENVALGT
+2011,V155,precrisis_danish_economic_policy_blame,2078,1831,True,ØKONOMISKE POLITIK I DK FORUD FOR KRISEN: BIDRAGET TIL NEDTUREN I DK ØKONOMI
+2011,V158,danish_bank_risk_blame,2078,1919,True,DANSKE BANKER RISIKOVILLIGE: BIDRAGET TIL NEDTUREN I DK ØKONOMI
+2011,V63,named_party_vote,2078,1951,True,STEMTE VED FOLKETINGSVALGET DEN 15. SEPTEMBER
+2015,V15,first_political_problem_detailed_coding_pending,4147,2030,True,VIGTIGSTE PROBLEM I POLITIK KODET
+2015,V137,household_economy_past_three_years,4147,2054,True,FAMILIENS ØKONOMISKE SITUATION I DAG
+2015,V138,national_economy_past_three_years,4147,1935,True,DANMARKS ØKONOMISKE SITUATION I DAG
+2015,V218,trust_politicians,4147,1990,True,TILLID TIL DANSKE POLITIKERE I ALMINDELIGHED
+2015,V211,politicians_ignore_voters,4147,1982,True,POLITIKEREN TAGER FOR LIDT HENSYN TIL VÆLGERNE
+2015,V216,politicians_focus_reelection,4147,1997,True,POLITIKERE MERE OPTAGET AF AT BLIVER GENVALGT
+2015,V150,previous_government_economy_responsibility,4147,1928,True,ANSVAR ØKONOMISKE SITUATION I DANMARK
+2015,V51,named_party_vote,4147,2045,True,HVAD STEMTE DU VED FOLKETINGSVALGET DEN 18. JUNI 2015

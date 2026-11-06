@@ -1,0 +1,1988 @@
+{
+  "2006": {
+    "n_rows": 2806,
+    "n_columns": 696,
+    "id_unique_within_file": true,
+    "joint_all_three_before_vote": 0,
+    "portable_file_observed_values_match": true,
+    "pre_election_interview": true,
+    "special_missing_codes_excluded_explicitly": true,
+    "selected_value_labels": {
+      "V041": {
+        "11430.0": {
+          "label": "dutch minorities",
+          "n": 0
+        },
+        "11232.0": {
+          "label": "depletion of resources",
+          "n": 0
+        },
+        "11610.0": {
+          "label": "media",
+          "n": 2
+        },
+        "10940.0": {
+          "label": "work employment (other)",
+          "n": 0
+        },
+        "11330.0": {
+          "label": "popul spat planning (other)",
+          "n": 2
+        },
+        "11512.0": {
+          "label": "abortion",
+          "n": 3
+        },
+        "11030.0": {
+          "label": "traffic safety",
+          "n": 2
+        },
+        "11521.0": {
+          "label": "change of mentality",
+          "n": 33
+        },
+        "10216.0": {
+          "label": "future elderly",
+          "n": 0
+        },
+        "11050.0": {
+          "label": "traffic transport (other)",
+          "n": 1
+        },
+        "99991.0": {
+          "label": "There are no problems",
+          "n": 24
+        },
+        "10110.0": {
+          "label": "financial",
+          "n": 0
+        },
+        "11514.0": {
+          "label": "other life and death",
+          "n": 0
+        },
+        "11412.0": {
+          "label": "positive discrimination",
+          "n": 2
+        },
+        "11010.0": {
+          "label": "public transport",
+          "n": 5
+        },
+        "10510.0": {
+          "label": "military expenditure",
+          "n": 0
+        },
+        "10130.0": {
+          "label": "economy",
+          "n": 0
+        },
+        "10900.0": {
+          "label": "employment (general)",
+          "n": 72
+        },
+        "11400.0": {
+          "label": "minorities general",
+          "n": 88
+        },
+        "10631.0": {
+          "label": "elderly",
+          "n": 59
+        },
+        "10810.0": {
+          "label": "income (general)",
+          "n": 11
+        },
+        "99997.0": {
+          "label": "DK/NA/No problems mentioned",
+          "n": 87
+        },
+        "10121.0": {
+          "label": "too many retrenchments",
+          "n": 1
+        },
+        "10122.0": {
+          "label": "retrenchments spec sectors",
+          "n": 36
+        },
+        "10660.0": {
+          "label": "health (care) (other)",
+          "n": 0
+        },
+        "10212.0": {
+          "label": "welfare services groups",
+          "n": 25
+        },
+        "11413.0": {
+          "label": "foreigners (other)",
+          "n": 0
+        },
+        "11620.0": {
+          "label": "sports",
+          "n": 0
+        },
+        "10622.0": {
+          "label": "addiction",
+          "n": 0
+        },
+        "11231.0": {
+          "label": "nuclear energy",
+          "n": 0
+        },
+        "10632.0": {
+          "label": "disabled",
+          "n": 3
+        },
+        "11522.0": {
+          "label": "morality",
+          "n": 33
+        },
+        "10420.0": {
+          "label": "police and judicature",
+          "n": 25
+        },
+        "11640.0": {
+          "label": "other leisure",
+          "n": 21
+        },
+        "10131.0": {
+          "label": "decreasing growth",
+          "n": 1
+        },
+        "10312.0": {
+          "label": "other government",
+          "n": 0
+        },
+        "11320.0": {
+          "label": "city/rural planning",
+          "n": 4
+        },
+        "10440.0": {
+          "label": "drugs",
+          "n": 9
+        },
+        "10200.0": {
+          "label": "welfare state (general)",
+          "n": 5
+        },
+        "10410.0": {
+          "label": "crime (general)",
+          "n": 133
+        },
+        "99995.0": {
+          "label": "CATI",
+          "n": 128
+        },
+        "11310.0": {
+          "label": "population structure",
+          "n": 63
+        },
+        "11000.0": {
+          "label": "traffic and transport",
+          "n": 20
+        },
+        "10310.0": {
+          "label": "government (general)",
+          "n": 21
+        },
+        "11410.0": {
+          "label": "ethnic minorities/foreigners",
+          "n": 181
+        },
+        "11630.0": {
+          "label": "recreation",
+          "n": 1
+        },
+        "11433.0": {
+          "label": "other minorities",
+          "n": 0
+        },
+        "11420.0": {
+          "label": "discrimination (general)",
+          "n": 27
+        },
+        "11120.0": {
+          "label": "living environment",
+          "n": 2
+        },
+        "10920.0": {
+          "label": "shortage labor groups",
+          "n": 0
+        },
+        "10621.0": {
+          "label": "deceases",
+          "n": 0
+        },
+        "11110.0": {
+          "label": "housing shortage",
+          "n": 11
+        },
+        "10710.0": {
+          "label": "education (general)",
+          "n": 96
+        },
+        "10140.0": {
+          "label": "econ financial (other)",
+          "n": 21
+        },
+        "10931.0": {
+          "label": "work pressure",
+          "n": 3
+        },
+        "10610.0": {
+          "label": "healthcare",
+          "n": 207
+        },
+        "11431.0": {
+          "label": "emancipation women",
+          "n": 0
+        },
+        "10113.0": {
+          "label": "other econ financial",
+          "n": 0
+        },
+        "11240.0": {
+          "label": "environment (other)",
+          "n": 2
+        },
+        "11300.0": {
+          "label": "popul spat planning (general)",
+          "n": 1
+        },
+        "10823.0": {
+          "label": "prices (other)",
+          "n": 0
+        },
+        "10500.0": {
+          "label": "military (general)",
+          "n": 0
+        },
+        "10831.0": {
+          "label": "tax levy",
+          "n": 3
+        },
+        "11440.0": {
+          "label": "minorities/discrimination (other)",
+          "n": 193
+        },
+        "11411.0": {
+          "label": "refugees",
+          "n": 71
+        },
+        "11230.0": {
+          "label": "energy",
+          "n": 4
+        },
+        "10450.0": {
+          "label": "safety",
+          "n": 82
+        },
+        "11511.0": {
+          "label": "euthanasia",
+          "n": 0
+        },
+        "11220.0": {
+          "label": "nature conservation",
+          "n": 3
+        },
+        "10215.0": {
+          "label": "child care",
+          "n": 15
+        },
+        "10111.0": {
+          "label": "wrong spending",
+          "n": 16
+        },
+        "11210.0": {
+          "label": "pollution",
+          "n": 4
+        },
+        "11524.0": {
+          "label": "decline tradit morals (other)",
+          "n": 0
+        },
+        "10720.0": {
+          "label": "access to education",
+          "n": 1
+        },
+        "10230.0": {
+          "label": "care services",
+          "n": 47
+        },
+        "11130.0": {
+          "label": "housing prices",
+          "n": 6
+        },
+        "10430.0": {
+          "label": "corruption fraud",
+          "n": 0
+        },
+        "10633.0": {
+          "label": "other groups",
+          "n": 4
+        },
+        "11140.0": {
+          "label": "housing (other)",
+          "n": 0
+        },
+        "11540.0": {
+          "label": "ethics (other)",
+          "n": 39
+        },
+        "11040.0": {
+          "label": "infrastructure",
+          "n": 7
+        },
+        "10120.0": {
+          "label": "retrenchments (general)",
+          "n": 0
+        },
+        "10933.0": {
+          "label": "work conditions (other)",
+          "n": 0
+        },
+        "11100.0": {
+          "label": "housing (general)",
+          "n": 1
+        },
+        "10600.0": {
+          "label": "health (care) (general)",
+          "n": 3
+        },
+        "10820.0": {
+          "label": "prices (general)",
+          "n": 13
+        },
+        "10350.0": {
+          "label": "government and citizen",
+          "n": 24
+        },
+        "10540.0": {
+          "label": "military (other)",
+          "n": 1
+        },
+        "10520.0": {
+          "label": "war and peace",
+          "n": 20
+        },
+        "10123.0": {
+          "label": "retrenchments (other)",
+          "n": 2
+        },
+        "10300.0": {
+          "label": "political (general)",
+          "n": 14
+        },
+        "10811.0": {
+          "label": "class differences",
+          "n": 57
+        },
+        "10220.0": {
+          "label": "welfare state (other)",
+          "n": 1
+        },
+        "99996.0": {
+          "label": "PAPI",
+          "n": 55
+        },
+        "10833.0": {
+          "label": "taxes (other)",
+          "n": 9
+        },
+        "10640.0": {
+          "label": "social services",
+          "n": 2
+        },
+        "11500.0": {
+          "label": "ethics/moral (general)",
+          "n": 70
+        },
+        "10840.0": {
+          "label": "income prices taxes (other)",
+          "n": 0
+        },
+        "10330.0": {
+          "label": "elections",
+          "n": 0
+        },
+        "11233.0": {
+          "label": "other energy",
+          "n": 0
+        },
+        "10623.0": {
+          "label": "other health",
+          "n": 1
+        },
+        "10730.0": {
+          "label": "knowledge and science",
+          "n": 0
+        },
+        "10630.0": {
+          "label": "care groups",
+          "n": 17
+        },
+        "10211.0": {
+          "label": "decreasing welfare services",
+          "n": 19
+        },
+        "10214.0": {
+          "label": "pensions",
+          "n": 1
+        },
+        "11523.0": {
+          "label": "individualization",
+          "n": 29
+        },
+        "10100.0": {
+          "label": "econ financial (general)",
+          "n": 51
+        },
+        "10460.0": {
+          "label": "crime (other)",
+          "n": 28
+        },
+        "11020.0": {
+          "label": "traffic jams",
+          "n": 61
+        },
+        "10340.0": {
+          "label": "foreign affairs",
+          "n": 6
+        },
+        "10210.0": {
+          "label": "welfare services",
+          "n": 23
+        },
+        "10830.0": {
+          "label": "taxes (general)",
+          "n": 21
+        },
+        "11432.0": {
+          "label": "emancipation elderly",
+          "n": 1
+        },
+        "10132.0": {
+          "label": "econ developments (other)",
+          "n": 0
+        },
+        "11520.0": {
+          "label": "decline traditional morals",
+          "n": 10
+        },
+        "10832.0": {
+          "label": "tax dodging",
+          "n": 0
+        },
+        "11530.0": {
+          "label": "religious",
+          "n": 22
+        },
+        "10822.0": {
+          "label": "living expenses",
+          "n": 2
+        },
+        "10821.0": {
+          "label": "inflation",
+          "n": 23
+        },
+        "10620.0": {
+          "label": "health",
+          "n": 0
+        },
+        "11200.0": {
+          "label": "environment",
+          "n": 51
+        },
+        "10360.0": {
+          "label": "political (other)",
+          "n": 6
+        },
+        "10812.0": {
+          "label": "poverty",
+          "n": 95
+        },
+        "10530.0": {
+          "label": "allies and missions",
+          "n": 0
+        },
+        "10910.0": {
+          "label": "unemployment groups",
+          "n": 16
+        },
+        "11513.0": {
+          "label": "genetic engineering",
+          "n": 0
+        },
+        "11510.0": {
+          "label": "interference life/death",
+          "n": 0
+        },
+        "10813.0": {
+          "label": "income (other)",
+          "n": 0
+        },
+        "10320.0": {
+          "label": "bureaucracy",
+          "n": 28
+        },
+        "10213.0": {
+          "label": "misuse welfare services",
+          "n": 6
+        },
+        "10311.0": {
+          "label": "government policy",
+          "n": 29
+        },
+        "10740.0": {
+          "label": "education science (other)",
+          "n": 0
+        },
+        "10650.0": {
+          "label": "hospitals",
+          "n": 12
+        },
+        "10930.0": {
+          "label": "work conditions",
+          "n": 2
+        },
+        "10932.0": {
+          "label": "labor relations",
+          "n": 3
+        },
+        "10112.0": {
+          "label": "financial deficit",
+          "n": 5
+        }
+      },
+      "V070": {
+        "999.0": {
+          "label": "INAP",
+          "n": 2
+        },
+        "3.0": {
+          "label": "not (un)favorably",
+          "n": 903
+        },
+        "2.0": {
+          "label": "unfavorably",
+          "n": 605
+        },
+        "997.0": {
+          "label": "DK/NA",
+          "n": 93
+        },
+        "1.0": {
+          "label": "favorably",
+          "n": 1203
+        },
+        "998.0": {
+          "label": "REF",
+          "n": 0
+        }
+      },
+      "V073": {
+        "998.0": {
+          "label": "REF",
+          "n": 0
+        },
+        "997.0": {
+          "label": "DK/NA",
+          "n": 35
+        },
+        "5.0": {
+          "label": "very unsatisfied",
+          "n": 172
+        },
+        "2.0": {
+          "label": "satisfied",
+          "n": 859
+        },
+        "4.0": {
+          "label": "dissatisfied",
+          "n": 658
+        },
+        "3.0": {
+          "label": "satisfied nor dissatisfied",
+          "n": 1052
+        },
+        "999.0": {
+          "label": "INAP",
+          "n": 5
+        },
+        "1.0": {
+          "label": "very satisfied",
+          "n": 25
+        }
+      },
+      "V081": {
+        "16.0": {
+          "label": null,
+          "n": 0
+        },
+        "10.0": {
+          "label": null,
+          "n": 0
+        },
+        "9.0": {
+          "label": "Fortuyn (LPF)",
+          "n": 3
+        },
+        "12.0": {
+          "label": "EenNL",
+          "n": 10
+        },
+        "1.0": {
+          "label": "CDA",
+          "n": 457
+        },
+        "15.0": {
+          "label": null,
+          "n": 0
+        },
+        "8.0": {
+          "label": "SGP",
+          "n": 29
+        },
+        "997.0": {
+          "label": "DK/NA",
+          "n": 0
+        },
+        "32.0": {
+          "label": "invalid",
+          "n": 0
+        },
+        "999.0": {
+          "label": "INAP",
+          "n": 368
+        },
+        "11.0": {
+          "label": "Partij vd Dieren",
+          "n": 16
+        },
+        "17.0": {
+          "label": "DK yet",
+          "n": 0
+        },
+        "998.0": {
+          "label": "REF",
+          "n": 12
+        },
+        "2.0": {
+          "label": "PvdA",
+          "n": 376
+        },
+        "14.0": {
+          "label": "Partij voor Nederland",
+          "n": 3
+        },
+        "6.0": {
+          "label": "D66",
+          "n": 28
+        },
+        "5.0": {
+          "label": "SP",
+          "n": 206
+        },
+        "7.0": {
+          "label": "ChristenUnie",
+          "n": 65
+        },
+        "4.0": {
+          "label": "GroenLinks",
+          "n": 78
+        },
+        "31.0": {
+          "label": "blanc",
+          "n": 5
+        },
+        "13.0": {
+          "label": "Partij vd Vrijheid",
+          "n": 60
+        },
+        "3.0": {
+          "label": "VVD",
+          "n": 238
+        },
+        "33.0": {
+          "label": "DK yet",
+          "n": 848
+        },
+        "30.0": {
+          "label": "other party",
+          "n": 4
+        }
+      },
+      "V512": {
+        "8.0": {
+          "label": "SGP",
+          "n": 27
+        },
+        "30.0": {
+          "label": "other party",
+          "n": 6
+        },
+        "6.0": {
+          "label": "D66",
+          "n": 40
+        },
+        "16.0": {
+          "label": null,
+          "n": 0
+        },
+        "31.0": {
+          "label": "blanc",
+          "n": 4
+        },
+        "33.0": {
+          "label": "DK",
+          "n": 0
+        },
+        "9.0": {
+          "label": "Lijst Fortuyn",
+          "n": 1
+        },
+        "7.0": {
+          "label": "ChristenUnie",
+          "n": 98
+        },
+        "5.0": {
+          "label": "SP",
+          "n": 411
+        },
+        "17.0": {
+          "label": null,
+          "n": 0
+        },
+        "2.0": {
+          "label": "PvdA",
+          "n": 491
+        },
+        "14.0": {
+          "label": "Partij voor Nederland",
+          "n": 1
+        },
+        "11.0": {
+          "label": "Partij vd Dieren",
+          "n": 35
+        },
+        "10.0": {
+          "label": null,
+          "n": 0
+        },
+        "999.0": {
+          "label": "INAP",
+          "n": 182
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 285
+        },
+        "3.0": {
+          "label": "VVD",
+          "n": 332
+        },
+        "32.0": {
+          "label": "invalid",
+          "n": 1
+        },
+        "12.0": {
+          "label": "EenNL",
+          "n": 14
+        },
+        "13.0": {
+          "label": "Partij vd Vrijheid",
+          "n": 121
+        },
+        "997.0": {
+          "label": "DK/NA",
+          "n": 10
+        },
+        "1.0": {
+          "label": "CDA",
+          "n": 629
+        },
+        "15.0": {
+          "label": null,
+          "n": 0
+        },
+        "4.0": {
+          "label": "GroenLinks",
+          "n": 110
+        },
+        "998.0": {
+          "label": "REF",
+          "n": 8
+        }
+      },
+      "V740": {
+        "1.0": {
+          "label": "true",
+          "n": 934
+        },
+        "999.0": {
+          "label": "INAP",
+          "n": 1
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 285
+        },
+        "2.0": {
+          "label": "not true",
+          "n": 1516
+        },
+        "997.0": {
+          "label": "DK/NA",
+          "n": 70
+        },
+        "998.0": {
+          "label": "REF",
+          "n": 0
+        }
+      },
+      "V741": {
+        "997.0": {
+          "label": "DK/NA",
+          "n": 62
+        },
+        "2.0": {
+          "label": "not true",
+          "n": 1273
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 285
+        },
+        "998.0": {
+          "label": "REF",
+          "n": 1
+        },
+        "1.0": {
+          "label": "true",
+          "n": 1184
+        },
+        "999.0": {
+          "label": "INAP",
+          "n": 1
+        }
+      },
+      "V751": {
+        "997.0": {
+          "label": "DK/NA",
+          "n": 86
+        },
+        "3.0": {
+          "label": "disagree",
+          "n": 1438
+        },
+        "4.0": {
+          "label": "fully disagree",
+          "n": 46
+        },
+        "998.0": {
+          "label": "REF",
+          "n": 0
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 285
+        },
+        "999.0": {
+          "label": "INAP",
+          "n": 1
+        },
+        "1.0": {
+          "label": "fully agree",
+          "n": 141
+        },
+        "2.0": {
+          "label": "agree",
+          "n": 809
+        }
+      },
+      "V895": {
+        "999.0": {
+          "label": "INAP",
+          "n": 0
+        },
+        "4.0": {
+          "label": "no trust at all",
+          "n": 73
+        },
+        "998.0": {
+          "label": "REF",
+          "n": 0
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 911
+        },
+        "2.0": {
+          "label": "fairly much",
+          "n": 1104
+        },
+        "3.0": {
+          "label": "not so much",
+          "n": 615
+        },
+        "997.0": {
+          "label": "DK/NA",
+          "n": 55
+        },
+        "1.0": {
+          "label": "very much",
+          "n": 48
+        }
+      },
+      "V930": {
+        "999.0": {
+          "label": "INAP",
+          "n": 0
+        },
+        "3.0": {
+          "label": "agree nor disagree",
+          "n": 1098
+        },
+        "1.0": {
+          "label": "fully agree",
+          "n": 10
+        },
+        "997.0": {
+          "label": "DK/NA",
+          "n": 56
+        },
+        "4.0": {
+          "label": "disagree",
+          "n": 321
+        },
+        "2.0": {
+          "label": "agree",
+          "n": 334
+        },
+        "5.0": {
+          "label": "fully disagree",
+          "n": 76
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 911
+        },
+        "998.0": {
+          "label": "REF",
+          "n": 0
+        }
+      },
+      "V931": {
+        "5.0": {
+          "label": "fully disagree",
+          "n": 121
+        },
+        "998.0": {
+          "label": "REF",
+          "n": 0
+        },
+        "4.0": {
+          "label": "disagree",
+          "n": 756
+        },
+        "1.0": {
+          "label": "fully agree",
+          "n": 63
+        },
+        "3.0": {
+          "label": "agree nor disagree",
+          "n": 665
+        },
+        "999.0": {
+          "label": "INAP",
+          "n": 0
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 911
+        },
+        "997.0": {
+          "label": "DK/NA",
+          "n": 57
+        },
+        "2.0": {
+          "label": "agree",
+          "n": 233
+        }
+      }
+    }
+  },
+  "2010": {
+    "n_rows": 2621,
+    "n_columns": 639,
+    "id_unique_within_file": true,
+    "joint_all_three_before_vote": 0,
+    "portable_file_observed_values_match": true,
+    "pre_election_interview": true,
+    "special_missing_codes_excluded_explicitly": true,
+    "selected_value_labels": {
+      "V041": {
+        "3.0": {
+          "label": "Politics",
+          "n": 227
+        },
+        "99997.0": {
+          "label": "DK/NA",
+          "n": 31
+        },
+        "2.0": {
+          "label": "Social security",
+          "n": 129
+        },
+        "11.0": {
+          "label": "Housing",
+          "n": 45
+        },
+        "13.0": {
+          "label": "Population",
+          "n": 20
+        },
+        "99991.0": {
+          "label": "There are no problems",
+          "n": 55
+        },
+        "15.0": {
+          "label": "Norms and Values",
+          "n": 223
+        },
+        "8.0": {
+          "label": "Income/Price levels",
+          "n": 115
+        },
+        "4.0": {
+          "label": "Crime",
+          "n": 259
+        },
+        "5.0": {
+          "label": "Defense",
+          "n": 5
+        },
+        "12.0": {
+          "label": "Environment",
+          "n": 32
+        },
+        "6.0": {
+          "label": "Health care",
+          "n": 195
+        },
+        "9.0": {
+          "label": "Employment",
+          "n": 107
+        },
+        "99995.0": {
+          "label": "CATI",
+          "n": 83
+        },
+        "14.0": {
+          "label": "Minorities",
+          "n": 278
+        },
+        "16.0": {
+          "label": "Leisure time",
+          "n": 13
+        },
+        "1.0": {
+          "label": "Economy/Financial situation",
+          "n": 646
+        },
+        "99996.0": {
+          "label": "PAPI",
+          "n": 45
+        },
+        "7.0": {
+          "label": "Education",
+          "n": 73
+        },
+        "10.0": {
+          "label": "Traffic/mobility",
+          "n": 40
+        }
+      },
+      "V070": {
+        "1.0": {
+          "label": "Favorably",
+          "n": 526
+        },
+        "996.0": {
+          "label": "PAPI",
+          "n": 0
+        },
+        "995.0": {
+          "label": "CATI",
+          "n": 0
+        },
+        "999.0": {
+          "label": "INAP",
+          "n": 0
+        },
+        "998.0": {
+          "label": "REF",
+          "n": 0
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 0
+        },
+        "2.0": {
+          "label": "Unfavorably",
+          "n": 890
+        },
+        "997.0": {
+          "label": "DK/NA",
+          "n": 135
+        },
+        "3.0": {
+          "label": "Not (un)favorably",
+          "n": 1070
+        }
+      },
+      "V073": {
+        "997.0": {
+          "label": "DK/NA",
+          "n": 37
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 0
+        },
+        "3.0": {
+          "label": "Neither satisfied nor dissatisfied",
+          "n": 1099
+        },
+        "1.0": {
+          "label": "Very satisfied",
+          "n": 8
+        },
+        "995.0": {
+          "label": "CATI",
+          "n": 0
+        },
+        "998.0": {
+          "label": "REF",
+          "n": 1
+        },
+        "2.0": {
+          "label": "Satisfied",
+          "n": 622
+        },
+        "4.0": {
+          "label": "Dissatisfied",
+          "n": 734
+        },
+        "5.0": {
+          "label": "Very dissatisfied",
+          "n": 120
+        },
+        "999.0": {
+          "label": "INAP",
+          "n": 0
+        },
+        "996.0": {
+          "label": "PAPI",
+          "n": 0
+        }
+      },
+      "V081": {
+        "7.0": {
+          "label": "ChristenUnie",
+          "n": 66
+        },
+        "2.0": {
+          "label": "PvdA",
+          "n": 270
+        },
+        "5.0": {
+          "label": "SP",
+          "n": 68
+        },
+        "11.0": {
+          "label": "TON",
+          "n": 2
+        },
+        "6.0": {
+          "label": "D66",
+          "n": 129
+        },
+        "8.0": {
+          "label": "SGP",
+          "n": 24
+        },
+        "999.0": {
+          "label": "INAP",
+          "n": 381
+        },
+        "4.0": {
+          "label": "GroenLinks",
+          "n": 114
+        },
+        "998.0": {
+          "label": "REF",
+          "n": 5
+        },
+        "996.0": {
+          "label": "PAPI",
+          "n": 0
+        },
+        "15.0": {
+          "label": "Other party",
+          "n": 7
+        },
+        "10.0": {
+          "label": "PvdD",
+          "n": 19
+        },
+        "9.0": {
+          "label": "PVV",
+          "n": 133
+        },
+        "12.0": {
+          "label": "Blank vote",
+          "n": 0
+        },
+        "997.0": {
+          "label": "DK/NA",
+          "n": 845
+        },
+        "14.0": {
+          "label": "Local party",
+          "n": 1
+        },
+        "13.0": {
+          "label": "Invalid",
+          "n": 0
+        },
+        "1.0": {
+          "label": "CDA",
+          "n": 219
+        },
+        "995.0": {
+          "label": "CATI",
+          "n": 0
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 0
+        },
+        "3.0": {
+          "label": "VVD",
+          "n": 338
+        }
+      },
+      "V512": {
+        "13.0": {
+          "label": "Ongeldig",
+          "n": 0
+        },
+        "2.0": {
+          "label": "PvdA",
+          "n": 404
+        },
+        "8.0": {
+          "label": "SGP",
+          "n": 28
+        },
+        "7.0": {
+          "label": "ChristenUnie",
+          "n": 70
+        },
+        "14.0": {
+          "label": "invalid",
+          "n": 1
+        },
+        "996.0": {
+          "label": "PAPI",
+          "n": 0
+        },
+        "6.0": {
+          "label": "D66",
+          "n": 175
+        },
+        "997.0": {
+          "label": "DK/NA",
+          "n": 7
+        },
+        "1.0": {
+          "label": "CDA",
+          "n": 264
+        },
+        "995.0": {
+          "label": "CATI",
+          "n": 0
+        },
+        "15.0": {
+          "label": "other party",
+          "n": 7
+        },
+        "9.0": {
+          "label": "Partij voor de Vrijheid (Geert Wilders)",
+          "n": 241
+        },
+        "5.0": {
+          "label": "SP",
+          "n": 231
+        },
+        "3.0": {
+          "label": "VVD",
+          "n": 436
+        },
+        "11.0": {
+          "label": "Trots op Nederland (Rita Verdonk)",
+          "n": 9
+        },
+        "999.0": {
+          "label": "INAP",
+          "n": 197
+        },
+        "16.0": {
+          "label": "DK",
+          "n": 0
+        },
+        "12.0": {
+          "label": "blanco",
+          "n": 1
+        },
+        "10.0": {
+          "label": "Partij voor de Dieren",
+          "n": 22
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 374
+        },
+        "998.0": {
+          "label": "REF",
+          "n": 9
+        },
+        "4.0": {
+          "label": "GroenLinks",
+          "n": 145
+        }
+      },
+      "V741": {
+        "998.0": {
+          "label": "REF",
+          "n": 0
+        },
+        "1.0": {
+          "label": "True",
+          "n": 1041
+        },
+        "996.0": {
+          "label": "PAPI",
+          "n": 0
+        },
+        "2.0": {
+          "label": "Not true",
+          "n": 1169
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 374
+        },
+        "995.0": {
+          "label": "CATI",
+          "n": 0
+        },
+        "999.0": {
+          "label": "INAP",
+          "n": 0
+        },
+        "997.0": {
+          "label": "DK/NA",
+          "n": 37
+        }
+      },
+      "V753": {
+        "999.0": {
+          "label": "INAP",
+          "n": 0
+        },
+        "1.0": {
+          "label": "Fully agree",
+          "n": 8
+        },
+        "5.0": {
+          "label": "Fully disagree",
+          "n": 83
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 374
+        },
+        "2.0": {
+          "label": "Agree",
+          "n": 338
+        },
+        "4.0": {
+          "label": "Disagree",
+          "n": 576
+        },
+        "997.0": {
+          "label": "DK/NA",
+          "n": 6
+        },
+        "3.0": {
+          "label": "Neither agree nor disagree",
+          "n": 1141
+        },
+        "998.0": {
+          "label": "REF",
+          "n": 1
+        },
+        "995.0": {
+          "label": "CATI",
+          "n": 71
+        },
+        "996.0": {
+          "label": "PAPI",
+          "n": 23
+        }
+      },
+      "V754": {
+        "5.0": {
+          "label": "Fully disagree",
+          "n": 123
+        },
+        "999.0": {
+          "label": "INAP",
+          "n": 0
+        },
+        "3.0": {
+          "label": "Neither agree nor disagree",
+          "n": 544
+        },
+        "2.0": {
+          "label": "Agree",
+          "n": 345
+        },
+        "997.0": {
+          "label": "DK/NA",
+          "n": 15
+        },
+        "4.0": {
+          "label": "Disagree",
+          "n": 1039
+        },
+        "996.0": {
+          "label": "PAPI",
+          "n": 23
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 374
+        },
+        "995.0": {
+          "label": "CATI",
+          "n": 71
+        },
+        "1.0": {
+          "label": "Fully agree",
+          "n": 85
+        },
+        "998.0": {
+          "label": "REF",
+          "n": 2
+        }
+      },
+      "V806": {
+        "996.0": {
+          "label": "PAPI",
+          "n": 23
+        },
+        "998.0": {
+          "label": "REF",
+          "n": 0
+        },
+        "997.0": {
+          "label": "DK/NA",
+          "n": 30
+        },
+        "995.0": {
+          "label": "CATI",
+          "n": 71
+        },
+        "3.0": {
+          "label": "Not so much",
+          "n": 704
+        },
+        "2.0": {
+          "label": "Fairly much",
+          "n": 1293
+        },
+        "999.0": {
+          "label": "INAP",
+          "n": 0
+        },
+        "4.0": {
+          "label": "No trust at all",
+          "n": 56
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 374
+        },
+        "1.0": {
+          "label": "Very Much",
+          "n": 70
+        }
+      },
+      "V811": {
+        "994.0": {
+          "label": "PA",
+          "n": 374
+        },
+        "996.0": {
+          "label": "PAPI",
+          "n": 23
+        },
+        "3.0": {
+          "label": "Not so much",
+          "n": 927
+        },
+        "1.0": {
+          "label": "Very Much",
+          "n": 22
+        },
+        "997.0": {
+          "label": "DK/NA",
+          "n": 36
+        },
+        "4.0": {
+          "label": "No trust at all",
+          "n": 52
+        },
+        "995.0": {
+          "label": "CATI",
+          "n": 71
+        },
+        "2.0": {
+          "label": "Fairly much",
+          "n": 1115
+        },
+        "998.0": {
+          "label": "REF",
+          "n": 1
+        },
+        "999.0": {
+          "label": "INAP",
+          "n": 0
+        }
+      },
+      "V820": {
+        "998.0": {
+          "label": "REF",
+          "n": 0
+        },
+        "1.0": {
+          "label": "Improved",
+          "n": 511
+        },
+        "995.0": {
+          "label": "CATI",
+          "n": 71
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 374
+        },
+        "999.0": {
+          "label": "INAP",
+          "n": 0
+        },
+        "2.0": {
+          "label": "Got worse",
+          "n": 788
+        },
+        "996.0": {
+          "label": "PAPI",
+          "n": 23
+        },
+        "3.0": {
+          "label": "No difference",
+          "n": 830
+        },
+        "997.0": {
+          "label": "DK/NA",
+          "n": 24
+        }
+      },
+      "V823": {
+        "998.0": {
+          "label": "REF",
+          "n": 1
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 374
+        },
+        "996.0": {
+          "label": "PAPI",
+          "n": 23
+        },
+        "2.0": {
+          "label": "Got worse",
+          "n": 479
+        },
+        "999.0": {
+          "label": "INAP",
+          "n": 0
+        },
+        "997.0": {
+          "label": "DK/NA",
+          "n": 8
+        },
+        "1.0": {
+          "label": "Improved",
+          "n": 302
+        },
+        "995.0": {
+          "label": "CATI",
+          "n": 71
+        },
+        "3.0": {
+          "label": "No difference",
+          "n": 1363
+        }
+      }
+    }
+  },
+  "2012": {
+    "n_rows": 1677,
+    "n_columns": 430,
+    "id_unique_within_file": true,
+    "joint_all_three_before_vote": 0,
+    "portable_file_observed_values_match": false,
+    "pre_election_interview": false,
+    "special_missing_codes_excluded_explicitly": true,
+    "selected_value_labels": {
+      "V071": {
+        "999.0": {
+          "label": "DK/NA/Cannot be coded",
+          "n": 18
+        },
+        "10.0": {
+          "label": "Traffic/mobility",
+          "n": 6
+        },
+        "8.0": {
+          "label": "Income/Price levels/Taxes",
+          "n": 166
+        },
+        "16.0": {
+          "label": "Media",
+          "n": 2
+        },
+        "1.0": {
+          "label": "Economy/Financial situation",
+          "n": 546
+        },
+        "991.0": {
+          "label": "There are no problems",
+          "n": 12
+        },
+        "14.0": {
+          "label": "Minorities",
+          "n": 103
+        },
+        "6.0": {
+          "label": "Healthcare",
+          "n": 184
+        },
+        "12.0": {
+          "label": "Environment",
+          "n": 15
+        },
+        "13.0": {
+          "label": "Population",
+          "n": 20
+        },
+        "9.0": {
+          "label": "Employment",
+          "n": 181
+        },
+        "7.0": {
+          "label": "Education",
+          "n": 55
+        },
+        "4.0": {
+          "label": "Crime",
+          "n": 73
+        },
+        "2.0": {
+          "label": "Social security",
+          "n": 80
+        },
+        "3.0": {
+          "label": "Politics",
+          "n": 86
+        },
+        "5.0": {
+          "label": "Defense",
+          "n": 2
+        },
+        "11.0": {
+          "label": "Housing",
+          "n": 43
+        },
+        "15.0": {
+          "label": "Norms and Values",
+          "n": 85
+        }
+      },
+      "V090": {
+        "3.0": {
+          "label": "Not (un)favorably",
+          "n": 783
+        },
+        "999.0": {
+          "label": "Don't know",
+          "n": 54
+        },
+        "995.0": {
+          "label": "INAP",
+          "n": 0
+        },
+        "998.0": {
+          "label": "NA/Refusal",
+          "n": 0
+        },
+        "2.0": {
+          "label": "Unfavorably",
+          "n": 540
+        },
+        "1.0": {
+          "label": "Favorably",
+          "n": 300
+        }
+      },
+      "V093": {
+        "4.0": {
+          "label": "Dissatisfied",
+          "n": 528
+        },
+        "1.0": {
+          "label": "Very satisfied",
+          "n": 5
+        },
+        "998.0": {
+          "label": "NA/Refusal",
+          "n": 0
+        },
+        "2.0": {
+          "label": "Satisfied",
+          "n": 378
+        },
+        "3.0": {
+          "label": "Satisfied nor dissatisfied",
+          "n": 671
+        },
+        "5.0": {
+          "label": "Very unsatisfied",
+          "n": 81
+        },
+        "995.0": {
+          "label": "INAP",
+          "n": 0
+        },
+        "999.0": {
+          "label": "Don't know",
+          "n": 14
+        }
+      },
+      "V212": {
+        "11.0": {
+          "label": "Democratisch Politiek Keerpunt",
+          "n": 0
+        },
+        "1.0": {
+          "label": "CDA",
+          "n": 124
+        },
+        "995.0": {
+          "label": "INAP",
+          "n": 235
+        },
+        "9.0": {
+          "label": "Partij voor de Vrijheid",
+          "n": 95
+        },
+        "15.0": {
+          "label": "Invalid",
+          "n": 0
+        },
+        "8.0": {
+          "label": "SGP",
+          "n": 29
+        },
+        "7.0": {
+          "label": "ChristenUnie",
+          "n": 38
+        },
+        "2.0": {
+          "label": "PvdA",
+          "n": 358
+        },
+        "4.0": {
+          "label": "GroenLinks",
+          "n": 38
+        },
+        "999.0": {
+          "label": "Don't know",
+          "n": 7
+        },
+        "16.0": {
+          "label": "DK",
+          "n": 0
+        },
+        "3.0": {
+          "label": "VVD",
+          "n": 401
+        },
+        "6.0": {
+          "label": "D66",
+          "n": 131
+        },
+        "14.0": {
+          "label": "Blanco",
+          "n": 4
+        },
+        "998.0": {
+          "label": "NA/Refusal",
+          "n": 2
+        },
+        "13.0": {
+          "label": "Other party",
+          "n": 13
+        },
+        "10.0": {
+          "label": "Partij voor de Dieren",
+          "n": 28
+        },
+        "12.0": {
+          "label": "50Plus",
+          "n": 27
+        },
+        "5.0": {
+          "label": "SP",
+          "n": 147
+        }
+      },
+      "V241": {
+        "1.0": {
+          "label": "True",
+          "n": 808
+        },
+        "2.0": {
+          "label": "Not true",
+          "n": 858
+        },
+        "998.0": {
+          "label": "NA/Refusal",
+          "n": 0
+        },
+        "995.0": {
+          "label": "INAP",
+          "n": 0
+        },
+        "999.0": {
+          "label": "Don't know",
+          "n": 11
+        }
+      },
+      "V311": {
+        "1.0": {
+          "label": "Improved",
+          "n": 173
+        },
+        "998.0": {
+          "label": "NA/Refusal",
+          "n": 0
+        },
+        "995.0": {
+          "label": "INAP",
+          "n": 0
+        },
+        "3.0": {
+          "label": "Got worse",
+          "n": 975
+        },
+        "999.0": {
+          "label": "Don't know",
+          "n": 18
+        },
+        "2.0": {
+          "label": "Remained the same",
+          "n": 511
+        }
+      },
+      "V446": {
+        "3.0": {
+          "label": "Not so much",
+          "n": 529
+        },
+        "998.0": {
+          "label": "DK/NA",
+          "n": 42
+        },
+        "1.0": {
+          "label": "Very Much",
+          "n": 37
+        },
+        "4.0": {
+          "label": "No trust at all",
+          "n": 88
+        },
+        "2.0": {
+          "label": "Fairly much",
+          "n": 794
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 187
+        }
+      },
+      "V451": {
+        "998.0": {
+          "label": "DK/NA",
+          "n": 51
+        },
+        "1.0": {
+          "label": "Very Much",
+          "n": 4
+        },
+        "3.0": {
+          "label": "Not so much",
+          "n": 742
+        },
+        "2.0": {
+          "label": "Fairly much",
+          "n": 575
+        },
+        "994.0": {
+          "label": "PA",
+          "n": 187
+        },
+        "4.0": {
+          "label": "No trust at all",
+          "n": 118
+        }
+      }
+    }
+  },
+  "limitations": [
+    "2006 and 2010 policy-effect item mixes perceived economic change and government responsibility.",
+    "No pre-vote general political trust in the audited variables; 2012 interviews all follow election day.",
+    "2006 institutional trust is in the later drop-off; 2010 institutional trust is in the second interview.",
+    "2012 generic economy coding reverses the meanings of codes 2 and 3 relative to 2010.",
+    "2006 first national problem has detailed codes; 2010 and 2012 use broader categories.",
+    "2012 .por cannot be parsed by installed readstat; official TAB and DDI used and frequencies checked.",
+    "Weights calibrated to party choice cannot independently validate recovered party shares.",
+    "No producer link between respondents across 2006, 2010 and 2012 has been verified.",
+    "Availability is not statistical power; dropout and item-missingness remain relevant."
+  ]
+}

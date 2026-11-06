@@ -1,0 +1,41 @@
+year,variable,label,n_positive,min,max,kish_n_weight_dispersion_only
+2006,WGT1,"Weight I: age, gender, marital status, urbanization, region, ethnicity  (CAPI wave 1)",2623,0.644515706681016,1.910795725428485,2548.4314592887526
+2006,WGT1B,Weight I with a multiplication factor to represent population size,2623,2946.725810945605,8736.158056659035,2548.431459288753
+2006,WGT2,"Weight II: age, gender, marital status, urbanization, region, ethnicity  (All wave 1)",2806,0.618925040855388,1.875178278452883,2728.8425078980436
+2006,WGT2B,Weight II with a multiplication factor to represent population size,2806,2645.285624615931,8014.511962107624,2728.842507898044
+2006,WGT3,"Weight III: age, gender, marital status, urbanization, region, ethnicity (CAPI wave I & II)",2359,0.697908196286636,2.102551624168625,2265.0438482077025
+2006,WGT3B,Weight III with a multiplication factor to represent population size,2359,3547.467361724975,10687.26990564912,2265.043848207703
+2006,WGT4,"Weight IV: age, gender, marital status, urbanization, region, ethnicity, turnout (CAPI wave I & II)",2359,0.559735707813519,3.771135045914596,1830.1494756404522
+2006,WGT4B,Weight IV with a multiplication factor to represent population size,2359,2845.136602816121,19168.67943838389,1830.149475640453
+2006,WGT5,"Weight V: age, gender, marital status, urbanization, region, ethnicity (All wave I & II)",2521,0.6898501338287532,2.061909949692507,2425.537017814594
+2006,WGT5B,Weight V with a multiplication factor to represent population size,2521,3280.92723648955,9806.443720737563,2425.537017814593
+2006,WGT6,"Weight VI: age, gender, marital status, urbanization, region, ethnicity, turnout (All wave I & II)",2521,0.576495423195974,3.608408884968613,1996.4059756149159
+2006,WGT6B,Weight VI with a multiplication factor to represent population size,2521,2741.812232720053,17161.59265691072,1996.4059756149159
+2006,WGT7,"Weight VII: age, gender, marital status, urbanization, region, ethnicity (All wave I, II & III)",1895,0.581639163669696,2.549828346537195,1730.525235569803
+2006,WGT7B,Weight VII with a multiplication factor to represent population size,1895,3680.612627701838,16135.31377688736,1730.5252355698033
+2006,WGT8,"Weight VIII: age, gender, marital status, urbanization, region, ethnicity, turnout (All wave I, II & III)",1895,0.449224877894085,5.278463328648715,1236.3950787620151
+2006,WGT8B,Weight VIII with a multiplication factor to represent population size,1895,2842.69502731377,33402.11594368907,1236.3950787620154
+2010,WGT1,"Weight I: age, gender, marital status, urbanization, region, ethnicity (CAPI wave1)",2493,0.743519,1.670514,2423.360294603714
+2010,WGT1B,Weight I with a multiplication factor to represent population size,2493,3668.2215208937023,8241.639293352588,2423.3602946037136
+2010,WGT2,"Weight II: age, gender, marital status, urbanization, region, ethnicity (All wave 1)",2621,0.75686,1.703776,2545.615763452585
+2010,WGT2B,Weight II with a multiplication factor to represent population size,2621,3551.6838003510106,7995.235074685996,2545.6157634525866
+2010,WGT3,"Weight III: age, gender, marital status, urbanization, region, ethnicity (CAPI wave I & II)",2153,0.719905,2.123168,2040.9353269062617
+2010,WGT3B,Weight III with a multiplication factor to represent population size,2153,4112.604269419415,12129.03061028147,2040.9353269062615
+2010,WGT4,"Weight IV: age, gender, marital status, urbanization, region, ethnicity, turnout (CAPI wave I & II)",2153,0.363181,3.801276,1568.3146213644857
+2010,WGT4B,Weight IV with a multiplication factor to represent population size,2153,2074.745600005574,21715.56511878867,1568.3146213644852
+2010,WGT5,"Weight V: age, gender, marital status, urbanization, region, ethnicity (All wave I & II)",2247,0.730134,2.151557,2128.3538339315337
+2010,WGT5B,Weight 5 with a multiplication factor to represent population size,2247,3996.5501052817085,11777.023607816644,2128.353833931533
+2010,WGT6,"Weight VI: : age, gender, marital status, urbanization, region, ethnicity, turnout (All wave I & II)",2247,0.374664,3.824254,1641.9206477622645
+2010,WGT6B,Weight VI with a multiplication factor to represent population size,2247,2050.806356977304,20932.900983003114,1641.9206477622643
+2010,WGT7,"Weight VII: age, gender, marital status, urbanization, region, ethnicity (All wave I, II & III)",1635,0.594269,3.34282,1425.7629209309846
+2010,WGT7B,Weight VII with a multiplication factor to represent population size,1635,4470.4483428672775,25146.699776538226,1425.7629209309846
+2010,WGT8,"Weight VIII: age, gender, marital status, urbanization, region, ethnicity, turnout (All wave I, II & III)",1635,0.163162,5.355492,1038.1672290993183
+2010,WGT8B,Weight VIII with a multiplication factor to represent population size,1635,1227.4025609932723,40287.22739473027,1038.1672290993183
+2012,WGT1,Weight capi without voting behaviour,1677,0.6884081104710332,2.2721515247105537,1583.2136056885754
+2012,WGT1B,Multiplication capi without voting behaviour,1677,5105.681992,16851.752538,1583.2136056885763
+2012,WGT1C,Weight capi including voting behaviour,1677,0.1445048665244327,2.9659485020096925,1424.8738688669548
+2012,WGT1D,Multiplication capi including voting behaviour,1677,1071.742014,21997.401869,1424.8738688669546
+2012,WGT2,Weight papi without voting behaviour,1490,0.5961831424395883,2.4080020990435385,1387.1656623725216
+2012,WGT2B,Multiplication papi without voting behaviour,1490,4976.617575,20100.711868,1387.1656623725219
+2012,WGT2C,Weight papi including voting behaviour,1490,0.04917597103472806,3.290544639379301,1212.8967221091623
+2012,WGT2D,Multiplication papi including voting behaviour,1490,410.494669,27467.704331,1212.8967221091623

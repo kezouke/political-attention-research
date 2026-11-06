@@ -1,0 +1,58 @@
+dataset,variable,concept,timing,n,valid_n,label
+pes_2005,p1,national_problem_past_three_years,post_national_election,2801,2596,Qual foi o problema mais importante com que Portugal se deparou nos últimos 3 anos?
+pes_2005,p60,current_national_economy,post_national_election,2801,2727,O que pensa do estado da economia em Portugal?
+pes_2005,p61,retrospective_national_economy,post_national_election,2801,2719,"Na sua opinião, no último ano, o estado da economia em Portugal:"
+pes_2005,p12.3,politicians_do_not_care,post_national_election,2801,2688,Os políticos não se importam muito com aquilo que pensam pessoas como eu
+pes_2005,p68,extent_political_corruption,post_national_election,2801,2504,"Na sua opinião, até que ponto pensa que certas práticas de corrupção se encontram difundidas entre os políticos portugueses?"
+pes_2005,p4,government_performance_barroso,post_national_election,2801,2593,"Pensando no desempenho geral do governo de Durão Barroso, como avaliaria o trabalho desse governo?"
+pes_2005,p5,government_performance_santana,post_national_election,2801,2485,"Pensando no desempenho geral do governo de Pedro Santana Lopes, como avaliaria o trabalho desse governo?"
+pes_2005,p25,named_party_vote,post_national_election,2801,1781,Importa-se de me dizer em que partido/coligação votou?
+pes_2005,p24,turnout,post_national_election,2801,2713,"Em relação às últimas eleições, qual das seguintes situações é adequada ao seu caso?"
+pes_2009,P1,personal_election_priority,post_national_election,1317,890,"Qual foi o assunto mais importante, para si pessoalmente, nestas eleições legislativas?"
+pes_2009,P3,current_national_problem,post_national_election,1317,1212,"Na sua opinião, qual é o problema político mais importante com o qual Portugal se depara actualmente?"
+pes_2009,P68,current_national_economy,post_national_election,1317,1297,O que pensa do estado da economia em Portugal?
+pes_2009,P69,retrospective_national_economy,post_national_election,1317,1296,"Na sua opinião, no último ano, o estado da economia em Portugal…"
+pes_2009,P11_5,politicians_do_not_care,post_national_election,1317,1299,"Grau de concordância: ""Os políticos não se importam muito com aquilo que pensam pessoas como eu. """
+pes_2009,P36,government_economic_performance,post_national_election,1317,1181,"Pensando no governo de José Sócrates, como avalia em geral o trabalho desse governo na área da economia e finanças públicas?"
+pes_2009,P28,named_party_vote,post_national_election,1317,758,Importa-se de me dizer em que partido/coligação votou?
+pes_2009,P27,turnout,post_national_election,1317,1252,"Em relação a essas eleições, qual das seguintes situações é adequada ao seu caso?"
+pes_2011,P1,personal_election_priority,post_national_election,1000,439,P1. Assunto mais importante
+pes_2011,P2,current_national_economy,post_national_election,1000,993,P2. Avaliação economia Portugal
+pes_2011,P3,retrospective_national_economy,post_national_election,1000,993,P3. Evolução economia Portugal
+pes_2011,P7_1,government_responsibility_for_economy,post_national_election,1000,973,P7a. Responsabilidade economia do governo português
+pes_2011,P16,democracy_satisfaction_NOT_elite_trust,post_national_election,1000,974,P16. Satisfação democracia Portugal
+pes_2011,P26,named_party_vote,post_national_election,1000,501,P26. Partido em que votou legislativas 2011
+pes_2011,P25,turnout,post_national_election,1000,990,P25. Comportamento eleições legislativas 2011
+pes_2011,P9_1,household_job_loss_since_2009,post_national_election,1000,978,P9.1. Aconteceu perder emprego
+pes_2011,P9_2,household_wage_freeze_since_2009,post_national_election,1000,982,P9.2. Aconteceu ter salário congelado
+pes_2011,P9_3,household_wage_cut_since_2009,post_national_election,1000,985,P9.3. Aconteceu ter cortes salário
+pes_2011,P9_4,household_hours_cut_since_2009,post_national_election,1000,976,P9.4. Aconteceu ter diminuição horário trabalho
+icenes_2007,pltrust,trust_politicians,post_national_election,1595,1574,"Do you think that politicians are in general trustworthy, that many of them are trustworthy, some are trustworthy, few, or perhaps none?"
+icenes_2007,issue12007,personal_election_priority,post_national_election,1595,1283,What has been the most important issue to you personally in this election? � Coded categories.
+icenes_2007,task12007,current_national_problem,post_national_election,1595,1056,What do you think is the most important political problem facing Iceland today? � Coded and categorized
+icenes_2007,prtvote07,named_party_vote,post_national_election,1595,1260,What party or list did you vote for?
+icenes_2007,vote07,turnout,post_national_election,1595,1501,Did you vote in the Althingi election on May 12th?
+icenes_2007,govprfm,government_performance,post_national_election,1595,1538,"How good or bad a job in general do you think the government has done in the last four years? Do you think it has done a very good, a good, a bad or a very bad job? Reply categories were read to the respondent (has it done a very good job? A good job? A b"
+icenes_2009,pltrust,trust_politicians,post_national_election,1385,1367,"Do you think that politicians are in general trustworthy, that many of them are trustworthy, some are trustworthy, few, or perhaps none?"
+icenes_2009,issue12009,personal_election_priority,post_national_election,1385,1190,What has been the most important issue to you personally in this election? � Coded categories.
+icenes_2009,task12009,current_national_problem,post_national_election,1385,1199,What do you think is the most important political problem facing Iceland today? � Coded and categorized
+icenes_2009,prtvote09,named_party_vote,post_national_election,1385,1084,What party or list did you vote for?
+icenes_2009,vote09,turnout,post_national_election,1385,1341,Did you vote in the Althingi election on April 25th?
+icenes_2009,govprfmGHH,government_performance,post_national_election,1385,1325,"How good or bad a job in general do you think the government of the Independence Party and the Social Democratic Alliance, that was in power from 2007 until February 2009, has done while it was in power?"
+icenes_2009,govprfmJH,government_performance_interim_2009,post_national_election,1385,1280,"How good or bad a job in general do you think the minority government of the Social Democratic Alliance and the Left Green Movement that was in power from February 2009 up to the elections (April 25th, 2009), has done while it was in power?"
+icenes_2009,bnkclsfault_G_GHH,crisis_responsibility_G_GHH,post_national_election,1385,1230,"The government of Geirs H. Haarde (prime minister and chairman of the Independence Party; in coalition of with the Social Democratic Alliance) - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2009,bnkclsfault_bnk,crisis_responsibility_bnk,post_national_election,1385,1235,"The commercial banks - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2009,bnkclsfault_CB,crisis_responsibility_CB,post_national_election,1385,1234,"The Central Bank - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2009,bnkclsfault_FME,crisis_responsibility_FME,post_national_election,1385,1227,"The Financial Supervisory Authority - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2013,pltrust,trust_politicians,post_national_election,1479,1457,"Do you think that politicians are in general trustworthy, that many of them are trustworthy, some are trustworthy, few, or perhaps none?"
+icenes_2013,issue12013,personal_election_priority,post_national_election,1479,1314,What has been the most important issue to you personally in this election? � Coded categories.
+icenes_2013,task12013,current_national_problem,post_national_election,1479,1348,What do you think is the most important political problem facing Iceland today? � Coded and categorized
+icenes_2013,prtvote13,named_party_vote,post_national_election,1479,1183,What party or list did you vote for?
+icenes_2013,vote13,turnout,post_national_election,1479,1364,Did you vote in the Althingi election on April 27th?
+icenes_2013,govprfmJS,government_performance,post_national_election,1479,1407,"How good or bad a job in general do you think the government of the Social Democratic Alliance and the Left-Green Movement, that was in power from 2009 until 2013, has done while it was in power?"
+icenes_2013,bnkclsfault_G_GHH,crisis_responsibility_G_GHH,post_national_election,1479,1327,"The government of Geirs H. Haarde (2007-2009) - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2013,bnkclsfault_bnk,crisis_responsibility_bnk,post_national_election,1479,1338,"The commercial banks - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2013,bnkclsfault_CB,crisis_responsibility_CB,post_national_election,1479,1336,"The Central Bank - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2013,bnkclsfault_FME,crisis_responsibility_FME,post_national_election,1479,1347,"The Financial Supervisory Authority - Who was responsible for the economic crisis - 0=bears no responsibility, 10=bears a lot of responsibility"
+icenes_2013,ecobettwors,retrospective_national_economy,post_national_election,1479,1378,"Would you say that over the past twelve months, the state of the economy in Iceland has gotten better, stayed about the same, or gotten worse?"
+icenes_2013,govprfmcris,government_crisis_recovery_performance,post_national_election,1479,1415,How good or a bad job do you think the government of the Social Democratic Alliance and the Left Green Movement did do regarding the economic recovery of Iceland during the last electoral term?

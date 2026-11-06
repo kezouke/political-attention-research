@@ -1,0 +1,514 @@
+study,country,year,geographic_europe_2004_2019,n,variable,concept,valid_n,explicit_not_asked_n,system_missing_n
+1 AR07,1 Argentina,2007,False,799,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,797,0,0
+1 AR07,1 Argentina,2007,False,799,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,799
+1 AR07,1 Argentina,2007,False,799,A_GovPerf,government_performance,0,0,799
+1 AR07,1 Argentina,2007,False,799,B_DontCare,politicians_do_not_care,773,0,0
+1 AR07,1 Argentina,2007,False,799,B_PolsDefendRich,politicians_defend_rich,0,0,799
+1 AR07,1 Argentina,2007,False,799,B_OfficialsListen,officials_listen,0,0,799
+1 AR07,1 Argentina,2007,False,799,B_TrustGov,trust_government_NOT_general_elite,0,0,799
+1 AR07,1 Argentina,2007,False,799,B_DemSat,democracy_satisfaction_NOT_elite_trust,788,0,0
+1 AR07,1 Argentina,2007,False,799,H_VoteWhichRecent,party_slot_vote_mapping_pending,530,0,49
+2 BU96,2 Bulgaria,1996,False,1216,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1214,0,2
+2 BU96,2 Bulgaria,1996,False,1216,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,1204,0,12
+2 BU96,2 Bulgaria,1996,False,1216,A_GovPerf,government_performance,0,0,1216
+2 BU96,2 Bulgaria,1996,False,1216,B_DontCare,politicians_do_not_care,0,0,1216
+2 BU96,2 Bulgaria,1996,False,1216,B_PolsDefendRich,politicians_defend_rich,0,0,1216
+2 BU96,2 Bulgaria,1996,False,1216,B_OfficialsListen,officials_listen,0,0,1216
+2 BU96,2 Bulgaria,1996,False,1216,B_TrustGov,trust_government_NOT_general_elite,0,0,1216
+2 BU96,2 Bulgaria,1996,False,1216,B_DemSat,democracy_satisfaction_NOT_elite_trust,1208,0,8
+2 BU96,2 Bulgaria,1996,False,1216,H_VoteWhichRecent,party_slot_vote_mapping_pending,928,0,0
+3 CL93,3 Chile,1993,False,1305,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1304,0,1
+3 CL93,3 Chile,1993,False,1305,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,1301,0,4
+3 CL93,3 Chile,1993,False,1305,A_GovPerf,government_performance,0,0,1305
+3 CL93,3 Chile,1993,False,1305,B_DontCare,politicians_do_not_care,0,0,1305
+3 CL93,3 Chile,1993,False,1305,B_PolsDefendRich,politicians_defend_rich,0,0,1305
+3 CL93,3 Chile,1993,False,1305,B_OfficialsListen,officials_listen,0,0,1305
+3 CL93,3 Chile,1993,False,1305,B_TrustGov,trust_government_NOT_general_elite,0,0,1305
+3 CL93,3 Chile,1993,False,1305,B_DemSat,democracy_satisfaction_NOT_elite_trust,1290,0,1
+3 CL93,3 Chile,1993,False,1305,H_VoteWhichRecent,party_slot_vote_mapping_pending,705,0,405
+4 CL00,3 Chile,2000,False,795,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,794,0,0
+4 CL00,3 Chile,2000,False,795,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,794,0,0
+4 CL00,3 Chile,2000,False,795,A_GovPerf,government_performance,0,0,795
+4 CL00,3 Chile,2000,False,795,B_DontCare,politicians_do_not_care,0,0,795
+4 CL00,3 Chile,2000,False,795,B_PolsDefendRich,politicians_defend_rich,0,0,795
+4 CL00,3 Chile,2000,False,795,B_OfficialsListen,officials_listen,0,0,795
+4 CL00,3 Chile,2000,False,795,B_TrustGov,trust_government_NOT_general_elite,0,0,795
+4 CL00,3 Chile,2000,False,795,B_DemSat,democracy_satisfaction_NOT_elite_trust,775,0,0
+4 CL00,3 Chile,2000,False,795,H_VoteWhichRecent,party_slot_vote_mapping_pending,506,0,60
+5 CN08,4 China,2008,False,5098,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,4194,0,904
+5 CN08,4 China,2008,False,5098,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,3645,0,1453
+5 CN08,4 China,2008,False,5098,A_GovPerf,government_performance,0,0,5098
+5 CN08,4 China,2008,False,5098,B_DontCare,politicians_do_not_care,3998,0,1100
+5 CN08,4 China,2008,False,5098,B_PolsDefendRich,politicians_defend_rich,0,0,5098
+5 CN08,4 China,2008,False,5098,B_OfficialsListen,officials_listen,0,0,5098
+5 CN08,4 China,2008,False,5098,B_TrustGov,trust_government_NOT_general_elite,0,0,5098
+5 CN08,4 China,2008,False,5098,B_DemSat,democracy_satisfaction_NOT_elite_trust,3994,0,1104
+5 CN08,4 China,2008,False,5098,H_VoteWhichRecent,party_slot_vote_mapping_pending,0,0,5098
+7 GR96,6 Greece,1996,False,966,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,960,0,1
+7 GR96,6 Greece,1996,False,966,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,966
+7 GR96,6 Greece,1996,False,966,A_GovPerf,government_performance,0,0,966
+7 GR96,6 Greece,1996,False,966,B_DontCare,politicians_do_not_care,0,0,966
+7 GR96,6 Greece,1996,False,966,B_PolsDefendRich,politicians_defend_rich,0,0,966
+7 GR96,6 Greece,1996,False,966,B_OfficialsListen,officials_listen,0,0,966
+7 GR96,6 Greece,1996,False,966,B_TrustGov,trust_government_NOT_general_elite,0,0,966
+7 GR96,6 Greece,1996,False,966,B_DemSat,democracy_satisfaction_NOT_elite_trust,958,0,5
+7 GR96,6 Greece,1996,False,966,H_VoteWhichRecent,party_slot_vote_mapping_pending,819,0,64
+8 GR04,6 Greece,2004,True,1307,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,0,0,1307
+8 GR04,6 Greece,2004,True,1307,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1307
+8 GR04,6 Greece,2004,True,1307,A_GovPerf,government_performance,0,0,1307
+8 GR04,6 Greece,2004,True,1307,B_DontCare,politicians_do_not_care,0,0,1307
+8 GR04,6 Greece,2004,True,1307,B_PolsDefendRich,politicians_defend_rich,0,0,1307
+8 GR04,6 Greece,2004,True,1307,B_OfficialsListen,officials_listen,0,0,1307
+8 GR04,6 Greece,2004,True,1307,B_TrustGov,trust_government_NOT_general_elite,0,0,1307
+8 GR04,6 Greece,2004,True,1307,B_DemSat,democracy_satisfaction_NOT_elite_trust,1303,0,0
+8 GR04,6 Greece,2004,True,1307,H_VoteWhichRecent,party_slot_vote_mapping_pending,1175,0,0
+9 HK98,7  Hong Kong,1998,False,988,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,972,0,0
+9 HK98,7  Hong Kong,1998,False,988,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,988
+9 HK98,7  Hong Kong,1998,False,988,A_GovPerf,government_performance,0,0,988
+9 HK98,7  Hong Kong,1998,False,988,B_DontCare,politicians_do_not_care,0,0,988
+9 HK98,7  Hong Kong,1998,False,988,B_PolsDefendRich,politicians_defend_rich,0,0,988
+9 HK98,7  Hong Kong,1998,False,988,B_OfficialsListen,officials_listen,0,0,988
+9 HK98,7  Hong Kong,1998,False,988,B_TrustGov,trust_government_NOT_general_elite,0,0,988
+9 HK98,7  Hong Kong,1998,False,988,B_DemSat,democracy_satisfaction_NOT_elite_trust,828,0,31
+9 HK98,7  Hong Kong,1998,False,988,H_VoteWhichRecent,party_slot_vote_mapping_pending,418,0,28
+10 HK15,7  Hong Kong,2015,False,1057,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1057,0,0
+10 HK15,7  Hong Kong,2015,False,1057,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1057
+10 HK15,7  Hong Kong,2015,False,1057,A_GovPerf,government_performance,1057,0,0
+10 HK15,7  Hong Kong,2015,False,1057,B_DontCare,politicians_do_not_care,1057,0,0
+10 HK15,7  Hong Kong,2015,False,1057,B_PolsDefendRich,politicians_defend_rich,0,0,1057
+10 HK15,7  Hong Kong,2015,False,1057,B_OfficialsListen,officials_listen,0,0,1057
+10 HK15,7  Hong Kong,2015,False,1057,B_TrustGov,trust_government_NOT_general_elite,0,0,1057
+10 HK15,7  Hong Kong,2015,False,1057,B_DemSat,democracy_satisfaction_NOT_elite_trust,1057,0,0
+10 HK15,7  Hong Kong,2015,False,1057,H_VoteWhichRecent,party_slot_vote_mapping_pending,313,0,18
+11 HU98,8 Hungary,1998,False,1500,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,0,0,1500
+11 HU98,8 Hungary,1998,False,1500,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1500
+11 HU98,8 Hungary,1998,False,1500,A_GovPerf,government_performance,0,0,1500
+11 HU98,8 Hungary,1998,False,1500,B_DontCare,politicians_do_not_care,0,0,1500
+11 HU98,8 Hungary,1998,False,1500,B_PolsDefendRich,politicians_defend_rich,0,0,1500
+11 HU98,8 Hungary,1998,False,1500,B_OfficialsListen,officials_listen,0,0,1500
+11 HU98,8 Hungary,1998,False,1500,B_TrustGov,trust_government_NOT_general_elite,0,0,1500
+11 HU98,8 Hungary,1998,False,1500,B_DemSat,democracy_satisfaction_NOT_elite_trust,0,0,1500
+11 HU98,8 Hungary,1998,False,1500,H_VoteWhichRecent,party_slot_vote_mapping_pending,922,0,117
+12 HU06,8 Hungary,2006,True,1033,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,0,0,1033
+12 HU06,8 Hungary,2006,True,1033,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1033
+12 HU06,8 Hungary,2006,True,1033,A_GovPerf,government_performance,0,0,1033
+12 HU06,8 Hungary,2006,True,1033,B_DontCare,politicians_do_not_care,0,0,1033
+12 HU06,8 Hungary,2006,True,1033,B_PolsDefendRich,politicians_defend_rich,0,0,1033
+12 HU06,8 Hungary,2006,True,1033,B_OfficialsListen,officials_listen,0,0,1033
+12 HU06,8 Hungary,2006,True,1033,B_TrustGov,trust_government_NOT_general_elite,0,0,1033
+12 HU06,8 Hungary,2006,True,1033,B_DemSat,democracy_satisfaction_NOT_elite_trust,1033,0,0
+12 HU06,8 Hungary,2006,True,1033,H_VoteWhichRecent,party_slot_vote_mapping_pending,718,0,103
+13 IN99,9 Indonesia,1999,False,2488,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,0,0,2488
+13 IN99,9 Indonesia,1999,False,2488,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,2488
+13 IN99,9 Indonesia,1999,False,2488,A_GovPerf,government_performance,0,0,2488
+13 IN99,9 Indonesia,1999,False,2488,B_DontCare,politicians_do_not_care,0,0,2488
+13 IN99,9 Indonesia,1999,False,2488,B_PolsDefendRich,politicians_defend_rich,0,0,2488
+13 IN99,9 Indonesia,1999,False,2488,B_OfficialsListen,officials_listen,0,0,2488
+13 IN99,9 Indonesia,1999,False,2488,B_TrustGov,trust_government_NOT_general_elite,0,0,2488
+13 IN99,9 Indonesia,1999,False,2488,B_DemSat,democracy_satisfaction_NOT_elite_trust,0,0,2488
+13 IN99,9 Indonesia,1999,False,2488,H_VoteWhichRecent,party_slot_vote_mapping_pending,1976,0,26
+14 IN04,9 Indonesia,2004,False,1194,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1147,0,7
+14 IN04,9 Indonesia,2004,False,1194,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1194
+14 IN04,9 Indonesia,2004,False,1194,A_GovPerf,government_performance,0,0,1194
+14 IN04,9 Indonesia,2004,False,1194,B_DontCare,politicians_do_not_care,995,0,8
+14 IN04,9 Indonesia,2004,False,1194,B_PolsDefendRich,politicians_defend_rich,0,0,1194
+14 IN04,9 Indonesia,2004,False,1194,B_OfficialsListen,officials_listen,0,0,1194
+14 IN04,9 Indonesia,2004,False,1194,B_TrustGov,trust_government_NOT_general_elite,0,0,1194
+14 IN04,9 Indonesia,2004,False,1194,B_DemSat,democracy_satisfaction_NOT_elite_trust,1059,0,3
+14 IN04,9 Indonesia,2004,False,1194,H_VoteWhichRecent,party_slot_vote_mapping_pending,935,0,0
+15 IN09,9 Indonesia,2009,False,1980,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1939,0,0
+15 IN09,9 Indonesia,2009,False,1980,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1980
+15 IN09,9 Indonesia,2009,False,1980,A_GovPerf,government_performance,1935,0,0
+15 IN09,9 Indonesia,2009,False,1980,B_DontCare,politicians_do_not_care,1680,0,2
+15 IN09,9 Indonesia,2009,False,1980,B_PolsDefendRich,politicians_defend_rich,0,0,1980
+15 IN09,9 Indonesia,2009,False,1980,B_OfficialsListen,officials_listen,0,0,1980
+15 IN09,9 Indonesia,2009,False,1980,B_TrustGov,trust_government_NOT_general_elite,0,0,1980
+15 IN09,9 Indonesia,2009,False,1980,B_DemSat,democracy_satisfaction_NOT_elite_trust,1865,0,0
+15 IN09,9 Indonesia,2009,False,1980,H_VoteWhichRecent,party_slot_vote_mapping_pending,1569,0,98
+16 IT96,10 Italy,1996,False,2502,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,2502,0,0
+16 IT96,10 Italy,1996,False,2502,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,2502
+16 IT96,10 Italy,1996,False,2502,A_GovPerf,government_performance,0,0,2502
+16 IT96,10 Italy,1996,False,2502,B_DontCare,politicians_do_not_care,0,0,2502
+16 IT96,10 Italy,1996,False,2502,B_PolsDefendRich,politicians_defend_rich,0,0,2502
+16 IT96,10 Italy,1996,False,2502,B_OfficialsListen,officials_listen,0,0,2502
+16 IT96,10 Italy,1996,False,2502,B_TrustGov,trust_government_NOT_general_elite,0,0,2502
+16 IT96,10 Italy,1996,False,2502,B_DemSat,democracy_satisfaction_NOT_elite_trust,2502,0,0
+16 IT96,10 Italy,1996,False,2502,H_VoteWhichRecent,party_slot_vote_mapping_pending,1933,0,370
+17 IT06,10 Italy,2006,True,2005,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1370,0,629
+17 IT06,10 Italy,2006,True,2005,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,2005
+17 IT06,10 Italy,2006,True,2005,A_GovPerf,government_performance,0,0,2005
+17 IT06,10 Italy,2006,True,2005,B_DontCare,politicians_do_not_care,0,0,2005
+17 IT06,10 Italy,2006,True,2005,B_PolsDefendRich,politicians_defend_rich,0,0,2005
+17 IT06,10 Italy,2006,True,2005,B_OfficialsListen,officials_listen,0,0,2005
+17 IT06,10 Italy,2006,True,2005,B_TrustGov,trust_government_NOT_general_elite,0,0,2005
+17 IT06,10 Italy,2006,True,2005,B_DemSat,democracy_satisfaction_NOT_elite_trust,0,0,2005
+17 IT06,10 Italy,2006,True,2005,H_VoteWhichRecent,party_slot_vote_mapping_pending,1050,0,805
+19 MX06,12 Mexico,2006,False,2620,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,2079,0,518
+19 MX06,12 Mexico,2006,False,2620,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,2620
+19 MX06,12 Mexico,2006,False,2620,A_GovPerf,government_performance,0,0,2620
+19 MX06,12 Mexico,2006,False,2620,B_DontCare,politicians_do_not_care,2041,0,518
+19 MX06,12 Mexico,2006,False,2620,B_PolsDefendRich,politicians_defend_rich,0,0,2620
+19 MX06,12 Mexico,2006,False,2620,B_OfficialsListen,officials_listen,0,0,2620
+19 MX06,12 Mexico,2006,False,2620,B_TrustGov,trust_government_NOT_general_elite,0,0,2620
+19 MX06,12 Mexico,2006,False,2620,B_DemSat,democracy_satisfaction_NOT_elite_trust,2055,0,519
+19 MX06,12 Mexico,2006,False,2620,H_VoteWhichRecent,party_slot_vote_mapping_pending,1600,0,519
+20 MZ04,13 Mozambique,2004,False,1214,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1085,0,5
+20 MZ04,13 Mozambique,2004,False,1214,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1214
+20 MZ04,13 Mozambique,2004,False,1214,A_GovPerf,government_performance,0,0,1214
+20 MZ04,13 Mozambique,2004,False,1214,B_DontCare,politicians_do_not_care,1057,0,1
+20 MZ04,13 Mozambique,2004,False,1214,B_PolsDefendRich,politicians_defend_rich,0,0,1214
+20 MZ04,13 Mozambique,2004,False,1214,B_OfficialsListen,officials_listen,0,0,1214
+20 MZ04,13 Mozambique,2004,False,1214,B_TrustGov,trust_government_NOT_general_elite,0,0,1214
+20 MZ04,13 Mozambique,2004,False,1214,B_DemSat,democracy_satisfaction_NOT_elite_trust,1128,0,13
+20 MZ04,13 Mozambique,2004,False,1214,H_VoteWhichRecent,party_slot_vote_mapping_pending,1014,0,24
+21 PT05,14 Portugal,2005,True,2801,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,2727,0,32
+21 PT05,14 Portugal,2005,True,2801,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,2759,0,31
+21 PT05,14 Portugal,2005,True,2801,A_GovPerf,government_performance,0,0,2801
+21 PT05,14 Portugal,2005,True,2801,B_DontCare,politicians_do_not_care,2688,0,46
+21 PT05,14 Portugal,2005,True,2801,B_PolsDefendRich,politicians_defend_rich,0,0,2801
+21 PT05,14 Portugal,2005,True,2801,B_OfficialsListen,officials_listen,0,0,2801
+21 PT05,14 Portugal,2005,True,2801,B_TrustGov,trust_government_NOT_general_elite,0,0,2801
+21 PT05,14 Portugal,2005,True,2801,B_DemSat,democracy_satisfaction_NOT_elite_trust,2700,0,28
+21 PT05,14 Portugal,2005,True,2801,H_VoteWhichRecent,party_slot_vote_mapping_pending,1781,0,415
+22 SA04,15 South Africa,2004,False,1200,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1111,0,0
+22 SA04,15 South Africa,2004,False,1200,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1200
+22 SA04,15 South Africa,2004,False,1200,A_GovPerf,government_performance,0,0,1200
+22 SA04,15 South Africa,2004,False,1200,B_DontCare,politicians_do_not_care,1153,0,0
+22 SA04,15 South Africa,2004,False,1200,B_PolsDefendRich,politicians_defend_rich,0,0,1200
+22 SA04,15 South Africa,2004,False,1200,B_OfficialsListen,officials_listen,0,0,1200
+22 SA04,15 South Africa,2004,False,1200,B_TrustGov,trust_government_NOT_general_elite,0,0,1200
+22 SA04,15 South Africa,2004,False,1200,B_DemSat,democracy_satisfaction_NOT_elite_trust,1155,0,0
+22 SA04,15 South Africa,2004,False,1200,H_VoteWhichRecent,party_slot_vote_mapping_pending,768,0,106
+23 SA09,15 South Africa,2009,False,1200,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1177,0,0
+23 SA09,15 South Africa,2009,False,1200,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1200
+23 SA09,15 South Africa,2009,False,1200,A_GovPerf,government_performance,1181,0,0
+23 SA09,15 South Africa,2009,False,1200,B_DontCare,politicians_do_not_care,1170,0,0
+23 SA09,15 South Africa,2009,False,1200,B_PolsDefendRich,politicians_defend_rich,0,0,1200
+23 SA09,15 South Africa,2009,False,1200,B_OfficialsListen,officials_listen,0,0,1200
+23 SA09,15 South Africa,2009,False,1200,B_TrustGov,trust_government_NOT_general_elite,0,0,1200
+23 SA09,15 South Africa,2009,False,1200,B_DemSat,democracy_satisfaction_NOT_elite_trust,1176,0,0
+23 SA09,15 South Africa,2009,False,1200,H_VoteWhichRecent,party_slot_vote_mapping_pending,938,0,23
+24 SP93,16 Spain,1993,False,1448,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1445,0,3
+24 SP93,16 Spain,1993,False,1448,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,1446,0,2
+24 SP93,16 Spain,1993,False,1448,A_GovPerf,government_performance,0,0,1448
+24 SP93,16 Spain,1993,False,1448,B_DontCare,politicians_do_not_care,0,0,1448
+24 SP93,16 Spain,1993,False,1448,B_PolsDefendRich,politicians_defend_rich,0,0,1448
+24 SP93,16 Spain,1993,False,1448,B_OfficialsListen,officials_listen,0,0,1448
+24 SP93,16 Spain,1993,False,1448,B_TrustGov,trust_government_NOT_general_elite,0,0,1448
+24 SP93,16 Spain,1993,False,1448,B_DemSat,democracy_satisfaction_NOT_elite_trust,1440,0,8
+24 SP93,16 Spain,1993,False,1448,H_VoteWhichRecent,party_slot_vote_mapping_pending,1020,0,33
+25 SP04,16 Spain,2004,True,2929,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,2869,0,8
+25 SP04,16 Spain,2004,True,2929,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,2929
+25 SP04,16 Spain,2004,True,2929,A_GovPerf,government_performance,0,0,2929
+25 SP04,16 Spain,2004,True,2929,B_DontCare,politicians_do_not_care,2891,0,38
+25 SP04,16 Spain,2004,True,2929,B_PolsDefendRich,politicians_defend_rich,0,0,2929
+25 SP04,16 Spain,2004,True,2929,B_OfficialsListen,officials_listen,0,0,2929
+25 SP04,16 Spain,2004,True,2929,B_TrustGov,trust_government_NOT_general_elite,0,0,2929
+25 SP04,16 Spain,2004,True,2929,B_DemSat,democracy_satisfaction_NOT_elite_trust,2837,0,32
+25 SP04,16 Spain,2004,True,2929,H_VoteWhichRecent,party_slot_vote_mapping_pending,1974,0,62
+26 TW04,17 Taiwan,2004,False,1252,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,0,0,1252
+26 TW04,17 Taiwan,2004,False,1252,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1252
+26 TW04,17 Taiwan,2004,False,1252,A_GovPerf,government_performance,0,0,1252
+26 TW04,17 Taiwan,2004,False,1252,B_DontCare,politicians_do_not_care,1153,0,0
+26 TW04,17 Taiwan,2004,False,1252,B_PolsDefendRich,politicians_defend_rich,0,0,1252
+26 TW04,17 Taiwan,2004,False,1252,B_OfficialsListen,officials_listen,0,0,1252
+26 TW04,17 Taiwan,2004,False,1252,B_TrustGov,trust_government_NOT_general_elite,0,0,1252
+26 TW04,17 Taiwan,2004,False,1252,B_DemSat,democracy_satisfaction_NOT_elite_trust,1137,0,3
+26 TW04,17 Taiwan,2004,False,1252,H_VoteWhichRecent,party_slot_vote_mapping_pending,755,0,106
+27 GB92,18 Great Britain,1992,False,3534,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,0,0,3534
+27 GB92,18 Great Britain,1992,False,3534,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,3534
+27 GB92,18 Great Britain,1992,False,3534,A_GovPerf,government_performance,0,0,3534
+27 GB92,18 Great Britain,1992,False,3534,B_DontCare,politicians_do_not_care,3251,0,280
+27 GB92,18 Great Britain,1992,False,3534,B_PolsDefendRich,politicians_defend_rich,0,0,3534
+27 GB92,18 Great Britain,1992,False,3534,B_OfficialsListen,officials_listen,0,0,3534
+27 GB92,18 Great Britain,1992,False,3534,B_TrustGov,trust_government_NOT_general_elite,0,0,3534
+27 GB92,18 Great Britain,1992,False,3534,B_DemSat,democracy_satisfaction_NOT_elite_trust,0,0,3534
+27 GB92,18 Great Britain,1992,False,3534,H_VoteWhichRecent,party_slot_vote_mapping_pending,2973,0,78
+28 US92,19 United States,1992,False,1323,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,0,0,1323
+28 US92,19 United States,1992,False,1323,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1323
+28 US92,19 United States,1992,False,1323,A_GovPerf,government_performance,0,0,1323
+28 US92,19 United States,1992,False,1323,B_DontCare,politicians_do_not_care,0,0,1323
+28 US92,19 United States,1992,False,1323,B_PolsDefendRich,politicians_defend_rich,0,0,1323
+28 US92,19 United States,1992,False,1323,B_OfficialsListen,officials_listen,0,0,1323
+28 US92,19 United States,1992,False,1323,B_TrustGov,trust_government_NOT_general_elite,0,0,1323
+28 US92,19 United States,1992,False,1323,B_DemSat,democracy_satisfaction_NOT_elite_trust,0,0,1323
+28 US92,19 United States,1992,False,1323,H_VoteWhichRecent,party_slot_vote_mapping_pending,999,0,51
+29 US04,19 United States,2004,False,1816,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,0,0,1816
+29 US04,19 United States,2004,False,1816,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1816
+29 US04,19 United States,2004,False,1816,A_GovPerf,government_performance,0,0,1816
+29 US04,19 United States,2004,False,1816,B_DontCare,politicians_do_not_care,1790,0,26
+29 US04,19 United States,2004,False,1816,B_PolsDefendRich,politicians_defend_rich,0,0,1816
+29 US04,19 United States,2004,False,1816,B_OfficialsListen,officials_listen,0,0,1816
+29 US04,19 United States,2004,False,1816,B_TrustGov,trust_government_NOT_general_elite,0,0,1816
+29 US04,19 United States,2004,False,1816,B_DemSat,democracy_satisfaction_NOT_elite_trust,1792,0,24
+29 US04,19 United States,2004,False,1816,H_VoteWhichRecent,party_slot_vote_mapping_pending,1342,0,43
+30 UR94,20 Uruguay,1994,False,1005,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,987,0,12
+30 UR94,20 Uruguay,1994,False,1005,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,990,0,11
+30 UR94,20 Uruguay,1994,False,1005,A_GovPerf,government_performance,0,0,1005
+30 UR94,20 Uruguay,1994,False,1005,B_DontCare,politicians_do_not_care,0,0,1005
+30 UR94,20 Uruguay,1994,False,1005,B_PolsDefendRich,politicians_defend_rich,0,0,1005
+30 UR94,20 Uruguay,1994,False,1005,B_OfficialsListen,officials_listen,0,0,1005
+30 UR94,20 Uruguay,1994,False,1005,B_TrustGov,trust_government_NOT_general_elite,0,0,1005
+30 UR94,20 Uruguay,1994,False,1005,B_DemSat,democracy_satisfaction_NOT_elite_trust,985,0,17
+30 UR94,20 Uruguay,1994,False,1005,H_VoteWhichRecent,party_slot_vote_mapping_pending,598,0,293
+31 UR04,20 Uruguay,2004,False,929,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,906,0,15
+31 UR04,20 Uruguay,2004,False,929,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,929
+31 UR04,20 Uruguay,2004,False,929,A_GovPerf,government_performance,0,0,929
+31 UR04,20 Uruguay,2004,False,929,B_DontCare,politicians_do_not_care,883,0,20
+31 UR04,20 Uruguay,2004,False,929,B_PolsDefendRich,politicians_defend_rich,0,0,929
+31 UR04,20 Uruguay,2004,False,929,B_OfficialsListen,officials_listen,0,0,929
+31 UR04,20 Uruguay,2004,False,929,B_TrustGov,trust_government_NOT_general_elite,0,0,929
+31 UR04,20 Uruguay,2004,False,929,B_DemSat,democracy_satisfaction_NOT_elite_trust,883,0,17
+31 UR04,20 Uruguay,2004,False,929,H_VoteWhichRecent,party_slot_vote_mapping_pending,836,0,57
+32 DR10,21 Dominican Republic,2010,False,1467,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,0,0,1467
+32 DR10,21 Dominican Republic,2010,False,1467,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1467
+32 DR10,21 Dominican Republic,2010,False,1467,A_GovPerf,government_performance,1405,0,8
+32 DR10,21 Dominican Republic,2010,False,1467,B_DontCare,politicians_do_not_care,1394,0,5
+32 DR10,21 Dominican Republic,2010,False,1467,B_PolsDefendRich,politicians_defend_rich,0,0,1467
+32 DR10,21 Dominican Republic,2010,False,1467,B_OfficialsListen,officials_listen,0,0,1467
+32 DR10,21 Dominican Republic,2010,False,1467,B_TrustGov,trust_government_NOT_general_elite,0,0,1467
+32 DR10,21 Dominican Republic,2010,False,1467,B_DemSat,democracy_satisfaction_NOT_elite_trust,0,0,1467
+32 DR10,21 Dominican Republic,2010,False,1467,H_VoteWhichRecent,party_slot_vote_mapping_pending,793,0,304
+33 MX12,12 Mexico,2012,False,1600,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1593,0,0
+33 MX12,12 Mexico,2012,False,1600,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1600
+33 MX12,12 Mexico,2012,False,1600,A_GovPerf,government_performance,1524,0,0
+33 MX12,12 Mexico,2012,False,1600,B_DontCare,politicians_do_not_care,1585,0,0
+33 MX12,12 Mexico,2012,False,1600,B_PolsDefendRich,politicians_defend_rich,0,0,1600
+33 MX12,12 Mexico,2012,False,1600,B_OfficialsListen,officials_listen,0,0,1600
+33 MX12,12 Mexico,2012,False,1600,B_TrustGov,trust_government_NOT_general_elite,0,0,1600
+33 MX12,12 Mexico,2012,False,1600,B_DemSat,democracy_satisfaction_NOT_elite_trust,1578,0,0
+33 MX12,12 Mexico,2012,False,1600,H_VoteWhichRecent,party_slot_vote_mapping_pending,1232,0,0
+34 US12,19 United States,2012,False,1289,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1278,0,11
+34 US12,19 United States,2012,False,1289,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1289
+34 US12,19 United States,2012,False,1289,A_GovPerf,government_performance,0,0,1289
+34 US12,19 United States,2012,False,1289,B_DontCare,politicians_do_not_care,1255,0,34
+34 US12,19 United States,2012,False,1289,B_PolsDefendRich,politicians_defend_rich,0,0,1289
+34 US12,19 United States,2012,False,1289,B_OfficialsListen,officials_listen,0,0,1289
+34 US12,19 United States,2012,False,1289,B_TrustGov,trust_government_NOT_general_elite,0,0,1289
+34 US12,19 United States,2012,False,1289,B_DemSat,democracy_satisfaction_NOT_elite_trust,1240,0,49
+34 US12,19 United States,2012,False,1289,H_VoteWhichRecent,party_slot_vote_mapping_pending,969,0,13
+35 IT13,10 Italy,2013,True,1508,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,0,0,1508
+35 IT13,10 Italy,2013,True,1508,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1508
+35 IT13,10 Italy,2013,True,1508,A_GovPerf,government_performance,1478,0,5
+35 IT13,10 Italy,2013,True,1508,B_DontCare,politicians_do_not_care,1488,0,4
+35 IT13,10 Italy,2013,True,1508,B_PolsDefendRich,politicians_defend_rich,0,0,1508
+35 IT13,10 Italy,2013,True,1508,B_OfficialsListen,officials_listen,0,0,1508
+35 IT13,10 Italy,2013,True,1508,B_TrustGov,trust_government_NOT_general_elite,0,0,1508
+35 IT13,10 Italy,2013,True,1508,B_DemSat,democracy_satisfaction_NOT_elite_trust,0,0,1508
+35 IT13,10 Italy,2013,True,1508,H_VoteWhichRecent,party_slot_vote_mapping_pending,909,0,300
+36 KE13,22 Kenya,2013,False,1200,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1187,0,2
+36 KE13,22 Kenya,2013,False,1200,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1200
+36 KE13,22 Kenya,2013,False,1200,A_GovPerf,government_performance,0,0,1200
+36 KE13,22 Kenya,2013,False,1200,B_DontCare,politicians_do_not_care,1163,0,1
+36 KE13,22 Kenya,2013,False,1200,B_PolsDefendRich,politicians_defend_rich,0,0,1200
+36 KE13,22 Kenya,2013,False,1200,B_OfficialsListen,officials_listen,0,0,1200
+36 KE13,22 Kenya,2013,False,1200,B_TrustGov,trust_government_NOT_general_elite,0,0,1200
+36 KE13,22 Kenya,2013,False,1200,B_DemSat,democracy_satisfaction_NOT_elite_trust,1028,0,3
+36 KE13,22 Kenya,2013,False,1200,H_VoteWhichRecent,party_slot_vote_mapping_pending,1012,0,35
+37 CO14,23 Colombia,2014,False,1102,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1089,0,0
+37 CO14,23 Colombia,2014,False,1102,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1102
+37 CO14,23 Colombia,2014,False,1102,A_GovPerf,government_performance,1086,0,0
+37 CO14,23 Colombia,2014,False,1102,B_DontCare,politicians_do_not_care,1082,0,0
+37 CO14,23 Colombia,2014,False,1102,B_PolsDefendRich,politicians_defend_rich,0,0,1102
+37 CO14,23 Colombia,2014,False,1102,B_OfficialsListen,officials_listen,0,0,1102
+37 CO14,23 Colombia,2014,False,1102,B_TrustGov,trust_government_NOT_general_elite,0,0,1102
+37 CO14,23 Colombia,2014,False,1102,B_DemSat,democracy_satisfaction_NOT_elite_trust,1068,0,0
+37 CO14,23 Colombia,2014,False,1102,H_VoteWhichRecent,party_slot_vote_mapping_pending,544,0,73
+38 IN14,9 Indonesia,2014,False,1737,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1675,0,62
+38 IN14,9 Indonesia,2014,False,1737,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,1706,0,31
+38 IN14,9 Indonesia,2014,False,1737,A_GovPerf,government_performance,1649,0,88
+38 IN14,9 Indonesia,2014,False,1737,B_DontCare,politicians_do_not_care,1499,0,238
+38 IN14,9 Indonesia,2014,False,1737,B_PolsDefendRich,politicians_defend_rich,0,0,1737
+38 IN14,9 Indonesia,2014,False,1737,B_OfficialsListen,officials_listen,0,0,1737
+38 IN14,9 Indonesia,2014,False,1737,B_TrustGov,trust_government_NOT_general_elite,0,0,1737
+38 IN14,9 Indonesia,2014,False,1737,B_DemSat,democracy_satisfaction_NOT_elite_trust,1610,0,127
+38 IN14,9 Indonesia,2014,False,1737,H_VoteWhichRecent,party_slot_vote_mapping_pending,1507,0,142
+39 SA14,15 South Africa,2014,False,1300,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1224,0,0
+39 SA14,15 South Africa,2014,False,1300,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1300
+39 SA14,15 South Africa,2014,False,1300,A_GovPerf,government_performance,1282,0,0
+39 SA14,15 South Africa,2014,False,1300,B_DontCare,politicians_do_not_care,1256,0,0
+39 SA14,15 South Africa,2014,False,1300,B_PolsDefendRich,politicians_defend_rich,0,0,1300
+39 SA14,15 South Africa,2014,False,1300,B_OfficialsListen,officials_listen,0,0,1300
+39 SA14,15 South Africa,2014,False,1300,B_TrustGov,trust_government_NOT_general_elite,0,0,1300
+39 SA14,15 South Africa,2014,False,1300,B_DemSat,democracy_satisfaction_NOT_elite_trust,1245,0,0
+39 SA14,15 South Africa,2014,False,1300,H_VoteWhichRecent,party_slot_vote_mapping_pending,814,0,134
+40 TR14,24 Turkey,2014,True,1173,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1143,0,0
+40 TR14,24 Turkey,2014,True,1173,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1173
+40 TR14,24 Turkey,2014,True,1173,A_GovPerf,government_performance,1135,0,0
+40 TR14,24 Turkey,2014,True,1173,B_DontCare,politicians_do_not_care,1104,0,0
+40 TR14,24 Turkey,2014,True,1173,B_PolsDefendRich,politicians_defend_rich,0,0,1173
+40 TR14,24 Turkey,2014,True,1173,B_OfficialsListen,officials_listen,0,0,1173
+40 TR14,24 Turkey,2014,True,1173,B_TrustGov,trust_government_NOT_general_elite,0,0,1173
+40 TR14,24 Turkey,2014,True,1173,B_DemSat,democracy_satisfaction_NOT_elite_trust,1113,0,0
+40 TR14,24 Turkey,2014,True,1173,H_VoteWhichRecent,party_slot_vote_mapping_pending,907,0,0
+42 GR15,6 Greece,2015,True,1008,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1001,0,7
+42 GR15,6 Greece,2015,True,1008,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1008
+42 GR15,6 Greece,2015,True,1008,A_GovPerf,government_performance,996,0,12
+42 GR15,6 Greece,2015,True,1008,B_DontCare,politicians_do_not_care,990,0,18
+42 GR15,6 Greece,2015,True,1008,B_PolsDefendRich,politicians_defend_rich,0,0,1008
+42 GR15,6 Greece,2015,True,1008,B_OfficialsListen,officials_listen,0,0,1008
+42 GR15,6 Greece,2015,True,1008,B_TrustGov,trust_government_NOT_general_elite,0,0,1008
+42 GR15,6 Greece,2015,True,1008,B_DemSat,democracy_satisfaction_NOT_elite_trust,975,0,33
+42 GR15,6 Greece,2015,True,1008,H_VoteWhichRecent,party_slot_vote_mapping_pending,734,0,167
+43 PT15,14 Portugal,2015,True,1499,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1462,0,1
+43 PT15,14 Portugal,2015,True,1499,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,1495,0,1
+43 PT15,14 Portugal,2015,True,1499,A_GovPerf,government_performance,1381,0,25
+43 PT15,14 Portugal,2015,True,1499,B_DontCare,politicians_do_not_care,0,0,1499
+43 PT15,14 Portugal,2015,True,1499,B_PolsDefendRich,politicians_defend_rich,0,0,1499
+43 PT15,14 Portugal,2015,True,1499,B_OfficialsListen,officials_listen,0,0,1499
+43 PT15,14 Portugal,2015,True,1499,B_TrustGov,trust_government_NOT_general_elite,0,0,1499
+43 PT15,14 Portugal,2015,True,1499,B_DemSat,democracy_satisfaction_NOT_elite_trust,1468,0,2
+43 PT15,14 Portugal,2015,True,1499,H_VoteWhichRecent,party_slot_vote_mapping_pending,818,0,292
+44 SP15,16 Spain,2015,True,2411,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,2411,0,0
+44 SP15,16 Spain,2015,True,2411,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,2411
+44 SP15,16 Spain,2015,True,2411,A_GovPerf,government_performance,0,0,2411
+44 SP15,16 Spain,2015,True,2411,B_DontCare,politicians_do_not_care,0,0,2411
+44 SP15,16 Spain,2015,True,2411,B_PolsDefendRich,politicians_defend_rich,0,0,2411
+44 SP15,16 Spain,2015,True,2411,B_OfficialsListen,officials_listen,0,0,2411
+44 SP15,16 Spain,2015,True,2411,B_TrustGov,trust_government_NOT_general_elite,0,0,2411
+44 SP15,16 Spain,2015,True,2411,B_DemSat,democracy_satisfaction_NOT_elite_trust,2264,0,147
+44 SP15,16 Spain,2015,True,2411,H_VoteWhichRecent,party_slot_vote_mapping_pending,1482,0,552
+45 TW16,17 Taiwan,2016,False,1000,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1000,0,0
+45 TW16,17 Taiwan,2016,False,1000,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1000
+45 TW16,17 Taiwan,2016,False,1000,A_GovPerf,government_performance,1000,0,0
+45 TW16,17 Taiwan,2016,False,1000,B_DontCare,politicians_do_not_care,1000,0,0
+45 TW16,17 Taiwan,2016,False,1000,B_PolsDefendRich,politicians_defend_rich,0,0,1000
+45 TW16,17 Taiwan,2016,False,1000,B_OfficialsListen,officials_listen,0,0,1000
+45 TW16,17 Taiwan,2016,False,1000,B_TrustGov,trust_government_NOT_general_elite,0,0,1000
+45 TW16,17 Taiwan,2016,False,1000,B_DemSat,democracy_satisfaction_NOT_elite_trust,1000,0,0
+45 TW16,17 Taiwan,2016,False,1000,H_VoteWhichRecent,party_slot_vote_mapping_pending,748,0,252
+46 IR16,25 Iran,2016,False,1203,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1177,0,0
+46 IR16,25 Iran,2016,False,1203,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1203
+46 IR16,25 Iran,2016,False,1203,A_GovPerf,government_performance,1167,0,0
+46 IR16,25 Iran,2016,False,1203,B_DontCare,politicians_do_not_care,1069,0,0
+46 IR16,25 Iran,2016,False,1203,B_PolsDefendRich,politicians_defend_rich,0,0,1203
+46 IR16,25 Iran,2016,False,1203,B_OfficialsListen,officials_listen,1091,0,0
+46 IR16,25 Iran,2016,False,1203,B_TrustGov,trust_government_NOT_general_elite,0,0,1203
+46 IR16,25 Iran,2016,False,1203,B_DemSat,democracy_satisfaction_NOT_elite_trust,1129,0,0
+46 IR16,25 Iran,2016,False,1203,H_VoteWhichRecent,party_slot_vote_mapping_pending,477,0,169
+47 RU16,26 Russia,2016,True,1602,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1582,0,0
+47 RU16,26 Russia,2016,True,1602,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1602
+47 RU16,26 Russia,2016,True,1602,A_GovPerf,government_performance,1560,0,42
+47 RU16,26 Russia,2016,True,1602,B_DontCare,politicians_do_not_care,1558,0,0
+47 RU16,26 Russia,2016,True,1602,B_PolsDefendRich,politicians_defend_rich,1547,0,0
+47 RU16,26 Russia,2016,True,1602,B_OfficialsListen,officials_listen,1532,0,0
+47 RU16,26 Russia,2016,True,1602,B_TrustGov,trust_government_NOT_general_elite,0,0,1602
+47 RU16,26 Russia,2016,True,1602,B_DemSat,democracy_satisfaction_NOT_elite_trust,1422,0,0
+47 RU16,26 Russia,2016,True,1602,H_VoteWhichRecent,party_slot_vote_mapping_pending,860,0,69
+48 SP11,16 Spain,2011,True,6082,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,6039,0,16
+48 SP11,16 Spain,2011,True,6082,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,6000,0,76
+48 SP11,16 Spain,2011,True,6082,A_GovPerf,government_performance,5903,0,21
+48 SP11,16 Spain,2011,True,6082,B_DontCare,politicians_do_not_care,5861,0,20
+48 SP11,16 Spain,2011,True,6082,B_PolsDefendRich,politicians_defend_rich,0,0,6082
+48 SP11,16 Spain,2011,True,6082,B_OfficialsListen,officials_listen,0,0,6082
+48 SP11,16 Spain,2011,True,6082,B_TrustGov,trust_government_NOT_general_elite,0,0,6082
+48 SP11,16 Spain,2011,True,6082,B_DemSat,democracy_satisfaction_NOT_elite_trust,5913,0,21
+48 SP11,16 Spain,2011,True,6082,H_VoteWhichRecent,party_slot_vote_mapping_pending,4303,0,617
+49 US16,19 United States,2016,False,1600,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1600,0,0
+49 US16,19 United States,2016,False,1600,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,1600,0,0
+49 US16,19 United States,2016,False,1600,A_GovPerf,government_performance,1598,0,2
+49 US16,19 United States,2016,False,1600,B_DontCare,politicians_do_not_care,1600,0,0
+49 US16,19 United States,2016,False,1600,B_PolsDefendRich,politicians_defend_rich,1600,0,0
+49 US16,19 United States,2016,False,1600,B_OfficialsListen,officials_listen,1600,0,0
+49 US16,19 United States,2016,False,1600,B_TrustGov,trust_government_NOT_general_elite,1600,0,0
+49 US16,19 United States,2016,False,1600,B_DemSat,democracy_satisfaction_NOT_elite_trust,1600,0,0
+49 US16,19 United States,2016,False,1600,H_VoteWhichRecent,party_slot_vote_mapping_pending,1222,0,1
+50 FR17,27 France,2017,True,2000,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,2000,0,0
+50 FR17,27 France,2017,True,2000,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,2000
+50 FR17,27 France,2017,True,2000,A_GovPerf,government_performance,2000,0,0
+50 FR17,27 France,2017,True,2000,B_DontCare,politicians_do_not_care,1999,0,1
+50 FR17,27 France,2017,True,2000,B_PolsDefendRich,politicians_defend_rich,1998,0,2
+50 FR17,27 France,2017,True,2000,B_OfficialsListen,officials_listen,1999,0,1
+50 FR17,27 France,2017,True,2000,B_TrustGov,trust_government_NOT_general_elite,2000,0,0
+50 FR17,27 France,2017,True,2000,B_DemSat,democracy_satisfaction_NOT_elite_trust,2000,0,0
+50 FR17,27 France,2017,True,2000,H_VoteWhichRecent,party_slot_vote_mapping_pending,1342,0,0
+51 GB17,18 Great Britain,2017,True,2000,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,2000,0,0
+51 GB17,18 Great Britain,2017,True,2000,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,2000
+51 GB17,18 Great Britain,2017,True,2000,A_GovPerf,government_performance,1999,0,1
+51 GB17,18 Great Britain,2017,True,2000,B_DontCare,politicians_do_not_care,2000,0,0
+51 GB17,18 Great Britain,2017,True,2000,B_PolsDefendRich,politicians_defend_rich,1999,0,1
+51 GB17,18 Great Britain,2017,True,2000,B_OfficialsListen,officials_listen,2000,0,0
+51 GB17,18 Great Britain,2017,True,2000,B_TrustGov,trust_government_NOT_general_elite,2000,0,0
+51 GB17,18 Great Britain,2017,True,2000,B_DemSat,democracy_satisfaction_NOT_elite_trust,1999,0,1
+51 GB17,18 Great Britain,2017,True,2000,H_VoteWhichRecent,party_slot_vote_mapping_pending,1725,0,0
+52 GE17,5 Germany,2017,True,3236,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,3221,0,15
+52 GE17,5 Germany,2017,True,3236,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,3231,0,5
+52 GE17,5 Germany,2017,True,3236,A_GovPerf,government_performance,3234,0,2
+52 GE17,5 Germany,2017,True,3236,B_DontCare,politicians_do_not_care,3225,0,11
+52 GE17,5 Germany,2017,True,3236,B_PolsDefendRich,politicians_defend_rich,3223,0,13
+52 GE17,5 Germany,2017,True,3236,B_OfficialsListen,officials_listen,0,0,3236
+52 GE17,5 Germany,2017,True,3236,B_TrustGov,trust_government_NOT_general_elite,3220,0,16
+52 GE17,5 Germany,2017,True,3236,B_DemSat,democracy_satisfaction_NOT_elite_trust,3222,0,14
+52 GE17,5 Germany,2017,True,3236,H_VoteWhichRecent,party_slot_vote_mapping_pending,2547,0,27
+53 CL17,3 Chile,2017,False,1625,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1602,0,11
+53 CL17,3 Chile,2017,False,1625,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,1625
+53 CL17,3 Chile,2017,False,1625,A_GovPerf,government_performance,1558,0,26
+53 CL17,3 Chile,2017,False,1625,B_DontCare,politicians_do_not_care,1593,0,15
+53 CL17,3 Chile,2017,False,1625,B_PolsDefendRich,politicians_defend_rich,1588,0,16
+53 CL17,3 Chile,2017,False,1625,B_OfficialsListen,officials_listen,0,0,1625
+53 CL17,3 Chile,2017,False,1625,B_TrustGov,trust_government_NOT_general_elite,1581,0,25
+53 CL17,3 Chile,2017,False,1625,B_DemSat,democracy_satisfaction_NOT_elite_trust,1556,0,40
+53 CL17,3 Chile,2017,False,1625,H_VoteWhichRecent,party_slot_vote_mapping_pending,756,0,122
+54 CO18,23 Colombia,2018,False,1118,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1112,0,3
+54 CO18,23 Colombia,2018,False,1118,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,1112,0,6
+54 CO18,23 Colombia,2018,False,1118,A_GovPerf,government_performance,1094,0,17
+54 CO18,23 Colombia,2018,False,1118,B_DontCare,politicians_do_not_care,1102,0,9
+54 CO18,23 Colombia,2018,False,1118,B_PolsDefendRich,politicians_defend_rich,1095,0,13
+54 CO18,23 Colombia,2018,False,1118,B_OfficialsListen,officials_listen,1089,0,12
+54 CO18,23 Colombia,2018,False,1118,B_TrustGov,trust_government_NOT_general_elite,1102,0,11
+54 CO18,23 Colombia,2018,False,1118,B_DemSat,democracy_satisfaction_NOT_elite_trust,1084,0,10
+54 CO18,23 Colombia,2018,False,1118,H_VoteWhichRecent,party_slot_vote_mapping_pending,703,0,139
+55 IT18,10 Italy,2018,True,3005,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,2973,0,0
+55 IT18,10 Italy,2018,True,3005,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,0,0,3005
+55 IT18,10 Italy,2018,True,3005,A_GovPerf,government_performance,2874,0,0
+55 IT18,10 Italy,2018,True,3005,B_DontCare,politicians_do_not_care,2857,0,0
+55 IT18,10 Italy,2018,True,3005,B_PolsDefendRich,politicians_defend_rich,2860,0,0
+55 IT18,10 Italy,2018,True,3005,B_OfficialsListen,officials_listen,2837,0,0
+55 IT18,10 Italy,2018,True,3005,B_TrustGov,trust_government_NOT_general_elite,0,0,3005
+55 IT18,10 Italy,2018,True,3005,B_DemSat,democracy_satisfaction_NOT_elite_trust,2842,0,0
+55 IT18,10 Italy,2018,True,3005,H_VoteWhichRecent,party_slot_vote_mapping_pending,2135,0,173
+56 MX18,12 Mexico,2018,False,1428,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1421,0,0
+56 MX18,12 Mexico,2018,False,1428,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,1427,0,0
+56 MX18,12 Mexico,2018,False,1428,A_GovPerf,government_performance,1406,0,7
+56 MX18,12 Mexico,2018,False,1428,B_DontCare,politicians_do_not_care,1412,0,0
+56 MX18,12 Mexico,2018,False,1428,B_PolsDefendRich,politicians_defend_rich,1404,0,0
+56 MX18,12 Mexico,2018,False,1428,B_OfficialsListen,officials_listen,1409,0,0
+56 MX18,12 Mexico,2018,False,1428,B_TrustGov,trust_government_NOT_general_elite,1411,0,9
+56 MX18,12 Mexico,2018,False,1428,B_DemSat,democracy_satisfaction_NOT_elite_trust,1400,0,7
+56 MX18,12 Mexico,2018,False,1428,H_VoteWhichRecent,party_slot_vote_mapping_pending,1032,0,13
+57 UK19,28 Ukraine,2019,True,2001,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1929,0,72
+57 UK19,28 Ukraine,2019,True,2001,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,1934,0,67
+57 UK19,28 Ukraine,2019,True,2001,A_GovPerf,government_performance,0,0,2001
+57 UK19,28 Ukraine,2019,True,2001,B_DontCare,politicians_do_not_care,1958,0,43
+57 UK19,28 Ukraine,2019,True,2001,B_PolsDefendRich,politicians_defend_rich,1935,0,66
+57 UK19,28 Ukraine,2019,True,2001,B_OfficialsListen,officials_listen,1908,0,93
+57 UK19,28 Ukraine,2019,True,2001,B_TrustGov,trust_government_NOT_general_elite,1840,0,161
+57 UK19,28 Ukraine,2019,True,2001,B_DemSat,democracy_satisfaction_NOT_elite_trust,1872,0,129
+57 UK19,28 Ukraine,2019,True,2001,H_VoteWhichRecent,party_slot_vote_mapping_pending,1277,0,234
+58 SA19,15 South Africa,2019,False,1625,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1586,0,0
+58 SA19,15 South Africa,2019,False,1625,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,1603,0,0
+58 SA19,15 South Africa,2019,False,1625,A_GovPerf,government_performance,1583,0,0
+58 SA19,15 South Africa,2019,False,1625,B_DontCare,politicians_do_not_care,1555,0,0
+58 SA19,15 South Africa,2019,False,1625,B_PolsDefendRich,politicians_defend_rich,1516,0,0
+58 SA19,15 South Africa,2019,False,1625,B_OfficialsListen,officials_listen,1544,0,0
+58 SA19,15 South Africa,2019,False,1625,B_TrustGov,trust_government_NOT_general_elite,0,0,1625
+58 SA19,15 South Africa,2019,False,1625,B_DemSat,democracy_satisfaction_NOT_elite_trust,1580,0,0
+58 SA19,15 South Africa,2019,False,1625,H_VoteWhichRecent,party_slot_vote_mapping_pending,796,0,125
+59 US20,19 United States,2020,False,2000,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,2000,0,0
+59 US20,19 United States,2020,False,2000,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,2000,0,0
+59 US20,19 United States,2020,False,2000,A_GovPerf,government_performance,1996,0,4
+59 US20,19 United States,2020,False,2000,B_DontCare,politicians_do_not_care,1999,0,1
+59 US20,19 United States,2020,False,2000,B_PolsDefendRich,politicians_defend_rich,1998,0,2
+59 US20,19 United States,2020,False,2000,B_OfficialsListen,officials_listen,1999,0,1
+59 US20,19 United States,2020,False,2000,B_TrustGov,trust_government_NOT_general_elite,1999,0,1
+59 US20,19 United States,2020,False,2000,B_DemSat,democracy_satisfaction_NOT_elite_trust,1999,0,1
+59 US20,19 United States,2020,False,2000,H_VoteWhichRecent,party_slot_vote_mapping_pending,1664,0,0
+60 IN19,9 Indonesia,2019,False,1078,A_EconSit,national_economy_CURRENT_OR_CHANGE_mixed,1050,0,2
+60 IN19,9 Indonesia,2019,False,1078,A_RespSit,personal_economy_CURRENT_OR_CHANGE_mixed,1068,0,0
+60 IN19,9 Indonesia,2019,False,1078,A_GovPerf,government_performance,1051,0,3
+60 IN19,9 Indonesia,2019,False,1078,B_DontCare,politicians_do_not_care,950,0,28
+60 IN19,9 Indonesia,2019,False,1078,B_PolsDefendRich,politicians_defend_rich,944,0,28
+60 IN19,9 Indonesia,2019,False,1078,B_OfficialsListen,officials_listen,948,0,22
+60 IN19,9 Indonesia,2019,False,1078,B_TrustGov,trust_government_NOT_general_elite,987,0,5
+60 IN19,9 Indonesia,2019,False,1078,B_DemSat,democracy_satisfaction_NOT_elite_trust,1028,0,5
+60 IN19,9 Indonesia,2019,False,1078,H_VoteWhichRecent,party_slot_vote_mapping_pending,905,0,140

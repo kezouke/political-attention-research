@@ -1,0 +1,16 @@
+year,variable,concept,timing,n_rows,valid_n
+2014,V25,top_priority_from_eight_item_list,pre,2019,2010
+2014,V54,federal_government_satisfaction,pre,2019,1990
+2014,V59_4,trust_political_parties,pre,2019,2006
+2014,V59_10,trust_politicians,pre,2019,2006
+2014,V400,national_economy_past_twelve_months,post,2019,1507
+2014,V40B,reported_turnout,post,2019,1532
+2014,V60B,named_federal_party_vote,post,2019,1363
+2014,V24_1,issue_importance_1,pre,2019,2015
+2014,V24_2,issue_importance_2,pre,2019,2014
+2014,V24_3,issue_importance_3,pre,2019,2015
+2014,V24_4,issue_importance_4,pre,2019,2014
+2014,V24_5,issue_importance_5,pre,2019,2015
+2014,V24_6,issue_importance_6,pre,2019,1994
+2014,V24_7,issue_importance_7,pre,2019,2011
+2014,V24_8,issue_importance_8,pre,2019,2014
