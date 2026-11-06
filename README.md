@@ -1,12 +1,12 @@
 # Political Attention Research
 
-[Why crises do not always bring votes to populists](https://kezouke.github.io/political-attention-research/?lang=en) · [Почему кризис не всегда приносит голоса популистам](https://kezouke.github.io/political-attention-research/?lang=ru)
+[Do populists gain when the governing party loses votes?](https://kezouke.github.io/political-attention-research/?lang=en) · [Прибавляют ли популисты, когда власть теряет голоса?](https://kezouke.github.io/political-attention-research/?lang=ru)
 
-One bilingual research essay asks why crises and public discontent do not consistently benefit populists. It connects election comparisons around banking crises with the emergence of Podemos in Spain, foreign-currency debt in Hungary, concern about prices in Europe and Bolsonaro’s use of corruption in Brazil.
+A bilingual essay asks whether governing-party losses coincide with populist gains at the first parliamentary election after a banking crisis. It compares 29 election pairs in 28 countries, with governing-party results available for 21 pairs. Comparisons with other periods establish a benchmark; Spain shows the limit of stopping at the first election; the Hungarian debt study illustrates how to estimate the contribution of a specific financial loss.
 
-Open `docs/index.html` for the complete essay and all interactive figures. It works offline. Older links to `docs/attention.html` redirect to the corresponding section of this article, preserving the language. The [research methods](CRISIS_METHODS.md) document sources, sample selection, classifications and the limits of each comparison. `docs/priorities.html` remains an archived earlier essay.
+Open `docs/index.html` for the complete essay and interactive figures. It works offline. Older links to `docs/attention.html` redirect to the article, preserving the language; links to the removed Brazil and inflation sections open the start of the post. The [research methods](CRISIS_METHODS.md) document sources, sample selection, classifications and the limits of each comparison. Earlier analyses remain in the repository, and `docs/priorities.html` remains an archived essay.
 
-Один пост объясняет, почему потери власти и рост общественного недовольства не всегда сопровождаются успехом популистов. Сравнение выборов, Испания, Венгрия, европейская инфляция и бразильская кампания входят в общий текст. Источники и подробности расчётов доступны по ссылкам рядом с данными и в методах исследования.
+Пост отвечает на один вопрос: сопровождаются ли потери правящей партии ростом популистов на первых парламентских выборах после банковского кризиса. Разделы идут от ирландского примера к сравнению стран, другим периодам, испанской последовательности выборов и венгерскому исследованию валютных долгов.
 
 ## Repository map
 

@@ -64,14 +64,14 @@ class CrisisEssayTests(unittest.TestCase):
         for row in data['pairs']:
             self.assertAlmostEqual(row['post_vote_pct'] - row['pre_vote_pct'], row['change_pp'], places=6)
         article = (ROOT / 'docs/index.html').read_text()
-        for text in ('Why crises do not always bring votes to populists', 'Почему кризис не всегда приносит голоса популистам',
+        for text in ('Do populists gain when the governing party loses votes?', 'Прибавляют ли популисты, когда власть теряет голоса?',
                      '29 pairs of parliamentary elections in 28 countries',
                      '29 пар парламентских выборов в 28 странах', '1991–2008', '1989–2013'):
             self.assertIn(text, article)
         self.assertIn('src="crisis-data.js"', article)
-        for text in ('46.03%', '46,03%', '16.8% to 46.8%', '16,8% до 46,8%'):
-            self.assertIn(text, article)
-        for figure in ('brazil', 'prices'):
-            self.assertIn(f'href="#{figure}"', article)
+        for figure in ('incumbent', 'vote'):
             self.assertIn(f'id="{figure}-figure"', article)
+        for removed in ('brazil', 'prices'):
+            self.assertNotIn(f'id="{removed}"', article)
+            self.assertNotIn(f'id="{removed}-figure"', article)
         self.assertNotIn('attention.html?', article)
