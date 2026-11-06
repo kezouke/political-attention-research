@@ -1,0 +1,153 @@
+wave,variable,concept,n_rows,valid_n,source_label
+1,econGenRetro,national_economy_past_12_months,30235,29249,General economic retrospective evaluation: country
+2,econGenRetro,national_economy_past_12_months,30211,29186,General economic retrospective evaluation: country
+3,econGenRetro,national_economy_past_12_months,27839,26737,General economic retrospective evaluation: country
+4,econGenRetro,national_economy_past_12_months,31328,30076,General economic retrospective evaluation: country
+5,econGenRetro,national_economy_past_12_months,30725,0,General economic retrospective evaluation: country
+6,econGenRetro,national_economy_past_12_months,30073,7044,General economic retrospective evaluation: country
+7,econGenRetro,national_economy_past_12_months,30881,28929,General economic retrospective evaluation: country
+8,econGenRetro,national_economy_past_12_months,33502,14438,General economic retrospective evaluation: country
+9,econGenRetro,national_economy_past_12_months,30036,0,General economic retrospective evaluation: country
+10,econGenRetro,national_economy_past_12_months,30236,28356,General economic retrospective evaluation: country
+11,econGenRetro,national_economy_past_12_months,30956,29182,General economic retrospective evaluation: country
+12,econGenRetro,national_economy_past_12_months,34394,8365,General economic retrospective evaluation: country
+13,econGenRetro,national_economy_past_12_months,31135,29241,General economic retrospective evaluation: country
+14,econGenRetro,national_economy_past_12_months,31063,28966,General economic retrospective evaluation: country
+15,econGenRetro,national_economy_past_12_months,30842,28807,General economic retrospective evaluation: country
+16,econGenRetro,national_economy_past_12_months,37959,34868,General economic retrospective evaluation: country
+17,econGenRetro,national_economy_past_12_months,34366,31896,General economic retrospective evaluation: country
+18,econGenRetro,national_economy_past_12_months,37824,0,General economic retrospective evaluation: country
+19,econGenRetro,national_economy_past_12_months,32177,0,General economic retrospective evaluation: country
+1,econPersonalRetro,household_economy_past_12_months,30235,29648,Personal economic retrospective evaluation: household
+2,econPersonalRetro,household_economy_past_12_months,30211,29593,Personal economic retrospective evaluation: household
+3,econPersonalRetro,household_economy_past_12_months,27839,27129,Personal economic retrospective evaluation: household
+4,econPersonalRetro,household_economy_past_12_months,31328,30507,Personal economic retrospective evaluation: household
+5,econPersonalRetro,household_economy_past_12_months,30725,0,Personal economic retrospective evaluation: household
+6,econPersonalRetro,household_economy_past_12_months,30073,7206,Personal economic retrospective evaluation: household
+7,econPersonalRetro,household_economy_past_12_months,30881,29871,Personal economic retrospective evaluation: household
+8,econPersonalRetro,household_economy_past_12_months,33502,14734,Personal economic retrospective evaluation: household
+9,econPersonalRetro,household_economy_past_12_months,30036,0,Personal economic retrospective evaluation: household
+10,econPersonalRetro,household_economy_past_12_months,30236,29210,Personal economic retrospective evaluation: household
+11,econPersonalRetro,household_economy_past_12_months,30956,29981,Personal economic retrospective evaluation: household
+12,econPersonalRetro,household_economy_past_12_months,34394,8659,Personal economic retrospective evaluation: household
+13,econPersonalRetro,household_economy_past_12_months,31135,30133,Personal economic retrospective evaluation: household
+14,econPersonalRetro,household_economy_past_12_months,31063,30149,Personal economic retrospective evaluation: household
+15,econPersonalRetro,household_economy_past_12_months,30842,29919,Personal economic retrospective evaluation: household
+16,econPersonalRetro,household_economy_past_12_months,37959,36503,Personal economic retrospective evaluation: household
+17,econPersonalRetro,household_economy_past_12_months,34366,32993,Personal economic retrospective evaluation: household
+18,econPersonalRetro,household_economy_past_12_months,37824,0,Personal economic retrospective evaluation: household
+19,econPersonalRetro,household_economy_past_12_months,32177,0,Personal economic retrospective evaluation: household
+1,small_mii_cat,most_important_national_issue,30235,26382,MII (manually-coded/collapsed)
+2,small_mii_cat,most_important_national_issue,30211,26618,MII (manually-coded/collapsed)
+3,small_mii_cat,most_important_national_issue,27839,24103,MII (manually-coded/collapsed)
+4,small_mii_cat,most_important_national_issue,31328,28007,MII (manually-coded/collapsed)
+5,small_mii_cat,most_important_national_issue,30725,27735,MII (manually-coded/collapsed)
+6,small_mii_cat,most_important_national_issue,30073,26942,MII (manually-coded/collapsed)
+7,small_mii_cat,most_important_national_issue,30881,27631,MII (manually-coded/collapsed)
+8,small_mii_cat,most_important_national_issue,33502,30297,MII (manually-coded/collapsed)
+9,small_mii_cat,most_important_national_issue,30036,27453,MII (manually-coded/collapsed)
+10,small_mii_cat,most_important_national_issue,30236,26144,MII (manually-coded/collapsed)
+11,small_mii_cat,most_important_national_issue,30956,27487,MII (manually-coded/collapsed)
+12,small_mii_cat,most_important_national_issue,34394,30931,MII (manually-coded/collapsed)
+13,small_mii_cat,most_important_national_issue,31135,28262,MII (manually-coded/collapsed)
+14,small_mii_cat,most_important_national_issue,31063,27002,MII (manually-coded/collapsed)
+15,small_mii_cat,most_important_national_issue,30842,28520,MII (manually-coded/collapsed)
+16,small_mii_cat,most_important_national_issue,37959,34340,MII (manually-coded/collapsed)
+17,small_mii_cat,most_important_national_issue,34366,31375,MII (manually-coded/collapsed)
+18,small_mii_cat,most_important_national_issue,37824,35128,MII (manually-coded/collapsed)
+19,small_mii_cat,most_important_national_issue,32177,29332,MII (manually-coded/collapsed)
+1,trustMPs,trust_members_of_parliament,30235,29537,Trust MPs in general
+2,trustMPs,trust_members_of_parliament,30211,29483,Trust MPs in general
+3,trustMPs,trust_members_of_parliament,27839,27071,Trust MPs in general
+4,trustMPs,trust_members_of_parliament,31328,30527,Trust MPs in general
+5,trustMPs,trust_members_of_parliament,30725,0,Trust MPs in general
+6,trustMPs,trust_members_of_parliament,30073,29486,Trust MPs in general
+7,trustMPs,trust_members_of_parliament,30881,30162,Trust MPs in general
+8,trustMPs,trust_members_of_parliament,33502,3948,Trust MPs in general
+9,trustMPs,trust_members_of_parliament,30036,29285,Trust MPs in general
+10,trustMPs,trust_members_of_parliament,30236,29288,Trust MPs in general
+11,trustMPs,trust_members_of_parliament,30956,0,Trust MPs in general
+12,trustMPs,trust_members_of_parliament,34394,8243,Trust MPs in general
+13,trustMPs,trust_members_of_parliament,31135,0,Trust MPs in general
+14,trustMPs,trust_members_of_parliament,31063,0,Trust MPs in general
+15,trustMPs,trust_members_of_parliament,30842,7465,Trust MPs in general
+16,trustMPs,trust_members_of_parliament,37959,8930,Trust MPs in general
+17,trustMPs,trust_members_of_parliament,34366,33157,Trust MPs in general
+18,trustMPs,trust_members_of_parliament,37824,36418,Trust MPs in general
+19,trustMPs,trust_members_of_parliament,32177,30888,Trust MPs in general
+1,generalElectionVote,named_party_vote_or_intention,30235,23870,General Election Vote Intention
+2,generalElectionVote,named_party_vote_or_intention,30211,24600,General Election Vote Intention
+3,generalElectionVote,named_party_vote_or_intention,27839,22517,General Election Vote Intention
+4,generalElectionVote,named_party_vote_or_intention,31328,26876,General Election Vote Intention
+5,generalElectionVote,named_party_vote_or_intention,30725,26962,General Election Vote Intention
+6,generalElectionVote,named_party_vote_or_intention,30073,27268,General Election Vote Intention
+7,generalElectionVote,named_party_vote_or_intention,30881,24956,General Election Vote Intention
+8,generalElectionVote,named_party_vote_or_intention,33502,26942,General Election Vote Intention
+9,generalElectionVote,named_party_vote_or_intention,30036,22150,General Election Vote Intention
+10,generalElectionVote,named_party_vote_or_intention,30236,22841,General Election Vote Intention
+11,generalElectionVote,named_party_vote_or_intention,30956,25874,General Election Vote Intention
+12,generalElectionVote,named_party_vote_or_intention,34394,29517,General Election Vote Intention
+13,generalElectionVote,named_party_vote_or_intention,31135,27768,General Election Vote Intention
+14,generalElectionVote,named_party_vote_or_intention,31063,23871,General Election Vote Intention
+15,generalElectionVote,named_party_vote_or_intention,30842,20102,General Election Vote Intention
+16,generalElectionVote,named_party_vote_or_intention,37959,28055,General Election Vote Intention
+17,generalElectionVote,named_party_vote_or_intention,34366,27302,General Election Vote Intention
+18,generalElectionVote,named_party_vote_or_intention,37824,31761,General Election Vote Intention
+19,generalElectionVote,named_party_vote_or_intention,32177,28070,General Election Vote Intention
+1,approveUKGovt,government_approval,30235,29294,Approve: UK Government
+2,approveUKGovt,government_approval,30211,29240,Approve: UK Government
+3,approveUKGovt,government_approval,27839,26811,Approve: UK Government
+4,approveUKGovt,government_approval,31328,30164,Approve: UK Government
+5,approveUKGovt,government_approval,30725,0,Approve: UK Government
+6,approveUKGovt,government_approval,30073,0,Approve: UK Government
+7,approveUKGovt,government_approval,30881,29619,Approve: UK Government
+8,approveUKGovt,government_approval,33502,0,Approve: UK Government
+9,approveUKGovt,government_approval,30036,29040,Approve: UK Government
+10,approveUKGovt,government_approval,30236,28754,Approve: UK Government
+11,approveUKGovt,government_approval,30956,29500,Approve: UK Government
+12,approveUKGovt,government_approval,34394,0,Approve: UK Government
+13,approveUKGovt,government_approval,31135,0,Approve: UK Government
+14,approveUKGovt,government_approval,31063,29755,Approve: UK Government
+15,approveUKGovt,government_approval,30842,4937,Approve: UK Government
+16,approveUKGovt,government_approval,37959,36023,Approve: UK Government
+17,approveUKGovt,government_approval,34366,32576,Approve: UK Government
+18,approveUKGovt,government_approval,37824,0,Approve: UK Government
+19,approveUKGovt,government_approval,32177,0,Approve: UK Government
+1,partyId,party_identification,30235,22617,Party Identity (Unsqueezed)
+2,partyId,party_identification,30211,23427,Party Identity (Unsqueezed)
+3,partyId,party_identification,27839,21190,Party Identity (Unsqueezed)
+4,partyId,party_identification,31328,23961,Party Identity (Unsqueezed)
+5,partyId,party_identification,30725,0,Party Identity (Unsqueezed)
+6,partyId,party_identification,30073,23898,Party Identity (Unsqueezed)
+7,partyId,party_identification,30881,23633,Party Identity (Unsqueezed)
+8,partyId,party_identification,33502,25934,Party Identity (Unsqueezed)
+9,partyId,party_identification,30036,23040,Party Identity (Unsqueezed)
+10,partyId,party_identification,30236,22116,Party Identity (Unsqueezed)
+11,partyId,party_identification,30956,23174,Party Identity (Unsqueezed)
+12,partyId,party_identification,34394,25635,Party Identity (Unsqueezed)
+13,partyId,party_identification,31135,23827,Party Identity (Unsqueezed)
+14,partyId,party_identification,31063,22846,Party Identity (Unsqueezed)
+15,partyId,party_identification,30842,21985,Party Identity (Unsqueezed)
+16,partyId,party_identification,37959,27479,Party Identity (Unsqueezed)
+17,partyId,party_identification,34366,24145,Party Identity (Unsqueezed)
+18,partyId,party_identification,37824,27035,Party Identity (Unsqueezed)
+19,partyId,party_identification,32177,23921,Party Identity (Unsqueezed)
+1,bestOnMII,party_competence_on_important_issue,30235,22785,Best Party On Most Important Issue
+2,bestOnMII,party_competence_on_important_issue,30211,23307,Best Party On Most Important Issue
+3,bestOnMII,party_competence_on_important_issue,27839,21072,Best Party On Most Important Issue
+4,bestOnMII,party_competence_on_important_issue,31328,24288,Best Party On Most Important Issue
+5,bestOnMII,party_competence_on_important_issue,30725,24704,Best Party On Most Important Issue
+6,bestOnMII,party_competence_on_important_issue,30073,24259,Best Party On Most Important Issue
+7,bestOnMII,party_competence_on_important_issue,30881,23399,Best Party On Most Important Issue
+8,bestOnMII,party_competence_on_important_issue,33502,25938,Best Party On Most Important Issue
+9,bestOnMII,party_competence_on_important_issue,30036,22691,Best Party On Most Important Issue
+10,bestOnMII,party_competence_on_important_issue,30236,21896,Best Party On Most Important Issue
+11,bestOnMII,party_competence_on_important_issue,30956,23783,Best Party On Most Important Issue
+12,bestOnMII,party_competence_on_important_issue,34394,27015,Best Party On Most Important Issue
+13,bestOnMII,party_competence_on_important_issue,31135,24618,Best Party On Most Important Issue
+14,bestOnMII,party_competence_on_important_issue,31063,22854,Best Party On Most Important Issue
+15,bestOnMII,party_competence_on_important_issue,30842,23679,Best Party On Most Important Issue
+16,bestOnMII,party_competence_on_important_issue,37959,28433,Best Party On Most Important Issue
+17,bestOnMII,party_competence_on_important_issue,34366,26783,Best Party On Most Important Issue
+18,bestOnMII,party_competence_on_important_issue,37824,30872,Best Party On Most Important Issue
+19,bestOnMII,party_competence_on_important_issue,32177,25908,Best Party On Most Important Issue

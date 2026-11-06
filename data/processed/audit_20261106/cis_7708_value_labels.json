@@ -1,0 +1,3440 @@
+{
+  "CCAA": {
+    "1.0": "Andalucía",
+    "2.0": "Aragón",
+    "3.0": "Asturias (Principado de)",
+    "4.0": "Baleares (Islas)",
+    "5.0": "Canarias",
+    "6.0": "Cantabria",
+    "7.0": "Castilla   La Mancha",
+    "8.0": "Castilla y León",
+    "9.0": "Cataluña",
+    "10.0": "Comunidad Valenciana",
+    "11.0": "Extremadura",
+    "12.0": "Galicia",
+    "13.0": "Madrid (Comunidad de)",
+    "14.0": "Murcia (Región de)",
+    "15.0": "Navarra (Comunidad Foral de)",
+    "16.0": "País Vasco",
+    "17.0": "Rioja (La)",
+    "18.0": "Ceuta",
+    "19.0": "Melilla"
+  },
+  "PROV": {
+    "1.0": "Álava",
+    "2.0": "Albacete",
+    "3.0": "Alicante",
+    "4.0": "Almería",
+    "5.0": "Ávila",
+    "6.0": "Badajoz",
+    "7.0": "Baleares",
+    "8.0": "Barcelona",
+    "9.0": "Burgos",
+    "10.0": "Cáceres",
+    "11.0": "Cádiz",
+    "12.0": "Castellón de la Plana",
+    "13.0": "Ciudad Real",
+    "14.0": "Córdoba",
+    "15.0": "Coruña (A)",
+    "16.0": "Cuenca",
+    "17.0": "Girona",
+    "18.0": "Granada",
+    "19.0": "Guadalajara",
+    "20.0": "Guipúzcoa",
+    "21.0": "Huelva",
+    "22.0": "Huesca",
+    "23.0": "Jaén",
+    "24.0": "León",
+    "25.0": "Lleida",
+    "26.0": "Rioja (La)",
+    "27.0": "Lugo",
+    "28.0": "Madrid",
+    "29.0": "Málaga",
+    "30.0": "Murcia",
+    "31.0": "Navarra",
+    "32.0": "Ourense",
+    "33.0": "Asturias",
+    "34.0": "Palencia",
+    "35.0": "Palmas (Las)",
+    "36.0": "Pontevedra",
+    "37.0": "Salamanca",
+    "38.0": "Santa Cruz de Tenerife",
+    "39.0": "Cantabria",
+    "40.0": "Segovia",
+    "41.0": "Sevilla",
+    "42.0": "Soria",
+    "43.0": "Tarragona",
+    "44.0": "Teruel",
+    "45.0": "Toledo",
+    "46.0": "Valencia",
+    "47.0": "Valladolid",
+    "48.0": "Vizcaya",
+    "49.0": "Zamora",
+    "50.0": "Zaragoza",
+    "51.0": "Ceuta",
+    "52.0": "Melilla"
+  },
+  "TAMUNI": {
+    "1.0": "Menos o igual a 2000 habitantes",
+    "2.0": "2.001 a 10.000 habitantes",
+    "3.0": "10.001 a 50.000 habitantes",
+    "4.0": "50.001 a 100.000 habitantes",
+    "5.0": "100.001 a 400.000 habitantes",
+    "6.0": "400.001 a 1.000.000 habitantes",
+    "7.0": "Más de 1.000.000 habitantes"
+  },
+  "P1": {
+    "1.0": "Mucho",
+    "2.0": "Bastante",
+    "3.0": "Poco",
+    "4.0": "Nada",
+    "9.0": "N.C."
+  },
+  "P2": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P3": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P4": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P5": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P601": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P602": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P603": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P604": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P605": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P606": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P607": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P608": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P609": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P610": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P611": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P612": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P613": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P701": {
+    "1.0": "Mejor",
+    "2.0": "Igual",
+    "3.0": "Peor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P702": {
+    "1.0": "Mejor",
+    "2.0": "Igual",
+    "3.0": "Peor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P703": {
+    "1.0": "Mejor",
+    "2.0": "Igual",
+    "3.0": "Peor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P704": {
+    "1.0": "Mejor",
+    "2.0": "Igual",
+    "3.0": "Peor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P705": {
+    "1.0": "Mejor",
+    "2.0": "Igual",
+    "3.0": "Peor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P706": {
+    "1.0": "Mejor",
+    "2.0": "Igual",
+    "3.0": "Peor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P707": {
+    "1.0": "Mejor",
+    "2.0": "Igual",
+    "3.0": "Peor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P708": {
+    "1.0": "Mejor",
+    "2.0": "Igual",
+    "3.0": "Peor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P709": {
+    "1.0": "Mejor",
+    "2.0": "Igual",
+    "3.0": "Peor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P710": {
+    "1.0": "Mejor",
+    "2.0": "Igual",
+    "3.0": "Peor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P711": {
+    "1.0": "Mejor",
+    "2.0": "Igual",
+    "3.0": "Peor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P712": {
+    "1.0": "Mejor",
+    "2.0": "Igual",
+    "3.0": "Peor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P713": {
+    "1.0": "Mejor",
+    "2.0": "Igual",
+    "3.0": "Peor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P8": {
+    "1.0": "Sí, con toda seguridad",
+    "2.0": "Probablemente sí",
+    "3.0": "Probablemente no",
+    "4.0": "No, con toda seguridad",
+    "8.0": "Aún no lo tiene decidido (NO LEER)",
+    "9.0": "N.C."
+  },
+  "P8A": {
+    "1.0": "Sí, lo tiene decidido",
+    "2.0": "No, no lo ha decidido aún",
+    "9.0": "N.C."
+  },
+  "P8B01": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IU (ICV en Cataluña)",
+    "4.0": "CiU",
+    "5.0": "ERC",
+    "6.0": "PNV",
+    "7.0": "BNG",
+    "8.0": "CC",
+    "9.0": "EA",
+    "10.0": "CHA",
+    "11.0": "Na-Bai",
+    "12.0": "Otro",
+    "96.0": "Votar en blanco",
+    "97.0": "Abstenerse",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P8B02": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IU (ICV en Cataluña)",
+    "4.0": "CiU",
+    "5.0": "ERC",
+    "6.0": "PNV",
+    "7.0": "BNG",
+    "8.0": "CC",
+    "9.0": "EA",
+    "10.0": "CHA",
+    "11.0": "Na-Bai",
+    "12.0": "Otro",
+    "96.0": "Votar en blanco",
+    "97.0": "Abstenerse",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P9": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IU (ICV en Cataluña)",
+    "4.0": "CiU",
+    "5.0": "ERC",
+    "6.0": "PNV",
+    "7.0": "BNG",
+    "8.0": "CC",
+    "9.0": "EA",
+    "10.0": "CHA",
+    "11.0": "Na-Bai",
+    "12.0": "PA",
+    "13.0": "PAR",
+    "14.0": "PSM-EN",
+    "15.0": "UM",
+    "16.0": "PRC",
+    "17.0": "UPL",
+    "18.0": "Ciutadans-PC",
+    "19.0": "CDN",
+    "20.0": "ANV",
+    "21.0": "Aralar",
+    "22.0": "PR",
+    "23.0": "CpM",
+    "24.0": "UPyD",
+    "25.0": "Bloc",
+    "26.0": "Otro partido",
+    "96.0": "En blanco",
+    "97.0": "No votaría",
+    "98.0": "No sabe todavía",
+    "99.0": "N.C."
+  },
+  "P9A": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IU (ICV en Cataluña)",
+    "4.0": "CiU",
+    "5.0": "ERC",
+    "6.0": "PNV",
+    "7.0": "BNG",
+    "8.0": "CC",
+    "9.0": "EA",
+    "10.0": "CHA",
+    "11.0": "Na-Bai",
+    "12.0": "PA",
+    "13.0": "PAR",
+    "14.0": "PSM EN",
+    "15.0": "UM",
+    "16.0": "PRC",
+    "17.0": "UPL",
+    "18.0": "Ciutadans-PC",
+    "19.0": "CDN",
+    "20.0": "ANV",
+    "21.0": "Aralar",
+    "22.0": "PR",
+    "23.0": "CpM",
+    "24.0": "UPyD",
+    "25.0": "Bloc",
+    "26.0": "Otro partido",
+    "97.0": "Ninguno",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P10": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "Otras respuestas",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P11": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IU (ICV en Cataluña)",
+    "4.0": "CiU",
+    "5.0": "ERC",
+    "6.0": "PNV",
+    "7.0": "BNG",
+    "8.0": "CC",
+    "9.0": "EA",
+    "10.0": "CHA",
+    "11.0": "Na-Bai",
+    "12.0": "Otro partido",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P12": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "3.0": "Le es indiferente (NO LEER)",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P1301": {
+    "97.0": "No conoce",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P1302": {
+    "97.0": "No conoce",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P1303": {
+    "97.0": "No conoce",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P1304": {
+    "97.0": "No conoce",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P1305": {
+    "97.0": "No conoce",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P1306": {
+    "97.0": "No conoce",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P1307": {
+    "97.0": "No conoce",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P14": {
+    "1.0": "Mucha confianza",
+    "2.0": "Bastante confianza",
+    "3.0": "Poca confianza",
+    "4.0": "Ninguna confianza",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P15": {
+    "1.0": "Mucha confianza",
+    "2.0": "Bastante confianza",
+    "3.0": "Poca confianza",
+    "4.0": "Ninguna confianza",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P16": {
+    "1.0": "José Luís Rodríguez Zapatero",
+    "2.0": "Mariano Rajoy",
+    "3.0": "Le es indiferente (NO LEER)",
+    "4.0": "Ninguno de los dos (NO LEER)",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P17": {
+    "0.0": "Con toda seguridad no iré a votar",
+    "10.0": "Con toda seguridad iré a votar",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P1801": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P1802": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P1803": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P1804": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P1805": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P1806": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P1807": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P1808": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P1809": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P1810": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P1811": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P19": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P20": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P21": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P22": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P23": {
+    "1.0": "Sí, con toda seguridad",
+    "2.0": "Probablemente sí",
+    "3.0": "Probablemente no",
+    "4.0": "No, con toda seguridad",
+    "8.0": "Aún no lo tiene decidido (NO LEER)",
+    "9.0": "N.C."
+  },
+  "P23A": {
+    "1.0": "Sí, lo tiene decidido",
+    "2.0": "No, no lo ha decidido aún",
+    "9.0": "N.C."
+  },
+  "P23B01": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IULV-CA",
+    "4.0": "PA-PSA",
+    "5.0": "Otro",
+    "6.0": "Votar en blanco",
+    "7.0": "Abstenerse",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P23B02": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IULV-CA",
+    "4.0": "PA-PSA",
+    "5.0": "Otro",
+    "6.0": "Votar en blanco",
+    "7.0": "Abstenerse",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P24": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IULV-CA",
+    "4.0": "PA-PSA",
+    "5.0": "Otro",
+    "6.0": "En blanco",
+    "7.0": "No votaría",
+    "8.0": "No sabe todavía",
+    "9.0": "N.C."
+  },
+  "P24A": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IULV-CA",
+    "4.0": "PA-PSA",
+    "5.0": "Otro",
+    "7.0": "Ninguno",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P25": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "Otras respuestas",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P26": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IULV-CA",
+    "4.0": "PA-PSA",
+    "5.0": "Otro",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P27": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "3.0": "Le es indiferente (NO LEER)",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P2801": {
+    "97.0": "No conoce",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P2802": {
+    "97.0": "No conoce",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P2803": {
+    "97.0": "No conoce",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P2804": {
+    "97.0": "No conoce",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P29": {
+    "1.0": "Manuel Chaves",
+    "2.0": "Javier Arenas",
+    "3.0": "Diego Valderas",
+    "4.0": "Julián Álvarez",
+    "5.0": "Otras respuestas",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "P30": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IU (ICV en Cataluña)",
+    "4.0": "CiU",
+    "5.0": "ERC",
+    "6.0": "PNV",
+    "7.0": "BNG",
+    "8.0": "CC",
+    "9.0": "EA",
+    "10.0": "CHA",
+    "11.0": "Na-Bai",
+    "12.0": "Otro partido",
+    "95.0": "No tenía edad para votar",
+    "96.0": "En blanco",
+    "97.0": "No votó",
+    "98.0": "No recuerda",
+    "99.0": "N.C."
+  },
+  "P3201": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P3202": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P3203": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P3204": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P3205": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P3206": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P3207": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P3208": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P3209": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P3210": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P3211": {
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "P33": {
+    "1.0": "PSOE",
+    "2.0": "PP (UPN en Navarra)",
+    "3.0": "IU (ICV en Cataluña)",
+    "4.0": "CiU",
+    "5.0": "ERC",
+    "6.0": "PNV",
+    "7.0": "BNG",
+    "8.0": "CC",
+    "9.0": "EA",
+    "10.0": "CHA",
+    "11.0": "Na-Bai",
+    "12.0": "PA",
+    "13.0": "PAR",
+    "14.0": "PSM-EN",
+    "15.0": "UM",
+    "16.0": "PRC",
+    "17.0": "UPL",
+    "18.0": "Ciutadans-PC",
+    "19.0": "CDN",
+    "20.0": "PCTV/EHAK",
+    "21.0": "Aralar",
+    "22.0": "PR",
+    "23.0": "CpM",
+    "24.0": "Otro partido",
+    "95.0": "No tenía edad para votar",
+    "96.0": "En blanco",
+    "97.0": "No votó",
+    "98.0": "No recuerda",
+    "99.0": "N.C."
+  },
+  "P34": {
+    "1.0": "Hombre",
+    "2.0": "Mujer"
+  },
+  "P35": {
+    "99.0": "N.C."
+  },
+  "P36": {
+    "1.0": "No, es analfabeto",
+    "2.0": "No, pero sabe leer y escribir",
+    "3.0": "Sí, ha ido a la escuela",
+    "9.0": "N.C."
+  },
+  "P36A": {
+    "2.0": "Primarios",
+    "3.0": "Secundarios",
+    "4.0": "Formación Profesional",
+    "5.0": "Universitarios de grado medio o asimilados",
+    "6.0": "Universitarios de grado superior",
+    "7.0": "Otros estudios no reglados (NO LEER)",
+    "9.0": "N.C."
+  },
+  "P37": {
+    "1.0": "Trabaja",
+    "2.0": "Jubilado o pensionista (anteriormente ha trabajado)",
+    "3.0": "Pensionista (antes no ha trabajado, sus labores, etc.)",
+    "4.0": "Parado y ha trabajado antes",
+    "5.0": "Parado y busca su primer empleo",
+    "6.0": "Estudiante",
+    "7.0": "Trabajo doméstico no remunerado",
+    "8.0": "Otra situación",
+    "9.0": "N.C."
+  },
+  "P37A": {
+    "1.0": "A jornada completa",
+    "2.0": "A tiempo parcial",
+    "9.0": "N.C."
+  },
+  "CCAA2": {
+    "1.0": "Andalucía",
+    "2.0": "Aragón",
+    "3.0": "Asturias (Principado de)",
+    "4.0": "Baleares (Islas)",
+    "5.0": "Canarias",
+    "6.0": "Cantabria",
+    "7.0": "Castilla   La Mancha",
+    "8.0": "Castilla y León",
+    "9.0": "Cataluña",
+    "10.0": "Comunidad Valenciana",
+    "11.0": "Extremadura",
+    "12.0": "Galicia",
+    "13.0": "Madrid (Comunidad de)",
+    "14.0": "Murcia (Región de)",
+    "15.0": "Navarra (Comunidad Foral de)",
+    "16.0": "País Vasco",
+    "17.0": "Rioja (La)"
+  },
+  "PROV2": {
+    "1.0": "Álava",
+    "2.0": "Albacete",
+    "3.0": "Alicante",
+    "4.0": "Almería",
+    "5.0": "Ávila",
+    "6.0": "Badajoz",
+    "7.0": "Baleares",
+    "8.0": "Barcelona",
+    "9.0": "Burgos",
+    "10.0": "Cáceres",
+    "11.0": "Cádiz",
+    "12.0": "Castellón de la Plana",
+    "13.0": "Ciudad Real",
+    "14.0": "Córdoba",
+    "15.0": "Coruña (A)",
+    "16.0": "Cuenca",
+    "17.0": "Girona",
+    "18.0": "Granada",
+    "19.0": "Guadalajara",
+    "20.0": "Guipúzcoa",
+    "21.0": "Huelva",
+    "22.0": "Huesca",
+    "23.0": "Jaén",
+    "24.0": "León",
+    "25.0": "Lleida",
+    "26.0": "Rioja (La)",
+    "27.0": "Lugo",
+    "28.0": "Madrid",
+    "29.0": "Málaga",
+    "30.0": "Murcia",
+    "31.0": "Navarra",
+    "32.0": "Ourense",
+    "33.0": "Asturias",
+    "34.0": "Palencia",
+    "35.0": "Palmas (Las)",
+    "36.0": "Pontevedra",
+    "37.0": "Salamanca",
+    "38.0": "Santa Cruz de Tenerife",
+    "39.0": "Cantabria",
+    "40.0": "Segovia",
+    "41.0": "Sevilla",
+    "42.0": "Soria",
+    "43.0": "Tarragona",
+    "44.0": "Teruel",
+    "45.0": "Toledo",
+    "46.0": "Valencia",
+    "47.0": "Valladolid",
+    "48.0": "Vizcaya",
+    "49.0": "Zamora",
+    "50.0": "Zaragoza"
+  },
+  "TAMUNI2": {
+    "1.0": "Menos o igual a 2000 habitantes",
+    "2.0": "2.001 a 10.000 habitantes",
+    "3.0": "10.001 a 50.000 habitantes",
+    "4.0": "50.001 a 100.000 habitantes",
+    "5.0": "100.001 a 400.000 habitantes",
+    "6.0": "400.001 a 1.000.000 habitantes",
+    "7.0": "Más de 1.000.000 habitantes"
+  },
+  "s1": {
+    "1.0": "Con mucho interés",
+    "2.0": "Con bastante interés",
+    "3.0": "Con poco interés",
+    "4.0": "Con ningún interés",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s201": {
+    "1.0": "Muy de acuerdo",
+    "2.0": "De acuerdo",
+    "3.0": "En desacuerdo",
+    "4.0": "Muy en desacuerdo",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s202": {
+    "1.0": "Muy de acuerdo",
+    "2.0": "De acuerdo",
+    "3.0": "En desacuerdo",
+    "4.0": "Muy en desacuerdo",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s203": {
+    "1.0": "Muy de acuerdo",
+    "2.0": "De acuerdo",
+    "3.0": "En desacuerdo",
+    "4.0": "Muy en desacuerdo",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s204": {
+    "1.0": "Muy de acuerdo",
+    "2.0": "De acuerdo",
+    "3.0": "En desacuerdo",
+    "4.0": "Muy en desacuerdo",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s301": {
+    "1.0": "El paro",
+    "2.0": "El terrorismo",
+    "3.0": "La inseguridad ciudadana",
+    "4.0": "La vivienda",
+    "5.0": "La economía",
+    "6.0": "La inmigración",
+    "7.0": "La sanidad",
+    "8.0": "La educación",
+    "9.0": "El medio ambiente",
+    "10.0": "Otras respuestas",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s302": {
+    "1.0": "El paro",
+    "2.0": "El terrorismo",
+    "3.0": "La inseguridad ciudadana",
+    "4.0": "La vivienda",
+    "5.0": "La economía",
+    "6.0": "La inmigración",
+    "7.0": "La sanidad",
+    "8.0": "La educación",
+    "9.0": "El medio ambiente",
+    "10.0": "Otras respuestas",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s401": {
+    "1.0": "Mucha",
+    "2.0": "Bastante",
+    "3.0": "Poca",
+    "7.0": "Ninguna",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s402": {
+    "1.0": "Mucha",
+    "2.0": "Bastante",
+    "3.0": "Poca",
+    "7.0": "Ninguna",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s403": {
+    "1.0": "Mucha",
+    "2.0": "Bastante",
+    "3.0": "Poca",
+    "7.0": "Ninguna",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s501": {
+    "1.0": "Muy de acuerdo",
+    "2.0": "De acuerdo",
+    "3.0": "En desacuerdo",
+    "4.0": "Muy en desacuerdo",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s502": {
+    "1.0": "Muy de acuerdo",
+    "2.0": "De acuerdo",
+    "3.0": "En desacuerdo",
+    "4.0": "Muy en desacuerdo",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s503": {
+    "1.0": "Muy de acuerdo",
+    "2.0": "De acuerdo",
+    "3.0": "En desacuerdo",
+    "4.0": "Muy en desacuerdo",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s504": {
+    "1.0": "Muy de acuerdo",
+    "2.0": "De acuerdo",
+    "3.0": "En desacuerdo",
+    "4.0": "Muy en desacuerdo",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s505": {
+    "1.0": "Muy de acuerdo",
+    "2.0": "De acuerdo",
+    "3.0": "En desacuerdo",
+    "4.0": "Muy en desacuerdo",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s7": {
+    "1.0": "Es muy positivo que convivan gente de diferente origen",
+    "10.0": "Los inmigrantes pueden poner en peligro algunos valores",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s7a": {
+    "1.0": "Nada importante",
+    "2.0": "Poco importante",
+    "3.0": "Bastante importante",
+    "4.0": "Muy importante",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s8": {
+    "1.0": "Deberían mejorarse los servicios sociales",
+    "10.0": "Habría que pagar menos impuestos",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s8a": {
+    "1.0": "Nada importante",
+    "2.0": "Poco importante",
+    "3.0": "Bastante importante",
+    "4.0": "Muy importante",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s9": {
+    "1.0": "Los homosexuales podrían adoptar niños",
+    "10.0": "No se debería permitir a los homosexuales la adopción",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s9a": {
+    "1.0": "Nada importante",
+    "2.0": "Poco importante",
+    "3.0": "Bastante importante",
+    "4.0": "Muy importante",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s10": {
+    "1.0": "La única manera de acabar con ETA es por la policía",
+    "10.0": "Para terminar con eta también hace falta diálogo",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s10a": {
+    "1.0": "Nada importante",
+    "2.0": "Poco importante",
+    "3.0": "Bastante importante",
+    "4.0": "Muy importante",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s11": {
+    "1.0": "Lo fundamental es defender nuestros valores",
+    "10.0": "Lo fundamental es la libertad individual",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s11a": {
+    "1.0": "Nada importante",
+    "2.0": "Poco importante",
+    "3.0": "Bastante importante",
+    "4.0": "Muy importante",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s12": {
+    "1.0": "Un Estado con un Gobierno Central sin autonomías",
+    "2.0": "Un Estado con CC.AA. como en la actualidad",
+    "3.0": "Un Estado donde las CC.AA. tengan más autonomía",
+    "4.0": "Un Estado donde las CC.AA. puedan independizarse",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s12a": {
+    "1.0": "Nada importante",
+    "2.0": "Poco importante",
+    "3.0": "Bastante importante",
+    "4.0": "Muy importante",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s13": {
+    "1.0": "Un derecho",
+    "2.0": "Un deber",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s1401": {
+    "1.0": "En bastantes ocasiones",
+    "2.0": "Alguna vez",
+    "3.0": "Nunca",
+    "9.0": "N.C."
+  },
+  "s1402": {
+    "1.0": "En bastantes ocasiones",
+    "2.0": "Alguna vez",
+    "3.0": "Nunca",
+    "9.0": "N.C."
+  },
+  "s1403": {
+    "1.0": "En bastantes ocasiones",
+    "2.0": "Alguna vez",
+    "3.0": "Nunca",
+    "9.0": "N.C."
+  },
+  "s1404": {
+    "1.0": "En bastantes ocasiones",
+    "2.0": "Alguna vez",
+    "3.0": "Nunca",
+    "9.0": "N.C."
+  },
+  "s1501": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s1502": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s1503": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s1504": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s1505": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s1506": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s1507": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s1508": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s1509": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s1510": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s1511": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s1512": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s1513": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s15a": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IU (ICV en Cataluña)",
+    "4.0": "UPyD",
+    "5.0": "CiU",
+    "6.0": "ERC",
+    "7.0": "PNV",
+    "8.0": "BNG",
+    "9.0": "CC",
+    "10.0": "EA",
+    "11.0": "CHA",
+    "12.0": "Na-Bai",
+    "49.0": "Otros partidos",
+    "99.0": "N.C."
+  },
+  "s15b": {
+    "1.0": "CCOO",
+    "2.0": "UGT",
+    "3.0": "CSIF",
+    "4.0": "ASAJA",
+    "5.0": "CNT",
+    "6.0": "ELA",
+    "7.0": "USO",
+    "8.0": "UPA",
+    "9.0": "LAB, STE-ELAS",
+    "10.0": "COAG, VAGA, EHNE",
+    "11.0": "CIGA",
+    "12.0": "SEPLA",
+    "13.0": "CGT",
+    "14.0": "SPU-CEP",
+    "15.0": "Plataforma sindical",
+    "16.0": "FASGA",
+    "17.0": "SATSE",
+    "18.0": "Libre",
+    "19.0": "SICS",
+    "20.0": "ANPE",
+    "21.0": "SPS",
+    "22.0": "SMG",
+    "96.0": "Otras respuestas",
+    "99.0": "N.C."
+  },
+  "s15c": {
+    "1.0": "A menudo",
+    "2.0": "Algunas veces",
+    "3.0": "Poco",
+    "4.0": "Nunca",
+    "9.0": "N.C."
+  },
+  "s16": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s17": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s18": {
+    "1.0": "Mucho mejor",
+    "2.0": "Mejor",
+    "3.0": "Igual",
+    "4.0": "Peor",
+    "5.0": "Mucho peor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s19": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s2001": {
+    "1.0": "Mejor",
+    "2.0": "Igual",
+    "3.0": "Peor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s2002": {
+    "1.0": "Mejor",
+    "2.0": "Igual",
+    "3.0": "Peor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s2003": {
+    "1.0": "Mejor",
+    "2.0": "Igual",
+    "3.0": "Peor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s2004": {
+    "1.0": "Mejor",
+    "2.0": "Igual",
+    "3.0": "Peor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s21": {
+    "1.0": "El paro",
+    "2.0": "Las drogas",
+    "3.0": "La inseguridad ciudadana",
+    "4.0": "El terrorismo, ETA",
+    "5.0": "Las infraestructuras",
+    "6.0": "La sanidad",
+    "7.0": "La vivienda",
+    "8.0": "Los problemas de índole económica",
+    "9.0": "Los problemas relacionados con la calidad del empleo",
+    "10.0": "Los problemas de la agricultura, ganadería y pesca",
+    "11.0": "La corrupción y el fraude",
+    "12.0": "Las pensiones",
+    "13.0": "La clase política, los partidos políticos",
+    "14.0": "Las guerras en general",
+    "15.0": "La Administración de Justicia",
+    "16.0": "Los problemas de índole social",
+    "17.0": "El racismo",
+    "18.0": "La inmigración",
+    "19.0": "La violencia contra la mujer",
+    "20.0": "Los problemas relacionados con la juventud",
+    "21.0": "La crisis de valores",
+    "22.0": "La educación",
+    "23.0": "Los problemas medioambientales",
+    "24.0": "El Gobierno, los políticos y los partidos",
+    "25.0": "El funcionamiento de los servicios públicos",
+    "26.0": "Los nacionalismos",
+    "27.0": "Los problemas relacionados con la mujer",
+    "28.0": "El terrorismo internacional",
+    "29.0": "Las preocupaciones y situaciones personales",
+    "30.0": "El Estatuto de Cataluña",
+    "31.0": "Las negociaciones con ETA",
+    "32.0": "Los problemas del agua, trasvase",
+    "33.0": "Las descalificaciones, insultos, etc.",
+    "95.0": "Otros temas",
+    "96.0": "Todos los temas (NO LEER)",
+    "97.0": "Ningún tema (NO LEER)",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s21a": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IU (ICV en Cataluña)",
+    "4.0": "UPyD",
+    "5.0": "CiU",
+    "6.0": "ERC",
+    "7.0": "PNV",
+    "8.0": "BNG",
+    "9.0": "CC",
+    "10.0": "EA",
+    "11.0": "CHA",
+    "12.0": "Na-Bai",
+    "49.0": "Otros partidos",
+    "97.0": "Ninguno",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s2201": {
+    "1.0": "Todos o casi todos los días",
+    "2.0": "Cuatro o cinco días por semana",
+    "3.0": "Dos o tres días por semana",
+    "4.0": "Sólo los fines de semana",
+    "5.0": "De vez en cuando",
+    "6.0": "Nunca o casi nunca",
+    "9.0": "N.C."
+  },
+  "s2202": {
+    "1.0": "Todos o casi todos los días",
+    "2.0": "Cuatro o cinco días por semana",
+    "3.0": "Dos o tres días por semana",
+    "4.0": "Sólo los fines de semana",
+    "5.0": "De vez en cuando",
+    "6.0": "Nunca o casi nunca",
+    "9.0": "N.C."
+  },
+  "s2203": {
+    "1.0": "Todos o casi todos los días",
+    "2.0": "Cuatro o cinco días por semana",
+    "3.0": "Dos o tres días por semana",
+    "4.0": "Sólo los fines de semana",
+    "5.0": "De vez en cuando",
+    "6.0": "Nunca o casi nunca",
+    "9.0": "N.C."
+  },
+  "s22a": {
+    "1.0": "El País",
+    "2.0": "El Mundo",
+    "3.0": "ABC",
+    "4.0": "La Razón",
+    "5.0": "El Público",
+    "6.0": "El Correo",
+    "7.0": "El Periódico",
+    "8.0": "La Vanguardia",
+    "9.0": "la Voz de Galicia",
+    "10.0": "La Nueva España",
+    "11.0": "El Diario Vasco",
+    "12.0": "Levante",
+    "13.0": "El Heraldo de Aragón",
+    "14.0": "El Faro de Vigo",
+    "15.0": "El Diario de Navarra",
+    "16.0": "La Verdad",
+    "17.0": "El Norte de Castilla",
+    "18.0": "Información de Alicante",
+    "19.0": "El Día",
+    "20.0": "Última Hora",
+    "21.0": "El Diario Montañés",
+    "22.0": "El Ideal de Andalucía",
+    "23.0": "Sur",
+    "24.0": "La Provincia",
+    "25.0": "Las Provincias",
+    "26.0": "El Diario de Cádiz",
+    "27.0": "Canarias 7",
+    "28.0": "Hoy, Diario de Extremadura",
+    "29.0": "El COmercio",
+    "30.0": "El Punt",
+    "31.0": "AVUI",
+    "32.0": "El Diario de Mallorca",
+    "33.0": "El Diario de León",
+    "34.0": "Córdoba",
+    "35.0": "La Rioja",
+    "36.0": "El Diario de Avisos",
+    "37.0": "El Diario de Burgos",
+    "38.0": "GARA",
+    "39.0": "El Progreso",
+    "40.0": "La Región",
+    "41.0": "DEIA",
+    "42.0": "Mediterráneo",
+    "43.0": "El Adelanto",
+    "44.0": "La Gaceta",
+    "45.0": "El Diario de Jaen",
+    "46.0": "la Tribuna",
+    "47.0": "La Voz de Asturias",
+    "48.0": "BERRIA",
+    "49.0": "El Diario de Alto Aragón",
+    "50.0": "Crónica",
+    "51.0": "Odiel",
+    "52.0": "El Diari Catalá",
+    "53.0": "La Voz de Almería",
+    "54.0": "El Heraldo de Soria",
+    "55.0": "El Diario de Sevilla",
+    "56.0": "El Diario Gallego",
+    "57.0": "El Diario de Noticias",
+    "58.0": "Alerta, El Diario de Cantabria",
+    "59.0": "Lanza",
+    "60.0": "El Diario de Ávila",
+    "94.0": "Periódicos gratuitos",
+    "95.0": "Cualquiera, sin especificar",
+    "96.0": "Otras respuestas",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s22b": {
+    "1.0": "TVE1",
+    "2.0": "LA 2",
+    "3.0": "ANTENA 3",
+    "4.0": "CUATRO",
+    "5.0": "TELE 5",
+    "6.0": "LA SEXTA",
+    "7.0": "CANAL SUR",
+    "8.0": "TV3",
+    "9.0": "CANAL 9",
+    "10.0": "LOCALIA",
+    "11.0": "TELEMADRID",
+    "12.0": "TVG",
+    "13.0": "ETB2",
+    "14.0": "CMT",
+    "15.0": "CANAL 2 ANDALUCÍA",
+    "16.0": "TVAC",
+    "17.0": "CANAL 33",
+    "18.0": "ARAGON TV",
+    "19.0": "ETB1",
+    "20.0": "PUNT 2",
+    "21.0": "IB3",
+    "22.0": "7REG.MURCIA",
+    "23.0": "C. EXTREMADURA",
+    "24.0": "TPA",
+    "25.0": "TVCYL",
+    "94.0": "Digitales y de pago",
+    "95.0": "Cualquiera, sin especificar",
+    "96.0": "Otras respuestas",
+    "99.0": "N.C."
+  },
+  "s22c": {
+    "1.0": "Cadena Ser",
+    "2.0": "Cadena Cope",
+    "3.0": "Onda Cero",
+    "4.0": "RNE R1",
+    "5.0": "Catalunya Radio",
+    "6.0": "Punto Radio",
+    "7.0": "Sur Radio",
+    "8.0": "RAC 1",
+    "9.0": "Radio Euskadi Irratia",
+    "10.0": "Radio Galega",
+    "11.0": "Radio Nou",
+    "12.0": "Radio España",
+    "13.0": "Radio Castilla la Mancha",
+    "95.0": "Cualquiera, sin especificar",
+    "96.0": "Otras respuestas",
+    "99.0": "N.C."
+  },
+  "s23": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s23a": {
+    "1.0": "6-7 días por semana",
+    "2.0": "3-5 días por semana",
+    "3.0": "1-2 días por semana",
+    "4.0": "Con menor frecuencia",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s24": {
+    "1.0": "Vió los dos, enteros o en parte",
+    "2.0": "Sólo vio entero o en parte el primer debate",
+    "3.0": "Sólo vio entero o en parte el segundo debate",
+    "4.0": "No los vio, pero tuvo referencia de ellos",
+    "5.0": "Ni los vio ni tuvo referencia de ellos",
+    "9.0": "N.C."
+  },
+  "s24a": {
+    "1.0": "José Luís Rodríguez Zapatero",
+    "2.0": "Mariano Rajoy",
+    "3.0": "Los dos por igual (NO LEER)",
+    "4.0": "Ninguno de los dos (NO LEER)",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s24b": {
+    "1.0": "Me animaron a votar",
+    "2.0": "Me animaron a abstenerme",
+    "3.0": "Me ayudaron a decidir el partido por el que iba a votar",
+    "4.0": "Reforzaron mi decisión de votar al partido que pensaba",
+    "5.0": "Me animaron a votar a otro partido del que pensaba",
+    "6.0": "No me influyeron en absoluto a la hora de votar",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s2501": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s2502": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s2503": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s2504": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s2505": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s26": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s2701": {
+    "1.0": "Habitualmente",
+    "2.0": "De vez en cuando",
+    "3.0": "Rara vez",
+    "4.0": "Nunca o casi nunca",
+    "5.0": "No procede",
+    "9.0": "N.C."
+  },
+  "s2702": {
+    "1.0": "Habitualmente",
+    "2.0": "De vez en cuando",
+    "3.0": "Rara vez",
+    "4.0": "Nunca o casi nunca",
+    "5.0": "No procede",
+    "9.0": "N.C."
+  },
+  "s2703": {
+    "1.0": "Habitualmente",
+    "2.0": "De vez en cuando",
+    "3.0": "Rara vez",
+    "4.0": "Nunca o casi nunca",
+    "5.0": "No procede",
+    "9.0": "N.C."
+  },
+  "s2704": {
+    "1.0": "Habitualmente",
+    "2.0": "De vez en cuando",
+    "3.0": "Rara vez",
+    "4.0": "Nunca o casi nunca",
+    "5.0": "No procede",
+    "9.0": "N.C."
+  },
+  "s2801": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s2802": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s28a01": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s28a02": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s2901": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s2902": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s2903": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s2904": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s2905": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s2906": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s2907": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s2908": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s2909": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s2910": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s2911": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s2912": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s30": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s30a": {
+    "1.0": "Mucho",
+    "2.0": "Bastante",
+    "3.0": "Poco",
+    "4.0": "Nada",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s30b": {
+    "1.0": "Me animaron a votar",
+    "2.0": "Me animaron a abstenerme",
+    "3.0": "Me ayudaron a decidir el partido por el que iba a votar",
+    "4.0": "Reforzaron mi decisión de votar al partido que pensaba",
+    "5.0": "Me animaron a votar a otro partido del que pensaba",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s31": {
+    "1.0": "Dudó entre varios partidos o coaliciones",
+    "2.0": "Dudó entre un partido o coalición y la abstención",
+    "3.0": "Tenía decidido votar por un partido o coalición",
+    "4.0": "Tenía decidido abstenerse",
+    "9.0": "N.C."
+  },
+  "s31a01": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IU (ICV en Cataluña)",
+    "4.0": "UPyD",
+    "5.0": "CiU",
+    "6.0": "ERC",
+    "7.0": "PNV",
+    "8.0": "BNG",
+    "9.0": "CC",
+    "10.0": "EA",
+    "11.0": "CHA",
+    "12.0": "Na-Bai",
+    "49.0": "Otros partidos",
+    "96.0": "Votar en blanco",
+    "97.0": "Abstenerse",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s31a02": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IU (ICV en Cataluña)",
+    "4.0": "UPyD",
+    "5.0": "CiU",
+    "6.0": "ERC",
+    "7.0": "PNV",
+    "8.0": "BNG",
+    "9.0": "CC",
+    "10.0": "EA",
+    "11.0": "CHA",
+    "12.0": "Na-Bai",
+    "49.0": "Otros partidos",
+    "96.0": "Votar en blanco",
+    "97.0": "Abstenerse",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s32": {
+    "1.0": "No pude votar",
+    "2.0": "No quise ir a votar",
+    "3.0": "Normalmente voto, pero esta vez no quise hacerlo",
+    "4.0": "Sí que voté",
+    "9.0": "N.C."
+  },
+  "s32a": {
+    "1.0": "Nunca vota",
+    "2.0": "Lo tenía decidido desde hace bastante tiempo",
+    "3.0": "Lo decidió al comienzo de la campaña electoral",
+    "4.0": "Lo decidió durante la última semana de la campaña",
+    "5.0": "Lo decidió el mismo día de la votación",
+    "9.0": "N.C."
+  },
+  "s32b01": {
+    "1.0": "No hay ninguna alternativa que me satisfaga",
+    "2.0": "Estoy harto/a de política y elecciones",
+    "3.0": "Da lo mismo votar que no votar, no sirve para nada",
+    "4.0": "Estoy desorientado/a, no sé a quién votar",
+    "5.0": "No me inspiran confianza ni partidos ni políticos",
+    "6.0": "Para mostrar mi descontento",
+    "7.0": "Por motivos de salud, de trabajo, familiares",
+    "8.0": "No estoy censado",
+    "9.0": "Otros motivos",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s32b02": {
+    "1.0": "No hay ninguna alternativa que me satisfaga",
+    "2.0": "Estoy harto/a de política y elecciones",
+    "3.0": "Da lo mismo votar que no votar, no sirve para nada",
+    "4.0": "Estoy desorientado/a, no sé a quién votar",
+    "5.0": "No me inspiran confianza ni partidos ni políticos",
+    "6.0": "Para mostrar mi descontento",
+    "7.0": "Por motivos de salud, de trabajo, familiares",
+    "8.0": "No estoy censado",
+    "9.0": "Otros motivos",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s32c": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IU (ICV en Cataluña)",
+    "4.0": "UPyD",
+    "5.0": "CiU",
+    "6.0": "ERC",
+    "7.0": "PNV",
+    "8.0": "BNG",
+    "9.0": "CC",
+    "10.0": "EA",
+    "11.0": "CHA",
+    "12.0": "Na-Bai",
+    "49.0": "Otros partidos",
+    "96.0": "En blanco",
+    "97.0": "Ninguno",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s33": {
+    "1.0": "Lo tenía decidido desde hace bastante tiempo",
+    "2.0": "Lo decidió al comienzo de la campaña electoral",
+    "3.0": "Lo decidió durante la última semana de la campaña",
+    "4.0": "Lo decidió el mismo día de la votación",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s34": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IU (ICV en Cataluña)",
+    "4.0": "UPyD",
+    "5.0": "CiU",
+    "6.0": "ERC",
+    "7.0": "PNV",
+    "8.0": "BNG",
+    "9.0": "CC",
+    "10.0": "EA",
+    "11.0": "CHA",
+    "12.0": "Na-Bai",
+    "49.0": "Otros partidos",
+    "96.0": "En blanco",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s35": {
+    "1.0": "Con convicción",
+    "2.0": "Con ciertas dudas",
+    "3.0": "Porque se trataba de un mal menor",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s36a": {
+    "1.0": "Por José Luís Rodríguez Zapatero",
+    "2.0": "Porque es mi partido y siempre lo voto",
+    "3.0": "Porque es el más capacitado para gobernar en Españ",
+    "4.0": "Porque es el que mejor representa mis ideas",
+    "5.0": "Por su actuación durante los últimos cuatro años",
+    "6.0": "Para evitar que ganase el PP",
+    "7.0": "Otras respuestas",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s36b": {
+    "1.0": "Por Mariano Rajoy",
+    "2.0": "Porque es mi partido y siempre lo voto",
+    "3.0": "Porque es el más capacitado para gobernar en Españ",
+    "4.0": "Porque es el que mejor representa mis ideas",
+    "5.0": "Por su actuación durante los últimos cuatro años",
+    "6.0": "Para echar al Gobierno del PSOE",
+    "7.0": "Otras respuestas",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s36c": {
+    "1.0": "Por Gaspar Llamazares",
+    "2.0": "Porque es mi partido y siempre lo voto",
+    "3.0": "Porque es el más capacitado para gobernar en Españ",
+    "4.0": "Porque es el que mejor representa mis ideas",
+    "5.0": "Por su actuación durante los últimos cuatro años",
+    "6.0": "Por la posibilidad de que haya una política de izquierdas",
+    "7.0": "Otras respuestas",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s37": {
+    "1.0": "Mucha alegría",
+    "2.0": "Bastante alegría",
+    "3.0": "Poca alegría",
+    "4.0": "Ninguna alegría",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s38": {
+    "1.0": "Mucho miedo",
+    "2.0": "Bastante miedo",
+    "3.0": "Poco miedo",
+    "4.0": "Ningún miedo",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s39": {
+    "1.0": "Mucha alegría",
+    "2.0": "Bastante alegría",
+    "3.0": "Poca alegría",
+    "4.0": "Ninguna alegría",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s40": {
+    "1.0": "Mucho miedo",
+    "2.0": "Bastante miedo",
+    "3.0": "Poco miedo",
+    "4.0": "Ningún miedo",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s41": {
+    "1.0": "Extrema izquierda",
+    "10.0": "Extrema derecha",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s44": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "9.0": "N.C."
+  },
+  "s44a": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IU (ICV en Cataluña)",
+    "4.0": "UPyD",
+    "5.0": "CiU",
+    "6.0": "ERC",
+    "7.0": "PNV",
+    "8.0": "BNG",
+    "9.0": "CC",
+    "10.0": "EA",
+    "11.0": "CHA",
+    "12.0": "Na-Bai",
+    "49.0": "Otro partido",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s44b": {
+    "1.0": "Muy cercano",
+    "2.0": "Bastante cercano",
+    "3.0": "Algo cercano",
+    "9.0": "N.C."
+  },
+  "s45": {
+    "1.0": "Me siento únicamente español",
+    "2.0": "Me siento más español que de mi comunidad autónoma",
+    "3.0": "Me siento tan español como de mi comunidad autónoma",
+    "4.0": "Me siento más de mi comunidad autónoma que español",
+    "5.0": "Me siento únicamente de mi comunidad autónoma",
+    "7.0": "Ninguna de las anteriores",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s46": {
+    "1.0": "Mínimo nacionalismo",
+    "10.0": "Máximo nacionalismo",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s4701": {
+    "1.0": "Mínimo nacionalismo",
+    "10.0": "Máximo nacionalismo",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s4702": {
+    "1.0": "Mínimo nacionalismo",
+    "10.0": "Máximo nacionalismo",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s4703": {
+    "1.0": "Mínimo nacionalismo",
+    "10.0": "Máximo nacionalismo",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s4704": {
+    "1.0": "Mínimo nacionalismo",
+    "10.0": "Máximo nacionalismo",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s4705": {
+    "1.0": "Mínimo nacionalismo",
+    "10.0": "Máximo nacionalismo",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s4706": {
+    "1.0": "Mínimo nacionalismo",
+    "10.0": "Máximo nacionalismo",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s4707": {
+    "1.0": "Mínimo nacionalismo",
+    "10.0": "Máximo nacionalismo",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s4708": {
+    "1.0": "Mínimo nacionalismo",
+    "10.0": "Máximo nacionalismo",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s4709": {
+    "1.0": "Mínimo nacionalismo",
+    "10.0": "Máximo nacionalismo",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s4710": {
+    "1.0": "Mínimo nacionalismo",
+    "10.0": "Máximo nacionalismo",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s4711": {
+    "1.0": "Mínimo nacionalismo",
+    "10.0": "Máximo nacionalismo",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s48": {
+    "1.0": "Muy orgulloso",
+    "2.0": "Bastante orgulloso",
+    "3.0": "Poco orgulloso",
+    "4.0": "Nada orgulloso",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s49": {
+    "1.0": "Correcto (José María Aznar)",
+    "2.0": "Incorrecto",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s51": {
+    "1.0": "Correcto (No)",
+    "2.0": "Incorrecto",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s5201": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s5202": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s5203": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s5204": {
+    "1.0": "Muy buena",
+    "2.0": "Buena",
+    "3.0": "Regular",
+    "4.0": "Mala",
+    "5.0": "Muy mala",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s53": {
+    "1.0": "Dudó entre varios partidos o coaliciones",
+    "2.0": "Dudó entre un partido o coalición y la abstención",
+    "3.0": "Tenía decidido votar por un partido o coalición",
+    "4.0": "Tenía decidido abstenerse",
+    "9.0": "N.C."
+  },
+  "s53a01": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IULV-CA",
+    "4.0": "Coalición Andalucista",
+    "5.0": "Otros partidos",
+    "6.0": "Votar en blanco",
+    "7.0": "Abstenerse",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s53a02": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IULV-CA",
+    "4.0": "Coalición Andalucista",
+    "5.0": "Otros partidos",
+    "6.0": "Votar en blanco",
+    "7.0": "Abstenerse",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s54": {
+    "1.0": "No pude votar",
+    "2.0": "No quise ir a votar",
+    "3.0": "Normalmente voto, pero esta vez no quise hacerlo",
+    "4.0": "Sí que voté",
+    "9.0": "N.C."
+  },
+  "s54a": {
+    "1.0": "Nunca vota en las elecciones autonómicas",
+    "2.0": "Lo tenía decidido desde hace bastante tiempo",
+    "3.0": "Lo decidió al comienzo de la campaña electoral",
+    "4.0": "Lo decidió durante la última semana de la campaña",
+    "5.0": "Lo decidió el mismo día de la votación",
+    "9.0": "N.C."
+  },
+  "s54b01": {
+    "1.0": "No hay ninguna alternativa que me satisfaga",
+    "2.0": "Estoy harto/a de política y elecciones",
+    "3.0": "Da lo mismo votar que no votar, no sirve para nada",
+    "4.0": "Estoy desorientado/a, no sé a quién votar",
+    "5.0": "No me inspiran confianza ni partidos ni políticos",
+    "6.0": "Para mostrar mi descontento",
+    "7.0": "Las elecciones autonómicas no sirven para nada",
+    "8.0": "Ya sabía quien iba a ganar y mi voto no servía para nada",
+    "9.0": "Por motivos de salud, de trabajo, familiares",
+    "10.0": "No estoy censado",
+    "11.0": "Otros motivos",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s54b02": {
+    "1.0": "No hay ninguna alternativa que me satisfaga",
+    "2.0": "Estoy harto/a de política y elecciones",
+    "3.0": "Da lo mismo votar que no votar, no sirve para nada",
+    "4.0": "Estoy desorientado/a, no sé a quién votar",
+    "5.0": "No me inspiran confianza ni partidos ni políticos",
+    "6.0": "Para mostrar mi descontento",
+    "7.0": "Las elecciones autonómicas no sirven para nada",
+    "8.0": "Ya sabía quien iba a ganar y mi voto no servía para nada",
+    "9.0": "Por motivos de salud, de trabajo, familiares",
+    "10.0": "No estoy censado",
+    "11.0": "Otros motivos",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s54c": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IULV-CA",
+    "4.0": "Coalición Andalucista",
+    "5.0": "Otros partidos",
+    "6.0": "En blanco",
+    "7.0": "Ninguno",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s55": {
+    "1.0": "Lo tenía decidido desde hace bastante tiempo",
+    "2.0": "Lo decidió al comienzo de la campaña electoral",
+    "3.0": "Lo decidió durante la última semana de la campaña",
+    "4.0": "Lo decidió el mismo día de la votación",
+    "9.0": "N.C."
+  },
+  "s56": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IULV-CA",
+    "4.0": "Coalición Andalucista",
+    "5.0": "Otros partidos",
+    "6.0": "En blanco",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s57": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IU",
+    "4.0": "CiU (ICV en Cataluña)",
+    "5.0": "ERC",
+    "6.0": "PNV",
+    "7.0": "BNG",
+    "8.0": "CC",
+    "9.0": "EA",
+    "10.0": "CHA",
+    "11.0": "Na-Bai",
+    "12.0": "Otros partidos",
+    "95.0": "No tenía edad para votar",
+    "96.0": "En blanco",
+    "97.0": "No votó",
+    "98.0": "No recuerda",
+    "99.0": "N.C."
+  },
+  "s5801": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s5802": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s5803": {
+    "1.0": "Sí",
+    "2.0": "No",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s58a": {
+    "1.0": "Completamente pagada",
+    "2.0": "Está pagándose",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s59": {
+    "1.0": "Casado/a",
+    "2.0": "Soltero/a",
+    "3.0": "Viudo/a",
+    "4.0": "Separado/a",
+    "5.0": "Divorciado/a",
+    "9.0": "N.C."
+  },
+  "s60": {
+    "1.0": "Con su marido/mujer (con o sin hijos)",
+    "2.0": "Con su pareja (con o sin hijos)",
+    "3.0": "Solo/a con sus hijos",
+    "4.0": "Solo/a",
+    "5.0": "Otra situación",
+    "9.0": "N.C."
+  },
+  "s61": {
+    "1.0": "No, es analfabeto",
+    "2.0": "No, pero sabe leer y escribir",
+    "3.0": "Sí, ha ido a la escuela",
+    "9.0": "N.C."
+  },
+  "s61a": {
+    "1.0": "Menos de 5 años de escolarización",
+    "2.0": "Educación primaria de LOGSE",
+    "3.0": "ESO o Bachiller elemental",
+    "4.0": "Formación Profesional de grado medio",
+    "5.0": "Bachillerato de LOGSE",
+    "6.0": "Formación Profesional de grado superior",
+    "7.0": "Arquitecto e Ingeniero Técnico",
+    "8.0": "Diplomado",
+    "9.0": "Arquitecto e Ingeniero Superior",
+    "10.0": "Licenciado",
+    "11.0": "Estudios de Postgrado o especialización",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "s62": {
+    "1.0": "Católico",
+    "2.0": "Creyente de otra religión",
+    "3.0": "No creyente",
+    "4.0": "Ateo",
+    "9.0": "N.C."
+  },
+  "s62a": {
+    "1.0": "Casi nunca",
+    "2.0": "Varias veces al año",
+    "3.0": "Alguna vez al mes",
+    "4.0": "Casi todos los domingos y festivos",
+    "5.0": "Varias veces a la semana",
+    "9.0": "N.C."
+  },
+  "s63": {
+    "1.0": "El entrevistado",
+    "2.0": "Otra persona",
+    "3.0": "(NO LEER) El entrevistado y otro a partes iguales",
+    "9.0": "N.C."
+  },
+  "s64": {
+    "1.0": "Trabaja",
+    "2.0": "Jubilado o pensionista (anteriormente ha trabajado)",
+    "3.0": "Pensionista (antes no ha trabajado, sus labores, etc.)",
+    "4.0": "Parado y ha trabajado antes",
+    "5.0": "Parado y busca su primer empleo",
+    "6.0": "Estudiante",
+    "7.0": "Trabajo doméstico no remunerado",
+    "8.0": "Otra situación",
+    "9.0": "N.C."
+  },
+  "s66": {
+    "1.0": "Asalariado fijo (a sueldo, comisión, jornal, etc.)",
+    "2.0": "Asalariado eventual o interino (a sueldo, comisión, jornal)",
+    "3.0": "Empresario o profesional con asalariados",
+    "4.0": "Profesional o trabajador autónomo (sin asalariados)",
+    "5.0": "Ayuda familiar (sin remuneración reglamentada)",
+    "6.0": "Miembro de una cooperativa",
+    "7.0": "Otra situación",
+    "9.0": "N.C."
+  },
+  "s66a": {
+    "1.0": "Administración Pública",
+    "2.0": "Empresa pública",
+    "3.0": "Empresa privada",
+    "4.0": "Organización sin fines de lucro",
+    "5.0": "Servicio doméstico",
+    "6.0": "Otros",
+    "9.0": "N.C."
+  },
+  "s67": {
+    "1.0": "Agricultura, ganadería, caza, selvicultura",
+    "5.0": "Pesca, acuicultura",
+    "10.0": "Extracción de productos energéticos",
+    "12.0": "Extracción de otros minerales",
+    "15.0": "Industrias de la alimentación, bebidas y tabaco",
+    "17.0": "Industria textil de la confección",
+    "19.0": "Industria del cuero y del calzado",
+    "20.0": "Industria de la madera y el corcho",
+    "21.0": "Industria del papel",
+    "23.0": "Refino de petróleo, coquerías y combustibles nucleares",
+    "24.0": "Industria química",
+    "25.0": "Fabricación de productos de caucho y materias plásticas",
+    "26.0": "Fabricación de otros productos minerales no metálicos",
+    "27.0": "Metalurgia y fabricación de productos metálicos",
+    "29.0": "Fabricación de equipos mecánicos: oficina e informáticos",
+    "31.0": "Industria de material y equipo electrónico",
+    "34.0": "Fabricación de todo tipo de material de transporte",
+    "36.0": "Fabricación de muebles",
+    "40.0": "Producción y distribución de energía eléctrica, gas y agua",
+    "45.0": "Construcción, climatización, e instalaciones eléctricas",
+    "50.0": "Comercio: farmacias y todo tipo de reparaciones",
+    "55.0": "Hostelería",
+    "60.0": "Transporte, almacenamiento, correos, comunicaciones",
+    "65.0": "Intermediación financiera",
+    "70.0": "Actividades inmobiliarias, informáticas, consultorías",
+    "75.0": "Administración pública, defensa, seguridad social",
+    "80.0": "Educación",
+    "85.0": "Actividades sanitarias y veterinarias",
+    "90.0": "Actividades de saneamiento público",
+    "91.0": "Actividades asociativas diversas",
+    "92.0": "Actividades recreativas, culturales y deportivas",
+    "93.0": "Actividades diversas de servicios personales",
+    "95.0": "Hogares que emplean personal doméstico",
+    "96.0": "Organismos extraterritoriales",
+    "99.0": "N.C."
+  },
+  "s68": {
+    "1.0": "Menos o igual a 300 euros",
+    "2.0": "De 301 a 600 euros",
+    "3.0": "De 601 a 900 euros",
+    "4.0": "De 901 a 1200 euros",
+    "5.0": "De 1201 a 1800 euros",
+    "6.0": "De 1801 a 2400 euros",
+    "7.0": "De 2401 a 3000 euros",
+    "8.0": "De 3001 a 4500 euros",
+    "9.0": "De 4501 a 6000 euros",
+    "10.0": "Más de 6000 euros",
+    "99.0": "N.C."
+  },
+  "s69": {
+    "1.0": "Alta",
+    "2.0": "Media alta",
+    "3.0": "Media media",
+    "4.0": "Media baja",
+    "5.0": "Baja",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "s70": {
+    "1.0": "Tiene la nacionalidad española desde su nacimiento",
+    "2.0": "La ha adquirido con posterioridad",
+    "9.0": "N.C."
+  },
+  "s70b": {
+    "1.0": "Española",
+    "2.0": "Alemana",
+    "3.0": "Argentina",
+    "4.0": "Austriaca",
+    "5.0": "Belga",
+    "6.0": "Boliviana",
+    "7.0": "Brasileña",
+    "8.0": "Británica",
+    "9.0": "Búlgara",
+    "10.0": "Chilena",
+    "11.0": "China",
+    "12.0": "Colombiana",
+    "13.0": "Dominicana",
+    "14.0": "Ecuatoriana",
+    "15.0": "Egipcia",
+    "16.0": "Estona",
+    "17.0": "Francesa",
+    "18.0": "Guineana",
+    "19.0": "India",
+    "20.0": "Italiana",
+    "21.0": "Malinense",
+    "22.0": "Marroquí",
+    "23.0": "Mauritana",
+    "24.0": "Mejicana",
+    "25.0": "Nicaragüense",
+    "26.0": "Pakistaní",
+    "27.0": "Paraguaya",
+    "28.0": "Peruana",
+    "29.0": "Polaca",
+    "30.0": "Portuguesa",
+    "31.0": "Rumana",
+    "32.0": "Rusa",
+    "33.0": "Senegalesa",
+    "34.0": "Sueca",
+    "35.0": "Suiza",
+    "36.0": "Uruguaya",
+    "37.0": "Venezolana",
+    "38.0": "Iraquí",
+    "39.0": "Cubana",
+    "40.0": "Ucraniana",
+    "41.0": "Nigeriana",
+    "42.0": "Ghanesa",
+    "43.0": "Camerunesa",
+    "44.0": "Gambiana",
+    "45.0": "Griega",
+    "46.0": "Hondureña",
+    "47.0": "Coreana",
+    "48.0": "Maltesa",
+    "49.0": "Holandesa",
+    "50.0": "Finlandesa",
+    "51.0": "Filipina",
+    "52.0": "Moldava",
+    "53.0": "Lituana",
+    "54.0": "Armenia",
+    "55.0": "Estadounidense",
+    "56.0": "Húngara",
+    "57.0": "Mozambiqueña",
+    "58.0": "Yugoslava",
+    "59.0": "Argelina",
+    "60.0": "Irlandesa",
+    "61.0": "Japonesa",
+    "62.0": "Croata",
+    "63.0": "Canadiense",
+    "64.0": "Sudafricana",
+    "65.0": "Noruega",
+    "66.0": "Siria",
+    "67.0": "Australiana",
+    "68.0": "Panameña",
+    "69.0": "Jordana",
+    "70.0": "Danesa",
+    "71.0": "Georgiana",
+    "72.0": "Checa",
+    "73.0": "Congoleña",
+    "74.0": "Bangladesa",
+    "75.0": "Salvadoreña",
+    "76.0": "Angoleña",
+    "77.0": "Eslovaca",
+    "78.0": "Iraní",
+    "79.0": "Sierraleonesa",
+    "80.0": "Tunecina",
+    "81.0": "Guatemalteca",
+    "82.0": "Caboverdiana",
+    "83.0": "Libanesa",
+    "84.0": "Sudanesa",
+    "85.0": "Tailandesa",
+    "99.0": "N.C."
+  },
+  "s26a0101": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0102": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0103": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0104": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0105": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0106": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0107": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0201": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0202": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0203": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0204": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0205": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0206": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0207": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0301": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0302": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0303": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0304": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0305": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0306": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0307": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0401": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0402": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0403": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0404": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0405": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0406": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0407": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0501": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0502": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0503": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0504": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0505": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0506": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0507": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0601": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0602": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0603": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0604": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0605": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0606": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0607": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0701": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0702": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0703": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0704": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0705": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0706": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0707": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0801": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0802": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0803": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0804": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0805": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0806": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0807": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0901": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0902": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0903": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0904": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0905": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0906": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a0907": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1001": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1002": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1003": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1004": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1005": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1006": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1007": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1101": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1102": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1103": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1104": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1105": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1106": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1107": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1201": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1202": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1203": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1204": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1205": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1206": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1207": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1301": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "s26a1302": {
+    "1.0": "Correo postal",
+    "2.0": "E-mail",
+    "3.0": "Mensaje SMS",
+    "4.0": "Teléfono",
+    "5.0": "En persona",
+    "8.0": "Otro medio",
+    "9.0": "N.C."
+  },
+  "VOTOSIM": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IU/ICV",
+    "4.0": "CiU",
+    "5.0": "ERC",
+    "6.0": "PNV",
+    "7.0": "BNG",
+    "8.0": "CC",
+    "9.0": "EA",
+    "10.0": "CHA",
+    "11.0": "Na-Bai",
+    "12.0": "PA",
+    "13.0": "PAR",
+    "14.0": "PSM-EN",
+    "15.0": "UM",
+    "16.0": "PRC",
+    "17.0": "UPL",
+    "18.0": "Ciutadans-PC",
+    "19.0": "CDN",
+    "20.0": "ANV",
+    "21.0": "Aralar",
+    "22.0": "PR",
+    "23.0": "CpM",
+    "24.0": "UPyD",
+    "25.0": "Bloc",
+    "26.0": "Otro partido",
+    "97.0": "Ninguno",
+    "98.0": "N.S.",
+    "99.0": "N.C."
+  },
+  "VOTOSIM2": {
+    "1.0": "PSOE",
+    "2.0": "PP",
+    "3.0": "IULV-CA",
+    "4.0": "PA-PSA",
+    "5.0": "Otro",
+    "7.0": "Ninguno",
+    "8.0": "N.S.",
+    "9.0": "N.C."
+  },
+  "ESTUDIOS": {
+    "1.0": "Sin estudios",
+    "2.0": "Primaria",
+    "3.0": "Secundaria",
+    "4.0": "F.P.",
+    "5.0": "Medios universitarios",
+    "6.0": "Superiores",
+    "9.0": "N.C."
+  },
+  "CONDICION": {
+    "1.0": "Directores y profesionales",
+    "2.0": "Técnicos y cuadro medios",
+    "3.0": "Pequeños empresarios",
+    "4.0": "Agricultores",
+    "5.0": "Empleados de oficinas y servicios",
+    "6.0": "Obreros cualificados",
+    "7.0": "Obreros no cualificados",
+    "8.0": "Jubilados y pensionistas",
+    "9.0": "Parados",
+    "10.0": "Estudiantes",
+    "11.0": "Sus labores",
+    "12.0": "No clasificables"
+  },
+  "ESTATUS": {
+    "1.0": "Clase alta/ media-alta",
+    "2.0": "Nuevas clases medias",
+    "3.0": "Viejas clases medias",
+    "4.0": "Obreros cualificados",
+    "5.0": "Obreros no cualificados"
+  },
+  "OCUPA": {
+    "1.0": "Dirección de empresas y administraciones públicas",
+    "2.0": "Técnicos y profesionales científicos e intelectuales",
+    "3.0": "Técnicos y profesionales de apoyo",
+    "4.0": "Empleados de tipo administrativo",
+    "5.0": "Trabajadores de servicios de restauración y personales",
+    "6.0": "Trabajadores cualificados de agricultura y pesca",
+    "7.0": "Artesanos y trabajadores cualificados de la industria",
+    "8.0": "Operadores de maquinaria y montadores",
+    "9.0": "Trabajadores no cualificados",
+    "10.0": "Fuerzas armadas",
+    "99.0": "N.C."
+  }
+}

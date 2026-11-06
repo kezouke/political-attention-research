@@ -1,0 +1,67 @@
+{
+  "n_pre": 17452,
+  "n_followup_planned": 7798,
+  "n_post": 6242,
+  "n_official_panel": 6242,
+  "panel_id_and_repeated_answers_verified_against_pre": false,
+  "n_panel_ids_present_in_separate_pre_release": 6241,
+  "repeated_value_agreement_fraction": {
+    "P4": 0.9998397949375201,
+    "P5": 0.9998397949375201,
+    "P27": 0.9983979493752002,
+    "P28": 0.9977571291252804
+  },
+  "linkage_basis": "Official producer-supplied joint panel 7715. Independent exact join to separate 3117 release not used.",
+  "pre_fieldwork": [
+    "2015-10-27",
+    "2015-11-16"
+  ],
+  "post_fieldwork": [
+    "2016-01-07",
+    "2016-03-19"
+  ],
+  "election": "2015-12-20",
+  "joint": [
+    {
+      "comparison": "pre_economy_government_and_post_named_vote",
+      "variables": "P4|P5|PP31R",
+      "n": 4638,
+      "kish_n_weight_only": 4172.549705963809,
+      "note": "Kish count describes weight dispersion, not full survey design or identification."
+    },
+    {
+      "comparison": "post_economy_priority_party_trust_and_named_vote",
+      "variables": "PP8|PP301|PP602|PP31R",
+      "n": 4613,
+      "kish_n_weight_only": 4147.42832054986,
+      "note": "Kish count describes weight dispersion, not full survey design or identification."
+    },
+    {
+      "comparison": "pre_economy_government_post_priority_trust_named_vote",
+      "variables": "P4|P5|PP301|PP602|PP31R",
+      "n": 4561,
+      "kish_n_weight_only": 4100.425718095485,
+      "note": "Kish count describes weight dispersion, not full survey design or identification."
+    },
+    {
+      "comparison": "pre_intention_and_post_named_vote",
+      "variables": "P11R|PP31R",
+      "n": 3410,
+      "kish_n_weight_only": 3083.67704188505,
+      "note": "Kish count describes weight dispersion, not full survey design or identification."
+    },
+    {
+      "comparison": "all_three_explanations_measured_before_election",
+      "variables": "absent",
+      "n": 0,
+      "kish_n_weight_only": 0,
+      "note": "No direct priority or political elite trust question in pre-election wave."
+    }
+  ],
+  "limitations": [
+    "No pre-election trust or issue priority measure.",
+    "Follow-up selects sections and consenting respondents; 6242/17452 is not response rate.",
+    "No crisis-free counterfactual; all observations are years after 2008.",
+    "Unspecified other party and nonvoters excluded only from named-party audit counts, not from future turnout analysis."
+  ]
+}

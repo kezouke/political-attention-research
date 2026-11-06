@@ -1,0 +1,64 @@
+{
+  "release_doi": "10.48420/25460980.v1",
+  "release_file_md5": "6f491d68d877423201bd725c533fdd5e",
+  "all_release_rows": 772439,
+  "all_release_distinct_people": 110750,
+  "waves_1_19_rows": 605782,
+  "waves_1_19_distinct_people": 96135,
+  "pairs": [
+    {
+      "election_year": 2015,
+      "pre_wave": 4,
+      "post_wave": 6,
+      "n_pre": 31328,
+      "n_post": 30073,
+      "n_same_person": 27603,
+      "n_pre_all_three_and_post_named_vote": 22398,
+      "n_also_pre_named_intention": 20732,
+      "n_also_pre_government_approval": 22231,
+      "n_also_pre_intention_and_government_approval": 20612,
+      "n_positive_pre_weight_among_joint": 22398,
+      "longitudinal_weight_verified": false,
+      "pre_crisis_baseline": false
+    },
+    {
+      "election_year": 2017,
+      "pre_wave": 10,
+      "post_wave": 13,
+      "n_pre": 30236,
+      "n_post": 31135,
+      "n_same_person": 20979,
+      "n_pre_all_three_and_post_named_vote": 16175,
+      "n_also_pre_named_intention": 13382,
+      "n_also_pre_government_approval": 15923,
+      "n_also_pre_intention_and_government_approval": 13240,
+      "n_positive_pre_weight_among_joint": 16175,
+      "longitudinal_weight_verified": false,
+      "pre_crisis_baseline": false
+    },
+    {
+      "election_year": 2019,
+      "pre_wave": 17,
+      "post_wave": 19,
+      "n_pre": 34366,
+      "n_post": 32177,
+      "n_same_person": 23315,
+      "n_pre_all_three_and_post_named_vote": 17950,
+      "n_also_pre_named_intention": 15981,
+      "n_also_pre_government_approval": 17708,
+      "n_also_pre_intention_and_government_approval": 15798,
+      "n_positive_pre_weight_among_joint": 17950,
+      "longitudinal_weight_verified": false,
+      "pre_crisis_baseline": false
+    }
+  ],
+  "cautions": [
+    "No observation before 2014, no identification of a 2008 crisis effect.",
+    "Online YouGov panel; attrition, selection and longitudinal weights need audit before population claims.",
+    "Trust in MPs is not itself a full populist-attitude scale or a measure of exposure to party rhetoric.",
+    "The collapsed MII categories do not isolate corruption, elite blame, or every economic concern.",
+    "Named party counts exclude unspecified other party, nonvoting and missing; future models must retain separate abstention outcomes.",
+    "Pre-election temporal order does not remove party-driven perceptions or time-varying confounding.",
+    "Do not use profile attributes collected at wave 25 as baseline historical controls."
+  ]
+}

@@ -1,0 +1,25 @@
+study,variable,code,label,corruption_offered_separately
+7708,s301,1,El paro,False
+7708,s301,2,El terrorismo,False
+7708,s301,3,La inseguridad ciudadana,False
+7708,s301,4,La vivienda,False
+7708,s301,5,La economía,False
+7708,s301,6,La inmigración,False
+7708,s301,7,La sanidad,False
+7708,s301,8,La educación,False
+7708,s301,9,El medio ambiente,False
+7708,s301,10,Otras respuestas,False
+7708,s301,98,N.S.,False
+7708,s301,99,N.C.,False
+2920,p301,1,El paro,False
+2920,p301,2,El terrorismo,False
+2920,p301,3,La inseguridad ciudadana,False
+2920,p301,4,La vivienda,False
+2920,p301,5,La economía,False
+2920,p301,6,La inmigración,False
+2920,p301,7,La sanidad,False
+2920,p301,8,La educación,False
+2920,p301,9,El medio ambiente,False
+2920,p301,10,Otras respuestas,False
+2920,p301,98,N.S.,False
+2920,p301,99,N.C.,False

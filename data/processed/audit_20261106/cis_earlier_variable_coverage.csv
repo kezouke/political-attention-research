@@ -1,0 +1,18 @@
+study,election_year,variable,concept,timing,n,valid_n,valid_min,valid_max,source_label
+7708,2008,s17,national_economy_current,post_election,6083,5981,1,5,
+7708,2008,s301,personal_priority_first,post_election,6083,6011,1,10,En primer lugar
+7708,2008,s601,trust_parliament,post_election,6083,5491,0,10,El Parlamento español
+7708,2008,s602,trust_parties,post_election,6083,5606,0,10,Los partidos políticos
+7708,2008,s201,rulers_seek_personal_interests,post_election,6083,5758,1,4,"Esté quien esté en el poder, siempre busca sus intereses personales"
+7708,2008,s203,politicians_do_not_care,post_election,6083,5773,1,4,Los políticos no se preocupan mucho de la gente como yo
+7708,2008,s34,named_party_vote,post_election,6083,4455,1,12,
+2920,2011,p8,national_economy_current,post_election,6082,6039,1,5,
+2920,2011,p9,national_economy_retrospective_4_years,post_election,6082,5998,1,5,
+2920,2011,p301,personal_priority_first,post_election,6082,6060,1,10,En primer lugar
+2920,2011,p601,trust_parliament,post_election,6082,5609,0,10,El Parlamento español
+2920,2011,p602,trust_parties,post_election,6082,5837,0,10,Los partidos políticos
+2920,2011,p203,rulers_seek_personal_interests,post_election,6082,5838,1,4,"Esté quien esté en el poder, siempre busca sus intereses personales"
+2920,2011,p201,politicians_do_not_care,post_election,6082,5861,1,4,Los/as políticos/as no se preocupan mucho de lo que piensa la gente como yo
+2920,2011,p36,named_party_vote,post_election,6082,4307,1,14,
+2920,2011,p1101,crisis_responsibility_government,post_election,6082,5862,1,5,El Gobierno Español
+2920,2011,p1105,crisis_responsibility_banks,post_election,6082,5781,1,5,Los bancos

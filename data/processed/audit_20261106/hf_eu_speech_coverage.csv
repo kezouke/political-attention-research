@@ -1,0 +1,7 @@
+speech_id,speaker,date,location,sentences
+2014_05_22_tsipras.txt,Alexis Tsipras,2014-05-22,"Athens, GR",210
+2015_09_18_tsipras.txt,Alexis Tsipras,2015-09-18,"Athens, GR",200
+2022_03_27_zemmour.txt,Eric Zemmour,2022-03-27,"Paris, FR",492
+2022_09_18_lepen.txt,Marine Le Pen,2022-09-18,"Paris, FR",143
+2024_09_07_kickl.txt,Herbert Kickl,2024-09-07,"Vienna, AT",546
+2025_01_11_weidel.txt,Alice Weidel,2025-01-11,"Berlin, DE",171

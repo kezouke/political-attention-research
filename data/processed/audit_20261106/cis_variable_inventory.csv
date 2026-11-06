@@ -1,0 +1,1034 @@
+study,variable,start_1_based,end_1_based,declared_decimals,source_label
+3117,ESTU,1,4,0,
+3117,CUES,5,9,0,
+3117,CCAA,10,11,0,Comunidad autónoma
+3117,PROV,12,13,0,Provincia
+3117,MUN,14,16,0,Municipio
+3117,TAMUNI,17,17,0,Tamaño de hábitat
+3117,CAPITAL,18,18,0,Capital
+3117,DISTR,19,20,0,
+3117,SECCION,21,23,0,
+3117,ENTREV,24,27,0,
+3117,TIPO,28,28,0,Tipo cuestionario
+3117,P0A,29,29,0,Nacionalidad de la persona entrevistada
+3117,P0B,30,31,0,Nacionalidad de la persona entrevistada (extranjeros)
+3117,P1,32,32,0,Grado de interés por la política
+3117,P2,33,33,0,Frecuencia con la que se habla de política con diferentes personas del entorno social próximo
+3117,P3,34,34,0,Valoración de la situación política general de España
+3117,P4,35,35,0,Valoración de la situación económica general de España
+3117,P5,36,36,0,Valoración de la gestión del gobierno central del PP (4 años)
+3117,P6,37,37,0,Valoración de una posible gestión del gobierno central si gobernase el PSOE
+3117,P7,38,38,0,Valoración de la labor de oposición del PSOE al gobierno central del PP (4 años)
+3117,P801,39,39,0,El empleo
+3117,P802,40,40,0,La educación
+3117,P803,41,41,0,La sanidad
+3117,P804,42,42,0,La economía
+3117,P805,43,43,0,La Unión Europea
+3117,P806,44,44,0,La política social
+3117,P807,45,45,0,La seguridad ciudadana
+3117,P808,46,46,0,La vivienda
+3117,P809,47,47,0,La inmigración
+3117,P810,48,48,0,El Estado de las autonomías
+3117,P811,49,49,0,El medio ambiente
+3117,P812,50,50,0,La política exterior
+3117,P813,51,51,0,La igualdad entre hombres y mujeres
+3117,P814,52,52,0,Las infraestructuras
+3117,P901,53,54,0,El empleo
+3117,P902,55,56,0,La educación
+3117,P903,57,58,0,La sanidad
+3117,P904,59,60,0,La economía
+3117,P905,61,62,0,La Unión Europea
+3117,P906,63,64,0,La política social
+3117,P907,65,66,0,La seguridad ciudadana
+3117,P908,67,68,0,La vivienda
+3117,P909,69,70,0,La inmigración
+3117,P910,71,72,0,El Estado de las autonomías
+3117,P911,73,74,0,El medio ambiente
+3117,P912,75,76,0,La política exterior
+3117,P913,77,78,0,La igualdad entre hombres y mujeres
+3117,P914,79,80,0,Las infraestructuras
+3117,P10,81,81,0,Intención de ir a votar en las elecciones generales de 2015
+3117,P10A,82,82,0,Decisión de votar a un partido en las elecciones generales de 2015
+3117,P10B01,83,84,0,Partidos políticos entre los que se duda el voto en las elecciones generales de 2015 (2)
+3117,P10B02,85,86,0,Partidos políticos entre los que se duda el voto en las elecciones generales de 2015 (2)
+3117,P11,87,88,0,Intención de voto en las elecciones generales de 2015
+3117,P12,89,90,0,Partido político por el que se siente más simpatía en las elecciones generales de 2015 (sin filtro)
+3117,P13,91,92,0,Partido político que se cree va a ganar las elecciones generales de 2015
+3117,P14,93,94,0,Partido político que gustaría que fuera ganador en las elecciones generales de 2015
+3117,P15,95,95,0,Preferencia por el resultado de las elecciones generales de 2015
+3117,P16,96,96,0,Preferencia por el gobierno de un partido distinto al actual
+3117,P1701,97,98,0,Enrique Álvarez Sostres
+3117,P1702,99,100,0,Joan Baldoví Roda
+3117,P1703,101,102,0,Koldo Martínez
+3117,P1704,103,104,0,Alfred Bosch
+3117,P1705,105,106,0,Andrés Herzog
+3117,P1706,107,108,0,Josep A. Duran i Lleida
+3117,P1707,109,110,0,Aitor Esteban
+3117,P1708,111,112,0,Xabier Mikel Errekondo
+3117,P1709,113,114,0,María Olaia Fernández
+3117,P1710,115,116,0,Alberto Garzón
+3117,P1711,117,118,0,Pablo Iglesias
+3117,P1712,119,120,0,Pere Macías
+3117,P1713,121,122,0,Ana María Oramas
+3117,P1714,123,124,0,Mariano Rajoy
+3117,P1715,125,126,0,Albert Rivera
+3117,P1716,127,128,0,Carlos Salvador
+3117,P1717,129,130,0,Pedro Sánchez
+3117,P18,131,132,0,Escala de probabilidad (0-10) de votar en las elecciones generales de 2015
+3117,P1901,133,134,0,PP
+3117,P1902,135,136,0,PSOE
+3117,P1903,137,138,0,IU (ICV en Cataluña)
+3117,P1904,139,140,0,UPyD
+3117,P1905,141,142,0,Ciudadanos
+3117,P1906,143,144,0,Podemos
+3117,P1907,145,146,0,Convergència (Sólo en Cataluña)
+3117,P1908,147,148,0,ERC (Sólo en Cataluña)
+3117,P1909,149,150,0,Unió (Sólo en Cataluña)
+3117,P1910,151,152,0,PNV (Sólo en País Vasco)
+3117,P1911,153,154,0,EH Bildu (Sólo en País Vasco y Navarra)
+3117,P1912,155,156,0,BNG (Sólo en Galicia)
+3117,P1913,157,158,0,CC (Sólo en Canarias)
+3117,P1914,159,160,0,Compromís (Sólo en Comunidad Valenciana)
+3117,P1915,161,162,0,FAC (Sólo en Asturias)
+3117,P1916,163,164,0,Geroa Bai (Sólo en Navarra)
+3117,P1917,165,166,0,UPN (Sólo en Navarra)
+3117,P20,167,167,0,Participación electoral en las elecciones generales de 2011
+3117,P20A,168,169,0,Recuerdo de voto en las elecciones generales de 2011 de los votantes
+3117,P21,170,171,0,Escala de autoubicación ideológica (1-10)
+3117,P2201,172,173,0,PP
+3117,P2202,174,175,0,PSOE
+3117,P2203,176,177,0,IU (ICV en Cataluña)
+3117,P2204,178,179,0,UPyD
+3117,P2205,180,181,0,Ciudadanos
+3117,P2206,182,183,0,Podemos
+3117,P2207,184,185,0,Convergència (Sólo en Cataluña)
+3117,P2208,186,187,0,ERC (Sólo en Cataluña)
+3117,P2209,188,189,0,Unió (Sólo en Cataluña)
+3117,P2210,190,191,0,PNV (Sólo en País Vasco)
+3117,P2211,192,193,0,EH Bildu (Sólo en País Vasco y Navarra)
+3117,P2212,194,195,0,BNG (Sólo en Galicia)
+3117,P2213,196,197,0,CC (Sólo en Canarias)
+3117,P2214,198,199,0,Compromís (Sólo en Comunidad Valenciana)
+3117,P2215,200,201,0,FAC (Sólo en Asturias)
+3117,P2216,202,203,0,Geroa Bai (Sólo en Navarra)
+3117,P2217,204,205,0,UPN (Sólo en Navarra)
+3117,P23,206,207,0,Autodefinición de su ideología política
+3117,P23A,208,209,0,Autodefinición de su ideología política (2ª opción)
+3117,P24,210,210,0,Sentimiento nacionalista
+3117,P25,211,211,0,Preferencia entre diferentes alternativas de organización territorial del Estado en España
+3117,P26,212,212,0,Participación electoral en las elecciones autonómicas
+3117,P26A,213,214,0,Recuerdo de voto en las elecciones autonómicas
+3117,P27,215,215,0,Sexo de la persona entrevistada
+3117,P28,216,217,0,Edad de la persona entrevistada
+3117,P29,218,218,0,Escolarización de la persona entrevistada
+3117,P29A,219,220,0,Nivel de estudios alcanzado por la persona entrevistada
+3117,P30,221,221,0,Situación laboral de la persona entrevistada
+3117,P31,222,222,0,Momento de la adquisición de la nacionalidad española
+3117,P32,223,223,0,Lugar de nacimiento (país)
+3117,P32A,224,225,0,Lugar de nacimiento (comunidad autónoma)
+3117,P32B,226,227,0,Lugar de nacimiento de los nacidos fuera de España (país)
+3117,P33,228,228,0,Uso de Internet (últimos 3 meses)
+3117,P34,229,229,0,Tenencia de teléfono fijo en el hogar
+3117,P35,230,230,0,Tenencia de teléfono móvil
+3117,P36,231,231,0,Número de teléfono
+3117,P36A,232,232,0,No desea realizar ninguna otra entrevista
+3117,P37,233,233,0,Presencia de terceras personas
+3117,P37A,234,234,0,Intervención activamente de terceras personas
+3117,P38,235,235,0,Uso de las tarjetas
+3117,E101,236,237,0,
+3117,E102,238,239,0,
+3117,E103,240,241,0,
+3117,E3,242,244,0,
+3117,E4,245,245,0,
+3117,C1,246,246,0,
+3117,C1A,247,248,0,
+3117,P10BCOM,249,252,0,Partidos políticos entre los que se duda el voto en las elecciones generales de 2015 (2)
+3117,P11R,253,254,0,Intención de voto en las elecciones generales de 2015 [recodificada]
+3117,P12R,255,256,0,Partido político por el que se siente más simpatía en las elecciones generales de 2015 (sin filtro) [recodificada]
+3117,VOTOSIM,257,258,0,Voto+simpatía en las elecciones generales de 2015 [recodificada]
+3117,RECUERDO,259,260,0,Recuerdo de voto en las elecciones generales de 2011 [recodificada]
+3117,RVAUTON,261,262,0,Recuerdo de voto en las elecciones autonómicas [recodificada]
+3117,ESTUDIOS,263,263,0,Estudios de la persona entrevistada [recodificada]
+3117,PESO,264,268,3,Ponderación Nacional
+3117,PESOCCAA,269,274,4,Ponderación Autonómica
+3126,ESTU,1,4,0,
+3126,CUES,5,9,0,
+3126,PROV,10,11,0,Provincia
+3126,MUN,12,14,0,Municipio
+3126,TAMUNI,15,15,0,Tamaño de municipio
+3126,CAPITAL,16,16,0,Capital
+3126,DISTR,17,18,0,
+3126,SECCION,19,21,0,
+3126,ENTREV,22,25,0,
+3126,P1,26,26,0,Grado de interés por la campaña electoral de las elecciones generales de 2015
+3126,P201,27,27,0,Los/as políticos/as no se preocupan mucho de lo que piensa la gente como Ud.
+3126,P202,28,28,0,A través del voto la gente como Ud. puede influir en lo que pasa en la política
+3126,P203,29,29,0,"Esté quien esté en el poder, siempre busca sus intereses personales"
+3126,P204,30,30,0,Está mejor informado/a sobre política que la mayoría de la gente
+3126,P301,31,32,0,Primer lugar
+3126,P302,33,34,0,Segundo lugar
+3126,P303,35,36,0,Tercer lugar
+3126,P401,37,37,0,"Vota tanta gente, que su voto no influye en los resultados"
+3126,P402,38,38,0,"Su familia, amigos/as o conocidos/as podrían ver con malos ojos que Ud. no votara"
+3126,P403,39,39,0,Votar le cuesta mucho tiempo y esfuerzo
+3126,P404,40,40,0,Votar contribuye a sostener la democracia
+3126,P405,41,41,0,Se habría sentido mal si no hubiera votado y su partido preferido hubiera perdido por un solo voto
+3126,P5,42,43,0,Escala de satisfacción (0-10) con el funcionamiento de la democracia en España
+3126,P601,44,45,0,El Parlamento español
+3126,P602,46,47,0,Los partidos políticos
+3126,P603,48,49,0,El poder judicial
+3126,P604,50,51,0,Los medios de comunicación
+3126,P605,52,53,0,Los bancos
+3126,P606,54,55,0,Las ONGs
+3126,P607,56,56,0,Ítem por el que comienza
+3126,P7,57,57,0,Valoración de la situación política general de España
+3126,P8,58,58,0,Valoración de la situación económica general de España
+3126,P9,59,59,0,Valoración retrospectiva de la situación económica de España (4 años)
+3126,P10,60,60,0,Valoración prospectiva de la situación económica de España (después de las elecciones)
+3126,P11,61,62,0,Escala de acuerdo (0-10) con que convivan diferentes culturas y religiones en un país
+3126,P12,63,64,0,Escala de acuerdo (0-10) con el aumento de los impuestos para tener mejores servicios públicos y prestaciones sociales
+3126,P13,65,66,0,Escala de importancia (0-10) entre seguridad y libertad personal
+3126,P14,67,67,0,Preferencia entre diferentes alternativas de organización territorial del Estado en España
+3126,P15,68,68,0,Valoración de votar como deber o como derecho
+3126,P15A,69,69,0,Grado de deber en el acto de votar
+3126,P1601,70,70,0,Asistir a una manifestación autorizada
+3126,P1602,71,71,0,"Comprar o dejar de comprar ciertos productos por razones políticas, éticas o para favorecer el medio ambiente"
+3126,P1603,72,72,0,Participar en una huelga
+3126,P1604,73,73,0,"Ocupar edificios, participar en encierros o bloquear el tráfico"
+3126,P1605,74,74,0,Participar en un foro o grupo de discusión política en Internet
+3126,P17,75,75,0,Pertenencia a alguna asociación
+3126,P17A01,76,76,0,Una asociación de vecinos
+3126,P17A02,77,77,0,Una asociación o grupo juvenil
+3126,P17A03,78,78,0,Un partido político
+3126,P17A04,79,79,0,Un sindicato
+3126,P17A05,80,80,0,Una asociación religiosa o parroquial
+3126,P17A06,81,81,0,Una organización empresarial
+3126,P17A07,82,82,0,Una asociación o colegio profesional
+3126,P17A08,83,83,0,Una asociación cultural o artística
+3126,P17A09,84,84,0,Una asociación o grupo ecologista
+3126,P17A10,85,85,0,Una asociación o club deportivo
+3126,P17A11,86,86,0,Una asociación de madres y padres
+3126,P17A12,87,87,0,Una asociación de consumidores
+3126,P17A13,88,88,0,Una ONG o asociación de solidaridad
+3126,P18,89,90,0,Tema más debatido por los partidos políticos y candidatos/as durante la campaña electoral de las elecciones generales de 2015
+3126,P18A,91,92,0,Partido político más cercano a la posición personal respecto al tema debatido durante la campaña electoral de las elecciones generales de 2015
+3126,P1901,93,93,0,Periódicos
+3126,P1902,94,94,0,Televisión
+3126,P1903,95,95,0,Radio
+3126,P19A,96,97,0,Periódico preferido para seguir la información política y electoral durante la campaña electoral de las elecciones generales de 2015
+3126,P19B,98,99,0,Cadena de televisión preferida para seguir la información política y electoral durante la campaña electoral de las elecciones generales de 2015
+3126,P19C,100,101,0,Emisora de radio preferida para seguir la información política y electoral durante la campaña electoral de las elecciones generales de 2015
+3126,P20,102,102,0,Uso de Internet (últimos 3 meses)
+3126,P20A01,103,103,0,Facebook
+3126,P20A02,104,104,0,Twitter
+3126,P20A03,105,105,0,Tuenti
+3126,P20A04,106,106,0,LinkedIn
+3126,P20A05,107,107,0,Instagram
+3126,P20A06,108,108,0,"Otras redes sociales (Hi5, Google+, etc.)"
+3126,P20A07,109,109,0,Ninguna
+3126,P20A08,110,110,0,N.C.
+3126,P20B01,111,111,0,"En páginas de medios de comunicación (periódicos, radios, etc.)"
+3126,P20B02,112,112,0,En páginas de partidos o candidatos/as
+3126,P20B03,113,113,0,En páginas de organizaciones ciudadanas o movimientos cívicos
+3126,P20B04,114,114,0,En blogs y foros de debate
+3126,P20B05,115,115,0,"En redes sociales (Facebook, Tuenti, Twitter, etc.)"
+3126,P20B06,116,116,0,En otro tipo de páginas web
+3126,P20B07,117,117,0,N.C.
+3126,P21,118,118,0,"Seguimiento del debate en televisión entre los candidatos a las elecciones generales de 2015: Mariano Rajoy, Pedro Sánchez"
+3126,P21A,119,119,0,Candidato más convincente en el debate electoral televisado de las elecciones generales de 2015
+3126,P22,120,120,0,"Seguimiento del debate en televisión entre los candidatos a las elecciones generales de 2015: Soraya Sáenz de Santamaría, Pedro Sánchez, Albert Rivera y Pablo Iglesias"
+3126,P22A,121,121,0,Candidato más convincente en el debate electoral a cuatro televisado de las elecciones generales de 2015
+3126,P2301,122,122,0,Vio algún otro debate o entrevistas con candidatos/as
+3126,P2302,123,123,0,Vio algún espacio de propaganda electoral de algún partido o coalición política
+3126,P2303,124,124,0,"Leyó o echó un vistazo a cartas, folletos o programas de algún partido o coalición política"
+3126,P2304,125,125,0,Contribuyó económicamente para algún partido o candidato/a
+3126,P2305,126,126,0,Trabajó como voluntario/a en la campaña de algún partido o candidato/a
+3126,P2306,127,127,0,Asistió a un mitin o reunión de algún partido
+3126,P24,128,128,0,Contacto de algún partido político para pedir el voto durante la campaña electoral de las elecciones generales de 2015
+3126,BLANCO,129,130,0,
+3126,P25,131,131,0,Envío de mensajes electrónicos con temas sobre las elecciones generales de 2015
+3126,P25A,132,132,0,Recepción de correo electrónico o a través de las redes sociales en la difusión de temas electorales
+3126,P2601,133,133,0,"En casa, con su familia"
+3126,P2602,134,134,0,Con sus amigos/as
+3126,P2603,135,135,0,En su lugar de trabajo o centro de estudios
+3126,P27,136,136,0,Conocimiento de los resultados de sondeos electorales durante la campaña electoral de las elecciones generales de 2015
+3126,P27A,137,137,0,Grado de influencia de los sondeos de las elecciones generales de 2015
+3126,P27B,138,138,0,Sentido en que influyeron los resultados de los sondeos de las elecciones generales de 2015
+3126,P28,139,139,0,Decisión respecto al voto en las elecciones generales de 2015
+3126,P28A01,140,141,0,Partidos políticos entre los que se dudó el voto en las elecciones generales de 2015
+3126,P28A02,142,143,0,Partidos políticos entre los que se dudó el voto en las elecciones generales de 2015
+3126,P29,144,144,0,Participación electoral en las elecciones generales de 2015
+3126,P29A,145,145,0,Momento de la decisión de no votar en las elecciones generales de 2015
+3126,P29B01,146,146,0,Primer lugar
+3126,P29B02,147,147,0,Segundo lugar
+3126,P29C,148,148,0,Razones que impidieron votar en las elecciones generales de 2015
+3126,P29D,149,150,0,Intención de voto en las elecciones generales de 2015 de los que no pudieron votar
+3126,P30,151,151,0,Momento de la decisión de voto en las elecciones generales de 2015
+3126,P31,152,153,0,Recuerdo de voto en las elecciones generales de 2015 de los votantes
+3126,P32,154,154,0,Grado de convicción con la elección del partido al que votó en las elecciones generales de 2015
+3126,P3301,155,155,0,Primer lugar
+3126,P3302,156,156,0,Segundo lugar
+3126,P34,157,157,0,Decisión respecto al voto en las elecciones generales de 2015 de haber conocido antes los resultados
+3126,P35,158,159,0,Escala de autoubicación ideológica (1-10)
+3126,P3601,160,161,0,PP
+3126,P3602,162,163,0,PSOE
+3126,P3603,164,165,0,Podemos
+3126,P3604,166,167,0,Ciudadanos
+3126,P3605,168,169,0,IU (Unidad Popular)
+3126,P3606,170,171,0,UPyD
+3126,P3607,172,173,0,En Comú (Sólo en Cataluña)
+3126,P3608,174,175,0,ERC (Sólo en Cataluña)
+3126,P3609,176,177,0,Democràcia i Llibertat (Sólo en Cataluña)
+3126,P3610,178,179,0,Unió (Sólo en Cataluña)
+3126,P3611,180,181,0,PNV (Sólo en País Vasco)
+3126,P3612,182,183,0,EH Bildu (Sólo en País Vasco y Navarra)
+3126,P3613,184,185,0,Geroa Bai (Sólo en Navarra)
+3126,P3614,186,187,0,UPN (Sólo en Navarra)
+3126,P3615,188,189,0,Compromís (Sólo en Comunidad Valenciana)
+3126,P3616,190,191,0,CC (Sólo en Canarias)
+3126,P3617,192,193,0,Nueva Canarias (Sólo en Canarias)
+3126,P3618,194,195,0,En Marea (Sólo en Galicia)
+3126,P3619,196,197,0,BNG (Sólo en Galicia)
+3126,P3620,198,199,0,PAR (Sólo en Aragón)
+3126,P3621,200,201,0,CHA (Sólo en Aragón)
+3126,P3622,202,203,0,Foro (Sólo en Asturias)
+3126,P3701,204,205,0,Alberto Garzón
+3126,P3702,206,207,0,Andrés Herzog
+3126,P3703,208,209,0,Pablo Iglesias
+3126,P3704,210,211,0,Mariano Rajoy
+3126,P3705,212,213,0,Albert Rivera
+3126,P3706,214,215,0,Pedro Sánchez
+3126,P3707,216,217,0,Xavier Domènech (Sólo en Cataluña)
+3126,P3708,218,219,0,Josep A. Duran i Lleida (Sólo en Cataluña)
+3126,P3709,220,221,0,Francesc Homs (Sólo en Cataluña)
+3126,P3710,222,223,0,Gabriel Rufián (Sólo en Cataluña)
+3126,P3711,224,225,0,Marian Beitialarrangoitia (Sólo en País Vasco)
+3126,P3712,226,227,0,Aitor Esteban (Sólo en País Vasco)
+3126,P3713,228,229,0,Koldo Martínez (Sólo en Navarra)
+3126,P3714,230,231,0,Joan Baldoví Roda (Sólo en Comunidad Valenciana)
+3126,P3715,232,233,0,Antón Gómez-Reino (Sólo en Galicia)
+3126,P3716,234,235,0,Carlos Callón (Sólo en Galicia)
+3126,P3717,236,237,0,Ana María Oramas (Sólo en Canarias)
+3126,P3801,238,239,0,Primer lugar
+3126,P3802,240,241,0,Segundo lugar
+3126,P39,242,242,0,Cercanía hacia algún partido político
+3126,P39A,243,244,0,Partido político por el que se siente más cercanía
+3126,P39B,245,245,0,Grado de cercanía hacia el partido político que se siente más cercano
+3126,P40,246,246,0,Sentimiento nacionalista
+3126,P41,247,248,0,"Escala de nacionalismo (1-10) en Aragón, Canarias, Cataluña, Comunidad Valenciana, Galicia, Comunidad Foral de Navarra y País Vasco"
+3126,P4201,249,250,0,PP
+3126,P4202,251,252,0,PSOE
+3126,P4203,253,254,0,Podemos
+3126,P4204,255,256,0,Ciudadanos
+3126,P4205,257,258,0,IU (Unidad Popular)
+3126,P4206,259,260,0,UPyD
+3126,P4207,261,262,0,En Comú (Sólo en Cataluña)
+3126,P4208,263,264,0,ERC (Sólo en Cataluña)
+3126,P4209,265,266,0,Democràcia i Llibertat (Sólo en Cataluña)
+3126,P4210,267,268,0,Unió (Sólo en Cataluña)
+3126,P4211,269,270,0,PNV (Sólo en País Vasco)
+3126,P4212,271,272,0,EH Bildu (Sólo en País Vasco y Navarra)
+3126,P4213,273,274,0,Geroa Bai (Sólo en Navarra)
+3126,P4214,275,276,0,UPN (Sólo en Navarra)
+3126,P4215,277,278,0,Compromís (Sólo en Comunidad Valenciana)
+3126,P4216,279,280,0,CC (Sólo en Canarias)
+3126,P4217,281,282,0,Nueva Canarias (Sólo en Canarias)
+3126,P4218,283,284,0,En Marea (Sólo en Galicia)
+3126,P4219,285,286,0,BNG (Sólo en Galicia)
+3126,P4220,287,288,0,PAR (Sólo en Aragón)
+3126,P4221,289,290,0,CHA (Sólo en Aragón)
+3126,P43,291,291,0,Grado de orgullo de ser español
+3126,P44,292,292,0,Conocimiento del anterior presidente del gobierno: José Luis Rodríguez Zapatero
+3126,P45,293,296,0,Conocimiento de la Constitución española (año aprobación)
+3126,P46,297,297,0,Conocimiento de si votar es una obligación legal
+3126,P47,298,299,0,Autodefinición de su ideología política
+3126,P47A,300,301,0,Autodefinición de su ideología política (2ª opción)
+3126,P48,302,302,0,Participación electoral en las elecciones generales de 2011
+3126,P48A,303,304,0,Recuerdo de voto en las elecciones generales de 2011 de los votantes
+3126,P4901,305,306,0,PP
+3126,P4902,307,308,0,PSOE
+3126,P4903,309,310,0,Podemos
+3126,P4904,311,312,0,Ciudadanos
+3126,P4905,313,314,0,IU (Unidad Popular)
+3126,P4906,315,316,0,UPyD
+3126,P4907,317,318,0,En Comú (Sólo en Cataluña)
+3126,P4908,319,320,0,ERC (Sólo en Cataluña)
+3126,P4909,321,322,0,Democràcia i Llibertat (Sólo en Cataluña)
+3126,P4910,323,324,0,Unió (Sólo en Cataluña)
+3126,P4911,325,326,0,PNV (Sólo en País Vasco)
+3126,P4912,327,328,0,EH Bildu (Sólo en País Vasco y Navarra)
+3126,P4913,329,330,0,Geroa Bai (Sólo en Navarra)
+3126,P4914,331,332,0,UPN (Sólo en Navarra)
+3126,P4915,333,334,0,Compromís (Sólo en Comunidad Valenciana)
+3126,P4916,335,336,0,CC (Sólo en Canarias)
+3126,P4917,337,338,0,Nueva Canarias (Sólo en Canarias)
+3126,P4918,339,340,0,En Marea (Sólo en Galicia)
+3126,P4919,341,342,0,BNG (Sólo en Galicia)
+3126,P4920,343,344,0,PAR (Sólo en Aragón)
+3126,P4921,345,346,0,CHA (Sólo en Aragón)
+3126,P4922,347,348,0,Foro (Sólo en Asturias)
+3126,P5001,349,349,0,Está pagando una hipoteca
+3126,P5002,350,350,0,"Percibe regularmente una ayuda económica de algún Gobierno o Administración Pública (becas escolares, ayuda al alquiler, ayuda por el cuidado de personas dependientes, ayuda por hijos/as menores a cargo, etc.)"
+3126,P5003,351,351,0,Tiene contratado un seguro médico privado
+3126,P51,352,352,0,Estado civil de la persona entrevistada
+3126,P52,353,354,0,Situación personal de convivencia actual
+3126,P53,355,355,0,Tenencia de hijos a cargo de la persona entrevistada
+3126,P54,356,356,0,Tenencia de personas dependientes a cargo de la persona entrevistada
+3126,P55,357,357,0,Recepción de alguna ayuda económica o préstamo de un familiar (12 meses)
+3126,P56,358,358,0,Prestación de alguna ayuda económica o préstamo a un familiar (12 meses)
+3126,P57,359,359,0,Escolarización de la persona entrevistada
+3126,P57A,360,361,0,Nivel de estudios alcanzado por la persona entrevistada
+3126,P58,362,362,0,Religiosidad de la persona entrevistada
+3126,P58A,363,363,0,Frecuencia de asistencia a oficios religiosos
+3126,P59,364,364,0,Valoración de la situación económica personal
+3126,P60,365,365,0,Valoración retrospectiva de la situación económica personal (4 años)
+3126,P61,366,366,0,Cabeza de familia
+3126,P6201,367,367,0,Ha perdido su trabajo (independientemente de si ha vuelto a encontrar otro o no)
+3126,P6202,368,368,0,Ha visto congelado o recortado su salario (sin cambiar la dedicación en horas de trabajo)
+3126,P63,369,369,0,Situación laboral de la persona entrevistada
+3126,P63A,370,370,0,Tipo de jornada laboral de la persona entrevistada
+3126,P63B,371,371,0,Probabilidad de perder el empleo actual en los próximos 12 meses
+3126,P63C,372,372,0,Tiempo de desempleo
+3126,P63D,373,373,0,Tipo de prestación por desempleo que percibe
+3126,P63E,374,374,0,Probabilidad de encontrar empleo en los próximos 12 meses
+3126,P64,375,377,0,Ocupación de la persona entrevistada (CNO11)
+3126,P65,378,378,0,Situación profesional de la persona entrevistada
+3126,P65A,379,379,0,Tipo de empresa u organización de la persona entrevistada
+3126,P66,380,382,0,Rama de actividad de la persona entrevistada (CNAE09)
+3126,P67,383,384,0,Nivel de ingresos del hogar
+3126,P68,385,386,0,Ingresos de la persona entrevistada
+3126,P69,387,388,0,Escala de clase social subjetiva (1-10) de la persona entrevistada
+3126,P7001,389,389,0,Tiende a ser reservado/a
+3126,P7002,390,390,0,Tiende a ser perezoso/a
+3126,P7003,391,391,0,Se deja dominar por el estrés
+3126,P7004,392,392,0,Le resulta fácil ponerse en el lugar de los demás
+3126,P7005,393,393,0,Tiene poco interés por lo artístico
+3126,P7006,394,394,0,Es extrovertido/a y sociable
+3126,P7007,395,395,0,Tiene tendencia a criticar a los demás
+3126,P7008,396,396,0,Realiza concienzudamente las cosas que tiene que hacer
+3126,P7009,397,397,0,Se pone nervioso/a con facilidad
+3126,P7010,398,398,0,Tiene mucha imaginación
+3126,P71,399,400,0,Escala de confianza (0-10) en la gente
+3126,P72,401,402,0,Escala de felicidad personal (0-10)
+3126,P73,403,405,0,Número de libros leídos en los últimos 12 meses
+3126,P74,406,406,0,Tenencia de teléfono fijo en el hogar
+3126,P75,407,407,0,Tenencia de teléfono móvil
+3126,P76,408,408,0,Número de teléfono
+3126,P77,409,409,0,Dirección de correo electrónico
+3126,P7801,410,410,0,La entrevista se ha realizado en presencia de terceras personas
+3126,P7802,411,411,0,(La persona entrevistada) ha expresado deseo de abandonar la entrevista antes de finalizarla
+3126,P7803,412,412,0,(La persona entrevistada) se ha sentido incómoda o molesta por el tema de la encuesta
+3126,P7804,413,413,0,(La persona entrevistada) ha tenido prisa por acabar la entrevista
+3126,P7901,414,416,0,
+3126,P7902,417,419,0,
+3126,P7903,420,422,0,
+3126,P7904,423,425,0,
+3126,P7905,426,428,0,
+3126,P8001,429,431,0,
+3126,P8002,432,434,0,
+3126,P8003,435,437,0,
+3126,P8004,438,440,0,
+3126,P8005,441,443,0,
+3126,P81,444,444,0,
+3126,P8201,445,445,0,Cónyuge/Pareja
+3126,P8202,446,446,0,Hijo/a/s
+3126,P8203,447,447,0,Padre/madre
+3126,P8204,448,448,0,Otras personas
+3126,P8205,449,449,0,N.S.
+3126,P83,450,450,0,
+3126,P84,451,451,0,
+3126,P85,452,452,0,
+3126,P86,453,453,0,
+3126,E101,454,455,0,Fecha de realización (día)
+3126,E102,456,457,0,Fecha de realización (mes)
+3126,E103,458,459,0,Fecha de realización (año)
+3126,E2,460,460,0,Día de la semana que se realiza la entrevista
+3126,E3,461,463,0,Duración de la entrevista (en minutos)
+3126,E4,464,464,0,Hora de realización
+3126,C1,465,465,0,Cuestionario cumplimentado
+3126,C1A,466,467,0,Motivo del cuestionario incorrecto
+3126,C2,468,468,0,Valoración de la inspección
+3126,C2A,469,469,0,Resultado de la inspección
+3126,C2B,470,471,0,Motivo de la entrevista incorrecta
+3126,C3,472,472,0,Resultado final de la entrevista
+3126,C4,473,474,0,Codificador/a nº
+3126,SEXO,475,475,0,Sexo de la persona entrevistada
+3126,EDAD,476,477,0,Edad de la persona entrevistada
+3126,CCAA,478,479,0,Comunidad autónoma
+3126,PESO,480,486,5,Coeficientes de ponderación
+3126,P20B08,487,487,0,Ninguna
+3126,P24A01,488,488,0,PP
+3126,P24A02,489,489,0,PSOE
+3126,P24A03,490,490,0,Podemos
+3126,P24A04,491,491,0,Ciudadanos
+3126,P24A05,492,492,0,IU (Unidad Popular)
+3126,P24A06,493,493,0,En Comú Podem
+3126,P24A07,494,494,0,Compromís-Podemos-És el Moment
+3126,P24A08,495,495,0,ERC
+3126,P24A09,496,496,0,Convergència (Democràcia i Llibertat)
+3126,P24A10,497,497,0,En Marea
+3126,P24A11,498,498,0,EAJ-PNV
+3126,P24A12,499,499,0,EH Bildu
+3126,P24A13,500,500,0,CC-PNC
+3126,P24A14,501,501,0,UPN
+3126,P24A15,502,502,0,PAR
+3126,P24A16,503,503,0,Foro Asturias
+3126,P24A17,504,504,0,Nueva Canarias
+3126,P24A18,505,505,0,ICV
+3126,P24A19,506,506,0,CHA
+3126,P24A20,507,507,0,UPyD
+3126,P24A21,508,508,0,BNG (Nós-Candidatura Galega)
+3126,P24A22,509,509,0,Geroa Bai
+3126,P24A23,510,510,0,Unió
+3126,P24A24,511,511,0,PACMA
+3126,P24A25,512,512,0,Otro
+3126,P24A26,513,513,0,UPL
+3126,P24A28,514,514,0,PCE
+3126,P24A29,515,515,0,EQUO
+3126,P24A30,516,516,0,VOX
+3126,P24A31,517,517,0,Ecologistas
+3126,P24A32,518,518,0,Partido Pirata
+3126,P24A33,519,519,0,Verdes
+3126,P24A35,520,520,0,PRC
+3126,P24A36,521,521,0,AES
+3126,P24A37,522,522,0,CUP
+3126,P24A38,523,523,0,Escaños en Blanco
+3126,P24A39,524,524,0,España 2000
+3126,P24A40,525,525,0,Més per Mallorca
+3126,P24A41,526,526,0,PI
+3126,P24A42,527,527,0,PA
+3126,P24A43,528,528,0,Partido Familia y Vida
+3126,P24A44,529,529,0,PSM-Entesa Nacionalista
+3126,P24A45,530,530,0,Recortes Cero
+3126,P24A46,531,531,0,Falange
+3126,P24A47,532,532,0,DN
+3126,P24A48,533,533,0,P-LIB
+3126,P24A49,534,534,0,PIArr
+3126,P24A50,535,535,0,Junts pel Sí
+3126,P24A51,536,536,0,PCPC
+3126,P24A98,537,537,0,No recuerda
+3126,P24A99,538,538,0,N.C.
+3126,P18AR,539,540,0,Partido político más cercano a la posición personal respecto al tema debatido durante la campaña electoral de las elecciones generales de 2015 [recodificada]
+3126,P28ACOM,541,544,0,Partidos políticos entre los que se dudó el voto en las elecciones generales de 2015
+3126,P29DR,545,546,0,Intención de voto en las elecciones generales de 2015 de los que no pudieron votar [recodificada]
+3126,P31R,547,548,0,Recuerdo de voto en las elecciones generales de 2015 de los votantes [recodificada]
+3126,P39AR,549,550,0,Partido político por el que se siente más cercanía [recodificada]
+3126,P48AR,551,552,0,Recuerdo de voto en las elecciones generales de 2011 de los votantes [recodificada]
+3126,RECUERDO,553,554,0,Recuerdo de voto en las elecciones generales de 2015 [recodificada]
+3126,RECUERDO11,555,556,0,Recuerdo de voto en las elecciones generales de 2011 [recodificada]
+3126,ESTUDIOS,557,557,0,Estudios de la persona entrevistada [recodificada]
+3126,OCUMAR11,558,559,0,Ocupación de la persona entrevistada (CNO11) [recodificada]
+3126,RAMA09,560,560,0,Rama de actividad de la persona entrevistada (CNAE09)
+3126,CONDICION11,561,562,0,Condición socioeconómica de la persona entrevistada [recodificada]
+3126,ESTATUS,563,563,0,Estatus socioeconómico de la persona entrevistada
+7715,ESTU,1,4,0,
+7715,CUES,5,9,0,
+7715,CCAA,10,11,0,Comunidad autónoma
+7715,PROV,12,13,0,Provincia
+7715,MUN,14,16,0,Municipio
+7715,TAMUNI,17,17,0,Tamaño de municipio
+7715,CAPITAL,18,18,0,Capital
+7715,DISTR,19,20,0,
+7715,SECCION,21,23,0,
+7715,ENTREV,24,27,0,
+7715,TIPO,28,28,0,Tipo cuestionario
+7715,P0A,29,29,0,Nacionalidad de la persona entrevistada
+7715,P0B,30,31,0,Nacionalidad de la persona entrevistada (extranjeros)
+7715,P1,32,32,0,Grado de interés por la política
+7715,P2,33,33,0,Frecuencia con la que se habla de política con diferentes personas del entorno social próximo
+7715,P3,34,34,0,Valoración de la situación política general de España
+7715,P4,35,35,0,Valoración de la situación económica general de España
+7715,P5,36,36,0,Valoración de la gestión del gobierno central del PP (4 años)
+7715,P6,37,37,0,Valoración de una posible gestión del gobierno central si gobernase el PSOE
+7715,P7,38,38,0,Valoración de la labor de oposición del PSOE al gobierno central del PP (4 años)
+7715,P801,39,39,0,El empleo
+7715,P802,40,40,0,La educación
+7715,P803,41,41,0,La sanidad
+7715,P804,42,42,0,La economía
+7715,P805,43,43,0,La Unión Europea
+7715,P806,44,44,0,La política social
+7715,P807,45,45,0,La seguridad ciudadana
+7715,P808,46,46,0,La vivienda
+7715,P809,47,47,0,La inmigración
+7715,P810,48,48,0,El Estado de las autonomías
+7715,P811,49,49,0,El medio ambiente
+7715,P812,50,50,0,La política exterior
+7715,P813,51,51,0,La igualdad entre hombres y mujeres
+7715,P814,52,52,0,Las infraestructuras
+7715,P901,53,54,0,El empleo
+7715,P902,55,56,0,La educación
+7715,P903,57,58,0,La sanidad
+7715,P904,59,60,0,La economía
+7715,P905,61,62,0,La Unión Europea
+7715,P906,63,64,0,La política social
+7715,P907,65,66,0,La seguridad ciudadana
+7715,P908,67,68,0,La vivienda
+7715,P909,69,70,0,La inmigración
+7715,P910,71,72,0,El Estado de las autonomías
+7715,P911,73,74,0,El medio ambiente
+7715,P912,75,76,0,La política exterior
+7715,P913,77,78,0,La igualdad entre hombres y mujeres
+7715,P914,79,80,0,Las infraestructuras
+7715,P10,81,81,0,Intención de ir a votar en las elecciones generales de 2015
+7715,P10A,82,82,0,Decisión de votar a un partido en las elecciones generales de 2015
+7715,P10B01,83,84,0,Partidos políticos entre los que se duda el voto en las elecciones generales de 2015 (2)
+7715,P10B02,85,86,0,Partidos políticos entre los que se duda el voto en las elecciones generales de 2015 (2)
+7715,P11,87,88,0,Intención de voto en las elecciones generales de 2015
+7715,P12,89,90,0,Partido político por el que se siente más simpatía en las elecciones generales de 2015 (sin filtro)
+7715,P13,91,92,0,Partido político que se cree va a ganar las elecciones generales de 2015
+7715,P14,93,94,0,Partido político que gustaría que fuera ganador en las elecciones generales de 2015
+7715,P15,95,95,0,Preferencia por el resultado de las elecciones generales de 2015
+7715,P16,96,96,0,Preferencia por el gobierno de un partido distinto al actual
+7715,P1701,97,98,0,Enrique Álvarez Sostres
+7715,P1702,99,100,0,Joan Baldoví Roda
+7715,P1703,101,102,0,Koldo Martínez
+7715,P1704,103,104,0,Alfred Bosch
+7715,P1705,105,106,0,Andrés Herzog
+7715,P1706,107,108,0,Josep A. Duran i Lleida
+7715,P1707,109,110,0,Aitor Esteban
+7715,P1708,111,112,0,Xabier Mikel Errekondo
+7715,P1709,113,114,0,María Olaia Fernández
+7715,P1710,115,116,0,Alberto Garzón
+7715,P1711,117,118,0,Pablo Iglesias
+7715,P1712,119,120,0,Pere Macías
+7715,P1713,121,122,0,Ana María Oramas
+7715,P1714,123,124,0,Mariano Rajoy
+7715,P1715,125,126,0,Albert Rivera
+7715,P1716,127,128,0,Carlos Salvador
+7715,P1717,129,130,0,Pedro Sánchez
+7715,P18,131,132,0,Escala de probabilidad (0-10) de votar en las elecciones generales de 2015
+7715,P1901,133,134,0,PP
+7715,P1902,135,136,0,PSOE
+7715,P1903,137,138,0,IU (ICV en Cataluña)
+7715,P1904,139,140,0,UPyD
+7715,P1905,141,142,0,Ciudadanos
+7715,P1906,143,144,0,Podemos
+7715,P1907,145,146,0,Convergència (Sólo en Cataluña)
+7715,P1908,147,148,0,ERC (Sólo en Cataluña)
+7715,P1909,149,150,0,Unió (Sólo en Cataluña)
+7715,P1910,151,152,0,PNV (Sólo en País Vasco)
+7715,P1911,153,154,0,EH Bildu (Sólo en País Vasco y Navarra)
+7715,P1912,155,156,0,BNG (Sólo en Galicia)
+7715,P1913,157,158,0,CC (Sólo en Canarias)
+7715,P1914,159,160,0,Compromís (Sólo en Comunidad Valenciana)
+7715,P1915,161,162,0,FAC (Sólo en Asturias)
+7715,P1916,163,164,0,Geroa Bai (Sólo en Navarra)
+7715,P1917,165,166,0,UPN (Sólo en Navarra)
+7715,P20,167,167,0,Participación electoral en las elecciones generales de 2011
+7715,P20A,168,169,0,Recuerdo de voto en las elecciones generales de 2011 de los votantes
+7715,P21,170,171,0,Escala de autoubicación ideológica (1-10)
+7715,P2201,172,173,0,PP
+7715,P2202,174,175,0,PSOE
+7715,P2203,176,177,0,IU (ICV en Cataluña)
+7715,P2204,178,179,0,UPyD
+7715,P2205,180,181,0,Ciudadanos
+7715,P2206,182,183,0,Podemos
+7715,P2207,184,185,0,Convergència (Sólo en Cataluña)
+7715,P2208,186,187,0,ERC (Sólo en Cataluña)
+7715,P2209,188,189,0,Unió (Sólo en Cataluña)
+7715,P2210,190,191,0,PNV (Sólo en País Vasco)
+7715,P2211,192,193,0,EH Bildu (Sólo en País Vasco y Navarra)
+7715,P2212,194,195,0,BNG (Sólo en Galicia)
+7715,P2213,196,197,0,CC (Sólo en Canarias)
+7715,P2214,198,199,0,Compromís (Sólo en Comunidad Valenciana)
+7715,P2215,200,201,0,FAC (Sólo en Asturias)
+7715,P2216,202,203,0,Geroa Bai (Sólo en Navarra)
+7715,P2217,204,205,0,UPN (Sólo en Navarra)
+7715,P23,206,207,0,Autodefinición de su ideología política
+7715,P23A,208,209,0,Autodefinición de su ideología política (2ª opción)
+7715,P24,210,210,0,Sentimiento nacionalista
+7715,P25,211,211,0,Preferencia entre diferentes alternativas de organización territorial del Estado en España
+7715,P26,212,212,0,Participación electoral en las elecciones autonómicas
+7715,P26A,213,214,0,Recuerdo de voto en las elecciones autonómicas
+7715,P27,215,215,0,Sexo de la persona entrevistada
+7715,P28,216,217,0,Edad de la persona entrevistada
+7715,P29,218,218,0,Escolarización de la persona entrevistada
+7715,P29A,219,220,0,Nivel de estudios alcanzado por la persona entrevistada
+7715,P30,221,221,0,Situación laboral de la persona entrevistada
+7715,P31,222,222,0,Momento de la adquisición de la nacionalidad española
+7715,P32,223,223,0,Lugar de nacimiento (país)
+7715,P32A,224,225,0,Lugar de nacimiento (comunidad autónoma)
+7715,P32B,226,227,0,Lugar de nacimiento de los nacidos fuera de España (país)
+7715,P33,228,228,0,Uso de Internet (últimos 3 meses)
+7715,P34,229,229,0,Tenencia de teléfono fijo en el hogar
+7715,P35,230,230,0,Tenencia de teléfono móvil
+7715,P36,231,231,0,Número de teléfono
+7715,P36A,232,232,0,No desea realizar ninguna otra entrevista
+7715,P37,233,233,0,Presencia de terceras personas
+7715,P37A,234,234,0,Intervención activamente de terceras personas
+7715,P38,235,235,0,Uso de tarjetas
+7715,E101,236,237,0,
+7715,E102,238,239,0,
+7715,E103,240,241,0,
+7715,E3,242,244,0,
+7715,E4,245,245,0,
+7715,C1,246,246,0,Cuestionario cumplimentado
+7715,C1A,247,248,0,Motivo del cuestionario incorrecto
+7715,PESTU,249,252,0,
+7715,PENTREV,253,256,0,
+7715,PP1,257,257,0,Grado de interés por la campaña electoral de las elecciones generales de 2015
+7715,PP201,258,258,0,Los/as políticos/as no se preocupan mucho de lo que piensa la gente como Ud.
+7715,PP202,259,259,0,A través del voto la gente como Ud. puede influir en lo que pasa en la política
+7715,PP203,260,260,0,"Esté quien esté en el poder, siempre busca sus intereses personales"
+7715,PP204,261,261,0,Está mejor informado/a sobre política que la mayoría de la gente
+7715,PP301,262,263,0,Primer lugar
+7715,PP302,264,265,0,Segundo lugar
+7715,PP303,266,267,0,Tercer lugar
+7715,PP401,268,268,0,"Vota tanta gente, que su voto no influye en los resultados"
+7715,PP402,269,269,0,"Su familia, amigos/as o conocidos/as podrían ver con malos ojos que Ud. no votara"
+7715,PP403,270,270,0,Votar le cuesta mucho tiempo y esfuerzo
+7715,PP404,271,271,0,Votar contribuye a sostener la democracia
+7715,PP405,272,272,0,Se habría sentido mal si no hubiera votado y su partido preferido hubiera perdido por un solo voto
+7715,PP5,273,274,0,Escala de satisfacción (0-10) con el funcionamiento de la democracia en España
+7715,PP601,275,276,0,El Parlamento español
+7715,PP602,277,278,0,Los partidos políticos
+7715,PP603,279,280,0,El poder judicial
+7715,PP604,281,282,0,Los medios de comunicación
+7715,PP605,283,284,0,Los bancos
+7715,PP606,285,286,0,Las ONGs
+7715,PP607,287,287,0,Ítem por el que comienza
+7715,PP7,288,288,0,Valoración de la situación política general de España
+7715,PP8,289,289,0,Valoración de la situación económica general de España
+7715,PP9,290,290,0,Valoración retrospectiva de la situación económica de España (4 años)
+7715,PP10,291,291,0,Valoración prospectiva de la situación económica de España (después de las elecciones)
+7715,PP11,292,293,0,Escala de valoración (0-10) de la convivencia de diferentes culturas y religiones en un país
+7715,PP12,294,295,0,Escala de valoración (0-10) del aumento de los impuestos para tener mejores servicios públicos y prestaciones sociales
+7715,PP13,296,297,0,Escala (0-10) que relaciona seguridad y libertad personal
+7715,PP14,298,298,0,Preferencia entre diferentes alternativas de organización territorial del Estado en España
+7715,PP15,299,299,0,Valoración de votar como deber o como derecho
+7715,PP15A,300,300,0,Grado de deber en el acto de votar
+7715,PP1601,301,301,0,Asistir a una manifestación autorizada
+7715,PP1602,302,302,0,"Comprar o dejar de comprar ciertos productos por razones políticas, éticas o para favorecer el medio ambiente"
+7715,PP1603,303,303,0,Participar en una huelga
+7715,PP1604,304,304,0,"Ocupar edificios, participar en encierros o bloquear el tráfico"
+7715,PP1605,305,305,0,Participar en un foro o grupo de discusión política en Internet
+7715,PP17,306,306,0,Pertenencia a alguna asociación
+7715,PP17A01,307,307,0,Una asociación de vecinos
+7715,PP17A02,308,308,0,Una asociación o grupo juvenil
+7715,PP17A03,309,309,0,Un partido político
+7715,PP17A04,310,310,0,Un sindicato
+7715,PP17A05,311,311,0,Una asociación religiosa o parroquial
+7715,PP17A06,312,312,0,Una organización empresarial
+7715,PP17A07,313,313,0,Una asociación o colegio profesional
+7715,PP17A08,314,314,0,Una asociación cultural o artística
+7715,PP17A09,315,315,0,Una asociación o grupo ecologista
+7715,PP17A10,316,316,0,Una asociación o club deportivo
+7715,PP17A11,317,317,0,Una asociación de madres y padres
+7715,PP17A12,318,318,0,Una asociación de consumidores
+7715,PP17A13,319,319,0,Una ONG o asociación de solidaridad
+7715,PP18,320,321,0,Tema más debatido por los partidos políticos y candidatos/as durante la campaña electoral de las elecciones generales de 2015
+7715,PP18A,322,323,0,Partido político más cercano a la posición personal respecto al tema debatido durante la campaña electoral de las elecciones generales de 2015
+7715,PP1901,324,324,0,Periódicos
+7715,PP1902,325,325,0,Televisión
+7715,PP1903,326,326,0,Radio
+7715,PP19A,327,328,0,Periódico preferido para seguir la información política y electoral durante la campaña electoral de las elecciones generales de 2015
+7715,PP19B,329,330,0,Cadena de televisión preferida para seguir la información política y electoral durante la campaña electoral de las elecciones generales de 2015
+7715,PP19C,331,332,0,Emisora de radio preferida para seguir la información política y electoral durante la campaña electoral de las elecciones generales de 2015
+7715,PP20,333,333,0,Uso de Internet (últimos 3 meses)
+7715,PP20A01,334,334,0,Facebook
+7715,PP20A02,335,335,0,Twitter
+7715,PP20A03,336,336,0,Tuenti
+7715,PP20A04,337,337,0,LinkedIn
+7715,PP20A05,338,338,0,Instagram
+7715,PP20A06,339,339,0,"Otras redes sociales (Hi5, Google+, etc.)"
+7715,PP20A07,340,340,0,Ninguna
+7715,PP20A08,341,341,0,N.C.
+7715,PP20B01,342,342,0,"En páginas de medios de comunicación (periódicos, radios, etc.)"
+7715,PP20B02,343,343,0,En páginas de partidos o candidatos/as
+7715,PP20B03,344,344,0,En páginas de organizaciones ciudadanas o movimientos cívicos
+7715,PP20B04,345,345,0,En blogs y foros de debate
+7715,PP20B05,346,346,0,"En redes sociales (Facebook, Tuenti, Twitter, etc.)"
+7715,PP20B06,347,347,0,En otro tipo de páginas web
+7715,PP20B07,348,348,0,N.C.
+7715,PP21,349,349,0,"Seguimiento del debate en televisión entre los candidatos a las elecciones generales de 2015: Mariano Rajoy, Pedro Sánchez"
+7715,PP21A,350,350,0,Candidato más convincente en el debate electoral televisado de las elecciones generales de 2015
+7715,PP22,351,351,0,"Seguimiento del debate en televisión entre los candidatos a las elecciones generales de 2015: Soraya Sáenz de Santamaría, Pedro Sánchez, Albert Rivera y Pablo Iglesias"
+7715,PP22A,352,352,0,Candidato más convincente en el debate electoral televisado de las elecciones generales de 2015
+7715,PP2301,353,353,0,Vio algún otro debate o entrevistas con candidatos/as
+7715,PP2302,354,354,0,Vio algún espacio de propaganda electoral de algún partido o coalición política
+7715,PP2303,355,355,0,"Leyó o echó un vistazo a cartas, folletos o programas de algún partido o coalición política"
+7715,PP2304,356,356,0,Contribuyó económicamente para algún partido o candidato/a
+7715,PP2305,357,357,0,Trabajó como voluntario/a en la campaña de algún partido o candidato/a
+7715,PP2306,358,358,0,Asistió a un mitin o reunión de algún partido
+7715,PP24,359,359,0,Contacto de algún partido político para pedir el voto durante la campaña electoral de las elecciones generales de 2015
+7715,BLANCO,360,361,0,
+7715,PP25,362,362,0,Envío de mensajes electrónicos con temas sobre las elecciones generales de 2015
+7715,PP25A,363,363,0,Recepción de correo electrónico o a través de las redes sociales en la difusión de temas electorales
+7715,PP2601,364,364,0,"En casa, con su familia"
+7715,PP2602,365,365,0,Con sus amigos/as
+7715,PP2603,366,366,0,En su lugar de trabajo o centro de estudios
+7715,PP27,367,367,0,Conocimiento de los resultados de sondeos electorales durante la campaña electoral de las elecciones generales de 2015
+7715,PP27A,368,368,0,Grado de influencia de los sondeos de las elecciones generales de 2015
+7715,PP27B,369,369,0,Sentido en que influyeron los resultados de los sondeos de las elecciones generales de 2015
+7715,PP28,370,370,0,Decisión respecto al voto en las elecciones generales de 2015
+7715,PP28A01,371,372,0,Partidos políticos entre los que se dudó el voto en las elecciones generales de 2015
+7715,PP28A02,373,374,0,Partidos políticos entre los que se dudó el voto en las elecciones generales de 2015
+7715,PP29,375,375,0,Participación electoral en las elecciones generales de 2015
+7715,PP29A,376,376,0,Momento de la decisión de no votar en las elecciones generales de 2015
+7715,PP29B01,377,377,0,Primer lugar
+7715,PP29B02,378,378,0,Segundo lugar
+7715,PP29C,379,379,0,Razones que impidieron votar en las elecciones generales de 2015
+7715,PP29D,380,381,0,Intención de voto en las elecciones generales de 2015 de los que no pudieron votar
+7715,PP30,382,382,0,Momento de la decisión de voto en las elecciones generales de 2015
+7715,PP31,383,384,0,Recuerdo de voto en las elecciones generales de 2015 de los votantes
+7715,PP32,385,385,0,Grado de convicción con la elección del partido al que votó en las elecciones generales de 2015
+7715,PP3301,386,386,0,Primer lugar
+7715,PP3302,387,387,0,Segundo lugar
+7715,PP34,388,388,0,Decisión respecto al voto en las elecciones generales de 2015 de haber conocido antes los resultados
+7715,PP35,389,390,0,Escala de autoubicación ideológica (1-10)
+7715,PP3601,391,392,0,PP
+7715,PP3602,393,394,0,PSOE
+7715,PP3603,395,396,0,Podemos
+7715,PP3604,397,398,0,Ciudadanos
+7715,PP3605,399,400,0,IU (Unidad Popular)
+7715,PP3606,401,402,0,UPyD
+7715,PP3607,403,404,0,En Comú (Sólo en Cataluña)
+7715,PP3608,405,406,0,ERC (Sólo en Cataluña)
+7715,PP3609,407,408,0,Democràcia i Llibertat (Sólo en Cataluña)
+7715,PP3610,409,410,0,Unió (Sólo en Cataluña)
+7715,PP3611,411,412,0,PNV (Sólo en País Vasco)
+7715,PP3612,413,414,0,EH Bildu (Sólo en País Vasco y Navarra)
+7715,PP3613,415,416,0,Geroa Bai (Sólo en Navarra)
+7715,PP3614,417,418,0,UPN (Sólo en Navarra)
+7715,PP3615,419,420,0,Compromís (Sólo en Comunidad Valenciana)
+7715,PP3616,421,422,0,CC (Sólo en Canarias)
+7715,PP3617,423,424,0,Nueva Canarias (Sólo en Canarias)
+7715,PP3618,425,426,0,En Marea (Sólo en Galicia)
+7715,PP3619,427,428,0,BNG (Sólo en Galicia)
+7715,PP3620,429,430,0,PAR (Sólo en Aragón)
+7715,PP3621,431,432,0,CHA (Sólo en Aragón)
+7715,PP3622,433,434,0,Foro (Sólo en Asturias)
+7715,PP3701,435,436,0,Alberto Garzón
+7715,PP3702,437,438,0,Andrés Herzog
+7715,PP3703,439,440,0,Pablo Iglesias
+7715,PP3704,441,442,0,Mariano Rajoy
+7715,PP3705,443,444,0,Albert Rivera
+7715,PP3706,445,446,0,Pedro Sánchez
+7715,PP3707,447,448,0,Xavier Domènech (Sólo en Cataluña)
+7715,PP3708,449,450,0,Josep A. Duran i Lleida (Sólo en Cataluña)
+7715,PP3709,451,452,0,Francesc Homs (Sólo en Cataluña)
+7715,PP3710,453,454,0,Gabriel Rufián (Sólo en Cataluña)
+7715,PP3711,455,456,0,Marian Beitialarrangoitia (Sólo en País Vasco)
+7715,PP3712,457,458,0,Aitor Esteban (Sólo en País Vasco)
+7715,PP3713,459,460,0,Koldo Martínez (Sólo en Navarra)
+7715,PP3714,461,462,0,Joan Baldoví Roda (Sólo en Comunidad Valenciana)
+7715,PP3715,463,464,0,Antón Gómez-Reino (Sólo en Galicia)
+7715,PP3716,465,466,0,Carlos Callón (Sólo en Galicia)
+7715,PP3717,467,468,0,Ana María Oramas (Sólo en Canarias)
+7715,PP3801,469,470,0,Primer lugar
+7715,PP3802,471,472,0,Segundo lugar
+7715,PP39,473,473,0,Cercanía hacia algún partido político
+7715,PP39A,474,475,0,Partido político por el que se siente más cercanía
+7715,PP39B,476,476,0,Grado de cercanía hacia el partido político que se siente más cercano
+7715,PP40,477,477,0,Sentimiento nacionalista
+7715,PP41,478,479,0,"Escala de nacionalismo (1-10) en Aragón, Canarias, Cataluña, Comunidad Valenciana, Galicia, Comunidad Foral de Navarra y País Vasco"
+7715,PP4201,480,481,0,PP
+7715,PP4202,482,483,0,PSOE
+7715,PP4203,484,485,0,Podemos
+7715,PP4204,486,487,0,Ciudadanos
+7715,PP4205,488,489,0,IU (Unidad Popular)
+7715,PP4206,490,491,0,UPyD
+7715,PP4207,492,493,0,En Comú (Sólo en Cataluña)
+7715,PP4208,494,495,0,ERC (Sólo en Cataluña)
+7715,PP4209,496,497,0,Democràcia i Llibertat (Sólo en Cataluña)
+7715,PP4210,498,499,0,Unió (Sólo en Cataluña)
+7715,PP4211,500,501,0,PNV (Sólo en País Vasco)
+7715,PP4212,502,503,0,EH Bildu (Sólo en País Vasco y Navarra)
+7715,PP4213,504,505,0,Geroa Bai (Sólo en Navarra)
+7715,PP4214,506,507,0,UPN (Sólo en Navarra)
+7715,PP4215,508,509,0,Compromís (Sólo en Comunidad Valenciana)
+7715,PP4216,510,511,0,CC (Sólo en Canarias)
+7715,PP4217,512,513,0,Nueva Canarias (Sólo en Canarias)
+7715,PP4218,514,515,0,En Marea (Sólo en Galicia)
+7715,PP4219,516,517,0,BNG (Sólo en Galicia)
+7715,PP4220,518,519,0,PAR (Sólo en Aragón)
+7715,PP4221,520,521,0,CHA (Sólo en Aragón)
+7715,PP43,522,522,0,Grado de orgullo de ser español
+7715,PP44,523,523,0,Conocimiento del anterior presidente del Gobierno: J. L. Rodríguez Zapatero
+7715,PP45,524,527,0,Conocimiento de la Constitución española (año aprobación)
+7715,PP46,528,528,0,Conocimiento de si votar es una obligación legal
+7715,PP47,529,530,0,Autodefinición de su ideología política
+7715,PP47A,531,532,0,Autodefinición de su ideología política (2ª opción)
+7715,PP48,533,533,0,Participación electoral en las elecciones generales de 2011
+7715,PP48A,534,535,0,Recuerdo de voto en las elecciones generales de 2011 de los votantes
+7715,PP4901,536,537,0,PP
+7715,PP4902,538,539,0,PSOE
+7715,PP4903,540,541,0,Podemos
+7715,PP4904,542,543,0,Ciudadanos
+7715,PP4905,544,545,0,IU (Unidad Popular)
+7715,PP4906,546,547,0,UPyD
+7715,PP4907,548,549,0,En Comú (Sólo en Cataluña)
+7715,PP4908,550,551,0,ERC (Sólo en Cataluña)
+7715,PP4909,552,553,0,Democràcia i Llibertat (Sólo en Cataluña)
+7715,PP4910,554,555,0,Unió (Sólo en Cataluña)
+7715,PP4911,556,557,0,PNV (Sólo en País Vasco)
+7715,PP4912,558,559,0,EH Bildu (Sólo en País Vasco y Navarra)
+7715,PP4913,560,561,0,Geroa Bai (Sólo en Navarra)
+7715,PP4914,562,563,0,UPN (Sólo en Navarra)
+7715,PP4915,564,565,0,Compromís (Sólo en Comunidad Valenciana)
+7715,PP4916,566,567,0,CC (Sólo en Canarias)
+7715,PP4917,568,569,0,Nueva Canarias (Sólo en Canarias)
+7715,PP4918,570,571,0,En Marea (Sólo en Galicia)
+7715,PP4919,572,573,0,BNG (Sólo en Galicia)
+7715,PP4920,574,575,0,PAR (Sólo en Aragón)
+7715,PP4921,576,577,0,CHA (Sólo en Aragón)
+7715,PP4922,578,579,0,Foro (Sólo en Asturias)
+7715,PP5001,580,580,0,Está pagando una hipoteca
+7715,PP5002,581,581,0,"Percibe regularmente una ayuda económica de algún gobierno o Administración Pública (becas escolares, ayuda al alquiler, ayuda por el cuidado de personas dependientes, ayuda por hijos/as menores a cargo, etc.)"
+7715,PP5003,582,582,0,Tiene contratado un seguro médico privado
+7715,PP51,583,583,0,Estado civil de la persona entrevistada
+7715,PP52,584,585,0,Situación personal de convivencia actual
+7715,PP53,586,586,0,Tenencia de hijos a cargo de la persona entrevistada
+7715,PP54,587,587,0,Tenencia de personas dependientes a cargo de la persona entrevistada
+7715,PP55,588,588,0,Recepción de alguna ayuda económica o préstamo de un familiar (12 meses)
+7715,PP56,589,589,0,Prestación de alguna ayuda económica o préstamo a un familiar (12 meses)
+7715,PP57,590,590,0,Escolarización de la persona entrevistada
+7715,PP57A,591,592,0,Nivel de estudios alcanzado por la persona entrevistada
+7715,PP58,593,593,0,Religiosidad de la persona entrevistada
+7715,PP58A,594,594,0,Frecuencia de asistencia a oficios religiosos
+7715,PP59,595,595,0,Valoración de la situación económica personal
+7715,PP60,596,596,0,Valoración retrospectiva de la situación económica personal (4 años)
+7715,PP61,597,597,0,Cabeza de familia
+7715,PP6201,598,598,0,Ha perdido su trabajo (independientemente de si ha vuelto a encontrar otro o no)
+7715,PP6202,599,599,0,Ha visto congelado o recortado su salario (sin cambiar la dedicación en horas de trabajo)
+7715,PP63,600,600,0,Situación laboral de la persona entrevistada
+7715,PP63A,601,601,0,Tipo de jornada laboral de la persona entrevistada
+7715,PP63B,602,602,0,Probabilidad de perder el empleo actual en los próximos 12 meses
+7715,PP63C,603,603,0,Tiempo de desempleo
+7715,PP63D,604,604,0,Tipo de prestación por desempleo que percibe
+7715,PP63E,605,605,0,Probabilidad de encontrar empleo en los próximos 12 meses
+7715,PP64,606,608,0,Ocupación de la persona entrevistada (CNO11)
+7715,PP65,609,609,0,Situación profesional de la persona entrevistada
+7715,PP65A,610,610,0,Tipo de empresa u organización de la persona entrevistada
+7715,PP66,611,613,0,Rama de actividad de la persona entrevistada (CNAE09)
+7715,PP67,614,615,0,Nivel de ingresos del hogar
+7715,PP68,616,617,0,Ingresos personales
+7715,PP69,618,619,0,Escala de clase social subjetiva (1-10) de la persona entrevistada
+7715,PP7001,620,620,0,Tiende a ser reservado/a
+7715,PP7002,621,621,0,Tiende a ser perezoso/a
+7715,PP7003,622,622,0,Se deja dominar por el estrés
+7715,PP7004,623,623,0,Le resulta fácil ponerse en el lugar de los demás
+7715,PP7005,624,624,0,Tiene poco interés por lo artístico
+7715,PP7006,625,625,0,Es extrovertido/a y sociable
+7715,PP7007,626,626,0,Tiene tendencia a criticar a los demás
+7715,PP7008,627,627,0,Realiza concienzudamente las cosas que tiene que hacer
+7715,PP7009,628,628,0,Se pone nervioso/a con facilidad
+7715,PP7010,629,629,0,Tiene mucha imaginación
+7715,PP71,630,631,0,Escala de confianza (0-10) en la gente
+7715,PP72,632,633,0,Escala de felicidad personal (0-10)
+7715,PP73,634,636,0,Número de libros leídos en los últimos 12 meses
+7715,PP74,637,637,0,Tenencia de teléfono fijo en el hogar
+7715,PP75,638,638,0,Tenencia de teléfono móvil
+7715,PP76,639,639,0,Número de teléfono
+7715,PP77,640,640,0,Dirección de correo electrónico
+7715,PP7801,641,641,0,La entrevista se ha realizado en presencia de terceras personas
+7715,PP7802,642,642,0,(La persona entrevistada) ha expresado deseo de abandonar la entrevista antes de finalizarla
+7715,PP7803,643,643,0,(La persona entrevistada) se ha sentido incómoda o molesta por el tema de la encuesta
+7715,PP7804,644,644,0,(La persona entrevistada) ha tenido prisa por acabar la entrevista
+7715,PP7901,645,647,0,
+7715,PP7902,648,650,0,
+7715,PP7903,651,653,0,
+7715,PP7904,654,656,0,
+7715,PP7905,657,659,0,
+7715,PP8001,660,662,0,
+7715,PP8002,663,665,0,
+7715,PP8003,666,668,0,
+7715,PP8004,669,671,0,
+7715,PP8005,672,674,0,
+7715,PP81,675,675,0,
+7715,PP8201,676,676,0,Cónyuge/Pareja
+7715,PP8202,677,677,0,Hijo/a/s
+7715,PP8203,678,678,0,Padre/madre
+7715,PP8204,679,679,0,Otras personas
+7715,PP8205,680,680,0,N.S.
+7715,PP83,681,681,0,
+7715,PP84,682,682,0,
+7715,PP85,683,683,0,
+7715,PP86,684,684,0,
+7715,PE101,685,686,0,Fecha de realización (día)
+7715,PE102,687,688,0,Fecha de realización (mes)
+7715,PE103,689,690,0,Fecha de realización (año)
+7715,PE2,691,691,0,Día de la semana que se realiza la entrevista
+7715,PE3,692,694,0,Duración de la entrevista (en minutos)
+7715,PE4,695,695,0,Hora de realización
+7715,PC1,696,696,0,Cuestionario cumplimentado
+7715,PC1A,697,698,0,Motivo del cuestionario incorrecto
+7715,PC2,699,699,0,Valoración de la inspección
+7715,PC2A,700,700,0,Resultado de la inspección
+7715,PC2B,701,702,0,Motivo de la entrevista incorrecta
+7715,PC3,703,703,0,Resultado final de la entrevista
+7715,PC4,704,705,0,Codificador/a nº
+7715,PSEXO,706,706,0,Sexo de la persona entrevistada
+7715,PEDAD,707,708,0,Edad de la persona entrevistada
+7715,PESO,709,715,5,Coeficientes de ponderación
+7715,PP20B08,716,716,0,Ninguna
+7715,PP24A01,717,717,0,PP
+7715,PP24A02,718,718,0,PSOE
+7715,PP24A03,719,719,0,Podemos
+7715,PP24A04,720,720,0,Ciudadanos
+7715,PP24A05,721,721,0,IU (Unidad Popular)
+7715,PP24A06,722,722,0,En Comú Podem
+7715,PP24A07,723,723,0,Compromís-Podemos-És el Moment
+7715,PP24A08,724,724,0,ERC
+7715,PP24A09,725,725,0,Convergència (Democràcia i Llibertat)
+7715,PP24A10,726,726,0,En Marea
+7715,PP24A11,727,727,0,EAJ-PNV
+7715,PP24A12,728,728,0,EH Bildu
+7715,PP24A13,729,729,0,CC-PNC
+7715,PP24A14,730,730,0,UPN
+7715,PP24A15,731,731,0,PAR
+7715,PP24A16,732,732,0,Foro Asturias
+7715,PP24A17,733,733,0,Nueva Canarias
+7715,PP24A18,734,734,0,ICV
+7715,PP24A19,735,735,0,CHA
+7715,PP24A20,736,736,0,UPyD
+7715,PP24A21,737,737,0,BNG (Nós-Candidatura Galega)
+7715,PP24A22,738,738,0,Geroa Bai
+7715,PP24A23,739,739,0,Unió
+7715,PP24A24,740,740,0,PACMA
+7715,PP24A25,741,741,0,Otro
+7715,PP24A26,742,742,0,UPL
+7715,PP24A28,743,743,0,PCE
+7715,PP24A29,744,744,0,EQUO
+7715,PP24A30,745,745,0,VOX
+7715,PP24A31,746,746,0,Ecologistas
+7715,PP24A32,747,747,0,Verdes
+7715,PP24A33,748,748,0,Partido Pirata
+7715,PP24A35,749,749,0,PRC
+7715,PP24A36,750,750,0,AES
+7715,PP24A37,751,751,0,CUP
+7715,PP24A38,752,752,0,Escaños en Blanco
+7715,PP24A39,753,753,0,España 2000
+7715,PP24A40,754,754,0,Més per Mallorca
+7715,PP24A41,755,755,0,PI
+7715,PP24A42,756,756,0,PA
+7715,PP24A43,757,757,0,Partido Familia y Vida
+7715,PP24A44,758,758,0,PSM-Entesa Nacionalista
+7715,PP24A45,759,759,0,Recortes Cero
+7715,PP24A46,760,760,0,Falange
+7715,PP24A47,761,761,0,DN
+7715,PP24A48,762,762,0,P-LIB
+7715,PP24A49,763,763,0,PIArr
+7715,PP24A50,764,764,0,Junts pel Sí
+7715,PP24A51,765,765,0,PCPC
+7715,PP24A98,766,766,0,No recuerda
+7715,PP24A99,767,767,0,N.C.
+7715,P10BCOM,768,771,0,Partidos políticos entre los que se duda el voto en las elecciones generales de 2015 (2)
+7715,P11R,772,773,0,Intención de voto en las elecciones generales de 2015 [recodificada]
+7715,P12R,774,775,0,Partido político por el que se siente más simpatía en las elecciones generales de 2015 (sin filtro) [recodificada]
+7715,VOTOSIM,776,777,0,Voto+simpatía en las elecciones generales de 2015 [recodificada]
+7715,RECUERDO,778,779,0,Recuerdo de voto en las elecciones generales de 2011
+7715,RVAUTON,780,781,0,Recuerdo de voto en las elecciones autonómicas [recodificada]
+7715,PP18AR,782,783,0,Partido político más cercano a la posición personal respecto al tema debatido durante la campaña electoral de las elecciones generales de 2015 [recodificada]
+7715,PP28ACOM,784,787,0,Partidos políticos entre los que se dudó el voto en las elecciones generales de 2015
+7715,PP29DR,788,789,0,Intención de voto en las elecciones generales de 2015 de los que no pudieron votar [recodificada]
+7715,PP31R,790,791,0,Recuerdo de voto en las elecciones generales de 2015 de los votantes [recodificada]
+7715,PP39AR,792,793,0,Partido político por el que se siente más cercanía [recodificada]
+7715,PP48AR,794,795,0,Recuerdo de voto en las elecciones generales de 2011 de los votantes [recodificada]
+7715,PRECUERDO,796,797,0,Recuerdo de voto en las elecciones generales de 2015 [recodificada]
+7715,PRECUERDO11,798,799,0,Recuerdo de voto en las elecciones generales de 2011 [recodificada]
+7715,PESTUDIOS,800,801,0,Estudios de la persona entrevistada [recodificada]
+7715,POCUMAR11,802,803,0,Ocupación de la persona entrevistada (CNO11) [recodificada]
+7715,PRAMA09,804,804,0,Rama de actividad de la persona entrevistada (CNAE09)
+7715,PCONDICION11,805,806,0,Condición socioeconómica del INE (+inactivos)
+7715,PESTATUS,807,807,0,Estatus socioeconómico de la persona entrevistada

@@ -1,0 +1,37 @@
+iso,country,onset_year,rank,date,status,IMD1004,n,module2_n,module3_n,module4_n,module5_n,_merge
+BEL,Belgium,2008,0,2007-06-10,included,,,,,,,left_only
+BEL,Belgium,2008,1,2010-06-13,included,,,,,,,left_only
+BEL,Belgium,2008,2,2014-05-25,included,,,,,,,left_only
+DEU,Germany,2008,0,2005-09-18,included,DEU_2005,2018.0,0.0,2018.0,0.0,0.0,both
+DEU,Germany,2008,1,2009-09-27,included,DEU_2009,2095.0,0.0,2095.0,0.0,0.0,both
+DEU,Germany,2008,2,2013-09-22,included,DEU_2013,1889.0,0.0,0.0,1889.0,0.0,both
+DNK,Denmark,2008,0,2007-11-13,included,DNK_2007,1442.0,0.0,1442.0,0.0,0.0,both
+DNK,Denmark,2008,1,2011-09-15,included,,,,,,,left_only
+DNK,Denmark,2008,2,2015-06-18,included,,,,,,,left_only
+ESP,Spain,2008,0,2008-03-09,included,ESP_2008,1204.0,0.0,1204.0,0.0,0.0,both
+ESP,Spain,2008,1,2011-11-20,included,,,,,,,left_only
+ESP,Spain,2008,2,2015-12-20,included,,,,,,,left_only
+GBR,United Kingdom,2007,0,2005-05-05,included,GBR_2005,860.0,860.0,0.0,0.0,0.0,both
+GBR,United Kingdom,2007,1,2010-05-06,included,,,,,,,left_only
+GBR,United Kingdom,2007,2,2015-05-07,included,GBR_2015,1567.0,0.0,0.0,1567.0,0.0,both
+GRC,Greece,2008,0,2007-09-16,included,,,,,,,left_only
+GRC,Greece,2008,1,2009-10-04,included,GRC_2009,1022.0,0.0,1022.0,0.0,0.0,both
+GRC,Greece,2008,2,2012-05-06,included,,,,,,,left_only
+IRL,Ireland,2008,0,2007-05-24,included,IRL_2007,1435.0,0.0,1435.0,0.0,0.0,both
+IRL,Ireland,2008,1,2011-02-25,included,IRL_2011,1853.0,0.0,0.0,1853.0,0.0,both
+IRL,Ireland,2008,2,2016-02-26,included,IRL_2016,1000.0,0.0,0.0,0.0,1000.0,both
+ISL,Iceland,2008,0,2007-05-12,included,ISL_2007,1595.0,0.0,1595.0,0.0,0.0,both
+ISL,Iceland,2008,1,2009-04-25,included,ISL_2009,1385.0,0.0,1385.0,0.0,0.0,both
+ISL,Iceland,2008,2,2013-04-27,included,ISL_2013,1479.0,0.0,0.0,1479.0,0.0,both
+ITA,Italy,2008,0,2008-04-13,included,,,,,,,left_only
+ITA,Italy,2008,1,2013-02-24,included,,,,,,,left_only
+ITA,Italy,2008,2,2018-03-04,included,ITA_2018,2001.0,0.0,0.0,0.0,2001.0,both
+LVA,Latvia,2008,0,2006-10-07,included,,,,,,,left_only
+LVA,Latvia,2008,1,2010-10-02,included,LVA_2010,1005.0,0.0,1005.0,0.0,0.0,both
+LVA,Latvia,2008,2,2011-09-17,included,LVA_2011,1004.0,0.0,0.0,1004.0,0.0,both
+NLD,Netherlands,2008,0,2006-11-22,included,NLD_2006,2359.0,0.0,2359.0,0.0,0.0,both
+NLD,Netherlands,2008,1,2010-06-09,included,NLD_2010,2153.0,0.0,2153.0,0.0,0.0,both
+NLD,Netherlands,2008,2,2012-09-12,included,,,,,,,left_only
+PRT,Portugal,2008,0,2005-02-20,included,PRT_2005,2801.0,2801.0,0.0,0.0,0.0,both
+PRT,Portugal,2008,1,2009-09-27,included,PRT_2009,1316.0,0.0,1316.0,0.0,0.0,both
+PRT,Portugal,2008,2,2011-06-05,included,,,,,,,left_only

@@ -1,0 +1,4 @@
+election_year,pre_wave,post_wave,n_pre,n_post,n_same_person,n_pre_all_three_and_post_named_vote,n_also_pre_named_intention,n_also_pre_government_approval,n_also_pre_intention_and_government_approval,n_positive_pre_weight_among_joint,longitudinal_weight_verified,pre_crisis_baseline
+2015,4,6,31328,30073,27603,22398,20732,22231,20612,22398,False,False
+2017,10,13,30236,31135,20979,16175,13382,15923,13240,16175,False,False
+2019,17,19,34366,32177,23315,17950,15981,17708,15798,17950,False,False

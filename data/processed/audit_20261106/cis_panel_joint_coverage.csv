@@ -1,0 +1,6 @@
+comparison,variables,n,kish_n_weight_only,note
+pre_economy_government_and_post_named_vote,P4|P5|PP31R,4638,4172.549705963809,"Kish count describes weight dispersion, not full survey design or identification."
+post_economy_priority_party_trust_and_named_vote,PP8|PP301|PP602|PP31R,4613,4147.42832054986,"Kish count describes weight dispersion, not full survey design or identification."
+pre_economy_government_post_priority_trust_named_vote,P4|P5|PP301|PP602|PP31R,4561,4100.425718095485,"Kish count describes weight dispersion, not full survey design or identification."
+pre_intention_and_post_named_vote,P11R|PP31R,3410,3083.67704188505,"Kish count describes weight dispersion, not full survey design or identification."
+all_three_explanations_measured_before_election,absent,0,0.0,No direct priority or political elite trust question in pre-election wave.

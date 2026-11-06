@@ -1,0 +1,30 @@
+module,variable,concept,valid_min,valid_max,valid_values,source_label_first_line,codebook_file
+2,B3009,mip_national,1,901,1 through 901,MOST IMPORTANT ISSUE,cses2_codebook_part2_variables.txt
+2,B3010,government_mip_performance,1,4,1 through 4,GOVERNMENT PERFORMANCE: MOST IMPORTANT ISSUE,cses2_codebook_part2_variables.txt
+2,B3011,government_performance,1,4,1 through 4,GOVERNMENT PERFORMANCE: GENERAL,cses2_codebook_part2_variables.txt
+2,B3012,democracy_satisfaction,1,4,1 through 4,SATISFACTION WITH DEMOCRACY,cses2_codebook_part2_variables.txt
+2,B3013,power_makes_difference,1,5,1 through 5,WHO IS IN POWER CAN MAKE DIFFERENCE,cses2_codebook_part2_variables.txt
+2,B3014,vote_makes_difference,1,5,1 through 5,WHO PEOPLE VOTE FOR MAKES A DIFFERENCE,cses2_codebook_part2_variables.txt
+2,B3044,perceived_corruption,1,4,1 through 4,HOW WIDESPREAD IS CORRUPTION,cses2_codebook_part2_variables.txt
+3,C3001_1,mip_personal_first,1,901,1 through 901,Q1a.  MOST IMPORTANT PROBLEM-EGOCENTRIC-FIRST MENTION,cses3_codebook_part2_variables.txt
+3,C3001_2,mip_personal_second,1,901,1 through 901,Q1b.  MOST IMPORTANT PROBLEM-EGOCENTRIC-SECOND,cses3_codebook_part2_variables.txt
+3,C3002_1,mip_national,1,901,1 through 901,Q2a.  MOST IMPORTANT PROBLEM-SOCIOTROPIC-FIRST,cses3_codebook_part2_variables.txt
+3,C3002_2,mip_national_second,1,901,1 through 901,Q2b.  MOST IMPORTANT PROBLEM-SOCIOTROPIC-SECOND,cses3_codebook_part2_variables.txt
+3,C3006,government_performance,1,4,1 through 4,Q6.   GOVERNMENT PERFORMANCE: GENERAL,cses3_codebook_part2_variables.txt
+3,C3019,democracy_satisfaction,1,4,1 through 4,Q19.  SATISFACTION WITH DEMOCRACY,cses3_codebook_part2_variables.txt
+3,C3004,power_makes_difference,1,5,1 through 5,Q4.   WHO IS IN POWER CAN MAKE DIFFERENCE,cses3_codebook_part2_variables.txt
+3,C3005,vote_makes_difference,1,5,1 through 5,Q5.   WHO PEOPLE VOTE FOR MAKES A DIFFERENCE,cses3_codebook_part2_variables.txt
+4,D3003_1,national_economy_retrospective,1,3,1 through 3,Q03     STATE OF ECONOMY,cses4_codebook_part2_variables.txt
+4,D3002,standard_of_living_future_10_years,1,5,"[1, 2, 4, 5]",Q02     IMPROVING STANDARD OF LIVING,cses4_codebook_part2_variables.txt
+4,D3017,democracy_satisfaction,1,4,1 through 4,Q15     SATISFACTION WITH DEMOCRACY,cses4_codebook_part2_variables.txt
+4,D3009,power_makes_difference,1,5,1 through 5,Q07     WHO IS IN POWER CAN MAKE DIFFERENCE,cses4_codebook_part2_variables.txt
+4,D3010,vote_makes_difference,1,5,1 through 5,Q08     WHO PEOPLE VOTE FOR MAKES A DIFFERENCE,cses4_codebook_part2_variables.txt
+5,E3011,national_economy_retrospective,1,5,1 through 5,Q11     STATE OF THE ECONOMY,cses5_codebook_part2_variables.txt
+5,E3009,government_performance,1,4,1 through 4,Q09     GOVERNMENT PERFORMANCE: GENERAL,cses5_codebook_part2_variables.txt
+5,E3004_2,elites_do_not_care,1,5,1 through 5,Q04b    ATTITUDES ABOUT ELITES: DO NOT CARE ABOUT THE,cses5_codebook_part2_variables.txt
+5,E3004_3,elites_trustworthy,1,5,1 through 5,Q04c    ATTITUDES ABOUT ELITES: ARE TRUSTWORTHY,cses5_codebook_part2_variables.txt
+5,E3004_4,politicians_main_problem,1,5,1 through 5,Q04d    ATTITUDES ABOUT ELITES: ARE THE MAIN PROBLEM,cses5_codebook_part2_variables.txt
+5,E3004_7,elites_rich_powerful,1,5,1 through 5,Q04g    ATTITUDES ABOUT ELITES: RICH AND POWERFUL,cses5_codebook_part2_variables.txt
+5,E3023,democracy_satisfaction,1,4,1 through 4,Q21     SATISFACTION WITH DEMOCRACY,cses5_codebook_part2_variables.txt
+5,E3016_1,power_makes_difference,1,5,1 through 5,Q14a    WHO IS IN POWER CAN MAKE DIFFERENCE,cses5_codebook_part2_variables.txt
+5,E3016_2,vote_makes_difference,1,5,1 through 5,Q14b    WHO PEOPLE VOTE FOR MAKES A DIFFERENCE,cses5_codebook_part2_variables.txt

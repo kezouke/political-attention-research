@@ -1,0 +1,16 @@
+variable,concept,timing,n_panel,valid_n,valid_pct,valid_min,valid_max,source_label
+P4,national_economy_current,pre,6242,6209,99.47132329381608,1,5,Valoración de la situación económica general de España
+P5,incumbent_government_performance_4_years,pre,6242,6109,97.86927266901634,1,5,Valoración de la gestión del gobierno central del PP (4 años)
+P11R,named_vote_intention,pre,6242,3933,63.008651073373926,1,24,Intención de voto en las elecciones generales de 2015 [recodificada]
+PP201,politicians_do_not_care,post,6242,6084,97.4687600128164,1,4,Los/as políticos/as no se preocupan mucho de lo que piensa la gente como Ud.
+PP203,any_ruler_seeks_personal_interests,post,6242,6034,96.66773470041653,1,4,"Esté quien esté en el poder, siempre busca sus intereses personales"
+PP301,personal_issue_priority_first,post,6242,6228,99.77571291252804,1,97,Primer lugar
+PP302,personal_issue_priority_second,post,6242,6160,98.68631848766421,1,97,Segundo lugar
+PP303,personal_issue_priority_third,post,6242,5964,95.54629926305671,1,97,Tercer lugar
+PP601,trust_parliament,post,6242,5861,93.89618711951297,0,10,El Parlamento español
+PP602,trust_political_parties,post,6242,6084,97.4687600128164,0,10,Los partidos políticos
+PP8,national_economy_current,post,6242,6215,99.56744633130407,1,5,Valoración de la situación económica general de España
+PP9,national_economy_retrospective_4_years,post,6242,6122,98.0775392502403,1,5,Valoración retrospectiva de la situación económica de España (4 años)
+PP31R,named_party_vote_2015,post,6242,4714,75.52066645305992,1,24,Recuerdo de voto en las elecciones generales de 2015 de los votantes [recodificada]
+PP59,personal_economy_current,post,6242,6218,99.61550785004806,1,5,Valoración de la situación económica personal
+PP60,personal_economy_retrospective_4_years,post,6242,6093,97.61294456904838,1,5,Valoración retrospectiva de la situación económica personal (4 años)

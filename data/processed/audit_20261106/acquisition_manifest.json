@@ -1,0 +1,1072 @@
+{
+  "cses2_page": {
+    "url": "https://cses.org/data-download/cses-module-2-2001-2006/",
+    "resolved_url": "https://cses.org/data-download/cses-module-2-2001-2006/",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:53.966948+00:00",
+    "bytes": 109006,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "69b2ba76dc5696c31dd15b86180634a93705ac0f5b06e0d55537d7109c52d8e1",
+    "local_path": "data/raw/audit_20261106/cses2_page.html"
+  },
+  "cses3_page": {
+    "url": "https://cses.org/data-download/cses-module-3-2006-2011-2/",
+    "resolved_url": "https://cses.org/data-download/cses-module-3-2006-2011-2/",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:54.002788+00:00",
+    "bytes": 115996,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "bfc7a983a2425610372103167a2bec4eb4c97c4e54eef1f0c579eae5e61e1d82",
+    "local_path": "data/raw/audit_20261106/cses3_page.html"
+  },
+  "cses5_page": {
+    "url": "https://cses.org/data-download/cses-module-5-2016-2021/",
+    "resolved_url": "https://cses.org/data-download/cses-module-5-2016-2021/",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:54.029626+00:00",
+    "bytes": 124401,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "2b21c3e927b9442dbe0e52f84c520ad6b501d9b78499c05b577e0ca77464bdb5",
+    "local_path": "data/raw/audit_20261106/cses5_page.html"
+  },
+  "cses4_page": {
+    "url": "https://cses.org/data-download/module-4-2011-2016/",
+    "resolved_url": "https://cses.org/data-download/module-4-2011-2016/",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:54.223983+00:00",
+    "bytes": 120352,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "4b1bb65751471bc27721bd05972507cec305442be5b361b72dabc7c160066cd4",
+    "local_path": "data/raw/audit_20261106/cses4_page.html"
+  },
+  "eurobarometer_mip": {
+    "url": "https://www.gesis.org/en/eurobarometer-data-service/overview/eb-trends-trend-files/list-of-trends/polit-issues-national",
+    "resolved_url": "https://www.gesis.org/en/eurobarometer-data-service/overview/eb-trends-trend-files/list-of-trends/polit-issues-national",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T13:55:54.338256+00:00",
+    "bytes": 5657,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "89e8670d5c85cf43f26fc33fc5ac2bcd5fb0cc35ee0ecb9c7285c9ad78548100",
+    "local_path": "data/raw/audit_20261106/eurobarometer_mip.txt"
+  },
+  "manifestoberta_page": {
+    "url": "https://manifestoproject.wzb.eu/information/documents/manifestoberta",
+    "resolved_url": "https://manifestoproject.wzb.eu/information/documents/manifestoberta",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:54.779894+00:00",
+    "bytes": 15715,
+    "content_type": "text/html; charset=utf-8",
+    "sha256": "1e1f09ab6f0f9290ea99980655d3742bf3afa8290755d9979e29c12ad36b4463",
+    "local_path": "data/raw/audit_20261106/manifestoberta_page.html"
+  },
+  "parlamint_readme": {
+    "url": "https://raw.githubusercontent.com/clarin-eric/ParlaMint/main/README.md",
+    "resolved_url": "https://raw.githubusercontent.com/clarin-eric/ParlaMint/main/README.md",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:54.943523+00:00",
+    "bytes": 5278,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "cc1d4e097519b81f8a4150d2cb08cdc0c6fa6b10d458e0c3051ce177ef544685",
+    "local_path": "data/raw/audit_20261106/parlamint_readme.txt"
+  },
+  "cses_imd_page": {
+    "url": "https://cses.org/data-download/cses-integrated-module-dataset-imd/",
+    "resolved_url": "https://cses.org/data-download/cses-integrated-module-dataset-imd/",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:55.037372+00:00",
+    "bytes": 81616,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "6e7101561d8b20086979c60ba0191c2aba6953000d2799887665edf5fb09a258",
+    "local_path": "data/raw/audit_20261106/cses_imd_page.html"
+  },
+  "popbert_dataverse": {
+    "url": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/HZMSUR",
+    "resolved_url": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/HZMSUR",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T13:55:55.341816+00:00",
+    "bytes": 199,
+    "content_type": "text/html; charset=iso-8859-1",
+    "sha256": "5b13fb5957b84ef7bb9d0b6cd509c947ff6a37d67efdac2b896ddd3b908aad10",
+    "local_path": "data/raw/audit_20261106/popbert_dataverse.txt"
+  },
+  "cses_variable_table": {
+    "url": "https://cses.org/data-download/download-data-documentation/variable-table/",
+    "resolved_url": "https://cses.org/data-download/download-data-documentation/variable-table/",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:55.627219+00:00",
+    "bytes": 825586,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "2e925f8ce769ad84b8755d98eaebbac115d6a2dcf2c1e7be5b1c1c7a429a8e39",
+    "local_path": "data/raw/audit_20261106/cses_variable_table.html"
+  },
+  "cses2_codebook_part1_introduction": {
+    "url": "https://cses.org/wp-content/uploads/2019/04/cses2_codebook_part1_introduction.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/04/cses2_codebook_part1_introduction.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:56.678882+00:00",
+    "bytes": 198035,
+    "content_type": "text/plain",
+    "sha256": "9e4c6587aeb82686ebe89a9f72385b6259c72c8d27d912f549bde184fa3da597",
+    "local_path": "data/raw/audit_20261106/cses2_codebook_part1_introduction.txt"
+  },
+  "20030108_cses2_questionnaire": {
+    "url": "https://cses.org/wp-content/uploads/2019/04/20030108_cses2_questionnaire.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/04/20030108_cses2_questionnaire.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:56.833794+00:00",
+    "bytes": 90160,
+    "content_type": "text/plain",
+    "sha256": "f5cbe2f276506c083af2e267a67aca653c5df5627d5822b1181b478f7986dd07",
+    "local_path": "data/raw/audit_20261106/20030108_cses2_questionnaire.txt"
+  },
+  "cses2_codebook_part3_appendices": {
+    "url": "https://cses.org/wp-content/uploads/2019/04/cses2_codebook_part3_appendices.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/04/cses2_codebook_part3_appendices.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:56.909319+00:00",
+    "bytes": 158152,
+    "content_type": "text/plain",
+    "sha256": "2d4b5921c2c50fda376aa6ccc2c0a4a07dbcb86b5e8a1aeca5ebaddd2cdc705f",
+    "local_path": "data/raw/audit_20261106/cses2_codebook_part3_appendices.txt"
+  },
+  "cses2_codebook_part2_variables": {
+    "url": "https://cses.org/wp-content/uploads/2019/04/cses2_codebook_part2_variables.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/04/cses2_codebook_part2_variables.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:57.110977+00:00",
+    "bytes": 1108729,
+    "content_type": "text/plain",
+    "sha256": "1f4eb2c50565cff0d55b85789bd3abaaf53d7e3eff389d4eb3fd29d0989aa8d2",
+    "local_path": "data/raw/audit_20261106/cses2_codebook_part2_variables.txt"
+  },
+  "cses3_Questionnaire": {
+    "url": "https://cses.org/wp-content/uploads/2019/04/cses3_Questionnaire.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/04/cses3_Questionnaire.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:57.600453+00:00",
+    "bytes": 126230,
+    "content_type": "text/plain",
+    "sha256": "a8dd1309dd235f43aa30e929031300869b8299cb68be0c9eb9147014dfcbbafb",
+    "local_path": "data/raw/audit_20261106/cses3_Questionnaire.txt"
+  },
+  "cses3_codebook_part1_introduction": {
+    "url": "https://cses.org/wp-content/uploads/2019/04/cses3_codebook_part1_introduction.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/04/cses3_codebook_part1_introduction.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:57.945908+00:00",
+    "bytes": 269846,
+    "content_type": "text/plain",
+    "sha256": "91c6068c90e2e198f4f1d99299633aa989d51dc1a8450ebb01ce9563020d609c",
+    "local_path": "data/raw/audit_20261106/cses3_codebook_part1_introduction.txt"
+  },
+  "cses3_codebook_part2_variables": {
+    "url": "https://cses.org/wp-content/uploads/2019/04/cses3_codebook_part2_variables.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/04/cses3_codebook_part2_variables.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:58.124955+00:00",
+    "bytes": 1400977,
+    "content_type": "text/plain",
+    "sha256": "e2e98a49b4f98dabe000dea2446c76a01e06d499bca6bea27273ac1bfc361588",
+    "local_path": "data/raw/audit_20261106/cses3_codebook_part2_variables.txt"
+  },
+  "cses3_codebook_part3_appendices": {
+    "url": "https://cses.org/wp-content/uploads/2019/04/cses3_codebook_part3_appendices.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/04/cses3_codebook_part3_appendices.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:58.474253+00:00",
+    "bytes": 238347,
+    "content_type": "text/plain",
+    "sha256": "dc1bc54e37bcd2e47d4a1f45a8584044d9f5e7e8f75f8ea105bd6063b1a714d7",
+    "local_path": "data/raw/audit_20261106/cses3_codebook_part3_appendices.txt"
+  },
+  "cses4_Questionnaire": {
+    "url": "https://cses.org/wp-content/uploads/2019/03/cses4_Questionnaire.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/03/cses4_Questionnaire.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:58.805627+00:00",
+    "bytes": 154706,
+    "content_type": "text/plain",
+    "sha256": "42d55798ff6bfef7fb5a9d46ee5a65a09004f89202fe537a8e41e72d4d9beca6",
+    "local_path": "data/raw/audit_20261106/cses4_Questionnaire.txt"
+  },
+  "cses4_codebook_part1_introduction": {
+    "url": "https://cses.org/wp-content/uploads/2019/03/cses4_codebook_part1_introduction.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/03/cses4_codebook_part1_introduction.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:59.380364+00:00",
+    "bytes": 135617,
+    "content_type": "text/plain",
+    "sha256": "da4e5bdfc1242c4cc999acfd18cb8b32a6e1554def7295c51aa33033e2b2a791",
+    "local_path": "data/raw/audit_20261106/cses4_codebook_part1_introduction.txt"
+  },
+  "cses4_codebook_part2_variables": {
+    "url": "https://cses.org/wp-content/uploads/2019/03/cses4_codebook_part2_variables.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/03/cses4_codebook_part2_variables.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:55:59.875061+00:00",
+    "bytes": 1419209,
+    "content_type": "text/plain",
+    "sha256": "d343761a1642b91743dce6fbd41db757fa826b5171e0cda47a72126dd54ff876",
+    "local_path": "data/raw/audit_20261106/cses4_codebook_part2_variables.txt"
+  },
+  "cses4_codebook_part3_parties_and_leaders": {
+    "url": "https://cses.org/wp-content/uploads/2019/03/cses4_codebook_part3_parties_and_leaders.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/03/cses4_codebook_part3_parties_and_leaders.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:00.279605+00:00",
+    "bytes": 180830,
+    "content_type": "text/plain",
+    "sha256": "b649911b80394a23bdf10fce3edeb1ea41850e95c7f91b1e6c2f55ea8b7d2b26",
+    "local_path": "data/raw/audit_20261106/cses4_codebook_part3_parties_and_leaders.txt"
+  },
+  "cses4_codebook_part4_primary_electoral_districts": {
+    "url": "https://cses.org/wp-content/uploads/2019/03/cses4_codebook_part4_primary_electoral_districts.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/03/cses4_codebook_part4_primary_electoral_districts.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:00.541878+00:00",
+    "bytes": 108165,
+    "content_type": "text/plain",
+    "sha256": "3f398c8adc855ad8e79d38dc89dd82fbaf280d930ed3995a52fa0d917e410b00",
+    "local_path": "data/raw/audit_20261106/cses4_codebook_part4_primary_electoral_districts.txt"
+  },
+  "cses2_csv": {
+    "url": "https://cses.org/wp-content/uploads/2019/04/cses2_csv.zip",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/04/cses2_csv.zip",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:00.748520+00:00",
+    "bytes": 5483622,
+    "content_type": "application/zip",
+    "sha256": "7c31a255b17b49a8ca279165d0a77164ac2ef21817533128d4662486642fe504",
+    "local_path": "data/raw/audit_20261106/cses2_csv.zip"
+  },
+  "cses4_codebook_part5_election_summaries": {
+    "url": "https://cses.org/wp-content/uploads/2019/03/cses4_codebook_part5_election_summaries.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/03/cses4_codebook_part5_election_summaries.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:00.950286+00:00",
+    "bytes": 86771,
+    "content_type": "text/plain",
+    "sha256": "d8c94986f757cae753028b2bb5cc90a40d358d1f845dd6ac7c5931e9da1cac9d",
+    "local_path": "data/raw/audit_20261106/cses4_codebook_part5_election_summaries.txt"
+  },
+  "cses4_codebook_part6_designs_and_weights": {
+    "url": "https://cses.org/wp-content/uploads/2019/03/cses4_codebook_part6_designs_and_weights.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/03/cses4_codebook_part6_designs_and_weights.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:01.202457+00:00",
+    "bytes": 127527,
+    "content_type": "text/plain",
+    "sha256": "12c82f4bc3a6313bff301dc5b5e431d267f62f1dd7a68f30bc6c76e68813412c",
+    "local_path": "data/raw/audit_20261106/cses4_codebook_part6_designs_and_weights.txt"
+  },
+  "cses5_Questionnaire": {
+    "url": "https://cses.org/wp-content/uploads/2019/05/cses5_Questionnaire.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/05/cses5_Questionnaire.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:01.803873+00:00",
+    "bytes": 117737,
+    "content_type": "text/plain",
+    "sha256": "d4deba9a038639871db1625158ef437fe476a3f8b2a0edc5a8041347528abc6c",
+    "local_path": "data/raw/audit_20261106/cses5_Questionnaire.txt"
+  },
+  "cses5_codebook_part1_introduction": {
+    "url": "https://cses.org/wp-content/uploads/2023/07/cses5_codebook_part1_introduction.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2023/07/cses5_codebook_part1_introduction.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:02.069661+00:00",
+    "bytes": 175127,
+    "content_type": "text/plain",
+    "sha256": "1313670b78bee60eeca5b6359b6132279cb37b410c206ffba95962ba11a7f311",
+    "local_path": "data/raw/audit_20261106/cses5_codebook_part1_introduction.txt"
+  },
+  "cses5_codebook_part2_variables": {
+    "url": "https://cses.org/wp-content/uploads/2023/07/cses5_codebook_part2_variables.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2023/07/cses5_codebook_part2_variables.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:02.791183+00:00",
+    "bytes": 1776137,
+    "content_type": "text/plain",
+    "sha256": "3744b8a0bf27e596b02adfb64b7a589039e3ef26e9334f475e429a4f1672bce1",
+    "local_path": "data/raw/audit_20261106/cses5_codebook_part2_variables.txt"
+  },
+  "cses5_codebook_part3_parties_and_leaders": {
+    "url": "https://cses.org/wp-content/uploads/2023/07/cses5_codebook_part3_parties_and_leaders.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2023/07/cses5_codebook_part3_parties_and_leaders.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:02.825583+00:00",
+    "bytes": 340043,
+    "content_type": "text/plain",
+    "sha256": "70538ad385a1e52cfbc6010d4ca6b3ccc788de4fc0cf21c19824d229552f3845",
+    "local_path": "data/raw/audit_20261106/cses5_codebook_part3_parties_and_leaders.txt"
+  },
+  "cses3_csv": {
+    "url": "https://cses.org/wp-content/uploads/2019/04/cses3_csv.zip",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/04/cses3_csv.zip",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:03.203374+00:00",
+    "bytes": 7992537,
+    "content_type": "application/zip",
+    "sha256": "7dc203a1e021b54037018b323c04369ff9ab4860ee544441451c84254b9a538e",
+    "local_path": "data/raw/audit_20261106/cses3_csv.zip"
+  },
+  "cses5_codebook_part4_primary_electoral_districts": {
+    "url": "https://cses.org/wp-content/uploads/2023/07/cses5_codebook_part4_primary_electoral_districts.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2023/07/cses5_codebook_part4_primary_electoral_districts.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:03.606830+00:00",
+    "bytes": 159474,
+    "content_type": "text/plain",
+    "sha256": "4c1bee86f757c55fa99cda77173dced6a3340d9b5d745a6ef2517b42c9f8ed81",
+    "local_path": "data/raw/audit_20261106/cses5_codebook_part4_primary_electoral_districts.txt"
+  },
+  "cses5_codebook_part5_election_summaries": {
+    "url": "https://cses.org/wp-content/uploads/2023/07/cses5_codebook_part5_election_summaries.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2023/07/cses5_codebook_part5_election_summaries.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:03.655885+00:00",
+    "bytes": 161662,
+    "content_type": "text/plain",
+    "sha256": "8f6537454bed1237395b2b21f901f73d5bd2bd4018f1326967bc40edf1c3c746",
+    "local_path": "data/raw/audit_20261106/cses5_codebook_part5_election_summaries.txt"
+  },
+  "cses5_codebook_part6_designs_and_weights": {
+    "url": "https://cses.org/wp-content/uploads/2023/07/cses5_codebook_part6_designs_and_weights.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2023/07/cses5_codebook_part6_designs_and_weights.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:04.028285+00:00",
+    "bytes": 197000,
+    "content_type": "text/plain",
+    "sha256": "1281d44a36fc84ae2cce1d5b0b716258d300a596ee1c19b83357ef1aa1cd7b72",
+    "local_path": "data/raw/audit_20261106/cses5_codebook_part6_designs_and_weights.txt"
+  },
+  "cses4_csv": {
+    "url": "https://cses.org/wp-content/uploads/2019/03/cses4_csv.zip",
+    "resolved_url": "https://cses.org/wp-content/uploads/2019/03/cses4_csv.zip",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:04.503727+00:00",
+    "bytes": 8396544,
+    "content_type": "application/zip",
+    "sha256": "cc7cc4618e8aa78af3c60789836ec9c5d919f7aa4c981884333b63ee1185b688",
+    "local_path": "data/raw/audit_20261106/cses4_csv.zip"
+  },
+  "cses_imd_codebook_part1_introduction": {
+    "url": "https://cses.org/wp-content/uploads/2024/02/cses_imd_codebook_part1_introduction.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2024/02/cses_imd_codebook_part1_introduction.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:04.657552+00:00",
+    "bytes": 100691,
+    "content_type": "text/plain",
+    "sha256": "29a576bfc2bffe3a8ea7b2009f9766ccedf0a9e80ca6df5fd8e23f302f3d9d1d",
+    "local_path": "data/raw/audit_20261106/cses_imd_codebook_part1_introduction.txt"
+  },
+  "cses_imd_codebook_part2_variables": {
+    "url": "https://cses.org/wp-content/uploads/2024/02/cses_imd_codebook_part2_variables.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2024/02/cses_imd_codebook_part2_variables.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:05.025140+00:00",
+    "bytes": 1591979,
+    "content_type": "text/plain",
+    "sha256": "e05e0c9fbea3fa4711d7c5088d29b344c095c282ab44ced63147325ece53df6c",
+    "local_path": "data/raw/audit_20261106/cses_imd_codebook_part2_variables.txt"
+  },
+  "cses_imd_codebook_part3_parties_coalitions_numerical_codes": {
+    "url": "https://cses.org/wp-content/uploads/2024/02/cses_imd_codebook_part3_parties_coalitions_numerical_codes.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2024/02/cses_imd_codebook_part3_parties_coalitions_numerical_codes.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:05.382644+00:00",
+    "bytes": 238578,
+    "content_type": "text/plain",
+    "sha256": "feff35c0c46ec9d8faaa4de65cd844cb208687e72cc14048693867273e68f72a",
+    "local_path": "data/raw/audit_20261106/cses_imd_codebook_part3_parties_coalitions_numerical_codes.txt"
+  },
+  "cses_imd_codebook_part4_parties_coalitions_leaders_alphabetical_codes": {
+    "url": "https://cses.org/wp-content/uploads/2024/02/cses_imd_codebook_part4_parties_coalitions_leaders_alphabetical_codes.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2024/02/cses_imd_codebook_part4_parties_coalitions_leaders_alphabetical_codes.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:05.658112+00:00",
+    "bytes": 289640,
+    "content_type": "text/plain",
+    "sha256": "e83d8d775501e39c87f80cd4e24bb3e550124f74ba066268bfb1ecf6f41831c4",
+    "local_path": "data/raw/audit_20261106/cses_imd_codebook_part4_parties_coalitions_leaders_alphabetical_codes.txt"
+  },
+  "cses_imd_codebook_part5_data_bridging_identifiers": {
+    "url": "https://cses.org/wp-content/uploads/2024/02/cses_imd_codebook_part5_data_bridging_identifiers.txt",
+    "resolved_url": "https://cses.org/wp-content/uploads/2024/02/cses_imd_codebook_part5_data_bridging_identifiers.txt",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:05.714529+00:00",
+    "bytes": 190091,
+    "content_type": "text/plain",
+    "sha256": "6d76c216358fa7b5858658fe5525dfb6f96605e8ad0c32d23d209275a58af901",
+    "local_path": "data/raw/audit_20261106/cses_imd_codebook_part5_data_bridging_identifiers.txt"
+  },
+  "cses5_csv": {
+    "url": "https://cses.org/wp-content/uploads/2023/07/cses5_csv.zip",
+    "resolved_url": "https://cses.org/wp-content/uploads/2023/07/cses5_csv.zip",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:12.725980+00:00",
+    "bytes": 16604927,
+    "content_type": "application/zip",
+    "sha256": "4e8bc74a9e62ec405f172346a1cfe28fecd66934d0176ea4a0493c3807fd7e13",
+    "local_path": "data/raw/audit_20261106/cses5_csv.zip"
+  },
+  "cses_imd_csv": {
+    "url": "https://cses.org/wp-content/uploads/2024/02/cses_imd_csv.zip",
+    "resolved_url": "https://cses.org/wp-content/uploads/2024/02/cses_imd_csv.zip",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:19.247292+00:00",
+    "bytes": 33233686,
+    "content_type": "application/zip",
+    "sha256": "90f4e067eed21b8b3bf0f7617404828c7edc5174f95bf7529b7eb72013fe6bbb",
+    "local_path": "data/raw/audit_20261106/cses_imd_csv.zip"
+  },
+  "hf_search_parlamint": {
+    "url": "https://huggingface.co/api/datasets?search=ParlaMint&limit=100&full=true",
+    "resolved_url": "https://huggingface.co/api/datasets?search=ParlaMint&limit=100&full=true",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:19.656541+00:00",
+    "bytes": 27264,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "a05b78c70513f4925a6dce4ec9678a18b0f5edee51517da293bf023009e435e8",
+    "local_path": "data/raw/audit_20261106/hf_search_parlamint.json"
+  },
+  "hf_search_parlspeech": {
+    "url": "https://huggingface.co/api/datasets?search=ParlSpeech&limit=100&full=true",
+    "resolved_url": "https://huggingface.co/api/datasets?search=ParlSpeech&limit=100&full=true",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:19.665954+00:00",
+    "bytes": 2,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "local_path": "data/raw/audit_20261106/hf_search_parlspeech.json"
+  },
+  "hf_search_manifesto": {
+    "url": "https://huggingface.co/api/datasets?search=manifesto&limit=100&full=true",
+    "resolved_url": "https://huggingface.co/api/datasets?search=manifesto&limit=100&full=true",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:19.669137+00:00",
+    "bytes": 23631,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "20d09e5980af3b15c3e7381cc77c53aa3f8377e8a822b5a22c4f2bd3c9df34e0",
+    "local_path": "data/raw/audit_20261106/hf_search_manifesto.json"
+  },
+  "hf_search_populism": {
+    "url": "https://huggingface.co/api/datasets?search=populism&limit=100&full=true",
+    "resolved_url": "https://huggingface.co/api/datasets?search=populism&limit=100&full=true",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:19.777265+00:00",
+    "bytes": 4261,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "a8d7ca2dddf1e5eb37ff5550175e3739a18a7fecc973757e13cf1bd305ac582e",
+    "local_path": "data/raw/audit_20261106/hf_search_populism.json"
+  },
+  "hf_search_political_trust": {
+    "url": "https://huggingface.co/api/datasets?search=political%20trust&limit=100&full=true",
+    "resolved_url": "https://huggingface.co/api/datasets?search=political%20trust&limit=100&full=true",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:20.063686+00:00",
+    "bytes": 2,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "local_path": "data/raw/audit_20261106/hf_search_political_trust.json"
+  },
+  "hf_search_anti_elitism": {
+    "url": "https://huggingface.co/api/datasets?search=anti-elitism&limit=100&full=true",
+    "resolved_url": "https://huggingface.co/api/datasets?search=anti-elitism&limit=100&full=true",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:20.066066+00:00",
+    "bytes": 2,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "local_path": "data/raw/audit_20261106/hf_search_anti_elitism.json"
+  },
+  "hf_dataset_siacus__manifesto": {
+    "url": "https://huggingface.co/api/datasets/siacus/manifesto",
+    "resolved_url": "https://huggingface.co/api/datasets/siacus/manifesto",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:20.521281+00:00",
+    "bytes": 608,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "9e7d56d32d809da6c7b00f48c11cd0f659b2bd532d3fa1a728db9f235b63f56c",
+    "local_path": "data/raw/audit_20261106/hf_dataset_siacus__manifesto.json"
+  },
+  "hf_dataset_maiammar__Manifesto_dataset": {
+    "url": "https://huggingface.co/api/datasets/maiammar/Manifesto_dataset",
+    "resolved_url": "https://huggingface.co/api/datasets/maiammar/Manifesto_dataset",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:20.546019+00:00",
+    "bytes": 1093,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "38045bdccb6b80bb8d09a6ad8706417459d3dcd5aad5f5e19f4ddfd5194ffa60",
+    "local_path": "data/raw/audit_20261106/hf_dataset_maiammar__Manifesto_dataset.json"
+  },
+  "hf_dataset_parisaslanidis__populism-trump-2016": {
+    "url": "https://huggingface.co/api/datasets/parisaslanidis/populism-trump-2016",
+    "resolved_url": "https://huggingface.co/api/datasets/parisaslanidis/populism-trump-2016",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:20.546829+00:00",
+    "bytes": 1549,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "46f2930622fa7790a89492eab0bb6d42bfd183a4c45aca7baf99e3b64c85148a",
+    "local_path": "data/raw/audit_20261106/hf_dataset_parisaslanidis__populism-trump-2016.json"
+  },
+  "hf_dataset_parisaslanidis__populism-eu-speeches": {
+    "url": "https://huggingface.co/api/datasets/parisaslanidis/populism-eu-speeches",
+    "resolved_url": "https://huggingface.co/api/datasets/parisaslanidis/populism-eu-speeches",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:20.573364+00:00",
+    "bytes": 1580,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "c47295dce0edd536d119ffeeb517e86b539f1fcdbe0d5e2f6ec2a7fbcd515bd5",
+    "local_path": "data/raw/audit_20261106/hf_dataset_parisaslanidis__populism-eu-speeches.json"
+  },
+  "hf_dataset_sstoeckl__populism-llm": {
+    "url": "https://huggingface.co/api/datasets/sstoeckl/populism-llm",
+    "resolved_url": "https://huggingface.co/api/datasets/sstoeckl/populism-llm",
+    "status": 401,
+    "retrieved_utc": "2026-11-06T13:56:21.000815+00:00",
+    "bytes": 41,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "65842e3d84e6b7f62a470c85204e80b953bb8f944e9b69813130a9d7f3eaa1d8",
+    "local_path": "data/raw/audit_20261106/hf_dataset_sstoeckl__populism-llm.json"
+  },
+  "hf_dataset_aarabil__clcp_manifesto": {
+    "url": "https://huggingface.co/api/datasets/aarabil/clcp_manifesto",
+    "resolved_url": "https://huggingface.co/api/datasets/aarabil/clcp_manifesto",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:21.001787+00:00",
+    "bytes": 1228,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "283d44e036794b3638c93ebe64d70227421c452451284a02788653a89739e04f",
+    "local_path": "data/raw/audit_20261106/hf_dataset_aarabil__clcp_manifesto.json"
+  },
+  "hf_dataset_FrancophonIA__ParlaMint_4.1": {
+    "url": "https://huggingface.co/api/datasets/FrancophonIA/ParlaMint_4.1",
+    "resolved_url": "https://huggingface.co/api/datasets/FrancophonIA/ParlaMint_4.1",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:21.017990+00:00",
+    "bytes": 1745,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "77d3720a01d6a602c454c333233264ca2b06d3d06f318ba7675d7b05fb66a705",
+    "local_path": "data/raw/audit_20261106/hf_dataset_FrancophonIA__ParlaMint_4.1.json"
+  },
+  "hf_dataset_cjvt__ParlaMint3": {
+    "url": "https://huggingface.co/api/datasets/cjvt/ParlaMint3",
+    "resolved_url": "https://huggingface.co/api/datasets/cjvt/ParlaMint3",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:21.047399+00:00",
+    "bytes": 3565,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "52fce958b7137580a9334e6135d4f2d075e95ccdafb8f6c13f6a6fe98420ddce",
+    "local_path": "data/raw/audit_20261106/hf_dataset_cjvt__ParlaMint3.json"
+  },
+  "hf_model_luerhard__PopBERT": {
+    "url": "https://huggingface.co/api/models/luerhard/PopBERT",
+    "resolved_url": "https://huggingface.co/api/models/luerhard/PopBERT",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:21.381976+00:00",
+    "bytes": 1496,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "abee0c8faeb1fea0e89dc77026004505d90d407627c147f6ab80cd64f89933f0",
+    "local_path": "data/raw/audit_20261106/hf_model_luerhard__PopBERT.json"
+  },
+  "hf_model_manifesto-project__manifestoberta-xlm-roberta-56policy-topics-sentence-2026-1-1": {
+    "url": "https://huggingface.co/api/models/manifesto-project/manifestoberta-xlm-roberta-56policy-topics-sentence-2026-1-1",
+    "resolved_url": "https://huggingface.co/api/models/manifesto-project/manifestoberta-xlm-roberta-56policy-topics-sentence-2026-1-1",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:21.405685+00:00",
+    "bytes": 1700,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "6fa47042b164b8e62a23e0b5397684b36a98842ce19d19d09292fe91d1446d6d",
+    "local_path": "data/raw/audit_20261106/hf_model_manifesto-project__manifestoberta-xlm-roberta-56policy-topics-sentence-2026-1-1.json"
+  },
+  "hf_dataset_parisaslanidis__populism-trump-2016_card": {
+    "url": "https://huggingface.co/datasets/parisaslanidis/populism-trump-2016/resolve/2ce6927ee0ade8a98c649ad3f71501f2788a3717/README.md",
+    "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/parisaslanidis/populism-trump-2016/2ce6927ee0ade8a98c649ad3f71501f2788a3717/README.md?%2Fdatasets%2Fparisaslanidis%2Fpopulism-trump-2016%2Fresolve%2F2ce6927ee0ade8a98c649ad3f71501f2788a3717%2FREADME.md=&etag=%22f28778c3e5dd7fb8b48a36138b6ccbf416433cb4%22",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:21.970801+00:00",
+    "bytes": 4903,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "487bc1aa1bb3fa7595c5a3036dd9afe95f85e47e3988ca8eeb0df1c876b39f97",
+    "local_path": "data/raw/audit_20261106/hf_dataset_parisaslanidis__populism-trump-2016_card.md"
+  },
+  "hf_dataset_siacus__manifesto_card": {
+    "url": "https://huggingface.co/datasets/siacus/manifesto/resolve/1bad19d4b799d5284c1d2d112ee13c8d30dfb562/README.md",
+    "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/siacus/manifesto/1bad19d4b799d5284c1d2d112ee13c8d30dfb562/README.md?%2Fdatasets%2Fsiacus%2Fmanifesto%2Fresolve%2F1bad19d4b799d5284c1d2d112ee13c8d30dfb562%2FREADME.md=&etag=%22b187bb7e7d837a367ccd0862441947ad412c77f7%22",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:21.981254+00:00",
+    "bytes": 27,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "835f3f7d88a86e05a882c6a6b6333da6ab874776385f85473798769d767c2fca",
+    "local_path": "data/raw/audit_20261106/hf_dataset_siacus__manifesto_card.md"
+  },
+  "hf_dataset_maiammar__Manifesto_dataset_card": {
+    "url": "https://huggingface.co/datasets/maiammar/Manifesto_dataset/resolve/f6fc7d41982074eea6617e615ed79743169df458/README.md",
+    "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/maiammar/Manifesto_dataset/f6fc7d41982074eea6617e615ed79743169df458/README.md?%2Fdatasets%2Fmaiammar%2FManifesto_dataset%2Fresolve%2Ff6fc7d41982074eea6617e615ed79743169df458%2FREADME.md=&etag=%224b90d063a2d41279e2df5f94e361839e4ed32879%22",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:21.995329+00:00",
+    "bytes": 501,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "3f87affd4b5e62310bc2c084ed60c8bddf1cf8f528534fd4154182147f02a8d3",
+    "local_path": "data/raw/audit_20261106/hf_dataset_maiammar__Manifesto_dataset_card.md"
+  },
+  "hf_dataset_parisaslanidis__populism-eu-speeches_card": {
+    "url": "https://huggingface.co/datasets/parisaslanidis/populism-eu-speeches/resolve/8faa248bc08c51c4f803318c9a70c507f70a68e7/README.md",
+    "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/parisaslanidis/populism-eu-speeches/8faa248bc08c51c4f803318c9a70c507f70a68e7/README.md?%2Fdatasets%2Fparisaslanidis%2Fpopulism-eu-speeches%2Fresolve%2F8faa248bc08c51c4f803318c9a70c507f70a68e7%2FREADME.md=&etag=%22dd4185154410613fd4b49c0ccddca2dffdfd86b3%22",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:22.005003+00:00",
+    "bytes": 5134,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "90856da93cb03556160b114f730447c2be9afa2662718409ab3ceeba1ed24517",
+    "local_path": "data/raw/audit_20261106/hf_dataset_parisaslanidis__populism-eu-speeches_card.md"
+  },
+  "hf_dataset_cjvt__ParlaMint3_card": {
+    "url": "https://huggingface.co/datasets/cjvt/ParlaMint3/resolve/57bb14915400fb6cc38da6e2ffed7550c596da87/README.md",
+    "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/cjvt/ParlaMint3/57bb14915400fb6cc38da6e2ffed7550c596da87/README.md?%2Fdatasets%2Fcjvt%2FParlaMint3%2Fresolve%2F57bb14915400fb6cc38da6e2ffed7550c596da87%2FREADME.md=&etag=%22bd2c791ad2521b64b9a979b23e7eb45f513c0d1e%22",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:22.524503+00:00",
+    "bytes": 7396,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "9cb931f1d024ab5194d6e43c975a036abb30c417e7871e0627bfa30e21f0c8a7",
+    "local_path": "data/raw/audit_20261106/hf_dataset_cjvt__ParlaMint3_card.md"
+  },
+  "hf_dataset_aarabil__clcp_manifesto_card": {
+    "url": "https://huggingface.co/datasets/aarabil/clcp_manifesto/resolve/018a3579b94e0ba0fd80dbb8c34984c8cd8ea3dc/README.md",
+    "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/aarabil/clcp_manifesto/018a3579b94e0ba0fd80dbb8c34984c8cd8ea3dc/README.md?%2Fdatasets%2Faarabil%2Fclcp_manifesto%2Fresolve%2F018a3579b94e0ba0fd80dbb8c34984c8cd8ea3dc%2FREADME.md=&etag=%22e33b883d5fb19b4239069e9b2c9662075a7a14d6%22",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:22.536916+00:00",
+    "bytes": 615,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "ff8e15af06818d2094b95bf309b62a59ab8b3295d96c53d5cf9c97e03e9e97a0",
+    "local_path": "data/raw/audit_20261106/hf_dataset_aarabil__clcp_manifesto_card.md"
+  },
+  "hf_model_luerhard__PopBERT_card": {
+    "url": "https://huggingface.co/luerhard/PopBERT/resolve/9627b966f7ce1b0f65de43bf5599ece85e6a3cae/README.md",
+    "resolved_url": "https://huggingface.co/api/resolve-cache/models/luerhard/PopBERT/9627b966f7ce1b0f65de43bf5599ece85e6a3cae/README.md?%2Fluerhard%2FPopBERT%2Fresolve%2F9627b966f7ce1b0f65de43bf5599ece85e6a3cae%2FREADME.md=&etag=%221bba12e069e412e331b331756b12bea2a637e1f2%22",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:22.585918+00:00",
+    "bytes": 2919,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "772814949f4ce85013a4b2731f4f4521eb1bbb5baca4c1cd8c30254c79e26405",
+    "local_path": "data/raw/audit_20261106/hf_model_luerhard__PopBERT_card.md"
+  },
+  "hf_dataset_FrancophonIA__ParlaMint_4.1_card": {
+    "url": "https://huggingface.co/datasets/FrancophonIA/ParlaMint_4.1/resolve/2c29f8bea6781af8a5757caf2355725e6c75e602/README.md",
+    "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/FrancophonIA/ParlaMint_4.1/2c29f8bea6781af8a5757caf2355725e6c75e602/README.md?%2Fdatasets%2FFrancophonIA%2FParlaMint_4.1%2Fresolve%2F2c29f8bea6781af8a5757caf2355725e6c75e602%2FREADME.md=&etag=%22d93e36c69835d017140cc19bf639781405893983%22",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:22.622926+00:00",
+    "bytes": 5452,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "9b4fa67ad6ad3c3863b5f873a35d0b202cd16d12352203b0dc8fcece39516c3e",
+    "local_path": "data/raw/audit_20261106/hf_dataset_FrancophonIA__ParlaMint_4.1_card.md"
+  },
+  "hf_model_manifesto-project__manifestoberta-xlm-roberta-56policy-topics-sentence-2026-1-1_card": {
+    "url": "https://huggingface.co/manifesto-project/manifestoberta-xlm-roberta-56policy-topics-sentence-2026-1-1/resolve/12048ac8d998c545d334f78a961ce0871ae92418/README.md",
+    "resolved_url": "https://huggingface.co/api/resolve-cache/models/manifesto-project/manifestoberta-xlm-roberta-56policy-topics-sentence-2026-1-1/12048ac8d998c545d334f78a961ce0871ae92418/README.md?%2Fmanifesto-project%2Fmanifestoberta-xlm-roberta-56policy-topics-sentence-2026-1-1%2Fresolve%2F12048ac8d998c545d334f78a961ce0871ae92418%2FREADME.md=&etag=%224881ac8fcb470e434047463a702f195f5196e917%22",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:56:23.186800+00:00",
+    "bytes": 4669,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "774ebc869f19724ad3c14f18914f410e2313d75aedc36cd6fb6c163369f74905",
+    "local_path": "data/raw/audit_20261106/hf_model_manifesto-project__manifestoberta-xlm-roberta-56policy-topics-sentence-2026-1-1_card.md"
+  },
+  "cis_3126_questionnaire": {
+    "url": "https://www.cis.es/documents/20117/1556266/cues3126pdf.pdf/11c288c7-b07a-ce18-eb5e-b36bd19c17cb?version=1.0&t=1696370423786",
+    "resolved_url": "https://www.cis.es/documents/20117/1556266/cues3126pdf.pdf/11c288c7-b07a-ce18-eb5e-b36bd19c17cb?version=1.0&t=1696370423786",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:58:00.195775+00:00",
+    "bytes": 127252,
+    "content_type": "application/pdf",
+    "sha256": "a1dcea07f2f2c332337d3e4de5ec3b2fa1901d69450b1c8b581fd136cda201d1",
+    "local_path": "data/raw/audit_20261106/cis_3126_questionnaire.pdf"
+  },
+  "cis_3126_design": {
+    "url": "https://www.cis.es/documents/20117/1556266/Ft3126pdf.pdf/f73d718e-de7c-13df-d583-672dc1c63701?version=1.0&t=1696370426670",
+    "resolved_url": "https://www.cis.es/documents/20117/1556266/Ft3126pdf.pdf/f73d718e-de7c-13df-d583-672dc1c63701?version=1.0&t=1696370426670",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:58:00.201048+00:00",
+    "bytes": 76303,
+    "content_type": "application/pdf",
+    "sha256": "b59fe7135153a27686b169a45820a5f20b7431717099ad55001a172c2c164dbd",
+    "local_path": "data/raw/audit_20261106/cis_3126_design.pdf"
+  },
+  "cis_3126_page": {
+    "url": "https://www.cis.es/es/estudios/postelectoral-elecciones-generales-2015.-panel-2-fase-",
+    "resolved_url": "https://www.cis.es/es/estudios/postelectoral-elecciones-generales-2015.-panel-2-fase-",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:58:00.293453+00:00",
+    "bytes": 626425,
+    "content_type": "text/html;charset=UTF-8",
+    "sha256": "123c9de34d3eb50e1c743ad2d8f410c753dc575ad1513419229a89a7bc032844",
+    "local_path": "data/raw/audit_20261106/cis_3126_page.html"
+  },
+  "hf_dataset_parisaslanidis__populism-eu-speeches_sample": {
+    "url": "https://huggingface.co/datasets/parisaslanidis/populism-eu-speeches/resolve/8faa248bc08c51c4f803318c9a70c507f70a68e7/train.csv",
+    "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/parisaslanidis/populism-eu-speeches/8faa248bc08c51c4f803318c9a70c507f70a68e7/train.csv?%2Fdatasets%2Fparisaslanidis%2Fpopulism-eu-speeches%2Fresolve%2F8faa248bc08c51c4f803318c9a70c507f70a68e7%2Ftrain.csv=&etag=%228530f3327872e7f3f38934c63cd4641fa743a0fc%22",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:58:00.411900+00:00",
+    "bytes": 514538,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "edb4d5b55fefe39fefd39e1bd0c3e6a66bbb9a138ee0f4ded2188ea1af13710f",
+    "local_path": "data/raw/audit_20261106/hf_dataset_parisaslanidis__populism-eu-speeches_sample.csv"
+  },
+  "hf_dataset_cjvt__ParlaMint3_sample": {
+    "url": "https://huggingface.co/datasets/cjvt/ParlaMint3/resolve/57bb14915400fb6cc38da6e2ffed7550c596da87/ParlaMint3.py",
+    "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/cjvt/ParlaMint3/57bb14915400fb6cc38da6e2ffed7550c596da87/ParlaMint3.py?%2Fdatasets%2Fcjvt%2FParlaMint3%2Fresolve%2F57bb14915400fb6cc38da6e2ffed7550c596da87%2FParlaMint3.py=&etag=%22039dc922502844e8bfa88ec189e04012cf69d442%22",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:58:00.970625+00:00",
+    "bytes": 8550,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "60c2d26be05e4e2ea6bd3ce62a30badf9f78ae3a91eb85b02907a064a9e35e13",
+    "local_path": "data/raw/audit_20261106/hf_dataset_cjvt__ParlaMint3_sample.py"
+  },
+  "hf_dataset_maiammar__Manifesto_dataset_sample": {
+    "url": "https://huggingface.co/datasets/maiammar/Manifesto_dataset/resolve/f6fc7d41982074eea6617e615ed79743169df458/data/test-00000-of-00001.parquet",
+    "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/6792d4cab317d9c032fa5567/0682e1d1e5ef40e10f847ebd3505a9143b8c7bfadf8fc5d7c3a8dc9309a585a9?X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27test-00000-of-00001.parquet%3B+filename%3D%22test-00000-of-00001.parquet%22%3B&user_id=public&xip=IXM-xxLd2X0&Expires=1793977080&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjc5MmQ0Y2FiMzE3ZDljMDMyZmE1NTY3LzA2ODJlMWQxZTVlZjQwZTEwZjg0N2ViZDM1MDVhOTE0M2I4YzdiZmFkZjhmYzVkN2MzYThkYzkzMDlhNTg1YTlcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWlubGluZSUzQitmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3dGVzdC0wMDAwMC1vZi0wMDAwMS5wYXJxdWV0JTNCK2ZpbGVuYW1lJTNEJTIydGVzdC0wMDAwMC1vZi0wMDAwMS5wYXJxdWV0JTIyJTNCJnVzZXJfaWQ9cHVibGljJnhpcD1JWE0teHhMZDJYMCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRXBvY2hUaW1lIjoxNzkzOTc3MDgwfX19XX0_&Signature=MEYCIQDkf1uNfp4CXClEkPbFVWnbN-OHVLN2Jy6k165fJDHiAQIhAKpalSZl97WKZKp02lVw-Hi0-SoWLbrLi~Q9GVLIq2YU&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:58:01.741647+00:00",
+    "bytes": 440965,
+    "content_type": "application/octet-stream",
+    "sha256": "8b09cd7132349c95fece610063dc8134747bd3ec31a19803fd428112da2000e3",
+    "local_path": "data/raw/audit_20261106/hf_dataset_maiammar__Manifesto_dataset_sample.parquet"
+  },
+  "hf_dataset_aarabil__clcp_manifesto_sample": {
+    "url": "https://huggingface.co/datasets/aarabil/clcp_manifesto/resolve/018a3579b94e0ba0fd80dbb8c34984c8cd8ea3dc/data/train-00000-of-00001.parquet",
+    "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/68567917eb148aa6c122efec/b9d0731038a0e7695368e1accb326189691728e359df394cbe2b08b3c1a91b66?xip=IXM-xxLd2X0&X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27train-00000-of-00001.parquet%3B+filename%3D%22train-00000-of-00001.parquet%22%3B&user_id=public&Expires=1793977080&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjg1Njc5MTdlYjE0OGFhNmMxMjJlZmVjL2I5ZDA3MzEwMzhhMGU3Njk1MzY4ZTFhY2NiMzI2MTg5NjkxNzI4ZTM1OWRmMzk0Y2JlMmIwOGIzYzFhOTFiNjZcXD94aXA9SVhNLXh4TGQyWDAmWC1YZXQtQ2FzLVVpZD1wdWJsaWMmcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj1pbmxpbmUlM0IrZmlsZW5hbWUlMkElM0RVVEYtOCUyNyUyN3RyYWluLTAwMDAwLW9mLTAwMDAxLnBhcnF1ZXQlM0IrZmlsZW5hbWUlM0QlMjJ0cmFpbi0wMDAwMC1vZi0wMDAwMS5wYXJxdWV0JTIyJTNCJnVzZXJfaWQ9cHVibGljIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFcG9jaFRpbWUiOjE3OTM5NzcwODB9fX1dfQ__&Signature=MEUCIQC2CdLI~r~lwVkg7K3UiylrJe2kqaVO574MHQY6pb-bfAIgBSvOetLCVDev9yF2zIjzip88D87-9PS6q86IJNihRH8_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:58:02.457172+00:00",
+    "bytes": 1453591,
+    "content_type": "application/octet-stream",
+    "sha256": "7d2f9a421544ef74d9b1035d5a02e7ad48dd72a918998861253011f85ceccc25",
+    "local_path": "data/raw/audit_20261106/hf_dataset_aarabil__clcp_manifesto_sample.parquet"
+  },
+  "hf_dataset_siacus__manifesto_sample": {
+    "url": "https://huggingface.co/datasets/siacus/manifesto/resolve/1bad19d4b799d5284c1d2d112ee13c8d30dfb562/data.json",
+    "resolved_url": "https://us.aws.cdn.hf.co/xet-bridge-us/64bbf7f2b9296eef62b036c0/a0fede00e2a3b762c04cb9cb8d97c3a2c462870a79ebdd95edcf3334e678d454?xip=IXM-xxLd2X0&X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27data.json%3B+filename%3D%22data.json%22%3B&response-content-type=application%2Fjson%3B+charset%3Dutf-8&user_id=public&Expires=1793977080&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjRiYmY3ZjJiOTI5NmVlZjYyYjAzNmMwL2EwZmVkZTAwZTJhM2I3NjJjMDRjYjljYjhkOTdjM2EyYzQ2Mjg3MGE3OWViZGQ5NWVkY2YzMzM0ZTY3OGQ0NTRcXD94aXA9SVhNLXh4TGQyWDAmWC1YZXQtQ2FzLVVpZD1wdWJsaWMmcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj1pbmxpbmUlM0IrZmlsZW5hbWUlMkElM0RVVEYtOCUyNyUyN2RhdGEuanNvbiUzQitmaWxlbmFtZSUzRCUyMmRhdGEuanNvbiUyMiUzQiZyZXNwb25zZS1jb250ZW50LXR5cGU9YXBwbGljYXRpb24lMkZqc29uJTNCK2NoYXJzZXQlM0R1dGYtOCZ1c2VyX2lkPXB1YmxpYyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiRXBvY2hUaW1lIjoxNzkzOTc3MDgwfX19XX0_&Signature=MEUCIDrgNDY8gOG0lJMFkIKBmaKGDYI8i~H9X19-~0Vv50q~AiEAlwSXifuQl3aMWnqVkVG-KyN9vWsuaIDoWF1I8RzmFrY_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:58:11.128468+00:00",
+    "bytes": 17341359,
+    "content_type": "application/json; charset=utf-8",
+    "sha256": "bb3768ac75a1df7535c4bdc07ea6bf6298a41c31cb67e90fd2542deb1483add8",
+    "local_path": "data/raw/audit_20261106/hf_dataset_siacus__manifesto_sample.json"
+  },
+  "cis_3117_page": {
+    "url": "https://www.cis.es/es/estudios/preelectoral-elecciones-generales-2015.-panel-1-fase-",
+    "resolved_url": "https://www.cis.es/es/estudios/preelectoral-elecciones-generales-2015.-panel-1-fase-",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:59:43.517472+00:00",
+    "bytes": 679305,
+    "content_type": "text/html;charset=UTF-8",
+    "sha256": "563c1d27ee1f31597dd943727fa4439041fccd5b2361674dbae8eb7f602cce8c",
+    "local_path": "data/raw/audit_20261106/cis_3117_page.html"
+  },
+  "cis_3126_data": {
+    "url": "https://www.cis.es/documents/20117/1556266/MD3126.zip/cc65b0ae-6ab1-00fa-bb05-1bee21449b11?version=1.0&t=1696370428427",
+    "resolved_url": "https://www.cis.es/documents/20117/1556266/MD3126.zip/cc65b0ae-6ab1-00fa-bb05-1bee21449b11?version=1.0&t=1696370428427",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T13:59:43.869193+00:00",
+    "bytes": 1391754,
+    "content_type": "application/zip",
+    "sha256": "0fd79803d4a1f77a4b59e46948bc6808400a09414f0d3e3745b2e13b60794a46",
+    "local_path": "data/raw/audit_20261106/cis_3126_data.zip"
+  },
+  "cis_3117_design": {
+    "url": "https://www.cis.es/documents/20117/1556226/FT3117pdf.pdf/b63d0dfa-c003-d914-bf62-55cf572e90f2?version=1.0&t=1696370308449",
+    "resolved_url": "https://www.cis.es/documents/20117/1556226/FT3117pdf.pdf/b63d0dfa-c003-d914-bf62-55cf572e90f2?version=1.0&t=1696370308449",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T14:00:22.993504+00:00",
+    "bytes": 15613,
+    "content_type": "application/pdf",
+    "sha256": "bce5c2cfb05c38db409b71e6ec7af91e120214e8a657ace190e869aee35fb31d",
+    "local_path": "data/raw/audit_20261106/cis_3117_design.pdf"
+  },
+  "cis_3117_questionnaire": {
+    "url": "https://www.cis.es/documents/20117/1556226/cues3117pdf.pdf/556e34a4-4651-5020-ffc5-81e3c72e11a4?version=1.0&t=1696370305675",
+    "resolved_url": "https://www.cis.es/documents/20117/1556226/cues3117pdf.pdf/556e34a4-4651-5020-ffc5-81e3c72e11a4?version=1.0&t=1696370305675",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T14:00:23.205764+00:00",
+    "bytes": 196573,
+    "content_type": "application/pdf",
+    "sha256": "01e1602cc218a52ad20ee3987087e3a5ce16a57db4737d7fc07b629a50b3876f",
+    "local_path": "data/raw/audit_20261106/cis_3117_questionnaire.pdf"
+  },
+  "cis_3117_data": {
+    "url": "https://www.cis.es/documents/20117/1556226/MD3117_A.zip/aa4b603e-a66b-57dd-f02d-2c59350dc14d?version=1.0&t=1696370311248",
+    "resolved_url": "https://www.cis.es/documents/20117/1556226/MD3117_A.zip/aa4b603e-a66b-57dd-f02d-2c59350dc14d?version=1.0&t=1696370311248",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T14:00:23.604609+00:00",
+    "bytes": 1431964,
+    "content_type": "application/zip",
+    "sha256": "322f7d0a9e663269a29f34be7c4a32d2876df09d37905121b6bcaf0ccd2df846",
+    "local_path": "data/raw/audit_20261106/cis_3117_data.zip"
+  },
+  "cis_7715_page": {
+    "url": "https://www.cis.es/es/estudios/preelectoral-y-postelectoral-elecciones-generales-2015.-panel-total-panel-",
+    "resolved_url": "https://www.cis.es/es/estudios/preelectoral-y-postelectoral-elecciones-generales-2015.-panel-total-panel-",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T14:02:13.726868+00:00",
+    "bytes": 607658,
+    "content_type": "text/html;charset=UTF-8",
+    "sha256": "942314905da330240fa94743a28373a6f739fa11507bca55523a04edf3eaea89",
+    "local_path": "data/raw/audit_20261106/cis_7715_page.html"
+  },
+  "cis_7715_methods": {
+    "url": "https://www.cis.es/documents/20117/1557941/IM7715pdf.pdf/e2673b4f-ef00-03d1-dc8d-36a9ed19349b?version=1.0&t=1700726629867",
+    "resolved_url": "https://www.cis.es/documents/20117/1557941/IM7715pdf.pdf/e2673b4f-ef00-03d1-dc8d-36a9ed19349b?version=1.0&t=1700726629867",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T14:02:14.443394+00:00",
+    "bytes": 429756,
+    "content_type": "application/pdf",
+    "sha256": "9c27880461d50b424f5093ceba723152e686c351e4b761dcfa59d0a7aefd41e2",
+    "local_path": "data/raw/audit_20261106/cis_7715_methods.pdf"
+  },
+  "cis_7715_design": {
+    "url": "https://www.cis.es/documents/20117/1557941/Ft7715pdf.pdf/3bc5b879-e767-0be7-95df-aba136762913?version=1.0&t=1700726458586",
+    "resolved_url": "https://www.cis.es/documents/20117/1557941/Ft7715pdf.pdf/3bc5b879-e767-0be7-95df-aba136762913?version=1.0&t=1700726458586",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T14:02:14.457547+00:00",
+    "bytes": 79935,
+    "content_type": "application/pdf",
+    "sha256": "3f3fb64666c9c71c82739eaaf0a453c34ebe1b9d6c9965ae2b97d2525fb166a3",
+    "local_path": "data/raw/audit_20261106/cis_7715_design.pdf"
+  },
+  "cis_7715_data": {
+    "url": "https://www.cis.es/documents/20117/1557941/MD7715.zip/019ec857-c4e8-4b15-774b-165a2656f819?version=1.0&t=1700726423280",
+    "resolved_url": "https://www.cis.es/documents/20117/1557941/MD7715.zip/019ec857-c4e8-4b15-774b-165a2656f819?version=1.0&t=1700726423280",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T14:02:15.040472+00:00",
+    "bytes": 2015944,
+    "content_type": "application/zip",
+    "sha256": "3edff6783ab4349972e0806415536f78d3498ece27e161271ce97a8ef27b5f7f",
+    "local_path": "data/raw/audit_20261106/cis_7715_data.zip"
+  },
+  "gles_catalog": {
+    "url": "https://www.gesis.org/en/gles/data-and-documentation",
+    "resolved_url": "https://www.gesis.org/en/gles/data-and-documentation",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T15:02:29.102337+00:00",
+    "bytes": 5657,
+    "content_type": "text/html; charset=UTF-8",
+    "sha256": "362b5236ad2a9b674654fb6a321be56d3e0566348f3eb9b174cc59ab87f50cc1",
+    "local_path": "data/raw/audit_20261106/gles_catalog.html"
+  },
+  "bes_teaching_figshare": {
+    "url": "https://api.figshare.com/v2/articles/25460980",
+    "resolved_url": "https://api.figshare.com/v2/articles/25460980",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:02:29.276770+00:00",
+    "bytes": 5975,
+    "content_type": "application/json",
+    "sha256": "bc5d82dc9f106b1aa531866afff8b826481695504dc2dec6bf016a86d4585212",
+    "local_path": "data/raw/audit_20261106/bes_teaching_figshare.json"
+  },
+  "bes_full_documentation": {
+    "url": "https://www.britishelectionstudy.com/wp-content/uploads/2026/08/Bes_wave31Documentationv31.05-1.pdf",
+    "resolved_url": "https://www.britishelectionstudy.com/wp-content/uploads/2026/08/Bes_wave31Documentationv31.05-1.pdf",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T15:02:29.308391+00:00",
+    "bytes": 118,
+    "content_type": "text/html",
+    "sha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
+    "local_path": "data/raw/audit_20261106/bes_full_documentation.pdf"
+  },
+  "bes_teaching_documentation": {
+    "url": "https://www.britishelectionstudy.com/wp-content/uploads/2025/10/besip_teaching_documentation_v30.0.pdf",
+    "resolved_url": "https://www.britishelectionstudy.com/wp-content/uploads/2025/10/besip_teaching_documentation_v30.0.pdf",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T15:02:29.336729+00:00",
+    "bytes": 118,
+    "content_type": "text/html",
+    "sha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
+    "local_path": "data/raw/audit_20261106/bes_teaching_documentation.pdf"
+  },
+  "bes_teaching_long_v1": {
+    "url": "https://ndownloader.figshare.com/files/45212920",
+    "resolved_url": "https://s3-eu-west-1.amazonaws.com/pstorage-manchester-0468148248/45212920/BESIP_teaching_long.dta.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA3OGA3B5WFMQK7NTG/20261106/eu-west-1/s3/aws4_request&X-Amz-Date=20261106T150241Z&X-Amz-Expires=10&X-Amz-SignedHeaders=host&X-Amz-Signature=9742ef68bd654993d9f9e69b5ebaab4d184af195f44f36e55055c24a996f5232",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:02:52.366932+00:00",
+    "bytes": 36681220,
+    "content_type": "application/zip",
+    "sha256": "2b1eeff18d46d0abd15dd5d3cc4b9acc4408274d44297a97eba3b75ab4abb46d",
+    "local_path": "data/raw/audit_20261106/bes_teaching_long_v1.zip"
+  },
+  "bes_wave19_documentation": {
+    "url": "https://www.britishelectionstudy.com/wp-content/uploads/2020/05/Bes_wave19Documentation_V2.pdf",
+    "resolved_url": "https://www.britishelectionstudy.com/wp-content/uploads/2020/05/Bes_wave19Documentation_V2.pdf",
+    "status": 403,
+    "retrieved_utc": "2026-11-06T15:07:46.934416+00:00",
+    "bytes": 118,
+    "content_type": "text/html",
+    "sha256": "58bf2215b395dcac74c009aa98701854e43cbe54a1cd3a95fee6a647ca9910d4",
+    "local_path": "data/raw/audit_20261106/bes_wave19_documentation.pdf"
+  },
+  "gles_5704_methods": {
+    "url": "https://access.gesis.org/dbk/59599?download_purpose=-99",
+    "resolved_url": "https://access.gesis.org/dbk/59599?download_purpose=-99",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:07:47.288454+00:00",
+    "bytes": 1587952,
+    "content_type": "application/pdf",
+    "sha256": "0205fd740cb2d48cffde0d1a2ba5ce597f0aac95073a3cc7bfbe10768c14e239",
+    "local_path": "data/raw/audit_20261106/gles_5704_methods.pdf"
+  },
+  "gles_5757_methods": {
+    "url": "https://accesstest.gesis.org/dbk/59613",
+    "resolved_url": "https://accesstest.gesis.org/dbk/59613",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:07:47.419675+00:00",
+    "bytes": 1511114,
+    "content_type": "application/pdf",
+    "sha256": "5900a7e893ce243cd9758940eab77ede0718b48caf8d1ebddae70a108491bb45",
+    "local_path": "data/raw/audit_20261106/gles_5757_methods.pdf"
+  },
+  "parlamint_41_overview": {
+    "url": "https://raw.githubusercontent.com/clarin-eric/ParlaMint/v4.1/Build/Metadata/ParlaMint-overview-stats.tsv",
+    "resolved_url": "https://raw.githubusercontent.com/clarin-eric/ParlaMint/v4.1/Build/Metadata/ParlaMint-overview-stats.tsv",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:10:16.848352+00:00",
+    "bytes": 1348,
+    "content_type": "text/plain; charset=utf-8",
+    "sha256": "712925dd96dd829809e24f8c30475dfb5b9a6bb73e4e9d50d0c7b6c5f7a2d02e",
+    "local_path": "data/raw/audit_20261106/parlamint_41_overview.tsv"
+  },
+  "bes_2005_2010_memo": {
+    "url": "https://doc.ukdataservice.ac.uk/doc/6607/mrdoc/pdf/6607memobes200506080910.pdf",
+    "resolved_url": "https://doc.ukdataservice.ac.uk/doc/6607/mrdoc/pdf/6607memobes200506080910.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:12:04.968659+00:00",
+    "bytes": 139327,
+    "content_type": "application/pdf",
+    "sha256": "95eddd0f06008f1ed1f1adefe80cbb314d339fb36bfd4828363ecf9ab8377d56",
+    "local_path": "data/raw/audit_20261106/bes_2005_2010_memo.pdf"
+  },
+  "bes_6607_readme": {
+    "url": "https://doc.ukdataservice.ac.uk/doc/6607/read6607.htm",
+    "resolved_url": "https://doc.ukdataservice.ac.uk/doc/6607/read6607.htm",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:12:20.103997+00:00",
+    "bytes": 10072,
+    "content_type": "text/html",
+    "sha256": "ed2dee3594b8e627df61504d6dd869201cffaf44e2195ab1c4c0ad3a7f8ce606",
+    "local_path": "data/raw/audit_20261106/bes_6607_readme.html"
+  },
+  "bes_6607_access": {
+    "url": "https://doc.ukdataservice.ac.uk/doc/6607/mrdoc/UKDA/UKDA_Study_6607_Information.htm",
+    "resolved_url": "https://doc.ukdataservice.ac.uk/doc/6607/mrdoc/UKDA/UKDA_Study_6607_Information.htm",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:12:20.110663+00:00",
+    "bytes": 5952,
+    "content_type": "text/html",
+    "sha256": "5d786333f573a36006256e2c10493ff9ad72b310638e25f0bdcaf1b9d52a1345",
+    "local_path": "data/raw/audit_20261106/bes_6607_access.html"
+  },
+  "bes_6607_2009_questionnaire": {
+    "url": "https://doc.ukdataservice.ac.uk/doc/6607/mrdoc/pdf/6607bes2009wave.pdf",
+    "resolved_url": "https://doc.ukdataservice.ac.uk/doc/6607/mrdoc/pdf/6607bes2009wave.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:12:20.249427+00:00",
+    "bytes": 171120,
+    "content_type": "application/pdf",
+    "sha256": "2bad7497e44c1cfe0fee9580d60137298a79d0a80a4f5844e2128643c64868d4",
+    "local_path": "data/raw/audit_20261106/bes_6607_2009_questionnaire.pdf"
+  },
+  "bes_6607_2005_pre_questionnaire": {
+    "url": "https://doc.ukdataservice.ac.uk/doc/6607/mrdoc/pdf/6607pre05internet.pdf",
+    "resolved_url": "https://doc.ukdataservice.ac.uk/doc/6607/mrdoc/pdf/6607pre05internet.pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:12:20.484448+00:00",
+    "bytes": 369772,
+    "content_type": "application/pdf",
+    "sha256": "8e5275490bcb114be03b5472690bf054aade057d8b417057fd8be0817a011034",
+    "local_path": "data/raw/audit_20261106/bes_6607_2005_pre_questionnaire.pdf"
+  },
+  "cis_7708_page": {
+    "url": "https://www.cis.es/es/estudios/preelectoral-y-postelectoral-elecciones-generales-y-autonomicas-de-andalucia-2008.-panel-total-panel-",
+    "resolved_url": "https://www.cis.es/es/estudios/preelectoral-y-postelectoral-elecciones-generales-y-autonomicas-de-andalucia-2008.-panel-total-panel-",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:18:26.561296+00:00",
+    "bytes": 600611,
+    "content_type": "text/html;charset=UTF-8",
+    "sha256": "97756f95fef6ed0219b5e4af7d040f0a5ce84dbdaafb164e09587a55e81fbb34",
+    "local_path": "data/raw/audit_20261106/cis_7708_page.html"
+  },
+  "cis_2920_page": {
+    "url": "https://www.cis.es/es/estudios/postelectoral-elecciones-generales-2011.-panel-2-fase-",
+    "resolved_url": "https://www.cis.es/es/estudios/postelectoral-elecciones-generales-2011.-panel-2-fase-",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:18:26.607391+00:00",
+    "bytes": 637692,
+    "content_type": "text/html;charset=UTF-8",
+    "sha256": "5e035621ae6899f9b2047f45eeb91f6a0371ae18719aade0e88b98a64fdc9c29",
+    "local_path": "data/raw/audit_20261106/cis_2920_page.html"
+  },
+  "cis_2920_design": {
+    "url": "https://www.cis.es/documents/20117/1555156/Ft2920pdf.pdf/44141172-e005-3368-ab45-3b4c33ac0d17?version=1.0&t=1696364731034",
+    "resolved_url": "https://www.cis.es/documents/20117/1555156/Ft2920pdf.pdf/44141172-e005-3368-ab45-3b4c33ac0d17?version=1.0&t=1696364731034",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:18:39.691605+00:00",
+    "bytes": 14329,
+    "content_type": "application/pdf",
+    "sha256": "8d27abd3725df839840bc8802fc609b0faee9c97b9cae28a6952e48744107991",
+    "local_path": "data/raw/audit_20261106/cis_2920_design.pdf"
+  },
+  "cis_2915_marginals": {
+    "url": "https://www.cis.es/documents/d/cis/Es2915pdf",
+    "resolved_url": "https://www.cis.es/documents/d/guest/Es2915pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:18:39.892453+00:00",
+    "bytes": 113841,
+    "content_type": "application/pdf",
+    "sha256": "1b15fc7b0cfeac1e209942b460dbbf048cbb18c35316192c487e4d33059a3024",
+    "local_path": "data/raw/audit_20261106/cis_2915_marginals.pdf"
+  },
+  "cis_7708_design": {
+    "url": "https://www.cis.es/documents/20117/1557931/FT7708pdf.pdf/390b2ab8-8f71-0d99-e23e-31a063078956?version=1.0&t=1700727063380",
+    "resolved_url": "https://www.cis.es/documents/20117/1557931/FT7708pdf.pdf/390b2ab8-8f71-0d99-e23e-31a063078956?version=1.0&t=1700727063380",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:18:40.097365+00:00",
+    "bytes": 17744,
+    "content_type": "application/pdf",
+    "sha256": "91b4b7b4da0e1ab08555192d73fad1162013a8ae284acacefcfab1a6a01faf1f",
+    "local_path": "data/raw/audit_20261106/cis_7708_design.pdf"
+  },
+  "cis_2920_questionnaire": {
+    "url": "https://www.cis.es/documents/20117/1555156/cues2920pdf.pdf/f4780339-d6e8-b188-0120-2d07810faa9e?version=1.0&t=1696364728182",
+    "resolved_url": "https://www.cis.es/documents/20117/1555156/cues2920pdf.pdf/f4780339-d6e8-b188-0120-2d07810faa9e?version=1.0&t=1696364728182",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:18:40.130532+00:00",
+    "bytes": 1069428,
+    "content_type": "application/pdf",
+    "sha256": "12a25d6d074f725f578df84b529032b92870c529ed585251dbff0e5fa1ee9e58",
+    "local_path": "data/raw/audit_20261106/cis_2920_questionnaire.pdf"
+  },
+  "cis_2920_data": {
+    "url": "https://www.cis.es/documents/20117/1555156/MD2920.zip/7141e446-0e80-49a5-caf8-65eef08d0ac6?version=1.0&t=1696364734091",
+    "resolved_url": "https://www.cis.es/documents/20117/1555156/MD2920.zip/7141e446-0e80-49a5-caf8-65eef08d0ac6?version=1.0&t=1696364734091",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:18:40.755352+00:00",
+    "bytes": 2289929,
+    "content_type": "application/zip",
+    "sha256": "efc1c9c171772c28be6ab648dfae30d99688c2e41d22497c26593406eb88b5c9",
+    "local_path": "data/raw/audit_20261106/cis_2920_data.zip"
+  },
+  "cis_7708_data": {
+    "url": "https://www.cis.es/documents/20117/1557931/MD7708.zip/e82d8122-295d-c1b4-9b16-df316277f77c?version=1.0&t=1700727046072",
+    "resolved_url": "https://www.cis.es/documents/20117/1557931/MD7708.zip/e82d8122-295d-c1b4-9b16-df316277f77c?version=1.0&t=1700727046072",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:18:40.871075+00:00",
+    "bytes": 3514391,
+    "content_type": "application/zip",
+    "sha256": "9eaaa38bb33b52789b36a621446d739cc32af144b6ccc53686defb301d1be246",
+    "local_path": "data/raw/audit_20261106/cis_7708_data.zip"
+  },
+  "cis_2920_marginals": {
+    "url": "https://www.cis.es/documents/d/cis/Es2920pdf",
+    "resolved_url": "https://www.cis.es/documents/d/guest/Es2920pdf",
+    "status": 200,
+    "retrieved_utc": "2026-11-06T15:21:02.413320+00:00",
+    "bytes": 167916,
+    "content_type": "application/pdf",
+    "sha256": "0c1e5b82ca265beedf6aaefa72368e7b7f13b26df045540ada50447fdc03cadd",
+    "local_path": "data/raw/audit_20261106/cis_2920_marginals.pdf"
+  }
+}
