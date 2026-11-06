@@ -1,0 +1,22 @@
+{
+  "start_utc": "2026-11-06T19:37:34.836483+00:00",
+  "end_utc": "2026-11-06T19:43:46.637053+00:00",
+  "input_lock_commit": "8f94dbb20f8070a0c53dd5c9b32252ab2210aa8f",
+  "protocol_commit": "bdbd371",
+  "contract_sha256": "801e6190d2828312cf32a9768c793c431784ce933baa1e2eca1fddf1b2652397",
+  "model_script_sha256": "ee3a4cb0c5c14ef002fd49c5fa3ec64997d72c432e8068a3053846ab1248bb50",
+  "python": "3.12.15",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "sklearn": "1.9.1",
+  "pandas": "3.1.0",
+  "seed": 20261106,
+  "country_bootstrap_draws": 1000,
+  "convergence_warning_policy": "ConvergenceWarning raises, no failed fits silently removed",
+  "microdata_exported": false,
+  "interpretation": "Post-election conditional associations, not causes or pre-election forecasts",
+  "original_input_lock_commit": "a59f22b",
+  "revision_driver_sha256": "cc4db765b4a05a05bd03bc965bda95013afc0520f2b984c5593db862dcb90d11",
+  "revision_driver": "analysis/63_eurobarometer_corrected_replay.py",
+  "revision": "v2: one Scottish Greens response becomes unresolved; same original models and sensitivities"
+}

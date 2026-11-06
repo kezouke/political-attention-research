@@ -1,0 +1,21 @@
+{
+  "start_utc": "2026-11-06T19:43:46.860540+00:00",
+  "end_utc": "2026-11-06T19:45:45.075315+00:00",
+  "script_sha256": "d54a2021cd94c45e51596909a6344e756e64d81309e8d23ca7e1fcd36bc1cef7",
+  "nonlinear_parameters": {
+    "learning_rate": 0.05,
+    "max_iter": 200,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 40,
+    "l2_regularization": 1.0,
+    "early_stopping": false,
+    "random_state": 20261106
+  },
+  "scope": "Specific secondary specifications fixed after first linear results, before their own fitting",
+  "country_influence_fits": 88,
+  "per_country_estimates": "Exploratory, regularized, often small samples; not a significance vote count",
+  "nonlinear_hyperparameter_search": false,
+  "model_selection_on_test_set": false,
+  "unknown_party_bounds": "Conditional on reported voters with complete core attitudes; no MNAR or causal-effect claim",
+  "microdata_exported": false
+}

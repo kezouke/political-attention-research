@@ -1,0 +1,74 @@
+{
+  "all_adult_Greens_responses": 29,
+  "core_complete_Greens_responses": 28,
+  "core_complete_Scottish_Greens_responses": 1,
+  "core_complete_unresolved_region_Greens_responses": 0,
+  "correction": "Generic Greens response only mapped to the eligible England/Wales party when region establishes England or Wales",
+  "reason": "Scottish Greens is a distinct party; absence from PopuList does not establish a negative label without verified scope",
+  "region_variables": {
+    "v743": "P7 region I, Scotland code 16; England/Wales 6..15",
+    "v772": "P7 region II, Scotland code 1, cross-checked"
+  },
+  "respondent_rows_exported": false,
+  "revised_model_fitted_by_this_script": false,
+  "completed_utc": "2026-11-06T19:45:45.150755+00:00",
+  "revision_driver_sha256": "cc4db765b4a05a05bd03bc965bda95013afc0520f2b984c5593db862dcb90d11",
+  "complete_model_replay": true,
+  "complete_robustness_replay": true,
+  "original_aggregate_hashes_unchanged": {
+    "data/processed/three_explanations/eb_models_run.json": "516e7f337d1eb3c4b2079f440243af093fd1bc8f174921f0f8c849e95c1a2584",
+    "data/processed/three_explanations/eb_trust_overlap.csv": "b5d7b6ecb4dd4aaa39bfc8ee4c7c6f655e24839f0262885f1def7641146a629b",
+    "data/processed/three_explanations/eb_regional_identity_sample_changes.csv": "e3544db1913a5f87b706f9a29a72a425505fac86d9b92af41a3d1a7af43c3f71",
+    "data/processed/three_explanations/eb_samples.csv": "232ed8633af9d72a4fd767f4060475583407ddb0e0a6b7c4ae590c57f3563772",
+    "data/processed/three_explanations/eb_country_margins.csv": "d972a864002489dad3eaac3e805a9a7e9d64f12240b15067f3f10c54ea41bb17",
+    "data/processed/three_explanations/eb_model_sensitivity.csv": "a8aca05e2cc948ac46952219239da3cd5e816891ef6b7f3c9fe12a50b2f608c2",
+    "data/processed/three_explanations/eb_leave_one_country_margins.csv": "e61d3530b11ae36175bdd156bd87edaa1e43193f0094bcc48b9af2ea9a110049",
+    "data/processed/three_explanations/eb_result_checks.json": "bb57bfd5aabbe135081f0e50b45499a8b73f5de3abbd4ec224fe31369cedc291",
+    "data/processed/three_explanations/eb_regional_identity_correction.json": "b3ac676f961e08a2a52448cb66867b2ae08ee4cc45870dadaa302b455a0dd3a2",
+    "data/processed/three_explanations/eb_model_margins.csv": "67524c7788210c281fe039f90d4fc3bb4b4507747b6fe6691c5ad0d77b03f8e0",
+    "data/processed/three_explanations/eb_robustness_checks.json": "838876a644140a8c5eb1b625bc85c5ebbfbb7f28b9b546ac7d0241995ef6ebb7",
+    "data/processed/three_explanations/eb_nonlinear_validation_by_country.csv": "f52e3c682e3e7e88c2122c4149c02ba457d7fa46f00d1840730a844f8e7204ed",
+    "data/processed/three_explanations/eb_nonlinear_comparisons.csv": "ef0e7a4ea9a460e1d198837b0768ecf1aca3a9ff8aa445f1c7463ff8a5c751cc",
+    "data/processed/three_explanations/eb_input_contract.json": "7465c900e7d8553486a430beb8bde9ec359cf3e0c7398e4c68c54823ce564b12",
+    "data/processed/three_explanations/eb_turnout_all_reported.csv": "4a2ba4c8cbef3e28a4755fa309021250709030ce7d0375dd8df7fc162363320c",
+    "data/processed/three_explanations/eb_model_incremental_validation.csv": "342b4b223eadb92bf233cf1a3690b03745d7c68e4f4c8aa703898be79b546a1c",
+    "data/processed/three_explanations/eb_model_calibration.csv": "f86479f6ff4de7068d3c3fb74a57107a3bfdf88ba0982a7c6654ecb66552cacd",
+    "data/processed/three_explanations/eb_outcome_counts.csv": "4ad2b6985dd62ee9e8fe16bf3ea46f236252fe3b2d968271cce3c0c0468adf62",
+    "data/processed/three_explanations/eb_unknown_party_bounds.csv": "37e0bd4c253c9a43a8cc16e8a202824fdf390c58112d9b0605bea710ed50217b",
+    "data/processed/three_explanations/eb_model_validation_by_country.csv": "bff154f494701b5c606bd7795cee4b982ff56c10812472cd8eb381ad2e6e6c41",
+    "data/processed/three_explanations/eb_measurement_sensitivity.csv": "73158d6f1fb63bdf596b0c8bf45a9ac165f165df573396a465681723388233cf",
+    "data/processed/three_explanations/eb_nonlinear_validation.csv": "8488723ccb69b8feca4a2077221131ac0881bf53792ee75ec95badb2cc2823ec",
+    "data/processed/three_explanations/eb_model_metadata.json": "45a0f70182e407462e011271a8db5868763e9f319d5395f50328cb2a2189efd0",
+    "data/processed/three_explanations/eb_robustness_run.json": "f33610873f15b2dd795c96bfc4dc59d25cc4b72bd498104270cf6f24a4c4ba30",
+    "data/processed/three_explanations/eb_model_validation.csv": "14e7eb5d5e8a46d32b1def58ab590091ba452ff0a154ffb5de982507e788e359",
+    "data/processed/three_explanations/eb_predictor_support.csv": "632e049f02f214d4052cd1482176c6bdc1ca5d0f471503baaea39aa78e50bf54",
+    "data/processed/three_explanations/eb_model_coefficients.csv": "20112a0ae3d18209fea258ebd92a811777d5ce19b097acab0f6f58899262c71b"
+  },
+  "max_absolute_main_point_change_pp": 0.04159556781057061,
+  "sample_changes": [
+    {
+      "target": "government_vs_opposition",
+      "original_n": 9949,
+      "corrected_n": 9948,
+      "difference": -1
+    },
+    {
+      "target": "opposition_type",
+      "original_n": 4122,
+      "corrected_n": 4121,
+      "difference": -1
+    },
+    {
+      "target": "nonvote_vs_vote",
+      "original_n": 20486,
+      "corrected_n": 20485,
+      "difference": -1
+    },
+    {
+      "target": "four_outcomes",
+      "original_n": 15963,
+      "corrected_n": 15962,
+      "difference": -1
+    }
+  ]
+}

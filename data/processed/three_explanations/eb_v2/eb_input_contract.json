@@ -1,0 +1,242 @@
+{
+  "protocol_commit": "bdbd371",
+  "raw_source": "ZA4973_v3-0-0.sav; authenticated_downloads.json",
+  "fixed_input_hashes": {
+    "data/processed/audit_20261106/ep2009_vote_crosswalk.csv": "d07c4ac1e83cccba6db0295888ffcd0d11119e650fc8e7359c52716890459165",
+    "data/processed/audit_20261106/ep2009_parlgov_cabinets.csv": "d4b1a853fc7ba545113c92676cce03281e5a80f6ef8ffc93e5ad53f9686c5c60",
+    "planning/analysis-protocol-v1.md": "9ac5cd202b25df98ed01e1b86779c26590b8ec0d1f227a36aa86b18b8e8ac2f4",
+    "analysis/50_eurobarometer_model_inputs.py": "93ede3fe1746e97684a92f8dc170ecd6783425644d496ab48a37def28d79ce1f",
+    "analysis/63_eurobarometer_corrected_replay.py": "cc4db765b4a05a05bd03bc965bda95013afc0520f2b984c5593db862dcb90d11",
+    "analysis/60_eb_regional_party_identity_check.py": "35535de889bd5de6f1f57d6320dddde985b5d025c97ac02070ee9dc71f060485",
+    "analysis/51_eurobarometer_models.py": "ee3a4cb0c5c14ef002fd49c5fa3ec64997d72c432e8068a3053846ab1248bb50",
+    "analysis/54_eurobarometer_robustness.py": "d54a2021cd94c45e51596909a6344e756e64d81309e8d23ca7e1fcd36bc1cef7",
+    "data/processed/three_explanations/eb_v2/audit/ep2009_vote_crosswalk.csv": "d07c4ac1e83cccba6db0295888ffcd0d11119e650fc8e7359c52716890459165",
+    "data/processed/three_explanations/eb_v2/audit/ep2009_outcome_coverage.csv": "2740191258076ed6203c1075605e785d59213c2525273bfb57187b49e9e3575b"
+  },
+  "primary_version": 4,
+  "primary_rule": "inclusive",
+  "controls_numeric": [
+    "age_scaled",
+    "age_squared",
+    "female",
+    "female_missing",
+    "left_right",
+    "left_right_squared",
+    "left_right_missing"
+  ],
+  "controls_categorical": [
+    "education",
+    "occupation",
+    "community",
+    "country"
+  ],
+  "blocks": {
+    "baseline": [],
+    "economy_government": [
+      "national_economy_bad",
+      "government_distrust"
+    ],
+    "plus_priority": [
+      "national_economy_bad",
+      "government_distrust",
+      "economic_priority"
+    ],
+    "full": [
+      "national_economy_bad",
+      "government_distrust",
+      "economic_priority",
+      "party_distrust"
+    ],
+    "without_economy": [
+      "government_distrust",
+      "economic_priority",
+      "party_distrust"
+    ],
+    "without_government": [
+      "national_economy_bad",
+      "economic_priority",
+      "party_distrust"
+    ],
+    "without_priority": [
+      "national_economy_bad",
+      "government_distrust",
+      "party_distrust"
+    ],
+    "without_party_trust": [
+      "national_economy_bad",
+      "government_distrust",
+      "economic_priority"
+    ]
+  },
+  "variables": {
+    "national_economy_bad": {
+      "source": "v105",
+      "rule": "(x-1)/3 for x=1..4; higher is worse; current national conditions"
+    },
+    "household_finances_bad": {
+      "source": "v109",
+      "rule": "(x-1)/3 for x=1..4; current household finances"
+    },
+    "economic_priority": {
+      "source": "v134 v135 v137",
+      "rule": "any mentioned among economy, rising prices, unemployment; strict national priority routing"
+    },
+    "economic_priority_tax": {
+      "source": "v134 v135 v136 v137",
+      "rule": "same plus taxation"
+    },
+    "economic_priority_personal": {
+      "source": "v152 v153 v155",
+      "rule": "same three topics for personal priorities; strict personal routing"
+    },
+    "party_distrust": {
+      "source": "v216",
+      "rule": "0=tend to trust (1), 1=tend not to trust (2); DK missing"
+    },
+    "government_distrust": {
+      "source": "v217",
+      "rule": "0=tend to trust (1), 1=tend not to trust (2); not government-performance rating"
+    },
+    "parliament_distrust": {
+      "source": "v218",
+      "rule": "0=tend to trust (1), 1=tend not to trust (2)"
+    },
+    "eu_distrust": {
+      "source": "v219",
+      "rule": "0=tend to trust (1), 1=tend not to trust (2)"
+    },
+    "eu_image_negative": {
+      "source": "v221",
+      "rule": "(x-1)/4 for 1..5; higher is more negative"
+    },
+    "age_scaled": {
+      "source": "v666",
+      "rule": "(age-50)/20, uniform adult restriction 18..98; not verified voting eligibility"
+    },
+    "female": {
+      "source": "v665",
+      "rule": "1=female (2), 0=male (1); source has only two gender categories"
+    },
+    "education": {
+      "source": "v664",
+      "rule": "1..2=finished by 15; 3..6=16..19; 7..9=20+; 10=student; 11=no full-time education; other=missing"
+    },
+    "occupation": {
+      "source": "v795",
+      "rule": "retain producer categories 1..8, otherwise missing"
+    },
+    "community": {
+      "source": "v671",
+      "rule": "1=rural, 2=small/middle town, 3=large town, otherwise missing"
+    },
+    "left_right": {
+      "source": "v659",
+      "rule": "(x-5.5)/4.5 for 1..10; missing set to fixed midpoint 0 plus explicit missing indicator; also squared term"
+    },
+    "bill_difficulty": {
+      "source": "v696",
+      "rule": "(3-x)/2 for x=1..3; higher is greater difficulty paying bills last year"
+    },
+    "weight_country": {
+      "source": "v54",
+      "rule": "W31 demographic voting-age poststratification; normalize within analytic country before country-equal weighting"
+    },
+    "weight_population": {
+      "source": "v65",
+      "rule": "W52 additionally accounts for EU country population; sensitivity only"
+    }
+  },
+  "primary_government_countries": [
+    "AT",
+    "BE",
+    "BG",
+    "CY",
+    "DE",
+    "DK",
+    "EE",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "GR",
+    "IE",
+    "IT",
+    "LT",
+    "LU",
+    "LV",
+    "MT",
+    "NL",
+    "PL",
+    "PT",
+    "RO",
+    "SE",
+    "SI",
+    "SK"
+  ],
+  "primary_three_choice_countries": [
+    "AT",
+    "BE",
+    "BG",
+    "CY",
+    "DE",
+    "DK",
+    "EE",
+    "FR",
+    "GB",
+    "GR",
+    "IE",
+    "IT",
+    "LT",
+    "LU",
+    "NL",
+    "PL",
+    "RO",
+    "SE",
+    "SI"
+  ],
+  "sample_totals": {
+    "government_vs_opposition": 9948,
+    "opposition_type": 4121,
+    "nonvote_vs_vote": 20485,
+    "four_outcomes": 15962
+  },
+  "core_question_names": "Current national economy, national priority, government trust, party trust",
+  "country_exclusions": "CZ/HU caretaker status unresolved; choice-type contrasts require verified alternatives",
+  "unresolved_policy": "Retain as unresolved in coverage tables; exclude from classified outcome models; no imputed party",
+  "main_regularization_C": 1.0,
+  "regularization_sensitivity_C": [
+    0.1,
+    10.0
+  ],
+  "seed": 20261106,
+  "folds": 5,
+  "bootstrap_country_draws": 1000,
+  "bootstrap_weight_rule": "Resample countries, retain within-country weights; standardize contrasts over resampled country distribution",
+  "contrast_values": {
+    "national_economy_bad": [
+      0.3333333333333333,
+      0.6666666666666666
+    ],
+    "government_distrust": [
+      0,
+      1
+    ],
+    "economic_priority": [
+      0,
+      1
+    ],
+    "party_distrust": [
+      0,
+      1
+    ]
+  },
+  "limitations": [
+    "No pre-election party attachment or earlier vote in selected EB data; ideology is measured post-election.",
+    "Known party participants verify availability of categories, not an exhaustive ballot census.",
+    "Complete-case selection and unresolved parties can depend on politics; country-equal weighting does not correct them.",
+    "Left-right and demographics with missing values retain explicit missing indicators/categories.",
+    "These counts and predictor distributions are not outcome associations."
+  ],
+  "parent_contract_sha256": "7465c900e7d8553486a430beb8bde9ec359cf3e0c7398e4c68c54823ce564b12",
+  "revision": "v2: one Scottish Greens response becomes unresolved; same original models and sensitivities"
+}
