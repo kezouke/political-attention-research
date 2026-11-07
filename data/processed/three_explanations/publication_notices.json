@@ -1,0 +1,21 @@
+{
+  "updated_at_utc": "2026-11-07T08:04:21Z",
+  "notices": [
+    {
+      "archive": "Manifesto Project",
+      "publication": "After a crisis, who receives discontent?",
+      "dataset_version": "2023a",
+      "status": "sent",
+      "authorization": "User explicitly approved sending the prepared Manifesto notice on 7 November 2026.",
+      "verification": "Gmail send_draft returned label SENT.",
+      "raw_data_or_attachments_sent": false
+    },
+    {
+      "archive": "GAGNÍS",
+      "publication": "After a crisis, who receives discontent?",
+      "status": "draft_awaiting_authorization",
+      "authorization": "The approval for the Manifesto notice does not cover this separate recipient.",
+      "raw_data_or_attachments_sent": false
+    }
+  ]
+}
