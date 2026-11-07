@@ -1,0 +1,25 @@
+{
+  "source_commit": "d17c157f0bea2a85bf366144503ebba6ca0bfc39",
+  "tracked_files_only": true,
+  "licensed_raw_files_present": false,
+  "commands": [
+    "83_national_results_report.py",
+    "89_manifesto_refresh_report.py",
+    "84_choice_publication_figures.py",
+    "85_build_choice_essay.py",
+    "86_choice_publication_checks.py"
+  ],
+  "byte_identical_files": 33,
+  "mismatches": [],
+  "verified_at_utc": "2026-11-07T08:38:34.928355+00:00",
+  "rebuild_scope": "Temporary export of Git-tracked files only; this statement does not describe the full local research directory.",
+  "publication_url": "https://kezouke.github.io/political-attention-research/?lang=ru",
+  "publication_sha256": "b3f9562406cdce474d331151d5edce4fe273a66d908e8ea72f8840079a32fd2b",
+  "live_page_matches": true,
+  "workflow_run": "https://github.com/kezouke/political-attention-research/actions/runs/42356168067",
+  "workflow_conclusion": "success",
+  "numeric_claims_passed": 44,
+  "pytest_tests_passed": 39,
+  "javascript_checks_passed": true,
+  "both_archive_notices_sent": true
+}
