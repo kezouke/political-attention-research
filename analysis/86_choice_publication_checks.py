@@ -101,6 +101,24 @@ def main():
     d=read('three_explanations/national_sensitivity_status.csv')
     assert not one(d,dataset='IS2013',target='opposition_type',scenario='v4_strict').estimable
 
+    file='three_explanations/manifesto_refresh/primary_version_summary.csv';d=read(file)
+    r=one(d,version='2026a',kind='banking',scope='all_eligible_pairs')
+    assert r.n==16 and r.countries==15
+    for c,x in [('increase',8),('decrease',8),('within_largest',10)]:
+        claim('manifesto_2026a_banking_'+c,r[c],x,file,0)
+    r=one(d,version='2026a',kind='comparison',scope='all_eligible_pairs')
+    assert r.n==75
+    claim('manifesto_2026a_calm_within_largest',r.within_largest,52,file,0)
+    file='three_explanations/manifesto_refresh/matched_version_summary.csv';d=read(file)
+    for version,x in [('2023a',49),('2026a',50)]:
+        r=one(d,version=version,kind='comparison');assert r.n==73
+        claim('manifesto_matched_calm_'+version,r.within_largest,x,file,0)
+    file='three_explanations/manifesto_refresh/estimate_version_comparison.csv';d=read(file)
+    q=d[d['sample'].eq('main')&d.topic.eq('economy')&d.kind_2023a.eq('banking')]
+    assert len(q)==16 and q['_merge'].eq('both').all() and not q.change_sign_differs.any()
+    maximum=q.change_pp_difference.abs().max();assert maximum<.003
+    claim('manifesto_banking_max_revision_pp',maximum,.00267,file,5)
+
     page=ROOT/'docs/index.html';soup=BeautifulSoup(page.read_text(),'html.parser')
     ids=[x['id'] for x in soup.select('[id]')];assert len(ids)==len(set(ids))
     assert len(soup.select('figure'))==5

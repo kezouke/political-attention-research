@@ -1,0 +1,9 @@
+version,kind,scope,n,original_pair_count,countries,increase,decrease,within_largest,mean_change_pp,median_change_pp
+2023a,banking,original_pairs,16,16,15,8,8,10,1.59641616623,0.282228296132
+2023a,banking,all_eligible_pairs,16,16,15,8,8,10,1.59641616623,0.282228296132
+2026a,banking,original_pairs,16,16,15,8,8,10,1.59681735525,0.281772217498
+2026a,banking,all_eligible_pairs,16,16,15,8,8,10,1.59681735525,0.281772217498
+2023a,comparison,original_pairs,75,75,26,38,37,51,-0.291971536318,0.0706033521211
+2023a,comparison,all_eligible_pairs,75,75,26,38,37,51,-0.291971536318,0.0706033521211
+2026a,comparison,original_pairs,73,75,26,35,38,50,-0.401024842799,-0.498630272141
+2026a,comparison,all_eligible_pairs,75,75,26,36,39,52,-0.366625704077,-0.498630272141

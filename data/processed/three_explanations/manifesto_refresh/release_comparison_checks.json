@@ -1,0 +1,23 @@
+{
+  "candidate_rows": 5330,
+  "candidate_estimate_rows": 8160,
+  "decomposition_identities_pass": true,
+  "comparison_deltas_pass": true,
+  "original_outputs_unchanged": true,
+  "banking_common_pairs": 16,
+  "banking_sign_changes": 0,
+  "banking_max_absolute_revision_pp": 0.00266961836435,
+  "calm_common_pairs": 73,
+  "calm_common_sign_changes": 1,
+  "main_coverage_status_changes": 4,
+  "raw_data_read_by_this_report": false,
+  "report_driver_sha256": "5028343c1baa9cc2826874675c4c897a75cfdbd393fc176edb3f56657b5fdba6",
+  "sha256": {
+    "data/processed/three_explanations/manifesto_refresh/programme_decomposition_2026a.csv": "49f4df03e9610867dee1762ef0b952c38deaea7c81061d7689f2d3c74d933c09",
+    "data/processed/three_explanations/manifesto_refresh/programme_coverage_2026a.csv": "ecd6ca7de501f4ee5a7c46c9136a1f6fd364d5ee9d05156d5d91aaa52f46027a",
+    "data/processed/three_explanations/manifesto_refresh/coverage_version_comparison.csv": "e5d8ba77ad2e372bd4b02c0046dff227ac888bd6ef7ff212578bc9c25abdde82",
+    "data/processed/three_explanations/manifesto_refresh/estimate_version_comparison.csv": "3071376557dda81eeb03c60701fb0705b5af82a91b87f84981e2a195aefb28b0",
+    "data/processed/three_explanations/manifesto_refresh/primary_version_summary.csv": "5eb521e0c2f165ee7a290634780cd08b6bd711bc60b5278e645957e70a4a6ee1",
+    "data/processed/three_explanations/manifesto_refresh/version_replay_checks.json": "6ed9e56e8459b67521dd26012de4666d803ab89a006a3caa3411dd4bb9cafe46"
+  }
+}

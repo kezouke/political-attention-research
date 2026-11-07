@@ -102,7 +102,7 @@ These national comparisons bring us back to political supply. An economic issue 
 <!-- section: offers -->
 ## The proposed remedy matters alongside the issue
 
-To test whether crises produced a common economic agenda, we retain our analysis of party programmes. Sufficient coverage, at least 75% of votes at both endpoints, exists for **16 crisis episodes in 15 countries**. The share of coded economic topics rose in eight and fell in eight. Increasing economic content is not a universal companion of subsequent populist gains.
+To test whether crises produced a common economic agenda, we compare party programmes using Manifesto Project 2023a. Sufficient coverage, at least 75% of votes at both endpoints, exists for **16 crisis episodes in 15 countries**. The share of coded economic topics rose in eight and fell in eight. Increasing economic content is not a universal companion of subsequent populist gains.
 
 We compare the last pre-crisis with the first subsequent programmes, testing parties’ initial response. Aggregate changes have several sources. Established parties can revise texts; voters can give more weight to parties with a different agenda; documents can enter or leave the observed record. We separate these components. In 10 of 16 crisis episodes, the largest absolute component comes from programme changes within continuing parties. The same holds in 51 of 75 calm episodes, so it does not identify a distinctive crisis mechanism.
 

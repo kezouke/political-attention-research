@@ -14,6 +14,10 @@ relationships with distrust. Prior party preferences and the definition of popul
 matter. The study retains weak predictive additions and negative importance/topic
 results. It does not identify a common causal chain from the 2008 crisis to populism.
 
+A separate [Manifesto 2026a comparison](MANIFESTO_REFRESH.md) preserves all 16
+programme crisis cases and their change directions. Changes in the calm sample
+are reported separately; the original 2023a outputs remain available.
+
 [Methods and reproduction](CHOICE_METHODS.md) · [Claim and editorial audit](CHOICE_AUDIT.md) ·
 [Data audit, including Hugging Face](DATA_AUDIT_2026.md) ·
 [Agreed six-page research plan](output/pdf/political-economy-research-six-pager-ru.pdf)
@@ -32,6 +36,7 @@ results, without licensed respondent records:
 ```sh
 python -m pip install -r requirements-dev.txt
 python analysis/83_national_results_report.py
+python analysis/89_manifesto_refresh_report.py
 python analysis/84_choice_publication_figures.py
 python analysis/85_build_choice_essay.py
 python analysis/86_choice_publication_checks.py

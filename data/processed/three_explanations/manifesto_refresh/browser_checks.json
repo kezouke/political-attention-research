@@ -1,0 +1,38 @@
+{
+  "checked_at_utc": "2026-11-07T08:34:36.715030+00:00",
+  "page_sha256": "b3f9562406cdce474d331151d5edce4fe273a66d908e8ea72f8840079a32fd2b",
+  "surface": "In-app browser, local publication preview",
+  "variants": [
+    {
+      "language": "ru",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "loadedFigures": 5,
+      "releaseCheckVisible": true
+    },
+    {
+      "language": "ru",
+      "width": 390,
+      "scrollWidth": 390,
+      "loadedFigures": 5,
+      "releaseCheckVisible": true
+    },
+    {
+      "language": "en",
+      "width": 390,
+      "scrollWidth": 390,
+      "loadedFigures": 5,
+      "releaseCheckVisible": true
+    },
+    {
+      "language": "en",
+      "width": 1280,
+      "scrollWidth": 1280,
+      "loadedFigures": 5,
+      "releaseCheckVisible": true
+    }
+  ],
+  "language_switch_preserves_section": true,
+  "console_errors": [],
+  "temporary_viewport_reset": true
+}

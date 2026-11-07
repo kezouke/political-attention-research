@@ -1,5 +1,5 @@
 {
-  "updated_at_utc": "2026-11-07T08:04:21Z",
+  "updated_at_utc": "2026-11-07T08:34:36.714246+00:00",
   "notices": [
     {
       "archive": "Manifesto Project",
@@ -13,9 +13,10 @@
     {
       "archive": "GAGNÍS",
       "publication": "After a crisis, who receives discontent?",
-      "status": "draft_awaiting_authorization",
-      "authorization": "The approval for the Manifesto notice does not cover this separate recipient.",
-      "raw_data_or_attachments_sent": false
+      "status": "sent",
+      "authorization": "User explicitly approved sending the prepared GAGNÍS notice on 7 November 2026.",
+      "raw_data_or_attachments_sent": false,
+      "verification": "Gmail send_draft returned label SENT."
     }
   ]
 }

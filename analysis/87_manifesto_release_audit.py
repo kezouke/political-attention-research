@@ -78,9 +78,9 @@ def main():
         "main_banking_used_keys_missing": len(used_main_banking_keys - current_keys),
         "main_banking_endpoints_with_added_keys": int(main.added_keys.gt(0).sum()),
         "topic_values_compared": False,
-        "numerical_replay_completed": False,
-        "access_status": "Official numerical downloads and dashboard downloads require a Manifesto account; no authenticated account available in this task.",
-        "interpretation": "Key coverage does not validate topic values, vote weights, coding manuals or document types. Published estimates remain explicitly based on 2023a; robustness to 2026a is not established.",
+        "numerical_replay_performed_by_this_script": False,
+        "access_status": "This script reads public document metadata only. Authenticated numerical acquisition is recorded separately in manifesto_refresh_sources.json.",
+        "interpretation": "Key coverage alone does not validate topic values, vote weights, coding manuals or document types. See script 88 and manifesto_refresh/version_replay_checks.json for the separate numerical comparison.",
         "raw_rows_redistributed": False,
     }
     (OUT / "manifesto_refresh_audit.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")

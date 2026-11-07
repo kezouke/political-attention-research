@@ -1,6 +1,6 @@
 # Programmes and votes after banking crises
 
-This note documents the [current bilingual essay](https://kezouke.github.io/political-attention-research/?lang=ru).
+This note documents the [preserved programme essay](https://kezouke.github.io/political-attention-research/programme-baseline.html?lang=ru).
 The [protocol](RESEARCH_PROTOCOL.md) records the sequence of analytical choices.
 The [claim audit](RESEARCH_AUDIT_2026.md) distinguishes supported findings from
 interpretations. This is an exploratory study assisted by AI, without an
@@ -22,6 +22,12 @@ real GDP growth. Their acquisition and calendar rules are documented in
 Programme data are Manifesto Project **2023a**, not the latest 2026 release:
 the reproducible snapshot is already available locally and its SHA-256 is in
 `programme_provenance.json`. Later coverage must not be implied.
+
+The separate [2026a release comparison](MANIFESTO_REFRESH.md), completed on
+7 November 2026, preserves this baseline and reports revisions under the same
+selection rules. It leaves all 16 primary crisis cases and their change signs
+unchanged, while altering the composition of the calm sample. The methods below
+continue to describe the frozen 2023a analysis.
 
 The [2026 Laeven–Valencia update](https://www.imf.org/-/media/files/publications/wp/2026/english/wpiea2026094-source-pdf.pdf)
 was checked during the final source audit. Its Table 1 lists 13 newly identified

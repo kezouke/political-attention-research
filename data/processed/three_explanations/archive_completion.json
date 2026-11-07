@@ -31,5 +31,5 @@
   "scope_note": "Working microdata files acquired by this project; no claim about operating-system backups outside the project. No respondent-level derived dataset was saved. Metadata, documentation, code and aggregate published results retained.",
   "model_checks_before_deletion": "analysis/82_national_comparison_checks.py passed against source hashes before cleanup.",
   "reproduction_note": "Publication and figures rebuild from committed aggregates. A fresh source-based model run requires reacquiring licensed Icelandic data.",
-  "bibliographic_notice": "Prepared; awaiting explicit permission to send."
+  "bibliographic_notice": "Sent on 7 November 2026 after explicit user approval; Gmail returned SENT."
 }

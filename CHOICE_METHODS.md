@@ -176,25 +176,32 @@ multilingual elite-blame benchmark. Existing E5 versus TF–IDF topic results re
 an experiment, not a validated replacement for expert party classifications.
 See the [audit](DATA_AUDIT_2026.md) and preserved [programme methods](RESEARCH_METHODS.md).
 
-The six-pager also called for a separate check of a newer Manifesto release.
-That numerical check is still incomplete. Script 87 compares public 2026a
-document metadata with 2023a: all 225 document keys used at the endpoints of
-the 16 published banking pairs remain, with no added keys at those endpoints.
-This does not establish unchanged topic values or vote weights. The numerical
-2026a download requires a separate Manifesto account. The
-[refresh specification](planning/manifesto-refresh-specification.md) fixes the
-comparison before those new values are inspected. The article's programme
-estimates remain explicitly estimates from 2023a.
+The six-pager's separate Manifesto release check is now completed. The official
+2026a numerical file was acquired after the user completed registration. Script
+88 first reproduced all 1,722 coverage rows, 8,130 estimate rows and 350 summary
+rows from 2023a at their saved precision, then applied the same seven selection
+specifications and ten topic definitions to 2026a. Original outputs remain
+unchanged. The [specification](planning/manifesto-refresh-specification.md) was
+fixed before inspecting the new numerical file.
 
-Script 88 replays the full 2023a calculation without overwriting it. All 1,722
-coverage rows, 8,130 estimate rows and 350 summary rows match the saved CSVs
-at their recorded numerical precision. It also prepares the same comparison
-for an authenticated 2026a CSV, but that branch has not yet been run against
-the new release. The baseline-only command is
-`python analysis/88_manifesto_version_replay.py`; add `--candidate PATH_TO_2026A_CSV`
-only after acquiring the actual numerical release. Its keys must match the
-official 2026a document catalog. Separate outputs go under
-`data/processed/three_explanations/manifesto_refresh/`.
+All 16 primary banking episodes remain, with eight economic-topic increases,
+eight decreases and 10 cases where within-party programme revision is the largest
+component. The largest total-change revision is 0.002670 percentage points.
+Calm samples contain 75 intervals in each version but share only 73. On that
+matched set, within-party revision is largest in 49 cases under 2023a and 50 under
+2026a; the full new sample gives 52 of 75. One shared calm interval, Bolivia
+2009–2014, reverses sign. The [full comparison](MANIFESTO_REFRESH.md) distinguishes
+value revisions from sample changes and documents the Canadian, Belgian and
+Polish coverage changes. These checks do not establish a causal mechanism.
+
+The article's programme graph preserves 2023a; 2026a is a separate sensitivity
+check. The 89-election-pair prediction experiment remains a 2023a result and was
+not rerun under 2026a. To reproduce the release comparison after obtaining the
+licensed source files, run `python analysis/88_manifesto_version_replay.py
+--candidate data/raw/manifesto_refresh_20261107/manifesto_2026a.csv` followed by
+`python analysis/89_manifesto_refresh_report.py`. The latter uses public aggregate
+outputs only. Acquisition hashes and aggregate results are stored under
+`data/processed/three_explanations/manifesto_refresh*`.
 
 ## Rebuild the public article without microdata
 
@@ -203,6 +210,7 @@ Python 3.12 is the analysis environment. From the repository root:
 ```sh
 python -m pip install -r requirements-dev.txt
 python analysis/83_national_results_report.py
+python analysis/89_manifesto_refresh_report.py
 python analysis/84_choice_publication_figures.py
 python analysis/85_build_choice_essay.py
 python analysis/86_choice_publication_checks.py

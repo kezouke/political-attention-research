@@ -124,7 +124,9 @@ def methods():
 
 ### Что дали программы и машинное обучение
 
-Смена инструкций кодирования затрагивает восемь из 16 программных эпизодов; требование одинаковых инструкций и полного покрытия оставляет только четыре. Это ограничивает точность сравнения тем. Сохранён и отрицательный прогнозный результат: добавление тем программ не улучшило среднюю абсолютную ошибку на 89 парах выборов в 27 странах, 4,17 против 4,15 п. п. у базовой модели.
+Смена инструкций кодирования затрагивает восемь из 16 программных эпизодов; требование одинаковых инструкций и достаточного покрытия оставляет только четыре. Это ограничивает точность сравнения тем. Сохранён и отрицательный прогнозный результат 2023a: добавление тем программ не улучшило среднюю абсолютную ошибку на 89 парах выборов в 27 странах, 4,17 против 4,15 п. п. у базовой модели.
+
+Отдельный пересчёт по Manifesto Project 2026a сохраняет те же 16 кризисных эпизодов, восемь ростов и восемь снижений экономической доли, а также 10 случаев преобладания изменения текстов. Ни один знак кризисного сдвига не меняется; наибольшая разница оценки меньше 0,003 п. п. Состав спокойных интервалов изменился: два выбыли и два добавились. На 73 общих интервалах компонент изменения текстов крупнейший в 49 случаях по старому выпуску и в 50 по новому; на всём новом наборе это 52 из 75. [Сравнение выпусков]({REPO}/blob/main/MANIFESTO_REFRESH.md) сохраняет исходные значения и объясняет изменения покрытия. Оно проверяет версию источника, не причинный механизм; прогнозный эксперимент на 89 парах здесь не пересчитывался.
 
 В отдельном испанском тесте многоязычный E5-small с линейным классификатором дал macro-F1 0,588 против 0,482 у TF–IDF на 3 636 фрагментах отложенной программы. Один документ не проверяет перенос между странами и не валидирует распознавание обвинений элит. Поиск в Hugging Face и публичных архивах не дал подходящего независимого многоязычного эталона таких обвинений. Поэтому новая автоматическая мера не подставлена в основные выводы. [Аудит данных]({REPO}/blob/main/DATA_AUDIT_2026.md) сохраняет найденные источники и причины исключений.
 
@@ -144,7 +146,9 @@ An additional linked German 2009/2013 comparison retains 360 people. In this sel
 
 ### What programmes and machine learning contributed
 
-Coding-instruction changes affect eight of the 16 programme episodes; requiring identical instructions and sufficient coverage leaves only four. This limits topic comparisons. We also retain a negative prediction result: programme topics did not improve mean absolute error across 89 election pairs in 27 countries, at 4.17 versus the baseline’s 4.15 vote-share points.
+Coding-instruction changes affect eight of the 16 programme episodes; requiring identical instructions and sufficient coverage leaves only four. This limits topic comparisons. We also retain a negative 2023a prediction result: programme topics did not improve mean absolute error across 89 election pairs in 27 countries, at 4.17 versus the baseline’s 4.15 vote-share points.
+
+A separate replay using Manifesto Project 2026a retains the same 16 crisis episodes, eight increases and eight decreases in economic content, and 10 cases where programme revisions are the largest component. No crisis change reverses sign; the largest estimate revision is below 0.003 percentage points. The calm sample changes: two intervals leave and two enter. Among 73 shared intervals, programme revision is the largest component in 49 cases under the old release and 50 under the new one; across the full new sample it is 52 of 75. The [release comparison]({REPO}/blob/main/MANIFESTO_REFRESH.md) preserves the baseline and explains the coverage changes. This checks source-version sensitivity, not a causal mechanism; the 89-pair prediction experiment was not rerun here.
 
 In a separate Spanish benchmark, multilingual E5-small with a linear classifier achieved macro-F1 of 0.588 versus TF–IDF’s 0.482 on 3,636 statements from a held-out programme. One document does not validate cross-country transfer or elite-blame classification. Searches of Hugging Face and public archives did not produce a suitable independent multilingual elite-blame benchmark. No new automated measure was therefore inserted into the main findings. The [data audit]({REPO}/blob/main/DATA_AUDIT_2026.md) preserves candidate sources and exclusions.
 

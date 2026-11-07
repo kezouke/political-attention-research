@@ -19,6 +19,13 @@ and published aggregate results remain. See the
 [completion record](../processed/three_explanations/archive_completion.json).
 Re-estimating the Icelandic models requires reacquiring those licensed files.
 
+The separate Manifesto release check uses the official 2026a CSV acquired after
+registration, stored locally as
+`data/raw/manifesto_refresh_20261107/manifesto_2026a.csv`. Its terms and provenance
+are retained in that folder and in
+`data/processed/three_explanations/manifesto_refresh_sources.json`. It is not
+redistributed. See [the release comparison](../../MANIFESTO_REFRESH.md).
+
 The source instructions below describe preserved earlier analyses. They remain
 necessary for reproducing those layers, but are not the current survey inventory.
 

@@ -46,5 +46,18 @@
     "bytes": 428,
     "sha256": "bb47700032efd732d301ac2f777edcfc8f03c238a31b73eb167458f98c948da4",
     "local_path": "data/raw/manifesto_refresh_20261107/citation_2026a.txt"
+  },
+  "manifesto_2026a.csv": {
+    "url": "https://manifestoproject.wzb.eu/down/data/2026a/datasets/MPDataset_MPDS2026a.csv",
+    "obtained_at_utc": "2026-11-07T08:20:22.863288+00:00",
+    "method": "Download from the official authenticated browser session after the user completed registration.",
+    "version": "2026a",
+    "doi": "10.25522/manifesto.mpds.2026a",
+    "sha256": "24806be2eaed5fedc3f966b8c371e20d2c6a937662fc712ef59879f51c8c8def",
+    "bytes": 3491268,
+    "rows": 5330,
+    "columns": 175,
+    "local_path": "data/raw/manifesto_refresh_20261107/manifesto_2026a.csv",
+    "raw_rows_redistributed": false
   }
 }

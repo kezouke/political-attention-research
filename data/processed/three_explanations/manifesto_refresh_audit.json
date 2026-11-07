@@ -14,8 +14,8 @@
   "main_banking_used_keys_missing": 0,
   "main_banking_endpoints_with_added_keys": 0,
   "topic_values_compared": false,
-  "numerical_replay_completed": false,
-  "access_status": "Official numerical downloads and dashboard downloads require a Manifesto account; no authenticated account available in this task.",
-  "interpretation": "Key coverage does not validate topic values, vote weights, coding manuals or document types. Published estimates remain explicitly based on 2023a; robustness to 2026a is not established.",
+  "numerical_replay_performed_by_this_script": false,
+  "access_status": "This script reads public document metadata only. Authenticated numerical acquisition is recorded separately in manifesto_refresh_sources.json.",
+  "interpretation": "Key coverage alone does not validate topic values, vote weights, coding manuals or document types. See script 88 and manifesto_refresh/version_replay_checks.json for the separate numerical comparison.",
   "raw_rows_redistributed": false
 }

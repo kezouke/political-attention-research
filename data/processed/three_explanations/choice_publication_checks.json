@@ -1,5 +1,5 @@
 {
-  "numeric_claims_passed": 37,
+  "numeric_claims_passed": 44,
   "figures": 5,
   "parallel_article_sections": 9,
   "local_assets_present": true,
@@ -8,10 +8,10 @@
   "meaning_and_transition_review": "CHOICE_AUDIT.md; separate editorial review, not established by these assertions",
   "sha256": {
     "analysis/84_choice_publication_figures.py": "9ebe326492bf027b60041e480a1e3491b5e6d812857dff1cbc1b26235e5640f1",
-    "analysis/85_build_choice_essay.py": "4d683ee9f6992a4f3dbe8a53cfe5bdf21010b1e0daf43372c0515efe600e5e2d",
-    "analysis/86_choice_publication_checks.py": "033237c32a5adbebaa22309a5e01166dda02ca8e3b4ee9ed34d53733d3e0625c",
-    "article/essay.en.md": "db16b8b20b265c84c963cd2631a924a2b788f095ebc3cfbdae971b6a5f4a2fe4",
-    "article/essay.ru.md": "5dbc4b811d0fd55076c8b54aa917509d2efc5391ae7f19717c052838fe7cef0a",
+    "analysis/85_build_choice_essay.py": "9406ad05a4764ee7b93f9b6aca7aaaba0b43f4daaecbfb2726fa7f75a4b36d2f",
+    "analysis/86_choice_publication_checks.py": "7fddd13b82ad26e160699b10613df422b4bc26297cb1a2cb598aeca53ff96459",
+    "article/essay.en.md": "3ec52f071aca5980a835742624998e41a266888853fb8d1e9680729b30854700",
+    "article/essay.ru.md": "445d47bab7c595270c1eadc7edd284330a695e9c2f178cab54808622e4e5d920",
     "data/processed/crisis_dynamics_benchmarks.csv": "5aff7405101185ee5a7c36af209856d412d73f39b7db66b985f5a7b32188d310",
     "data/processed/crisis_dynamics_summary.csv": "1e333cde1e899293e594e72e4c046457853a3519c265832e14c4c118faf37f4d",
     "data/processed/nlp_metrics.csv": "63e3c08a4380d92feab70b533e243c7b28e4115a01a451c88c6ded1f0b30d073",
@@ -25,9 +25,12 @@
     "data/processed/three_explanations/gles_importance_incremental_validation.csv": "bfc0d8328a664b0c768f18889e78c3559c0d86b64b898dad497c63cd0ae8c965",
     "data/processed/three_explanations/gles_importance_model_margins.csv": "faa93be50008cd4240b83d3e5f5e8f0725e8c49263e140dd885f792b3d2881eb",
     "data/processed/three_explanations/gles_importance_simultaneous.csv": "9aaaf9754aae24190aeeae4d1deed6fffe9946e3918cd5badb7c7064213a3ffc",
+    "data/processed/three_explanations/manifesto_refresh/estimate_version_comparison.csv": "3071376557dda81eeb03c60701fb0705b5af82a91b87f84981e2a195aefb28b0",
+    "data/processed/three_explanations/manifesto_refresh/matched_version_summary.csv": "ae2071e34ea138375df75be0315e235412e1cfd9301df5edbb34990de80014aa",
+    "data/processed/three_explanations/manifesto_refresh/primary_version_summary.csv": "5eb521e0c2f165ee7a290634780cd08b6bd711bc60b5278e645957e70a4a6ee1",
     "data/processed/three_explanations/national_model_margins.csv": "fa276cf7f1d9ac5aa8e45519ac85c715e850da9a437c13172c6a0baf24d19ce7",
     "data/processed/three_explanations/national_sensitivity.csv": "d8113d6ab86f8364727ec2555b5ab5fa1b8e47ea1230358a4100c9605e93ca75",
     "data/processed/three_explanations/national_sensitivity_status.csv": "6c0c3f2308fd4606517185abd0c7cd04246f166d15084e4d250b4f4aeb8f3cb7",
-    "docs/index.html": "f8ee330a526390335e29cf8adc575f9e30bf6547f6416cd4a2d2428e853a4aa5"
+    "docs/index.html": "b3f9562406cdce474d331151d5edce4fe273a66d908e8ea72f8840079a32fd2b"
   }
 }
