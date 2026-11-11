@@ -1,0 +1,13 @@
+{
+  "episodes": 29,
+  "countries": 28,
+  "onsets_2007_2009": 13,
+  "growth_window": "Annual real GDP growth in onset calendar year t, t+1, t+2. Cumulative change compounds these rates relative to t-1. Descriptive, not output loss versus a counterfactual.",
+  "sources_sha256": {
+    "data/context/crisis_background.json": "eb7b78ca5773eec0209351e9a4cd9555ca753528f4f43fe34daed1c60a33c581",
+    "data/context/wdi_crisis_growth.csv": "f55c97449360e3f64090f67d74c35fa48e53a92f80fc46fb9dd19decf55d0ff9",
+    "data/context/wdi_crisis_growth_source.json": "0167f9bc01a3a42a488ee6fa420642ebd3554c5b61d620293db11cacd254f67f",
+    "data/processed/crisis_dynamics_balanced.csv": "c296edb234432b3f8e733682938bee8716789dc0159000244a632f6ca6920f37",
+    "data/processed/crisis_dynamics_episodes.csv": "9ee152152894574c134afe83c799501a83e1ed657bc2cd91ba7cbd4cca6ac580"
+  }
+}

@@ -27,6 +27,20 @@ def one(d,**filters):
     return d.iloc[0]
 
 def main():
+    file='crisis_context.csv';context=read(file)
+    assert len(context)==29 and context.iso.nunique()==28
+    assert context.onset_year.between(2007,2009).sum()==13
+    assert not context[['iso','onset_year']].duplicated().any()
+    assert (ROOT/'docs/data/crisis-context.csv').read_bytes()==(DATA/file).read_bytes()
+    assert context[['context_ru','context_en','context_source']].notna().all().all()
+    for iso,year,x in [('FIN',1991,-9.7),('IND',1993,20.2)]:
+        claim(f'context_gdp_{iso}_{year}',one(context,iso=iso,onset_year=year).gdp_change_three_years_pct,x,file,1)
+    r=one(context,iso='ESP',onset_year=2008)
+    for column,x in [('baseline_vote_pct',0),('first_vote_pct',0),('second_vote_pct',20.66)]:
+        claim('spain_wpd_'+column,r[column],x,file)
+    file='spain_macro_conditions.csv';d=read(file)
+    for year,x in [(2007,8.2),(2011,21.4)]:
+        claim(f'spain_unemployment_{year}',one(d,year=year).unemployment,x,file,1)
     d=read('crisis_dynamics_summary.csv')
     for rank,expected in [(1,.18),(2,5.48)]:
         r=one(d,sample='balanced_two',rank=rank)
@@ -46,6 +60,10 @@ def main():
         if kind=='banking':
             assert q.iso.nunique()==15 and q.change_pp.gt(0).sum()==q.change_pp.lt(0).sum()==8
             assert q.manual_changes.gt(0).sum()==8
+    r=one(d,kind='banking',iso='ESP')
+    for column,x in [('change_pp',7.29),('within_pp',7.77),('reweight_pp',-1.85),('roster_pp',1.36)]:
+        claim('spain_programme_'+column,r[column],x,'programme_decomposition.csv')
+    assert abs(r.change_pp-r.within_pp-r.reweight_pp-r.roster_pp)<1e-8
     d=read('programme_prediction_elections.csv');v=d.groupby('model').absolute_error.mean()
     assert d.pair_id.nunique()==89 and d.iso.nunique()==27
     claim('programme_prediction_baseline',v.baseline,4.15,'programme_prediction_elections.csv')
@@ -87,12 +105,21 @@ def main():
     d=read('three_explanations/gles_importance_model_margins.csv')
     q=d[d.model_topics.eq('all_three')&d.position_scenario.eq('observed')&d.outcome.eq(2)]
     assert len(q)==3 and q.ci_low.lt(0).all() and q.ci_high.gt(0).all()
+    for topic,x in [('tax_welfare',.94),('immigration',1.00),('climate_growth',.62)]:
+        r=one(q,topic=topic);assert r.n==2962
+        claim('gles_importance_'+topic,r.probability_difference*100,x,'three_explanations/gles_importance_model_margins.csv')
     d=read('three_explanations/gles_importance_simultaneous.csv')
     claim('gles_multiple_topics_increase',100*d.loc[d.topics_increasing.ge(2),'weight_share'].sum(),14.35,'three_explanations/gles_importance_simultaneous.csv')
     file='three_explanations/national_model_margins.csv';d=read(file)
     for outcome,x in [(2,6.50),(3,10.21)]:
         r=one(d,dataset='NL2012',target='all_outcomes',variable='elite_distrust',outcome=outcome)
         claim(f'national_nl2012_{outcome}',r.probability_difference*100,x,file)
+    for outcome,x in [(2,-1.47),(3,7.07)]:
+        r=one(d,dataset='ES2015',target='all_outcomes',variable='elite_distrust',outcome=outcome)
+        claim(f'national_es2015_{outcome}',r.probability_difference*100,x,file)
+        if outcome==2:
+            claim('national_es2015_pop_low',r.ci_low*100,-3.27,file)
+            claim('national_es2015_pop_high',r.ci_high*100,.22,file)
     r=one(d,dataset='BE2014',target='all_outcomes',variable='elite_distrust',outcome=2)
     claim('national_be_inclusive',r.probability_difference*100,3.09,file)
     file='three_explanations/national_sensitivity.csv';d=read(file)
@@ -122,6 +149,11 @@ def main():
     page=ROOT/'docs/index.html';soup=BeautifulSoup(page.read_text(),'html.parser')
     ids=[x['id'] for x in soup.select('[id]')];assert len(ids)==len(set(ids))
     assert len(soup.select('figure'))==5
+    expected_episodes={f'{r.iso}-{r.onset_year}' for r in context.itertuples()}
+    for lang in ['ru','en']:
+        cards=soup.select(f'#crisis-context-{lang} .crisis-card')
+        assert len(cards)==29
+        assert {c['data-episode'] for c in cards}==expected_episodes
     for a in soup.select('a[href^="#"]'):assert a['href'][1:] in ids,a
     for node,attribute in [('img','src'),('source','srcset'),('link','href'),('script','src')]:
         for el in soup.select(f'{node}[{attribute}]'):
@@ -144,8 +176,12 @@ def main():
         assert not cols.intersection({'person_id','respondent_id','lfdn','free_text','id'})
     pd.DataFrame(claims).to_csv(P/'choice_claim_values.csv',index=False)
     files=sorted(sources|{page,ROOT/'article/essay.ru.md',ROOT/'article/essay.en.md',
-                         ROOT/'analysis/84_choice_publication_figures.py',ROOT/'analysis/85_build_choice_essay.py',Path(__file__)})
+                         ROOT/'analysis/84_choice_publication_figures.py',ROOT/'analysis/85_build_choice_essay.py',
+                         ROOT/'analysis/87_crisis_context.py',ROOT/'data/context/crisis_background.json',
+                         ROOT/'docs/choice.css',ROOT/'data/context/wdi_crisis_growth.csv',
+                         ROOT/'data/context/wdi_crisis_growth_source.json',Path(__file__)})
     result={'numeric_claims_passed':len(claims),'figures':5,'parallel_article_sections':9,
+            'context_episodes_per_language':29,'context_public_csv_matches':True,
             'local_assets_present':True,'internal_links_resolve':True,'raw_microdata_read':False,
             'meaning_and_transition_review':'CHOICE_AUDIT.md; separate editorial review, not established by these assertions',
             'sha256':{str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in files}}

@@ -18,9 +18,9 @@ DECK={'ru':'Когда экономика ухудшается, люди мог�
 FIGURES={
  'horizon':{
   'file':'horizon',
-  'ru':('Изменение популистского голоса на первых и вторых выборах после кризиса',
+  'ru':('Как изменилась доля голосов за популистские кампании после кризиса',
         'Каждая тонкая линия соединяет первые и вторые выборы одного из 29 эпизодов. Изменение относительно последних докризисных выборов. Чёрная линия: медиана. Это порядок выборов, а не ежегодная траектория. Начало кризисов: 1991–2008; вторые выборы: 1997–2018. Классификация кампаний: WPD.'),
-  'en':('Later gains are larger, but crises differ',
+  'en':('Changes in populist-campaign vote share after a crisis',
         'Each thin line joins the first and second elections for one of 29 episodes. Changes use the last pre-crisis election as baseline. Black line: median. These are successive elections, not annual trajectories. Crisis onsets: 1991–2008; second elections: 1997–2018. Campaign classification: WPD.')},
  'europe':{
   'file':'choice-europe',
@@ -59,9 +59,9 @@ def numeric_table(kind,lang):
               2:'Популисты вне кабинета' if ru else 'Populists outside cabinet',
               3:'Неучастие' if ru else 'Abstention'}
     if kind=='horizon':
-        d=pd.read_csv(DATA/'crisis_dynamics_balanced.csv')
-        d=d[['iso','onset_year','date_first','change_pp_first','date_second','change_pp_second']]
-        d.columns=['ISO','Кризис','Первые выборы','Сдвиг, п. п.','Вторые выборы','Сдвиг, п. п.'] if ru else ['ISO','Crisis','First election','Change, pp','Second election','Change, pp']
+        d=pd.read_csv(DATA/'crisis_context.csv')
+        d=d[['country_ru' if ru else 'country','onset_year','baseline_date','date_first','change_pp_first','date_second','change_pp_second']]
+        d.columns=['Страна','Кризис','До кризиса','Первые выборы','Сдвиг, п. п.','Вторые выборы','Сдвиг, п. п.'] if ru else ['Country','Crisis','Pre-crisis','First election','Change, pp','Second election','Change, pp']
     elif kind=='programmes':
         d=pd.read_csv(DATA/'programme_decomposition.csv')
         d=d[d['sample'].eq('main')&d.kind.eq('banking')&d.topic.eq('economy')]
@@ -86,6 +86,28 @@ def numeric_table(kind,lang):
         d.columns=['Сравнение','Исход','Человек','Разница, п. п.','Нижняя 95%','Верхняя 95%'] if ru else ['Comparison','Outcome','People','Difference, pp','Lower 95%','Upper 95%']
     return '<div class="table-scroll">'+d.to_html(index=False,border=0,float_format=lambda x:f'{x:.2f}',escape=True)+'</div>'
 
+def crisis_context(lang):
+    ru=lang=='ru'
+    d=pd.read_csv(DATA/'crisis_context.csv')
+    title='Все 29 кризисов: предыстория, экономика и выборы' if ru else 'All 29 crises: background, economy and elections'
+    note=('Год обозначает начало банковского эпизода в хронике, не обязательно начало рецессии. Рост реального ВВП показан за год начала и два следующих календарных года, каждый относительно предыдущего. Положительный рост не означает отсутствия потерь у отдельных групп или отсутствия спада до этого окна. Это контекст, не оценка вклада банковского кризиса в ВВП.' if ru else
+          'The year is the database banking onset, not necessarily the start of a recession. Real GDP growth covers the onset calendar year and the next two years, each relative to the previous year. Positive growth does not rule out group-specific losses or an earlier recession. These observations provide context, not the banking crisis\'s causal contribution to GDP.')
+    cards=[]
+    for r in d.itertuples():
+        name=r.country_ru if ru else r.country
+        body=r.context_ru if ru else r.context_en
+        elections=' → '.join(str(getattr(r,k))[:4] for k in ['baseline_date','date_first','date_second'])
+        growth='; '.join(f'{r.onset_year+i}: {getattr(r,f"gdp_growth_t{i}"):+.1f}%'.replace('.',',') if ru else f'{r.onset_year+i}: {getattr(r,f"gdp_growth_t{i}"):+.1f}%' for i in range(3))
+        cards.append(f'<article class="crisis-card" data-episode="{r.iso}-{r.onset_year}"><h3>{html.escape(name)} · {r.onset_year}</h3>'
+                     f'<p>{html.escape(body)} <a href="{html.escape(r.context_source)}">'+('Источник' if ru else 'Source')+'</a>.</p>'
+                     '<p class="crisis-values">'+('Выборы: до кризиса → первые → вторые: ' if ru else 'Elections: before → first → second: ')+elections+'.<br>'
+                     +('Рост реального ВВП: ' if ru else 'Real GDP growth: ')+growth+'.</p></article>')
+    foot=('В Аргентине 2003 год обозначает цикл выборов, проходивших в разные дни по провинциям. В таблице под графиком сохранена дата исходного календаря, а не дата единого общенационального голосования. США представлены выборами Палаты представителей 2006, 2008 и 2010 годов, а не президентской кампанией 2016 года.' if ru else
+          'Argentina 2003 refers to an election cycle staggered across provinces. The chart table retains the source-calendar date, not a single nationwide polling day. The US case covers House elections in 2006, 2008 and 2010, not the 2016 presidential campaign.')
+    return (f'<details class="article-details crisis-context" id="crisis-context-{lang}"><summary>{title}</summary><p>{note}</p>'
+            +''.join(cards)+f'<p>{foot}</p><p><a href="data/crisis-context.csv">'+('Скачать таблицу с источниками' if ru else 'Download the table with sources')+'</a> · '
+            '<a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG">'+('Показатель ВВП Всемирного банка' if ru else 'World Bank GDP indicator')+'</a></p></details>')
+
 def figure(kind):
     cfg=FIGURES[kind];f=cfg['file'];parts=[]
     for lang in ['ru','en']:
@@ -100,6 +122,7 @@ def figure(kind):
 
 def sections(lang):
     raw=(ROOT/f'article/essay.{lang}.md').read_text()
+    raw=raw.replace('<!-- crisis-context -->',crisis_context(lang))
     pairs=re.split(r'<!-- section: ([a-z]+) -->',raw)
     assert not pairs[0].strip()
     return {pairs[i]:pairs[i+1].strip() for i in range(1,len(pairs),2)}
@@ -166,14 +189,14 @@ def main():
     ru,en=sections('ru'),sections('en');assert list(ru)==list(en)
     content='\n'.join(f'<section class="section" id="{anchor}">'+render_pair(ru[anchor],en[anchor])+'</section>' for anchor in ru)
     hero={lang:f'<p class="eyebrow">'+('Политическая экономия · опросы · модели' if lang=='ru' else 'Political economy · surveys · models')+f'</p><h1>{TITLES[lang]}</h1>'+ (f'<p class="deck">{DECK[lang]}</p>' if DECK[lang] else '') +'<p class="meta">'+('Елисей Смирнов · Редакция 11 ноября 2026 · Исследовательское эссе' if lang=='ru' else 'Elisei Smirnov · Updated 11 November 2026 · Research essay')+'</p>' for lang in ['ru','en']}
-    nav=[('horizon','После кризиса','After the crisis'),('europe','Доверие и голосование','Recipients of discontent'),('before','До голосования','Before voting'),('priorities','Приоритеты','Priorities'),('countries','Различия стран','Country differences'),('offers','Предложения партий','Party offers')]
+    nav=[('horizon','Кризисы и данные','Crises and data'),('europe','Доверие и голосование','Trust and voting'),('before','До голосования','Before voting'),('countries','Различия стран','Country differences'),('priorities','Приоритеты','Priorities'),('offers','Предложения партий','Party offers')]
     navigation='<nav class="contents" aria-label="Sections / Разделы">'+''.join(f'<a href="#{a}"><span data-copy="ru">{r}</span><span data-copy="en">{e}</span></a>' for a,r,e in nav)+'</nav>'
     page='''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Who do people vote for when the economy is doing badly?</title>
 <meta name="description" content="An original study of economic assessments, priorities, trust and political choice: 29 crises, a common European survey and national panels.">
 <script>if(new URLSearchParams(location.search).get('lang')==='ru')document.documentElement.lang='ru';</script>
-<link rel="stylesheet" href="choice.css?v=20261107"><script defer src="choice.js?v=20261111"></script></head>
+<link rel="stylesheet" href="choice.css?v=20261111-context2"><script defer src="choice.js?v=20261111"></script></head>
 <body><a class="skip" href="#story"><span data-copy="ru">К тексту</span><span data-copy="en">Skip to the essay</span></a>
 <header class="masthead"><a class="brand" href="#top">Political Attention Research</a><nav class="locale" aria-label="Language / Язык"><a href="?lang=en" hreflang="en" data-locale>EN</a><a href="?lang=ru" hreflang="ru" data-locale>RU</a></nav></header>
 <div class="hero" id="top">'''+bilingual(hero['ru'],hero['en'],'hero-copy')+navigation+'</div><main id="story">'+content+methods()+f'''</main>

@@ -1,0 +1,17 @@
+{
+  "indicator": "NY.GDP.MKTP.KD.ZG",
+  "description": "Annual real GDP growth, each year relative to previous year; frozen public aggregate excerpt for 29 banking-crisis episodes",
+  "source": "https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.KD.ZG?format=json&date=1978:2024&per_page=20000",
+  "raw_file": "data/raw/wdi_real_gdp_growth_1978_2024.json",
+  "raw_sha256": "11479f4d184f8eebe592f43613daa873f001ef387004dbb604b7f9055322e26e",
+  "source_response_metadata": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 20000,
+    "total": 12502,
+    "sourceid": "2",
+    "lastupdated": "2026-10-08"
+  },
+  "excerpt_created": "2026-11-11",
+  "rows": 87
+}

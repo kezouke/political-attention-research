@@ -5,7 +5,15 @@
 .table-scroll table {border-collapse:collapse;font-size:.8rem;width:100%}
 .table-scroll th,.table-scroll td {padding:.45rem .65rem;border-bottom:1px solid var(--line);text-align:right}
 .table-scroll th:first-child,.table-scroll td:first-child {text-align:left}
+#figure-horizon .table-scroll td {white-space:nowrap}
 .methods-details summary {cursor:pointer;font-weight:650}
 .methods-details .prose {max-width:760px}
 .methods-details h3 {font-family:var(--serif);font-size:1.45rem}
+.article-details {margin:1.5rem 0;padding:1rem;border:1px solid var(--line);border-radius:6px}
+.article-details summary {cursor:pointer;font-weight:650;color:var(--teal)}
+.article-details p {font-size:.95rem}
+.crisis-card {padding:.9rem 0;border-bottom:1px solid var(--line)}
+.crisis-card h3 {margin:.2rem 0;font-size:1.15rem}
+.crisis-card p {margin:.5rem 0}
+.crisis-card .crisis-values {font-size:.85rem}
 @media(max-width:600px){.section{padding:0 18px}.figure{padding:10px}.figure h3{font-size:1.3rem}.hero{padding-inline:18px}.masthead{padding-inline:18px}.brand{letter-spacing:.06em;font-size:.66rem}.figure figcaption{font-size:.8rem}}

@@ -1,7 +1,8 @@
 # Economic discontent and political choice: methods and reproduction
 
-This is the methods guide for the single bilingual essay published on 7 November
-2026. It extends the preserved crisis and programme results with survey evidence.
+This is the methods guide for the single bilingual essay first published on 7
+November 2026 and revised on 11 November. It extends the preserved crisis and
+programme results with survey evidence.
 The question is whether incumbent punishment, changing issue priorities and general
 political distrust have different observable relationships with political choice.
 It does not estimate a common causal effect of the 2008 crisis on those mechanisms.
@@ -33,6 +34,28 @@ The user rejected narrowing the project to three countries, and the broader
 European comparison was retained with these explicit limits.
 
 ## Definitions and measurement
+
+### Historical context added on 11 November 2026
+
+The article now identifies every historical episode and gives a brief sourced
+economic background, the three election years, and annual real GDP growth in
+the onset year and the following two years. `data/context/crisis_background.json`
+holds the bilingual contextual notes and their source links. The 87 country-year
+observations in `data/context/wdi_crisis_growth.csv` are an excerpt of the frozen
+World Bank series already used in this project, indicator NY.GDP.MKTP.KD.ZG.
+The accompanying source JSON records the original response metadata and SHA-256.
+The excerpt contains public national aggregates, not respondent records.
+
+Script 87 checks exact correspondence with the unchanged 29-case sample and
+cross-checks baseline, first and second election records. It compounds the three
+annual growth rates to measure change relative to the year before onset. This
+fixed window is descriptive: it does not select each country's deepest recession,
+measure distributional losses, or estimate output relative to a no-crisis
+counterfactual. Some banking crises occurred during GDP growth. Its outputs are
+`data/processed/crisis_context.csv` and the identical downloadable
+`docs/data/crisis-context.csv`. Public rebuilding requires no raw source download.
+
+### Party classifications and survey measures
 
 The historical outcome remains the sum of national campaign vote shares classified
 by the World Populism Dataset. Its usual threshold is 5%; absence is not a negative
@@ -212,14 +235,15 @@ python -m pip install -r requirements-dev.txt
 python analysis/83_national_results_report.py
 python analysis/89_manifesto_refresh_report.py
 python analysis/84_choice_publication_figures.py
+python analysis/87_crisis_context.py
 python analysis/85_build_choice_essay.py
 python analysis/86_choice_publication_checks.py
-python -m pytest -q
+python -m pytest -q tests
 node tests/site.test.js
 node tests/choice.test.js
 ```
 
-Scripts 83–86 consume public aggregate tables and prose only. Script 84 exports
+Scripts 83–87 consume public aggregate tables and prose only. Script 84 exports
 SVG figures in both languages and mobile layouts, with review PNGs under `output/`.
 Script 85 builds `docs/index.html` from `article/essay.ru.md` and `article/essay.en.md`.
 Script 86 checks the numerical claims, chart inputs, links and language structure.

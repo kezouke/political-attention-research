@@ -38,9 +38,10 @@ python -m pip install -r requirements-dev.txt
 python analysis/83_national_results_report.py
 python analysis/89_manifesto_refresh_report.py
 python analysis/84_choice_publication_figures.py
+python analysis/87_crisis_context.py
 python analysis/85_build_choice_essay.py
 python analysis/86_choice_publication_checks.py
-python -m pytest -q
+python -m pytest -q tests
 node tests/choice.test.js
 node tests/site.test.js
 ```
