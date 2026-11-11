@@ -12,7 +12,7 @@ for (const lang of ['ru', 'en']) {
   };
   vm.createContext(context);
   vm.runInContext(source, context);
-  if (!context.document.title.includes(lang === 'ru' ? 'недовольство' : 'discontent')) throw Error('Wrong page title');
+  if (!context.document.title.includes(lang === 'ru' ? 'За кого голосуют, когда экономике плохо' : 'Who do people vote for when the economy is doing badly?')) throw Error('Wrong page title');
   if (links[0].href !== '?lang=en#countries' || links[1].href !== '?lang=ru#countries') throw Error('Language switch loses section');
   context.location.hash = '#before';
   events.hashchange();

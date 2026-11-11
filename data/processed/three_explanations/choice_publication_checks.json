@@ -8,10 +8,10 @@
   "meaning_and_transition_review": "CHOICE_AUDIT.md; separate editorial review, not established by these assertions",
   "sha256": {
     "analysis/84_choice_publication_figures.py": "9ebe326492bf027b60041e480a1e3491b5e6d812857dff1cbc1b26235e5640f1",
-    "analysis/85_build_choice_essay.py": "9406ad05a4764ee7b93f9b6aca7aaaba0b43f4daaecbfb2726fa7f75a4b36d2f",
+    "analysis/85_build_choice_essay.py": "2e077c429d5dba2f68cd05ba5f9ff9c96403aacd9e0526ec53879f3552ce3f63",
     "analysis/86_choice_publication_checks.py": "7fddd13b82ad26e160699b10613df422b4bc26297cb1a2cb598aeca53ff96459",
     "article/essay.en.md": "3ec52f071aca5980a835742624998e41a266888853fb8d1e9680729b30854700",
-    "article/essay.ru.md": "445d47bab7c595270c1eadc7edd284330a695e9c2f178cab54808622e4e5d920",
+    "article/essay.ru.md": "fa8a4bcba218c4c3ee86d7d898530e4bf3b5ca46f20baff51075644531c7525b",
     "data/processed/crisis_dynamics_benchmarks.csv": "5aff7405101185ee5a7c36af209856d412d73f39b7db66b985f5a7b32188d310",
     "data/processed/crisis_dynamics_summary.csv": "1e333cde1e899293e594e72e4c046457853a3519c265832e14c4c118faf37f4d",
     "data/processed/nlp_metrics.csv": "63e3c08a4380d92feab70b533e243c7b28e4115a01a451c88c6ded1f0b30d073",
@@ -31,6 +31,6 @@
     "data/processed/three_explanations/national_model_margins.csv": "fa276cf7f1d9ac5aa8e45519ac85c715e850da9a437c13172c6a0baf24d19ce7",
     "data/processed/three_explanations/national_sensitivity.csv": "d8113d6ab86f8364727ec2555b5ab5fa1b8e47ea1230358a4100c9605e93ca75",
     "data/processed/three_explanations/national_sensitivity_status.csv": "6c0c3f2308fd4606517185abd0c7cd04246f166d15084e4d250b4f4aeb8f3cb7",
-    "docs/index.html": "b3f9562406cdce474d331151d5edce4fe273a66d908e8ea72f8840079a32fd2b"
+    "docs/index.html": "5076d84c7b2d1be4caa5c007eb89045d5bd616b8ac615d3a978354c919fb4a9f"
   }
 }

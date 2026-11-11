@@ -1,6 +1,6 @@
 # Political Attention Research
 
-[After a crisis, who receives discontent?](https://kezouke.github.io/political-attention-research/?lang=en) · [После кризиса: кому достаётся недовольство?](https://kezouke.github.io/political-attention-research/?lang=ru)
+[Who do people vote for when the economy is doing badly?](https://kezouke.github.io/political-attention-research/?lang=en) · [За кого голосуют, когда экономике плохо](https://kezouke.github.io/political-attention-research/?lang=ru)
 
 One bilingual research essay distinguishes incumbent punishment, issue priorities
 and general political distrust. It preserves 29 historical banking-crisis episodes
